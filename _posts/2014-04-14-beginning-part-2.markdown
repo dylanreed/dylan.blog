@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Beginning: Part 2"
-date:  yyyy-04-14 07:34:05
+date:  
 categories: story
 ---
 
