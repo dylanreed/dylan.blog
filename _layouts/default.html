@@ -1,59 +1,37 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+  {% include head.html %}
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+  <body>
 
-    </head>
-    <body>
-
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/about">about</a>
-           
-          </div>
-
-          {{ content }}
-
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Dylan Reed<br />
-                Author<br />
-                Awesome Guy
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/awesomeguy">GitHub</a><br />
-                <a href="https://twitter.com/dylanreed">Twitter</a><br />
-                <a href="http://dylanreed.com">Blog</a>
-              </p>
-            </div>
-          </div>
+    <header class="masthead">
+      <div class="masthead-inner">
+        <h1><a href="/">{{ site.name }}</a></h1>
+        <p class="lead">{{ site.tagline }}</p>
+        {% if site.description %}<p>{{ site.description }}</p>{% endif %}
+        <p><a href="/archives/">All stories</a></p>
+        <div class="colophon">
+          <ul class="colophon-links">
+            <li>
+              <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+            </li>
+            <li>
+              <a href="https://twitter.com/{{ site.author.twitter }}">{{ site.author.twitter }}</a>
+            </li>
+            <li>
+              <a href="http://{{ site.author.homepage }}">{{ site.author.homepage }}</a>
+            </li>
+          </ul>
+          {% if site.gravatar_hash %}<p><img src="http://www.gravatar.com/avatar/{{ site.gravatar_hash }}?s=250"></p>{% endif %}
+          <p>&copy; 2014. {{ site.author.name }} All rights reserved.</p>
         </div>
-<script type="text/javascript">
+      </div>
+    </header>
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-275463-18']);
-  _gaq.push(['_trackPageview']);
+    <div class="content container">
+      {{ content }}
+    </div>
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-    </body>
-
+  </body>
 </html>
