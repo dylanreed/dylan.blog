@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "The Beginning Part 1"
+date:   2014-04-07 07:34:05
+categories: story
+---
+
 “Oh man, oh man”
 
 I ducked frantically from the punch that was sure to cave in my head. Being just over five feet tall and tipping the scales at a whopping 120lbs one hit was going to kill me. This guy was huge and had so many muscles. I guess being a girl wasn't going to matter with this guy. Apparently he hadn't heard of chivalry. I danced around, doing my best Ali shuffle, and dodged another punch that was followed by a vicious kick. 
