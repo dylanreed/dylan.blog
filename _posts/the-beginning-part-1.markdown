@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The Beginning Part 1"
+title:  "The Beginning Part-1"
 date:   2014-04-07 07:34:05
 categories: story
 ---
