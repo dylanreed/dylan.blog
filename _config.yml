@@ -12,5 +12,5 @@ author:
   homepage:   'dylanreed.com'
 permalink:    pretty
 pygments:     true
-paginate:     5
+paginate:     1
 #gravatar_hash: 36aff981378cc0b408b7d1bc2f082741
