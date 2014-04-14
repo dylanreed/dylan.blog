@@ -4,7 +4,7 @@ title:  "The Beginning: Part 2"
 date:   2014-04-14 07:05:05
 categories: story correspondent
 ---
-{{ catagories }}
+
 The first fight is always the hardest. My first time consisted of me flailing about and getting lucky. Apparently when you call yourself the Glass Jaw, you’re not kidding. After that I decided to learn how to be a proper hero, cape and all. Well actually not a cape. I had many nightmares about hanging myself on a fire escape to truly be comfortable wearing a cape in public. Maybe if I ever need an awesome picture I'll wear it.
 
 Glass Jaw was an ex boxer who decided that putting on a mask and mugging women was a good way to make a quick buck. Unfortunately for him I was one of his victims. Or maybe it was lucky. He came out of the shadows of an alley wearing boxing shorts, the shiny kind, and a pair of boxing gloves.
