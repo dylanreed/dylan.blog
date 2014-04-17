@@ -7,6 +7,12 @@ categories: story correspondent
 
 Falling ten stories takes longer than you think. I had plenty of time to think as a fell. I noticed that it had started to rain. I wondered who would feed my cat. I noticed how the strap of my bag dug into my shoulder. The strap. Oh Cora you are such an idiot. I quickly took my bag off my shoulder and swung it at the retreating rail of the fire escape. It caught and promptly slammed me into the wall of the building. Which in the grand scheme of things is better then slamming into the ground. 
 
+Check that, it appeared that my strap hadn't caught so much as it had just changed my trajectory so that I would still fall ten stories but instead of it being a straight fall I would bounce on every fire escape rail and outcropping of the building. It was awesome. Actually I don't remember much after the second time my head hit the wall, I assume it was awesome. 
+
+---
+
+I didn't wake up so much as start to realize that my head hurt
+
 I scrambled over to the fire escape, ignoring my injuries. Blood streamed down my face as I clamored over the rail and pushed myself against the wall. I looked up and froze. There was a man looking out the window I had just leapt through. He wasn’t looking straight down which was the only reason he hadn’t spotted me. I quietly untangled the shoulder strap of my bag, made sure I still had Bessie and slunk down the fire escape. I heard no cries that I had been seen and crept home to nurse my wounds. Hopefully the picture I took would help me find out what the hell is going on. 
  
 Home is a shitty basement apartment. It is in a house near the college so my upstairs roommates change every year. I like to think that this helps keep my identity secret since I don’t really get to know my roommates. You enter right into my living room after going down a flight of stairs. The light sucks down here but as far as caves go it is pretty sweet. One of the walls is even made out of stacked stone, which adds to the ambiance.
