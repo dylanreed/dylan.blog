@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title:  "Business: Part 2"
