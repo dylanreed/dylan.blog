@@ -1,0 +1,29 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2009-11-08'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 981
+wordpress_url: http://www.dylanreed.com/2009/11/08/tweets-this-week-2009-11-08/
+date: '2009-11-08 08:00:00 -0600'
+date_gmt: '2009-11-08 16:00:00 -0600'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<ul class="aktt_tweet_digest">
+<li>Back at school! School is number one! <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;5364418118" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>RT @ryankanno:HAWAII AMBER ALERT: Meghan Olcott missing from her home in Hilo, HI on 11&#47;01&#47;09. <a href="http:&#47;&#47;findmeghanolcott.com" rel="nofollow">http:&#47;&#47;findmeghanolcott.com<&#47;a> Please RT <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;5424514192" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>At jamba juice, then headed home to do homeworks and NaNoWriMo. Go Fridays. Oh and an art walk tonight followed by food. And Sarah rocks!! <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;5485888701" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>I hate doctors so much today <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;5517305150" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>On an unrelated note I need a beardhead from beardhead.com <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;5520139260" class="aktt_tweet_time">#<&#47;a><&#47;li><br />
+<&#47;ul></p>

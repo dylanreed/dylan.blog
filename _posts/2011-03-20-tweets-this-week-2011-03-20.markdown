@@ -1,0 +1,43 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2011-03-20'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 1277
+wordpress_url: http://www.dylanreed.com/2011/03/20/tweets-this-week-2011-03-20/
+date: '2011-03-20 15:00:00 -0500'
+date_gmt: '2011-03-20 22:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<ul class="aktt_tweet_digest">
+<li>OMG I Drew a Picture: Country Croc <a href="http:&#47;&#47;dylan.la&#47;eOmoUI" rel="nofollow">http:&#47;&#47;dylan.la&#47;eOmoUI<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;46982100221562880" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Slurpees!!! <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;47334275942596608" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>OMG I Drew a Picture: Hippity Hoppity <a href="http:&#47;&#47;fancycadaver.com&#47;2011&#47;03&#47;14&#47;hippity-hoppity&#47;" rel="nofollow">http:&#47;&#47;fancycadaver.com&#47;2011&#47;03&#47;14&#47;hippity-hoppity&#47;<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;47341770127843328" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>OMG I Drew a Picture: Hippity Hoppity <a href="http:&#47;&#47;dylan.la&#47;hQNiP2" rel="nofollow">http:&#47;&#47;dylan.la&#47;hQNiP2<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;47341769649696769" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>OMG I Drew a Picture: Nervous Purvis <a href="http:&#47;&#47;dylan.la&#47;hVIfer" rel="nofollow">http:&#47;&#47;dylan.la&#47;hVIfer<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;47696505485795328" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>You can see by the number of retweets that I am waiting for my take-out to be ready. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;47813536587591680" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Early morning grocery shopping for the win!!! <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;48004778571206656" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>OMG I Drew a Picture: Goth Girl <a href="http:&#47;&#47;dylan.la&#47;f3Lo0a" rel="nofollow">http:&#47;&#47;dylan.la&#47;f3Lo0a<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;48066172259807233" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Rough night at work last night. Hopefully having a day off will make it all better. We shall see <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;48349219865636864" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Happy St. Pancakes day <a href="http:&#47;&#47;t.co&#47;Hj132vM" rel="nofollow">http:&#47;&#47;t.co&#47;Hj132vM<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;48352311898148864" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Our trex is now complete <a href="http:&#47;&#47;t.co&#47;qdrlhX1" rel="nofollow">http:&#47;&#47;t.co&#47;qdrlhX1<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;48413909987762176" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>If you are not currently reading chew you should be. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;48433281099771904" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li><a href="http:&#47;&#47;dylan.la&#47;gvhwSc" rel="nofollow">http:&#47;&#47;dylan.la&#47;gvhwSc<&#47;a> I think I am super-curious... or maybe this just made me uncomfortable <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;48511176639913984" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>OMG You can buy my prints here:<a href="http:&#47;&#47;dylan.la&#47;gjcTde" rel="nofollow">http:&#47;&#47;dylan.la&#47;gjcTde<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;48752111156068352" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>OMG I Drew a Picture: The Correspondent <a href="http:&#47;&#47;dylan.la&#47;hch9I7" rel="nofollow">http:&#47;&#47;dylan.la&#47;hch9I7<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;48764610538520576" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Just dealt with a lady who was mad that we didn&#039;t have the product we said we did when she called. She had called our competitor. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;48823886711762944" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Good Morning Saturday, wish I didn&#039;t work today so I could hang out with with Sarah more <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;49103463317123072" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>OMG I Drew a Picture: OINK!!! <a href="http:&#47;&#47;dylan.la&#47;h2NsoV" rel="nofollow">http:&#47;&#47;dylan.la&#47;h2NsoV<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;49145314032107520" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Some people need to check there email addresses before using them. I now have an additional xbox live account that is under the wrong email <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;49311234742435840" class="aktt_tweet_time">#<&#47;a><&#47;li><br />
+<&#47;ul></p>

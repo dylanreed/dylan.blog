@@ -1,0 +1,30 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2009-09-06'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 972
+wordpress_url: http://www.dylanreed.com/2009/09/06/tweets-this-week-2009-09-06/
+date: '2009-09-06 09:00:00 -0500'
+date_gmt: '2009-09-06 17:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<ul class="aktt_tweet_digest">
+<li>It has been a very ministry Monday morning <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3665446695" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Thanks @<a href="http:&#47;&#47;twitter.com&#47;reedmorebooks" class="aktt_username">reedmorebooks<&#47;a> For my parking permit, less running around makes school more fun. That and music <a href="http:&#47;&#47;twitter.com&#47;reedmorebooks&#47;statuses&#47;3514630721" class="aktt_tweet_reply">in reply to reedmorebooks<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3667758085" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>So my dad does not have blood cancer. Go him! <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3670130276" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Today&#39;s highlights: picked up a faith healing south African hitchhikers, started my sculpture, don&#39;t have very much homework and it&#39;s noon. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3693524853" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Sleepy but ready for work, wish my neck wasn&#39;t sore <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3698001483" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Sarah and I have been married for five years, go us. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3756544429" class="aktt_tweet_time">#<&#47;a><&#47;li><br />
+<&#47;ul></p>

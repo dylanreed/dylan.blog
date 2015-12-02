@@ -1,0 +1,33 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2009-09-20'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 974
+wordpress_url: http://www.dylanreed.com/2009/09/20/tweets-this-week-2009-09-20/
+date: '2009-09-20 09:00:00 -0500'
+date_gmt: '2009-09-20 17:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<ul class="aktt_tweet_digest">
+<li>Reno wants me to fail <a href="http:&#47;&#47;twitpic.com&#47;hm0mf" rel="nofollow">http:&#47;&#47;twitpic.com&#47;hm0mf<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3958796462" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Starting to take shape <a href="http:&#47;&#47;twitpic.com&#47;htigh" rel="nofollow">http:&#47;&#47;twitpic.com&#47;htigh<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;4005072005" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Pre baking <a href="http:&#47;&#47;twitpic.com&#47;hu518" rel="nofollow">http:&#47;&#47;twitpic.com&#47;hu518<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;4008925354" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Exciting!!!!!! School!!!!!! Awesome!!!!!! Exclaimation points!!!!!! <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;4031817194" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Time to paint <a href="http:&#47;&#47;twitpic.com&#47;i28bn" rel="nofollow">http:&#47;&#47;twitpic.com&#47;i28bn<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;4058039060" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Painting like a bastard  <a href="http:&#47;&#47;twitpic.com&#47;i324i" rel="nofollow">http:&#47;&#47;twitpic.com&#47;i324i<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;4062538919" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>I am done!!! I think...  <a href="http:&#47;&#47;twitpic.com&#47;i3egv" rel="nofollow">http:&#47;&#47;twitpic.com&#47;i3egv<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;4064357883" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Sleepy and undedicated. I am now a fan of ???????? <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;4081273112" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Bio exam one= 76%. 2% above class average, go me!! <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;4083500644" class="aktt_tweet_time">#<&#47;a><&#47;li><br />
+<&#47;ul></p>

@@ -1,0 +1,49 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2009-07-19'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 963
+wordpress_url: http://www.dylanreed.com/2009/07/19/tweets-this-week-2009-07-19/
+date: '2009-07-19 09:00:00 -0500'
+date_gmt: '2009-07-19 17:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<ul class="aktt_tweet_digest">
+<li>Bessie! <a href="http:&#47;&#47;twitpic.com&#47;a4m9d" rel="nofollow">http:&#47;&#47;twitpic.com&#47;a4m9d<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2599980694">#<&#47;a><&#47;li>
+<li>Sarah! <a href="http:&#47;&#47;twitpic.com&#47;a4mw0" rel="nofollow">http:&#47;&#47;twitpic.com&#47;a4mw0<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2600048692">#<&#47;a><&#47;li>
+<li>Horsetooth  <a href="http:&#47;&#47;twitpic.com&#47;a68x7" rel="nofollow">http:&#47;&#47;twitpic.com&#47;a68x7<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2605322701">#<&#47;a><&#47;li>
+<li>BUY ME A SLURPEE <a href="http:&#47;&#47;ginx.com&#47;-iqTwD" rel="nofollow">http:&#47;&#47;ginx.com&#47;-iqTwD<&#47;a> Please :o) <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2614846785">#<&#47;a><&#47;li>
+<li>Cherries? <a href="http:&#47;&#47;twitpic.com&#47;a88qj" rel="nofollow">http:&#47;&#47;twitpic.com&#47;a88qj<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2615212363">#<&#47;a><&#47;li>
+<li>@<a href="http:&#47;&#47;twitter.com&#47;tchucco">tchucco<&#47;a> unfortunatly these are all earmarked for a pie or three <a href="http:&#47;&#47;twitter.com&#47;tchucco&#47;statuses&#47;2615227041">in reply to tchucco<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2617248708">#<&#47;a><&#47;li>
+<li>RT @jimgaffigan: Does sunscreen actually have to be white.  I need help blocking the sunlight not looking whiter, <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2620091308">#<&#47;a><&#47;li>
+<li>Bloodsucking Fiends by Christopher Moore is the best vampire book. Eat that Twilight <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2620119054">#<&#47;a><&#47;li>
+<li>My elbow is so pissed off right now. Going to the doctor, probably getting x-rayed. Go me <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2632085091">#<&#47;a><&#47;li>
+<li>@<a href="http:&#47;&#47;twitter.com&#47;BigTank78">BigTank78<&#47;a> that sucks. Get better buddy <a href="http:&#47;&#47;twitter.com&#47;BigTank78&#47;statuses&#47;2632107598">in reply to BigTank78<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2632379410">#<&#47;a><&#47;li>
+<li>I have golfer's elbow aka tendinitis on the inside of my elbow aka it hurts real bad. It is either from warhammer or gymnastics. I wonder? <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2636545703">#<&#47;a><&#47;li>
+<li>Trying to draw this. Next time @<a href="http:&#47;&#47;twitter.com&#47;harper">harper<&#47;a> needs to shave. And have normal person hair  <a href="http:&#47;&#47;twitpic.com&#47;acj3n" rel="nofollow">http:&#47;&#47;twitpic.com&#47;acj3n<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2636583289">#<&#47;a><&#47;li>
+<li>I need a way to post pictures and tweets to my blog as they happen and still have a way to make nice long posts to it on occassion. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2636604680">#<&#47;a><&#47;li>
+<li>5minutes in <a href="http:&#47;&#47;twitpic.com&#47;acnz4" rel="nofollow">http:&#47;&#47;twitpic.com&#47;acnz4<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2637168596">#<&#47;a><&#47;li>
+<li>10 minute mark <a href="http:&#47;&#47;twitpic.com&#47;acs0f" rel="nofollow">http:&#47;&#47;twitpic.com&#47;acs0f<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2637648664">#<&#47;a><&#47;li>
+<li>Basically done <a href="http:&#47;&#47;twitpic.com&#47;actc7" rel="nofollow">http:&#47;&#47;twitpic.com&#47;actc7<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2637807855">#<&#47;a><&#47;li>
+<li>@<a href="http:&#47;&#47;twitter.com&#47;reedmorebooks">reedmorebooks<&#47;a> thanks <a href="http:&#47;&#47;twitter.com&#47;reedmorebooks&#47;statuses&#47;2637965303">in reply to reedmorebooks<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2637986473">#<&#47;a><&#47;li>
+<li>Need change for snack <a href="http:&#47;&#47;twitpic.com&#47;acz8m" rel="nofollow">http:&#47;&#47;twitpic.com&#47;acz8m<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2638513337">#<&#47;a><&#47;li>
+<li>And done <a href="http:&#47;&#47;twitpic.com&#47;ad4sd" rel="nofollow">http:&#47;&#47;twitpic.com&#47;ad4sd<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2639175838">#<&#47;a><&#47;li>
+<li>One month left of working for pops <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2653902158">#<&#47;a><&#47;li>
+<li>Why is my HOA so stupid? Seriously, am I going to have to attend a meeting? <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2657191428">#<&#47;a><&#47;li>
+<li>Can the so you think you can dance judges kiss any more choreographer ass. Also the pass&eacute; doble is dumb. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2662442330">#<&#47;a><&#47;li>
+<li>I drew this today <a href="http:&#47;&#47;twitpic.com&#47;akrh5" rel="nofollow">http:&#47;&#47;twitpic.com&#47;akrh5<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2676827137">#<&#47;a><&#47;li>
+<li>Fighting hoa-hall wish me luck! <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2680775415">#<&#47;a><&#47;li>
+<li>RT @ricklafave: Walgreens has refused to fill a script for my wife's surgery tomorrow. Dont let it happen 2U. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2680791823">#<&#47;a><&#47;li><br />
+<&#47;ul></p>

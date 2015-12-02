@@ -1,0 +1,38 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2011-04-17'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 1305
+wordpress_url: http://www.dylanreed.com/2011/04/17/tweets-this-week-2011-04-17/
+date: '2011-04-17 15:00:00 -0500'
+date_gmt: '2011-04-17 22:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<ul class="aktt_tweet_digest">
+<li>Bat-pie FTW:  <a href="http:&#47;&#47;t.co&#47;35GtK69" rel="nofollow">http:&#47;&#47;t.co&#47;35GtK69<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;57233515657441280" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>OMG I Drew a Picture: Angry Melon <a href="http:&#47;&#47;dylan.la&#47;gzb4Rd" rel="nofollow">http:&#47;&#47;dylan.la&#47;gzb4Rd<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;57464826825420801" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>what are the best homebrew wii hacks? <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;57552410838700032" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>To the people or bots that spend their time spamming my wordpress blogs. One of them is only pictures, please make sure your spam fits that <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;57554877517271040" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>making these right now!! <a href="http:&#47;&#47;dylan.la&#47;ewb688" rel="nofollow">http:&#47;&#47;dylan.la&#47;ewb688<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;57568168692035585" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Looking good:) <a href="http:&#47;&#47;t.co&#47;dwntI8d" rel="nofollow">http:&#47;&#47;t.co&#47;dwntI8d<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;57571953711652864" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>OMG I Drew a Picture: Sweet Melon <a href="http:&#47;&#47;dylan.la&#47;dSao10" rel="nofollow">http:&#47;&#47;dylan.la&#47;dSao10<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;57829840115609600" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>OMG I Drew a Picture: Melon Headshot <a href="http:&#47;&#47;dylan.la&#47;fk4Mfx" rel="nofollow">http:&#47;&#47;dylan.la&#47;fk4Mfx<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;58192764352991232" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>This is amazing <a href="http:&#47;&#47;dylan.la&#47;fBoX75" rel="nofollow">http:&#47;&#47;dylan.la&#47;fBoX75<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;58261922067386368" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>OMG I Drew a Picture: Coffee!! <a href="http:&#47;&#47;dylan.la&#47;hTLNU9" rel="nofollow">http:&#47;&#47;dylan.la&#47;hTLNU9<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;58545921943810048" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li><a href="http:&#47;&#47;dylan.la&#47;hnc9r1" rel="nofollow">http:&#47;&#47;dylan.la&#47;hnc9r1<&#47;a> The devastation in Japan makes me sad. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;58567490560720896" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>OMG I Drew a Picture: Hello <a href="http:&#47;&#47;dylan.la&#47;fzQ50T" rel="nofollow">http:&#47;&#47;dylan.la&#47;fzQ50T<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;58908116770750465" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>OMG I Drew a Picture: Money Bunny <a href="http:&#47;&#47;dylan.la&#47;idYjov" rel="nofollow">http:&#47;&#47;dylan.la&#47;idYjov<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;59270042226921472" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>fancycadaver.com is going to be late tomorrow. Because I am not prepared and don&#039;t have time. Also because I a tired <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;59390835850084352" class="aktt_tweet_time">#<&#47;a><&#47;li><br />
+<&#47;ul></p>

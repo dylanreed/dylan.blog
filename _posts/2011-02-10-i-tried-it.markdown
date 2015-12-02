@@ -1,0 +1,50 @@
+---
+layout: post
+status: publish
+published: true
+title: I Tried It
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: http://www.dylanreed.com
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: http://www.dylanreed.com
+wordpress_id: 1199
+wordpress_url: http://www.dylanreed.com/?p=1199
+date: '2011-02-10 17:07:17 -0600'
+date_gmt: '2011-02-11 01:07:17 -0600'
+categories:
+- Awesome
+tags: []
+comments:
+- id: 46172
+  author: Mom
+  author_email: Reedbooks@gmail.com
+  author_url: ''
+  date: '2011-02-10 19:31:06 -0600'
+  date_gmt: '2011-02-11 03:31:06 -0600'
+  content: Don't forget presents are coming.
+- id: 46173
+  author: Dylan
+  author_email: dylan@dylanreed.com
+  author_url: http://www.dylanreed.com
+  date: '2011-02-10 19:35:16 -0600'
+  date_gmt: '2011-02-11 03:35:16 -0600'
+  content: Why would that matter? ;)
+---
+<p>As promised I attempted the Manga drawing. It wasn't so bad.</p>
+<p style="text-align: center;"><a href="http:&#47;&#47;fancycadaver.com&#47;2011&#47;02&#47;10&#47;manga-girl&#47;"><img class="aligncenter" title="Colored Manga Girl" src="http:&#47;&#47;fancycadaver.com&#47;wp-content&#47;uploads&#47;2011&#47;02&#47;mangagirl-3.jpg" alt="" width="441" height="570" &#47;><&#47;a><&#47;p><br />
+I am pretty happy with the way it turned out. In fact I am pleasently surpised since my first attempt at a western comic character was pretty <a href="http:&#47;&#47;farm5.static.flickr.com&#47;4129&#47;5202013058_028da18b40_o.jpg">pathetic<&#47;a>. Then I thought about it and I figured out why. I read western style comics, I don't read manga. Because of this I have an "idea" of what superheros should look like. This leads me to second guess myself everytime I draw one. With manga the oppisite is true. I have never read manga and the anime that I have watched hasn't had the same impact that comics have. Since I have no frame of reference then I have no room to second guess. It is pretty awesome. The coloring on this is ok... I am not 100% happy with my work with markers, probably should have done it digitally so that I didn't suffer from a lack of colors that I have in markers, which you can help <a href="http:&#47;&#47;www.dickblick.com&#47;lists&#47;wishlist&#47;3D7SKCUGDOZQY&#47;publicview&#47;">with<&#47;a> ;). &nbsp;I am not upset with the coloring job, I think it looks nice though I think she looks a little vacant. What I really liked about this drawing was the final pencil work, which I have because I forced myself to trace the inks instead of going over the pencil. I did this partially because I wanted it to look nicer and partially because this was a complex drawing and I was afraid I was going to screw up. Here is the pencil:</p>
+<p><a href="http:&#47;&#47;farm6.static.flickr.com&#47;5213&#47;5434941628_1eacae3e04.jpg"><img class="aligncenter" title="Pencils" src="http:&#47;&#47;farm6.static.flickr.com&#47;5213&#47;5434941628_1eacae3e04.jpg" alt="" width="386" height="500" &#47;><&#47;a></p>
+<p>I just found out that the Chibi book is in at the library, which I will pick up tomorrow and play with. Then I guess I have to choose a book to do. The choices are:</p>
+<ul>
+<li><a href="http:&#47;&#47;www.flickr.com&#47;photos&#47;dylansarah&#47;5413454361&#47;sizes&#47;o&#47;in&#47;photostream&#47;">Retro Cartoons<&#47;a><&#47;li>
+<li><a href="http:&#47;&#47;www.flickr.com&#47;photos&#47;dylansarah&#47;5433667824&#47;sizes&#47;o&#47;in&#47;photostream&#47;">Robots<&#47;a><&#47;li>
+<li><a href="http:&#47;&#47;www.flickr.com&#47;photos&#47;dylansarah&#47;5413438219&#47;sizes&#47;o&#47;in&#47;photostream&#47;">Chibi<&#47;a><&#47;li>
+<li><a href="http:&#47;&#47;www.flickr.com&#47;photos&#47;dylansarah&#47;5433901534&#47;">Anime<&#47;a><&#47;li>
+<li><a href="http:&#47;&#47;www.flickr.com&#47;photos&#47;dylansarah&#47;5433664538&#47;sizes&#47;o&#47;in&#47;photostream&#47;">Cute Animals<&#47;a><&#47;li>
+<li><a href="http:&#47;&#47;www.flickr.com&#47;photos&#47;dylansarah&#47;5416283057&#47;sizes&#47;o&#47;in&#47;photostream&#47;">Retro Action Cartoons<&#47;a><&#47;li><br />
+<&#47;ul><br />
+If you have an opinion of which I should pursue first let me know. Soon. I have to decide before I am thirty.Which is Monday.</p>

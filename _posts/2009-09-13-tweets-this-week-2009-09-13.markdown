@@ -1,0 +1,30 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2009-09-13'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 973
+wordpress_url: http://www.dylanreed.com/2009/09/13/tweets-this-week-2009-09-13/
+date: '2009-09-13 09:00:00 -0500'
+date_gmt: '2009-09-13 17:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<ul class="aktt_tweet_digest">
+<li>Why my Interneting has suffered <a href="http:&#47;&#47;twitpic.com&#47;gzgbq" rel="nofollow">http:&#47;&#47;twitpic.com&#47;gzgbq<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3844352002" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>RT @skaw: Happy 9&#47;9&#47;09! ALL TEES ARE $9! No joke! (Pls RT for the chance to win a $99 gift code) (via @<a href="http:&#47;&#47;twitter.com&#47;threadless" class="aktt_username">threadless<&#47;a>) <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3862971569" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>How is it that I just discovered pandora last night. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3863158823" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>In a fabric store buying school supplies. Best day ever. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3893052243" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Today everyone needs to read The Goon by Eric Powell. Unless you hate zombies, then don&#39;t <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3911140889" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li><a href="http:&#47;&#47;ginx.com&#47;-PvpEh" rel="nofollow">http:&#47;&#47;ginx.com&#47;-PvpEh<&#47;a> I miss my childhood <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3920362437" class="aktt_tweet_time">#<&#47;a><&#47;li><br />
+<&#47;ul></p>

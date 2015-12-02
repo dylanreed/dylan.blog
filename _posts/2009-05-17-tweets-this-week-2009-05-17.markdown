@@ -1,0 +1,34 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2009-05-17'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 954
+wordpress_url: http://www.dylanreed.com/2009/05/17/tweets-this-week-2009-05-17/
+date: '2009-05-17 09:00:00 -0500'
+date_gmt: '2009-05-17 17:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<ul class="aktt_tweet_digest">
+<li>Happy mothers day mothers <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;1758278999">#<&#47;a><&#47;li>
+<li>I am so excited about the new Punch Out <a href="http:&#47;&#47;ginx.com&#47;-kI2DJ" rel="nofollow">http:&#47;&#47;ginx.com&#47;-kI2DJ<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;1763210843">#<&#47;a><&#47;li>
+<li>Congested today. Not pleased about that. Makes work less fun <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;1773931537">#<&#47;a><&#47;li>
+<li>Why can't we all just get along? <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;1777589842">#<&#47;a><&#47;li>
+<li>Awesome blog post.  You must Read!!! <a href="http:&#47;&#47;bit.ly&#47;167eQO" rel="nofollow">http:&#47;&#47;bit.ly&#47;167eQO<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;1779364194">#<&#47;a><&#47;li>
+<li>uploading a new video. It is awesome. I made something new <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;1795804650">#<&#47;a><&#47;li>
+<li>Oh yeah I got an 'A' in Spanish <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;1796389664">#<&#47;a><&#47;li>
+<li>Chrono Trigger is awesome <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;1798678361">#<&#47;a><&#47;li>
+<li>Not awesome is my DS battery dying between save points. LAME!!! <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;1799112763">#<&#47;a><&#47;li>
+<li>Haircut. Check. Circus tickets. Check. Ready to rock the circus. Check. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;1819140639">#<&#47;a><&#47;li><br />
+<&#47;ul></p>

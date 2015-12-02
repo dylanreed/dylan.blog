@@ -1,0 +1,34 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2009-08-23'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 970
+wordpress_url: http://www.dylanreed.com/2009/08/23/tweets-this-week-2009-08-23/
+date: '2009-08-23 09:00:00 -0500'
+date_gmt: '2009-08-23 17:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<ul class="aktt_tweet_digest">
+<li>Reason one why I&#39;ll be dead by morning <a href="http:&#47;&#47;twitpic.com&#47;e4rra" rel="nofollow">http:&#47;&#47;twitpic.com&#47;e4rra<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3346372884" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Reason two why I&#39;ll be dead by morning <a href="http:&#47;&#47;twitpic.com&#47;e4rtc" rel="nofollow">http:&#47;&#47;twitpic.com&#47;e4rtc<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3346380568" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Pizza hut for lunch. Tasty <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3347553757" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Sparkling water and bacon are the best things in the world. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3352593442" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Time to kick some volleyball ass!! <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3353636597" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Time to but school books <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3452014257" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Wondering lost around csu <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3452259640" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Dear Colorado state university, not being able to look up my student number so I can get my student I.D. is stupid. Just saying <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3453139350" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>What to do for lunch, oh what to do. I am in fort collins, any ideas? <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3454841355" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>I am pretty <a href="http:&#47;&#47;twitpic.com&#47;evu79" rel="nofollow">http:&#47;&#47;twitpic.com&#47;evu79<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3477393524" class="aktt_tweet_time">#<&#47;a><&#47;li><br />
+<&#47;ul></p>

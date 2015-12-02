@@ -1,0 +1,27 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2011-06-19'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 1337
+wordpress_url: http://www.dylanreed.com/2011/06/19/tweets-this-week-2011-06-19/
+date: '2011-06-19 15:00:00 -0500'
+date_gmt: '2011-06-19 22:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<ul class="aktt_tweet_digest">
+<li>We have a sick cat and I am in boulder. Everyone think happy thoughts for Reno <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;81813185417580544" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Just heard from sarah Reno is at the vet just waiting to get in to see the vet. he has spent most of his morning since breakfast throwing up <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;81819108383010816" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Reno is feeling much better. No puking for a while. He is also tried to hit me which is a good sign. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;81879141066096640" class="aktt_tweet_time">#<&#47;a><&#47;li><br />
+<&#47;ul></p>

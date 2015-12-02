@@ -1,0 +1,45 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2011-03-27'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 1282
+wordpress_url: http://www.dylanreed.com/2011/03/27/tweets-this-week-2011-03-27/
+date: '2011-03-27 15:00:00 -0500'
+date_gmt: '2011-03-27 22:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<ul class="aktt_tweet_digest">
+<li>OMG I Drew a Picture: Rabbit 1: Angry <a href="http:&#47;&#47;dylan.la&#47;dXC7OW" rel="nofollow">http:&#47;&#47;dylan.la&#47;dXC7OW<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;49516903772848128" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>A friend of mines start-up <a href="http:&#47;&#47;dylan.la&#47;ecCaaL" rel="nofollow">http:&#47;&#47;dylan.la&#47;ecCaaL<&#47;a> check it out <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;49528572850880513" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>I am a little tired now but I have a sketch to finish for tomorrow. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;49644622816878593" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Ballet sketch. Needs ink <a href="http:&#47;&#47;t.co&#47;aIoMVqp" rel="nofollow">http:&#47;&#47;t.co&#47;aIoMVqp<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;49660650280062976" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>OMG I Drew a Picture: Rabbit 2: Worried <a href="http:&#47;&#47;dylan.la&#47;ifei2k" rel="nofollow">http:&#47;&#47;dylan.la&#47;ifei2k<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;49869537549615104" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>OMG I Drew a Picture: Rabbit 3: Flower <a href="http:&#47;&#47;dylan.la&#47;hvla9B" rel="nofollow">http:&#47;&#47;dylan.la&#47;hvla9B<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;50235518495100928" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Balancing checkbooks is hard... why does money suck <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;50361632836169730" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>I am not as stupid as I thought <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;50363155632762880" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>OMG I Drew a Picture: Rabbit 4: Crazy <a href="http:&#47;&#47;dylan.la&#47;i9GDYu" rel="nofollow">http:&#47;&#47;dylan.la&#47;i9GDYu<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;50588333168009216" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li><a href="http:&#47;&#47;dylan.la&#47;eFd5AC" rel="nofollow">http:&#47;&#47;dylan.la&#47;eFd5AC<&#47;a> I am in love with this idea. This better be how brightest day ends. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;50680370852663298" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Shame on DC for not making this a reality. Thanks @<a href="http:&#47;&#47;twitter.com&#47;pvponline" class="aktt_username">pvponline<&#47;a> for the link <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;50681989254234112" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Kitchen CLEAN!!! One more room to clean before Sarah&#039;s surgery then we are golden. Also going to see Paul tomorrow <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;50739606630572033" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>OMG I Drew a Picture: Rabbit 5: Embarassed <a href="http:&#47;&#47;dylan.la&#47;hx3stZ" rel="nofollow">http:&#47;&#47;dylan.la&#47;hx3stZ<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;50958762533601280" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li><a href="http:&#47;&#47;dylan.la&#47;dGmwuf" rel="nofollow">http:&#47;&#47;dylan.la&#47;dGmwuf<&#47;a> hee hee <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;51043940761210880" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li><a href="http:&#47;&#47;dylan.la&#47;ggtRHE" rel="nofollow">http:&#47;&#47;dylan.la&#47;ggtRHE<&#47;a> This is fantastic. Sure the walking dead is a fantastic comic book adapted into a TV show but this is CHEW!!! <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;51046102434193408" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Sarah has gum surgery tomorrow so I did a drawing of her punching out her dentist <a href="http:&#47;&#47;dylan.la&#47;e7jbFR" rel="nofollow">http:&#47;&#47;dylan.la&#47;e7jbFR<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;51050708409135104" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Stress shopping before going to Paul. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;51091062298652673" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Wish Sarah luck!!! Surgery in 20 minutes. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;51281691658035200" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>OMG I Drew a Picture: Brave Girl <a href="http:&#47;&#47;dylan.la&#47;dL1OmY" rel="nofollow">http:&#47;&#47;dylan.la&#47;dL1OmY<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;51312000457912321" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>OMG I Drew a Picture: Rabbit 6: What!?! <a href="http:&#47;&#47;dylan.la&#47;g2GybJ" rel="nofollow">http:&#47;&#47;dylan.la&#47;g2GybJ<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;51312512972488704" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Sarah is doing good. She is sleepy and it is about time to give her more drugs <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;51374029826830337" class="aktt_tweet_time">#<&#47;a><&#47;li><br />
+<&#47;ul></p>

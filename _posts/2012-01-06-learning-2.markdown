@@ -1,0 +1,33 @@
+---
+layout: post
+status: publish
+published: true
+title: Learning
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: http://www.dylanreed.com
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: http://www.dylanreed.com
+wordpress_id: 1403
+wordpress_url: http://www.dylanreed.com/?p=1403
+date: '2012-01-06 14:49:34 -0600'
+date_gmt: '2012-01-06 21:49:34 -0600'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<p>Harper recently sent me a link to this <a href="http:&#47;&#47;www.readability.com&#47;read?url=http:&#47;&#47;www.reddit.com&#47;r&#47;confession&#47;comments&#47;nxdzz&#47;im_not_as_smart_as_i_thought_i_was&#47;c3d91jl">article<&#47;a>. I read through it and found it interesting. A lot of people in it talked about what they learned while at MIT or other universities and how their successes came not from being smart but learning how to be smart. Looking at the way successful students applied themselves to course work and figuring out what they were doing to be successful. &nbsp;Another portion of people where the "I'm X years old and universities were hard when I was 20 and I dropped out and heading back to school because I now understand learning." This is where I am.</p>
+<p>I am 30 (soon to be 31) years old. I don't have a degree in anything (other then being awesome), and my experience with school has been both bad and good. Activate time warp.</p>
+<blockquote><p>The year is 1996, I have just started my sophmore year at Greeley Central High School. My brother, world famous ginger, was a senior that year and this was the first time since elementary school that we were at the same school. Harper was a super cool dude and as such I was cool by association. Unfortuantly I had to deal with the "oh you are harper's brother" comment which I found irritating.</p>
+<p>I was not a good student. I never did homework but was lucky enough to be a good test taker and to be an absorber of knowledge. I could sit in class and listen and be able to pull facts out of my head to pass tests. This meant that if I was in a class that required homework to pass I failed, I was an active student who always participated in class I just hated homework. This continued all through high school. I barely graduated.<&#47;blockquote><br />
+What I learned from high school was how to make friends, how to bull shit teachers and how to look ashamed when my parents would ask why I was failing. I also learned how to juggle, unicycle, make balloon animals and clown during this time, so it wasn't a complete waste.</p>
+<blockquote><p>We have now traveled to Fall 1999. My freshman year at UNC. I started at UNC and had no clue what I wanted to study, only that I hated math. I had interesting&nbsp;roommates&nbsp;assigned to me: The Neo-Nazi and The Drunk. I say Neo-Nazi because he had&nbsp;swastikas&nbsp;tattooed on his body and he hated everyone. He was basically a dick and I was thankful when he met a girl and moved out of the dorm because I have not always been the&nbsp;straightest&nbsp;of companions and I didn't really want to get killed by some idiot.</p>
+<p>The Drunk on the other hand had had a rough year. His dad had died the previous Spring and as such he had buried his sorrows in&nbsp;alcohol. A lot of&nbsp;Alcohol. He and our&nbsp;sweetmates&nbsp;would get drunk most nights and be loud and obnoxious. This culminated with one of them being blind drunk and peeing next to my head why I slept. It was awesome. The best part is that I cannot blame these problems on my failure at UNC. I blame Tony Hawk Pro Skater and the Sega Dreamcast. A kid down the hall had one and we used to play for days and days. Never going to class, never doing anything but playing THPS and listening to the Blade soundtrack. I quit UNC after a semester and a half<&#47;blockquote><br />
+What did I learn at UNC: Video games are awesome. After that I kicked around a little, worked a little, went to a community college a little. Then I fond dive school. I had been SCUBA diving since I was 15 (maybe earlier I don't really remember) and I love being under water. So one day when I was cruising the internet I found the College of Oceaneering. It was a technical school where you learned Hard Hat surface supplied diving. This is where I learned how to learn.</p>
+<blockquote><p>It is now Xmas 2001(I think), I am in California living with a dude I just met in a two bedroom apartment in Long Beach&#47;Compton. The College of Oceaneering didn't believe in half measures. You where dropped into the water your first week to experience what it is like to wear the equipment and be underwater. It was amazing. After that first day I was excited.</p>
+<p>We spent the next 10 weeks learning about safety with rigging, knot tying, the many, many ways you can die underwater and how to run a decompression chamber. There is nothing like the possibility of death (and a really painful on at that) to make you learn things. I acceled at the COO. I was on the deans list for most of my time there and was a person that other students went to for help. I hated math and yet I learned all about the physics of magnetic fields and how sound waves travel through metal. It was awesome.<&#47;blockquote><br />
+It was while I was at the COO that I learned about learning. I learned that learning is a skill that must be practiced. That when I really focused and set aside time for school work, not only was it enjoyable but I was rewarded for my hard work. This meant that when I finally went back to school to get a degree that I was ready to succeed. And when I went back I did succeed. It helped that I knew what I wanted to do. I no longer felt like I was floundering. I still haven't&nbsp;received&nbsp;my degree, because... you know... life happened. But I know that when I go back I will succeed.</p>

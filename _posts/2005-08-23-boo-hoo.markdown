@@ -1,0 +1,26 @@
+---
+layout: post
+status: publish
+published: true
+title: Boo Hoo!!
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 188
+wordpress_url: http://www.dylanreed.org/2005/08/23/boo-hoo/
+date: '2005-08-23 20:17:15 -0500'
+date_gmt: '2005-08-24 03:17:15 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<p>So today I found out that my uncle who bought my bug from my dad sold it. no more bessie the bug of love. sad day. </p>
+<p>Sarah's week at school has been hectic thus far. It should get better and then next weekend off to vegas for our anniversary. yeah</p>
+<p>I am currently listening to enders game. it is quite good and it makes me want to read the book so i will get that sometime and read it. It reminds me of phillip k. dick a little. Mostly because it is a science fiction but at the same time it is also more about enders feeling s and perceptions.</p>
+<p>thats all for now</p>

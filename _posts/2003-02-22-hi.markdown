@@ -1,0 +1,30 @@
+---
+layout: post
+status: publish
+published: true
+title: Hi
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: http://www.dylanreed.com
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: http://www.dylanreed.com
+wordpress_id: 36
+wordpress_url: http://dylanreed.org/?p=36
+date: '2003-02-22 01:04:09 -0600'
+date_gmt: '2003-02-22 07:04:09 -0600'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<p>Hello everyone. It is I the great super dylan. so any who. what have you guys been up to? nothing much here just working hard for the money. etc etc. I am having fun at work. Right now at work i am help out the war effort (doh) by test the thursters for a nucular submarine and last week i was heat treating a new lauching system for aircraft carriers.<br />
+I have decided why i need lots of free money<br />
+ a) to get a  <a href="http:&#47;&#47;www.miniusa.com">mini<&#47;a><br />
+ b) to get a motorcycle<br />
+ c) to never have to work again<br />
+so if anyone has lots of money to give to me or would just like to buy those things for me, that would be great.</p>
+<p>that is all<br />
+byby</p>

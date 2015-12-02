@@ -1,0 +1,32 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Well Crap Sandwiches: Update'
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: http://www.dylanreed.com
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: http://www.dylanreed.com
+wordpress_id: 1634
+wordpress_url: http://www.dylanreed.com/?p=1634
+date: '2013-06-26 14:15:21 -0500'
+date_gmt: '2013-06-26 21:15:21 -0500'
+categories:
+- Awesome
+- Serious Business
+tags:
+- Clown
+comments: []
+---
+<p>This is not a good news update. Of course it is not a bad news update. Just an update of sorts.</p>
+<p>I haven't&nbsp;received&nbsp;any news of my balloon stuff being found. I have checked pawnshops in Greeley and talked to the police. Strangely this isn't a top priority for the police. I have resigned myself to having to get a new balloon set up. I am going to go with the Twist-em-up apron again as it has been the best apron I have used in the 16 years I have been doing this. I am thinking about getting one of the more colorful aprons as opposed to the all black on I got last time. I am thinking the red multi-color is the way to go. Though I do like the purple... I have to get the <a href="https:&#47;&#47;twistemup.com&#47;shop&#47;easy-load-jumbo&#47;">Jumbo<&#47;a> because of the quantity of balloons I carry.</p>
+<p>Balloon wise I am&nbsp;completely&nbsp;out of balloons and need to order some up. &nbsp;To get 36 colors of balloons(which will fill the apron&nbsp;completely&nbsp;twice) it is about $220. I think that will last me longer then the summer, though I seem to be getting busier all the time so who knows. I order through <a href="http:&#47;&#47;tmyers.com&#47;">T Myers Magic<&#47;a>. I have been researching other options for maybe getting balloons cheaper but I have a history with them and they have always taken good care of me. Pump replacement will be about $15 and I am pretty sure I have a couple spares lying around.</p>
+<p>To carry it all I kind of want to get <a href="http:&#47;&#47;shop.samsonite.com&#47;Samsonite-Attache-Focus-III&#47;dp&#47;B000931976">this<&#47;a>. I think &nbsp;it is the upgraded model of what I have. I plan on putting signs all over it once I have it as well as some sort of message that says: Contains Balloons Not Computers!! That should prevent future stealing of my balloons. Or I hope it does.</p>
+<p>What is frustrating about the whole things is that I haven't had to order a full load of balloons in a while. I have been just filling the gaps in my balloons and using up old stock for the past couple years. I also&nbsp;acquired&nbsp;my apron, briefcase and pumps over the past 15 years. Having to drop the $400 to replace them is annoying.</p>
+<p>I have now replaced all my balloon stuff except the briefcase thing. My parents told me they have something that will be perfect for me to carry it all in. So I just need to go get that sometime. </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>

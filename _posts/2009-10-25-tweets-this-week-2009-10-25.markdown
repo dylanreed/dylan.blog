@@ -1,0 +1,33 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2009-10-25'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 979
+wordpress_url: http://www.dylanreed.com/2009/10/25/tweets-this-week-2009-10-25/
+date: '2009-10-25 09:00:00 -0500'
+date_gmt: '2009-10-25 17:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<ul class="aktt_tweet_digest">
+<li>Sleepy. Sarah is still sick. Send her get well messages. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;4995960485" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>I about an hour I need a reminder from someone telling me to renew my library books. Seriously. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;5046549689" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Balloon laces! Want some? They rule. <a href="http:&#47;&#47;twitpic.com&#47;md2vs" rel="nofollow">http:&#47;&#47;twitpic.com&#47;md2vs<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;5046648572" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Http:&#47;&#47;awesomeguy.etsy.com needs love. Buy a Awesome Guy today! <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;5046668757" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Also @<a href="http:&#47;&#47;twitter.com&#47;deltaairlines" class="aktt_username">deltaairlines<&#47;a> teach your people at DIA to be polite and not rude. Gate c36 I am looking at you <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;5069290750" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Zipper! <a href="http:&#47;&#47;twitpic.com&#47;mih00" rel="nofollow">http:&#47;&#47;twitpic.com&#47;mih00<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;5079501999" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Isn&#39;t she adorable <a href="http:&#47;&#47;twitpic.com&#47;mmfrf" rel="nofollow">http:&#47;&#47;twitpic.com&#47;mmfrf<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;5103876945" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Why VT is better then CO reason #<a href="http:&#47;&#47;search.twitter.com&#47;search?q=%231" class="aktt_hashtag">1<&#47;a>  <a href="http:&#47;&#47;twitpic.com&#47;mnx7h" rel="nofollow">http:&#47;&#47;twitpic.com&#47;mnx7h<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;5111117471" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>I am not a good dancer, ask anybody <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;5134182032" class="aktt_tweet_time">#<&#47;a><&#47;li><br />
+<&#47;ul></p>

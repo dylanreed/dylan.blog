@@ -1,0 +1,25 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2011-07-03'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 1343
+wordpress_url: http://www.dylanreed.com/2011/07/03/tweets-this-week-2011-07-03/
+date: '2011-07-03 15:00:00 -0500'
+date_gmt: '2011-07-03 22:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<ul class="aktt_tweet_digest">
+<li>OMG I Drew a Picture: Goober <a href="http:&#47;&#47;dylan.la&#47;lAM0NB" rel="nofollow">http:&#47;&#47;dylan.la&#47;lAM0NB<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;85820291640602624" class="aktt_tweet_time">#<&#47;a><&#47;li><br />
+<&#47;ul></p>

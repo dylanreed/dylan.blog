@@ -1,0 +1,39 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2009-06-28'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 960
+wordpress_url: http://www.dylanreed.com/2009/06/28/tweets-this-week-2009-06-28/
+date: '2009-06-28 09:00:00 -0500'
+date_gmt: '2009-06-28 17:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<ul class="aktt_tweet_digest">
+<li>Starting fathers day part two followed by part three. Awesome. Happy F-day to all of you. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2268819297">#<&#47;a><&#47;li>
+<li>Crazy Clementine <a href="http:&#47;&#47;twitpic.com&#47;81lfi" rel="nofollow">http:&#47;&#47;twitpic.com&#47;81lfi<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2270304167">#<&#47;a><&#47;li>
+<li>Need an accountant type person in Greeley Colorado <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2284525851">#<&#47;a><&#47;li>
+<li>I need Pupils in my Dojo: <a href="http:&#47;&#47;ginx.com&#47;-RDUxD" rel="nofollow">http:&#47;&#47;ginx.com&#47;-RDUxD<&#47;a> Create a fighter and fight me to join my crew <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2296740205">#<&#47;a><&#47;li>
+<li>Hating on his nemesis  <a href="http:&#47;&#47;twitpic.com&#47;889og" rel="nofollow">http:&#47;&#47;twitpic.com&#47;889og<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2301627867">#<&#47;a><&#47;li>
+<li>RT @africankelli: I have a new therapist named Retail; we're in session @ the gap.      I feel I need this <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2319386501">#<&#47;a><&#47;li>
+<li>Devil dogs are so tasty <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2319466781">#<&#47;a><&#47;li>
+<li>You may kiss the royal paw <a href="http:&#47;&#47;twitpic.com&#47;8c46k" rel="nofollow">http:&#47;&#47;twitpic.com&#47;8c46k<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2319815258">#<&#47;a><&#47;li>
+<li>@<a href="http:&#47;&#47;twitter.com&#47;pvponline">pvponline<&#47;a> good call <a href="http:&#47;&#47;twitter.com&#47;pvponline&#47;statuses&#47;2320091639">in reply to pvponline<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2320681067">#<&#47;a><&#47;li>
+<li>Budwieser plant in Fort Collins, stage one of our Utah diving adventure. Go us. #<a href="http:&#47;&#47;search.twitter.com&#47;search?q=%23roadtrip">roadtrip<&#47;a> <a href="http:&#47;&#47;twitpic.com&#47;8gxql" rel="nofollow">http:&#47;&#47;twitpic.com&#47;8gxql<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2345358197">#<&#47;a><&#47;li>
+<li>One hour in, second set of wind farms. #<a href="http:&#47;&#47;search.twitter.com&#47;search?q=%23roadtrip">roadtrip<&#47;a> <a href="http:&#47;&#47;twitpic.com&#47;8h4zq" rel="nofollow">http:&#47;&#47;twitpic.com&#47;8h4zq<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2346326460">#<&#47;a><&#47;li>
+<li>Go clouds go! Tried to send this in wyoming but had no luck. About 20 minutes away. #<a href="http:&#47;&#47;search.twitter.com&#47;search?q=%23roadtrip">roadtrip<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2351315401">#<&#47;a><&#47;li>
+<li>We made it. #<a href="http:&#47;&#47;search.twitter.com&#47;search?q=%23roadtrip">roadtrip<&#47;a> is now #<a href="http:&#47;&#47;search.twitter.com&#47;search?q=%23divetrip">divetrip<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2351995267">#<&#47;a><&#47;li>
+<li>Ikea Utah does not ship to Colorado but Ikea Internet does. WTF Ikea. Deliver to your isn't home to your home if you don't deliver there. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2366659708">#<&#47;a><&#47;li>
+<li>Getting cheese and chocolate at the melting pot salt lake city <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2367225486">#<&#47;a><&#47;li><br />
+<&#47;ul></p>

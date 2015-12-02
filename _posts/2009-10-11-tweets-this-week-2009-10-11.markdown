@@ -1,0 +1,32 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2009-10-11'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 977
+wordpress_url: http://www.dylanreed.com/2009/10/11/tweets-this-week-2009-10-11/
+date: '2009-10-11 09:00:00 -0500'
+date_gmt: '2009-10-11 17:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<ul class="aktt_tweet_digest">
+<li>Dear everyone, the volleyball team finally won a game thanks to are new puma headbands. Thanks puma store in boulder. You guys rock! <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;4627600353" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>The alabaster donut thus far <a href="http:&#47;&#47;twitpic.com&#47;ki0uj" rel="nofollow">http:&#47;&#47;twitpic.com&#47;ki0uj<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;4660724231" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>What!?!  <a href="http:&#47;&#47;twitpic.com&#47;kig2g" rel="nofollow">http:&#47;&#47;twitpic.com&#47;kig2g<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;4664023557" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Drawing feet is fun. Or did I mean hard? <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;4685168241" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Sarah pisses excellence <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;4699514855" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>It is snowing a very baby amount. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;4709207720" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>I have google wave, Thanks @<a href="http:&#47;&#47;twitter.com&#47;harper" class="aktt_username">harper<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;4737552501" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>RT @atkinsm: I can now cross "eating cow penis" off my list of things to do today. (Me giggling) <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;4747876733" class="aktt_tweet_time">#<&#47;a><&#47;li><br />
+<&#47;ul></p>

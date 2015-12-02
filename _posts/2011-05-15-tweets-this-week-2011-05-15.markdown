@@ -1,0 +1,41 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2011-05-15'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 1315
+wordpress_url: http://www.dylanreed.com/2011/05/15/tweets-this-week-2011-05-15/
+date: '2011-05-15 15:00:00 -0500'
+date_gmt: '2011-05-15 22:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<ul class="aktt_tweet_digest">
+<li>My pampered chef site: <a href="http:&#47;&#47;dylan.la&#47;jd9jcb" rel="nofollow">http:&#47;&#47;dylan.la&#47;jd9jcb<&#47;a> Check it out... Buy Stuff... no one has to know... <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;67553492184743936" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li><a href="http:&#47;&#47;dylan.la&#47;mQ5iP9" rel="nofollow">http:&#47;&#47;dylan.la&#47;mQ5iP9<&#47;a> I really enjoy this song and this group. #<a href="http:&#47;&#47;search.twitter.com&#47;search?q=%23GoKarmin" class="aktt_hashtag">GoKarmin<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;67577222948597760" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>but stomach, i say, i need to eat something.  my stomach ignores me and continues to be a butthead. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;67667897178263552" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li><a href="http:&#47;&#47;dylan.la&#47;l51Kou" rel="nofollow">http:&#47;&#47;dylan.la&#47;l51Kou<&#47;a> Yippee <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;67673526043295746" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>getting ready to draw. but what should I draw? <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;67940491634814976" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>OMG I Drew a Picture: Sidekick <a href="http:&#47;&#47;dylan.la&#47;lRUi6Z" rel="nofollow">http:&#47;&#47;dylan.la&#47;lRUi6Z<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;67980157213876225" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Wordpress is being dumb and not allowing me to crop thumbnails of an image WTF...it is possible that it isn&#039;t their fault. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;67981935204507648" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>I think I will spend part of my day lusting over an iPad... so cool, would make comics so much fun to read, I want... <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;67987677466722304" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Stupid free ipad liars. Plan B: I will give someone a whole buttload of drawings. Let us say 300 for an ipad 2. Any takers <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;67990823081492480" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Penny Arcade! - A Gentlemen&#039;s Evening <a href="http:&#47;&#47;dylan.la&#47;myzA4b" rel="nofollow">http:&#47;&#47;dylan.la&#47;myzA4b<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;68040510375337984" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>This is a fantastic trick: <a href="http:&#47;&#47;dylan.la&#47;mPZLSc" rel="nofollow">http:&#47;&#47;dylan.la&#47;mPZLSc<&#47;a> so slick <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;68352165864947713" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Go team Greeley. Finally something to tweet about besides failing schools and the smell. <a href="http:&#47;&#47;dylan.la&#47;jMdDcS" rel="nofollow">http:&#47;&#47;dylan.la&#47;jMdDcS<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;68380130371837952" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Must move to Seattle NOW: <a href="http:&#47;&#47;dylan.la&#47;ivoR6W" rel="nofollow">http:&#47;&#47;dylan.la&#47;ivoR6W<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;68723572402700288" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>It has been so long since I bought cans of soda that I didn&#039;t know where to look for then at the grocery store. Weird. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;68785525699518464" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Shopping for other people is hard <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;68786438388457473" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Just finished doing some baby hacking. Converting an old laptop hardrive into external. Thanks for the link @<a href="http:&#47;&#47;twitter.com&#47;harper" class="aktt_username">harper<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;68853514427842560" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Have you seen this? <a href="http:&#47;&#47;dylan.la&#47;iUqZc7" rel="nofollow">http:&#47;&#47;dylan.la&#47;iUqZc7<&#47;a> I am at a loss for words, seriously @<a href="http:&#47;&#47;twitter.com&#47;harper" class="aktt_username">harper<&#47;a> this is what your hair should look like. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;69545042380988416" class="aktt_tweet_time">#<&#47;a><&#47;li><br />
+<&#47;ul></p>

@@ -1,0 +1,33 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2009-11-01'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 980
+wordpress_url: http://www.dylanreed.com/2009/11/01/tweets-this-week-2009-11-01/
+date: '2009-11-01 08:00:00 -0600'
+date_gmt: '2009-11-01 16:00:00 -0600'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<ul class="aktt_tweet_digest">
+<li>At o&#39;hare for like 20 minutes <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;5153093928" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Best place for food in O&#39;Hare? Please help <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;5153141653" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>In springfield MO. Almost home <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;5157044449" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Landed safe in denver <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;5160666431" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>I wish our bags would arrive faster so we can get home to our cats <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;5161549299" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>I meant to post this last night: United airlines lost our bag in springfield where we stayed on the same plane. Hope the cheese is ok <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;5177132223" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Is it cool that I want to see ninja assassin? <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;5199691030" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>I think I am turning into a pig. Stay away from me. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;5201011443" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>We are carving stuff <a href="http:&#47;&#47;twitpic.com&#47;nmd3o" rel="nofollow">http:&#47;&#47;twitpic.com&#47;nmd3o<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;5305738561" class="aktt_tweet_time">#<&#47;a><&#47;li><br />
+<&#47;ul></p>

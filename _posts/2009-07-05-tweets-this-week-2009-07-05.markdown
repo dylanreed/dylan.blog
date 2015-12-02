@@ -1,0 +1,40 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2009-07-05'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 961
+wordpress_url: http://www.dylanreed.com/2009/07/05/tweets-this-week-2009-07-05/
+date: '2009-07-05 09:00:00 -0500'
+date_gmt: '2009-07-05 17:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<ul class="aktt_tweet_digest">
+<li>Beautiful<br />
+ <a href="http:&#47;&#47;twitpic.com&#47;8px6t" rel="nofollow">http:&#47;&#47;twitpic.com&#47;8px6t<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2379814002">#<&#47;a><&#47;li></p>
+<li>Our ikea purchase <a href="http:&#47;&#47;twitpic.com&#47;8rs8f" rel="nofollow">http:&#47;&#47;twitpic.com&#47;8rs8f<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2390543596">#<&#47;a><&#47;li>
+<li>Gymnastics anyone? <a href="http:&#47;&#47;twitpic.com&#47;8zi27" rel="nofollow">http:&#47;&#47;twitpic.com&#47;8zi27<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2427114064">#<&#47;a><&#47;li>
+<li>My journey to lactose intolerence part 1 #<a href="http:&#47;&#47;search.twitter.com&#47;search?q=%23dairy">dairy<&#47;a> <a href="http:&#47;&#47;twitpic.com&#47;8zmvt" rel="nofollow">http:&#47;&#47;twitpic.com&#47;8zmvt<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2427672179">#<&#47;a><&#47;li>
+<li>My journey to lactose intolerence part 2 #<a href="http:&#47;&#47;search.twitter.com&#47;search?q=%23dairy">dairy<&#47;a> <a href="http:&#47;&#47;twitpic.com&#47;8zt4e" rel="nofollow">http:&#47;&#47;twitpic.com&#47;8zt4e<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2428395453">#<&#47;a><&#47;li>
+<li>My journey to lactose intolerence pt 3 #<a href="http:&#47;&#47;search.twitter.com&#47;search?q=%23dairy">dairy<&#47;a>  <a href="http:&#47;&#47;twitpic.com&#47;901fd" rel="nofollow">http:&#47;&#47;twitpic.com&#47;901fd<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2429349066">#<&#47;a><&#47;li>
+<li>RT @micah: Hello Boulder. Don't play with Denver, you'll get crabs. Off to Hapa, all are welcome. #<a href="http:&#47;&#47;search.twitter.com&#47;search?q=%23gladtobehome">gladtobehome<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2430380179">#<&#47;a><&#47;li>
+<li><a href="http:&#47;&#47;ginx.com&#47;-xMY2g" rel="nofollow">http:&#47;&#47;ginx.com&#47;-xMY2g<&#47;a> Come and fight me. You know you want to <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2438384076">#<&#47;a><&#47;li>
+<li>So far so good. Thanks to those that have already joined the fight <a href="http:&#47;&#47;ginx.com&#47;-YsBRd" rel="nofollow">http:&#47;&#47;ginx.com&#47;-YsBRd<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2439019417">#<&#47;a><&#47;li>
+<li>Supergymnast Dylan is a go!!!!! <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2445433272">#<&#47;a><&#47;li>
+<li>It has begun, come and fight the FightNinja <a href="http:&#47;&#47;ginx.com&#47;-j22Y7" rel="nofollow">http:&#47;&#47;ginx.com&#47;-j22Y7<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2454123425">#<&#47;a><&#47;li>
+<li>Fourth of Fight for Freedom!! <a href="http:&#47;&#47;ginx.com&#47;-FxbBk" rel="nofollow">http:&#47;&#47;ginx.com&#47;-FxbBk<&#47;a> Join me or parish!! <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2457032982">#<&#47;a><&#47;li>
+<li>What I'm working on <a href="http:&#47;&#47;twitpic.com&#47;9a2gx" rel="nofollow">http:&#47;&#47;twitpic.com&#47;9a2gx<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2471188027">#<&#47;a><&#47;li>
+<li>Other workings today <a href="http:&#47;&#47;twitpic.com&#47;9aot5" rel="nofollow">http:&#47;&#47;twitpic.com&#47;9aot5<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2472855377">#<&#47;a><&#47;li>
+<li>Body so sore. Wood floors + painting my warhammer army is a poor combination. Need BBQ then a bath, my two favorite 'b' words. Feed me! <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2475371356">#<&#47;a><&#47;li><br />
+<&#47;ul></p>

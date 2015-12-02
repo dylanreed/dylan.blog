@@ -1,0 +1,26 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2009-07-26'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 966
+wordpress_url: http://www.dylanreed.com/2009/07/26/tweets-this-week-2009-07-26/
+date: '2009-07-26 09:00:00 -0500'
+date_gmt: '2009-07-26 17:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<ul class="aktt_tweet_digest">
+<li>CS4 keeps crashing on new MacBook pro. Why adobe, why? <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2772102715">#<&#47;a><&#47;li>
+<li>@<a href="http:&#47;&#47;twitter.com&#47;skaw">skaw<&#47;a> what are you reading comic book wise? <a href="http:&#47;&#47;twitter.com&#47;skaw&#47;statuses&#47;2820586463">in reply to skaw<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2822362424">#<&#47;a><&#47;li><br />
+<&#47;ul></p>

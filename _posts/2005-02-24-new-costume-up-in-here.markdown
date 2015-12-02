@@ -1,0 +1,25 @@
+---
+layout: post
+status: publish
+published: true
+title: New costume up in here
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: http://www.dylanreed.com
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: http://www.dylanreed.com
+wordpress_id: 143
+wordpress_url: http://dylanreed.org/?p=143
+date: '2005-02-24 10:11:09 -0600'
+date_gmt: '2005-02-24 16:11:09 -0600'
+categories: []
+tags:
+- Clown
+comments: []
+---
+<p>So my new clown costume came here is the <a href="http:&#47;&#47;dylanreed.org&#47;media&#47;album01&#47;thursday_december_09_2004_10">sketch<&#47;a><br />
+in reality it ids so much bigger<br />
+ i know weird</p>

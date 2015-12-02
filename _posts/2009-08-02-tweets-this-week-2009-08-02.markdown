@@ -1,0 +1,28 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2009-08-02'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 967
+wordpress_url: http://www.dylanreed.com/2009/08/02/tweets-this-week-2009-08-02/
+date: '2009-08-02 09:00:00 -0500'
+date_gmt: '2009-08-02 17:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<ul class="aktt_tweet_digest">
+<li>What we just attempted. BBQ FTW <a href="http:&#47;&#47;twitpic.com&#47;bqpak" rel="nofollow">http:&#47;&#47;twitpic.com&#47;bqpak<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2858424445">#<&#47;a><&#47;li>
+<li>You want us, you know you do <a href="http:&#47;&#47;twitpic.com&#47;c32t8" rel="nofollow">http:&#47;&#47;twitpic.com&#47;c32t8<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2921162200">#<&#47;a><&#47;li>
+<li><a href="http:&#47;&#47;ginx.com&#47;-sAHLy" rel="nofollow">http:&#47;&#47;ginx.com&#47;-sAHLy<&#47;a> flooding sucks, even in 1976, remember to climb to higher ground during a flash flood <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2952032940">#<&#47;a><&#47;li>
+<li>Sarah and I got ditched for breakfast this morning. Up for no reason. Lame <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3086317523">#<&#47;a><&#47;li><br />
+<&#47;ul></p>

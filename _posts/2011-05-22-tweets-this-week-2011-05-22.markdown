@@ -1,0 +1,28 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2011-05-22'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 1316
+wordpress_url: http://www.dylanreed.com/2011/05/22/tweets-this-week-2011-05-22/
+date: '2011-05-22 15:00:00 -0500'
+date_gmt: '2011-05-22 22:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<ul class="aktt_tweet_digest">
+<li>So fluffy!! <a href="http:&#47;&#47;t.co&#47;TyoJzVz" rel="nofollow">http:&#47;&#47;t.co&#47;TyoJzVz<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;69811935998259200" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>First day at graphicly was fun. Learned a lot. Saw where the magic happens. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;70673749309014016" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>When working from home, check the weather before walking outside. Sometimes it rains and it is a good thing to be ready for. #<a href="http:&#47;&#47;search.twitter.com&#47;search?q=%23protip" class="aktt_hashtag">protip<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;70965722582491136" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Fresh mango salsa and pineapple anyone.  <a href="http:&#47;&#47;t.co&#47;8kIMwXA" rel="nofollow">http:&#47;&#47;t.co&#47;8kIMwXA<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;72094933812645888" class="aktt_tweet_time">#<&#47;a><&#47;li><br />
+<&#47;ul></p>

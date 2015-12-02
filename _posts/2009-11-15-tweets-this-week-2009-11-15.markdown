@@ -1,0 +1,31 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2009-11-15'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 982
+wordpress_url: http://www.dylanreed.com/2009/11/15/tweets-this-week-2009-11-15/
+date: '2009-11-15 08:00:00 -0600'
+date_gmt: '2009-11-15 16:00:00 -0600'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<ul class="aktt_tweet_digest">
+<li>does anyone else think it is odd that the star trek sign and the logo for the CMAs are strangely similar? <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;5605615881" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Starting ink drawing today, I am going to be really bad at this <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;5620245526" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>While I am enjoying the messy portion of ink drawing I am not enjoying the drawing part <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;5622029337" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Are books on tape better when they are actually on tape? <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;5625843791" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Running late today. And I need newsprint. Damn <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;5652314034" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Dragonage or modern warfare 2.  Please help. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;5663132242" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Modern Warfare two it is. Any xbox 360 folks wanna swap gamertags? I should have the game tomorrow or Saturday. Yippee! <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;5669383180" class="aktt_tweet_time">#<&#47;a><&#47;li><br />
+<&#47;ul></p>

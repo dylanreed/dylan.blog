@@ -1,0 +1,41 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2009-07-12'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 962
+wordpress_url: http://www.dylanreed.com/2009/07/12/tweets-this-week-2009-07-12/
+date: '2009-07-12 09:00:00 -0500'
+date_gmt: '2009-07-12 17:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<ul class="aktt_tweet_digest">
+<li>All of the wood floors except the stairs are done. Almost one year since we started. Go us! A big shout out to the parents for food and help <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2484720509">#<&#47;a><&#47;li>
+<li>Guess what time it is? <a href="http:&#47;&#47;twitpic.com&#47;9g8dk" rel="nofollow">http:&#47;&#47;twitpic.com&#47;9g8dk<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2489472563">#<&#47;a><&#47;li>
+<li>Hate you so hard <a href="http:&#47;&#47;twitpic.com&#47;9im7c" rel="nofollow">http:&#47;&#47;twitpic.com&#47;9im7c<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2501249354">#<&#47;a><&#47;li>
+<li>Crazy tile <a href="http:&#47;&#47;twitpic.com&#47;9lous" rel="nofollow">http:&#47;&#47;twitpic.com&#47;9lous<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2516500980">#<&#47;a><&#47;li>
+<li>Why my cat is going to kill me tonight  <a href="http:&#47;&#47;twitpic.com&#47;9lucu" rel="nofollow">http:&#47;&#47;twitpic.com&#47;9lucu<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2517329605">#<&#47;a><&#47;li>
+<li>Sarah is awesome <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2517908585">#<&#47;a><&#47;li>
+<li>Building was locked, thought I had no school, alas I do. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2518489574">#<&#47;a><&#47;li>
+<li>Two 15 year olds, my parents, Sarah and I at the melting pot; someone's getting burned <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2524362746">#<&#47;a><&#47;li>
+<li>Interesting article about the Undersea Voyager Project <a href="http:&#47;&#47;ginx.com&#47;-MRSxU" rel="nofollow">http:&#47;&#47;ginx.com&#47;-MRSxU<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2532454286">#<&#47;a><&#47;li>
+<li>Bad driver <a href="http:&#47;&#47;twitpic.com&#47;9p953" rel="nofollow">http:&#47;&#47;twitpic.com&#47;9p953<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2536001109">#<&#47;a><&#47;li>
+<li>My hair is awesome!! <a href="http:&#47;&#47;twitpic.com&#47;9t0c1" rel="nofollow">http:&#47;&#47;twitpic.com&#47;9t0c1<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2554538152">#<&#47;a><&#47;li>
+<li>Who is that guy? <a href="http:&#47;&#47;twitpic.com&#47;9t9bm" rel="nofollow">http:&#47;&#47;twitpic.com&#47;9t9bm<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2555595296">#<&#47;a><&#47;li>
+<li>Zots kick every other candies ass <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2561604343">#<&#47;a><&#47;li>
+<li>Bad drivers <a href="http:&#47;&#47;twitpic.com&#47;9y6zv" rel="nofollow">http:&#47;&#47;twitpic.com&#47;9y6zv<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2576812841">#<&#47;a><&#47;li>
+<li>Half of first unit <a href="http:&#47;&#47;twitpic.com&#47;a2wn6" rel="nofollow">http:&#47;&#47;twitpic.com&#47;a2wn6<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2592822363">#<&#47;a><&#47;li>
+<li>Sarah's tweet treat <a href="http:&#47;&#47;twitpic.com&#47;a2yv7" rel="nofollow">http:&#47;&#47;twitpic.com&#47;a2yv7<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2593017328">#<&#47;a><&#47;li>
+<li>My tweet treat <a href="http:&#47;&#47;twitpic.com&#47;a2z10" rel="nofollow">http:&#47;&#47;twitpic.com&#47;a2z10<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2593030498">#<&#47;a><&#47;li><br />
+<&#47;ul></p>

@@ -1,0 +1,24 @@
+---
+layout: post
+status: publish
+published: true
+title: prius
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: http://www.dylanreed.com
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: http://www.dylanreed.com
+wordpress_id: 95
+wordpress_url: http://dylanreed.org/?p=95
+date: '2004-01-09 08:30:05 -0600'
+date_gmt: '2004-01-09 14:30:05 -0600'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<p>TOday i saw a prius, its a toyota. i almost like it better then the mini. i like that it is a hybrid. it is expensive and i'll probably never get either so that sux. i start school on monday. doh.</p>
+<p>dylan</p>

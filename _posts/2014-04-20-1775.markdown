@@ -1,0 +1,25 @@
+---
+layout: post
+status: publish
+published: true
+title: Cadaver
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: http://www.dylanreed.com
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: http://www.dylanreed.com
+wordpress_id: 1775
+wordpress_url: http://www.dylanreed.com/?p=1775
+date: '2014-04-20 17:33:24 -0500'
+date_gmt: '2014-04-21 00:33:24 -0500'
+categories:
+- Awesome
+tags:
+- Projects
+- writing
+comments: []
+---
+<p>Don't forget a new part to the story every Monday morning: <a href="http:&#47;&#47;fancycadaver.com">FancyCadaver.com<&#47;a></p>

@@ -1,0 +1,69 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2009-04-19'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 915
+wordpress_url: http://www.dylanreed.com/2009/04/19/tweets-this-week-2009-04-19/
+date: '2009-04-19 09:00:00 -0500'
+date_gmt: '2009-04-19 17:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments:
+- id: 45676
+  author: Agnes
+  author_email: blackjetta.agnes@gmail.com
+  author_url: http://knockknockingblog.blogspot.com/
+  date: '2009-04-19 10:55:57 -0500'
+  date_gmt: '2009-04-19 18:55:57 -0500'
+  content: Love your blog layout!
+- id: 45677
+  author: Dylan
+  author_email: dylan@dylanreed.com
+  author_url: http://www.dylanreed.com
+  date: '2009-04-20 03:34:14 -0500'
+  date_gmt: '2009-04-20 11:34:14 -0500'
+  content: Me too. I finally found a theme that I like and took the time to make it
+    mine.
+- id: 45681
+  author: Another Dylan
+  author_email: dreed2010@gmail.com
+  author_url: ''
+  date: '2009-04-23 14:21:05 -0500'
+  date_gmt: '2009-04-23 22:21:05 -0500'
+  content: hey I googled myself and this came up. I wouldnt mind talking to you, you
+    seem pretty cool and we have some things in common. Let me know if you want to
+    talk.
+---
+<ul class="aktt_tweet_digest">
+<li>Cleaning energy fading. Help!! <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;1503010407">#<&#47;a><&#47;li>
+<li>Nachos after dying easter eggs is awesome <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;1504004502">#<&#47;a><&#47;li>
+<li>Spanish class, then history studying; when will it end <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;1509196458">#<&#47;a><&#47;li>
+<li>Writing a paper of the historical inaccuracies in 300 and drinking San Pellegrino. Just finished my slurpee from jhruth <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;1510539933">#<&#47;a><&#47;li>
+<li>That was a good slurpee. What to do for lunch? <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;1510694451">#<&#47;a><&#47;li>
+<li>Finished two pages of paper and finished a character for game night tomorrow. Must eat lunch <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;1511651742">#<&#47;a><&#47;li>
+<li>working for the weekend, everybody wants to do a dance. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;1516860605">#<&#47;a><&#47;li>
+<li>Slurpee fund is getting low. :( <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;1518384193">#<&#47;a><&#47;li>
+<li><a href="http:&#47;&#47;ginx.com&#47;-C1q5C" rel="nofollow">http:&#47;&#47;ginx.com&#47;-C1q5C<&#47;a> SLURPEES <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;1518440765">#<&#47;a><&#47;li>
+<li>No game night. Instead it is a history night. Lame. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;1520832713">#<&#47;a><&#47;li>
+<li>Not dedicated today. Stupid tired <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;1524714501">#<&#47;a><&#47;li>
+<li>not very motivated today. This is what happens when game night is canceled. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;1528027096">#<&#47;a><&#47;li>
+<li>Slurpee time thanks @<a href="http:&#47;&#47;twitter.com&#47;reedbooks">reedbooks<&#47;a> (whois mom) <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;1536168668">#<&#47;a><&#47;li>
+<li>Yea! The first of the spring showers <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;1536778283">#<&#47;a><&#47;li>
+<li>Tricked my self into studying because I only brought my history book. Let it begin! <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;1544677278">#<&#47;a><&#47;li>
+<li>First showing is a no show. Come on, I was up early enough to make it here. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;1551067622">#<&#47;a><&#47;li>
+<li>So far no-shows 2 shows 0. Lame <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;1551382153">#<&#47;a><&#47;li>
+<li>No shows: 3 Shows: 1 <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;1551709755">#<&#47;a><&#47;li>
+<li>No shows: 3 Shows: 2 <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;1551875609">#<&#47;a><&#47;li>
+<li>No shows: 4 Shows: 2. No Shows Win!! <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;1552028381">#<&#47;a><&#47;li>
+<li>headed to a movie. Go us <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;1555153303">#<&#47;a><&#47;li><br />
+<&#47;ul></p>

@@ -1,0 +1,48 @@
+---
+layout: post
+status: publish
+published: true
+title: i do stuff
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: http://www.dylanreed.com
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: http://www.dylanreed.com
+wordpress_id: 907
+wordpress_url: http://www.dylanreed.com/?p=907
+date: '2009-04-15 13:59:47 -0500'
+date_gmt: '2009-04-15 21:59:47 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<p><a href="http:&#47;&#47;www.dylanreed.com&#47;wp-content&#47;uploads&#47;2009&#47;04&#47;idostuff.jpg"><img class="size-medium wp-image-906 alignright" title="idostuff" src="http:&#47;&#47;www.dylanreed.com&#47;wp-content&#47;uploads&#47;2009&#47;04&#47;idostuff-300x204.jpg" alt="idostuff" width="240" height="163" &#47;><&#47;a></p>
+<p class="MsoNormal">In a world gone mad with too many things, where are you going to look for help getting stuff done? You&rsquo;re going to look to me, Dylan Reed. I do stuff. Any stuff. I have been doing stuff for a number of years and am very skilled at doing stuff.<&#47;p></p>
+<p class="MsoNormal">This is how I feel a lot of the time. Due to the wondering nature of my brain I have found it hard for me to enjoy any single job for longer than a couple of months. I don&rsquo;t have a problem keep jobs, I just have a hard time finding one that I enjoy a bunch. I wish that there was one career that I found so interesting I wanted to do nothing else. Unfortunately I have yet to find such a career.<&#47;p></p>
+<p class="MsoNormal">On top of that the economy sucks, surprised? This means that finding jobs is more difficult than ever for many people and this makes it harder to get out of a job you dislike. What I am going to try to do, over the next weeks and months, is become a paid doer of stuff. This should be simple to figure out but hard to execute.<&#47;p></p>
+<p class="MsoNormal">Everyone has something that they dislike doing or don&rsquo;t have time to do, that is where I come in. I will do anything* and you pay me for my time. This is almost an on-call service once it is set up and will save you time in the long run. I have experience doing many odd jobs:<&#47;p></p>
+<p class="MsoListParagraphCxSpFirst"><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <&#47;span><&#47;span><&#47;span>Entertaining<&#47;p></p>
+<p class="MsoListParagraphCxSpMiddle"><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <&#47;span><&#47;span><&#47;span>General Household Maintenance<&#47;p></p>
+<p class="MsoListParagraphCxSpMiddle"><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <&#47;span><&#47;span><&#47;span>General Household Chores<&#47;p></p>
+<p class="MsoListParagraphCxSpMiddle"><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <&#47;span><&#47;span><&#47;span>Helping pack for moving<&#47;p></p>
+<p class="MsoListParagraphCxSpMiddle"><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <&#47;span><&#47;span><&#47;span>Picking up dog waste before parties&#47;gatherings<&#47;p></p>
+<p class="MsoListParagraphCxSpMiddle"><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <&#47;span><&#47;span><&#47;span>Hosting events<&#47;p></p>
+<p class="MsoListParagraphCxSpMiddle"><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <&#47;span><&#47;span><&#47;span>Being an MC<&#47;p></p>
+<p class="MsoListParagraphCxSpMiddle"><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <&#47;span><&#47;span><&#47;span>Babysitting, no diapers<&#47;p></p>
+<p class="MsoListParagraphCxSpMiddle"><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <&#47;span><&#47;span><&#47;span>Pet sitting&#47;vet visits<&#47;p></p>
+<p class="MsoListParagraphCxSpMiddle"><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <&#47;span><&#47;span><&#47;span>Basic Web design<&#47;p></p>
+<p class="MsoListParagraphCxSpMiddle"><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <&#47;span><&#47;span><&#47;span>Graphic Design<&#47;p></p>
+<p class="MsoListParagraphCxSpMiddle"><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <&#47;span><&#47;span><&#47;span>Writing<&#47;p></p>
+<p class="MsoListParagraphCxSpMiddle"><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <&#47;span><&#47;span><&#47;span>Driving<&#47;p></p>
+<p class="MsoListParagraphCxSpMiddle"><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <&#47;span><&#47;span><&#47;span>Messenger&#47;Local Delivery<&#47;p></p>
+<p class="MsoListParagraphCxSpMiddle"><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <&#47;span><&#47;span><&#47;span>Cooking&#47;Baking<&#47;p></p>
+<p class="MsoListParagraphCxSpMiddle"><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <&#47;span><&#47;span><&#47;span>Search and Recovery Diving<&#47;p></p>
+<p class="MsoListParagraphCxSpMiddle"><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <&#47;span><&#47;span><&#47;span>Underwater cleaning of Boats<&#47;p></p>
+<p class="MsoListParagraphCxSpLast"><span><span>&middot;<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <&#47;span><&#47;span><&#47;span>More...<&#47;p></p>
+<p class="MsoNormal">As you can see I have done a lot, mostly as hobbies, and I didn&rsquo;t even include anything I learned from jobs that I have had. That is boring stuff like cash handling, alphabetizing videos, making coffee, property management and hanging out with developmentally disabled folks.<&#47;p></p>
+<p class="MsoNormal">&nbsp;<&#47;p></p>
+<p class="MsoNormal">*not that, sicko<&#47;p></p>

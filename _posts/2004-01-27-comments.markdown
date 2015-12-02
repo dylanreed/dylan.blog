@@ -1,0 +1,24 @@
+---
+layout: post
+status: publish
+published: true
+title: comments
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: http://www.dylanreed.com
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: http://www.dylanreed.com
+wordpress_id: 108
+wordpress_url: http://dylanreed.org/?p=108
+date: '2004-01-27 11:06:15 -0600'
+date_gmt: '2004-01-27 17:06:15 -0600'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<p>So i keep getting weird comments on my entries like thesethere are others and it confuses me alot.</p>
+<p>so my birthday is soon and I can hardly wait. I want all sorts of goodies. I want a new <a href="http:&#47;&#47;www.unicycle.com&#47;shopping&#47;shopexd.asp?id=634">unicycle<&#47;a><a href="http:&#47;&#47;www.unicycle.com&#47;shopping&#47;shopexd.asp?id=608">with this as well<&#47;a>, <a href="http:&#47;&#47;www.dube.com">three pink and three yellow dube poly cigar boxes<&#47;a>, <a href="http:&#47;&#47;www.renegadejuggling.com">a 7.5" red renegade stage ball<&#47;a>, a <a href="http:&#47;&#47;www.amazon.com&#47;gp&#47;registry&#47;2J3BIKV2IPXLI">couple movies <&#47;a>and this</p>

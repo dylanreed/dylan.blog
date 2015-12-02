@@ -1,0 +1,28 @@
+---
+layout: post
+status: publish
+published: true
+title: Tat
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 163
+wordpress_url: http://www.dylanreed.org/2005/05/11/tat/
+date: '2005-05-11 16:36:13 -0500'
+date_gmt: '2005-05-11 23:36:13 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<p>So i realized that i haven't told some of my friends about my tattoo so here are pictures<br />
+<a href="http:&#47;&#47;nata2.info&#47;?path=pictures%2Fevents%2F2003%3A10%3A11_dylan_and_meghan_visits&img=dylans%20visit%20008.jpg">One<&#47;a><br />
+<a href="http:&#47;&#47;nata2.info&#47;?path=pictures%2Fevents%2F2003%3A10%3A11_dylan_and_meghan_visits&img=dylans%20visit%20006.jpg">Two<&#47;a><br />
+<a href="http:&#47;&#47;nata2.info&#47;?path=pictures%2Fevents%2F2003%3A10%3A11_dylan_and_meghan_visits&img=dylans%20visit%20003.jpg">Three<&#47;a><br />
+<a href="http:&#47;&#47;nata2.info&#47;?path=pictures%2Fevents%2F2003%3A10%3A11_dylan_and_meghan_visits&img=dylans%20visit%20015.jpg">Four<&#47;a><br />
+oh wait don't lookat four</p>

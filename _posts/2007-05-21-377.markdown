@@ -1,0 +1,25 @@
+---
+layout: post
+status: publish
+published: true
+title: The car I want is smarter then the car you want
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: http://www.dylanreed.com
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: http://www.dylanreed.com
+wordpress_id: 377
+wordpress_url: http://www.dylanreed.org/2007/05/21/377/
+date: '2007-05-21 08:38:39 -0500'
+date_gmt: '2007-05-21 14:38:39 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<p><a href="http:&#47;&#47;www.smartusa.com&#47;index.html"><img src="http:&#47;&#47;farm1.static.flickr.com&#47;228&#47;507801438_98f3bb1ddb.jpg?v=0" align="left" height="255" width="391" &#47;><&#47;a>This is the<a href="http:&#47;&#47;www.smartusa.com&#47;index.html"> car<&#47;a> that I want to get. It is a smart car and they are coming to America in 2008. Awesome! I figure that one of these cost as much as a nice motorcycle and would be more comfprtable to travel in. So Sarah and I can just get one of these. I also think that as a clown it would be the ultimate vehicle. I know just need to make enough money clowning to justify getting one of these.</p>
+<p>These cars are only 8 feet long and 5 foot wide and tall. They have a top speed of 90mph and get around 40 mpg. Because of their size you can fit two smart cars in one parking spot, or Sarah and I could fit two inside our one car garage.</p>
+<p>Awesome</p>

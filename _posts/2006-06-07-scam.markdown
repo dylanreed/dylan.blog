@@ -1,0 +1,24 @@
+---
+layout: post
+status: publish
+published: true
+title: scam
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: http://www.dylanreed.com
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: http://www.dylanreed.com
+wordpress_id: 219
+wordpress_url: http://www.dylanreed.org/2006/06/07/scam/
+date: '2006-06-07 12:04:15 -0500'
+date_gmt: '2006-06-07 19:04:15 -0500'
+categories: []
+tags:
+- Clown
+comments: []
+---
+<p><a href="http:&#47;&#47;en.wikipedia.org&#47;wiki&#47;Project_Alpha">Alpha project<&#47;a> <a href="http:&#47;&#47;www.banachek.org&#47;">banachek<&#47;a> <a href="http:&#47;&#47;en.wikipedia.org&#47;wiki&#47;Uri_Geller">Uri<&#47;a> and the best <a href="http:&#47;&#47;www.peterpopoff.org&#47;">Peter Popoff<&#47;a></p>
+<p><a href="http:&#47;&#47;www.darat.org&#47;~dimossi&#47;James.Randi.debunking.on.Tonight.Show.wmv">Exposed<&#47;a></p>

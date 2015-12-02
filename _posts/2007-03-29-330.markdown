@@ -1,0 +1,38 @@
+---
+layout: post
+status: publish
+published: true
+title: Learning street magic with a better website
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: http://www.dylanreed.com
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: http://www.dylanreed.com
+wordpress_id: 330
+wordpress_url: http://www.dylanreed.org/2007/03/29/330/
+date: '2007-03-29 22:00:53 -0500'
+date_gmt: '2007-03-30 04:00:53 -0500'
+categories: []
+tags:
+- Usability
+comments: []
+---
+<p><a href="http:&#47;&#47;www.ellusionist.com">Ellusionist.com<&#47;a> is a site that has capitalized on the popularity of David Blaine and the whole street magic thing. They are a bunch of really good magicians who seem to grasp the importance of a webpresence. They sell magic tricks and DVDs as well as any supplies that you might need to do magic. Their site is very well laid out and very fancy looking. However, in my opinion there are some minor problems:</p>
+<ul>
+<li><strong>One<&#47;strong>- They have there <a href="http:&#47;&#47;www.ellusionist.com&#47;cart&#47;category.php?cat=80">coin trick DVDs<&#47;a> divided up into categories and then by skill level. This makes sense except that in certain categories the same trick ends up in both categories. This is just confusing, if I was looking for magic tricks for someone and I knew they where just starting out in magic I would look in the beginnercategory. In the beginner category of coin tricks there is a trick call Silver Dream and a trick called Fraud. Both of these tricks also show up under the intermediate and up category as well. This seems to be a cheap trick to sell certain tricks, in fact, I have noticed that they only seem to do this on tricks and DVDs thatEllusionist has produced. Basically, if it is a beginner trick put it in the beginner category if is harder then that put it in the intermediate category.<&#47;li><br />
+<&#47;ul></p>
+<ul>
+<li><strong>Two<&#47;strong>- They have no other <a href="http:&#47;&#47;www.ellusionist.com&#47;cart&#47;category.php?cat=95">categories<&#47;a> of tricks divided that way. Under card tricks it doesn't give the option to view easier tricks or harder tricks. I think that if you are going to offer the feature in one area, then it should be in all areas. I find it frustrating when I am looking for a trick and I want amoderately hard trick I want to be able to find tricks of that general difficulty level so I don't order a trick that is way out of my league.<&#47;li><br />
+<&#47;ul><br />
+<strong><code style="color: blue"><!--adsense--><&#47;code><&#47;strong></p>
+<ul><&#47;ul></p>
+<ul>
+<li><strong>Three<&#47;strong>- Another thing that really gets me about the site is the preview videos. I use <a href="http:&#47;&#47;www.mozilla.com&#47;en-US&#47;firefox&#47;">Mozilla FireFox<&#47;a> almost exclusively, as such I open a lot of tabs while browsing. Since they have preview videos on almost every big trick I get a sound overload. Plus they have two separate video formats that they use. <a href="http:&#47;&#47;www.ellusionist.com&#47;order&#47;Stigmata-by-Wayne-Houchin.php?cat=95">One<&#47;a> starts as it is loading and the <a href="http:&#47;&#47;www.ellusionist.com&#47;order&#47;KAOS-Card-Through-Window_Garcia.php?cat=95">other<&#47;a> where you have to click on the play button. I prefer the ones that let me choose when it plays. That way I can open up all of the tricks I want and I can listen to my music until I want to watch the previews. A lot of times I don't even watch the video. If the description doesn't grab me I don't need to see a video that is some really talented magician doing the trick after years of practice.<&#47;li><br />
+<&#47;ul></p>
+<ul>
+<li><strong>Four<&#47;strong>- They allow you to have an account for their store. This is a great feature that most eStore sites have. I would like the system to be smarter. I want it to know what I have ordered, not so much to show me my order history but to make smarter recommendations . When you add something to your cart it <a href="http:&#47;&#47;www.ellusionist.com&#47;order&#47;ups&#47;KAOS-Upsell.php">suggests<&#47;a> things that you might enjoy with the item you ordered. That by itself is a great feature but I dislike being told that I might enjoy things that I have already purchased. I think that it would be better to suggest common items that you need to replace, like playing cards or sharpies, or even better make the suggestions less obtrusive so you can ignore them without clicking on another button. The feature would be great if you didn't have to view it in order to check out. If it was a sidebar you could view your order and move on. If, however, you needed to get something else there is a chance you could find it quickly.<&#47;li><br />
+<&#47;ul><br />
+I would like to say that overall <a href="http:&#47;&#47;www.ellusionist.com">Ellusionist.com<&#47;a> is a great site that allows for users to find what they need fairly easily. Changing a few things to make the site more consistent will go a long way towards making this site into a site that is enjoyable for all people to view.</p>

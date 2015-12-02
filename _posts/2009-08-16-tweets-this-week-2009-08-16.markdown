@@ -1,0 +1,41 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2009-08-16'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 969
+wordpress_url: http://www.dylanreed.com/2009/08/16/tweets-this-week-2009-08-16/
+date: '2009-08-16 09:00:00 -0500'
+date_gmt: '2009-08-16 17:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments:
+- id: 45788
+  author: jdw
+  author_email: jd.whittenburg@atmosenergy.com
+  author_url: ''
+  date: '2009-08-18 07:51:16 -0500'
+  date_gmt: '2009-08-18 15:51:16 -0500'
+  content: "First off - my wife and I took the handmade pledge months ago.  We travel
+    around like Carnies selling her handmade goods at places like Renegade Chicago
+    next month.  Glad to see a fellow Creator of Things!\r\n\r\nSecondly, I am the
+    voice of @atmosenergy on Twitter. I was sorry to see you were recently disappointed
+    with our service.  We actually work very hard to provide our customers with the
+    highest level of service possible.  Email me at the address I have provided if
+    I can help in any way.\r\n\r\nBest of luck to you, \r\n\r\njd"
+---
+<ul class="aktt_tweet_digest">
+<li>Listening to Van halen&#39;s jump and getting ready for volleyball <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3215339407" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Just saw a dude in full tilt poker hat and shirt with a fanny pack and a discman smoking while jogging. Coolest guy ever! <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3317732482" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>RT @harper: "They stand with one leg, how can you trust them" - hiromi about flamingos. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3337892027" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Come on food place give me food. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3337988482" class="aktt_tweet_time">#<&#47;a><&#47;li><br />
+<&#47;ul></p>

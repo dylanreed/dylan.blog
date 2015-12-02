@@ -1,0 +1,26 @@
+---
+layout: post
+status: publish
+published: true
+title: Magic
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: http://www.dylanreed.com
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: http://www.dylanreed.com
+wordpress_id: 298
+wordpress_url: http://www.dylanreed.org/2006/03/07/magic/
+date: '2006-03-07 08:18:17 -0600'
+date_gmt: '2006-03-07 14:18:17 -0600'
+categories: []
+tags:
+- Clown
+comments: []
+---
+<p>So today I sat down and made a plan. A magic plan. I looked over all of the magic stuff that I own: Tricks, Books, Videos and Supplies; and I realized something. I need to start mastering that stuff.</p>
+<p>I own probably $500 worth of Magic stuff and I know probably 10 tricks well enough to perform. I need to practice more and learn more. I am going to really focus on the basics of Slight of Hand, that way when I do tricks the basic will be solid. It is like in olympic figure skating; you may have one super awesome skill but if the basics suck, no one cares.</p>
+<p>I am hoping to start ruling magic in a way I haven't ruled it before. I am not going to buy anything else magic related(except for cards) until I have master 90% of the tricks I already have.</p>
+<p>I am going to follow the same principle on juggling, yoyo and all other areas of skill in my clowning.</p>

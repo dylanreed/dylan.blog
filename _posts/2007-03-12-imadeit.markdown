@@ -1,0 +1,25 @@
+---
+layout: post
+status: publish
+published: true
+title: IMADEIT
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: http://www.dylanreed.com
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: http://www.dylanreed.com
+wordpress_id: 275
+wordpress_url: http://www.dylanreed.org/2007/03/12/imadeit/
+date: '2007-03-12 10:40:26 -0500'
+date_gmt: '2007-03-12 16:40:26 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<p>So recently I have started an <a href="http:&#47;&#47;imadeit.myshopify.com">online<&#47;a> store. It is where I am going to sell all of the stuff that I sell. everything will be made to order as well as everything is availible for custom orders. Please spread the word so I can make lots and lots of money as well as have an excuse to sew and make all sorts of awesome things. Right now their aren't a lot of pictures up but this week the pictures will go up.<&#47;p></p>
+<p>Also, thanks to the taxman, our money problems, while not over, may be more under control. It will be awesome.<br />
+<&#47;p></p>

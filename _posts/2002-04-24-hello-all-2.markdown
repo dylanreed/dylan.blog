@@ -1,0 +1,40 @@
+---
+layout: post
+status: publish
+published: true
+title: Hello All
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: http://www.dylanreed.com
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: http://www.dylanreed.com
+wordpress_id: 12
+wordpress_url: http://dylanreed.org/?p=12
+date: '2002-04-24 01:10:00 -0500'
+date_gmt: '2002-04-24 07:10:00 -0500'
+categories: []
+tags:
+- Sea Monsters
+- School
+comments:
+- id: 22
+  author: Sarah
+  author_email: ''
+  author_url: ''
+  date: '2002-04-24 12:36:00 -0500'
+  date_gmt: ''
+  content: You shouldn't be saying fk at school anyway!
+- id: 23
+  author: Dylan
+  author_email: dylan@dylanreed.org
+  author_url: http://www.dylanreed.org
+  date: '2002-04-24 11:04:00 -0500'
+  date_gmt: ''
+  content: |
+    i don't say fk at school
+---
+<p>how are you all doing today. i am ggod except that I was in colorado this weekend and now i am not.it is sad boohoo. anyhoo. I started open tanks today. my teacher is MASTER DIVER Bob Cave. Bob is a really nice man who knows what the f<strong>k he is talking about. Oh and if you say F<&#47;strong>k in front of him you have to do 20 pushups. its funny. This class is about diving mechanics and practical aplication of our knowledge gained thus far. I think it is interesting because it means in 3 more class days i'll be getting in the water. it is so cool. my phone is starting to die. the battery charge is only holding for about 1 hour now it sux. i am looking at new phones but they cost money so please pay pal me money. harper can you set up paypal on my sight so people can donate me money for a new phone thanx. any way. you guys should all have a good couple of days and i'll be back with a nother update of my school. oh by the way i made the deans list again. doing the happy dance, doing the happy dance. woohoo.</p>
+<p>I love you harper(happy now). I love you sarah and you are very pretty and i miss you. i love you mom and dad to. when i smothers day?? Love you guys dylan</p>

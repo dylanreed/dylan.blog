@@ -1,0 +1,38 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2011-02-13'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 1207
+wordpress_url: http://www.dylanreed.com/2011/02/13/tweets-this-week-2011-02-13/
+date: '2011-02-13 15:00:00 -0600'
+date_gmt: '2011-02-13 23:00:00 -0600'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<ul class="aktt_tweet_digest">
+<li>OMG I Drew a Picture: Chipmunk <a href="http:&#47;&#47;dylan.la&#47;ePSiIw" rel="nofollow">http:&#47;&#47;dylan.la&#47;ePSiIw<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;35703895242047488" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>OMG I Drew a Picture: Manga Girl <a href="http:&#47;&#47;dylan.la&#47;hSG6Ca" rel="nofollow">http:&#47;&#47;dylan.la&#47;hSG6Ca<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;35728053342576640" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>? 4 @<a href="http:&#47;&#47;twitter.com&#47;detour1999" class="aktt_username">detour1999<&#47;a>: Thanks for the offer of help. I will get the graphics handled and sent to you ASAP <a href="http:&#47;&#47;star.me&#47;unclaimed&#47;4681#link&#47;284" rel="nofollow">http:&#47;&#47;star.me&#47;unclaimed&#47;4681#link&#47;284<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;36040508308463616" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>? 4 @<a href="http:&#47;&#47;twitter.com&#47;krisstraub" class="aktt_username">krisstraub<&#47;a>: You know this man!! <a href="http:&#47;&#47;star.me&#47;unclaimed&#47;4897#link&#47;28425" rel="nofollow">http:&#47;&#47;star.me&#47;unclaimed&#47;4897#link&#47;28425<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;36040602776768512" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>? 4 Adamkinney: This is a lot of fun. What can I do to help? <a href="http:&#47;&#47;star.me&#47;adamkinney#link&#47;28431" rel="nofollow">http:&#47;&#47;star.me&#47;adamkinney#link&#47;28431<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;36046007519158273" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Did you know you can subscribe to Fancy Cadaver? No Joke: <a href="http:&#47;&#47;dylan.la&#47;eOHCnk" rel="nofollow">http:&#47;&#47;dylan.la&#47;eOHCnk<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;36103108174024704" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Blood oranges found!!!!! <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;36107382039920640" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Lunchtime <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;36139028533219328" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>? 4 @<a href="http:&#47;&#47;twitter.com&#47;detour1999" class="aktt_username">detour1999<&#47;a>: You got the &#039;dylan&#039; I will punch you!!! <a href="http:&#47;&#47;star.me&#47;dylan#link&#47;29646" rel="nofollow">http:&#47;&#47;star.me&#47;dylan#link&#47;29646<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;36167904525291521" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>? 4 @<a href="http:&#47;&#47;twitter.com&#47;scottvdp" class="aktt_username">scottvdp<&#47;a>: Rawr? <a href="http:&#47;&#47;star.me&#47;scottvdp#link&#47;29656" rel="nofollow">http:&#47;&#47;star.me&#47;scottvdp#link&#47;29656<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;36168176525910016" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>ARRRRRRGH!!!! I FEEL SICK. it is possible that mexican food was a poor choice for lunch <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;36178397923119104" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>I have submitted a tee to threadless. Please take a look and score it when it is approved: Our Lady Bunnylupe <a href="http:&#47;&#47;dylan.la&#47;fkvjeo" rel="nofollow">http:&#47;&#47;dylan.la&#47;fkvjeo<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;36195146748014592" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>It is invitation making time. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;36223817537814528" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>last saturday of my twenties. also happy birthday liz <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;36453059206987776" class="aktt_tweet_time">#<&#47;a><&#47;li><br />
+<&#47;ul></p>

@@ -1,0 +1,23 @@
+---
+layout: post
+status: publish
+published: true
+title: T>H>U>G
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: http://www.dylanreed.com
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: http://www.dylanreed.com
+wordpress_id: 79
+wordpress_url: http://dylanreed.org/?p=79
+date: '2003-10-28 01:18:42 -0600'
+date_gmt: '2003-10-28 07:18:42 -0600'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<p>I want to play tony hawk underground</p>

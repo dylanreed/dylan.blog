@@ -1,0 +1,27 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2011-07-10'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 1345
+wordpress_url: http://www.dylanreed.com/2011/07/10/tweets-this-week-2011-07-10/
+date: '2011-07-10 15:00:00 -0500'
+date_gmt: '2011-07-10 22:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<ul class="aktt_tweet_digest">
+<li>We are never going to play Ocama Gamesphere again are we? <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;87671548374302720" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Headed to old C&#039;s. Stop by and say hi if you want. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;89503841002856449" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>what sarah is making for breakfast: <a href="http:&#47;&#47;t.co&#47;m7Z2ruS" rel="nofollow">http:&#47;&#47;t.co&#47;m7Z2ruS<&#47;a> @<a href="http:&#47;&#47;twitter.com&#47;CookItForUs" class="aktt_username">CookItForUs<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;89699475253231617" class="aktt_tweet_time">#<&#47;a><&#47;li><br />
+<&#47;ul></p>

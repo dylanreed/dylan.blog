@@ -1,0 +1,33 @@
+---
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2011-06-12'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 1333
+wordpress_url: http://www.dylanreed.com/2011/06/12/tweets-this-week-2011-06-12-2/
+date: '2011-06-12 15:00:00 -0500'
+date_gmt: '2011-06-12 22:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+<ul class="aktt_tweet_digest">
+<li>Anyone have a seat on a plane going to Northeastern US this Friday? <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;78647606229737472" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>I&#039;m reading Echoes #<a href="http:&#47;&#47;search.twitter.com&#47;search?q=%231" class="aktt_hashtag">1<&#47;a> on @<a href="http:&#47;&#47;twitter.com&#47;graphicly" class="aktt_username">graphicly<&#47;a>! <a href="http:&#47;&#47;t.co&#47;GuLuzx4" rel="nofollow">http:&#47;&#47;t.co&#47;GuLuzx4<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;78892632415277058" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>I&#039;m reading Echoes #<a href="http:&#47;&#47;search.twitter.com&#47;search?q=%233" class="aktt_hashtag">3<&#47;a> on @<a href="http:&#47;&#47;twitter.com&#47;graphicly" class="aktt_username">graphicly<&#47;a>! <a href="http:&#47;&#47;t.co&#47;BZvfT0c" rel="nofollow">http:&#47;&#47;t.co&#47;BZvfT0c<&#47;a> thanks to @<a href="http:&#47;&#47;twitter.com&#47;micah" class="aktt_username">micah<&#47;a> I will have terrifying dreams of dead little girls <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;79008734176751616" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Nedroid Fun Times, More Goosebumps Book Ideas <a href="http:&#47;&#47;dylan.la&#47;ihvUjQ" rel="nofollow">http:&#47;&#47;dylan.la&#47;ihvUjQ<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;79011509119893505" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Gutters - Issue #<a href="http:&#47;&#47;search.twitter.com&#47;search?q=%23147" class="aktt_hashtag">147<&#47;a> by Ron Chan <a href="http:&#47;&#47;t.co&#47;exyJRrs" rel="nofollow">http:&#47;&#47;t.co&#47;exyJRrs<&#47;a> awesome job <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;79224214544068608" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>YouTube - Staying Black <a href="http:&#47;&#47;dylan.la&#47;l1R5iU" rel="nofollow">http:&#47;&#47;dylan.la&#47;l1R5iU<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;79227481235783680" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>I&#039;m reading Alien Circus #<a href="http:&#47;&#47;search.twitter.com&#47;search?q=%231" class="aktt_hashtag">1<&#47;a> on @<a href="http:&#47;&#47;twitter.com&#47;graphicly" class="aktt_username">graphicly<&#47;a>! <a href="http:&#47;&#47;t.co&#47;nZBV5vM" rel="nofollow">http:&#47;&#47;t.co&#47;nZBV5vM<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;79290723299622912" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>146b9d075f38fdaaa2474733551c52a2.jpg <a href="http:&#47;&#47;t.co&#47;GgRD1gk" rel="nofollow">http:&#47;&#47;t.co&#47;GgRD1gk<&#47;a> Oh fukung.net you always make me laugh. Well not always sometimes I cry... <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;79315010530181120" class="aktt_tweet_time">#<&#47;a><&#47;li>
+<li>Good morning world. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;79548563658510337" class="aktt_tweet_time">#<&#47;a><&#47;li><br />
+<&#47;ul></p>

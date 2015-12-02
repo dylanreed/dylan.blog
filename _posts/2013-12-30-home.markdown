@@ -1,0 +1,22 @@
+---
+layout: nav_menu_item
+status: publish
+published: true
+title: Home
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: http://www.dylanreed.com
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: http://www.dylanreed.com
+wordpress_id: 1685
+wordpress_url: http://www.dylanreed.com/?p=1685
+date: '2013-12-30 09:34:53 -0600'
+date_gmt: '2013-12-30 16:34:53 -0600'
+categories: []
+tags: []
+comments: []
+---
+
