@@ -42,8 +42,8 @@ comments:
     will have them. In the United States there are 3.92 gun homicides per 100,000
     people where as in the UK, where guns are very controlled, the rate is .1 per
     100,000 people. So apparently when only the criminals have guns they don't kill
-    people with them. I got my figures from http:&#47;&#47;www.gun-control-network.org&#47;GF10.htm
-    who got them from http:&#47;&#47;www.iansa.org&#47;documents&#47;index.htm. \n\nAnd
+    people with them. I got my figures from http://www.gun-control-network.org/GF10.htm
+    who got them from http://www.iansa.org/documents/index.htm. \n\nAnd
     while personally I advocate getting rid of guns the world over I realize that
     that is never going to happen. What I do advocate is making it more difficult
     for people to get guns and to get multiple guns. I could go to a gun store, apply
@@ -58,15 +58,15 @@ comments:
   author_url: ''
   date: '2010-04-20 09:20:18 -0500'
   date_gmt: '2010-04-20 17:20:18 -0500'
-  content: "And yet the homicide rate in the US is 5.4&#47;100K, and in the UK it's
-    2.03&#47;100K. That's nowhere near the difference you see in the numbers you listed.
+  content: "And yet the homicide rate in the US is 5.4/100K, and in the UK it's
+    2.03/100K. That's nowhere near the difference you see in the numbers you listed.
     Which means that even absent guns, people will still find ways to kill each other.
-    Hell, look at Brazil, where the murder rate is 25.2&#47;100K. They have MUCH more
+    Hell, look at Brazil, where the murder rate is 25.2/100K. They have MUCH more
     restrictive gun laws than the US. That alone should be enough proof.\r\n\r\nColumbine
-    was scary, yes, but so was 9&#47;11. That does NOT excuse trampling people's rights
+    was scary, yes, but so was 9/11. That does NOT excuse trampling people's rights
     and freedoms in the name of \"safety\", and it in all likelihood will make us
     less safe. Consider the zero-tolerance policies of most schools that people have
-    cried out for after incidents like Columbine: http:&#47;&#47;www.usatoday.com&#47;news&#47;education&#47;2006-08-09-zero-tolerance_x.htm\r\n\r\nThe
+    cried out for after incidents like Columbine: http://www.usatoday.com/news/education/2006-08-09-zero-tolerance_x.htm\r\n\r\nThe
     solution is not to ban the tool. It is to get better at recognizing the problems
     and intercepting them. It's hard work, but it is the ONLY effective thing to do.
     Everything else is useless or actively making the problem worse."

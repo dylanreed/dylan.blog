@@ -21,6 +21,6 @@ tags: []
 comments: []
 ---
 <p>Levitate</p>
-<p>So thats cool everyone go to <a href="http:&#47;&#47;www.weownthesun.com">we own the sun dot com<&#47;a></p>
+<p>So thats cool everyone go to <a href="http://www.weownthesun.com">we own the sun dot com</a></p>
 <p>word</p>
 <p>harper is coming out to colorado tonight</p>

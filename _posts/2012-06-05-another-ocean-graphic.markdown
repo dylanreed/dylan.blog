@@ -22,4 +22,4 @@ tags:
 comments: []
 ---
 <p>Seriously lets explore the ocean. Screw astroid mining and moon colonies... lets have an undersea colony.</p>
-<p><a href="http:&#47;&#47;images.mastersdegree.net.s3.amazonaws.com&#47;explore-the-ocean.gif"><img class="aligncenter" title="infographic" src="http:&#47;&#47;images.mastersdegree.net.s3.amazonaws.com&#47;explore-the-ocean.gif" alt="" width="800" height="5804" &#47;><&#47;a></p>
+<p><a href="http://images.mastersdegree.net.s3.amazonaws.com/explore-the-ocean.gif"><img class="aligncenter" title="infographic" src="http://images.mastersdegree.net.s3.amazonaws.com/explore-the-ocean.gif" alt="" width="800" height="5804" /></a></p>

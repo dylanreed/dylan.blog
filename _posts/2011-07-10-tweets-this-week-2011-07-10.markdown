@@ -21,7 +21,7 @@ tags: []
 comments: []
 ---
 <ul class="aktt_tweet_digest">
-<li>We are never going to play Ocama Gamesphere again are we? <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;87671548374302720" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>Headed to old C&#039;s. Stop by and say hi if you want. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;89503841002856449" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>what sarah is making for breakfast: <a href="http:&#47;&#47;t.co&#47;m7Z2ruS" rel="nofollow">http:&#47;&#47;t.co&#47;m7Z2ruS<&#47;a> @<a href="http:&#47;&#47;twitter.com&#47;CookItForUs" class="aktt_username">CookItForUs<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;89699475253231617" class="aktt_tweet_time">#<&#47;a><&#47;li><br />
-<&#47;ul></p>
+<li>We are never going to play Ocama Gamesphere again are we? <a href="http://twitter.com/awesomeguy/statuses/87671548374302720" class="aktt_tweet_time">#</a></li>
+<li>Headed to old C&#039;s. Stop by and say hi if you want. <a href="http://twitter.com/awesomeguy/statuses/89503841002856449" class="aktt_tweet_time">#</a></li>
+<li>what sarah is making for breakfast: <a href="http://t.co/m7Z2ruS" rel="nofollow">http://t.co/m7Z2ruS</a> @<a href="http://twitter.com/CookItForUs" class="aktt_username">CookItForUs</a> <a href="http://twitter.com/awesomeguy/statuses/89699475253231617" class="aktt_tweet_time">#</a></li><br />
+</ul></p>

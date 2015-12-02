@@ -26,6 +26,6 @@ comments: []
 <p>I have found when talking to people about their websites there is a fine line to walk. For some reason when people make a page in FrontPage and put it on the Internet, they automatically think that it must be a good webpage. Its like they've gotten published or something. When you try to make suggestions or offer to try and help they get real touchy and immeadiatly go on the defense.</p>
 <p>So here is a list to help as many people as read this make better websites:</p>
 <p>1. Make your menu easy to follow and easy to read. Make sure that all of the words associated with a menu item link to that menu items page.</p>
-<p>2. Make your site appear as clean and concise as possible. If it dosen't <strong><u>need<&#47;u><&#47;strong> to be on the main page, leave it off. Put only pertinant information that cannot be found on other pages on your site.</p>
+<p>2. Make your site appear as clean and concise as possible. If it dosen't <strong><u>need</u></strong> to be on the main page, leave it off. Put only pertinant information that cannot be found on other pages on your site.</p>
 <p>3. Try to keep all of your navigation items above the crease. The crease is the point where you have to scroll to get more information. As lazy as most Internet users are you do not want people to have to scroll down to get more information.</p>
 <p>These are just a few basic rules to follow that will start you on the road to a great easy to use website.</p>

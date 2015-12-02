@@ -20,4 +20,4 @@ categories:
 tags: []
 comments: []
 ---
-<p><a href="http:&#47;&#47;www.bit-tech.net&#47;modding&#47;2007&#47;04&#47;23&#47;yuugou_by_greensabbath&#47;1.html">To much time<&#47;a></p>
+<p><a href="http://www.bit-tech.net/modding/2007/04/23/yuugou_by_greensabbath/1.html">To much time</a></p>

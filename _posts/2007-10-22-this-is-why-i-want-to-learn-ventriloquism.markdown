@@ -20,5 +20,5 @@ categories:
 tags: []
 comments: []
 ---
-<p>This is Jeff Dunham, he is damn hilarious. I would say that he is quite good and has a lot of really good characters. Man oh man. <&#47;p>
-<p><embed src="http:&#47;&#47;www.youtube.com&#47;v&#47;1uwOL4rB-go" width="351" height="289" type="application&#47;x-shockwave-flash" wmode="transparent"><&#47;embed><&#47;p></p>
+<p>This is Jeff Dunham, he is damn hilarious. I would say that he is quite good and has a lot of really good characters. Man oh man. </p>
+<p><embed src="http://www.youtube.com/v/1uwOL4rB-go" width="351" height="289" type="application/x-shockwave-flash" wmode="transparent"></embed></p></p>

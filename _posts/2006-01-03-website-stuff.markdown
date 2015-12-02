@@ -21,4 +21,4 @@ tags: []
 comments: []
 ---
 <p>I have been working on web design stuff for the past couple of weeks and here is what I have:<br />
-<a href="http:&#47;&#47;www.clownsareawesome.com">clownsareawesome<&#47;a> and <a href="http:&#47;&#47;www.clownsareawesome.com&#47;api&#47;index.html">API<&#47;a></p>
+<a href="http://www.clownsareawesome.com">clownsareawesome</a> and <a href="http://www.clownsareawesome.com/api/index.html">API</a></p>

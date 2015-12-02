@@ -20,4 +20,4 @@ categories:
 tags: []
 comments: []
 ---
-<p>&nbsp;&nbsp;Thas Right I Am Representing Fo-Co up in hear. I just needed to say that. So Sarah and I have been watching my Big Fat Obnoxious Fiance. It is awesome, the best show on TV right now. Seriously It rules. I am feeling better and less sick Sarah got me some medicin<font color="#FF0000">e and I am fe<&#47;font><font face="'Times New Roman',Times,serif"><&#47;font>eling better. I am hoping to practice some five ball tonight as well as to read some as well. I need to shave. Ok so thats all.</p>
+<p>&nbsp;&nbsp;Thas Right I Am Representing Fo-Co up in hear. I just needed to say that. So Sarah and I have been watching my Big Fat Obnoxious Fiance. It is awesome, the best show on TV right now. Seriously It rules. I am feeling better and less sick Sarah got me some medicin<font color="#FF0000">e and I am fe</font><font face="'Times New Roman',Times,serif"></font>eling better. I am hoping to practice some five ball tonight as well as to read some as well. I need to shave. Ok so thats all.</p>

@@ -27,6 +27,6 @@ comments:
   date_gmt: '2010-11-16 18:38:15 -0600'
   content: '[...] This post was mentioned on Twitter by dylan, dylan. dylan said:
     I should probably stop playing with my new markers and get to work... whatever:
-    http:&#47;&#47;bit.ly&#47;cAk6pX [...]'
+    http://bit.ly/cAk6pX [...]'
 ---
-<p>Here is a detail of the head portion of this project. It is still in my sketchbook. I need to start working big... I guess that is what Fall Break is for.<a href="http:&#47;&#47;farm5.static.flickr.com&#47;4151&#47;5182411052_d262698c55.jpg"><img alt="" src="http:&#47;&#47;farm5.static.flickr.com&#47;4151&#47;5182411052_d262698c55.jpg" title="Laser-Saurus Rex" class="aligncenter" width="500" height="333" &#47;><&#47;a></p>
+<p>Here is a detail of the head portion of this project. It is still in my sketchbook. I need to start working big... I guess that is what Fall Break is for.<a href="http://farm5.static.flickr.com/4151/5182411052_d262698c55.jpg"><img alt="" src="http://farm5.static.flickr.com/4151/5182411052_d262698c55.jpg" title="Laser-Saurus Rex" class="aligncenter" width="500" height="333" /></a></p>

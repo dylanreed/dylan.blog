@@ -20,7 +20,7 @@ categories:
 tags: []
 comments: []
 ---
-<p>So the <a href="http:&#47;&#47;www.skinnycorp.com">company<&#47;a> my brother works for has a service where they let people design t-shirts and then others vote on the t-shirts and then the highset voted ones get made and sold. If you design is choosen then you get money. good deal.</p>
+<p>So the <a href="http://www.skinnycorp.com">company</a> my brother works for has a service where they let people design t-shirts and then others vote on the t-shirts and then the highset voted ones get made and sold. If you design is choosen then you get money. good deal.</p>
 <p>Now my real question is:</p>
 <p>How do they make t-shirts? I don't mean the silk screening process I mean how do tshirts have no seams on the sides. It seems that the lack of seams is not to important and I think that t-shirts are maybe woven in a tube shape, but i want to know for sure.</p>
 <p>Another trend that I have noticed (I realize that making t-shirts without seams on the side is not a trend but whatever) is that car manufacturers are starting to make really small cars. I think this is fun. Mostly because I am a clown and I see those cars Scion xA, Toyota Yaris, and the Honda fit) and wonder: How many people could you cram into one of those vehicles. I think like 10 without removing any seats, maybe 17 if we took out the seat and crammed someone in the trunk. It would help if I had some really small people.</p>

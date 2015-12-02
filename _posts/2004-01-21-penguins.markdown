@@ -20,4 +20,4 @@ categories:
 tags: []
 comments: []
 ---
-<p>my <a href="http:&#47;&#47;nata2.info&#47;humor&#47;flash&#47;yeti_baseball.swf">record<&#47;a> is 317.2</p>
+<p>my <a href="http://nata2.info/humor/flash/yeti_baseball.swf">record</a> is 317.2</p>

@@ -28,16 +28,16 @@ comments:
   content: Thanks my favorite brother!
 ---
 <p>Apparently Today and Not Tomorrow is Harpers's Birthday<br />
-<&#47;p>
+</p>
 <p>One that note:<br />
-<&#47;p>
+</p>
 <p><em>Happy Birthday to You!<br />
-<&#47;em><&#47;p>
+</em></p>
 <p><em>Happy Birthday to You!<br />
-<&#47;em><&#47;p>
-<p><em>Happy Biiirthday Dear <a href="http:&#47;&#47;www.nata2.org">Harper<&#47;a>,<br />
-<&#47;em><&#47;p>
+</em></p>
+<p><em>Happy Biiirthday Dear <a href="http://www.nata2.org">Harper</a>,<br />
+</em></p>
 <p><em>Happy Birthday to You!<br />
-<&#47;em><&#47;p>
+</em></p>
 <p>
-&nbsp;<&#47;p></p>
+&nbsp;</p></p>

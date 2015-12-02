@@ -21,5 +21,5 @@ tags: []
 comments: []
 ---
 <ul class="aktt_tweet_digest">
-<li>OMG I Drew a Picture: Goober <a href="http:&#47;&#47;dylan.la&#47;lAM0NB" rel="nofollow">http:&#47;&#47;dylan.la&#47;lAM0NB<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;85820291640602624" class="aktt_tweet_time">#<&#47;a><&#47;li><br />
-<&#47;ul></p>
+<li>OMG I Drew a Picture: Goober <a href="http://dylan.la/lAM0NB" rel="nofollow">http://dylan.la/lAM0NB</a> <a href="http://twitter.com/awesomeguy/statuses/85820291640602624" class="aktt_tweet_time">#</a></li><br />
+</ul></p>

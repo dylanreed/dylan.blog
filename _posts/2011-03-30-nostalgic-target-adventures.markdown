@@ -25,11 +25,11 @@ comments: []
 <p>What I really enjoyed was that unlike a lot of demos that I have seen of handheld machines this one actually let you hold the system in your hands... crazy right. I also liked the feel of the machine. The current DS lite that I am playing on has very little weight to it, especially when compared to the 3DS.</p>
 <p>It goes without saying that I would love to have one. I am actually excited about a couple launch titles:</p>
 <ul>
-<li>Pilotwings Resort<&#47;li>
-<li>Steel Diver<&#47;li>
-<li>Super Monkey Ball<&#47;li>
-<li>The Legend of Zelda:&nbsp;Ocarina of Time<&#47;li>
-<li>Star Fox 64<&#47;li>
-<li>Resident Evil: Mercenaries<&#47;li><br />
-<&#47;ul><br />
+<li>Pilotwings Resort</li>
+<li>Steel Diver</li>
+<li>Super Monkey Ball</li>
+<li>The Legend of Zelda:&nbsp;Ocarina of Time</li>
+<li>Star Fox 64</li>
+<li>Resident Evil: Mercenaries</li><br />
+</ul><br />
 What I think is funny is that a lot of these games are remakes of games Nintendo has released numerous times, I am actually surprised at the number that I want to play. I am also surprised that there isn't a Mario title included in the launch, though the inclusion of everyone's favorite Zelda game was a good plan on Nintendo's part.</p>

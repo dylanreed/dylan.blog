@@ -22,4 +22,4 @@ tags:
 - writing
 comments: []
 ---
-<p>Don't forget a new part to the story every Monday morning: <a href="http:&#47;&#47;fancycadaver.com">FancyCadaver.com<&#47;a></p>
+<p>Don't forget a new part to the story every Monday morning: <a href="http://fancycadaver.com">FancyCadaver.com</a></p>

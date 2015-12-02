@@ -31,10 +31,10 @@ comments:
 ---
 <p>I have been growing out a goatee and mustache, it is awesome. I have, however, noticed something that I hadn't considered and am now h aving to figure out.</p>
 <ol>
-<li>Washing it: I never really  thought about washing facial hair seeing as had I have never had any before. How does one wash it? With shampoo or soap? If you wash it with shampoo do you use conditioner afterwards? So confusing.<&#47;li>
-<li>Getting stuff in it: I have been sick for a couple of weeks and have noticed that whenever I blow my nose I need an extra tissue to pat on my 'stache to ensure that it is clean and clear of mucous. Gross.<&#47;li>
-<li>Being hot: Lets face it facial hair is hot, not temperature hot but god damn that boy is good looking hot. How do I deal with my new found hotness, just pretend that it isn't there or tell people about it? Help<&#47;li><br />
-<&#47;ol><br />
+<li>Washing it: I never really  thought about washing facial hair seeing as had I have never had any before. How does one wash it? With shampoo or soap? If you wash it with shampoo do you use conditioner afterwards? So confusing.</li>
+<li>Getting stuff in it: I have been sick for a couple of weeks and have noticed that whenever I blow my nose I need an extra tissue to pat on my 'stache to ensure that it is clean and clear of mucous. Gross.</li>
+<li>Being hot: Lets face it facial hair is hot, not temperature hot but god damn that boy is good looking hot. How do I deal with my new found hotness, just pretend that it isn't there or tell people about it? Help</li><br />
+</ol><br />
 So there are my questions, please help.</p>
-<p><a href="http:&#47;&#47;www.fukung.net&#47;images&#47;7567&#47;1211bdghwgp30e1xt1jj.jpg" target="_blank"><img src="http:&#47;&#47;www.fukung.net&#47;images&#47;7567&#47;1211bdghwgp30e1xt1jj.jpg" height="286" width="450" &#47;><&#47;a></p>
+<p><a href="http://www.fukung.net/images/7567/1211bdghwgp30e1xt1jj.jpg" target="_blank"><img src="http://www.fukung.net/images/7567/1211bdghwgp30e1xt1jj.jpg" height="286" width="450" /></a></p>
 <p>Thank You Fukung</p>

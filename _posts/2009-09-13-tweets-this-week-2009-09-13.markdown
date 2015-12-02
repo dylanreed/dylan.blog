@@ -21,10 +21,10 @@ tags: []
 comments: []
 ---
 <ul class="aktt_tweet_digest">
-<li>Why my Interneting has suffered <a href="http:&#47;&#47;twitpic.com&#47;gzgbq" rel="nofollow">http:&#47;&#47;twitpic.com&#47;gzgbq<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3844352002" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>RT @skaw: Happy 9&#47;9&#47;09! ALL TEES ARE $9! No joke! (Pls RT for the chance to win a $99 gift code) (via @<a href="http:&#47;&#47;twitter.com&#47;threadless" class="aktt_username">threadless<&#47;a>) <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3862971569" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>How is it that I just discovered pandora last night. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3863158823" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>In a fabric store buying school supplies. Best day ever. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3893052243" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>Today everyone needs to read The Goon by Eric Powell. Unless you hate zombies, then don&#39;t <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3911140889" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li><a href="http:&#47;&#47;ginx.com&#47;-PvpEh" rel="nofollow">http:&#47;&#47;ginx.com&#47;-PvpEh<&#47;a> I miss my childhood <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3920362437" class="aktt_tweet_time">#<&#47;a><&#47;li><br />
-<&#47;ul></p>
+<li>Why my Interneting has suffered <a href="http://twitpic.com/gzgbq" rel="nofollow">http://twitpic.com/gzgbq</a> <a href="http://twitter.com/awesomeguy/statuses/3844352002" class="aktt_tweet_time">#</a></li>
+<li>RT @skaw: Happy 9/9/09! ALL TEES ARE $9! No joke! (Pls RT for the chance to win a $99 gift code) (via @<a href="http://twitter.com/threadless" class="aktt_username">threadless</a>) <a href="http://twitter.com/awesomeguy/statuses/3862971569" class="aktt_tweet_time">#</a></li>
+<li>How is it that I just discovered pandora last night. <a href="http://twitter.com/awesomeguy/statuses/3863158823" class="aktt_tweet_time">#</a></li>
+<li>In a fabric store buying school supplies. Best day ever. <a href="http://twitter.com/awesomeguy/statuses/3893052243" class="aktt_tweet_time">#</a></li>
+<li>Today everyone needs to read The Goon by Eric Powell. Unless you hate zombies, then don&#39;t <a href="http://twitter.com/awesomeguy/statuses/3911140889" class="aktt_tweet_time">#</a></li>
+<li><a href="http://ginx.com/-PvpEh" rel="nofollow">http://ginx.com/-PvpEh</a> I miss my childhood <a href="http://twitter.com/awesomeguy/statuses/3920362437" class="aktt_tweet_time">#</a></li><br />
+</ul></p>

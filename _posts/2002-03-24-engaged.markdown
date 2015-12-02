@@ -26,7 +26,7 @@ comments:
   author_url: ''
   date: '2002-03-24 11:19:00 -0600'
   date_gmt: ''
-  content: Congrats dude :)  Surprised the hell outta me... heh.  You two will be&#47;are
+  content: Congrats dude :)  Surprised the hell outta me... heh.  You two will be/are
     great together.
 - id: 12
   author: harper

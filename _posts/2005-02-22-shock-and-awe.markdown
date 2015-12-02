@@ -26,7 +26,7 @@ comments: []
 <p>ok quiz time </p>
 <p>1) where did vandals put nazi markings on a mosque??</p>
 <p>answer<br />
-<a href="http:&#47;&#47;channels.attbusiness.net&#47;index.cfm?fuseAction=viewNewsArticle&nav_id=33&category_name=International&article_id=9fb3d9c0c54460f42ebfd52d35e4edc7">france<&#47;a></p>
+<a href="http://channels.attbusiness.net/index.cfm?fuseAction=viewNewsArticle&nav_id=33&category_name=International&article_id=9fb3d9c0c54460f42ebfd52d35e4edc7">france</a></p>
 <p>stupid french vandals</p>
 <p>On to other stuff</p>
 <p>Sarah is still working at the bank and just got promoted to desk receptionist which is a promotion if you saw the vault she was working in. I am still clowning and I am in fact getting a new clown costume this week. oh yeah thats right new new new.</p>

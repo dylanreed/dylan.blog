@@ -20,7 +20,7 @@ tags:
 - Clown
 comments: []
 ---
-<p>So I sent back the other <a href="http:&#47;&#47;dylanreed.org&#47;media&#47;album05">costume<&#47;a> today check it out in the photos section of my page. Also there is <a href="http:&#47;&#47;dylanreed.org&#47;media&#47;album02">wedding<&#47;a> pics and such</p>
+<p>So I sent back the other <a href="http://dylanreed.org/media/album05">costume</a> today check it out in the photos section of my page. Also there is <a href="http://dylanreed.org/media/album02">wedding</a> pics and such</p>
 <p>My new costume design came today so I am excited. </p>
 <p>Tomarrow is going to be crazy</p>
-<p>isn't she <a href="http:&#47;&#47;dylanreed.org&#47;media&#47;Family&#47;IMG_0523">cute<&#47;a></p>
+<p>isn't she <a href="http://dylanreed.org/media/Family/IMG_0523">cute</a></p>

@@ -20,7 +20,7 @@ categories:
 tags: []
 comments: []
 ---
-<p>&nbsp;<&#47;p>
-<p><a href="http:&#47;&#47;www.thestar.com&#47;News&#47;article&#47;198600">WTF.<&#47;a>&nbsp;So I thought the second one of my first post of the day was bad. I mean exposing yourself over the Internet and getting a way with is pretty bad. However this one is much funnier and also&nbsp;much more of a WTF. So you got mad at a kid, don't throw poop, that is just bad form.<&#47;p>
-<p>&nbsp;<&#47;p>
-<p>I am still laughing.<&#47;p></p>
+<p>&nbsp;</p>
+<p><a href="http://www.thestar.com/News/article/198600">WTF.</a>&nbsp;So I thought the second one of my first post of the day was bad. I mean exposing yourself over the Internet and getting a way with is pretty bad. However this one is much funnier and also&nbsp;much more of a WTF. So you got mad at a kid, don't throw poop, that is just bad form.</p>
+<p>&nbsp;</p>
+<p>I am still laughing.</p></p>

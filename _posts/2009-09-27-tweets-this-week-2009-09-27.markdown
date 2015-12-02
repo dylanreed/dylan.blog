@@ -21,5 +21,5 @@ tags: []
 comments: []
 ---
 <ul class="aktt_tweet_digest">
-<li>Time to go to work <a href="http:&#47;&#47;twitpic.com&#47;j9dqg" rel="nofollow">http:&#47;&#47;twitpic.com&#47;j9dqg<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;4402284309" class="aktt_tweet_time">#<&#47;a><&#47;li><br />
-<&#47;ul></p>
+<li>Time to go to work <a href="http://twitpic.com/j9dqg" rel="nofollow">http://twitpic.com/j9dqg</a> <a href="http://twitter.com/awesomeguy/statuses/4402284309" class="aktt_tweet_time">#</a></li><br />
+</ul></p>

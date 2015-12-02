@@ -53,8 +53,8 @@ comments:
   author_url: http://www.dylanreed.org
   date: '2007-05-14 08:13:01 -0500'
   date_gmt: '2007-05-14 14:13:01 -0500'
-  content: "No problem. I found this on <a href=\"http:&#47;&#47;ph.answers.yahoo.com&#47;question&#47;index?qid=20070418122729AA2Hbaz&show=7\"
-    rel=\"nofollow\">yahoo answers<&#47;a>.\r\n\r\nAre you able to get into the game,
+  content: "No problem. I found this on <a href=\"http://ph.answers.yahoo.com/question/index?qid=20070418122729AA2Hbaz&show=7\"
+    rel=\"nofollow\">yahoo answers</a>.\r\n\r\nAre you able to get into the game,
     it is just that you cannot use the second player wii-mote to select options. Apparently
     if both players could select options it would confuse the system so they disable
     it until you get to the playing area.\r\n\r\nHope this works."

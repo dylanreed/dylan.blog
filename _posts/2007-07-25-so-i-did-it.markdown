@@ -20,5 +20,5 @@ categories:
 tags: []
 comments: []
 ---
-<p><img src="http:&#47;&#47;farm2.static.flickr.com&#47;1147&#47;900627669_5e217dec46.jpg?v=0" height="500" width="409" &#47;></p>
+<p><img src="http://farm2.static.flickr.com/1147/900627669_5e217dec46.jpg?v=0" height="500" width="409" /></p>
 <p>Took me 45minutes to do 154 questions, also I made the cover of WTF Weekly, see above.</p>

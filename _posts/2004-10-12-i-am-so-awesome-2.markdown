@@ -22,7 +22,7 @@ tags:
 comments: []
 ---
 <p>Yep i rule<br />
-<a href="http:&#47;&#47;www.everythingcello.com">Cool<&#47;a><br />
-<a href="http:&#47;&#47;www.cnn.com&#47;2004&#47;LAW&#47;05&#47;25&#47;clown.porn.charges&#47;">Not Cool<&#47;a></p>
+<a href="http://www.everythingcello.com">Cool</a><br />
+<a href="http://www.cnn.com/2004/LAW/05/25/clown.porn.charges/">Not Cool</a></p>
 <p>in fact that really pisses me off because it gives clowns everywhere a bad name. thanks to this guy i am now going to be looked at as a sicco</p>
 <p>so pissed off</p>

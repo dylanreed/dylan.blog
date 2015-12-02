@@ -34,5 +34,5 @@ comments:
   date_gmt: '2009-05-05 13:01:45 -0500'
   content: 'I have been thinking along those lines: OJ, Milk, Cupcakes'
 ---
-<p><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="437" height="370" id="viddler_CaptainAwesome_9"><param name="movie" value="http:&#47;&#47;www.viddler.com&#47;player&#47;35591a36&#47;" &#47;><param name="allowScriptAccess" value="always" &#47;><param name="allowFullScreen" value="true" &#47;><embed src="http:&#47;&#47;www.viddler.com&#47;player&#47;35591a36&#47;"  wmode="transparent" width="437" height="370" type="application&#47;x-shockwave-flash" allowScriptAccess="always" allowFullScreen="true" name="viddler_CaptainAwesome_9" &#47;><&#47;object><br />
+<p><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="437" height="370" id="viddler_CaptainAwesome_9"><param name="movie" value="http://www.viddler.com/player/35591a36/" /><param name="allowScriptAccess" value="always" /><param name="allowFullScreen" value="true" /><embed src="http://www.viddler.com/player/35591a36/"  wmode="transparent" width="437" height="370" type="application/x-shockwave-flash" allowScriptAccess="always" allowFullScreen="true" name="viddler_CaptainAwesome_9" /></object><br />
 Here is my new awesome water machine. Sorry it is so crazy, I am too excited.</p>

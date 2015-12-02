@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: http:&#47;&#47;www.cnn.com&#47;2002&#47;US&#47;06&#47;19&#47;floating.terror&#47;index.html
+title: http://www.cnn.com/2002/US/06/19/floating.terror/index.html
   scary huh
 author:
   display_name: Dylan
@@ -21,5 +21,5 @@ categories:
 tags: []
 comments: []
 ---
-<p>http:&#47;&#47;www.cnn.com&#47;2002&#47;US&#47;06&#47;19&#47;floating.terror&#47;index.html</p>
+<p>http://www.cnn.com/2002/US/06/19/floating.terror/index.html</p>
 <p>scary huh</p>

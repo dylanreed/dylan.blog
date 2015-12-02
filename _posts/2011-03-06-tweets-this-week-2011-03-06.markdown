@@ -21,14 +21,14 @@ tags: []
 comments: []
 ---
 <ul class="aktt_tweet_digest">
-<li>I am so done with this cold. I hate it <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;42029246855520256" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>Ice Cream then Nyquil then reading then bed... then... feeling better. Or I will be so pissed. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;42406470624608258" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>I need 3 bracketed images for sarah... who can help? it is for the children <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;42769492476047361" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>Sarah just got me with the What? joke. @<a href="http:&#47;&#47;twitter.com&#47;harper" class="aktt_username">harper<&#47;a> knows what I am talking about. Curse that smart smart girl <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;42774127274242048" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>8oz of water, a splash of vinegar and a tsp of salt solves all you sore throat woes. Just gargle it a couple times a day. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;42932277084303360" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>Trying to figure out how to juggle a hot pot of tea, a mug and my nook in a bathtub... this may end in tears <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;43359134514556929" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>Do I lose nerd cred if I am playing tabletop RPG at 830 in the morning? Are they something that is meant to be played at night? <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;43692946700255232" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>getting ready to go to lunch with my mom, maybe grab a new printer and then do dishes&#47;laundry. Also I feel almost human today <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;43747742937387008" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>New printer all setup... oh and it has a scanner! <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;43792130551980032" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>Said scanner is also wireless... which is awesome because I hate wires <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;43792357002444800" class="aktt_tweet_time">#<&#47;a><&#47;li><br />
-<&#47;ul></p>
+<li>I am so done with this cold. I hate it <a href="http://twitter.com/awesomeguy/statuses/42029246855520256" class="aktt_tweet_time">#</a></li>
+<li>Ice Cream then Nyquil then reading then bed... then... feeling better. Or I will be so pissed. <a href="http://twitter.com/awesomeguy/statuses/42406470624608258" class="aktt_tweet_time">#</a></li>
+<li>I need 3 bracketed images for sarah... who can help? it is for the children <a href="http://twitter.com/awesomeguy/statuses/42769492476047361" class="aktt_tweet_time">#</a></li>
+<li>Sarah just got me with the What? joke. @<a href="http://twitter.com/harper" class="aktt_username">harper</a> knows what I am talking about. Curse that smart smart girl <a href="http://twitter.com/awesomeguy/statuses/42774127274242048" class="aktt_tweet_time">#</a></li>
+<li>8oz of water, a splash of vinegar and a tsp of salt solves all you sore throat woes. Just gargle it a couple times a day. <a href="http://twitter.com/awesomeguy/statuses/42932277084303360" class="aktt_tweet_time">#</a></li>
+<li>Trying to figure out how to juggle a hot pot of tea, a mug and my nook in a bathtub... this may end in tears <a href="http://twitter.com/awesomeguy/statuses/43359134514556929" class="aktt_tweet_time">#</a></li>
+<li>Do I lose nerd cred if I am playing tabletop RPG at 830 in the morning? Are they something that is meant to be played at night? <a href="http://twitter.com/awesomeguy/statuses/43692946700255232" class="aktt_tweet_time">#</a></li>
+<li>getting ready to go to lunch with my mom, maybe grab a new printer and then do dishes/laundry. Also I feel almost human today <a href="http://twitter.com/awesomeguy/statuses/43747742937387008" class="aktt_tweet_time">#</a></li>
+<li>New printer all setup... oh and it has a scanner! <a href="http://twitter.com/awesomeguy/statuses/43792130551980032" class="aktt_tweet_time">#</a></li>
+<li>Said scanner is also wireless... which is awesome because I hate wires <a href="http://twitter.com/awesomeguy/statuses/43792357002444800" class="aktt_tweet_time">#</a></li><br />
+</ul></p>

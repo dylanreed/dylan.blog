@@ -20,4 +20,4 @@ categories:
 tags: []
 comments: []
 ---
-<p>This is the funniest online comic I have found. I think that since I am basically Ethan in these comic it makes me quite happy.<&#47;p><a href="http:&#47;&#47;cad-comic.com&#47;comic.php"><img style="margin: 0px" height="632" src="http:&#47;&#47;cad-comic.com&#47;comics&#47;20070613.jpg" width="500"&#47;><&#47;a></p>
+<p>This is the funniest online comic I have found. I think that since I am basically Ethan in these comic it makes me quite happy.</p><a href="http://cad-comic.com/comic.php"><img style="margin: 0px" height="632" src="http://cad-comic.com/comics/20070613.jpg" width="500"/></a></p>

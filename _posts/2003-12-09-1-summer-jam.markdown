@@ -20,4 +20,4 @@ categories:
 tags: []
 comments: []
 ---
-<p><a href="http:&#47;&#47;www.homestarrunner.com&#47;fhqwhgads.html">woohoo<&#47;a></p>
+<p><a href="http://www.homestarrunner.com/fhqwhgads.html">woohoo</a></p>

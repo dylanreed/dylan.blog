@@ -23,7 +23,7 @@ comments: []
 ---
 <p>So once again I have started back into my downward spirl of not updating my webpage. stupid blog.</p>
 <p>Here are some new pictures<br />
-<a href="http:&#47;&#47;dylanreed.org&#47;media&#47;album08&#47;IMG_10051">1<&#47;a> <a href="http:&#47;&#47;dylanreed.org&#47;media&#47;album08&#47;IMG_10061">2<&#47;a></p>
+<a href="http://dylanreed.org/media/album08/IMG_10051">1</a> <a href="http://dylanreed.org/media/album08/IMG_10061">2</a></p>
 <p>They are of me in my new clown Outfit and wig( thanks mom and Harper) and of Our new cat Reno El Pepe or Beans for short. </p>
 <p>These past weeks have been hectic with work and  clowning. Arts Picnic went really well I had a great time and will probably start doing more for the city. This weekend is the Rat Race and I will be there Causing problems as usual. </p>
 <p>Sarah is going to go back to school for a Art Teacher Licensure. It is going to be crazy but she is excited.</p>

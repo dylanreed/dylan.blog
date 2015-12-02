@@ -20,7 +20,7 @@ categories:
 tags: []
 comments: []
 ---
-<blockquote>I shall fear no evil.<&#47;blockquote><br />
+<blockquote>I shall fear no evil.</blockquote><br />
 How was that for a fantastic title. This year Sarah and I hosted her family for Thanksgiving. It was our first Thanksgiving in our new house and it was amazing. We made everything: Turkey, stuffing, green beans, a can of cranberry sauce cut into hearts and mashed potatoes. Everything turned out amazing. Oh and did I mention that we, and by we I mean Sarah, made a pecan, a pumpkin and an apple pie. Because that is how we roll.</p>
 <p>It was nice to see Sarah's family and share some super tasty food with them. I don't like to brag, thought as you all know is not really true, but our turkey was the best turkey that has ever been made. Seriously. I cannot exaggerate enough about how good it was. I imagine that when Jesus cooked a turkey for the first Thanksgiving before giving the Native people smallpox blankets, his turkey couldn't even touch ours.</p>
 <p>And the pies!!! Sarah's makes delicious pies. The pumpkin was a pumpkin custard pie&hellip; did you read that last word CUSTARD!!!! It is amazing. I am pretty sure that when pumpkin pie was invented this is what they meant to happen. It is creamy and delicious and I think I personally have eaten most of it. I don't share pumpkin pie very well. It is pretty much my pie. Sarah also made a pecan pie which I didn't eat because of the previously mentioned pumpkin pie but I heard good things about it. The apple pie is baked in a brown paper bag, which means it is extra delicious. This is Sarah's pie of choice for the holidays. Sadly we only have one slice of each left for dessert tonight. :(</p>

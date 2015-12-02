@@ -21,8 +21,8 @@ tags: []
 comments: []
 ---
 <ul class="aktt_tweet_digest">
-<li>What we just attempted. BBQ FTW <a href="http:&#47;&#47;twitpic.com&#47;bqpak" rel="nofollow">http:&#47;&#47;twitpic.com&#47;bqpak<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2858424445">#<&#47;a><&#47;li>
-<li>You want us, you know you do <a href="http:&#47;&#47;twitpic.com&#47;c32t8" rel="nofollow">http:&#47;&#47;twitpic.com&#47;c32t8<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2921162200">#<&#47;a><&#47;li>
-<li><a href="http:&#47;&#47;ginx.com&#47;-sAHLy" rel="nofollow">http:&#47;&#47;ginx.com&#47;-sAHLy<&#47;a> flooding sucks, even in 1976, remember to climb to higher ground during a flash flood <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2952032940">#<&#47;a><&#47;li>
-<li>Sarah and I got ditched for breakfast this morning. Up for no reason. Lame <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3086317523">#<&#47;a><&#47;li><br />
-<&#47;ul></p>
+<li>What we just attempted. BBQ FTW <a href="http://twitpic.com/bqpak" rel="nofollow">http://twitpic.com/bqpak</a> <a href="http://twitter.com/awesomeguy/statuses/2858424445">#</a></li>
+<li>You want us, you know you do <a href="http://twitpic.com/c32t8" rel="nofollow">http://twitpic.com/c32t8</a> <a href="http://twitter.com/awesomeguy/statuses/2921162200">#</a></li>
+<li><a href="http://ginx.com/-sAHLy" rel="nofollow">http://ginx.com/-sAHLy</a> flooding sucks, even in 1976, remember to climb to higher ground during a flash flood <a href="http://twitter.com/awesomeguy/statuses/2952032940">#</a></li>
+<li>Sarah and I got ditched for breakfast this morning. Up for no reason. Lame <a href="http://twitter.com/awesomeguy/statuses/3086317523">#</a></li><br />
+</ul></p>

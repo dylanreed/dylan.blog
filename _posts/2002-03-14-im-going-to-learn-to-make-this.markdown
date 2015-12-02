@@ -35,4 +35,4 @@ comments:
   content: |
     uhhh...Dylan, what IS that?
 ---
-<p><img width="640" height="480" border="0" alt="demon (79k image)" src="http:&#47;&#47;dylanreed.org&#47;archives&#47;demon.jpg" &#47;> i am going to make this</p>
+<p><img width="640" height="480" border="0" alt="demon (79k image)" src="http://dylanreed.org/archives/demon.jpg" /> i am going to make this</p>

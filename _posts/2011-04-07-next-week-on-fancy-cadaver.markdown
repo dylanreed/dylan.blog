@@ -31,5 +31,5 @@ comments:
 ---
 <p>I have decided that I need to give my self a little more direction on what I am going to draw on Fancy Cadaver. Otherwise it just ends up being random collection of drawings. Which is fine except I don't think I am growing as much as I would if I had a specific goal each week.</p>
 <p>On that note next weeks drawings will be:</p>
-<h2><span style="color: #ff00ff;">Some Bunny to Love<&#47;span><&#47;h2><br />
-<span style="color: #000000;">I know it is horrible but hey it is almost easter.<&#47;span></p>
+<h2><span style="color: #ff00ff;">Some Bunny to Love</span></h2><br />
+<span style="color: #000000;">I know it is horrible but hey it is almost easter.</span></p>

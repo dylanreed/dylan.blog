@@ -22,5 +22,5 @@ comments: []
 ---
 <p>So, apparently sleeping next to and kissing someone who is sick will get you sick. Who knew. So i am all stuffed up and not sleeping good, stupid pills not working, which makes me cranky.</p>
 <p>On a more fun side I am having fun doing voices for harper the slave driver.</p>
-<p>Check out <a href="http:&#47;&#47;dylanreed.org&#47;media&#47;album09&#47;IMG_1368">sarah<&#47;a> and <a href="http:&#47;&#47;dylanreed.org&#47;media&#47;album09&#47;IMG_1369">me<&#47;a></p>
-<p>Check out this big <a href="http:&#47;&#47;www.photodork.org">photodork<&#47;a></p>
+<p>Check out <a href="http://dylanreed.org/media/album09/IMG_1368">sarah</a> and <a href="http://dylanreed.org/media/album09/IMG_1369">me</a></p>
+<p>Check out this big <a href="http://www.photodork.org">photodork</a></p>

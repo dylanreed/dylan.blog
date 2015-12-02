@@ -20,5 +20,5 @@ tags:
 - Sea Monsters
 comments: []
 ---
-<p><a href="http:&#47;&#47;diver.net&#47;seahunt&#47;fend&#47;f_scottc.htm">here<&#47;a></p>
+<p><a href="http://diver.net/seahunt/fend/f_scottc.htm">here</a></p>
 <p>This is scotts story.</p>

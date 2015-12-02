@@ -29,18 +29,18 @@ comments:
     a remake of my most famous lyric - \"It's Not Easy Being Being.\"\r\n\r\nIt's
     an existential take on the song with a panentheistic slant.\r\n\r\nYours truly,\r\nKermit"
 ---
-<p>I have always been secretly, or not so secretly, amazed by ventriloquism. I think that it is amazing when people are able to bring puppets to life and how people will accept them as living objects. Since I have had relatively good luck learning the magic I have decided it is time to learn how to speak without speaking. As I have been learning and talking with people online I have discovered that a big part of ventriloquism is bringing the creature to life. Some of the greatest ventriloquist have moved their mouths while performing and some of the most famous puppets (Kermit the Frog) have been on national TV being performed by someone with no ventriloquist talent.<&#47;p>
-<p>One of the things that I have heard said numorous times online is that it is easier to learn to speak without speaking if you have a puppet to play with. That way you get used to interacting with the puppet as well as getting the movements down, thus giving the illusion of life. That being said I am trying to figure out what kind of puppet I would like to get. As per Sarah's instructions it cannot be anything that is human like as there has been to many movies with dolls and the like coming to life. <&#47;p>
-<p>I have "narrowed" the search down to a "few" choices so let me know what you think.<&#47;p>
-<p><img src="http:&#47;&#47;www.axtell.com&#47;backwoods&#47;bear.jpg" align="left"&#47;> This Bear puppet is quite large and I think could be funny and a great story teller for birthday parties and the like.<&#47;p>
-<p>&nbsp;<&#47;p>
-<p><img src="http:&#47;&#47;www.axtell.com&#47;rooster.jpg" align="right"&#47;> The Rooster Puppet is another one that I think could have a great personality I think that I would use the Agadore Spartucus voice that my Mom loves so much to voice him.<&#47;p>
-<p><img src="http:&#47;&#47;www.axtell.com&#47;verncu.jpg" align="left"&#47;> Vern the Bird is awesome. He is funny looking and I think would be a great puppet to use while clowning. Another great thing with some of these bird puppets is they have a 3rd arm illusion so it just looks like the bird is pearched on your arm.<&#47;p>
-<p>&nbsp;<&#47;p>
-<p><img height="174" src="http:&#47;&#47;www.axtell.com&#47;big_images&#47;flamingo.jpg" width="121" align="right"&#47;><&#47;p>
-<p>&nbsp;I think that this flamingo would be hilarius for the Agadore Spartucus voice as well. He just looks so classy. I am afraid that he may not lend himself to my clown charactor as much but I do find him hilariuos.<&#47;p>
-<p>&nbsp;<&#47;p>
-<p><img height="149" src="http:&#47;&#47;www.axtell.com&#47;hippogirlsteve2.jpg" width="147" align="left"&#47;> This puppet is just plain funny. I think that she would be a great puppet to promote exercising in kids as well as just being a funny puppet to interact with. I would have to do the Hennifer Lopez type voice for her.<&#47;p>
-<p>&nbsp;<&#47;p>
-<p><img src="http:&#47;&#47;www.axtell.com&#47;turtleanim.gif" align="right"&#47;> Tucker the turtle is the puppet that appeals to me a lot. Helping kids get over being shy since he would be shy to meet them. <&#47;p>
-<p>So there you have it the six puppets that I would like to get. What do you think? Which on will lend itself best to clowning? Let me know as I am hoping to order a puppet in the next few weeks.<&#47;p></p>
+<p>I have always been secretly, or not so secretly, amazed by ventriloquism. I think that it is amazing when people are able to bring puppets to life and how people will accept them as living objects. Since I have had relatively good luck learning the magic I have decided it is time to learn how to speak without speaking. As I have been learning and talking with people online I have discovered that a big part of ventriloquism is bringing the creature to life. Some of the greatest ventriloquist have moved their mouths while performing and some of the most famous puppets (Kermit the Frog) have been on national TV being performed by someone with no ventriloquist talent.</p>
+<p>One of the things that I have heard said numorous times online is that it is easier to learn to speak without speaking if you have a puppet to play with. That way you get used to interacting with the puppet as well as getting the movements down, thus giving the illusion of life. That being said I am trying to figure out what kind of puppet I would like to get. As per Sarah's instructions it cannot be anything that is human like as there has been to many movies with dolls and the like coming to life. </p>
+<p>I have "narrowed" the search down to a "few" choices so let me know what you think.</p>
+<p><img src="http://www.axtell.com/backwoods/bear.jpg" align="left"/> This Bear puppet is quite large and I think could be funny and a great story teller for birthday parties and the like.</p>
+<p>&nbsp;</p>
+<p><img src="http://www.axtell.com/rooster.jpg" align="right"/> The Rooster Puppet is another one that I think could have a great personality I think that I would use the Agadore Spartucus voice that my Mom loves so much to voice him.</p>
+<p><img src="http://www.axtell.com/verncu.jpg" align="left"/> Vern the Bird is awesome. He is funny looking and I think would be a great puppet to use while clowning. Another great thing with some of these bird puppets is they have a 3rd arm illusion so it just looks like the bird is pearched on your arm.</p>
+<p>&nbsp;</p>
+<p><img height="174" src="http://www.axtell.com/big_images/flamingo.jpg" width="121" align="right"/></p>
+<p>&nbsp;I think that this flamingo would be hilarius for the Agadore Spartucus voice as well. He just looks so classy. I am afraid that he may not lend himself to my clown charactor as much but I do find him hilariuos.</p>
+<p>&nbsp;</p>
+<p><img height="149" src="http://www.axtell.com/hippogirlsteve2.jpg" width="147" align="left"/> This puppet is just plain funny. I think that she would be a great puppet to promote exercising in kids as well as just being a funny puppet to interact with. I would have to do the Hennifer Lopez type voice for her.</p>
+<p>&nbsp;</p>
+<p><img src="http://www.axtell.com/turtleanim.gif" align="right"/> Tucker the turtle is the puppet that appeals to me a lot. Helping kids get over being shy since he would be shy to meet them. </p>
+<p>So there you have it the six puppets that I would like to get. What do you think? Which on will lend itself best to clowning? Let me know as I am hoping to order a puppet in the next few weeks.</p></p>

@@ -38,14 +38,14 @@ comments:
     but he is doing fine so we are just monitoring him.
 ---
 <p> Everyone's favorite Ginger Cat is sick. We got home last night and he was acting very tired and wouldn't eat his dinner. We are also pretty sure that he had been throwing up most of the afternoon.</p>
-<p>Here are the pictures I took this morning.<img src="http:&#47;&#47;farm2.static.flickr.com&#47;1156&#47;915681603_fdb0589f58.jpg?v=0" height="348" width="435" &#47;></p>
+<p>Here are the pictures I took this morning.<img src="http://farm2.static.flickr.com/1156/915681603_fdb0589f58.jpg?v=0" height="348" width="435" /></p>
 <p>On the way to the vet. He is normally a quite vocal cat, but this trip he just laid on his towel and looked sad.</p>
-<p><img src="http:&#47;&#47;farm2.static.flickr.com&#47;1213&#47;915778847_49bd3d5487.jpg?v=0" height="352" width="441" &#47;></p>
+<p><img src="http://farm2.static.flickr.com/1213/915778847_49bd3d5487.jpg?v=0" height="352" width="441" /></p>
 <p>Once we arrived at the vet's office, he promptly hid under the table in the waiting room and yowled twice.</p>
-<p><img src="http:&#47;&#47;farm2.static.flickr.com&#47;1222&#47;915847203_c354d1e65e.jpg?v=1185556234" height="356" width="445" &#47;></p>
+<p><img src="http://farm2.static.flickr.com/1222/915847203_c354d1e65e.jpg?v=1185556234" height="356" width="445" /></p>
 <p>Once we where in the actual room he went and hid under the folding chair. Once the vet came it was time to get the examination done. SHe felt him up, took his temp and did an overall inspection. She declared him to be dehydrated and they are going to run blood test\x-rays\urine samples to make sure it isn't anything serious. Here are some pictures why from when the vet went to go get the thermometer.</p>
-<p><img src="http:&#47;&#47;farm2.static.flickr.com&#47;1034&#47;916778242_37c8f569d2.jpg?v=0" height="174" width="218" &#47;> <img src="http:&#47;&#47;farm2.static.flickr.com&#47;1070&#47;915945473_aaafb1aa1e.jpg?v=0" height="174" width="218" &#47;></p>
-<p><img src="http:&#47;&#47;farm2.static.flickr.com&#47;1091&#47;915963263_d47f874a59.jpg?v=0" height="174" width="218" &#47;> <img src="http:&#47;&#47;farm2.static.flickr.com&#47;1056&#47;915972123_085bab793e.jpg?v=0" height="173" width="217" &#47;></p>
+<p><img src="http://farm2.static.flickr.com/1034/916778242_37c8f569d2.jpg?v=0" height="174" width="218" /> <img src="http://farm2.static.flickr.com/1070/915945473_aaafb1aa1e.jpg?v=0" height="174" width="218" /></p>
+<p><img src="http://farm2.static.flickr.com/1091/915963263_d47f874a59.jpg?v=0" height="174" width="218" /> <img src="http://farm2.static.flickr.com/1056/915972123_085bab793e.jpg?v=0" height="173" width="217" /></p>
 <p>On that last one he was looking for an escape because he realized where they where going to put that thermometer. Just kidding. He was trying to figure out the whole plug situation. Send your thoughts and what not to this little sad ginger.</p>
 <p>**Update**</p>
 <p>Blood tests back and it isn't diabetes, liver or kidney disease, so he has that going for him. they are now doing xrays before squeezing urine out of him.</p>

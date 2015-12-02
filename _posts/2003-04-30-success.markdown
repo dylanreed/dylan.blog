@@ -27,4 +27,4 @@ comments:
   date_gmt: ''
   content: "nice work \n"
 ---
-<p><a href="http:&#47;&#47;dylanreed.com&#47;archives&#47;Toss Up 2003 030.avi">successful mount<&#47;a> its small so don't worry</p>
+<p><a href="http://dylanreed.com/archives/Toss Up 2003 030.avi">successful mount</a> its small so don't worry</p>

@@ -29,6 +29,6 @@ comments:
     on each one. so that their is a series. something to make the kids want more of
     them and to keep them around.
 ---
-<p>I am thinking about ordering something different for giveaways while entertaining. The most fun thing that I have found are buffalo chips:&nbsp;&nbsp; <&#47;p>
-<p><a href="http:&#47;&#47;www.dylanreed.org&#47;wp-content&#47;uploads&#47;2008&#47;03&#47;nickel2.jpg"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="244" alt="nickel(2)" src="http:&#47;&#47;www.dylanreed.org&#47;wp-content&#47;uploads&#47;2008&#47;03&#47;nickel2-thumb.jpg" width="244" border="0"&#47;><&#47;a><&#47;p>
-<p>What do you think?<&#47;p></p>
+<p>I am thinking about ordering something different for giveaways while entertaining. The most fun thing that I have found are buffalo chips:&nbsp;&nbsp; </p>
+<p><a href="http://www.dylanreed.org/wp-content/uploads/2008/03/nickel2.jpg"><img style="border-top-width: 0px; border-left-width: 0px; border-bottom-width: 0px; border-right-width: 0px" height="244" alt="nickel(2)" src="http://www.dylanreed.org/wp-content/uploads/2008/03/nickel2-thumb.jpg" width="244" border="0"/></a></p>
+<p>What do you think?</p></p>

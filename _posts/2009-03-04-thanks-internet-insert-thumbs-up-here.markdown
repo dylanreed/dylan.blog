@@ -20,8 +20,8 @@ categories:
 tags: []
 comments: []
 ---
-<p>Today was a wonderful day. Scratch that yesterday was a wonderful day. Thanks to going back to an old email address I was able to connect with one of my good good good friends from the College of Oceaneering. <&#47;p>
-<p>I have been looking for Josh for a long time. I had his email, then lost it. I had his phone number, then got a new phone and it didn&rsquo;t make the transfer. Today out of the blue he sent an email to me. I am not entirely sure how he found it but it was insane. <&#47;p>
-<p>I had tried to use facebook to find him. I had tried myspace. Basically I tried every internet search I could find. With no luck. So thanks to Josh for shooting me that email. You made my day. <&#47;p>
-<p>Talking to Josh today got me thinking about dive school. Expect to see a dive school story in the next couple days. <&#47;p>
-<p>Sorry to cop out today on a post but I have a Spanish test that I have to study for. <&#47;p></p>
+<p>Today was a wonderful day. Scratch that yesterday was a wonderful day. Thanks to going back to an old email address I was able to connect with one of my good good good friends from the College of Oceaneering. </p>
+<p>I have been looking for Josh for a long time. I had his email, then lost it. I had his phone number, then got a new phone and it didn&rsquo;t make the transfer. Today out of the blue he sent an email to me. I am not entirely sure how he found it but it was insane. </p>
+<p>I had tried to use facebook to find him. I had tried myspace. Basically I tried every internet search I could find. With no luck. So thanks to Josh for shooting me that email. You made my day. </p>
+<p>Talking to Josh today got me thinking about dive school. Expect to see a dive school story in the next couple days. </p>
+<p>Sorry to cop out today on a post but I have a Spanish test that I have to study for. </p></p>

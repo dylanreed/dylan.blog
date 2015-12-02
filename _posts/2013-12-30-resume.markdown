@@ -2,7 +2,7 @@
 layout: nav_menu_item
 status: publish
 published: true
-title: <a href ="https:&#47;&#47;dl.dropbox.com&#47;u&#47;45369&#47;DylanReedResume2012.pdf">Resume<&#47;a>
+title: <a href ="https://dl.dropbox.com/u/45369/DylanReedResume2012.pdf">Resume</a>
 author:
   display_name: Dylan
   login: dylan

@@ -20,5 +20,5 @@ categories:
 tags: []
 comments: []
 ---
-<p>here is some back to school grossness<&#47;a> from indy it is real gross. here is somemore<&#47;a></p>
+<p>here is some back to school grossness</a> from indy it is real gross. here is somemore</a></p>
 <p>thats all</p>

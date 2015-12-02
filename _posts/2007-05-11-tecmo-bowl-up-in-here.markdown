@@ -20,4 +20,4 @@ tags:
 - Video Games
 comments: []
 ---
-<p>I just found out that they are making a new <a href="http:&#47;&#47;media.cheats.ign.com&#47;media&#47;905&#47;905856&#47;vids_1.html">Tecmo Bowl<&#47;a>. I hope I am not the only one who enjoyed the original NES Tecmo Bowl. Hopefully this game is&nbsp;just what its predecessor was. An easy to play, easy to enjoy game for anyone. I also hope that the diagonal running trick that I vaguely remember works on the new as it did on the old.<&#47;p></p>
+<p>I just found out that they are making a new <a href="http://media.cheats.ign.com/media/905/905856/vids_1.html">Tecmo Bowl</a>. I hope I am not the only one who enjoyed the original NES Tecmo Bowl. Hopefully this game is&nbsp;just what its predecessor was. An easy to play, easy to enjoy game for anyone. I also hope that the diagonal running trick that I vaguely remember works on the new as it did on the old.</p></p>

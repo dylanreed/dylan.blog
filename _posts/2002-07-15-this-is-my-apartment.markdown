@@ -20,5 +20,5 @@ categories:
 tags: []
 comments: []
 ---
-<p><IMG BORDER=0 SRC="http:&#47;&#47;dylanreed.org&#47;archives&#47;myapt.jpg" ALT="myapt (23k image)" HEIGHT=249 WIDTH=356><IMG BORDER=0 SRC="http:&#47;&#47;dylanreed.org&#47;archives&#47;school.jpg" ALT="school (16k image)" HEIGHT=249 WIDTH=356></p>
+<p><IMG BORDER=0 SRC="http://dylanreed.org/archives/myapt.jpg" ALT="myapt (23k image)" HEIGHT=249 WIDTH=356><IMG BORDER=0 SRC="http://dylanreed.org/archives/school.jpg" ALT="school (16k image)" HEIGHT=249 WIDTH=356></p>
 <p>THIS IS MY APARTMENT AND MY SCHOOL</p>

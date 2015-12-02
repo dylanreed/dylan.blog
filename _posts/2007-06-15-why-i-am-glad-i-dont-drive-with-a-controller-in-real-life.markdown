@@ -22,17 +22,17 @@ comments: []
 ---
 <p>I was playing Forza 2 yesterday after work and was racing in my ford focus. I had recently done an engine swap from a 4 cylinder turbo charged front wheel drive monster to a less powerful (right now) v-6 rear wheel drive insanity.</p>
 <p>Since I have spent most of my time in the game driving front wheel drive vehicles I was having a little trouble getting used to the difference in driving style between the two.</p>
-<p>I was driving in the first race of the Amateur Cup and after the start I was in third place fighting my way up to first. Prior to getting on the big straight away I was still in third having caught the second place car and then spun out on a turn. <img src="http:&#47;&#47;farm2.static.flickr.com&#47;1141&#47;552334021_bfabd71e29.jpg?v=0" height="189" width="336" &#47;></p>
+<p>I was driving in the first race of the Amateur Cup and after the start I was in third place fighting my way up to first. Prior to getting on the big straight away I was still in third having caught the second place car and then spun out on a turn. <img src="http://farm2.static.flickr.com/1141/552334021_bfabd71e29.jpg?v=0" height="189" width="336" /></p>
 <p>Finally on the straight I was able to catch the number one car, I passed him on the inside and went to shift from 5th to 6th when it happened. I miss pressed the shifting button, in fact i missed the up shift button all together and hit the Emergency brake. Since I was turning in front of the car I just passed to get back in the racing line, this caused me to hit the wall and start the destruction of my car.</p>
 <p><!--adsense#banner--><br />
 Here is the timeline of the pictures:</p>
-<p>I hit the wall, notice the glass flying around as I break out all of my windows.<img src="http:&#47;&#47;farm2.static.flickr.com&#47;1106&#47;552111202_5db9976209.jpg?v=0" align="left" height="194" width="336" &#47;></p>
+<p>I hit the wall, notice the glass flying around as I break out all of my windows.<img src="http://farm2.static.flickr.com/1106/552111202_5db9976209.jpg?v=0" align="left" height="194" width="336" /></p>
 <p>Next as I spin away from the wall I am rear ended by the car I just passed, losing my spoiler.</p>
-<p><img src="http:&#47;&#47;farm2.static.flickr.com&#47;1355&#47;552111358_9415349bd6.jpg?v=0" height="189" width="336" &#47;></p>
+<p><img src="http://farm2.static.flickr.com/1355/552111358_9415349bd6.jpg?v=0" height="189" width="336" /></p>
 <p>Then I start to straighten out, thinking everything is A-ok. Notice the red car.</p>
-<p><img src="http:&#47;&#47;farm2.static.flickr.com&#47;1010&#47;552111508_54f4919bef.jpg?v=0" height="189" width="336" &#47;></p>
+<p><img src="http://farm2.static.flickr.com/1010/552111508_54f4919bef.jpg?v=0" height="189" width="336" /></p>
 <p>Finally I am hit by the red car and almost flipped(I was so disappointed)</p>
-<p><img src="http:&#47;&#47;farm2.static.flickr.com&#47;1410&#47;552334599_69b54d43c0.jpg?v=0" height="189" width="336" &#47;></p>
+<p><img src="http://farm2.static.flickr.com/1410/552334599_69b54d43c0.jpg?v=0" height="189" width="336" /></p>
 <p>After all of this, I was passed by every car as I tried to correct my path. I then but it into gear and went to try and catch up to at least the seventh place car(the red car the tried to kill me).</p>
 <p>Luckily for me since I only hit my front end once, there was very little damage to my engine and the red car after hitting me destroyed theirs. So after a frantic lap playing catch up I was able to pass him just before going across the finish line.</p>
 <p><!--adsense--></p>

@@ -20,7 +20,7 @@ tags:
 - Books
 comments: []
 ---
-<p>I have been using the <a href="http:&#47;&#47;mylibrary.us">library<&#47;a> a lot to save myself from buying all of the books I want to read and have been having quite a bit of fun doing it. That was until today...</p>
+<p>I have been using the <a href="http://mylibrary.us">library</a> a lot to save myself from buying all of the books I want to read and have been having quite a bit of fun doing it. That was until today...</p>
 <p>Last week I have ordered a book interlibrary loan style. That basically means that the local library system didn't have it so they had to borrow it from another districts libraries. It went off without a hitch and I was allowed to borrow it until July 5th or there would be crazy $1.00 a day late fees.</p>
 <p>When I received the book there was a pink piece of paper wrapped around the front cover which I took off and used as a bookmark. once I finished the book I took out the bookmark(pink slip) and threw it away prior to returning the book to the library.</p>
 <p>Apparently you have to keep that piece of paper on the book when it is an interlibrary loan. Since I didn't do this I have been assessed a $1.00 fine for the book, even though I turned it in two weeks early.</p>

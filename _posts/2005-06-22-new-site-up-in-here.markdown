@@ -25,9 +25,9 @@ comments: []
 <p>Clown wise I have quite a few gigs coming up, this friday I am doing a picnic for work and then on the 9th of July I will be at both Eaton and Lasalle days. </p>
 <p>Sarah and I painted are room, here is what the critics are saying:<br />
 <em><br />
-Well its....interesting<&#47;em>--Mike Ross</p>
-<p><em>You know what, I like it<&#47;em>-- Nan Allen</p>
-<p><em>This color is f**king sweet<&#47;em>--Dylan Reed</p>
+Well its....interesting</em>--Mike Ross</p>
+<p><em>You know what, I like it</em>-- Nan Allen</p>
+<p><em>This color is f**king sweet</em>--Dylan Reed</p>
 <p>Its a color called dark jungle, its a dark green and it is just fabulous.</p>
 <p>Work is good, I just try to get everything done by the time the day is over. Mostly I do, mostly. Sarah's job is her most favorite thing in the world. That might not be entirely true she might secretly love our cats more, but I'm not telling.</p>
-<p>Ok everyone most vote for which clown face they like best A or <a href="http:&#47;&#47;dylanreed.org&#47;media&#47;album08&#47;IMG_0821">B<&#47;a> the difference is the wig, I need 10 votes by friday. comment to vote.</p>
+<p>Ok everyone most vote for which clown face they like best A or <a href="http://dylanreed.org/media/album08/IMG_0821">B</a> the difference is the wig, I need 10 votes by friday. comment to vote.</p>

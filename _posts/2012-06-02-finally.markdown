@@ -20,4 +20,4 @@ categories:
 tags: []
 comments: []
 ---
-<p>We have finally launched Joe and Ems!!!! Check it out!!!<a href="http:&#47;&#47;www.joeandem.com"><img class="alignnone size-medium wp-image-1530" title="Screen Shot 2012-06-02 at 10.48.55 AM" src="http:&#47;&#47;www.dylanreed.com&#47;wp-content&#47;uploads&#47;2012&#47;06&#47;Screen-Shot-2012-06-02-at-10.48.55-AM-300x202.png" alt="" width="300" height="202" &#47;><&#47;a></p>
+<p>We have finally launched Joe and Ems!!!! Check it out!!!<a href="http://www.joeandem.com"><img class="alignnone size-medium wp-image-1530" title="Screen Shot 2012-06-02 at 10.48.55 AM" src="http://www.dylanreed.com/wp-content/uploads/2012/06/Screen-Shot-2012-06-02-at-10.48.55-AM-300x202.png" alt="" width="300" height="202" /></a></p>

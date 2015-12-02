@@ -28,7 +28,7 @@ comments:
   date_gmt: '2014-02-06 02:54:52 -0600'
   content: Time to think deeply when it's too cold to go out! Nice Dylan!
 ---
-<p><a href="http:&#47;&#47;www.dylanreed.com&#47;wp-content&#47;uploads&#47;2014&#47;02&#47;20140205-115308.jpg"><img class="size-full alignleft" alt="20140205-115308.jpg" src="http:&#47;&#47;www.dylanreed.com&#47;wp-content&#47;uploads&#47;2014&#47;02&#47;20140205-115308.jpg" width="169" height="300" &#47;><&#47;a></p>
+<p><a href="http://www.dylanreed.com/wp-content/uploads/2014/02/20140205-115308.jpg"><img class="size-full alignleft" alt="20140205-115308.jpg" src="http://www.dylanreed.com/wp-content/uploads/2014/02/20140205-115308.jpg" width="169" height="300" /></a></p>
 <p>It is cold today. Really cold. According to my phone (which is an iphone so it has to be correct) it is -40 with windchill in Greeley today. WTF. That is stupid cold. I am not a fan.</p>
 <p>Here is the deal though. I have a house, food and a car. I am super lucky. I was whining to myself about the fact that my car's heater was slow at getting warm. Then I drove by a dude digging through a dumpster for food. Made me feel like a super big douchebag.</p>
 <p>Please keep this in mind when you are dealing with the cold. Not everyone is lucky enough to have heat, a bed or even a coat. If you are able to please help people out. Have an old coat? donate it to a homeless shelter. Have some extra money? Give it to those that need it.</p>
@@ -37,4 +37,4 @@ comments:
 <p>When I worked for graphicly I would see the same dude every week as I left town. I started giving him all the change in my slurpee fund. I also started to buy an extra cupcake when I went to Tee and Cakes for Sarah and I. He would get that extra cupcake.</p>
 <p>As time went on I noticed that he was wearing nicer clothes. Not a suit or anything but he was wearing cleaner clothes. One day he had a decent backpack and water bottle. I don't know where he got all of these things but I know that he was helped through the generosity of others.</p>
 <p>After I got laid off from graphicly I always wondered what happened to him. I hope that he continued to get the help he needed to get on his feet.</p>
-<p>For more information about donations or how to help check out this <a href="https:&#47;&#47;www.justgive.org&#47;donations&#47;help-homeless.jsp">place<&#47;a>.</p>
+<p>For more information about donations or how to help check out this <a href="https://www.justgive.org/donations/help-homeless.jsp">place</a>.</p>

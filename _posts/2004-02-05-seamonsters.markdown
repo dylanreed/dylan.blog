@@ -37,9 +37,9 @@ comments:
     i'll add them to the list
 ---
 <p>My las entry was about Orcas. I figure I should give the masses a little bit of info on other scary creatures of the sea. Over the next couple of weeks I will due a series of stories about crazy deadly creatures. Most likely in this order:<br />
-1. <font color="#808000">Blue Ringed Octopus<&#47;font> (2&#47;7)<br />
-2. <font color="#ff0000">Great White Sharks<&#47;font> (2&#47;10)<br />
-3. <font color="#00ff00">Moray Eels<&#47;font> (2&#47;12)<br />
-4. <font color="#800080">Humboldt Squid <&#47;font>(2&#47;16)<br />
-5. <font color="#0000ff">Tiger Sharks<&#47;font> (2&#47;20)<br />
-After that i will take suggestions on what else to write about. <strong><font color="#00ffff"><u>Mark<&#47;u><&#47;font><&#47;strong><u &#47;> this means you. Email to me or post them as comments. And don't worry nothing is true. OK it might be.</p>
+1. <font color="#808000">Blue Ringed Octopus</font> (2/7)<br />
+2. <font color="#ff0000">Great White Sharks</font> (2/10)<br />
+3. <font color="#00ff00">Moray Eels</font> (2/12)<br />
+4. <font color="#800080">Humboldt Squid </font>(2/16)<br />
+5. <font color="#0000ff">Tiger Sharks</font> (2/20)<br />
+After that i will take suggestions on what else to write about. <strong><font color="#00ffff"><u>Mark</u></font></strong><u /> this means you. Email to me or post them as comments. And don't worry nothing is true. OK it might be.</p>

@@ -21,9 +21,9 @@ tags: []
 comments: []
 ---
 <ul class="aktt_tweet_digest">
-<li>God damn C- on my sketchbook. Must draw more. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;4445574888" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>The Dylan Rules hoodie is back in full effect <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;4530918422" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>Need another half page about Heart of Darkness and A Grain of Wheat!!!! Ugh! <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;4544599372" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>Finished my paper. Go me. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;4545042627" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>Good night World <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;4545074522" class="aktt_tweet_time">#<&#47;a><&#47;li><br />
-<&#47;ul></p>
+<li>God damn C- on my sketchbook. Must draw more. <a href="http://twitter.com/awesomeguy/statuses/4445574888" class="aktt_tweet_time">#</a></li>
+<li>The Dylan Rules hoodie is back in full effect <a href="http://twitter.com/awesomeguy/statuses/4530918422" class="aktt_tweet_time">#</a></li>
+<li>Need another half page about Heart of Darkness and A Grain of Wheat!!!! Ugh! <a href="http://twitter.com/awesomeguy/statuses/4544599372" class="aktt_tweet_time">#</a></li>
+<li>Finished my paper. Go me. <a href="http://twitter.com/awesomeguy/statuses/4545042627" class="aktt_tweet_time">#</a></li>
+<li>Good night World <a href="http://twitter.com/awesomeguy/statuses/4545074522" class="aktt_tweet_time">#</a></li><br />
+</ul></p>

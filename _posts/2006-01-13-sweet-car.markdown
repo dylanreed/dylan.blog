@@ -20,4 +20,4 @@ categories:
 tags: []
 comments: []
 ---
-<p>I like this <a target="_blank" title="Car" href="http:&#47;&#47;www.waciworld.com&#47;psp_controlled_car&#47;">car<&#47;a></p>
+<p>I like this <a target="_blank" title="Car" href="http://www.waciworld.com/psp_controlled_car/">car</a></p>

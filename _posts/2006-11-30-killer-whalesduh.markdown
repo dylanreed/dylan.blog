@@ -39,7 +39,7 @@ comments:
     Knees Fiasco Part Deuxdylan on Knees Fiasco Part DeuxMarijean on Knees Fiasco
     Part Deux [...]'
 ---
-<p>So harper sent me this <a href="http:&#47;&#47;news.yahoo.com&#47;s&#47;ap&#47;20061130&#47;ap_on_re_us&#47;seaworld_whale_attack">link<&#47;a>. It makes me laugh that people are still so blind to the evil that is killer whales. Hopefully with news stories like this and the scene in Happy Feet with the Orcas, people will realize that we should no more train killer whales then we should train sharks.</p>
+<p>So harper sent me this <a href="http://news.yahoo.com/s/ap/20061130/ap_on_re_us/seaworld_whale_attack">link</a>. It makes me laugh that people are still so blind to the evil that is killer whales. Hopefully with news stories like this and the scene in Happy Feet with the Orcas, people will realize that we should no more train killer whales then we should train sharks.</p>
 <p>I think that of all of the creatures in the ocean killer whales are the scariest. Mostly because they are smart and evil. Recently they found that humpback whales shared the same type of brain cells as humans allowing higher intelligence or some such nonsense. That is great for the humpback whale. Unfortunatly for humans this has upset the killer whale community and they are mobilizing. If we thought fighting a losing war in Iraq sucked, just wait until the killer whales attack. There big, evil and are mad that we have stolem their prince(shamu) to make him perform for us.</p>
 <p>I for one am going to laugh about this some day.</p>
 <p>I praise our whale overlords.</p>

@@ -52,8 +52,8 @@ comments:
 <p>I am in a panic because I don't know what game to get, or which bundle to get or anything I am like a chicken who lost its head while crossing the road. Today I thought that the best thing to do would be to get the GTA three pack, however that was for the regular XBOX so if I was going to do that why not just buy a regular XBOX. So I thought about one of those WWII games that all seem so fun and cool. But who wants to learn history while they play games. I certainly don't. Then Sarah and I watch Major League 1 & 2, which got me thinking, why not a baseball game. I mean aside from the fact that they are lame and all that which goes with the lameness. Or should I just wait until the Nintendo Revolution comes out and get one of those. I would get a PS3 when they come out but do to Sony&Atilde;&macr;&Acirc;&iquest;&Acirc;&frac12;s insanity they are talking like $800 for just the console. Maybe instead of that you could get to XBOX 360's and give one to me. hint hint. I mean if I was going to drop $800 on a system I would buy two systems or all of the systems that have been made previously. I mean WTF.</p>
 <p>There are just too many choices.</p>
 <p>That is all</p>
-<p>Oh and <a href="http:&#47;&#47;www.photodork.org">this<&#47;a></p>
+<p>Oh and <a href="http://www.photodork.org">this</a></p>
 <p>Just kidding there are actually four or more things.</p>
 <p>4) I am currently reading Verner Vinge&Atilde;&macr;&Acirc;&iquest;&Acirc;&frac12;s other book wit Pham Nuwen in it. A Fire Upon the Deep it be called. The book has a really interesting concept of pack minds of the wolf-like Tines as the humans stranded on the planet calls them. I am not sure whether it take place before or after A deepness in the Sky or if that is the right whether.</p>
 <p>Ok that was the end</p>
-<p class="MsoNormal"><&#47;p></p>
+<p class="MsoNormal"></p></p>

@@ -20,4 +20,4 @@ tags:
 - Usability
 comments: []
 ---
-<p>If you have a login area on your site make it a part of every page. This way you won't navigate users away from the content they are viewing when they log in. Examples: <a href="http:&#47;&#47;www.jokesareawesome.com">JokesAreAwesome.com<&#47;a>, <a href="http:&#47;&#47;www.threadless.com">Threadless.com<&#47;a></p>
+<p>If you have a login area on your site make it a part of every page. This way you won't navigate users away from the content they are viewing when they log in. Examples: <a href="http://www.jokesareawesome.com">JokesAreAwesome.com</a>, <a href="http://www.threadless.com">Threadless.com</a></p>

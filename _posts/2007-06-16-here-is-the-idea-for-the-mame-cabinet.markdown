@@ -20,4 +20,4 @@ tags:
 - Projects
 comments: []
 ---
-<p><img src="http:&#47;&#47;img.timeinc.net&#47;popsci&#47;images&#47;2007&#47;03&#47;table_485.jpg" height="402" width="485" &#47;></p>
+<p><img src="http://img.timeinc.net/popsci/images/2007/03/table_485.jpg" height="402" width="485" /></p>

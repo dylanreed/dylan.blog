@@ -21,4 +21,4 @@ tags: []
 comments: []
 ---
 <p>Next weeks theme is Panda-ring. And I had to share this video</p>
-<p><object width="480" height="390"><param name="movie" value="http:&#47;&#47;www.youtube.com&#47;v&#47;LNqeZVL_ZHE?fs=1&amp;hl=en_US"><&#47;param><param name="allowFullScreen" value="true"><&#47;param><param name="allowscriptaccess" value="always"><&#47;param><embed src="http:&#47;&#47;www.youtube.com&#47;v&#47;LNqeZVL_ZHE?fs=1&amp;hl=en_US" type="application&#47;x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="390"><&#47;embed><&#47;object></p>
+<p><object width="480" height="390"><param name="movie" value="http://www.youtube.com/v/LNqeZVL_ZHE?fs=1&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/LNqeZVL_ZHE?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="390"></embed></object></p>

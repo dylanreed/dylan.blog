@@ -22,7 +22,7 @@ comments: []
 ---
 <p>Here is a small list of new props that I feel that need for clowning:</p>
 <ul>
-<li>New juggling <a href="http:&#47;&#47;www.renegadejuggling.com&#47;Web_store&#47;web_store.cgi?page=balls7.html&cart_id=4576115.11809">balls<&#47;a><&#47;li>
-<li>New juggling <a href="http:&#47;&#47;www.renegadejuggling.com&#47;Web_store&#47;web_store.cgi?page=clubs4.html&cart_id=4576115.11809">clubs<&#47;a><&#47;li>
-<li>New <a href="http:&#47;&#47;www.renegadejuggling.com&#47;Web_store&#47;web_store.cgi?page=globesall.html&cart_id=4576115.11809">walking globe<&#47;a>or a <a href="http:&#47;&#47;store.semcycle.com&#47;product_info.php?cPath=5&products_id=22">mini bike<&#47;a><&#47;li><br />
-<&#47;ul></p>
+<li>New juggling <a href="http://www.renegadejuggling.com/Web_store/web_store.cgi?page=balls7.html&cart_id=4576115.11809">balls</a></li>
+<li>New juggling <a href="http://www.renegadejuggling.com/Web_store/web_store.cgi?page=clubs4.html&cart_id=4576115.11809">clubs</a></li>
+<li>New <a href="http://www.renegadejuggling.com/Web_store/web_store.cgi?page=globesall.html&cart_id=4576115.11809">walking globe</a>or a <a href="http://store.semcycle.com/product_info.php?cPath=5&products_id=22">mini bike</a></li><br />
+</ul></p>

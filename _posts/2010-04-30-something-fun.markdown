@@ -20,4 +20,4 @@ categories:
 tags: []
 comments: []
 ---
-<p>I have started to work on a new project. You can find it <a href="http:&#47;&#47;www.veggiefight.com">here<&#47;a>. I have moved the comic that was here over there. Check it out.</p>
+<p>I have started to work on a new project. You can find it <a href="http://www.veggiefight.com">here</a>. I have moved the comic that was here over there. Check it out.</p>

@@ -20,5 +20,5 @@ categories:
 tags: []
 comments: []
 ---
-<p><b><u><i><a href="http:&#47;&#47;www.thedogisland.com&#47;index.html">DOGS<&#47;a><&#47;i><&#47;u><&#47;b></p>
+<p><b><u><i><a href="http://www.thedogisland.com/index.html">DOGS</a></i></u></b></p>
 <p>ok more later now back to work</p>

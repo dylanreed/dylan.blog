@@ -28,27 +28,27 @@ comments:
   content: Keep updating with your art pictures... Emily and I always love seeing
     them.
 ---
-<p><a href="http:&#47;&#47;www.dylanreed.com&#47;wp-content&#47;uploads&#47;2010&#47;02&#47;teeth.jpg"><img class="size-medium wp-image-1009 alignleft" title="teeth" src="http:&#47;&#47;www.dylanreed.com&#47;wp-content&#47;uploads&#47;2010&#47;02&#47;teeth-300x147.jpg" alt="" width="300" height="147" &#47;><&#47;a></p>
-<p>So far so good. Since I have fixed the glitch with Paypal donations have been pouring in. I appreciate everything that people have done, from retweeting to donating money. You may notice on the sidebar there is a new addition. It is the progress bar on the amount donated to help get my teeth done. A<a href="http:&#47;&#47;daveandemilyking.wordpress.com&#47;"> nice generous soul<&#47;a> has already adopted 6 teeth, making him the top sponsor of my mouth. Don't let him be the only one. As you can see the lower right hand side has been saved, which means that if you had your heart set on the lower right you are out of luck. Of course there is still a lot of teeth that need to be saved. Don't be afraid, Do it today.</p>
-<form action="https:&#47;&#47;www.paypal.com&#47;cgi-bin&#47;webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick"&#47;><br />
-<input type="hidden" name="hosted_button_id" value="5Z7CUPGNDDH7E"&#47;></p>
+<p><a href="http://www.dylanreed.com/wp-content/uploads/2010/02/teeth.jpg"><img class="size-medium wp-image-1009 alignleft" title="teeth" src="http://www.dylanreed.com/wp-content/uploads/2010/02/teeth-300x147.jpg" alt="" width="300" height="147" /></a></p>
+<p>So far so good. Since I have fixed the glitch with Paypal donations have been pouring in. I appreciate everything that people have done, from retweeting to donating money. You may notice on the sidebar there is a new addition. It is the progress bar on the amount donated to help get my teeth done. A<a href="http://daveandemilyking.wordpress.com/"> nice generous soul</a> has already adopted 6 teeth, making him the top sponsor of my mouth. Don't let him be the only one. As you can see the lower right hand side has been saved, which means that if you had your heart set on the lower right you are out of luck. Of course there is still a lot of teeth that need to be saved. Don't be afraid, Do it today.</p>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick"/><br />
+<input type="hidden" name="hosted_button_id" value="5Z7CUPGNDDH7E"/></p>
 <table>
 <tr>
-<td><input type="hidden" name="on0" value="Tooth Adoption Options"&#47;>Tooth Adoption Options<&#47;td><&#47;tr><br />
+<td><input type="hidden" name="on0" value="Tooth Adoption Options"/>Tooth Adoption Options</td></tr><br />
 <tr>
 <td>
 <select name="os0">
-<option value="Full Tooth">Full Tooth $35.00<&#47;option></p>
-<option value="1&#47;2 Tooth">1&#47;2 Tooth $17.50<&#47;option></p>
-<option value="1&#47;5 Tooth">1&#47;5 Tooth $7.00<&#47;option></p>
-<option value="1&#47;7 Tooth">1&#47;7 Tooth $5.00<&#47;option><br />
-<&#47;select> <&#47;td><&#47;tr><br />
-<&#47;table><br />
-<input type="hidden" name="currency_code" value="USD"&#47;><br />
-<input type="image" src="https:&#47;&#47;www.paypal.com&#47;en_US&#47;i&#47;btn&#47;btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"&#47;><br />
-<img alt="" border="0" src="https:&#47;&#47;www.paypal.com&#47;en_US&#47;i&#47;scr&#47;pixel.gif" width="1" height="1"&#47;><br />
-<&#47;form></p>
+<option value="Full Tooth">Full Tooth $35.00</option></p>
+<option value="1/2 Tooth">1/2 Tooth $17.50</option></p>
+<option value="1/5 Tooth">1/5 Tooth $7.00</option></p>
+<option value="1/7 Tooth">1/7 Tooth $5.00</option><br />
+</select> </td></tr><br />
+</table><br />
+<input type="hidden" name="currency_code" value="USD"/><br />
+<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/><br />
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1"/><br />
+</form></p>
 <p>Now that that is out of the way, let me tell you what I have been up to. School, lots and lots of school. I am taking 2d Design, Sculpture, Music Appreciation and a Composition class. 2d Design is my current least favorite class. It is painting, no matter what the professor says, and I am not very confident in my painting abilities. I am learning a lot, though I think that the teacher is just unlocking all the color theory information that I have picked up from Sarah over the years.&nbsp;Unfortunately&nbsp;I am not very good at staying in the lines and my canvases don't look very clean.</p>
 <p>Sculpture is a lot of fun. I have spent these past few weeks playing with chicken wire and plaster. I am making an awesome sculpture that I will hopefully finish tonight. And by hopefully, I mean I have to finish it because the critique is tomorrow. I will attempt to take more pictures of my sculptures as I complete them and once I have this one finished I will post pictures of it.</p>
 <p>Music Apreciation is quite interesting. I have taken a lot of Art History classes which cover about the same time periods of art and it has been interesting to learn about the music of the same time periods. It also helps that my instructor has a scottish accent and that makes class quite a bit more fun.</p>

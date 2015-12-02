@@ -20,6 +20,6 @@ categories:
 tags: []
 comments: []
 ---
-<p>So harper introduced me to this great game p<a href="http:&#47;&#47;www.piratewars2.com">i<&#47;a>rate w<a href="http:&#47;&#47;">a<&#47;a>rs2 it rulez</p>
+<p>So harper introduced me to this great game p<a href="http://www.piratewars2.com">i</a>rate w<a href="http://">a</a>rs2 it rulez</p>
 <p>everyone watch out fot the dread ship MonkeyPants</p>
 <p>I guess we are going to party on saturday night</p>

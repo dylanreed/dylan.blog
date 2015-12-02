@@ -20,4 +20,4 @@ categories:
 tags: []
 comments: []
 ---
-<p>So today as I was purusing the internet for new and interesting ways to hurt myself on my unicycle I happened upon <a href="http:&#47;&#47;www.wheelsurf.nl&#47;main.php?menu=thewheelsurf">this<&#47;a>. Un fortunatly it is currnetly only availible in the UK and may never come here but i want one. Almost as much as I would like some running <a href="http:&#47;&#47;www.superdairyboy.com&#47;poweriser.html">stilts<&#47;a>. So that is how i am going to try and hurt myself soon.</p>
+<p>So today as I was purusing the internet for new and interesting ways to hurt myself on my unicycle I happened upon <a href="http://www.wheelsurf.nl/main.php?menu=thewheelsurf">this</a>. Un fortunatly it is currnetly only availible in the UK and may never come here but i want one. Almost as much as I would like some running <a href="http://www.superdairyboy.com/poweriser.html">stilts</a>. So that is how i am going to try and hurt myself soon.</p>

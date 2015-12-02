@@ -20,6 +20,6 @@ tags:
 - Clown
 comments: []
 ---
-<p>So my new clown costume came here is the <a href="http:&#47;&#47;dylanreed.org&#47;media&#47;album01&#47;thursday_december_09_2004_10">sketch<&#47;a><br />
+<p>So my new clown costume came here is the <a href="http://dylanreed.org/media/album01/thursday_december_09_2004_10">sketch</a><br />
 in reality it ids so much bigger<br />
  i know weird</p>

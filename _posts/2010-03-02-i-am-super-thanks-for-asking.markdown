@@ -43,22 +43,22 @@ comments:
 ---
 <p>I have been working on this painting for 2d-design for about 8-10 hours now and it is awesome.</p>
 <ul>
-<li><img class="aligncenter" title="It starts" src="http:&#47;&#47;farm5.static.flickr.com&#47;4019&#47;4424617781_f6195b229f_b.jpg" alt="" width="277" height="368" &#47;><&#47;li><br />
-<&#47;ul><br />
+<li><img class="aligncenter" title="It starts" src="http://farm5.static.flickr.com/4019/4424617781_f6195b229f_b.jpg" alt="" width="277" height="368" /></li><br />
+</ul><br />
 Here it is all laid out and I have started adding color.</p>
 <ul>
-<li><img class="aligncenter" title="Moving Along" src="http:&#47;&#47;farm3.static.flickr.com&#47;2751&#47;4425384288_bd039ca62f_b.jpg" alt="" width="277" height="368" &#47;><&#47;li><br />
-<&#47;ul><br />
+<li><img class="aligncenter" title="Moving Along" src="http://farm3.static.flickr.com/2751/4425384288_bd039ca62f_b.jpg" alt="" width="277" height="368" /></li><br />
+</ul><br />
 Moving Right Along with the Coloring</p>
 <ul>
-<li><img class="aligncenter" title="Added a big mushroom to make it more awesome" src="http:&#47;&#47;farm5.static.flickr.com&#47;4052&#47;4424618743_d779b4fbf3_b.jpg" alt="" width="277" height="368" &#47;><&#47;li><br />
-<&#47;ul><br />
+<li><img class="aligncenter" title="Added a big mushroom to make it more awesome" src="http://farm5.static.flickr.com/4052/4424618743_d779b4fbf3_b.jpg" alt="" width="277" height="368" /></li><br />
+</ul><br />
 Added a big mushroom to make it more awesome.</p>
 <ul>
-<li><img class="aligncenter" title="Here we go background" src="http:&#47;&#47;farm3.static.flickr.com&#47;2682&#47;4425385268_0c01ba2039_b.jpg" alt="" width="277" height="368" &#47;><&#47;li><br />
-<&#47;ul><br />
+<li><img class="aligncenter" title="Here we go background" src="http://farm3.static.flickr.com/2682/4425385268_0c01ba2039_b.jpg" alt="" width="277" height="368" /></li><br />
+</ul><br />
 Here we go background.</p>
 <ul>
-<li><img class="aligncenter" title="And....Done!" src="http:&#47;&#47;farm3.static.flickr.com&#47;2785&#47;4424619417_c42649af5d_b.jpg" alt="" width="277" height="368" &#47;><&#47;li><br />
-<&#47;ul><br />
+<li><img class="aligncenter" title="And....Done!" src="http://farm3.static.flickr.com/2785/4424619417_c42649af5d_b.jpg" alt="" width="277" height="368" /></li><br />
+</ul><br />
 And...Done!</p>

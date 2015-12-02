@@ -20,9 +20,9 @@ categories:
 tags: []
 comments: []
 ---
-<p>I used to frequent a certain magic <a href="http:&#47;&#47;www.ellusionist.com">website<&#47;a>. I really enjoyed their movies, equipment and their no nonsense method of teaching. Since I have been busy lately I haven't visited in a while. When I finally did I noticed that the site had been redesigned to look really really flashy and cool. This is nice, and it works fine, but the content hasn't changed that much. <&#47;p>
-<p><!--adsense#refer2--><&#47;p>
-<p>They are one of the biggest magic retailers on the web and they sell very few crap products, but the main reason I really like their site was that the stuff they sell was innovative and sometimes crazy. Since I had last visited there have only been a few small additions to their collections and I find my self drawn to the same stuff I was drawn to six months ago.<&#47;p>
-<p>I understand that magic doesn't just pop up and create itself. But I would think that rather then spending a probably ridiculous amount of money making the website prettier they could have done some R &amp; D to make some new crazy unseen tricks to amaze people. <&#47;p>
-<p><!--adsense--><&#47;p>
-<p>Another thing I had noticed before and never spoke about is that a lot of the tricks they offer now are all about gimmicks: the Scorpion, Superman coin Bend, etc. It used to be that a lot of their stuff was sleight of hand. Crash Course in Card Magic teaches all of the basics that you need to do really good sleight of hand. Why not make a Crash Course of Coin Magic. They could just follow Bobo's book and be all set.<&#47;p></p>
+<p>I used to frequent a certain magic <a href="http://www.ellusionist.com">website</a>. I really enjoyed their movies, equipment and their no nonsense method of teaching. Since I have been busy lately I haven't visited in a while. When I finally did I noticed that the site had been redesigned to look really really flashy and cool. This is nice, and it works fine, but the content hasn't changed that much. </p>
+<p><!--adsense#refer2--></p>
+<p>They are one of the biggest magic retailers on the web and they sell very few crap products, but the main reason I really like their site was that the stuff they sell was innovative and sometimes crazy. Since I had last visited there have only been a few small additions to their collections and I find my self drawn to the same stuff I was drawn to six months ago.</p>
+<p>I understand that magic doesn't just pop up and create itself. But I would think that rather then spending a probably ridiculous amount of money making the website prettier they could have done some R &amp; D to make some new crazy unseen tricks to amaze people. </p>
+<p><!--adsense--></p>
+<p>Another thing I had noticed before and never spoke about is that a lot of the tricks they offer now are all about gimmicks: the Scorpion, Superman coin Bend, etc. It used to be that a lot of their stuff was sleight of hand. Crash Course in Card Magic teaches all of the basics that you need to do really good sleight of hand. Why not make a Crash Course of Coin Magic. They could just follow Bobo's book and be all set.</p></p>

@@ -20,7 +20,7 @@ tags:
 - Projects
 comments: []
 ---
-<p><img src="http:&#47;&#47;farm1.static.flickr.com&#47;231&#47;513660136_e852f1628e.jpg?v=0" align="right" height="202" width="251" &#47;></p>
+<p><img src="http://farm1.static.flickr.com/231/513660136_e852f1628e.jpg?v=0" align="right" height="202" width="251" /></p>
 <p>Sarah and I have this cat, his name is Reno and he is the crankiest, vilest, most loudest cat I have ever met. And that is just between 3am and noon.</p>
 <p>He is really a pretty nice cat but he thinks that he should be an outdoor kitty and unfortunately we think that he should be an indoor kitty. So, in the spirit of compromise, we are building an outdoor cat habitat. This is basically a fancy way of saying an cage to hold our cat.</p>
 <p>We are building it 4'w x 4'l x 6'h, most likely out of wood and a square wire mesh. We planning on adding a couple perches as well as a house to protect from the sun and rain, as well as a hammock for being lazy.</p>

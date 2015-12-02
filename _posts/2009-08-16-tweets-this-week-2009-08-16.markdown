@@ -34,8 +34,8 @@ comments:
     I can help in any way.\r\n\r\nBest of luck to you, \r\n\r\njd"
 ---
 <ul class="aktt_tweet_digest">
-<li>Listening to Van halen&#39;s jump and getting ready for volleyball <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3215339407" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>Just saw a dude in full tilt poker hat and shirt with a fanny pack and a discman smoking while jogging. Coolest guy ever! <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3317732482" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>RT @harper: "They stand with one leg, how can you trust them" - hiromi about flamingos. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3337892027" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>Come on food place give me food. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3337988482" class="aktt_tweet_time">#<&#47;a><&#47;li><br />
-<&#47;ul></p>
+<li>Listening to Van halen&#39;s jump and getting ready for volleyball <a href="http://twitter.com/awesomeguy/statuses/3215339407" class="aktt_tweet_time">#</a></li>
+<li>Just saw a dude in full tilt poker hat and shirt with a fanny pack and a discman smoking while jogging. Coolest guy ever! <a href="http://twitter.com/awesomeguy/statuses/3317732482" class="aktt_tweet_time">#</a></li>
+<li>RT @harper: "They stand with one leg, how can you trust them" - hiromi about flamingos. <a href="http://twitter.com/awesomeguy/statuses/3337892027" class="aktt_tweet_time">#</a></li>
+<li>Come on food place give me food. <a href="http://twitter.com/awesomeguy/statuses/3337988482" class="aktt_tweet_time">#</a></li><br />
+</ul></p>

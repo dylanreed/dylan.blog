@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: Chicken Sandwich&#47;Turkey Burger
+title: Chicken Sandwich/Turkey Burger
 author:
   display_name: Dylan
   login: dylan
@@ -31,7 +31,7 @@ Buy soft hamburger buns(sara lee)</p>
 <p>wait 2 minutes and flip</p>
 <p>repeat about 5 - 7 times</p>
 <p>place on buns</p>
-<p>Chicken sandwich mayo both ides of bun&#47;turkey burger catsup and mustard to taste<br />
+<p>Chicken sandwich mayo both ides of bun/turkey burger catsup and mustard to taste<br />
 eat</p>
 <p>save left over ground turkey and chicken in freezer for  12 months max</p>
 <p>get out the day before if you are going to use it</p>

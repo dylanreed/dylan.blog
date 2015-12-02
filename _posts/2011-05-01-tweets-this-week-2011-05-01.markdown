@@ -21,21 +21,21 @@ tags: []
 comments: []
 ---
 <ul class="aktt_tweet_digest">
-<li>dubstep + cooking = success <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;62242187005542400" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>So full need a nap. Must sleep. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;62271903179616256" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>I hate when I forget to charge my gameboy. #<a href="http:&#47;&#47;search.twitter.com&#47;search?q=%23pokemon" class="aktt_hashtag">pokemon<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;62276993391132672" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>Running leftovers home because I am such a nice guy. #<a href="http:&#47;&#47;search.twitter.com&#47;search?q=%23pokemon" class="aktt_hashtag">pokemon<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;62279156616003585" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>About to have homemade chocolate dipped strawberries and petit-fours <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;62291302452170753" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>anyone in colorado know where to find traditional darkroom chemicals in colorado, specifically between wyoming and boulder? <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;62310729843343360" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>Easter is almost over I didn&#039;t see zombie jesus even once. :( <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;62338296969302016" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>Apparently I am the only on who remembered to come to work this morning. #<a href="http:&#47;&#47;search.twitter.com&#47;search?q=%23getawatch" class="aktt_hashtag">getawatch<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;62504800083910657" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>How long does one wait for manager to show up before giving up and going home? #<a href="http:&#47;&#47;search.twitter.com&#47;search?q=%23getawatch" class="aktt_hashtag">getawatch<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;62509764558585857" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>Still no manager and now customers are showing up. Yippee!! #<a href="http:&#47;&#47;search.twitter.com&#47;search?q=%23getawatch" class="aktt_hashtag">getawatch<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;62519391320944640" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>Reno is excited!!! Me too <a href="http:&#47;&#47;t.co&#47;FgLpndp" rel="nofollow">http:&#47;&#47;t.co&#47;FgLpndp<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;63008128005967872" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>Rough day... thinking positive... as in I am positive I left my MTG cards at my parents house. Awkward. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;63711306997432321" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>TOnight is my first pampered chef party. Let me know is you want to order anything. Also if you are in greeley and want to come let me know <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;63928596779114496" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li><a href="http:&#47;&#47;dylan.la&#47;leoPvV" rel="nofollow">http:&#47;&#47;dylan.la&#47;leoPvV<&#47;a> I think I am excited for this <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;63977924382035968" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>kind of sleepy. First party was a success last night and I have another tomorrow. Go me. <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;64436363231113216" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>RAWRG!!!! <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;64456531621576704" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>OH: he looks like a horse. #<a href="http:&#47;&#47;search.twitter.com&#47;search?q=%23royalwedding" class="aktt_hashtag">royalwedding<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;64472238337961984" class="aktt_tweet_time">#<&#47;a><&#47;li><br />
-<&#47;ul></p>
+<li>dubstep + cooking = success <a href="http://twitter.com/awesomeguy/statuses/62242187005542400" class="aktt_tweet_time">#</a></li>
+<li>So full need a nap. Must sleep. <a href="http://twitter.com/awesomeguy/statuses/62271903179616256" class="aktt_tweet_time">#</a></li>
+<li>I hate when I forget to charge my gameboy. #<a href="http://search.twitter.com/search?q=%23pokemon" class="aktt_hashtag">pokemon</a> <a href="http://twitter.com/awesomeguy/statuses/62276993391132672" class="aktt_tweet_time">#</a></li>
+<li>Running leftovers home because I am such a nice guy. #<a href="http://search.twitter.com/search?q=%23pokemon" class="aktt_hashtag">pokemon</a> <a href="http://twitter.com/awesomeguy/statuses/62279156616003585" class="aktt_tweet_time">#</a></li>
+<li>About to have homemade chocolate dipped strawberries and petit-fours <a href="http://twitter.com/awesomeguy/statuses/62291302452170753" class="aktt_tweet_time">#</a></li>
+<li>anyone in colorado know where to find traditional darkroom chemicals in colorado, specifically between wyoming and boulder? <a href="http://twitter.com/awesomeguy/statuses/62310729843343360" class="aktt_tweet_time">#</a></li>
+<li>Easter is almost over I didn&#039;t see zombie jesus even once. :( <a href="http://twitter.com/awesomeguy/statuses/62338296969302016" class="aktt_tweet_time">#</a></li>
+<li>Apparently I am the only on who remembered to come to work this morning. #<a href="http://search.twitter.com/search?q=%23getawatch" class="aktt_hashtag">getawatch</a> <a href="http://twitter.com/awesomeguy/statuses/62504800083910657" class="aktt_tweet_time">#</a></li>
+<li>How long does one wait for manager to show up before giving up and going home? #<a href="http://search.twitter.com/search?q=%23getawatch" class="aktt_hashtag">getawatch</a> <a href="http://twitter.com/awesomeguy/statuses/62509764558585857" class="aktt_tweet_time">#</a></li>
+<li>Still no manager and now customers are showing up. Yippee!! #<a href="http://search.twitter.com/search?q=%23getawatch" class="aktt_hashtag">getawatch</a> <a href="http://twitter.com/awesomeguy/statuses/62519391320944640" class="aktt_tweet_time">#</a></li>
+<li>Reno is excited!!! Me too <a href="http://t.co/FgLpndp" rel="nofollow">http://t.co/FgLpndp</a> <a href="http://twitter.com/awesomeguy/statuses/63008128005967872" class="aktt_tweet_time">#</a></li>
+<li>Rough day... thinking positive... as in I am positive I left my MTG cards at my parents house. Awkward. <a href="http://twitter.com/awesomeguy/statuses/63711306997432321" class="aktt_tweet_time">#</a></li>
+<li>TOnight is my first pampered chef party. Let me know is you want to order anything. Also if you are in greeley and want to come let me know <a href="http://twitter.com/awesomeguy/statuses/63928596779114496" class="aktt_tweet_time">#</a></li>
+<li><a href="http://dylan.la/leoPvV" rel="nofollow">http://dylan.la/leoPvV</a> I think I am excited for this <a href="http://twitter.com/awesomeguy/statuses/63977924382035968" class="aktt_tweet_time">#</a></li>
+<li>kind of sleepy. First party was a success last night and I have another tomorrow. Go me. <a href="http://twitter.com/awesomeguy/statuses/64436363231113216" class="aktt_tweet_time">#</a></li>
+<li>RAWRG!!!! <a href="http://twitter.com/awesomeguy/statuses/64456531621576704" class="aktt_tweet_time">#</a></li>
+<li>OH: he looks like a horse. #<a href="http://search.twitter.com/search?q=%23royalwedding" class="aktt_hashtag">royalwedding</a> <a href="http://twitter.com/awesomeguy/statuses/64472238337961984" class="aktt_tweet_time">#</a></li><br />
+</ul></p>

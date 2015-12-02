@@ -21,6 +21,6 @@ tags: []
 comments: []
 ---
 <ul class="aktt_tweet_digest">
-<li>sleepy and undedicated. need an upbeat mix cd to listen to. GO <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3148744017" class="aktt_tweet_time">#<&#47;a><&#47;li>
-<li>Bad kitty <a href="http:&#47;&#47;twitpic.com&#47;d5bvz" rel="nofollow">http:&#47;&#47;twitpic.com&#47;d5bvz<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;3192541192" class="aktt_tweet_time">#<&#47;a><&#47;li><br />
-<&#47;ul></p>
+<li>sleepy and undedicated. need an upbeat mix cd to listen to. GO <a href="http://twitter.com/awesomeguy/statuses/3148744017" class="aktt_tweet_time">#</a></li>
+<li>Bad kitty <a href="http://twitpic.com/d5bvz" rel="nofollow">http://twitpic.com/d5bvz</a> <a href="http://twitter.com/awesomeguy/statuses/3192541192" class="aktt_tweet_time">#</a></li><br />
+</ul></p>

@@ -22,13 +22,13 @@ comments: []
 ---
 <p>What&rsquo;s the Big Idea I have been gone for a while. Not truly gone, but gone from this blog for almost the entire summer. Many things have happened this summer which have caused me to become lazy when it comes to my blog. Many of you have been following my tweets or at least reading the tweets that get posted every Sunday, if you want to know what has gone on this summer that is the best you can do. I haven&rsquo;t been very good at writing stuff down and therefore don&rsquo;t have an accurate accounting of everything that has gone down.  Here is a quick list of things, as I remember them happening:</p>
 <ul>
-<li>Cruise<&#47;li>
-<li>Laptop stolen<&#47;li>
-<li>Drawing class<&#47;li>
-<li>Warhammer<&#47;li>
-<li>Quitting my job<&#47;li>
-<li>Wood floors almost finished<&#47;li>
-<li>Fighting my HOA<&#47;li>
-<li>Other things as well<&#47;li><br />
-<&#47;ul><br />
+<li>Cruise</li>
+<li>Laptop stolen</li>
+<li>Drawing class</li>
+<li>Warhammer</li>
+<li>Quitting my job</li>
+<li>Wood floors almost finished</li>
+<li>Fighting my HOA</li>
+<li>Other things as well</li><br />
+</ul><br />
 I will attempt, really I will, to be a little bit better at my blog for the rest of the year. I am starting art school fulltime on August 24th and am a little nervous about that. Wish me luck.</p>

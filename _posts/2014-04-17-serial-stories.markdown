@@ -2,7 +2,7 @@
 layout: nav_menu_item
 status: publish
 published: true
-title: <a href="http:&#47;&#47;fancycadaver.com&#47;">Serial Stories<&#47;a>
+title: <a href="http://fancycadaver.com/">Serial Stories</a>
 author:
   display_name: Dylan
   login: dylan

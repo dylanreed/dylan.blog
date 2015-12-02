@@ -28,4 +28,4 @@ comments:
   content: congrats. That is exciting. Now you can be RICH!
 ---
 <p>Finally I got online confirmation of my Real Estate license.</p>
-<p><a href="http:&#47;&#47;farm2.static.flickr.com&#47;1133&#47;1436173002_7c05c35e55.jpg"><img src="http:&#47;&#47;farm2.static.flickr.com&#47;1133&#47;1436173002_7c05c35e55.jpg" height="200" width="300" &#47;><&#47;a></p>
+<p><a href="http://farm2.static.flickr.com/1133/1436173002_7c05c35e55.jpg"><img src="http://farm2.static.flickr.com/1133/1436173002_7c05c35e55.jpg" height="200" width="300" /></a></p>

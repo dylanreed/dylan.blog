@@ -21,7 +21,7 @@ tags: []
 comments: []
 ---
 <p>Another semi fond memory of my childhood involves bullion cubes and three kids that want to be astronauts.</p>
-<p>It all started when we where playing astronaut and needed space food. Since we didn't have any sort of a dehydrator we had to make do with food that might be used in space. What we had was bullion cubes<strong>, <&#47;strong>beef bullion cubes if I am not mistaken, and we needed sustenance to get through our mission.</p>
+<p>It all started when we where playing astronaut and needed space food. Since we didn't have any sort of a dehydrator we had to make do with food that might be used in space. What we had was bullion cubes<strong>, </strong>beef bullion cubes if I am not mistaken, and we needed sustenance to get through our mission.</p>
 <p>What started as a necessity for our mission quickly became a competition to see who could keep in in their mouth the longest. The problem with bullion cubes is that they suck all of the moisture out of you body as you suck on them. What boggle my mind still is how we did this more then once. Basically anytime Jon, Harper and I where together we would play the bullion cube game.</p>
 <p><!--adsense--></p>
 <p>The best part was once you had finished your cube and had a drink of water. You could feel the liquid oozing back into you mouth and the surrounding skin. thinking about it now actually makes me a little sick.</p>

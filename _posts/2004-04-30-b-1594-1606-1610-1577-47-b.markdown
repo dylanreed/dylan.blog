@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: <b>&#1594;&#1606;&#1610;&#1577;<&#47;b>
+title: <b>&#1594;&#1606;&#1610;&#1577;</b>
 author:
   display_name: Dylan
   login: dylan

@@ -20,5 +20,5 @@ categories:
 tags: []
 comments: []
 ---
-<p>I think this movie looks funny, maybe a little sad, but funny<&#47;p>
-<p><embed width="448" height="365" src="http:&#47;&#47;www.ifilm.com&#47;efp" quality="high" bgcolor="000000" name="efp" align="middle" type="application&#47;x-shockwave-flash" pluginspage="http:&#47;&#47;www.macromedia.com&#47;go&#47;getflashplayer" flashvars="flvbaseclip=2829005"><&#47;embed><&#47;p></p>
+<p>I think this movie looks funny, maybe a little sad, but funny</p>
+<p><embed width="448" height="365" src="http://www.ifilm.com/efp" quality="high" bgcolor="000000" name="efp" align="middle" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="flvbaseclip=2829005"></embed></p></p>

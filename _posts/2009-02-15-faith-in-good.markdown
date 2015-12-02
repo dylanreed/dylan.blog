@@ -32,9 +32,9 @@ comments:
   author_url: ''
   date: '2009-02-15 20:55:10 -0600'
   date_gmt: '2009-02-16 04:55:10 -0600'
-  content: "what i do to relax and not think&#47;worry&#47;go crazy before i sleep
+  content: "what i do to relax and not think/worry/go crazy before i sleep
     is read. it is the one thing that keeps me sane i think. i do a lot of the staying
-    up super late and killing myself working&#47;hacking - but it isn't as positive
+    up super late and killing myself working/hacking - but it isn't as positive
     as a quick 15 minutes of reading. i try and read purely for entertainment. it
     makes going to bed a lot easier and generally relaxes me and prepares me for the
     next day. \r\n\r\nThe only side affect is that sometimes my dreams are fucking
@@ -49,7 +49,7 @@ comments:
     I still found it hard to get to sleep once I was committed to going to sleep.
 ---
 <p>Throughout my life I have been happily without faith and religion. I have always been aware of other peoples religion and the varying levels of faith that they have in said religion. As a youngster I was even curious about religion, my mom and I used to go to churches on Sundays and experience the fun that is religion. It even went so far as almost being baptized by a friends mom who didn't understand why my parents didn't want to save my soul.</p>
-<p>Sarah was&#47;is a non-practicing catholic who still has conversations with god. I am very supportive of this because I figure one of us should talk to a higher power just in case there is a higher power. I remember at one point we discussed faith and what it means to her and how she didn't understand how I could not have faith.</p>
+<p>Sarah was/is a non-practicing catholic who still has conversations with god. I am very supportive of this because I figure one of us should talk to a higher power just in case there is a higher power. I remember at one point we discussed faith and what it means to her and how she didn't understand how I could not have faith.</p>
 <p>Faith is one of those crazy things that means different things to different people. To one person it represents their belief in a higher power. To another it is the fuel of their righteousness. To a third person it is a strength that helps them get through anything. For a long time I considered faith and religion to be mutually exclusive. To me faith was the fuel to the religious fire.</p>
 <p>As Sarah and I went through our trials with illness and all that is associated with that I realized that I did have faith, I wasn't sure what it was in but it was there. At first I didn't put a lot of thought into it, I mostly just marked it down as what happens when you deal with earth shattering problems. In fact I didn't really put a lot of thought into it until I quit drinking caffeine.</p>
 <p>Quitting the caffeine was a nightmare. I didn't have a hard time quitting, I had a hard time not starting again. For a long time I was using caffeine, specifically Pepsi, to control my ADHD. I figured that since Redlin is an upper and caffeine is an upper it should work the same. Whether this is true or not I don't know. What I do know is that when I quit drinking Pepsi my symptoms got worse.</p>

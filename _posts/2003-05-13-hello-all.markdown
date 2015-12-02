@@ -20,5 +20,5 @@ categories:
 tags: []
 comments: []
 ---
-<p><img alt="Thomas010.JPG" src="http:&#47;&#47;dylanreed.org&#47;archives&#47;Thomas010.JPG" width="640" height="480" border="0" &#47;><br />
-Here is thomas going crazy i mean really crazy herei sone of thomas and <a href="http:&#47;&#47;dylanreed.org&#47;archives&#47;vegas.html" onclick="window.open('http:&#47;&#47;dylanreed.org&#47;archives&#47;vegas.html', 'popup', 'width=640,height=480,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">vegas<&#47;a>. Well that is all the pictures for now.i would put up some more videos but alas all my videos are to large</p>
+<p><img alt="Thomas010.JPG" src="http://dylanreed.org/archives/Thomas010.JPG" width="640" height="480" border="0" /><br />
+Here is thomas going crazy i mean really crazy herei sone of thomas and <a href="http://dylanreed.org/archives/vegas.html" onclick="window.open('http://dylanreed.org/archives/vegas.html', 'popup', 'width=640,height=480,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">vegas</a>. Well that is all the pictures for now.i would put up some more videos but alas all my videos are to large</p>

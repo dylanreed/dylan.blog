@@ -20,8 +20,8 @@ categories:
 tags: []
 comments: []
 ---
-<p><em>Paid Post<&#47;em></p>
-<p>I just read about this upcoming SEO <a href="http:&#47;&#47;www.seoworkshop.org">MegaSniper<&#47;a> workshop, Instructed by Garry Egan and Scott Hendison, two top-ranking and expert-level SEO professionals, this workshop is a one-day event for SEO's, and Webmasters, small business professionals,  in Portland, OR and realize that I live in tech starved Greeley, CO.  Ever since I started writing usability reviews for random websites I have been keenly interested in getting to know more about the field of SEO.</p>
+<p><em>Paid Post</em></p>
+<p>I just read about this upcoming SEO <a href="http://www.seoworkshop.org">MegaSniper</a> workshop, Instructed by Garry Egan and Scott Hendison, two top-ranking and expert-level SEO professionals, this workshop is a one-day event for SEO's, and Webmasters, small business professionals,  in Portland, OR and realize that I live in tech starved Greeley, CO.  Ever since I started writing usability reviews for random websites I have been keenly interested in getting to know more about the field of SEO.</p>
 <p>One thing that I am lacking in my knowledge bank is about Optimizing Keywords for search. I fid that it is more and more difficult to determine which keywords to use to make my site easier to find by my users.</p>
 <p>Take this blog for instance: When I first set it up back in 2000 I had no idea that I would someday be blogging two or three times a week. Back then my content was mostly of the personal variety.</p>
 <p>Now as I try to grow my blog I find that the most popular search term for this site is "Do killer whales really eat people". I find this to be odd since I have only written about killer whales three times in seven years.I have written about clowns many more times then that. I would hope to learn more about that at a seminar about SEO.</p>

@@ -20,4 +20,4 @@ categories:
 tags: []
 comments: []
 ---
-<p><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="437" height="370" id="viddler_CaptainAwesome_7"><param name="movie" value="http:&#47;&#47;www.viddler.com&#47;player&#47;b2ea8083&#47;" &#47;><param name="allowScriptAccess" value="always" &#47;><param name="allowFullScreen" value="true" &#47;><embed src="http:&#47;&#47;www.viddler.com&#47;player&#47;b2ea8083&#47;"  width="437" height="370" type="application&#47;x-shockwave-flash" allowScriptAccess="always" allowFullScreen="true" name="viddler_CaptainAwesome_7" &#47;><&#47;object></p>
+<p><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="437" height="370" id="viddler_CaptainAwesome_7"><param name="movie" value="http://www.viddler.com/player/b2ea8083/" /><param name="allowScriptAccess" value="always" /><param name="allowFullScreen" value="true" /><embed src="http://www.viddler.com/player/b2ea8083/"  width="437" height="370" type="application/x-shockwave-flash" allowScriptAccess="always" allowFullScreen="true" name="viddler_CaptainAwesome_7" /></object></p>

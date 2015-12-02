@@ -20,5 +20,5 @@ categories:
 tags: []
 comments: []
 ---
-<p>I was cruising the internet and came across <a href="http:&#47;&#47;newsvote.bbc.co.uk&#47;1&#47;hi&#47;sci&#47;tech&#47;6533169.stm">this<&#47;a> article about a guy who has claimed ownership of the moon and all of the planets. This wasn't the first I had heard about this however. A couple of years ago my smart ass <a href="http:&#47;&#47;www.nata2.org">brother<&#47;a> and his friends read about this guy and so they staked a claim on the <a href="http:&#47;&#47;weownthesun.com&#47;">sun<&#47;a>. They are now the owners of the ultimate energy source in the solar system and are selling stakes in that energy source.</p>
+<p>I was cruising the internet and came across <a href="http://newsvote.bbc.co.uk/1/hi/sci/tech/6533169.stm">this</a> article about a guy who has claimed ownership of the moon and all of the planets. This wasn't the first I had heard about this however. A couple of years ago my smart ass <a href="http://www.nata2.org">brother</a> and his friends read about this guy and so they staked a claim on the <a href="http://weownthesun.com/">sun</a>. They are now the owners of the ultimate energy source in the solar system and are selling stakes in that energy source.</p>
 <p>So buy some today and support a worthy cause, don't by land on planets from some greedy bastard, buy energy from a bunch of nerds.</p>

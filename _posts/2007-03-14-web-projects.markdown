@@ -22,7 +22,7 @@ comments: []
 ---
 <p>Here are some of my web projects that I have been working on:</p>
 <ul>
-<li><a href="http:&#47;&#47;www.clownsareawesome.com">ClownsAreAwesome.com<&#47;a>: This is a site I started to discuss my feelings on entertaining and clowning. I write about everythig from clowning basics all the way up to performance mechanics.<&#47;li>
-<li><a href="http:&#47;&#47;imadeit.myshopify.com&#47;">IMADEIT<&#47;a>: This is my shop where I sell purses, hoodies and scarves that my wife and I make. Check it out, we make awesome, awesome stuff.<&#47;li>
-<li><a href="http:&#47;&#47;www.clownusability.com">ClownUsability<&#47;a>: This is where I discuss my feelings on making websites more user friendly.<&#47;li><br />
-<&#47;ul></p>
+<li><a href="http://www.clownsareawesome.com">ClownsAreAwesome.com</a>: This is a site I started to discuss my feelings on entertaining and clowning. I write about everythig from clowning basics all the way up to performance mechanics.</li>
+<li><a href="http://imadeit.myshopify.com/">IMADEIT</a>: This is my shop where I sell purses, hoodies and scarves that my wife and I make. Check it out, we make awesome, awesome stuff.</li>
+<li><a href="http://www.clownusability.com">ClownUsability</a>: This is where I discuss my feelings on making websites more user friendly.</li><br />
+</ul></p>

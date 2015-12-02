@@ -21,6 +21,6 @@ tags: []
 comments: []
 ---
 <ul class="aktt_tweet_digest">
-<li>CS4 keeps crashing on new MacBook pro. Why adobe, why? <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2772102715">#<&#47;a><&#47;li>
-<li>@<a href="http:&#47;&#47;twitter.com&#47;skaw">skaw<&#47;a> what are you reading comic book wise? <a href="http:&#47;&#47;twitter.com&#47;skaw&#47;statuses&#47;2820586463">in reply to skaw<&#47;a> <a href="http:&#47;&#47;twitter.com&#47;awesomeguy&#47;statuses&#47;2822362424">#<&#47;a><&#47;li><br />
-<&#47;ul></p>
+<li>CS4 keeps crashing on new MacBook pro. Why adobe, why? <a href="http://twitter.com/awesomeguy/statuses/2772102715">#</a></li>
+<li>@<a href="http://twitter.com/skaw">skaw</a> what are you reading comic book wise? <a href="http://twitter.com/skaw/statuses/2820586463">in reply to skaw</a> <a href="http://twitter.com/awesomeguy/statuses/2822362424">#</a></li><br />
+</ul></p>

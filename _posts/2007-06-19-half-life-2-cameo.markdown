@@ -20,5 +20,5 @@ categories:
 tags: []
 comments: []
 ---
-<p>&nbsp;<a href="http:&#47;&#47;half-life2.com&#47;" atomicselection="true"><img src="http:&#47;&#47;half-life2.com&#47;img&#47;main04&#47;main04_06.jpg"&#47;><&#47;a> <a href="http:&#47;&#47;half-life2.com&#47;" atomicselection="true"><img src="http:&#47;&#47;half-life2.com&#47;img&#47;main04&#47;main04_07.jpg"&#47;><&#47;a><a href="http:&#47;&#47;half-life2.com&#47;" atomicselection="true"><img src="http:&#47;&#47;half-life2.com&#47;img&#47;main04&#47;main04_10.jpg"&#47;><&#47;a>&nbsp;<a href="http:&#47;&#47;half-life2.com&#47;" atomicselection="true"><img src="http:&#47;&#47;half-life2.com&#47;img&#47;main04&#47;main04_11.jpg"&#47;><&#47;a> <&#47;p>
-<p>I think this is <a href="http:&#47;&#47;www.markhaywardismyhero.com&#47;">Mark Hayward<&#47;a>. Anyone agree?<&#47;p></p>
+<p>&nbsp;<a href="http://half-life2.com/" atomicselection="true"><img src="http://half-life2.com/img/main04/main04_06.jpg"/></a> <a href="http://half-life2.com/" atomicselection="true"><img src="http://half-life2.com/img/main04/main04_07.jpg"/></a><a href="http://half-life2.com/" atomicselection="true"><img src="http://half-life2.com/img/main04/main04_10.jpg"/></a>&nbsp;<a href="http://half-life2.com/" atomicselection="true"><img src="http://half-life2.com/img/main04/main04_11.jpg"/></a> </p>
+<p>I think this is <a href="http://www.markhaywardismyhero.com/">Mark Hayward</a>. Anyone agree?</p></p>

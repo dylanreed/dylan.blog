@@ -20,7 +20,7 @@ categories:
 tags: []
 comments: []
 ---
-<p><img class="alignleft" style="margin-left: 2px; margin-right: 2px;" title="FNG" src="http:&#47;&#47;ny-image0.etsy.com&#47;il_430xN.67392540.jpg" alt="" width="155" height="232" &#47;></p>
+<p><img class="alignleft" style="margin-left: 2px; margin-right: 2px;" title="FNG" src="http://ny-image0.etsy.com/il_430xN.67392540.jpg" alt="" width="155" height="232" /></p>
 <p>There comes a time in any young bear's life where he has to decide if he is going to be a baller or a shot-caller. Sure you can get 20" blades on your Impala, but if you don't know who you are what do you have: Nothing.</p>
 <p>Meet Fienstien Ned Gunta or as his friends know him 'FNG'. A self styled hip-hop artist FNG has been at the forefront of the bear-hop movement.&nbsp;</p>
 <p>Bear-hop is the combination of Reggaeton and the flutes of the forest. It is characterized by the hard hitting beats and strong lyrics both spoken and growled. FNG brought Bear-hop from the forests to the streets of Kersey CO.&nbsp;</p>

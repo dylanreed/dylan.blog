@@ -20,4 +20,4 @@ categories:
 tags: []
 comments: []
 ---
-<p><a href="http:&#47;&#47;www.lefthandedtoons.com&#47;"><img height="273" src="http:&#47;&#47;www.lefthandedtoons.com&#47;toons&#47;drew_didyouknowbats1.gif" width="313" border="0"&#47;><&#47;a></p>
+<p><a href="http://www.lefthandedtoons.com/"><img height="273" src="http://www.lefthandedtoons.com/toons/drew_didyouknowbats1.gif" width="313" border="0"/></a></p>

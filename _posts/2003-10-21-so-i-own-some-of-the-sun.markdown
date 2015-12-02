@@ -30,5 +30,5 @@ comments:
 
     hahaha. hahahahaha, hahaha, hahahaha.
 ---
-<p><a href="http:&#47;&#47;weownthesun.com&#47;">IT ROCKS<&#47;a></p>
+<p><a href="http://weownthesun.com/">IT ROCKS</a></p>
 <p>THANKS HARPER AND THE WHOLE WEOWN THE SUN CREW</p>

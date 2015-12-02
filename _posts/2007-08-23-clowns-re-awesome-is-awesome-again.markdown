@@ -20,4 +20,4 @@ categories:
 tags: []
 comments: []
 ---
-<p>I spent a couple hours today revamping the glory that is the <a href="http:&#47;&#47;www.clownsareawesome.com">API entertainment<&#47;a> site. I am pretty happy with the overall look, let me know what you think. I am using Grand Central for my number and have added an online call feature. Its awesome.</p>
+<p>I spent a couple hours today revamping the glory that is the <a href="http://www.clownsareawesome.com">API entertainment</a> site. I am pretty happy with the overall look, let me know what you think. I am using Grand Central for my number and have added an online call feature. Its awesome.</p>
