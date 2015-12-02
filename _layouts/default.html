@@ -12,7 +12,8 @@
         {% if site.description %}<p>{{ site.description }}</p>{% endif %}
         <!--<p><a href="/archives/">All stories</a></p>-->
         <br />
-        <p><a href="http://fancycadaver.com/story/correspondent/2014/04/07/the-beginning-part-1/">Start Here</a></p>
+        <p><a href="http://{{ site.author.homepage }}">Home</a></p>
+        <p><a href="/archives/">Archives</a></p>
         <p><a href="http://feedburner.google.com/fb/a/mailverify?uri=FancyCadaver&amp;loc=en_US">Subscribe</a></p>
         <div class="colophon">
           <ul class="colophon-links">
@@ -27,7 +28,7 @@
             </li>
           </ul>
           {% if site.gravatar_hash %}<p><img src="http://www.gravatar.com/avatar/{{ site.gravatar_hash }}?s=250"></p>{% endif %}
-          <p>&copy; 2014. {{ site.author.name }} All rights reserved.</p>
+          <p>&copy; 2015. {{ site.author.name }} All rights reserved.</p>
         </div>
       </div>
     </header>

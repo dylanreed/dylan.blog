@@ -1,8 +1,8 @@
 name: Fancy Cadaver
-tagline: A serial story experiment by Dylan Reed
+tagline: Writing and musings by Dylan Reed
 #description: put a good description here
-markdown: redcarpet
-pygments: true
+markdown: kramdown
+
 url:          http://fancycadaver.com
 version:      1.1.1
 author:
@@ -11,6 +11,7 @@ author:
   twitter:    '@dylanreed'
   homepage:   'dylanreed.com'
 permalink:    pretty
-pygments:     true
-paginate:     1
+
+paginate:     10
 #gravatar_hash: 36aff981378cc0b408b7d1bc2f082741
+gems: [jekyll-paginate]

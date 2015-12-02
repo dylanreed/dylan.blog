@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Business: Part 2"
-date:   2014-05-30 18:20:05
+title: "Business: Part 2"
+date: "2014-05-30 18:20:05"
 categories: story correspondent
 ---
 My patrols continued to be uneventful for weeks. I tried different times of night, different neighborhoods and even patrolling during the day. Mostly I got a lot of strange looks. I got sweared at often and became known as the costumed weirdo in the neighborhood. 
