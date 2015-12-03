@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,5 +21,7 @@ categories:
 tags: []
 comments: []
 ---
-<p>So there has been some tragedy in Westfork Village. At the be ginning of March Nan's(sarah's mom) cat Bailey had an accident and passed away. It was horribly sad and mostly sucked alot. she was only a year old and fell and broke her neck. Thats all i am going to say about that.</p>
-<p>My new job rules. I like doing wwhat I am doing and it keeps me real busy. Oh and I am getting a new clown wig and costume soon for my big debut at Chilrens Festival.</p>
+
+So there has been some tragedy in Westfork Village. At the be ginning of March Nan's(sarah's mom) cat Bailey had an accident and passed away. It was horribly sad and mostly sucked alot. she was only a year old and fell and broke her neck. Thats all i am going to say about that.
+
+My new job rules. I like doing wwhat I am doing and it keeps me real busy. Oh and I am getting a new clown wig and costume soon for my big debut at Chilrens Festival.

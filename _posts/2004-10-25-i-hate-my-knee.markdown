@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -21,6 +22,9 @@ tags:
 - Injuries
 comments: []
 ---
-<p>My Left knee to be exact. I have aparently hurt my knee and am having surgery on it on friday. Woohoo. Please send all get well cards to dylan.reed@gmail.com including all sympathy amazon.com or itunes gift certificates.</p>
-<p>thanks</p>
-<p>dylan</p>
+
+My Left knee to be exact. I have aparently hurt my knee and am having surgery on it on friday. Woohoo. Please send all get well cards to dylan.reed@gmail.com including all sympathy amazon.com or itunes gift certificates.
+
+thanks
+
+dylan

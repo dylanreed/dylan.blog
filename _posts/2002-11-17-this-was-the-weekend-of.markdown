@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,4 +21,5 @@ categories:
 tags: []
 comments: []
 ---
-<p>This was the weekend of doing nothing, I just sat around and did nothing. I also cleaned up my room, did laundry, dloaded movies etc. It was sad. that is all i'll write something witty later maybe tomarrow</p>
+
+This was the weekend of doing nothing, I just sat around and did nothing. I also cleaned up my room, did laundry, dloaded movies etc. It was sad. that is all i'll write something witty later maybe tomarrow

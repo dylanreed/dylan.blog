@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,8 +21,16 @@ categories:
 tags: []
 comments: []
 ---
-<ul class="aktt_tweet_digest">
-<li>We are never going to play Ocama Gamesphere again are we? <a href="http://twitter.com/awesomeguy/statuses/87671548374302720" class="aktt_tweet_time">#</a></li>
-<li>Headed to old C&#039;s. Stop by and say hi if you want. <a href="http://twitter.com/awesomeguy/statuses/89503841002856449" class="aktt_tweet_time">#</a></li>
-<li>what sarah is making for breakfast: <a href="http://t.co/m7Z2ruS" rel="nofollow">http://t.co/m7Z2ruS</a> @<a href="http://twitter.com/CookItForUs" class="aktt_username">CookItForUs</a> <a href="http://twitter.com/awesomeguy/statuses/89699475253231617" class="aktt_tweet_time">#</a></li><br />
-</ul></p>
+
+  * We are never going to play Ocama Gamesphere again are we? [#][1]
+  * Headed to old C's. Stop by and say hi if you want. [#][2]
+  * what sarah is making for breakfast: [http://t.co/m7Z2ruS][3] @[CookItForUs][4] [#][5]
+  
+
+
+   [1]: http://twitter.com/awesomeguy/statuses/87671548374302720
+   [2]: http://twitter.com/awesomeguy/statuses/89503841002856449
+   [3]: http://t.co/m7Z2ruS
+   [4]: http://twitter.com/CookItForUs
+   [5]: http://twitter.com/awesomeguy/statuses/89699475253231617
+

@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -29,4 +30,5 @@ comments:
   content: |
     Make sure you say 'hi' to her for me :)
 ---
-<p>SARAH COMES IN TOMARROW AND SHES STAYING FOR A WHOLE WEEK> YIPPEE</p>
+
+SARAH COMES IN TOMARROW AND SHES STAYING FOR A WHOLE WEEK> YIPPEE

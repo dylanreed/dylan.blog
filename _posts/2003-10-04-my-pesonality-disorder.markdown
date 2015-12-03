@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,6 +21,16 @@ categories:
 tags: []
 comments: []
 ---
-<p><img src="http://images.quizilla.com/1033888784_wfluffhist.jpg" border="0" alt="HASH(0x8466504)"><br>histrionic<br />
-<br><br><a </p>
-<p><a href="http://quizilla.com/popular.html">Whats Yours</a></p>
+
+![HASH(0x8466504)][1]  
+histrionic  
+  
+  
+
+
+   [1]: http://images.quizilla.com/1033888784_wfluffhist.jpg
+
+[Whats Yours][2]
+
+   [2]: http://quizilla.com/popular.html
+

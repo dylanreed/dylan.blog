@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -33,9 +34,16 @@ comments:
     highest level of service possible.  Email me at the address I have provided if
     I can help in any way.\r\n\r\nBest of luck to you, \r\n\r\njd"
 ---
-<ul class="aktt_tweet_digest">
-<li>Listening to Van halen&#39;s jump and getting ready for volleyball <a href="http://twitter.com/awesomeguy/statuses/3215339407" class="aktt_tweet_time">#</a></li>
-<li>Just saw a dude in full tilt poker hat and shirt with a fanny pack and a discman smoking while jogging. Coolest guy ever! <a href="http://twitter.com/awesomeguy/statuses/3317732482" class="aktt_tweet_time">#</a></li>
-<li>RT @harper: "They stand with one leg, how can you trust them" - hiromi about flamingos. <a href="http://twitter.com/awesomeguy/statuses/3337892027" class="aktt_tweet_time">#</a></li>
-<li>Come on food place give me food. <a href="http://twitter.com/awesomeguy/statuses/3337988482" class="aktt_tweet_time">#</a></li><br />
-</ul></p>
+
+  * Listening to Van halen's jump and getting ready for volleyball [#][1]
+  * Just saw a dude in full tilt poker hat and shirt with a fanny pack and a discman smoking while jogging. Coolest guy ever! [#][2]
+  * RT @harper: "They stand with one leg, how can you trust them" - hiromi about flamingos. [#][3]
+  * Come on food place give me food. [#][4]
+  
+
+
+   [1]: http://twitter.com/awesomeguy/statuses/3215339407
+   [2]: http://twitter.com/awesomeguy/statuses/3317732482
+   [3]: http://twitter.com/awesomeguy/statuses/3337892027
+   [4]: http://twitter.com/awesomeguy/statuses/3337988482
+

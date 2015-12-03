@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,5 +21,7 @@ categories:
 tags: []
 comments: []
 ---
-<p>here is some back to school grossness</a> from indy it is real gross. here is somemore</a></p>
-<p>thats all</p>
+
+here is some back to school grossness from indy it is real gross. here is somemore
+
+thats all

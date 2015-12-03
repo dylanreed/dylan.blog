@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,6 +21,9 @@ categories:
 tags: []
 comments: []
 ---
-<p>With all of two votes, one of them mine, I have called the voting. The winner is... THE BLUE CINCTOPUS. Not one of the initial options there was a huge write in campaign that led to his victory. Let's go down to the winner for his victory speech.</p>
-<blockquote><p>" I would like to thank my campaign team, Bob, Stephan and Lucy, as well as my beautiful wife, the wonderful and charming yellow cinctopus. To my daughters, yes we are getting a dog. Thank you all for your support"</blockquote></p>
-<p>Wow that was amazing.  Congratulations Mr. Viddler Player Branding 2009. This is so exciting. </p>
+
+With all of two votes, one of them mine, I have called the voting. The winner is... THE BLUE CINCTOPUS. Not one of the initial options there was a huge write in campaign that led to his victory. Let's go down to the winner for his victory speech.
+
+> " I would like to thank my campaign team, Bob, Stephan and Lucy, as well as my beautiful wife, the wonderful and charming yellow cinctopus. To my daughters, yes we are getting a dog. Thank you all for your support"
+
+Wow that was amazing. Congratulations Mr. Viddler Player Branding 2009. This is so exciting. 

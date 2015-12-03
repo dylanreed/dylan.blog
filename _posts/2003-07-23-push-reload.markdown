@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,7 +21,9 @@ categories:
 tags: []
 comments: []
 ---
-<p>Everyone hit reload a bunch<br />
-sweet huh<br />
-i repeat</p>
-<p><u><b>HOW DO YOU LIKE ME NOW!!!!!!!!!!!!!!!!!!</b></u></p>
+
+Everyone hit reload a bunch  
+sweet huh  
+i repeat
+
+_**HOW DO YOU LIKE ME NOW!!!!!!!!!!!!!!!!!!**_

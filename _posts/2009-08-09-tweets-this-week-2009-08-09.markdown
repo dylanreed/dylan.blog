@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,7 +21,13 @@ categories:
 tags: []
 comments: []
 ---
-<ul class="aktt_tweet_digest">
-<li>sleepy and undedicated. need an upbeat mix cd to listen to. GO <a href="http://twitter.com/awesomeguy/statuses/3148744017" class="aktt_tweet_time">#</a></li>
-<li>Bad kitty <a href="http://twitpic.com/d5bvz" rel="nofollow">http://twitpic.com/d5bvz</a> <a href="http://twitter.com/awesomeguy/statuses/3192541192" class="aktt_tweet_time">#</a></li><br />
-</ul></p>
+
+  * sleepy and undedicated. need an upbeat mix cd to listen to. GO [#][1]
+  * Bad kitty [http://twitpic.com/d5bvz][2] [#][3]
+  
+
+
+   [1]: http://twitter.com/awesomeguy/statuses/3148744017
+   [2]: http://twitpic.com/d5bvz
+   [3]: http://twitter.com/awesomeguy/statuses/3192541192
+

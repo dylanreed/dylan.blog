@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,7 +21,11 @@ tags:
 - Injuries
 comments: []
 ---
-<p>So i get to get cut up tomarrow and I am so excited. I am going to have knee surgery on the left knee. Hopefully when it is all said and done I will have un crooked knees.</p>
-<p>Three weeks after this surgery I will get the other one worked on to do the same thing on the right.</p>
-<p>Yeah!</p>
-<p>Surgery is at 11am, wish me luck</p>
+
+So i get to get cut up tomarrow and I am so excited. I am going to have knee surgery on the left knee. Hopefully when it is all said and done I will have un crooked knees.
+
+Three weeks after this surgery I will get the other one worked on to do the same thing on the right.
+
+Yeah!
+
+Surgery is at 11am, wish me luck

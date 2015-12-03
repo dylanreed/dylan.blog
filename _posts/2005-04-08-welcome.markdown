@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,6 +21,9 @@ categories:
 tags: []
 comments: []
 ---
-<p>Welcome everyone to the new look of dylanreed.org. Be sure you check out the links above, especially the media tab because it was recently updated with new pictures. </p>
-<p>I am going to get Sarah posting hopefully and you can all get a different perspective of life with me. I guess. Thats all.</p>
-<p>Oh and Clowns Are Awesome</p>
+
+Welcome everyone to the new look of dylanreed.org. Be sure you check out the links above, especially the media tab because it was recently updated with new pictures. 
+
+I am going to get Sarah posting hopefully and you can all get a different perspective of life with me. I guess. Thats all.
+
+Oh and Clowns Are Awesome

@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,4 +21,5 @@ categories:
 tags: []
 comments: []
 ---
-<p>Fixing mom in laws computer so much bad news. have to fix luckily harper the computer god is helping</p>
+
+Fixing mom in laws computer so much bad news. have to fix luckily harper the computer god is helping

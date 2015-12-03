@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -21,5 +22,11 @@ tags:
 - Sea Monsters
 comments: []
 ---
-<p>Seriously lets explore the ocean. Screw astroid mining and moon colonies... lets have an undersea colony.</p>
-<p><a href="http://images.mastersdegree.net.s3.amazonaws.com/explore-the-ocean.gif"><img class="aligncenter" title="infographic" src="http://images.mastersdegree.net.s3.amazonaws.com/explore-the-ocean.gif" alt="" width="800" height="5804" /></a></p>
+
+Seriously lets explore the ocean. Screw astroid mining and moon colonies... lets have an undersea colony.
+
+[![][1]][2]
+
+   [1]: http://images.mastersdegree.net.s3.amazonaws.com/explore-the-ocean.gif (infographic)
+   [2]: http://images.mastersdegree.net.s3.amazonaws.com/explore-the-ocean.gif
+

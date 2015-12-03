@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,9 +21,15 @@ categories:
 tags: []
 comments: []
 ---
-<p>So the Last couple of weeks have been out of control.</p>
-<p>1st: Sarah got a new JOB at a new bank. No more UCB for her nothing but NFB from here on out. </p>
-<p>2nd work is crazy crazy crazy. So much to do not enough time some days to much other days. Must budget time better. Stupid time...always getting in my way.</p>
-<p>3rd: I am clowning my fool head off. First I performed at both eaton and lasalle days then I gave a circus day presentation at Highland Early Childhood Center. This sunday I will be at the Arts Picnic in Greeley. The Following saturday is the ault day parade I am in. The weekend after that is the Rat race.</p>
-<p>Also we got a new Kitty his name is Reno. </p>
-<p>pic later</p>
+
+So the Last couple of weeks have been out of control.
+
+1st: Sarah got a new JOB at a new bank. No more UCB for her nothing but NFB from here on out. 
+
+2nd work is crazy crazy crazy. So much to do not enough time some days to much other days. Must budget time better. Stupid time...always getting in my way.
+
+3rd: I am clowning my fool head off. First I performed at both eaton and lasalle days then I gave a circus day presentation at Highland Early Childhood Center. This sunday I will be at the Arts Picnic in Greeley. The Following saturday is the ault day parade I am in. The weekend after that is the Rat race.
+
+Also we got a new Kitty his name is Reno. 
+
+pic later

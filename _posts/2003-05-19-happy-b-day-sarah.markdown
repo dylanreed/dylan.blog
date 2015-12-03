@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -27,5 +28,7 @@ comments:
   date_gmt: ''
   content: "hehe. \nyall should come to chicago.\n\n"
 ---
-<p>Happy birthday to you happy birthday 2 sarah happy b-day to you.</p>
-<p>sarah is 21 so we are going to get smashed now</p>
+
+Happy birthday to you happy birthday 2 sarah happy b-day to you.
+
+sarah is 21 so we are going to get smashed now

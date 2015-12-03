@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,4 +21,5 @@ categories:
 tags: []
 comments: []
 ---
-<p>thats right. trying to give me lip and i had to beat them down. it sux more later</p>
+
+thats right. trying to give me lip and i had to beat them down. it sux more later

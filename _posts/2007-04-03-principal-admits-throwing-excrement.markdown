@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,7 +21,13 @@ categories:
 tags: []
 comments: []
 ---
-<p>&nbsp;</p>
-<p><a href="http://www.thestar.com/News/article/198600">WTF.</a>&nbsp;So I thought the second one of my first post of the day was bad. I mean exposing yourself over the Internet and getting a way with is pretty bad. However this one is much funnier and also&nbsp;much more of a WTF. So you got mad at a kid, don't throw poop, that is just bad form.</p>
-<p>&nbsp;</p>
-<p>I am still laughing.</p></p>
+
+ 
+
+[WTF.][1] So I thought the second one of my first post of the day was bad. I mean exposing yourself over the Internet and getting a way with is pretty bad. However this one is much funnier and also much more of a WTF. So you got mad at a kid, don't throw poop, that is just bad form.
+
+   [1]: http://www.thestar.com/News/article/198600
+
+ 
+
+I am still laughing.

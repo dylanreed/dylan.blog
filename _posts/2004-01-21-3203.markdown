@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -35,4 +36,5 @@ comments:
   content: |
     323.5
 ---
-<p>Oh yeah</p>
+
+Oh yeah

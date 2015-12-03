@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,14 +21,36 @@ categories:
 tags: []
 comments: []
 ---
-<ul class="aktt_tweet_digest">
-<li>OMG I Drew a Picture: Robot <a href="http://dylan.la/gEPrRd" rel="nofollow">http://dylan.la/gEPrRd</a> <a href="http://twitter.com/awesomeguy/statuses/36818154676027392" class="aktt_tweet_time">#</a></li>
-<li>? 4 @<a href="http://twitter.com/ryankanno" class="aktt_username">ryankanno</a>: That unicorn/rainbow star was intense <a href="http://star.me/ryankanno#link/33785" rel="nofollow">http://star.me/ryankanno#link/33785</a> <a href="http://twitter.com/awesomeguy/statuses/37133840749174784" class="aktt_tweet_time">#</a></li>
-<li>New look at <a href="http://dylan.la/dOFbyo" rel="nofollow">http://dylan.la/dOFbyo</a>  for my birthday. Go Thirties! <a href="http://twitter.com/awesomeguy/statuses/37147334987100160" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: Happy Valentines Day <a href="http://dylan.la/hdYRLy" rel="nofollow">http://dylan.la/hdYRLy</a> <a href="http://twitter.com/awesomeguy/statuses/37185258826764288" class="aktt_tweet_time">#</a></li>
-<li>OMG I made a comic: <a href="http://dylan.la/gPl8Kp" rel="nofollow">http://dylan.la/gPl8Kp</a> <a href="http://twitter.com/awesomeguy/statuses/37294488032522240" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: Lion <a href="http://dylan.la/fk2BBO" rel="nofollow">http://dylan.la/fk2BBO</a> <a href="http://twitter.com/awesomeguy/statuses/37495685179777024" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: Ice Cream <a href="http://dylan.la/h8AXWL" rel="nofollow">http://dylan.la/h8AXWL</a> <a href="http://twitter.com/awesomeguy/statuses/37893853553885184" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: Puppy <a href="http://dylan.la/gFmyPT" rel="nofollow">http://dylan.la/gFmyPT</a> <a href="http://twitter.com/awesomeguy/statuses/38131189839560704" class="aktt_tweet_time">#</a></li>
-<li>This is by Sarah&#039;s school: <a href="http://dylan.la/fvAQBd" rel="nofollow">http://dylan.la/fvAQBd</a> Next time you are in Colorado check it out <a href="http://twitter.com/awesomeguy/statuses/38375250425163776" class="aktt_tweet_time">#</a></li><br />
-</ul></p>
+
+  * OMG I Drew a Picture: Robot [http://dylan.la/gEPrRd][1] [#][2]
+  * ? 4 @[ryankanno][3]: That unicorn/rainbow star was intense [http://star.me/ryankanno#link/33785][4] [#][5]
+  * New look at [http://dylan.la/dOFbyo][6] for my birthday. Go Thirties! [#][7]
+  * OMG I Drew a Picture: Happy Valentines Day [http://dylan.la/hdYRLy][8] [#][9]
+  * OMG I made a comic: [http://dylan.la/gPl8Kp][10] [#][11]
+  * OMG I Drew a Picture: Lion [http://dylan.la/fk2BBO][12] [#][13]
+  * OMG I Drew a Picture: Ice Cream [http://dylan.la/h8AXWL][14] [#][15]
+  * OMG I Drew a Picture: Puppy [http://dylan.la/gFmyPT][16] [#][17]
+  * This is by Sarah's school: [http://dylan.la/fvAQBd][18] Next time you are in Colorado check it out [#][19]
+  
+
+
+   [1]: http://dylan.la/gEPrRd
+   [2]: http://twitter.com/awesomeguy/statuses/36818154676027392
+   [3]: http://twitter.com/ryankanno
+   [4]: http://star.me/ryankanno#link/33785
+   [5]: http://twitter.com/awesomeguy/statuses/37133840749174784
+   [6]: http://dylan.la/dOFbyo
+   [7]: http://twitter.com/awesomeguy/statuses/37147334987100160
+   [8]: http://dylan.la/hdYRLy
+   [9]: http://twitter.com/awesomeguy/statuses/37185258826764288
+   [10]: http://dylan.la/gPl8Kp
+   [11]: http://twitter.com/awesomeguy/statuses/37294488032522240
+   [12]: http://dylan.la/fk2BBO
+   [13]: http://twitter.com/awesomeguy/statuses/37495685179777024
+   [14]: http://dylan.la/h8AXWL
+   [15]: http://twitter.com/awesomeguy/statuses/37893853553885184
+   [16]: http://dylan.la/gFmyPT
+   [17]: http://twitter.com/awesomeguy/statuses/38131189839560704
+   [18]: http://dylan.la/fvAQBd
+   [19]: http://twitter.com/awesomeguy/statuses/38375250425163776
+

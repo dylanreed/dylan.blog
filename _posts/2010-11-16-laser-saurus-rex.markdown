@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -29,4 +30,9 @@ comments:
     I should probably stop playing with my new markers and get to work... whatever:
     http://bit.ly/cAk6pX [...]'
 ---
-<p>Here is a detail of the head portion of this project. It is still in my sketchbook. I need to start working big... I guess that is what Fall Break is for.<a href="http://farm5.static.flickr.com/4151/5182411052_d262698c55.jpg"><img alt="" src="http://farm5.static.flickr.com/4151/5182411052_d262698c55.jpg" title="Laser-Saurus Rex" class="aligncenter" width="500" height="333" /></a></p>
+
+Here is a detail of the head portion of this project. It is still in my sketchbook. I need to start working big... I guess that is what Fall Break is for.[![][1]][2]
+
+   [1]: http://farm5.static.flickr.com/4151/5182411052_d262698c55.jpg (Laser-Saurus Rex)
+   [2]: http://farm5.static.flickr.com/4151/5182411052_d262698c55.jpg
+

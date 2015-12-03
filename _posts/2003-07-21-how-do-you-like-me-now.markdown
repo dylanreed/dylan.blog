@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,5 +21,6 @@ categories:
 tags: []
 comments: []
 ---
-<p>So I openend up my website today and it was really different. You might have noticed since you are also here. I like it and only wish that it could change colors everytime it was loaded. please email me if you like it. word up. thats all.<br />
-love everyone</p>
+
+So I openend up my website today and it was really different. You might have noticed since you are also here. I like it and only wish that it could change colors everytime it was loaded. please email me if you like it. word up. thats all.  
+love everyone

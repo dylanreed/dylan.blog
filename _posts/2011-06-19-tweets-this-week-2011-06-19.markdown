@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,8 +21,14 @@ categories:
 tags: []
 comments: []
 ---
-<ul class="aktt_tweet_digest">
-<li>We have a sick cat and I am in boulder. Everyone think happy thoughts for Reno <a href="http://twitter.com/awesomeguy/statuses/81813185417580544" class="aktt_tweet_time">#</a></li>
-<li>Just heard from sarah Reno is at the vet just waiting to get in to see the vet. he has spent most of his morning since breakfast throwing up <a href="http://twitter.com/awesomeguy/statuses/81819108383010816" class="aktt_tweet_time">#</a></li>
-<li>Reno is feeling much better. No puking for a while. He is also tried to hit me which is a good sign. <a href="http://twitter.com/awesomeguy/statuses/81879141066096640" class="aktt_tweet_time">#</a></li><br />
-</ul></p>
+
+  * We have a sick cat and I am in boulder. Everyone think happy thoughts for Reno [#][1]
+  * Just heard from sarah Reno is at the vet just waiting to get in to see the vet. he has spent most of his morning since breakfast throwing up [#][2]
+  * Reno is feeling much better. No puking for a while. He is also tried to hit me which is a good sign. [#][3]
+  
+
+
+   [1]: http://twitter.com/awesomeguy/statuses/81813185417580544
+   [2]: http://twitter.com/awesomeguy/statuses/81819108383010816
+   [3]: http://twitter.com/awesomeguy/statuses/81879141066096640
+

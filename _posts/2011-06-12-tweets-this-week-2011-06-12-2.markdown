@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,14 +21,38 @@ categories:
 tags: []
 comments: []
 ---
-<ul class="aktt_tweet_digest">
-<li>Anyone have a seat on a plane going to Northeastern US this Friday? <a href="http://twitter.com/awesomeguy/statuses/78647606229737472" class="aktt_tweet_time">#</a></li>
-<li>I&#039;m reading Echoes #<a href="http://search.twitter.com/search?q=%231" class="aktt_hashtag">1</a> on @<a href="http://twitter.com/graphicly" class="aktt_username">graphicly</a>! <a href="http://t.co/GuLuzx4" rel="nofollow">http://t.co/GuLuzx4</a> <a href="http://twitter.com/awesomeguy/statuses/78892632415277058" class="aktt_tweet_time">#</a></li>
-<li>I&#039;m reading Echoes #<a href="http://search.twitter.com/search?q=%233" class="aktt_hashtag">3</a> on @<a href="http://twitter.com/graphicly" class="aktt_username">graphicly</a>! <a href="http://t.co/BZvfT0c" rel="nofollow">http://t.co/BZvfT0c</a> thanks to @<a href="http://twitter.com/micah" class="aktt_username">micah</a> I will have terrifying dreams of dead little girls <a href="http://twitter.com/awesomeguy/statuses/79008734176751616" class="aktt_tweet_time">#</a></li>
-<li>Nedroid Fun Times, More Goosebumps Book Ideas <a href="http://dylan.la/ihvUjQ" rel="nofollow">http://dylan.la/ihvUjQ</a> <a href="http://twitter.com/awesomeguy/statuses/79011509119893505" class="aktt_tweet_time">#</a></li>
-<li>Gutters - Issue #<a href="http://search.twitter.com/search?q=%23147" class="aktt_hashtag">147</a> by Ron Chan <a href="http://t.co/exyJRrs" rel="nofollow">http://t.co/exyJRrs</a> awesome job <a href="http://twitter.com/awesomeguy/statuses/79224214544068608" class="aktt_tweet_time">#</a></li>
-<li>YouTube - Staying Black <a href="http://dylan.la/l1R5iU" rel="nofollow">http://dylan.la/l1R5iU</a> <a href="http://twitter.com/awesomeguy/statuses/79227481235783680" class="aktt_tweet_time">#</a></li>
-<li>I&#039;m reading Alien Circus #<a href="http://search.twitter.com/search?q=%231" class="aktt_hashtag">1</a> on @<a href="http://twitter.com/graphicly" class="aktt_username">graphicly</a>! <a href="http://t.co/nZBV5vM" rel="nofollow">http://t.co/nZBV5vM</a> <a href="http://twitter.com/awesomeguy/statuses/79290723299622912" class="aktt_tweet_time">#</a></li>
-<li>146b9d075f38fdaaa2474733551c52a2.jpg <a href="http://t.co/GgRD1gk" rel="nofollow">http://t.co/GgRD1gk</a> Oh fukung.net you always make me laugh. Well not always sometimes I cry... <a href="http://twitter.com/awesomeguy/statuses/79315010530181120" class="aktt_tweet_time">#</a></li>
-<li>Good morning world. <a href="http://twitter.com/awesomeguy/statuses/79548563658510337" class="aktt_tweet_time">#</a></li><br />
-</ul></p>
+
+  * Anyone have a seat on a plane going to Northeastern US this Friday? [#][1]
+  * I'm reading Echoes #[1][2] on @[graphicly][3]! [http://t.co/GuLuzx4][4] [#][5]
+  * I'm reading Echoes #[3][6] on @[graphicly][3]! [http://t.co/BZvfT0c][7] thanks to @[micah][8] I will have terrifying dreams of dead little girls [#][9]
+  * Nedroid Fun Times, More Goosebumps Book Ideas [http://dylan.la/ihvUjQ][10] [#][11]
+  * Gutters - Issue #[147][12] by Ron Chan [http://t.co/exyJRrs][13] awesome job [#][14]
+  * YouTube - Staying Black [http://dylan.la/l1R5iU][15] [#][16]
+  * I'm reading Alien Circus #[1][2] on @[graphicly][3]! [http://t.co/nZBV5vM][17] [#][18]
+  * 146b9d075f38fdaaa2474733551c52a2.jpg [http://t.co/GgRD1gk][19] Oh fukung.net you always make me laugh. Well not always sometimes I cry... [#][20]
+  * Good morning world. [#][21]
+  
+
+
+   [1]: http://twitter.com/awesomeguy/statuses/78647606229737472
+   [2]: http://search.twitter.com/search?q=%231
+   [3]: http://twitter.com/graphicly
+   [4]: http://t.co/GuLuzx4
+   [5]: http://twitter.com/awesomeguy/statuses/78892632415277058
+   [6]: http://search.twitter.com/search?q=%233
+   [7]: http://t.co/BZvfT0c
+   [8]: http://twitter.com/micah
+   [9]: http://twitter.com/awesomeguy/statuses/79008734176751616
+   [10]: http://dylan.la/ihvUjQ
+   [11]: http://twitter.com/awesomeguy/statuses/79011509119893505
+   [12]: http://search.twitter.com/search?q=%23147
+   [13]: http://t.co/exyJRrs
+   [14]: http://twitter.com/awesomeguy/statuses/79224214544068608
+   [15]: http://dylan.la/l1R5iU
+   [16]: http://twitter.com/awesomeguy/statuses/79227481235783680
+   [17]: http://t.co/nZBV5vM
+   [18]: http://twitter.com/awesomeguy/statuses/79290723299622912
+   [19]: http://t.co/GgRD1gk
+   [20]: http://twitter.com/awesomeguy/statuses/79315010530181120
+   [21]: http://twitter.com/awesomeguy/statuses/79548563658510337
+

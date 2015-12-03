@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,5 +21,9 @@ categories:
 tags: []
 comments: []
 ---
-<p><b><u><i><a href="http://www.thedogisland.com/index.html">DOGS</a></i></u></b></p>
-<p>ok more later now back to work</p>
+
+**__[DOGS][1]__**
+
+   [1]: http://www.thedogisland.com/index.html
+
+ok more later now back to work

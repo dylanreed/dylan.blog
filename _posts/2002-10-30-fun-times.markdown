@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,9 +21,15 @@ categories:
 tags: []
 comments: []
 ---
-<p>hello all</p>
-<p>i have just spent alot of time on really boring home work but it is done. my roommate josh just got gta vice city it is fun but he is selfish</p>
-<p>i think that my work has found my replacement so they are cutting my hours which sux alot</p>
-<p>that is all that happend to day</p>
-<p>love </p>
-<p>dylan</p>
+
+hello all
+
+i have just spent alot of time on really boring home work but it is done. my roommate josh just got gta vice city it is fun but he is selfish
+
+i think that my work has found my replacement so they are cutting my hours which sux alot
+
+that is all that happend to day
+
+love 
+
+dylan

@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,4 +21,9 @@ categories:
 tags: []
 comments: []
 ---
-<p><a href="http://www.lefthandedtoons.com/"><img height="273" src="http://www.lefthandedtoons.com/toons/drew_didyouknowbats1.gif" width="313" border="0"/></a></p>
+
+[![][1]][2]
+
+   [1]: http://www.lefthandedtoons.com/toons/drew_didyouknowbats1.gif
+   [2]: http://www.lefthandedtoons.com/
+

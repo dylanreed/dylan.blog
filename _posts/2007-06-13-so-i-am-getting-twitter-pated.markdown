@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,4 +21,5 @@ categories:
 tags: []
 comments: []
 ---
-<p>Recently I have been having an influx of new twitter friends. People who I have no&nbsp;idea who they are. It is strange.&nbsp;</p></p>
+
+Recently I have been having an influx of new twitter friends. People who I have no idea who they are. It is strange. 

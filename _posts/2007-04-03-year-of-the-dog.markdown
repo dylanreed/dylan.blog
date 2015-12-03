@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,5 +21,5 @@ categories:
 tags: []
 comments: []
 ---
-<p>I think this movie looks funny, maybe a little sad, but funny</p>
-<p><embed width="448" height="365" src="http://www.ifilm.com/efp" quality="high" bgcolor="000000" name="efp" align="middle" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="flvbaseclip=2829005"></embed></p></p>
+
+I think this movie looks funny, maybe a little sad, but funny

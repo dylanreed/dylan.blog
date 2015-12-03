@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,4 +21,5 @@ categories:
 tags: []
 comments: []
 ---
-<p>I just claimed my blog on Viralogy.com - #15</p>
+
+I just claimed my blog on Viralogy.com - #15

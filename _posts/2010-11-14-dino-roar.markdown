@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,6 +21,12 @@ categories:
 tags: []
 comments: []
 ---
-<p>If you follow me on twitter or facebook you have probably seen the pictures I did this week that I called Dino-Roar. I thought I would share this sketch with you and then I will post a picture of the final project when I finish it in about 4 weeks. This is my first time experimenting with nice markers, and possibly markers in general. All I have to say so far is the Prismacolor makes really nice markers, really nice but expensive markers.</p>
-<p style="text-align: left;"><a href="http://farm5.static.flickr.com/4086/5170462341_7236f1189e_o.jpg"><img class="aligncenter" title="Dino-Roar" src="http://farm5.static.flickr.com/4086/5170462341_7236f1189e_o.jpg" alt="" width="720" height="960" /></a></p></p>
-<p style="text-align: left;">I may scan the image so that it looks nicer because my iPhone take crappy pictures of my art work.</p></p>
+
+If you follow me on twitter or facebook you have probably seen the pictures I did this week that I called Dino-Roar. I thought I would share this sketch with you and then I will post a picture of the final project when I finish it in about 4 weeks. This is my first time experimenting with nice markers, and possibly markers in general. All I have to say so far is the Prismacolor makes really nice markers, really nice but expensive markers.
+
+[![][1]][2]
+
+   [1]: http://farm5.static.flickr.com/4086/5170462341_7236f1189e_o.jpg (Dino-Roar)
+   [2]: http://farm5.static.flickr.com/4086/5170462341_7236f1189e_o.jpg
+
+I may scan the image so that it looks nicer because my iPhone take crappy pictures of my art work.

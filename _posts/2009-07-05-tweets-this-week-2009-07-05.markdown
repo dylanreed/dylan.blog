@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,21 +21,55 @@ categories:
 tags: []
 comments: []
 ---
-<ul class="aktt_tweet_digest">
-<li>Beautiful<br />
- <a href="http://twitpic.com/8px6t" rel="nofollow">http://twitpic.com/8px6t</a> <a href="http://twitter.com/awesomeguy/statuses/2379814002">#</a></li></p>
-<li>Our ikea purchase <a href="http://twitpic.com/8rs8f" rel="nofollow">http://twitpic.com/8rs8f</a> <a href="http://twitter.com/awesomeguy/statuses/2390543596">#</a></li>
-<li>Gymnastics anyone? <a href="http://twitpic.com/8zi27" rel="nofollow">http://twitpic.com/8zi27</a> <a href="http://twitter.com/awesomeguy/statuses/2427114064">#</a></li>
-<li>My journey to lactose intolerence part 1 #<a href="http://search.twitter.com/search?q=%23dairy">dairy</a> <a href="http://twitpic.com/8zmvt" rel="nofollow">http://twitpic.com/8zmvt</a> <a href="http://twitter.com/awesomeguy/statuses/2427672179">#</a></li>
-<li>My journey to lactose intolerence part 2 #<a href="http://search.twitter.com/search?q=%23dairy">dairy</a> <a href="http://twitpic.com/8zt4e" rel="nofollow">http://twitpic.com/8zt4e</a> <a href="http://twitter.com/awesomeguy/statuses/2428395453">#</a></li>
-<li>My journey to lactose intolerence pt 3 #<a href="http://search.twitter.com/search?q=%23dairy">dairy</a>  <a href="http://twitpic.com/901fd" rel="nofollow">http://twitpic.com/901fd</a> <a href="http://twitter.com/awesomeguy/statuses/2429349066">#</a></li>
-<li>RT @micah: Hello Boulder. Don't play with Denver, you'll get crabs. Off to Hapa, all are welcome. #<a href="http://search.twitter.com/search?q=%23gladtobehome">gladtobehome</a> <a href="http://twitter.com/awesomeguy/statuses/2430380179">#</a></li>
-<li><a href="http://ginx.com/-xMY2g" rel="nofollow">http://ginx.com/-xMY2g</a> Come and fight me. You know you want to <a href="http://twitter.com/awesomeguy/statuses/2438384076">#</a></li>
-<li>So far so good. Thanks to those that have already joined the fight <a href="http://ginx.com/-YsBRd" rel="nofollow">http://ginx.com/-YsBRd</a> <a href="http://twitter.com/awesomeguy/statuses/2439019417">#</a></li>
-<li>Supergymnast Dylan is a go!!!!! <a href="http://twitter.com/awesomeguy/statuses/2445433272">#</a></li>
-<li>It has begun, come and fight the FightNinja <a href="http://ginx.com/-j22Y7" rel="nofollow">http://ginx.com/-j22Y7</a> <a href="http://twitter.com/awesomeguy/statuses/2454123425">#</a></li>
-<li>Fourth of Fight for Freedom!! <a href="http://ginx.com/-FxbBk" rel="nofollow">http://ginx.com/-FxbBk</a> Join me or parish!! <a href="http://twitter.com/awesomeguy/statuses/2457032982">#</a></li>
-<li>What I'm working on <a href="http://twitpic.com/9a2gx" rel="nofollow">http://twitpic.com/9a2gx</a> <a href="http://twitter.com/awesomeguy/statuses/2471188027">#</a></li>
-<li>Other workings today <a href="http://twitpic.com/9aot5" rel="nofollow">http://twitpic.com/9aot5</a> <a href="http://twitter.com/awesomeguy/statuses/2472855377">#</a></li>
-<li>Body so sore. Wood floors + painting my warhammer army is a poor combination. Need BBQ then a bath, my two favorite 'b' words. Feed me! <a href="http://twitter.com/awesomeguy/statuses/2475371356">#</a></li><br />
-</ul></p>
+
+  * Beautiful  
+[http://twitpic.com/8px6t][1] [#][2]
+
+   [1]: http://twitpic.com/8px6t
+   [2]: http://twitter.com/awesomeguy/statuses/2379814002
+
+  * Our ikea purchase [http://twitpic.com/8rs8f][3] [#][4]
+  * Gymnastics anyone? [http://twitpic.com/8zi27][5] [#][6]
+  * My journey to lactose intolerence part 1 #[dairy][7] [http://twitpic.com/8zmvt][8] [#][9]
+  * My journey to lactose intolerence part 2 #[dairy][7] [http://twitpic.com/8zt4e][10] [#][11]
+  * My journey to lactose intolerence pt 3 #[dairy][7] [http://twitpic.com/901fd][12] [#][13]
+  * RT @micah: Hello Boulder. Don't play with Denver, you'll get crabs. Off to Hapa, all are welcome. #[gladtobehome][14] [#][15]
+  * [http://ginx.com/-xMY2g][16] Come and fight me. You know you want to [#][17]
+  * So far so good. Thanks to those that have already joined the fight [http://ginx.com/-YsBRd][18] [#][19]
+  * Supergymnast Dylan is a go!!!!! [#][20]
+  * It has begun, come and fight the FightNinja [http://ginx.com/-j22Y7][21] [#][22]
+  * Fourth of Fight for Freedom!! [http://ginx.com/-FxbBk][23] Join me or parish!! [#][24]
+  * What I'm working on [http://twitpic.com/9a2gx][25] [#][26]
+  * Other workings today [http://twitpic.com/9aot5][27] [#][28]
+  * Body so sore. Wood floors + painting my warhammer army is a poor combination. Need BBQ then a bath, my two favorite 'b' words. Feed me! [#][29]
+  
+
+
+   [3]: http://twitpic.com/8rs8f
+   [4]: http://twitter.com/awesomeguy/statuses/2390543596
+   [5]: http://twitpic.com/8zi27
+   [6]: http://twitter.com/awesomeguy/statuses/2427114064
+   [7]: http://search.twitter.com/search?q=%23dairy
+   [8]: http://twitpic.com/8zmvt
+   [9]: http://twitter.com/awesomeguy/statuses/2427672179
+   [10]: http://twitpic.com/8zt4e
+   [11]: http://twitter.com/awesomeguy/statuses/2428395453
+   [12]: http://twitpic.com/901fd
+   [13]: http://twitter.com/awesomeguy/statuses/2429349066
+   [14]: http://search.twitter.com/search?q=%23gladtobehome
+   [15]: http://twitter.com/awesomeguy/statuses/2430380179
+   [16]: http://ginx.com/-xMY2g
+   [17]: http://twitter.com/awesomeguy/statuses/2438384076
+   [18]: http://ginx.com/-YsBRd
+   [19]: http://twitter.com/awesomeguy/statuses/2439019417
+   [20]: http://twitter.com/awesomeguy/statuses/2445433272
+   [21]: http://ginx.com/-j22Y7
+   [22]: http://twitter.com/awesomeguy/statuses/2454123425
+   [23]: http://ginx.com/-FxbBk
+   [24]: http://twitter.com/awesomeguy/statuses/2457032982
+   [25]: http://twitpic.com/9a2gx
+   [26]: http://twitter.com/awesomeguy/statuses/2471188027
+   [27]: http://twitpic.com/9aot5
+   [28]: http://twitter.com/awesomeguy/statuses/2472855377
+   [29]: http://twitter.com/awesomeguy/statuses/2475371356
+

@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,26 +21,64 @@ categories:
 tags: []
 comments: []
 ---
-<ul class="aktt_tweet_digest">
-<li>OMG I Drew a Picture: Rabbit 1: Angry <a href="http://dylan.la/dXC7OW" rel="nofollow">http://dylan.la/dXC7OW</a> <a href="http://twitter.com/awesomeguy/statuses/49516903772848128" class="aktt_tweet_time">#</a></li>
-<li>A friend of mines start-up <a href="http://dylan.la/ecCaaL" rel="nofollow">http://dylan.la/ecCaaL</a> check it out <a href="http://twitter.com/awesomeguy/statuses/49528572850880513" class="aktt_tweet_time">#</a></li>
-<li>I am a little tired now but I have a sketch to finish for tomorrow. <a href="http://twitter.com/awesomeguy/statuses/49644622816878593" class="aktt_tweet_time">#</a></li>
-<li>Ballet sketch. Needs ink <a href="http://t.co/aIoMVqp" rel="nofollow">http://t.co/aIoMVqp</a> <a href="http://twitter.com/awesomeguy/statuses/49660650280062976" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: Rabbit 2: Worried <a href="http://dylan.la/ifei2k" rel="nofollow">http://dylan.la/ifei2k</a> <a href="http://twitter.com/awesomeguy/statuses/49869537549615104" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: Rabbit 3: Flower <a href="http://dylan.la/hvla9B" rel="nofollow">http://dylan.la/hvla9B</a> <a href="http://twitter.com/awesomeguy/statuses/50235518495100928" class="aktt_tweet_time">#</a></li>
-<li>Balancing checkbooks is hard... why does money suck <a href="http://twitter.com/awesomeguy/statuses/50361632836169730" class="aktt_tweet_time">#</a></li>
-<li>I am not as stupid as I thought <a href="http://twitter.com/awesomeguy/statuses/50363155632762880" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: Rabbit 4: Crazy <a href="http://dylan.la/i9GDYu" rel="nofollow">http://dylan.la/i9GDYu</a> <a href="http://twitter.com/awesomeguy/statuses/50588333168009216" class="aktt_tweet_time">#</a></li>
-<li><a href="http://dylan.la/eFd5AC" rel="nofollow">http://dylan.la/eFd5AC</a> I am in love with this idea. This better be how brightest day ends. <a href="http://twitter.com/awesomeguy/statuses/50680370852663298" class="aktt_tweet_time">#</a></li>
-<li>Shame on DC for not making this a reality. Thanks @<a href="http://twitter.com/pvponline" class="aktt_username">pvponline</a> for the link <a href="http://twitter.com/awesomeguy/statuses/50681989254234112" class="aktt_tweet_time">#</a></li>
-<li>Kitchen CLEAN!!! One more room to clean before Sarah&#039;s surgery then we are golden. Also going to see Paul tomorrow <a href="http://twitter.com/awesomeguy/statuses/50739606630572033" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: Rabbit 5: Embarassed <a href="http://dylan.la/hx3stZ" rel="nofollow">http://dylan.la/hx3stZ</a> <a href="http://twitter.com/awesomeguy/statuses/50958762533601280" class="aktt_tweet_time">#</a></li>
-<li><a href="http://dylan.la/dGmwuf" rel="nofollow">http://dylan.la/dGmwuf</a> hee hee <a href="http://twitter.com/awesomeguy/statuses/51043940761210880" class="aktt_tweet_time">#</a></li>
-<li><a href="http://dylan.la/ggtRHE" rel="nofollow">http://dylan.la/ggtRHE</a> This is fantastic. Sure the walking dead is a fantastic comic book adapted into a TV show but this is CHEW!!! <a href="http://twitter.com/awesomeguy/statuses/51046102434193408" class="aktt_tweet_time">#</a></li>
-<li>Sarah has gum surgery tomorrow so I did a drawing of her punching out her dentist <a href="http://dylan.la/e7jbFR" rel="nofollow">http://dylan.la/e7jbFR</a> <a href="http://twitter.com/awesomeguy/statuses/51050708409135104" class="aktt_tweet_time">#</a></li>
-<li>Stress shopping before going to Paul. <a href="http://twitter.com/awesomeguy/statuses/51091062298652673" class="aktt_tweet_time">#</a></li>
-<li>Wish Sarah luck!!! Surgery in 20 minutes. <a href="http://twitter.com/awesomeguy/statuses/51281691658035200" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: Brave Girl <a href="http://dylan.la/dL1OmY" rel="nofollow">http://dylan.la/dL1OmY</a> <a href="http://twitter.com/awesomeguy/statuses/51312000457912321" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: Rabbit 6: What!?! <a href="http://dylan.la/g2GybJ" rel="nofollow">http://dylan.la/g2GybJ</a> <a href="http://twitter.com/awesomeguy/statuses/51312512972488704" class="aktt_tweet_time">#</a></li>
-<li>Sarah is doing good. She is sleepy and it is about time to give her more drugs <a href="http://twitter.com/awesomeguy/statuses/51374029826830337" class="aktt_tweet_time">#</a></li><br />
-</ul></p>
+
+  * OMG I Drew a Picture: Rabbit 1: Angry [http://dylan.la/dXC7OW][1] [#][2]
+  * A friend of mines start-up [http://dylan.la/ecCaaL][3] check it out [#][4]
+  * I am a little tired now but I have a sketch to finish for tomorrow. [#][5]
+  * Ballet sketch. Needs ink [http://t.co/aIoMVqp][6] [#][7]
+  * OMG I Drew a Picture: Rabbit 2: Worried [http://dylan.la/ifei2k][8] [#][9]
+  * OMG I Drew a Picture: Rabbit 3: Flower [http://dylan.la/hvla9B][10] [#][11]
+  * Balancing checkbooks is hard... why does money suck [#][12]
+  * I am not as stupid as I thought [#][13]
+  * OMG I Drew a Picture: Rabbit 4: Crazy [http://dylan.la/i9GDYu][14] [#][15]
+  * [http://dylan.la/eFd5AC][16] I am in love with this idea. This better be how brightest day ends. [#][17]
+  * Shame on DC for not making this a reality. Thanks @[pvponline][18] for the link [#][19]
+  * Kitchen CLEAN!!! One more room to clean before Sarah's surgery then we are golden. Also going to see Paul tomorrow [#][20]
+  * OMG I Drew a Picture: Rabbit 5: Embarassed [http://dylan.la/hx3stZ][21] [#][22]
+  * [http://dylan.la/dGmwuf][23] hee hee [#][24]
+  * [http://dylan.la/ggtRHE][25] This is fantastic. Sure the walking dead is a fantastic comic book adapted into a TV show but this is CHEW!!! [#][26]
+  * Sarah has gum surgery tomorrow so I did a drawing of her punching out her dentist [http://dylan.la/e7jbFR][27] [#][28]
+  * Stress shopping before going to Paul. [#][29]
+  * Wish Sarah luck!!! Surgery in 20 minutes. [#][30]
+  * OMG I Drew a Picture: Brave Girl [http://dylan.la/dL1OmY][31] [#][32]
+  * OMG I Drew a Picture: Rabbit 6: What!?! [http://dylan.la/g2GybJ][33] [#][34]
+  * Sarah is doing good. She is sleepy and it is about time to give her more drugs [#][35]
+  
+
+
+   [1]: http://dylan.la/dXC7OW
+   [2]: http://twitter.com/awesomeguy/statuses/49516903772848128
+   [3]: http://dylan.la/ecCaaL
+   [4]: http://twitter.com/awesomeguy/statuses/49528572850880513
+   [5]: http://twitter.com/awesomeguy/statuses/49644622816878593
+   [6]: http://t.co/aIoMVqp
+   [7]: http://twitter.com/awesomeguy/statuses/49660650280062976
+   [8]: http://dylan.la/ifei2k
+   [9]: http://twitter.com/awesomeguy/statuses/49869537549615104
+   [10]: http://dylan.la/hvla9B
+   [11]: http://twitter.com/awesomeguy/statuses/50235518495100928
+   [12]: http://twitter.com/awesomeguy/statuses/50361632836169730
+   [13]: http://twitter.com/awesomeguy/statuses/50363155632762880
+   [14]: http://dylan.la/i9GDYu
+   [15]: http://twitter.com/awesomeguy/statuses/50588333168009216
+   [16]: http://dylan.la/eFd5AC
+   [17]: http://twitter.com/awesomeguy/statuses/50680370852663298
+   [18]: http://twitter.com/pvponline
+   [19]: http://twitter.com/awesomeguy/statuses/50681989254234112
+   [20]: http://twitter.com/awesomeguy/statuses/50739606630572033
+   [21]: http://dylan.la/hx3stZ
+   [22]: http://twitter.com/awesomeguy/statuses/50958762533601280
+   [23]: http://dylan.la/dGmwuf
+   [24]: http://twitter.com/awesomeguy/statuses/51043940761210880
+   [25]: http://dylan.la/ggtRHE
+   [26]: http://twitter.com/awesomeguy/statuses/51046102434193408
+   [27]: http://dylan.la/e7jbFR
+   [28]: http://twitter.com/awesomeguy/statuses/51050708409135104
+   [29]: http://twitter.com/awesomeguy/statuses/51091062298652673
+   [30]: http://twitter.com/awesomeguy/statuses/51281691658035200
+   [31]: http://dylan.la/dL1OmY
+   [32]: http://twitter.com/awesomeguy/statuses/51312000457912321
+   [33]: http://dylan.la/g2GybJ
+   [34]: http://twitter.com/awesomeguy/statuses/51312512972488704
+   [35]: http://twitter.com/awesomeguy/statuses/51374029826830337
+

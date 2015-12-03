@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,5 +21,10 @@ tags:
 - Projects
 comments: []
 ---
-<p>I have an old Dell Inspiron notebook that I am thinking about turning into a digital picture frame. I think that it would be a fun project and since it is kind of toast anyway it might work.</p>
-<p>I am thinking about following <a href="http://www.thewares.net/item/33">these</a> instructions to build it. I think that it should work with this laptop. Since Sarah and I have so many pictures I think it would give us a good place to display them in our house.</p>
+
+I have an old Dell Inspiron notebook that I am thinking about turning into a digital picture frame. I think that it would be a fun project and since it is kind of toast anyway it might work.
+
+I am thinking about following [these][1] instructions to build it. I think that it should work with this laptop. Since Sarah and I have so many pictures I think it would give us a good place to display them in our house.
+
+   [1]: http://www.thewares.net/item/33
+

@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,5 +21,9 @@ tags:
 - Video Games
 comments: []
 ---
-<p>I was cruising the forums for <a href="http://forzamotorsports.net">Forza 2</a> again and found a thread that was talking about how people are continuing to put up images of porn and hate. So Turn 10 that plan of banning all of the silver members to stop the flow of hateful and pornographic images sure solved the problem.<br />
-<!--adsense#refer2--></p>
+
+I was cruising the forums for [Forza 2][1] again and found a thread that was talking about how people are continuing to put up images of porn and hate. So Turn 10 that plan of banning all of the silver members to stop the flow of hateful and pornographic images sure solved the problem.  
+
+
+   [1]: http://forzamotorsports.net
+

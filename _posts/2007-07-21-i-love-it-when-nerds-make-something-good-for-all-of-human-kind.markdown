@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,9 +21,15 @@ categories:
 tags: []
 comments: []
 ---
-<p>There are a lot of sites and services that serve no real purpose to the world. They are sites that lead to a lot of time wasting and a general sense of eh. I am&nbsp;of course talking about online <a href="http://weewar.com/">games</a> and places that let you create things you can't&nbsp;<a href="http://miniusa.com/">afford</a> <a href="http://www.dell.com/">online</a> so you can dream of them.&nbsp;</p>
-<p><!--adsense#refer--></p>
-<p>But every now and then a site comes a long that helps you get things done and does it in a fun and exciting way. I am of course talking about <a href="http://www.chorewars.com/">ChoreWars</a>. I stumbled uponm this and think that it is something that Sarah and I could actually use. And by Sarah and I, I mean Sarah using it to motivate me to do house work. </p>
-<p><!--adsense#text--></p>
-<p>For some reason gaining XP for doing normal everyday household activities make me happy. Soon I will be a level 9 tub scrubber or something. It will be so awesome.</p>
-<p><!--adsense--></p></p>
+
+There are a lot of sites and services that serve no real purpose to the world. They are sites that lead to a lot of time wasting and a general sense of eh. I am of course talking about online [games][1] and places that let you create things you can't [afford][2] [online][3] so you can dream of them. 
+
+   [1]: http://weewar.com/
+   [2]: http://miniusa.com/
+   [3]: http://www.dell.com/
+
+But every now and then a site comes a long that helps you get things done and does it in a fun and exciting way. I am of course talking about [ChoreWars][4]. I stumbled uponm this and think that it is something that Sarah and I could actually use. And by Sarah and I, I mean Sarah using it to motivate me to do house work. 
+
+   [4]: http://www.chorewars.com/
+
+For some reason gaining XP for doing normal everyday household activities make me happy. Soon I will be a level 9 tub scrubber or something. It will be so awesome.

@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,9 +21,17 @@ tags:
 - Clown
 comments: []
 ---
-<p>Here is a small list of new props that I feel that need for clowning:</p>
-<ul>
-<li>New juggling <a href="http://www.renegadejuggling.com/Web_store/web_store.cgi?page=balls7.html&cart_id=4576115.11809">balls</a></li>
-<li>New juggling <a href="http://www.renegadejuggling.com/Web_store/web_store.cgi?page=clubs4.html&cart_id=4576115.11809">clubs</a></li>
-<li>New <a href="http://www.renegadejuggling.com/Web_store/web_store.cgi?page=globesall.html&cart_id=4576115.11809">walking globe</a>or a <a href="http://store.semcycle.com/product_info.php?cPath=5&products_id=22">mini bike</a></li><br />
-</ul></p>
+
+Here is a small list of new props that I feel that need for clowning:
+
+  * New juggling [balls][1]
+  * New juggling [clubs][2]
+  * New [walking globe][3]or a [mini bike][4]
+  
+
+
+   [1]: http://www.renegadejuggling.com/Web_store/web_store.cgi?page=balls7.html&cart_id=4576115.11809
+   [2]: http://www.renegadejuggling.com/Web_store/web_store.cgi?page=clubs4.html&cart_id=4576115.11809
+   [3]: http://www.renegadejuggling.com/Web_store/web_store.cgi?page=globesall.html&cart_id=4576115.11809
+   [4]: http://store.semcycle.com/product_info.php?cPath=5&products_id=22
+

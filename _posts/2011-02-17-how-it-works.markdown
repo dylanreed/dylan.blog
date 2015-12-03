@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -28,10 +29,19 @@ comments:
   content: '[...] This post was mentioned on Twitter by Shared items!, dylan. dylan
     said: OMG I Blogged Again: How It Works http://dylan.la/dUrJGf [...]'
 ---
-<p>Or, Why I Like Drawing Animals</p>
-<p>As a kid I had a lot of different types of animals. I started out small with hamsters, gerbils and the like. My rodents got as big as rabbits and guinea pigs. I also had two different snakes, a ferret and of course my family always had dogs and cats. I like drawing animals because as I draw them I think of the animals I know and I imagine them being the creature I am drawing. So when I draw a rodent I automatically think of Midnight and Twilight my longest lived gerbils. When I draw a ferret I think of&nbsp;Ishmael&nbsp;my albino ferret. When I draw cats I think of all the cats I have known and figure out which cat best fits the drawing. You get the idea.</p>
-<p>The problem is that in raising a lot of small animals I encountered a lot of small animal deaths. Some from cats, some from random gerbil madness and some from old age. As I do these drawings I also think about how sad I was when the animals I knew died. This is one of those drawings.</p>
-<p>[caption id="" align="aligncenter" width="456" caption="Puppy"]<a href="http://fancycadaver.com/2011/02/17/puppy/"><img class=" " title="Chelsea" src="http://fancycadaver.com/wp-content/uploads/2011/02/Doggy.jpg" alt="" width="456" height="327" /></a>[/caption]</p>
-<p style="text-align: center;"></p><br />
-It is a very loose interpretation of a dog that a few of you might have known. Chelsea. The worlds fattest beagle. Chelsea started life as a show dog, but after escaping and getting hit by a car, her career was cut short. She came to live with us and have a pretty nice life. She farted, snored and was a general neusance, but that is what dogs are for. My dad even had to build her a ramp up to the doggy door so she could get inside. Since she was fat she didn't live as long as she might have.</p>
-<p>Well have a nice morning everyone... sorry to be such a downer.</p>
+
+Or, Why I Like Drawing Animals
+
+As a kid I had a lot of different types of animals. I started out small with hamsters, gerbils and the like. My rodents got as big as rabbits and guinea pigs. I also had two different snakes, a ferret and of course my family always had dogs and cats. I like drawing animals because as I draw them I think of the animals I know and I imagine them being the creature I am drawing. So when I draw a rodent I automatically think of Midnight and Twilight my longest lived gerbils. When I draw a ferret I think of Ishmael my albino ferret. When I draw cats I think of all the cats I have known and figure out which cat best fits the drawing. You get the idea.
+
+The problem is that in raising a lot of small animals I encountered a lot of small animal deaths. Some from cats, some from random gerbil madness and some from old age. As I do these drawings I also think about how sad I was when the animals I knew died. This is one of those drawings.
+
+[caption id="" align="aligncenter" width="456" caption="Puppy"][![][1]][2][/caption]
+
+   [1]: http://fancycadaver.com/wp-content/uploads/2011/02/Doggy.jpg (Chelsea)
+   [2]: http://fancycadaver.com/2011/02/17/puppy/
+
+  
+It is a very loose interpretation of a dog that a few of you might have known. Chelsea. The worlds fattest beagle. Chelsea started life as a show dog, but after escaping and getting hit by a car, her career was cut short. She came to live with us and have a pretty nice life. She farted, snored and was a general neusance, but that is what dogs are for. My dad even had to build her a ramp up to the doggy door so she could get inside. Since she was fat she didn't live as long as she might have.
+
+Well have a nice morning everyone... sorry to be such a downer.

@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,10 +21,24 @@ categories:
 tags: []
 comments: []
 ---
-<ul class="aktt_tweet_digest">
-<li>Reno loves Sarah&#039;s birthday present or at least the box it came in.  <a href="http://t.co/PF2hu7X" rel="nofollow">http://t.co/PF2hu7X</a> <a href="http://twitter.com/awesomeguy/statuses/72412553686417408" class="aktt_tweet_time">#</a></li>
-<li>Sarah is out for SUMMER!!!! Sarah is our until AUGUST!!!! <a href="http://twitter.com/awesomeguy/statuses/72849300119490560" class="aktt_tweet_time">#</a></li>
-<li>Help us hate on cancer: <a href="http://dylan.la/l9MMao" rel="nofollow">http://dylan.la/l9MMao</a> Sarah is having a pampered chef catalog show <a href="http://twitter.com/awesomeguy/statuses/73113470979162112" class="aktt_tweet_time">#</a></li>
-<li>A new @<a href="http://twitter.com/graphicly" class="aktt_username">graphicly</a> Web site is launching soon, &amp; I&#039;m one of the first in line! Join me. #<a href="http://search.twitter.com/search?q=%23launch" class="aktt_hashtag">launch</a> <a href="http://t.co/B8CbAbr" rel="nofollow">http://t.co/B8CbAbr</a> via @<a href="http://twitter.com/graphicly" class="aktt_username">graphicly</a> <a href="http://twitter.com/awesomeguy/statuses/74314980870197248" class="aktt_tweet_time">#</a></li>
-<li>Who wants beefcake balls? <a href="http://t.co/47crULY" rel="nofollow">http://t.co/47crULY</a> <a href="http://twitter.com/awesomeguy/statuses/74630044730929152" class="aktt_tweet_time">#</a></li><br />
-</ul></p>
+
+  * Reno loves Sarah's birthday present or at least the box it came in. [http://t.co/PF2hu7X][1] [#][2]
+  * Sarah is out for SUMMER!!!! Sarah is our until AUGUST!!!! [#][3]
+  * Help us hate on cancer: [http://dylan.la/l9MMao][4] Sarah is having a pampered chef catalog show [#][5]
+  * A new @[graphicly][6] Web site is launching soon, & I'm one of the first in line! Join me. #[launch][7] [http://t.co/B8CbAbr][8] via @[graphicly][6] [#][9]
+  * Who wants beefcake balls? [http://t.co/47crULY][10] [#][11]
+  
+
+
+   [1]: http://t.co/PF2hu7X
+   [2]: http://twitter.com/awesomeguy/statuses/72412553686417408
+   [3]: http://twitter.com/awesomeguy/statuses/72849300119490560
+   [4]: http://dylan.la/l9MMao
+   [5]: http://twitter.com/awesomeguy/statuses/73113470979162112
+   [6]: http://twitter.com/graphicly
+   [7]: http://search.twitter.com/search?q=%23launch
+   [8]: http://t.co/B8CbAbr
+   [9]: http://twitter.com/awesomeguy/statuses/74314980870197248
+   [10]: http://t.co/47crULY
+   [11]: http://twitter.com/awesomeguy/statuses/74630044730929152
+

@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -27,4 +28,5 @@ comments:
   date_gmt: '2009-01-10 03:28:13 -0600'
   content: what in gods name are you talking about.
 ---
-<p><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="437" height="370" id="viddler_CaptainAwesome_8"><param name="movie" value="http://www.viddler.com/player/f8e34074/" /><param name="allowScriptAccess" value="always" /><param name="allowFullScreen" value="true" /><embed src="http://www.viddler.com/player/f8e34074/"  width="437" height="370" type="application/x-shockwave-flash" allowScriptAccess="always" allowFullScreen="true" name="viddler_CaptainAwesome_8" /></object></p>
+
+

@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,4 +21,8 @@ categories:
 tags: []
 comments: []
 ---
-<p><a href="http://www.bit-tech.net/modding/2007/04/23/yuugou_by_greensabbath/1.html">To much time</a></p>
+
+[To much time][1]
+
+   [1]: http://www.bit-tech.net/modding/2007/04/23/yuugou_by_greensabbath/1.html
+

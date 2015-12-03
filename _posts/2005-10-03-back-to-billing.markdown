@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,8 +21,13 @@ categories:
 tags: []
 comments: []
 ---
-<p>work is so crazy. I ave so much to do before I leave to go visit harper in Chicago. I t will be a fun trip i think.</p>
-<p>Currently I am working on billing and that is going well. Basically I transfer numbers from one place to another and then to another and then to the final place that I send in.</p>
-<p>I am also reading Xenocide by orson scott card who is my current author to devoir or however you spell that word. I really enjoy his writing and find them quite easy to read and yet still they make me think.</p>
-<p>The weekend I get back might be crazy with 2 maybe 3 b-day parties and loads and loads of other stuff possibly going on</p>
-<p>ah well back to billing</p>
+
+work is so crazy. I ave so much to do before I leave to go visit harper in Chicago. I t will be a fun trip i think.
+
+Currently I am working on billing and that is going well. Basically I transfer numbers from one place to another and then to another and then to the final place that I send in.
+
+I am also reading Xenocide by orson scott card who is my current author to devoir or however you spell that word. I really enjoy his writing and find them quite easy to read and yet still they make me think.
+
+The weekend I get back might be crazy with 2 maybe 3 b-day parties and loads and loads of other stuff possibly going on
+
+ah well back to billing

@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,4 +21,9 @@ categories:
 tags: []
 comments: []
 ---
-<p>We have finally launched Joe and Ems!!!! Check it out!!!<a href="http://www.joeandem.com"><img class="alignnone size-medium wp-image-1530" title="Screen Shot 2012-06-02 at 10.48.55 AM" src="http://www.dylanreed.com/wp-content/uploads/2012/06/Screen-Shot-2012-06-02-at-10.48.55-AM-300x202.png" alt="" width="300" height="202" /></a></p>
+
+We have finally launched Joe and Ems!!!! Check it out!!![![][1]][2]
+
+   [1]: http://www.dylanreed.com/wp-content/uploads/2012/06/Screen-Shot-2012-06-02-at-10.48.55-AM-300x202.png (Screen Shot 2012-06-02 at 10.48.55 AM)
+   [2]: http://www.joeandem.com
+

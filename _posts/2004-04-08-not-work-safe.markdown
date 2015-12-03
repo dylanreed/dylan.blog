@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,7 +21,11 @@ categories:
 tags: []
 comments: []
 ---
-<p>&nbsp;&nbsp;&nbsp;But Damn Funny-ish,<br />
-Southpark, badnews, not really funny but stragely weird<br />
-<a href="http://home.no.net/shorts6/southparkjoke.wmv" target="_blank">Here</a> if you really want to, mom and dad maybe not.<br />
-thats all</p>
+
+   But Damn Funny-ish,  
+Southpark, badnews, not really funny but stragely weird  
+[Here][1] if you really want to, mom and dad maybe not.  
+thats all
+
+   [1]: http://home.no.net/shorts6/southparkjoke.wmv
+

@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,5 +21,7 @@ categories:
 tags: []
 comments: []
 ---
-<p>&nbsp;&nbsp;&nbsp;Good movie. kindof crazy</p>
-<p>Happy birthday to harper, happy birthday to you</p>
+
+   Good movie. kindof crazy
+
+Happy birthday to harper, happy birthday to you

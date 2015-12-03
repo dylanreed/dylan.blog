@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -35,4 +36,8 @@ comments:
   content: |
     uhhh...Dylan, what IS that?
 ---
-<p><img width="640" height="480" border="0" alt="demon (79k image)" src="http://dylanreed.org/archives/demon.jpg" /> i am going to make this</p>
+
+![demon (79k image)][1] i am going to make this
+
+   [1]: http://dylanreed.org/archives/demon.jpg
+

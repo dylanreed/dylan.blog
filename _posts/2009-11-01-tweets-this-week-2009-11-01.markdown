@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,14 +21,27 @@ categories:
 tags: []
 comments: []
 ---
-<ul class="aktt_tweet_digest">
-<li>At o&#39;hare for like 20 minutes <a href="http://twitter.com/awesomeguy/statuses/5153093928" class="aktt_tweet_time">#</a></li>
-<li>Best place for food in O&#39;Hare? Please help <a href="http://twitter.com/awesomeguy/statuses/5153141653" class="aktt_tweet_time">#</a></li>
-<li>In springfield MO. Almost home <a href="http://twitter.com/awesomeguy/statuses/5157044449" class="aktt_tweet_time">#</a></li>
-<li>Landed safe in denver <a href="http://twitter.com/awesomeguy/statuses/5160666431" class="aktt_tweet_time">#</a></li>
-<li>I wish our bags would arrive faster so we can get home to our cats <a href="http://twitter.com/awesomeguy/statuses/5161549299" class="aktt_tweet_time">#</a></li>
-<li>I meant to post this last night: United airlines lost our bag in springfield where we stayed on the same plane. Hope the cheese is ok <a href="http://twitter.com/awesomeguy/statuses/5177132223" class="aktt_tweet_time">#</a></li>
-<li>Is it cool that I want to see ninja assassin? <a href="http://twitter.com/awesomeguy/statuses/5199691030" class="aktt_tweet_time">#</a></li>
-<li>I think I am turning into a pig. Stay away from me. <a href="http://twitter.com/awesomeguy/statuses/5201011443" class="aktt_tweet_time">#</a></li>
-<li>We are carving stuff <a href="http://twitpic.com/nmd3o" rel="nofollow">http://twitpic.com/nmd3o</a> <a href="http://twitter.com/awesomeguy/statuses/5305738561" class="aktt_tweet_time">#</a></li><br />
-</ul></p>
+
+  * At o'hare for like 20 minutes [#][1]
+  * Best place for food in O'Hare? Please help [#][2]
+  * In springfield MO. Almost home [#][3]
+  * Landed safe in denver [#][4]
+  * I wish our bags would arrive faster so we can get home to our cats [#][5]
+  * I meant to post this last night: United airlines lost our bag in springfield where we stayed on the same plane. Hope the cheese is ok [#][6]
+  * Is it cool that I want to see ninja assassin? [#][7]
+  * I think I am turning into a pig. Stay away from me. [#][8]
+  * We are carving stuff [http://twitpic.com/nmd3o][9] [#][10]
+  
+
+
+   [1]: http://twitter.com/awesomeguy/statuses/5153093928
+   [2]: http://twitter.com/awesomeguy/statuses/5153141653
+   [3]: http://twitter.com/awesomeguy/statuses/5157044449
+   [4]: http://twitter.com/awesomeguy/statuses/5160666431
+   [5]: http://twitter.com/awesomeguy/statuses/5161549299
+   [6]: http://twitter.com/awesomeguy/statuses/5177132223
+   [7]: http://twitter.com/awesomeguy/statuses/5199691030
+   [8]: http://twitter.com/awesomeguy/statuses/5201011443
+   [9]: http://twitpic.com/nmd3o
+   [10]: http://twitter.com/awesomeguy/statuses/5305738561
+

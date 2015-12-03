@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,24 +21,55 @@ categories:
 tags: []
 comments: []
 ---
-<ul class="aktt_tweet_digest">
-<li>Check out Steve the Hound: <a href="http://ginx.com/-Yv5EO" rel="nofollow">http://ginx.com/-Yv5EO</a> and new pics: <a href="http://tinyurl.com/c5jyrt" rel="nofollow">http://tinyurl.com/c5jyrt</a> <a href="http://twitter.com/awesomeguy/statuses/1559294533">#</a></li>
-<li>New Awesome Guys Steve the Hound:<br />
- 		 		 			$17.00					Growing up on a farm is hard. It is even.. <a href="http://tinyurl.com/dh4drj" rel="nofollow">http://tinyurl.com/dh4drj</a> <a href="http://twitter.com/awesomeguy/statuses/1559449545">#</a></li></p>
-<li>Sad day. Love you kevin and bonnie <a href="http://twitter.com/awesomeguy/statuses/1565576948">#</a></li>
-<li>Off task spanish day, could have stayed home. <a href="http://twitter.com/awesomeguy/statuses/1566355720">#</a></li>
-<li>Sarah is home and it is time for Delicious pork dinner <a href="http://twitter.com/awesomeguy/statuses/1570122725">#</a></li>
-<li>Not really in the mood for random work crap today. Much more focussed on the DnD stuff I need to get done by noon <a href="http://twitter.com/awesomeguy/statuses/1575372202">#</a></li>
-<li>Everyone is showing up to their appointments today. Go peoples, go. <a href="http://twitter.com/awesomeguy/statuses/1578035618">#</a></li>
-<li>LET IT BEGIN. I am ready for game night <a href="http://twitter.com/awesomeguy/statuses/1578982754">#</a></li>
-<li>T minus 1 hour until spanish test. <a href="http://twitter.com/awesomeguy/statuses/1584326921">#</a></li>
-<li>Check out this new Hip-Hop Artist. He is awesome, I love his stuff: <a href="http://ginx.com/-AUpw4" rel="nofollow">http://ginx.com/-AUpw4</a> <a href="http://twitter.com/awesomeguy/statuses/1589873199">#</a></li>
-<li>New Awesome Guys F.N.G., BearHop Superstar:<br />
- 		 		 			$17.00					There comes a time in any youn.. <a href="http://tinyurl.com/c25du5" rel="nofollow">http://tinyurl.com/c25du5</a> <a href="http://twitter.com/awesomeguy/statuses/1590548011">#</a></li></p>
-<li>Awesome <a href="http://www.localwireless.com/wap/news/text.jsp?carrier=google&amp;sid=58&amp;nid=371263117&amp;cid=150&amp;scid=-1&amp;title=Top%20Stories&amp;ith=7" rel="nofollow">http://www.localwireless.com/wap/news/text.jsp?carrier=google&amp;sid=58&amp;nid=371263117&amp;cid=150&amp;scid=-1&amp;title=Top%20Stories&amp;ith=7</a> <a href="http://twitter.com/awesomeguy/statuses/1597250093">#</a></li>
-<li>When making FNG's rival Sir Mils a Lot should he have an udder or not?http://awesomeguy.etsy.com <a href="http://twitter.com/awesomeguy/statuses/1597798699">#</a></li>
-<li>At DIA living the life of a jet setting web kid like my brother. Soon to board. Yipee <a href="http://twitter.com/awesomeguy/statuses/1605358964">#</a></li>
-<li>Landed. @<a href="http://twitter.com/harper">harper</a> where are we meeting you <a href="http://twitter.com/awesomeguy/statuses/1606806887">#</a></li>
-<li>In chicago, hanging with @<a href="http://twitter.com/harper">harper</a> discussing plans for the great website buildoff 2009 <a href="http://twitter.com/awesomeguy/statuses/1608380580">#</a></li>
-<li>Long day of web stuff followed by Korean BBQ is awesome. <a href="http://twitter.com/awesomeguy/statuses/1617721145">#</a></li><br />
-</ul></p>
+
+  * Check out Steve the Hound: [http://ginx.com/-Yv5EO][1] and new pics: [http://tinyurl.com/c5jyrt][2] [#][3]
+  * New Awesome Guys Steve the Hound:  
+$17.00 Growing up on a farm is hard. It is even.. [http://tinyurl.com/dh4drj][4] [#][5]
+
+   [1]: http://ginx.com/-Yv5EO
+   [2]: http://tinyurl.com/c5jyrt
+   [3]: http://twitter.com/awesomeguy/statuses/1559294533
+   [4]: http://tinyurl.com/dh4drj
+   [5]: http://twitter.com/awesomeguy/statuses/1559449545
+
+  * Sad day. Love you kevin and bonnie [#][6]
+  * Off task spanish day, could have stayed home. [#][7]
+  * Sarah is home and it is time for Delicious pork dinner [#][8]
+  * Not really in the mood for random work crap today. Much more focussed on the DnD stuff I need to get done by noon [#][9]
+  * Everyone is showing up to their appointments today. Go peoples, go. [#][10]
+  * LET IT BEGIN. I am ready for game night [#][11]
+  * T minus 1 hour until spanish test. [#][12]
+  * Check out this new Hip-Hop Artist. He is awesome, I love his stuff: [http://ginx.com/-AUpw4][13] [#][14]
+  * New Awesome Guys F.N.G., BearHop Superstar:  
+$17.00 There comes a time in any youn.. [http://tinyurl.com/c25du5][15] [#][16]
+
+   [6]: http://twitter.com/awesomeguy/statuses/1565576948
+   [7]: http://twitter.com/awesomeguy/statuses/1566355720
+   [8]: http://twitter.com/awesomeguy/statuses/1570122725
+   [9]: http://twitter.com/awesomeguy/statuses/1575372202
+   [10]: http://twitter.com/awesomeguy/statuses/1578035618
+   [11]: http://twitter.com/awesomeguy/statuses/1578982754
+   [12]: http://twitter.com/awesomeguy/statuses/1584326921
+   [13]: http://ginx.com/-AUpw4
+   [14]: http://twitter.com/awesomeguy/statuses/1589873199
+   [15]: http://tinyurl.com/c25du5
+   [16]: http://twitter.com/awesomeguy/statuses/1590548011
+
+  * Awesome [http://www.localwireless.com/wap/news/text.jsp?carrier=google&sid=58&nid=371263117&cid=150&scid=-1&title=Top%20Stories&ith=7][17] [#][18]
+  * When making FNG's rival Sir Mils a Lot should he have an udder or not?http://awesomeguy.etsy.com [#][19]
+  * At DIA living the life of a jet setting web kid like my brother. Soon to board. Yipee [#][20]
+  * Landed. @[harper][21] where are we meeting you [#][22]
+  * In chicago, hanging with @[harper][21] discussing plans for the great website buildoff 2009 [#][23]
+  * Long day of web stuff followed by Korean BBQ is awesome. [#][24]
+  
+
+
+   [17]: http://www.localwireless.com/wap/news/text.jsp?carrier=google&sid=58&nid=371263117&cid=150&scid=-1&title=Top%20Stories&ith=7
+   [18]: http://twitter.com/awesomeguy/statuses/1597250093
+   [19]: http://twitter.com/awesomeguy/statuses/1597798699
+   [20]: http://twitter.com/awesomeguy/statuses/1605358964
+   [21]: http://twitter.com/harper
+   [22]: http://twitter.com/awesomeguy/statuses/1606806887
+   [23]: http://twitter.com/awesomeguy/statuses/1608380580
+   [24]: http://twitter.com/awesomeguy/statuses/1617721145
+

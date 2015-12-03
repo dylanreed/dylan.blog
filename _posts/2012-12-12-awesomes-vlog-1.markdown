@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,5 +21,5 @@ categories:
 tags: []
 comments: []
 ---
-<p><iframe src="http://www.youtube.com/embed/7NmM9CSG8Ks" height="315" width="560" allowfullscreen="" frameborder="0"></iframe></p>
-<p>Still need to add arm rods and become better at syncing mouth with words. But fun to make. More to come probably. Also the intro music is super loud. Must fix that!!!</p>
+
+Still need to add arm rods and become better at syncing mouth with words. But fun to make. More to come probably. Also the intro music is super loud. Must fix that!!!

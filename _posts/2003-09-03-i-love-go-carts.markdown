@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -49,5 +50,6 @@ comments:
   content: |
     &#1603;&#1610;&#1601; &#1610;&#1605;&#1603;&#1606; &#1575;&#1606; &#1575;&#1593;&#1585;&#1601; &#1575;&#1604;&#1587;&#1593;&#1575;&#1583;&#1577;
 ---
-<p>Seriously, I do. I worked my first day at fort fun yesterday. It is pretty fun consiering that it is an arcade\putput golf cours\gocart track\laser tag arena. if you like all that you might say that is is fun. well i do so there. if you are in ft collins on tues and thurs i am there. thats all.<br />
-dylan</p>
+
+Seriously, I do. I worked my first day at fort fun yesterday. It is pretty fun consiering that it is an arcade\putput golf cours\gocart track\laser tag arena. if you like all that you might say that is is fun. well i do so there. if you are in ft collins on tues and thurs i am there. thats all.  
+dylan

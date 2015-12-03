@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,4 +21,5 @@ categories:
 tags: []
 comments: []
 ---
-<p>So today I worked "IT". You know "IT". I am a superstar leaf vacuumer. At work we have a leaf vacuum; it is just like a leaf blower but it sux instead of blows. Unfortunately the bag has a hole in it, that hole is, of course, positioned right over your leg. I didn't realize this until I had sucked up some wet leafs and the engine heated water had made my pants all muddy. "IT" rocked my world. Check this out. The kid in that was in the car is one of my co-workers. He broke his collarbone and one of his legs.  At work everyone was wondering if it was his fault. I always thought that when you are going the wrong way and you hit a school bus full of kids it is pretty much your fault. Maybe that?s just me. Soon I leave for Chi-town. Wahoo.</p>
+
+So today I worked "IT". You know "IT". I am a superstar leaf vacuumer. At work we have a leaf vacuum; it is just like a leaf blower but it sux instead of blows. Unfortunately the bag has a hole in it, that hole is, of course, positioned right over your leg. I didn't realize this until I had sucked up some wet leafs and the engine heated water had made my pants all muddy. "IT" rocked my world. Check this out. The kid in that was in the car is one of my co-workers. He broke his collarbone and one of his legs. At work everyone was wondering if it was his fault. I always thought that when you are going the wrong way and you hit a school bus full of kids it is pretty much your fault. Maybe that?s just me. Soon I leave for Chi-town. Wahoo.

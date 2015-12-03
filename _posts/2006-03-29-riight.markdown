@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,5 +21,7 @@ categories:
 tags: []
 comments: []
 ---
-<p>So last friday I lost my jerb, it sucked. So then after a weekend of oh shit, I started to work for my father, which is weird only becasue I am working for him in a capacity that i have never done before. I am basically taking little parts of a lot of jobs enabling people to do their jobs better.&Atilde;&macr;&Acirc;&iquest;&Acirc;&frac12; So that is good</p>
-<p>4.5 out of 21 purses complete</p>
+
+So last friday I lost my jerb, it sucked. So then after a weekend of oh shit, I started to work for my father, which is weird only becasue I am working for him in a capacity that i have never done before. I am basically taking little parts of a lot of jobs enabling people to do their jobs better.Ã¯Â¿Â½ So that is good
+
+4.5 out of 21 purses complete

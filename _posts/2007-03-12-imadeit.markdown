@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,6 +21,10 @@ categories:
 tags: []
 comments: []
 ---
-<p>So recently I have started an <a href="http://imadeit.myshopify.com">online</a> store. It is where I am going to sell all of the stuff that I sell. everything will be made to order as well as everything is availible for custom orders. Please spread the word so I can make lots and lots of money as well as have an excuse to sew and make all sorts of awesome things. Right now their aren't a lot of pictures up but this week the pictures will go up.</p></p>
-<p>Also, thanks to the taxman, our money problems, while not over, may be more under control. It will be awesome.<br />
-</p></p>
+
+So recently I have started an [online][1] store. It is where I am going to sell all of the stuff that I sell. everything will be made to order as well as everything is availible for custom orders. Please spread the word so I can make lots and lots of money as well as have an excuse to sew and make all sorts of awesome things. Right now their aren't a lot of pictures up but this week the pictures will go up.
+
+   [1]: http://imadeit.myshopify.com
+
+Also, thanks to the taxman, our money problems, while not over, may be more under control. It will be awesome.  
+

@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,11 +21,31 @@ categories:
 tags: []
 comments: []
 ---
-<p class="MsoNormal">So I once again changed the overall look of my website. Harper showed me this template and set it up and then I have been tweaking it. It has a lot of neat features that allow people to enter into my life.</p></p>
-<p class="MsoNormal">For example there is the current\recent <a href="http://www.last.fm/user/awesomeguy/">music</a> area. The downfall of this is that if Cher pops up it can be a dent in people&Atilde;&macr;&Acirc;&iquest;&Acirc;&frac12;s perception of how cool I am. I find that whenever there is music that I just have but don&Atilde;&macr;&Acirc;&iquest;&Acirc;&frac12;t listen to a lot on my website it takes forever for it to go away.</p></p>
-<p class="MsoNormal">Also there is the status section. That is from <a href="http://www.twitter.com/home">twitter</a>. Twitter is a service that Harper showed me and I thought I would never use it. However it is quite handy and quite enjoyable. Plus then everyone can see what I am doing pretty much anytime. A fun side bit is that twitter helps me remain focused on the task that I say I am doing.</p></p>
-<p class="MsoNormal">The picture section is from <a href="http://www.flickr.com/photos/dylansarah/">flickr</a>. In order for that area to become cooler I need to take more pictures. Hopefully I will be getting a camera phone for work so I can rock the random picture taking and also generally increase my awesome.</p><br />
-There is a section that is a feed from my <a href="http://www.threadless.com/profile/174696/reallyreallyawesomeguy">threadless</a> blog. When I first wrote there I was shocked by the number of comments I got in minutes. Another funny point I made to myself is that I have a hard time consistently updating this blog, why do I need two separate ones. Short answer: Because I can. I hope to keep up on both blogs regularly.</p>
-<p class="MsoNormal">Please visit <a href="http://www.threadless.com?streetteam=reallyreallyawesomeguy">here</a> and <a href="http://www.threadless.com?streetteam=reallyreallyawesomeguy">buy</a> t-shirts so I can get free t-shirts that are not picked out by Harper.</p><br />
-The pity party is over, things haven&Atilde;&macr;&Acirc;&iquest;&Acirc;&frac12;t gotten better we have just resigned ourselves to being poor for a while longer. So whatever you are all getting rocks from our rock garden for Christmas.</p>
-<p>Oh and AWESOME</p>
+
+So I once again changed the overall look of my website. Harper showed me this template and set it up and then I have been tweaking it. It has a lot of neat features that allow people to enter into my life.
+
+For example there is the current\recent [music][1] area. The downfall of this is that if Cher pops up it can be a dent in peopleÃ¯Â¿Â½s perception of how cool I am. I find that whenever there is music that I just have but donÃ¯Â¿Â½t listen to a lot on my website it takes forever for it to go away.
+
+   [1]: http://www.last.fm/user/awesomeguy/
+
+Also there is the status section. That is from [twitter][2]. Twitter is a service that Harper showed me and I thought I would never use it. However it is quite handy and quite enjoyable. Plus then everyone can see what I am doing pretty much anytime. A fun side bit is that twitter helps me remain focused on the task that I say I am doing.
+
+   [2]: http://www.twitter.com/home
+
+The picture section is from [flickr][3]. In order for that area to become cooler I need to take more pictures. Hopefully I will be getting a camera phone for work so I can rock the random picture taking and also generally increase my awesome.
+
+   [3]: http://www.flickr.com/photos/dylansarah/
+
+  
+There is a section that is a feed from my [threadless][4] blog. When I first wrote there I was shocked by the number of comments I got in minutes. Another funny point I made to myself is that I have a hard time consistently updating this blog, why do I need two separate ones. Short answer: Because I can. I hope to keep up on both blogs regularly.
+
+   [4]: http://www.threadless.com/profile/174696/reallyreallyawesomeguy
+
+Please visit [here][5] and [buy][5] t-shirts so I can get free t-shirts that are not picked out by Harper.
+
+   [5]: http://www.threadless.com?streetteam=reallyreallyawesomeguy
+
+  
+The pity party is over, things havenÃ¯Â¿Â½t gotten better we have just resigned ourselves to being poor for a while longer. So whatever you are all getting rocks from our rock garden for Christmas.
+
+Oh and AWESOME

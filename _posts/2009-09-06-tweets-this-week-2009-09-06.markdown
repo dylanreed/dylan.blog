@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,11 +21,22 @@ categories:
 tags: []
 comments: []
 ---
-<ul class="aktt_tweet_digest">
-<li>It has been a very ministry Monday morning <a href="http://twitter.com/awesomeguy/statuses/3665446695" class="aktt_tweet_time">#</a></li>
-<li>Thanks @<a href="http://twitter.com/reedmorebooks" class="aktt_username">reedmorebooks</a> For my parking permit, less running around makes school more fun. That and music <a href="http://twitter.com/reedmorebooks/statuses/3514630721" class="aktt_tweet_reply">in reply to reedmorebooks</a> <a href="http://twitter.com/awesomeguy/statuses/3667758085" class="aktt_tweet_time">#</a></li>
-<li>So my dad does not have blood cancer. Go him! <a href="http://twitter.com/awesomeguy/statuses/3670130276" class="aktt_tweet_time">#</a></li>
-<li>Today&#39;s highlights: picked up a faith healing south African hitchhikers, started my sculpture, don&#39;t have very much homework and it&#39;s noon. <a href="http://twitter.com/awesomeguy/statuses/3693524853" class="aktt_tweet_time">#</a></li>
-<li>Sleepy but ready for work, wish my neck wasn&#39;t sore <a href="http://twitter.com/awesomeguy/statuses/3698001483" class="aktt_tweet_time">#</a></li>
-<li>Sarah and I have been married for five years, go us. <a href="http://twitter.com/awesomeguy/statuses/3756544429" class="aktt_tweet_time">#</a></li><br />
-</ul></p>
+
+  * It has been a very ministry Monday morning [#][1]
+  * Thanks @[reedmorebooks][2] For my parking permit, less running around makes school more fun. That and music [in reply to reedmorebooks][3] [#][4]
+  * So my dad does not have blood cancer. Go him! [#][5]
+  * Today's highlights: picked up a faith healing south African hitchhikers, started my sculpture, don't have very much homework and it's noon. [#][6]
+  * Sleepy but ready for work, wish my neck wasn't sore [#][7]
+  * Sarah and I have been married for five years, go us. [#][8]
+  
+
+
+   [1]: http://twitter.com/awesomeguy/statuses/3665446695
+   [2]: http://twitter.com/reedmorebooks
+   [3]: http://twitter.com/reedmorebooks/statuses/3514630721
+   [4]: http://twitter.com/awesomeguy/statuses/3667758085
+   [5]: http://twitter.com/awesomeguy/statuses/3670130276
+   [6]: http://twitter.com/awesomeguy/statuses/3693524853
+   [7]: http://twitter.com/awesomeguy/statuses/3698001483
+   [8]: http://twitter.com/awesomeguy/statuses/3756544429
+

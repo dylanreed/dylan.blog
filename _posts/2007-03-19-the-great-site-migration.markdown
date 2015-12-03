@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,4 +21,11 @@ tags:
 - Projects
 comments: []
 ---
-<p>I am starting to kill off my extra sites and consolidate them under one domain. This way I can update in one place as well as keep track of stats a lot easier. So soon <a target="_blank" href="http://www.dylanreed.org/">ClownsAreAwesome.com</a> will exist under the <a href="http://www.dylanreed.org/category/clown/">Clown</a> page here at DylanReed.org and <a target="_blank" href="http://www.dylanreed.org/clownusability.com">ClownUsability.com</a> will be under the <a href="http://www.dylanreed.org/category/usability/">Usability</a> page up above.</p>
+
+I am starting to kill off my extra sites and consolidate them under one domain. This way I can update in one place as well as keep track of stats a lot easier. So soon [ClownsAreAwesome.com][1] will exist under the [Clown][2] page here at DylanReed.org and [ClownUsability.com][3] will be under the [Usability][4] page up above.
+
+   [1]: http://www.dylanreed.org/
+   [2]: http://www.dylanreed.org/category/clown/
+   [3]: http://www.dylanreed.org/clownusability.com
+   [4]: http://www.dylanreed.org/category/usability/
+

@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,6 +21,18 @@ categories:
 tags: []
 comments: []
 ---
-<p>So today I had one of those moments where I was like....'Really!!!' I found out we had some people squatting in one of our building and stealing stuff from the basement of the building.. I mean.. Really!!.</p>
-<p>So to amuse my self I went to all of my fun websites and found these videos. First from <a href="http://www.threadless.com">threadless</a> it is this <a href="http://www.youtube.com/watch?v=-JsKmu06_H0">video</a>. It is a fun video about bears. I love bears. The second is from <a href="http://www.ctrlaltdel-online.com">Ctrl-Alt-Del</a>, this is the online comic that I enjoy. It is a <a href="http://www.ctrlaltdel-online.com/index.php/xmas2006">video</a> of the process he went through to make the <a href="http://www.ctrlaltdel-online.com/comic.php?d=20061225">X-mas filler graphic</a>. It is pretty neat. So these made me laugh and what not. Now off to work some more.</p>
-<p>But the <a href="http://www.youtube.com/watch?v=uzVX1V9puOo&mode=related&search=">winner</a> is awesome. Seriously. Made my day</p>
+
+So today I had one of those moments where I was like....'Really!!!' I found out we had some people squatting in one of our building and stealing stuff from the basement of the building.. I mean.. Really!!.
+
+So to amuse my self I went to all of my fun websites and found these videos. First from [threadless][1] it is this [video][2]. It is a fun video about bears. I love bears. The second is from [Ctrl-Alt-Del][3], this is the online comic that I enjoy. It is a [video][4] of the process he went through to make the [X-mas filler graphic][5]. It is pretty neat. So these made me laugh and what not. Now off to work some more.
+
+   [1]: http://www.threadless.com
+   [2]: http://www.youtube.com/watch?v=-JsKmu06_H0
+   [3]: http://www.ctrlaltdel-online.com
+   [4]: http://www.ctrlaltdel-online.com/index.php/xmas2006
+   [5]: http://www.ctrlaltdel-online.com/comic.php?d=20061225
+
+But the [winner][6] is awesome. Seriously. Made my day
+
+   [6]: http://www.youtube.com/watch?v=uzVX1V9puOo&mode=related&search=
+

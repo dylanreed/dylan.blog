@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,4 +21,8 @@ tags:
 - Projects
 comments: []
 ---
-<p><img src="http://img.timeinc.net/popsci/images/2007/03/table_485.jpg" height="402" width="485" /></p>
+
+![][1]
+
+   [1]: http://img.timeinc.net/popsci/images/2007/03/table_485.jpg
+

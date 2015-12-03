@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,5 +21,14 @@ categories:
 tags: []
 comments: []
 ---
-<p>So i keep getting weird comments on my entries like thesethere are others and it confuses me alot.</p>
-<p>so my birthday is soon and I can hardly wait. I want all sorts of goodies. I want a new <a href="http://www.unicycle.com/shopping/shopexd.asp?id=634">unicycle</a><a href="http://www.unicycle.com/shopping/shopexd.asp?id=608">with this as well</a>, <a href="http://www.dube.com">three pink and three yellow dube poly cigar boxes</a>, <a href="http://www.renegadejuggling.com">a 7.5" red renegade stage ball</a>, a <a href="http://www.amazon.com/gp/registry/2J3BIKV2IPXLI">couple movies </a>and this</p>
+
+So i keep getting weird comments on my entries like thesethere are others and it confuses me alot.
+
+so my birthday is soon and I can hardly wait. I want all sorts of goodies. I want a new [unicycle][1][with this as well][2], [three pink and three yellow dube poly cigar boxes][3], [a 7.5" red renegade stage ball][4], a [couple movies ][5]and this
+
+   [1]: http://www.unicycle.com/shopping/shopexd.asp?id=634
+   [2]: http://www.unicycle.com/shopping/shopexd.asp?id=608
+   [3]: http://www.dube.com
+   [4]: http://www.renegadejuggling.com
+   [5]: http://www.amazon.com/gp/registry/2J3BIKV2IPXLI
+

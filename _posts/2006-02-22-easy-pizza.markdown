@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,14 +21,25 @@ tags:
 - Recipes
 comments: []
 ---
-<p>Buy 1 pkg hot roll mix</p>
-<p>buy small package of mozerella cheese ( not shredded because it has wood chips in it)</p>
-<p>buy pizza sauce or pasta sauce</p>
-<p>buy toppings (sausage, green peppers, mushrooms)</p>
-<p>Prep dough according to package instructions for pizza</p>
-<p>while dough is rising pre heat oven</p>
-<p>After Dough Rises place sauce then cheese then toppings then more cheese</p>
-<p>place pizza in oven for about 15 minutes maybe 20</p>
-<p>eat</p>
-<p>save left overs</p>
-<p>better then delivery pizza</p>
+
+Buy 1 pkg hot roll mix
+
+buy small package of mozerella cheese ( not shredded because it has wood chips in it)
+
+buy pizza sauce or pasta sauce
+
+buy toppings (sausage, green peppers, mushrooms)
+
+Prep dough according to package instructions for pizza
+
+while dough is rising pre heat oven
+
+After Dough Rises place sauce then cheese then toppings then more cheese
+
+place pizza in oven for about 15 minutes maybe 20
+
+eat
+
+save left overs
+
+better then delivery pizza

@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,7 +21,16 @@ categories:
 tags: []
 comments: []
 ---
-<p>So it has been a while since the blog bug bit me. It has been crazy with sarah having some agry body problems and also work being crazy. I will write down what has been going down some day and set up like a three part series. Until them you can check out my new projects at <a href="http://www.northernauto.net">here</a> and <a href="http://www.clownsareawesome.com">here</a>. Harper has finally tricked me into embracing my nerd genes and got me hooked on htmland xhtml, he is trying to get me hooked on php but it may not work. we'll see.</p>
-<p>I am currently trying to get a laptop to work but it sucks. I need it to just be magic.  god i have turned into such a <a href="http://www.clownsareawesome.com/street1.html">nerd</a>.</p>
-<p>Love ya'll oh and harper keeps good secrets. Mwahahaha!!</p>
-<p>boogity boo</p>
+
+So it has been a while since the blog bug bit me. It has been crazy with sarah having some agry body problems and also work being crazy. I will write down what has been going down some day and set up like a three part series. Until them you can check out my new projects at [here][1] and [here][2]. Harper has finally tricked me into embracing my nerd genes and got me hooked on htmland xhtml, he is trying to get me hooked on php but it may not work. we'll see.
+
+   [1]: http://www.northernauto.net
+   [2]: http://www.clownsareawesome.com
+
+I am currently trying to get a laptop to work but it sucks. I need it to just be magic. god i have turned into such a [nerd][3].
+
+   [3]: http://www.clownsareawesome.com/street1.html
+
+Love ya'll oh and harper keeps good secrets. Mwahahaha!!
+
+boogity boo

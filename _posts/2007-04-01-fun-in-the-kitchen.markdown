@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -72,5 +73,7 @@ comments:
     when the cooking starts. \n\nThanks again :) and have fun on dive trips! read
     some of your diving blogs too... cheers!"
 ---
-<p>I sent Cooking Mama back today, or I will tomorrow, and I had a fun last couple of hours playing on it. I discovered some parts of the game that more then made up for a lot of the problems I mentioned in my earlier posts.</p>
-<p>I discovered the Cookoff section that allows you to compete against your cooking friends to win stuff for your kitchen. I found that to be quite fun as well as adding to the addiction. I also was able to compensate for th control issues that I found annoying, I am now able to cook like a bad ass.</p>
+
+I sent Cooking Mama back today, or I will tomorrow, and I had a fun last couple of hours playing on it. I discovered some parts of the game that more then made up for a lot of the problems I mentioned in my earlier posts.
+
+I discovered the Cookoff section that allows you to compete against your cooking friends to win stuff for your kitchen. I found that to be quite fun as well as adding to the addiction. I also was able to compensate for th control issues that I found annoying, I am now able to cook like a bad ass.

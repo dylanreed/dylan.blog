@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,7 +21,10 @@ categories:
 tags: []
 comments: []
 ---
-<p>I am helping my mom and dad while they are remodeling their house. as i was cleaning out a cabinet i happend to find a tape. the tape is of harper's jr high jazz band. it rules. i hope to convert it to mp3 so everyone can hear it. </p>
-<p>I am the best unicycler at unc and i can almost multiplex five balls<br />
-word</p>
-<p>dylan</p>
+
+I am helping my mom and dad while they are remodeling their house. as i was cleaning out a cabinet i happend to find a tape. the tape is of harper's jr high jazz band. it rules. i hope to convert it to mp3 so everyone can hear it. 
+
+I am the best unicycler at unc and i can almost multiplex five balls  
+word
+
+dylan

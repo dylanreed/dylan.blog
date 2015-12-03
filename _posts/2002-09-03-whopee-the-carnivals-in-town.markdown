@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -28,4 +29,5 @@ comments:
   content: |
     Dylan, post something new please!
 ---
-<p>whopee the carnivals in town. as i was driving home from work this morning @1am ish, i noticed that once again the carnival was setting up for another dun filled two weeks of carneys and crazy people. it is the strangest thing because they come religously aronde the first of the month every other month weird. just thought you guys should know</p>
+
+whopee the carnivals in town. as i was driving home from work this morning @1am ish, i noticed that once again the carnival was setting up for another dun filled two weeks of carneys and crazy people. it is the strangest thing because they come religously aronde the first of the month every other month weird. just thought you guys should know

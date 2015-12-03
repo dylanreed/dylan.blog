@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,4 +21,8 @@ categories:
 tags: []
 comments: []
 ---
-<p>my <a href="http://nata2.info/humor/flash/yeti_baseball.swf">record</a> is 317.2</p>
+
+my [record][1] is 317.2
+
+   [1]: http://nata2.info/humor/flash/yeti_baseball.swf
+

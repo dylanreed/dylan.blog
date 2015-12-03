@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -36,10 +37,11 @@ comments:
     Never been a live picture sorry, i'll try though.
     i'll add them to the list
 ---
-<p>My las entry was about Orcas. I figure I should give the masses a little bit of info on other scary creatures of the sea. Over the next couple of weeks I will due a series of stories about crazy deadly creatures. Most likely in this order:<br />
-1. <font color="#808000">Blue Ringed Octopus</font> (2/7)<br />
-2. <font color="#ff0000">Great White Sharks</font> (2/10)<br />
-3. <font color="#00ff00">Moray Eels</font> (2/12)<br />
-4. <font color="#800080">Humboldt Squid </font>(2/16)<br />
-5. <font color="#0000ff">Tiger Sharks</font> (2/20)<br />
-After that i will take suggestions on what else to write about. <strong><font color="#00ffff"><u>Mark</u></font></strong><u /> this means you. Email to me or post them as comments. And don't worry nothing is true. OK it might be.</p>
+
+My las entry was about Orcas. I figure I should give the masses a little bit of info on other scary creatures of the sea. Over the next couple of weeks I will due a series of stories about crazy deadly creatures. Most likely in this order:  
+1. Blue Ringed Octopus (2/7)  
+2. Great White Sharks (2/10)  
+3. Moray Eels (2/12)  
+4. Humboldt Squid (2/16)  
+5. Tiger Sharks (2/20)  
+After that i will take suggestions on what else to write about. **_Mark_**_ this means you. Email to me or post them as comments. And don't worry nothing is true. OK it might be.

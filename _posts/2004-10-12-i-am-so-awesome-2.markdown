@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -21,8 +22,14 @@ tags:
 - Clown
 comments: []
 ---
-<p>Yep i rule<br />
-<a href="http://www.everythingcello.com">Cool</a><br />
-<a href="http://www.cnn.com/2004/LAW/05/25/clown.porn.charges/">Not Cool</a></p>
-<p>in fact that really pisses me off because it gives clowns everywhere a bad name. thanks to this guy i am now going to be looked at as a sicco</p>
-<p>so pissed off</p>
+
+Yep i rule  
+[Cool][1]  
+[Not Cool][2]
+
+   [1]: http://www.everythingcello.com
+   [2]: http://www.cnn.com/2004/LAW/05/25/clown.porn.charges/
+
+in fact that really pisses me off because it gives clowns everywhere a bad name. thanks to this guy i am now going to be looked at as a sicco
+
+so pissed off

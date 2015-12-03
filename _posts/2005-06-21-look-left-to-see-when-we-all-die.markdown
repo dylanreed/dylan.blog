@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,6 +21,9 @@ categories:
 tags: []
 comments: []
 ---
-<p>So i was reading in my popular science magazine about an asteroid that may not kill us but at least break a bunch of stuff. harper was nice enoough to hook me up.</p>
-<p>its so funny</p>
-<p>more changes to come</p>
+
+So i was reading in my popular science magazine about an asteroid that may not kill us but at least break a bunch of stuff. harper was nice enoough to hook me up.
+
+its so funny
+
+more changes to come

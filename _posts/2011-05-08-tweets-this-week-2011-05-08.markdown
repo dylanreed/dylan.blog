@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,20 +21,44 @@ categories:
 tags: []
 comments: []
 ---
-<ul class="aktt_tweet_digest">
-<li>For those interested my first show as a Pampered Chef Consultant went really well. Thanks to all that helped/shopped. #<a href="http://search.twitter.com/search?q=%23pamperedchef" class="aktt_hashtag">pamperedchef</a> <a href="http://twitter.com/awesomeguy/statuses/64886681970548738" class="aktt_tweet_time">#</a></li>
-<li>Anyone in the Colorado area want to go in with me and another dude on a box of MTG 2011 boosters? Let me know ASAP. <a href="http://twitter.com/awesomeguy/statuses/65204675598749697" class="aktt_tweet_time">#</a></li>
-<li><a href="http://dylan.la/kdAloN" rel="nofollow">http://dylan.la/kdAloN</a> Hee hee <a href="http://twitter.com/awesomeguy/statuses/65209285893832705" class="aktt_tweet_time">#</a></li>
-<li>GIVE ME MILK!!! <a href="http://t.co/85xw6N8" rel="nofollow">http://t.co/85xw6N8</a> <a href="http://twitter.com/awesomeguy/statuses/65229492460863488" class="aktt_tweet_time">#</a></li>
-<li>Thanks <a href="http://t.co/bZganTt" rel="nofollow">http://t.co/bZganTt</a> <a href="http://twitter.com/awesomeguy/statuses/65229694072668160" class="aktt_tweet_time">#</a></li>
-<li>When you set up a meeting on skype it is probably best if you can remember your skype username and password. Doh! <a href="http://twitter.com/awesomeguy/statuses/65452284489900032" class="aktt_tweet_time">#</a></li>
-<li>Crisis averted. Thanks memory!! <a href="http://twitter.com/awesomeguy/statuses/65454027781054464" class="aktt_tweet_time">#</a></li>
-<li>Off to a meeting. At a startbucks. Because that is where business happens!! <a href="http://twitter.com/awesomeguy/statuses/65455851581882368" class="aktt_tweet_time">#</a></li>
-<li>Skrillex and house cleaning here I come <a href="http://twitter.com/awesomeguy/statuses/65493074326994944" class="aktt_tweet_time">#</a></li>
-<li>I used to follow @<a href="http://twitter.com/OMGFactsAnimals" class="aktt_username">OMGFactsAnimals</a> until they repeated the same fact twice in a week. Did we really run out of facts about animals? <a href="http://twitter.com/awesomeguy/statuses/65631166069358593" class="aktt_tweet_time">#</a></li>
-<li>FIrst Pampered Chef Show submitted and it was a doosy. Phew!!! <a href="http://twitter.com/awesomeguy/statuses/65961626934845440" class="aktt_tweet_time">#</a></li>
-<li>New job @<a href="http://twitter.com/graphicly" class="aktt_username">graphicly</a> means that I get free comics... this could be trouble. Serious, serious trouble. <a href="http://twitter.com/awesomeguy/statuses/66189202529853440" class="aktt_tweet_time">#</a></li>
-<li>Burned my hand baking bacon. Sucks because my hand hurts. Is awesome because I got to eat the bacon. <a href="http://twitter.com/awesomeguy/statuses/66195296404783104" class="aktt_tweet_time">#</a></li>
-<li>hacking a pt-1230pc labeler to work on my mac <a href="http://twitter.com/awesomeguy/statuses/66978088017338368" class="aktt_tweet_time">#</a></li>
-<li>Hacker fail. :( <a href="http://twitter.com/awesomeguy/statuses/66987477637922816" class="aktt_tweet_time">#</a></li><br />
-</ul></p>
+
+  * For those interested my first show as a Pampered Chef Consultant went really well. Thanks to all that helped/shopped. #[pamperedchef][1] [#][2]
+  * Anyone in the Colorado area want to go in with me and another dude on a box of MTG 2011 boosters? Let me know ASAP. [#][3]
+  * [http://dylan.la/kdAloN][4] Hee hee [#][5]
+  * GIVE ME MILK!!! [http://t.co/85xw6N8][6] [#][7]
+  * Thanks [http://t.co/bZganTt][8] [#][9]
+  * When you set up a meeting on skype it is probably best if you can remember your skype username and password. Doh! [#][10]
+  * Crisis averted. Thanks memory!! [#][11]
+  * Off to a meeting. At a startbucks. Because that is where business happens!! [#][12]
+  * Skrillex and house cleaning here I come [#][13]
+  * I used to follow @[OMGFactsAnimals][14] until they repeated the same fact twice in a week. Did we really run out of facts about animals? [#][15]
+  * FIrst Pampered Chef Show submitted and it was a doosy. Phew!!! [#][16]
+  * New job @[graphicly][17] means that I get free comics... this could be trouble. Serious, serious trouble. [#][18]
+  * Burned my hand baking bacon. Sucks because my hand hurts. Is awesome because I got to eat the bacon. [#][19]
+  * hacking a pt-1230pc labeler to work on my mac [#][20]
+  * Hacker fail. :( [#][21]
+  
+
+
+   [1]: http://search.twitter.com/search?q=%23pamperedchef
+   [2]: http://twitter.com/awesomeguy/statuses/64886681970548738
+   [3]: http://twitter.com/awesomeguy/statuses/65204675598749697
+   [4]: http://dylan.la/kdAloN
+   [5]: http://twitter.com/awesomeguy/statuses/65209285893832705
+   [6]: http://t.co/85xw6N8
+   [7]: http://twitter.com/awesomeguy/statuses/65229492460863488
+   [8]: http://t.co/bZganTt
+   [9]: http://twitter.com/awesomeguy/statuses/65229694072668160
+   [10]: http://twitter.com/awesomeguy/statuses/65452284489900032
+   [11]: http://twitter.com/awesomeguy/statuses/65454027781054464
+   [12]: http://twitter.com/awesomeguy/statuses/65455851581882368
+   [13]: http://twitter.com/awesomeguy/statuses/65493074326994944
+   [14]: http://twitter.com/OMGFactsAnimals
+   [15]: http://twitter.com/awesomeguy/statuses/65631166069358593
+   [16]: http://twitter.com/awesomeguy/statuses/65961626934845440
+   [17]: http://twitter.com/graphicly
+   [18]: http://twitter.com/awesomeguy/statuses/66189202529853440
+   [19]: http://twitter.com/awesomeguy/statuses/66195296404783104
+   [20]: http://twitter.com/awesomeguy/statuses/66978088017338368
+   [21]: http://twitter.com/awesomeguy/statuses/66987477637922816
+

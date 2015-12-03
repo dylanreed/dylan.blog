@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,6 +21,11 @@ categories:
 tags: []
 comments: []
 ---
-<ul class="aktt_tweet_digest">
-<li>Time to go to work <a href="http://twitpic.com/j9dqg" rel="nofollow">http://twitpic.com/j9dqg</a> <a href="http://twitter.com/awesomeguy/statuses/4402284309" class="aktt_tweet_time">#</a></li><br />
-</ul></p>
+
+  * Time to go to work [http://twitpic.com/j9dqg][1] [#][2]
+  
+
+
+   [1]: http://twitpic.com/j9dqg
+   [2]: http://twitter.com/awesomeguy/statuses/4402284309
+

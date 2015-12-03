@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,4 +21,8 @@ categories:
 tags: []
 comments: []
 ---
-<p>I spent a couple hours today revamping the glory that is the <a href="http://www.clownsareawesome.com">API entertainment</a> site. I am pretty happy with the overall look, let me know what you think. I am using Grand Central for my number and have added an online call feature. Its awesome.</p>
+
+I spent a couple hours today revamping the glory that is the [API entertainment][1] site. I am pretty happy with the overall look, let me know what you think. I am using Grand Central for my number and have added an online call feature. Its awesome.
+
+   [1]: http://www.clownsareawesome.com
+

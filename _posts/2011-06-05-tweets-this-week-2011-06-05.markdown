@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,11 +21,22 @@ categories:
 tags: []
 comments: []
 ---
-<ul class="aktt_tweet_digest">
-<li>Waffles, sewing, hanging out with cats and wife outside and comic books. What a great day!! <a href="http://twitter.com/awesomeguy/statuses/75580868588085248" class="aktt_tweet_time">#</a></li>
-<li>I did not realize Fraggle Rock had a comic @<a href="http://twitter.com/graphicly" class="aktt_username">graphicly</a> <a href="http://t.co/RtCzyCM" rel="nofollow">http://t.co/RtCzyCM</a> <a href="http://twitter.com/awesomeguy/statuses/75681628676034561" class="aktt_tweet_time">#</a></li>
-<li>turntable.fm is quite a bit of fun <a href="http://twitter.com/awesomeguy/statuses/76371119187308544" class="aktt_tweet_time">#</a></li>
-<li>I hate it when sarah isn&#039;t around. I can&#039;t sleep and I have a crazy day in the morning. <a href="http://twitter.com/awesomeguy/statuses/76539871996547072" class="aktt_tweet_time">#</a></li>
-<li>time for some lunch of the lunch meeting variety <a href="http://twitter.com/awesomeguy/statuses/76714482566565888" class="aktt_tweet_time">#</a></li>
-<li>I am bad at recovering from being out late. So sleepy. Looks like it is time to watch the xmen movies and nap. <a href="http://twitter.com/awesomeguy/statuses/77171722377367552" class="aktt_tweet_time">#</a></li><br />
-</ul></p>
+
+  * Waffles, sewing, hanging out with cats and wife outside and comic books. What a great day!! [#][1]
+  * I did not realize Fraggle Rock had a comic @[graphicly][2] [http://t.co/RtCzyCM][3] [#][4]
+  * turntable.fm is quite a bit of fun [#][5]
+  * I hate it when sarah isn't around. I can't sleep and I have a crazy day in the morning. [#][6]
+  * time for some lunch of the lunch meeting variety [#][7]
+  * I am bad at recovering from being out late. So sleepy. Looks like it is time to watch the xmen movies and nap. [#][8]
+  
+
+
+   [1]: http://twitter.com/awesomeguy/statuses/75580868588085248
+   [2]: http://twitter.com/graphicly
+   [3]: http://t.co/RtCzyCM
+   [4]: http://twitter.com/awesomeguy/statuses/75681628676034561
+   [5]: http://twitter.com/awesomeguy/statuses/76371119187308544
+   [6]: http://twitter.com/awesomeguy/statuses/76539871996547072
+   [7]: http://twitter.com/awesomeguy/statuses/76714482566565888
+   [8]: http://twitter.com/awesomeguy/statuses/77171722377367552
+

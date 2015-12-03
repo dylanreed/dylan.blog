@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,5 +21,15 @@ tags:
 - Clown
 comments: []
 ---
-<p><a href="http://en.wikipedia.org/wiki/Project_Alpha">Alpha project</a> <a href="http://www.banachek.org/">banachek</a> <a href="http://en.wikipedia.org/wiki/Uri_Geller">Uri</a> and the best <a href="http://www.peterpopoff.org/">Peter Popoff</a></p>
-<p><a href="http://www.darat.org/~dimossi/James.Randi.debunking.on.Tonight.Show.wmv">Exposed</a></p>
+
+[Alpha project][1] [banachek][2] [Uri][3] and the best [Peter Popoff][4]
+
+   [1]: http://en.wikipedia.org/wiki/Project_Alpha
+   [2]: http://www.banachek.org/
+   [3]: http://en.wikipedia.org/wiki/Uri_Geller
+   [4]: http://www.peterpopoff.org/
+
+[Exposed][5]
+
+   [5]: http://www.darat.org/~dimossi/James.Randi.debunking.on.Tonight.Show.wmv
+

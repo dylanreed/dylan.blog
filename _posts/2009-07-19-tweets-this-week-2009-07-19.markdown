@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,30 +21,77 @@ categories:
 tags: []
 comments: []
 ---
-<ul class="aktt_tweet_digest">
-<li>Bessie! <a href="http://twitpic.com/a4m9d" rel="nofollow">http://twitpic.com/a4m9d</a> <a href="http://twitter.com/awesomeguy/statuses/2599980694">#</a></li>
-<li>Sarah! <a href="http://twitpic.com/a4mw0" rel="nofollow">http://twitpic.com/a4mw0</a> <a href="http://twitter.com/awesomeguy/statuses/2600048692">#</a></li>
-<li>Horsetooth  <a href="http://twitpic.com/a68x7" rel="nofollow">http://twitpic.com/a68x7</a> <a href="http://twitter.com/awesomeguy/statuses/2605322701">#</a></li>
-<li>BUY ME A SLURPEE <a href="http://ginx.com/-iqTwD" rel="nofollow">http://ginx.com/-iqTwD</a> Please :o) <a href="http://twitter.com/awesomeguy/statuses/2614846785">#</a></li>
-<li>Cherries? <a href="http://twitpic.com/a88qj" rel="nofollow">http://twitpic.com/a88qj</a> <a href="http://twitter.com/awesomeguy/statuses/2615212363">#</a></li>
-<li>@<a href="http://twitter.com/tchucco">tchucco</a> unfortunatly these are all earmarked for a pie or three <a href="http://twitter.com/tchucco/statuses/2615227041">in reply to tchucco</a> <a href="http://twitter.com/awesomeguy/statuses/2617248708">#</a></li>
-<li>RT @jimgaffigan: Does sunscreen actually have to be white.  I need help blocking the sunlight not looking whiter, <a href="http://twitter.com/awesomeguy/statuses/2620091308">#</a></li>
-<li>Bloodsucking Fiends by Christopher Moore is the best vampire book. Eat that Twilight <a href="http://twitter.com/awesomeguy/statuses/2620119054">#</a></li>
-<li>My elbow is so pissed off right now. Going to the doctor, probably getting x-rayed. Go me <a href="http://twitter.com/awesomeguy/statuses/2632085091">#</a></li>
-<li>@<a href="http://twitter.com/BigTank78">BigTank78</a> that sucks. Get better buddy <a href="http://twitter.com/BigTank78/statuses/2632107598">in reply to BigTank78</a> <a href="http://twitter.com/awesomeguy/statuses/2632379410">#</a></li>
-<li>I have golfer's elbow aka tendinitis on the inside of my elbow aka it hurts real bad. It is either from warhammer or gymnastics. I wonder? <a href="http://twitter.com/awesomeguy/statuses/2636545703">#</a></li>
-<li>Trying to draw this. Next time @<a href="http://twitter.com/harper">harper</a> needs to shave. And have normal person hair  <a href="http://twitpic.com/acj3n" rel="nofollow">http://twitpic.com/acj3n</a> <a href="http://twitter.com/awesomeguy/statuses/2636583289">#</a></li>
-<li>I need a way to post pictures and tweets to my blog as they happen and still have a way to make nice long posts to it on occassion. <a href="http://twitter.com/awesomeguy/statuses/2636604680">#</a></li>
-<li>5minutes in <a href="http://twitpic.com/acnz4" rel="nofollow">http://twitpic.com/acnz4</a> <a href="http://twitter.com/awesomeguy/statuses/2637168596">#</a></li>
-<li>10 minute mark <a href="http://twitpic.com/acs0f" rel="nofollow">http://twitpic.com/acs0f</a> <a href="http://twitter.com/awesomeguy/statuses/2637648664">#</a></li>
-<li>Basically done <a href="http://twitpic.com/actc7" rel="nofollow">http://twitpic.com/actc7</a> <a href="http://twitter.com/awesomeguy/statuses/2637807855">#</a></li>
-<li>@<a href="http://twitter.com/reedmorebooks">reedmorebooks</a> thanks <a href="http://twitter.com/reedmorebooks/statuses/2637965303">in reply to reedmorebooks</a> <a href="http://twitter.com/awesomeguy/statuses/2637986473">#</a></li>
-<li>Need change for snack <a href="http://twitpic.com/acz8m" rel="nofollow">http://twitpic.com/acz8m</a> <a href="http://twitter.com/awesomeguy/statuses/2638513337">#</a></li>
-<li>And done <a href="http://twitpic.com/ad4sd" rel="nofollow">http://twitpic.com/ad4sd</a> <a href="http://twitter.com/awesomeguy/statuses/2639175838">#</a></li>
-<li>One month left of working for pops <a href="http://twitter.com/awesomeguy/statuses/2653902158">#</a></li>
-<li>Why is my HOA so stupid? Seriously, am I going to have to attend a meeting? <a href="http://twitter.com/awesomeguy/statuses/2657191428">#</a></li>
-<li>Can the so you think you can dance judges kiss any more choreographer ass. Also the pass&eacute; doble is dumb. <a href="http://twitter.com/awesomeguy/statuses/2662442330">#</a></li>
-<li>I drew this today <a href="http://twitpic.com/akrh5" rel="nofollow">http://twitpic.com/akrh5</a> <a href="http://twitter.com/awesomeguy/statuses/2676827137">#</a></li>
-<li>Fighting hoa-hall wish me luck! <a href="http://twitter.com/awesomeguy/statuses/2680775415">#</a></li>
-<li>RT @ricklafave: Walgreens has refused to fill a script for my wife's surgery tomorrow. Dont let it happen 2U. <a href="http://twitter.com/awesomeguy/statuses/2680791823">#</a></li><br />
-</ul></p>
+
+  * Bessie! [http://twitpic.com/a4m9d][1] [#][2]
+  * Sarah! [http://twitpic.com/a4mw0][3] [#][4]
+  * Horsetooth [http://twitpic.com/a68x7][5] [#][6]
+  * BUY ME A SLURPEE [http://ginx.com/-iqTwD][7] Please :o) [#][8]
+  * Cherries? [http://twitpic.com/a88qj][9] [#][10]
+  * @[tchucco][11] unfortunatly these are all earmarked for a pie or three [in reply to tchucco][12] [#][13]
+  * RT @jimgaffigan: Does sunscreen actually have to be white. I need help blocking the sunlight not looking whiter, [#][14]
+  * Bloodsucking Fiends by Christopher Moore is the best vampire book. Eat that Twilight [#][15]
+  * My elbow is so pissed off right now. Going to the doctor, probably getting x-rayed. Go me [#][16]
+  * @[BigTank78][17] that sucks. Get better buddy [in reply to BigTank78][18] [#][19]
+  * I have golfer's elbow aka tendinitis on the inside of my elbow aka it hurts real bad. It is either from warhammer or gymnastics. I wonder? [#][20]
+  * Trying to draw this. Next time @[harper][21] needs to shave. And have normal person hair [http://twitpic.com/acj3n][22] [#][23]
+  * I need a way to post pictures and tweets to my blog as they happen and still have a way to make nice long posts to it on occassion. [#][24]
+  * 5minutes in [http://twitpic.com/acnz4][25] [#][26]
+  * 10 minute mark [http://twitpic.com/acs0f][27] [#][28]
+  * Basically done [http://twitpic.com/actc7][29] [#][30]
+  * @[reedmorebooks][31] thanks [in reply to reedmorebooks][32] [#][33]
+  * Need change for snack [http://twitpic.com/acz8m][34] [#][35]
+  * And done [http://twitpic.com/ad4sd][36] [#][37]
+  * One month left of working for pops [#][38]
+  * Why is my HOA so stupid? Seriously, am I going to have to attend a meeting? [#][39]
+  * Can the so you think you can dance judges kiss any more choreographer ass. Also the passe doble is dumb. [#][40]
+  * I drew this today [http://twitpic.com/akrh5][41] [#][42]
+  * Fighting hoa-hall wish me luck! [#][43]
+  * RT @ricklafave: Walgreens has refused to fill a script for my wife's surgery tomorrow. Dont let it happen 2U. [#][44]
+  
+
+
+   [1]: http://twitpic.com/a4m9d
+   [2]: http://twitter.com/awesomeguy/statuses/2599980694
+   [3]: http://twitpic.com/a4mw0
+   [4]: http://twitter.com/awesomeguy/statuses/2600048692
+   [5]: http://twitpic.com/a68x7
+   [6]: http://twitter.com/awesomeguy/statuses/2605322701
+   [7]: http://ginx.com/-iqTwD
+   [8]: http://twitter.com/awesomeguy/statuses/2614846785
+   [9]: http://twitpic.com/a88qj
+   [10]: http://twitter.com/awesomeguy/statuses/2615212363
+   [11]: http://twitter.com/tchucco
+   [12]: http://twitter.com/tchucco/statuses/2615227041
+   [13]: http://twitter.com/awesomeguy/statuses/2617248708
+   [14]: http://twitter.com/awesomeguy/statuses/2620091308
+   [15]: http://twitter.com/awesomeguy/statuses/2620119054
+   [16]: http://twitter.com/awesomeguy/statuses/2632085091
+   [17]: http://twitter.com/BigTank78
+   [18]: http://twitter.com/BigTank78/statuses/2632107598
+   [19]: http://twitter.com/awesomeguy/statuses/2632379410
+   [20]: http://twitter.com/awesomeguy/statuses/2636545703
+   [21]: http://twitter.com/harper
+   [22]: http://twitpic.com/acj3n
+   [23]: http://twitter.com/awesomeguy/statuses/2636583289
+   [24]: http://twitter.com/awesomeguy/statuses/2636604680
+   [25]: http://twitpic.com/acnz4
+   [26]: http://twitter.com/awesomeguy/statuses/2637168596
+   [27]: http://twitpic.com/acs0f
+   [28]: http://twitter.com/awesomeguy/statuses/2637648664
+   [29]: http://twitpic.com/actc7
+   [30]: http://twitter.com/awesomeguy/statuses/2637807855
+   [31]: http://twitter.com/reedmorebooks
+   [32]: http://twitter.com/reedmorebooks/statuses/2637965303
+   [33]: http://twitter.com/awesomeguy/statuses/2637986473
+   [34]: http://twitpic.com/acz8m
+   [35]: http://twitter.com/awesomeguy/statuses/2638513337
+   [36]: http://twitpic.com/ad4sd
+   [37]: http://twitter.com/awesomeguy/statuses/2639175838
+   [38]: http://twitter.com/awesomeguy/statuses/2653902158
+   [39]: http://twitter.com/awesomeguy/statuses/2657191428
+   [40]: http://twitter.com/awesomeguy/statuses/2662442330
+   [41]: http://twitpic.com/akrh5
+   [42]: http://twitter.com/awesomeguy/statuses/2676827137
+   [43]: http://twitter.com/awesomeguy/statuses/2680775415
+   [44]: http://twitter.com/awesomeguy/statuses/2680791823
+

@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,7 +21,13 @@ categories:
 tags: []
 comments: []
 ---
-<p>Levitate</p>
-<p>So thats cool everyone go to <a href="http://www.weownthesun.com">we own the sun dot com</a></p>
-<p>word</p>
-<p>harper is coming out to colorado tonight</p>
+
+Levitate
+
+So thats cool everyone go to [we own the sun dot com][1]
+
+   [1]: http://www.weownthesun.com
+
+word
+
+harper is coming out to colorado tonight

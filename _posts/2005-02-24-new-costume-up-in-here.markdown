@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,6 +21,10 @@ tags:
 - Clown
 comments: []
 ---
-<p>So my new clown costume came here is the <a href="http://dylanreed.org/media/album01/thursday_december_09_2004_10">sketch</a><br />
-in reality it ids so much bigger<br />
- i know weird</p>
+
+So my new clown costume came here is the [sketch][1]  
+in reality it ids so much bigger  
+i know weird
+
+   [1]: http://dylanreed.org/media/album01/thursday_december_09_2004_10
+

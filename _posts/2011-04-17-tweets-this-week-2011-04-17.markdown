@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,19 +21,47 @@ categories:
 tags: []
 comments: []
 ---
-<ul class="aktt_tweet_digest">
-<li>Bat-pie FTW:  <a href="http://t.co/35GtK69" rel="nofollow">http://t.co/35GtK69</a> <a href="http://twitter.com/awesomeguy/statuses/57233515657441280" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: Angry Melon <a href="http://dylan.la/gzb4Rd" rel="nofollow">http://dylan.la/gzb4Rd</a> <a href="http://twitter.com/awesomeguy/statuses/57464826825420801" class="aktt_tweet_time">#</a></li>
-<li>what are the best homebrew wii hacks? <a href="http://twitter.com/awesomeguy/statuses/57552410838700032" class="aktt_tweet_time">#</a></li>
-<li>To the people or bots that spend their time spamming my wordpress blogs. One of them is only pictures, please make sure your spam fits that <a href="http://twitter.com/awesomeguy/statuses/57554877517271040" class="aktt_tweet_time">#</a></li>
-<li>making these right now!! <a href="http://dylan.la/ewb688" rel="nofollow">http://dylan.la/ewb688</a> <a href="http://twitter.com/awesomeguy/statuses/57568168692035585" class="aktt_tweet_time">#</a></li>
-<li>Looking good:) <a href="http://t.co/dwntI8d" rel="nofollow">http://t.co/dwntI8d</a> <a href="http://twitter.com/awesomeguy/statuses/57571953711652864" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: Sweet Melon <a href="http://dylan.la/dSao10" rel="nofollow">http://dylan.la/dSao10</a> <a href="http://twitter.com/awesomeguy/statuses/57829840115609600" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: Melon Headshot <a href="http://dylan.la/fk4Mfx" rel="nofollow">http://dylan.la/fk4Mfx</a> <a href="http://twitter.com/awesomeguy/statuses/58192764352991232" class="aktt_tweet_time">#</a></li>
-<li>This is amazing <a href="http://dylan.la/fBoX75" rel="nofollow">http://dylan.la/fBoX75</a> <a href="http://twitter.com/awesomeguy/statuses/58261922067386368" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: Coffee!! <a href="http://dylan.la/hTLNU9" rel="nofollow">http://dylan.la/hTLNU9</a> <a href="http://twitter.com/awesomeguy/statuses/58545921943810048" class="aktt_tweet_time">#</a></li>
-<li><a href="http://dylan.la/hnc9r1" rel="nofollow">http://dylan.la/hnc9r1</a> The devastation in Japan makes me sad. <a href="http://twitter.com/awesomeguy/statuses/58567490560720896" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: Hello <a href="http://dylan.la/fzQ50T" rel="nofollow">http://dylan.la/fzQ50T</a> <a href="http://twitter.com/awesomeguy/statuses/58908116770750465" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: Money Bunny <a href="http://dylan.la/idYjov" rel="nofollow">http://dylan.la/idYjov</a> <a href="http://twitter.com/awesomeguy/statuses/59270042226921472" class="aktt_tweet_time">#</a></li>
-<li>fancycadaver.com is going to be late tomorrow. Because I am not prepared and don&#039;t have time. Also because I a tired <a href="http://twitter.com/awesomeguy/statuses/59390835850084352" class="aktt_tweet_time">#</a></li><br />
-</ul></p>
+
+  * Bat-pie FTW: [http://t.co/35GtK69][1] [#][2]
+  * OMG I Drew a Picture: Angry Melon [http://dylan.la/gzb4Rd][3] [#][4]
+  * what are the best homebrew wii hacks? [#][5]
+  * To the people or bots that spend their time spamming my wordpress blogs. One of them is only pictures, please make sure your spam fits that [#][6]
+  * making these right now!! [http://dylan.la/ewb688][7] [#][8]
+  * Looking good:) [http://t.co/dwntI8d][9] [#][10]
+  * OMG I Drew a Picture: Sweet Melon [http://dylan.la/dSao10][11] [#][12]
+  * OMG I Drew a Picture: Melon Headshot [http://dylan.la/fk4Mfx][13] [#][14]
+  * This is amazing [http://dylan.la/fBoX75][15] [#][16]
+  * OMG I Drew a Picture: Coffee!! [http://dylan.la/hTLNU9][17] [#][18]
+  * [http://dylan.la/hnc9r1][19] The devastation in Japan makes me sad. [#][20]
+  * OMG I Drew a Picture: Hello [http://dylan.la/fzQ50T][21] [#][22]
+  * OMG I Drew a Picture: Money Bunny [http://dylan.la/idYjov][23] [#][24]
+  * fancycadaver.com is going to be late tomorrow. Because I am not prepared and don't have time. Also because I a tired [#][25]
+  
+
+
+   [1]: http://t.co/35GtK69
+   [2]: http://twitter.com/awesomeguy/statuses/57233515657441280
+   [3]: http://dylan.la/gzb4Rd
+   [4]: http://twitter.com/awesomeguy/statuses/57464826825420801
+   [5]: http://twitter.com/awesomeguy/statuses/57552410838700032
+   [6]: http://twitter.com/awesomeguy/statuses/57554877517271040
+   [7]: http://dylan.la/ewb688
+   [8]: http://twitter.com/awesomeguy/statuses/57568168692035585
+   [9]: http://t.co/dwntI8d
+   [10]: http://twitter.com/awesomeguy/statuses/57571953711652864
+   [11]: http://dylan.la/dSao10
+   [12]: http://twitter.com/awesomeguy/statuses/57829840115609600
+   [13]: http://dylan.la/fk4Mfx
+   [14]: http://twitter.com/awesomeguy/statuses/58192764352991232
+   [15]: http://dylan.la/fBoX75
+   [16]: http://twitter.com/awesomeguy/statuses/58261922067386368
+   [17]: http://dylan.la/hTLNU9
+   [18]: http://twitter.com/awesomeguy/statuses/58545921943810048
+   [19]: http://dylan.la/hnc9r1
+   [20]: http://twitter.com/awesomeguy/statuses/58567490560720896
+   [21]: http://dylan.la/fzQ50T
+   [22]: http://twitter.com/awesomeguy/statuses/58908116770750465
+   [23]: http://dylan.la/idYjov
+   [24]: http://twitter.com/awesomeguy/statuses/59270042226921472
+   [25]: http://twitter.com/awesomeguy/statuses/59390835850084352
+

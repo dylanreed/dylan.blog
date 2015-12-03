@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,5 +21,10 @@ categories:
 tags: []
 comments: []
 ---
-<p>I have been working on web design stuff for the past couple of weeks and here is what I have:<br />
-<a href="http://www.clownsareawesome.com">clownsareawesome</a> and <a href="http://www.clownsareawesome.com/api/index.html">API</a></p>
+
+I have been working on web design stuff for the past couple of weeks and here is what I have:  
+[clownsareawesome][1] and [API][2]
+
+   [1]: http://www.clownsareawesome.com
+   [2]: http://www.clownsareawesome.com/api/index.html
+

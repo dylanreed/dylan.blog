@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,7 +21,14 @@ categories:
 tags: []
 comments: []
 ---
-<ul class="aktt_tweet_digest">
-<li>CS4 keeps crashing on new MacBook pro. Why adobe, why? <a href="http://twitter.com/awesomeguy/statuses/2772102715">#</a></li>
-<li>@<a href="http://twitter.com/skaw">skaw</a> what are you reading comic book wise? <a href="http://twitter.com/skaw/statuses/2820586463">in reply to skaw</a> <a href="http://twitter.com/awesomeguy/statuses/2822362424">#</a></li><br />
-</ul></p>
+
+  * CS4 keeps crashing on new MacBook pro. Why adobe, why? [#][1]
+  * @[skaw][2] what are you reading comic book wise? [in reply to skaw][3] [#][4]
+  
+
+
+   [1]: http://twitter.com/awesomeguy/statuses/2772102715
+   [2]: http://twitter.com/skaw
+   [3]: http://twitter.com/skaw/statuses/2820586463
+   [4]: http://twitter.com/awesomeguy/statuses/2822362424
+

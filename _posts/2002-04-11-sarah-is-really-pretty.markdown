@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -36,4 +37,5 @@ comments:
   content: |
     what about me..?
 ---
-<p>Sarah is really pretty.</p>
+
+Sarah is really pretty.

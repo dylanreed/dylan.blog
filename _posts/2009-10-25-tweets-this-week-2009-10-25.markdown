@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,14 +21,32 @@ categories:
 tags: []
 comments: []
 ---
-<ul class="aktt_tweet_digest">
-<li>Sleepy. Sarah is still sick. Send her get well messages. <a href="http://twitter.com/awesomeguy/statuses/4995960485" class="aktt_tweet_time">#</a></li>
-<li>I about an hour I need a reminder from someone telling me to renew my library books. Seriously. <a href="http://twitter.com/awesomeguy/statuses/5046549689" class="aktt_tweet_time">#</a></li>
-<li>Balloon laces! Want some? They rule. <a href="http://twitpic.com/md2vs" rel="nofollow">http://twitpic.com/md2vs</a> <a href="http://twitter.com/awesomeguy/statuses/5046648572" class="aktt_tweet_time">#</a></li>
-<li>Http://awesomeguy.etsy.com needs love. Buy a Awesome Guy today! <a href="http://twitter.com/awesomeguy/statuses/5046668757" class="aktt_tweet_time">#</a></li>
-<li>Also @<a href="http://twitter.com/deltaairlines" class="aktt_username">deltaairlines</a> teach your people at DIA to be polite and not rude. Gate c36 I am looking at you <a href="http://twitter.com/awesomeguy/statuses/5069290750" class="aktt_tweet_time">#</a></li>
-<li>Zipper! <a href="http://twitpic.com/mih00" rel="nofollow">http://twitpic.com/mih00</a> <a href="http://twitter.com/awesomeguy/statuses/5079501999" class="aktt_tweet_time">#</a></li>
-<li>Isn&#39;t she adorable <a href="http://twitpic.com/mmfrf" rel="nofollow">http://twitpic.com/mmfrf</a> <a href="http://twitter.com/awesomeguy/statuses/5103876945" class="aktt_tweet_time">#</a></li>
-<li>Why VT is better then CO reason #<a href="http://search.twitter.com/search?q=%231" class="aktt_hashtag">1</a>  <a href="http://twitpic.com/mnx7h" rel="nofollow">http://twitpic.com/mnx7h</a> <a href="http://twitter.com/awesomeguy/statuses/5111117471" class="aktt_tweet_time">#</a></li>
-<li>I am not a good dancer, ask anybody <a href="http://twitter.com/awesomeguy/statuses/5134182032" class="aktt_tweet_time">#</a></li><br />
-</ul></p>
+
+  * Sleepy. Sarah is still sick. Send her get well messages. [#][1]
+  * I about an hour I need a reminder from someone telling me to renew my library books. Seriously. [#][2]
+  * Balloon laces! Want some? They rule. [http://twitpic.com/md2vs][3] [#][4]
+  * Http://awesomeguy.etsy.com needs love. Buy a Awesome Guy today! [#][5]
+  * Also @[deltaairlines][6] teach your people at DIA to be polite and not rude. Gate c36 I am looking at you [#][7]
+  * Zipper! [http://twitpic.com/mih00][8] [#][9]
+  * Isn't she adorable [http://twitpic.com/mmfrf][10] [#][11]
+  * Why VT is better then CO reason #[1][12] [http://twitpic.com/mnx7h][13] [#][14]
+  * I am not a good dancer, ask anybody [#][15]
+  
+
+
+   [1]: http://twitter.com/awesomeguy/statuses/4995960485
+   [2]: http://twitter.com/awesomeguy/statuses/5046549689
+   [3]: http://twitpic.com/md2vs
+   [4]: http://twitter.com/awesomeguy/statuses/5046648572
+   [5]: http://twitter.com/awesomeguy/statuses/5046668757
+   [6]: http://twitter.com/deltaairlines
+   [7]: http://twitter.com/awesomeguy/statuses/5069290750
+   [8]: http://twitpic.com/mih00
+   [9]: http://twitter.com/awesomeguy/statuses/5079501999
+   [10]: http://twitpic.com/mmfrf
+   [11]: http://twitter.com/awesomeguy/statuses/5103876945
+   [12]: http://search.twitter.com/search?q=%231
+   [13]: http://twitpic.com/mnx7h
+   [14]: http://twitter.com/awesomeguy/statuses/5111117471
+   [15]: http://twitter.com/awesomeguy/statuses/5134182032
+

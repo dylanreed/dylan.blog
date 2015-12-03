@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -21,7 +22,10 @@ tags:
 - Clown
 comments: []
 ---
-<p>HaHa,<br /><br />
-ok so today i recieved my new clown costume and wig thanks mom and dad and harper, I also recieved my super secret package from santa. ok it might have been satan I am not sure. any who I will be unvailing my new costume at the taste of weld county if you want to see go there. also I am learning new tricks to show to people, those however will not be ready for about another month or two. harperisawesome. he jsut is.</p></p>
-<p>thast all<br />
-</p></p>
+
+HaHa,  
+  
+ok so today i recieved my new clown costume and wig thanks mom and dad and harper, I also recieved my super secret package from santa. ok it might have been satan I am not sure. any who I will be unvailing my new costume at the taste of weld county if you want to see go there. also I am learning new tricks to show to people, those however will not be ready for about another month or two. harperisawesome. he jsut is.
+
+thast all  
+

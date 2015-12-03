@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,11 +21,15 @@ categories:
 tags: []
 comments: []
 ---
-<p>Hello everyone. It is I the great super dylan. so any who. what have you guys been up to? nothing much here just working hard for the money. etc etc. I am having fun at work. Right now at work i am help out the war effort (doh) by test the thursters for a nucular submarine and last week i was heat treating a new lauching system for aircraft carriers.<br />
-I have decided why i need lots of free money<br />
- a) to get a  <a href="http://www.miniusa.com">mini</a><br />
- b) to get a motorcycle<br />
- c) to never have to work again<br />
-so if anyone has lots of money to give to me or would just like to buy those things for me, that would be great.</p>
-<p>that is all<br />
-byby</p>
+
+Hello everyone. It is I the great super dylan. so any who. what have you guys been up to? nothing much here just working hard for the money. etc etc. I am having fun at work. Right now at work i am help out the war effort (doh) by test the thursters for a nucular submarine and last week i was heat treating a new lauching system for aircraft carriers.  
+I have decided why i need lots of free money  
+a) to get a [mini][1]  
+b) to get a motorcycle  
+c) to never have to work again  
+so if anyone has lots of money to give to me or would just like to buy those things for me, that would be great.
+
+   [1]: http://www.miniusa.com
+
+that is all  
+byby

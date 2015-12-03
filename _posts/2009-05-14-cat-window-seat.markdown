@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -60,12 +61,20 @@ comments:
     my house\r\n                    Elbows, etc.- $.95ish each\r\n\r\nTotal: Around
     $20 if you have to buy the fabric."
 ---
-<p>[caption id="" align="alignleft" width="360" caption="Reno, annoyed with the flash, enjoying his new perch. Check out the nice clean patio that is his domain."]<img class=" " title="Comfy" src="http://farm4.static.flickr.com/3564/3531471078_65617d80de.jpg" alt="Here is Reno, annoyed with the flash, enjoying his new seat" width="360" height="270" />[/caption]</p>
-<p>Inspired by<a href="http://blog.makezine.com/archive/2009/05/kitty_cot_window_cat_perch.html?CMP=OTC-0D6B48984890"> MAKE magazine</a>:&nbsp;</p>
-<p>Made in one afternoon. PVC, Fabric, twine(which may be switched to wire), suction cups and a curious fat cat. He weighs in around 16 lbs and is&nbsp;good to go.</p>
-<p><object width="437" height="370" data="http://www.viddler.com/player/b04ae0c9/" type="application/x-shockwave-flash"><param name="id" value="viddler_CaptainAwesome_11" /><param name="allowScriptAccess" value="always" /><param name="allowFullScreen" value="true" /><param name="src" value="http://www.viddler.com/player/b04ae0c9/" /><param name="name" value="viddler_CaptainAwesome_11" /><param name="wmode" value="transparent" /><param name="allowfullscreen" value="true" /></object></p>
-<p>Things to change:</p>
-<ul>
-<li>Stronger fabric that has a little less give</li>
-<li>Metal wire instead of twine</li><br />
-</ul></p>
+
+[caption id="" align="alignleft" width="360" caption="Reno, annoyed with the flash, enjoying his new perch. Check out the nice clean patio that is his domain."]![Here is Reno, annoyed with the flash, enjoying his new seat][1][/caption]
+
+   [1]: http://farm4.static.flickr.com/3564/3531471078_65617d80de.jpg (Comfy)
+
+Inspired by[ MAKE magazine][2]: 
+
+   [2]: http://blog.makezine.com/archive/2009/05/kitty_cot_window_cat_perch.html?CMP=OTC-0D6B48984890
+
+Made in one afternoon. PVC, Fabric, twine(which may be switched to wire), suction cups and a curious fat cat. He weighs in around 16 lbs and is good to go.
+
+Things to change:
+
+  * Stronger fabric that has a little less give
+  * Metal wire instead of twine
+  
+

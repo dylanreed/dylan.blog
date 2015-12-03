@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,5 +21,7 @@ categories:
 tags: []
 comments: []
 ---
-<p>I am quite sorry that I have been doing paid posts so much recently. Basically I am a greedy little bastard and want to make lots of money on my blog. I am making sure to put <em>Paid Post </em>right after the title.</p>
-<p>I will also try not to group them as tightly together, maybe one or two a week at most. Or one per five regular posts. We'll see.</p></p>
+
+I am quite sorry that I have been doing paid posts so much recently. Basically I am a greedy little bastard and want to make lots of money on my blog. I am making sure to put _Paid Post _right after the title.
+
+I will also try not to group them as tightly together, maybe one or two a week at most. Or one per five regular posts. We'll see.

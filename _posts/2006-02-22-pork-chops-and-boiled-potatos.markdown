@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,16 +21,29 @@ tags:
 - Recipes
 comments: []
 ---
-<p>Buy pork chops</p>
-<p>Buy Russet potatos</p>
-<p>Peel potatos</p>
-<p>cut into chunks</p>
-<p>place in pot</p>
-<p>fill pot one inch above potatos and place on med high heat</p>
-<p>when Potatos boil place lid on and put burner on low</p>
-<p>set timer for 15 minutes</p>
-<p>go play on internet</p>
-<p>when timer goes off, go season pork chops and spay skillet and pre heat on medium heat</p>
-<p>put pork chops on skillet, flip every 2-3 minutes for the next 15 minutes</p>
-<p>put pork chops and potatos on plate eat</p>
-<p>ALT: put butter and milk in drained potatos and mash</p>
+
+Buy pork chops
+
+Buy Russet potatos
+
+Peel potatos
+
+cut into chunks
+
+place in pot
+
+fill pot one inch above potatos and place on med high heat
+
+when Potatos boil place lid on and put burner on low
+
+set timer for 15 minutes
+
+go play on internet
+
+when timer goes off, go season pork chops and spay skillet and pre heat on medium heat
+
+put pork chops on skillet, flip every 2-3 minutes for the next 15 minutes
+
+put pork chops and potatos on plate eat
+
+ALT: put butter and milk in drained potatos and mash

@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,9 +21,19 @@ categories:
 tags: []
 comments: []
 ---
-<ul class="aktt_tweet_digest">
-<li>So fluffy!! <a href="http://t.co/TyoJzVz" rel="nofollow">http://t.co/TyoJzVz</a> <a href="http://twitter.com/awesomeguy/statuses/69811935998259200" class="aktt_tweet_time">#</a></li>
-<li>First day at graphicly was fun. Learned a lot. Saw where the magic happens. <a href="http://twitter.com/awesomeguy/statuses/70673749309014016" class="aktt_tweet_time">#</a></li>
-<li>When working from home, check the weather before walking outside. Sometimes it rains and it is a good thing to be ready for. #<a href="http://search.twitter.com/search?q=%23protip" class="aktt_hashtag">protip</a> <a href="http://twitter.com/awesomeguy/statuses/70965722582491136" class="aktt_tweet_time">#</a></li>
-<li>Fresh mango salsa and pineapple anyone.  <a href="http://t.co/8kIMwXA" rel="nofollow">http://t.co/8kIMwXA</a> <a href="http://twitter.com/awesomeguy/statuses/72094933812645888" class="aktt_tweet_time">#</a></li><br />
-</ul></p>
+
+  * So fluffy!! [http://t.co/TyoJzVz][1] [#][2]
+  * First day at graphicly was fun. Learned a lot. Saw where the magic happens. [#][3]
+  * When working from home, check the weather before walking outside. Sometimes it rains and it is a good thing to be ready for. #[protip][4] [#][5]
+  * Fresh mango salsa and pineapple anyone. [http://t.co/8kIMwXA][6] [#][7]
+  
+
+
+   [1]: http://t.co/TyoJzVz
+   [2]: http://twitter.com/awesomeguy/statuses/69811935998259200
+   [3]: http://twitter.com/awesomeguy/statuses/70673749309014016
+   [4]: http://search.twitter.com/search?q=%23protip
+   [5]: http://twitter.com/awesomeguy/statuses/70965722582491136
+   [6]: http://t.co/8kIMwXA
+   [7]: http://twitter.com/awesomeguy/statuses/72094933812645888
+

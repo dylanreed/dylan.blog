@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,15 +21,18 @@ tags:
 - Projects
 comments: []
 ---
-<p>Heres the plan:</p>
-<ol>
-<li>Install some form of linux onto old iMac (ubuntu, DSL, whatever)</li>
-<li>Find two sets of USB arcade style joysticks for super cheap, maybe with lite up little ball things.</li>
-<li>Set up MAME-ness, make sure to include Ms. Pac-man, Galaga and Golden Axe. Maybe a street fighter</li>
-<li>Find bigger monitor, hopefully 20"+ so that game look sweeter.</li>
-<li>Build either and arcade cabinet or table to house everthing.</li>
-<li>Figure out how to hook it to network so that it is easy to add games to.</li>
-<li>Play the crap out of it</li><br />
-</ol><br />
-That is all. Any help, suggestions or insults please leave them here.</p>
-<p><!--adsense#Refer--></p>
+
+Heres the plan:
+
+  1. Install some form of linux onto old iMac (ubuntu, DSL, whatever)
+  2. Find two sets of USB arcade style joysticks for super cheap, maybe with lite up little ball things.
+  3. Set up MAME-ness, make sure to include Ms. Pac-man, Galaga and Golden Axe. Maybe a street fighter
+  4. Find bigger monitor, hopefully 20"+ so that game look sweeter.
+  5. Build either and arcade cabinet or table to house everthing.
+  6. Figure out how to hook it to network so that it is easy to add games to.
+  7. Play the crap out of it
+  
+
+
+  
+That is all. Any help, suggestions or insults please leave them here.

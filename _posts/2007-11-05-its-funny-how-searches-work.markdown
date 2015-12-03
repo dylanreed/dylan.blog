@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,6 +21,15 @@ categories:
 tags: []
 comments: []
 ---
-<p>So for the past week or so I have been looking for images done by Robert ParkeHarrison for Sarah PTE review. The PTE review is something that Sarah has to do in order to finish getting her teaching liscense. I was using google image search to try and find high quality images of a few artists for Sarah's power point presentation. I had no luck... at all. Sarah ended up scanning all of the images she needs except for Robert ParkeHarrison, as the book we had is to big too fit our scanner.  I even went so far as to contact the artist to ask for any scans that they had of the images. They wouldn't release them though they did give us permission to scan them.</p>
-<p>Apparently I was using the wrong search string. I was searching for <a href="http://images.google.com/images?q=Robert+ParkeHarrison&amp;ie=UTF-8&amp;oe=utf-8&amp;rls=org.mozilla:en-US:official&amp;client=firefox-a&amp;um=1&amp;sa=N&amp;tab=wi">robert parke harrison photos</a> in the image search. Sarah searched for robert parke harrison in regular google and found <a href="http://images.google.com/images?q=Robert+ParkeHarrison&amp;ie=UTF-8&amp;oe=utf-8&amp;rls=org.mozilla:en-US:official&amp;client=firefox-a&amp;um=1&amp;sa=N&amp;tab=wi"></a><a href="http://www.geh.org/parkeharrison/index.htm">this</a>.&Atilde;&sbquo;&Acirc;&nbsp; Just goes to show that Sarah is cooler then me. Which we all already knew.</p>
-<p>I also have spent the past weeks studying puppets and puppet making. I have been ok at finding how-tos on making ventriloquist dolls using prefabricated parts and a little info on making latex puppets\masks. I was searching for ways to attach a latex puppet head to a cloth body with no luck. Out of frustration I searched for attaching puppet heads and found this excellent <a href="http://swazzle.com/blogs/2006/03/puppet-building-tutorial-ratchet.html">link</a> on how to make soft foam puppets. Finally. Now I just need to start making my patterns for my awesome foam puppet.</p>
+
+So for the past week or so I have been looking for images done by Robert ParkeHarrison for Sarah PTE review. The PTE review is something that Sarah has to do in order to finish getting her teaching liscense. I was using google image search to try and find high quality images of a few artists for Sarah's power point presentation. I had no luck... at all. Sarah ended up scanning all of the images she needs except for Robert ParkeHarrison, as the book we had is to big too fit our scanner. I even went so far as to contact the artist to ask for any scans that they had of the images. They wouldn't release them though they did give us permission to scan them.
+
+Apparently I was using the wrong search string. I was searching for [robert parke harrison photos][1] in the image search. Sarah searched for robert parke harrison in regular google and found [][1][this][2].Ã‚Â  Just goes to show that Sarah is cooler then me. Which we all already knew.
+
+   [1]: http://images.google.com/images?q=Robert+ParkeHarrison&ie=UTF-8&oe=utf-8&rls=org.mozilla:en-US:official&client=firefox-a&um=1&sa=N&tab=wi
+   [2]: http://www.geh.org/parkeharrison/index.htm
+
+I also have spent the past weeks studying puppets and puppet making. I have been ok at finding how-tos on making ventriloquist dolls using prefabricated parts and a little info on making latex puppets\masks. I was searching for ways to attach a latex puppet head to a cloth body with no luck. Out of frustration I searched for attaching puppet heads and found this excellent [link][3] on how to make soft foam puppets. Finally. Now I just need to start making my patterns for my awesome foam puppet.
+
+   [3]: http://swazzle.com/blogs/2006/03/puppet-building-tutorial-ratchet.html
+

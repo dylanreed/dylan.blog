@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,11 +21,23 @@ categories:
 tags: []
 comments: []
 ---
-<p>Finally!!!</p>
-<p>I have been sick with a sinus-cold-energy-suck for two weeks and I am feeling better now. I didn't do a lot of drawing during this time though I am back to updating <a href="http://fancycadaver.com">fancy cadaver </a>on weekdays again.</p>
-<p style="text-align: left;">
-<div class="mceTemp mceIEcenter" style="text-align: left;">
-<dl class="wp-caption aligncenter" style="width: 403px;">
-<dt class="wp-caption-dt"><a href="http://fancycadaver.com"><img class="  " title="Turtle" src="http://fancycadaver.com/wp-content/uploads/2011/03/Animals-2.jpeg" alt="" width="393" height="490" /></a></dt>
-<dd class="wp-caption-dd">Feeling much better thank you</dd></dl></div><br />
-It is now time to start working on the projects that my sickness/nyquil addled brain has come up with. Look forward for some silliness in the next couple weeks at both <a href="http://fancycadaver.com">Fancy Cadaver</a> and <a href="http://veggiefight.com">VeggieFight</a>. It will be awesome. Oh and today I made a portfolio page for Sarah on her <a href="http://photodork.org/portfolio">site</a>.</p></p>
+
+Finally!!!
+
+I have been sick with a sinus-cold-energy-suck for two weeks and I am feeling better now. I didn't do a lot of drawing during this time though I am back to updating [fancy cadaver ][1]on weekdays again.
+
+   [1]: http://fancycadaver.com
+
+[![][2]][3]
+    Feeling much better thank you
+
+   [2]: http://fancycadaver.com/wp-content/uploads/2011/03/Animals-2.jpeg (Turtle)
+   [3]: http://fancycadaver.com
+
+  
+It is now time to start working on the projects that my sickness/nyquil addled brain has come up with. Look forward for some silliness in the next couple weeks at both [Fancy Cadaver][4] and [VeggieFight][5]. It will be awesome. Oh and today I made a portfolio page for Sarah on her [site][6].
+
+   [4]: http://fancycadaver.com
+   [5]: http://veggiefight.com
+   [6]: http://photodork.org/portfolio
+

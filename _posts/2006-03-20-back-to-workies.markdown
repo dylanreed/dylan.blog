@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,7 +21,11 @@ categories:
 tags: []
 comments: []
 ---
-<p>So I am back at work today. Oh boy that sure is exciting. Its not that I don't like my job it is that I would rather stay home and make stuff sewing style. I really enjoy sewing.</p>
-<p>I am at work going though papers and watching the rock.</p>
-<p>It makes me glad I am not a navy seal.</p>
-<p>that is all</p>
+
+So I am back at work today. Oh boy that sure is exciting. Its not that I don't like my job it is that I would rather stay home and make stuff sewing style. I really enjoy sewing.
+
+I am at work going though papers and watching the rock.
+
+It makes me glad I am not a navy seal.
+
+that is all

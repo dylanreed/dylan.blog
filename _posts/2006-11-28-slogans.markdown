@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,4 +21,8 @@ categories:
 tags: []
 comments: []
 ---
-<p>So lately I have been playing on the <a href="http://www.threadless.com/profile/174696/reallyreallyawesomeguy">threadless</a> site. Since I have no artistic ability I have been trying to come up with slogans for people to score it is a lot of fun. What makes me laugh is some of the random crap that comes out in those slogans. At times it seems to be like a forum with people flaming other designs by changing a few words. The only problem is that the voting interface isn't as cool as the graphic design scoring set up. Also I feel that more of the slogan people are like me, Really bored, without artistic talent. Its rough</p>
+
+So lately I have been playing on the [threadless][1] site. Since I have no artistic ability I have been trying to come up with slogans for people to score it is a lot of fun. What makes me laugh is some of the random crap that comes out in those slogans. At times it seems to be like a forum with people flaming other designs by changing a few words. The only problem is that the voting interface isn't as cool as the graphic design scoring set up. Also I feel that more of the slogan people are like me, Really bored, without artistic talent. Its rough
+
+   [1]: http://www.threadless.com/profile/174696/reallyreallyawesomeguy
+

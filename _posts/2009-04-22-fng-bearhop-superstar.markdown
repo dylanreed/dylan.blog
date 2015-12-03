@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,10 +21,19 @@ categories:
 tags: []
 comments: []
 ---
-<p><img class="alignleft" style="margin-left: 2px; margin-right: 2px;" title="FNG" src="http://ny-image0.etsy.com/il_430xN.67392540.jpg" alt="" width="155" height="232" /></p>
-<p>There comes a time in any young bear's life where he has to decide if he is going to be a baller or a shot-caller. Sure you can get 20" blades on your Impala, but if you don't know who you are what do you have: Nothing.</p>
-<p>Meet Fienstien Ned Gunta or as his friends know him 'FNG'. A self styled hip-hop artist FNG has been at the forefront of the bear-hop movement.&nbsp;</p>
-<p>Bear-hop is the combination of Reggaeton and the flutes of the forest. It is characterized by the hard hitting beats and strong lyrics both spoken and growled. FNG brought Bear-hop from the forests to the streets of Kersey CO.&nbsp;</p>
-<p>Of course that is when the beef started. Literally. MC Milks-a-Lot, well known for the hit single "Udder Destruction", insulted FNG's mom in that song starting the biggest feud between west coast bear-hop and east coast milk-hop.&nbsp;</p>
-<p>After many years spitting back and forth at one another both rappers decided it was time for peace. This was after the tragic loss of both Snarf Puppy and Little Kit in, as yet, unsolved drive by shootings.</p>
-<p>Having reconciled their differences they released a collaborative album entitled "Stop Mammal time" Unfortunately without the edge that their feud provided the album was a flop and neither of them have recovered.</p>
+
+![][1]
+
+   [1]: http://ny-image0.etsy.com/il_430xN.67392540.jpg (FNG)
+
+There comes a time in any young bear's life where he has to decide if he is going to be a baller or a shot-caller. Sure you can get 20" blades on your Impala, but if you don't know who you are what do you have: Nothing.
+
+Meet Fienstien Ned Gunta or as his friends know him 'FNG'. A self styled hip-hop artist FNG has been at the forefront of the bear-hop movement. 
+
+Bear-hop is the combination of Reggaeton and the flutes of the forest. It is characterized by the hard hitting beats and strong lyrics both spoken and growled. FNG brought Bear-hop from the forests to the streets of Kersey CO. 
+
+Of course that is when the beef started. Literally. MC Milks-a-Lot, well known for the hit single "Udder Destruction", insulted FNG's mom in that song starting the biggest feud between west coast bear-hop and east coast milk-hop. 
+
+After many years spitting back and forth at one another both rappers decided it was time for peace. This was after the tragic loss of both Snarf Puppy and Little Kit in, as yet, unsolved drive by shootings.
+
+Having reconciled their differences they released a collaborative album entitled "Stop Mammal time" Unfortunately without the edge that their feud provided the album was a flop and neither of them have recovered.

@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,4 +21,8 @@ categories:
 tags: []
 comments: []
 ---
-<p>I have started to work on a new project. You can find it <a href="http://www.veggiefight.com">here</a>. I have moved the comic that was here over there. Check it out.</p>
+
+I have started to work on a new project. You can find it [here][1]. I have moved the comic that was here over there. Check it out.
+
+   [1]: http://www.veggiefight.com
+

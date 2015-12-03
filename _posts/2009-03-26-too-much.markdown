@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -79,7 +80,11 @@ comments:
     a website called The Nest which consumes way too much of my time.  But all the
     same, it's hard to give any of it up."
 ---
-<p class="MsoNormal">The internet is a funny thing. It seems that the more I get involved with it the more I have to get involved with it. I am on Twitter, Ginx (which uses twitter), Facebook, MySpace, worpress (both at wordpress.org and for my personal site), I have a site I designed for my clowning, there is Sarah&rsquo;s Blog, Google Groups, Google Reader, Gmail, Google Apps, Etsy, <span>&nbsp;</span>viddler, Google Calendar, flickr, iTunes, and Aims Community College&rsquo;s site</p></p>
-<p class="MsoNormal">These are all the places I visit on a daily basis. And for what? I don&rsquo;t get anything from these sites. Sure, I might get a little bit of traffic from some of them but do I really need all of them. I am not like Harper, a super internet guru. In fact I really don&rsquo;t like all of the crap that you &ldquo;have&rdquo; to do to be successful on the internet.</p></p>
-<p class="MsoNormal">What should I do? I am thinking about killing all of my accounts. It will make my life simpler and give me more time to do what I like to do, write. I am a little worried that my 71 followers on twitter will be lost without me, but since I only know about 10 of the rest are not my problem. The same goes for my 170+ facebook followers. Sorry but I don&rsquo;t really need to know that you are my friend, person I didn&rsquo;t even know in high school.</p></p>
-<p class="MsoNormal">Should I do it? I can&rsquo;t really decide. I thought about making a list of pros and cons but didn&rsquo;t feel that the internet is worth that kind of work. I will, of course, keep blogging and that sort of thing; I am just done with the whole social networking thing. It is too much work and I haven&rsquo;t seen enough reward. If I wanted to have to work at it I would make the internet into my job. Since the internet is just a hobby I will limit it to the things that I like. Like games. And my blog. And possibly Etsy.</p></p>
+
+The internet is a funny thing. It seems that the more I get involved with it the more I have to get involved with it. I am on Twitter, Ginx (which uses twitter), Facebook, MySpace, worpress (both at wordpress.org and for my personal site), I have a site I designed for my clowning, there is Sarah's Blog, Google Groups, Google Reader, Gmail, Google Apps, Etsy,  viddler, Google Calendar, flickr, iTunes, and Aims Community College's site
+
+These are all the places I visit on a daily basis. And for what? I don't get anything from these sites. Sure, I might get a little bit of traffic from some of them but do I really need all of them. I am not like Harper, a super internet guru. In fact I really don't like all of the crap that you "have" to do to be successful on the internet.
+
+What should I do? I am thinking about killing all of my accounts. It will make my life simpler and give me more time to do what I like to do, write. I am a little worried that my 71 followers on twitter will be lost without me, but since I only know about 10 of the rest are not my problem. The same goes for my 170+ facebook followers. Sorry but I don't really need to know that you are my friend, person I didn't even know in high school.
+
+Should I do it? I can't really decide. I thought about making a list of pros and cons but didn't feel that the internet is worth that kind of work. I will, of course, keep blogging and that sort of thing; I am just done with the whole social networking thing. It is too much work and I haven't seen enough reward. If I wanted to have to work at it I would make the internet into my job. Since the internet is just a hobby I will limit it to the things that I like. Like games. And my blog. And possibly Etsy.

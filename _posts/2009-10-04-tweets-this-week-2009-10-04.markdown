@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,10 +21,18 @@ categories:
 tags: []
 comments: []
 ---
-<ul class="aktt_tweet_digest">
-<li>God damn C- on my sketchbook. Must draw more. <a href="http://twitter.com/awesomeguy/statuses/4445574888" class="aktt_tweet_time">#</a></li>
-<li>The Dylan Rules hoodie is back in full effect <a href="http://twitter.com/awesomeguy/statuses/4530918422" class="aktt_tweet_time">#</a></li>
-<li>Need another half page about Heart of Darkness and A Grain of Wheat!!!! Ugh! <a href="http://twitter.com/awesomeguy/statuses/4544599372" class="aktt_tweet_time">#</a></li>
-<li>Finished my paper. Go me. <a href="http://twitter.com/awesomeguy/statuses/4545042627" class="aktt_tweet_time">#</a></li>
-<li>Good night World <a href="http://twitter.com/awesomeguy/statuses/4545074522" class="aktt_tweet_time">#</a></li><br />
-</ul></p>
+
+  * God damn C- on my sketchbook. Must draw more. [#][1]
+  * The Dylan Rules hoodie is back in full effect [#][2]
+  * Need another half page about Heart of Darkness and A Grain of Wheat!!!! Ugh! [#][3]
+  * Finished my paper. Go me. [#][4]
+  * Good night World [#][5]
+  
+
+
+   [1]: http://twitter.com/awesomeguy/statuses/4445574888
+   [2]: http://twitter.com/awesomeguy/statuses/4530918422
+   [3]: http://twitter.com/awesomeguy/statuses/4544599372
+   [4]: http://twitter.com/awesomeguy/statuses/4545042627
+   [5]: http://twitter.com/awesomeguy/statuses/4545074522
+

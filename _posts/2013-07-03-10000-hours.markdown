@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -30,17 +31,31 @@ comments:
     anything; it's how you get better :)\r\nAlso being open to learning from anyone
     is great."
 ---
-<p>There is a saying that basically says that if you want to perfect a skill do it for 10,000 hours. That is a long time. Like more then a year of your life only doing that thing. This isn't learn a skill and then a little over a year later you will be a master. This is spend 10,000 hours actually doing that skill. </p>
-<p>Like computers. If you want to be a super bad-ass computer programmer, program. Don't learn how to do one thing and do that over and over again. Keep trying new things that will force you to solve new problems. </p>
-<p>I am a professional clown/entertainer. I would not claim to be a master of any of the skills that I use to entertain except my ability to make people laugh. </p>
-<p>This 10,000 hour rule is why it is so hard to be a master at something. And also why it is important to keep learning about your chosen skill(s). Here is an example that I have encountered:</p>
-<p>I was at an event that I do annually. I was all decked out as Dylan the Clown. Not only was I wondering around interacting with children I was also the MC for the event. One of the volunteers lets me know that another clown has shown up. Inside all I can think is "Awesome, someone else to interact with and to hang out with the children whilst I am on stage." So I head over to introduce myself and learn a little about his skills/if he is interested in playing around. </p>
-<p>It was horrifying. His makeup was poorly done, not very well thought out and frankly scary. He had used yellow around his eyes instead of white(or blue or pink or almost any other color). He looked sickly. He was also under the impression that clowning just involved being rude and loud. On top of that he had brought his 6 or 7 year old daughter who just followed him around. It was creepy. </p>
-<p>Figuring that he didn't know any better I went over and introduced myself. After a few minutes of interaction in front of the children I asked if we could chat for a moment backstage before we continued. He agreed. Upon our arrival backstage I asked him how long he had been clowning, why he was clowning and why he had come to this event. Turns out that he thought that it would be a fun way to spend time with his daughter and had just thrown together his face/outfit this morning when he read about the event in the newspaper. Sigh. </p>
-<p>At this point I was frustrated. I pride myself on my appearance as a clown as well as the thought that I have put into costumes and the way my clown acts. I told him that there were some things he could do to adjust the experience people had with him at the event. He started to shut down. I told him that he needed to make sure that he was letting people come to him and not just push his way into peoples space by being noisy and pushy. I told him that I would be fine with him following me around so I could show him the ropes of crowd interaction. He wasn't interested. Whatever. </p>
-<p>The last part of our conversation I tried to set up time for us to meet out of clown and discuss clowning. He told me quite frankly that I didn't know what the hell I was talking about and he was going to do what he wanted. After he stormed off I went back to doing what I was doing while keeping a eye out for the other "clown". </p>
-<p>I found out later that he was scary children and they asked him to leave. </p>
-<p>The sadest part of this story is about ten years prior I was that guy. This is because no matter how much training you have, studying you do or mentors you have the first time you put on your clown you are absolutely terrifying. You don't know how to move, you feel uncomfortable in your new skin and you have the urge to overcompensate. I auditioned for Ringling Bros. (via the old fashioned VHS tape method) wearing some of the most terrifying make-up I have ever seen. </p>
-<p>Since that time I have put in an insane amount of time studying clowning, practicing clowning and thinking about clowning. No where near 10,000 hours but enough that I feel confident that I do a good job and look/act like a professional. </p>
-<p>So what the is the moral of the story? Don't ever think you know enough about anything. Accept help. Keep studying. You may think you are the best at something but there is probably someone better. </p>
-<p>Also in that story above I don't feel like I handled the situation the best that I could. I wish I could have spoken to him outside of the event and really helped him understand why what he was doing was wrong. Alas taking criticism from a clown is harder then it sounds.</p>
+
+There is a saying that basically says that if you want to perfect a skill do it for 10,000 hours. That is a long time. Like more then a year of your life only doing that thing. This isn't learn a skill and then a little over a year later you will be a master. This is spend 10,000 hours actually doing that skill. 
+
+Like computers. If you want to be a super bad-ass computer programmer, program. Don't learn how to do one thing and do that over and over again. Keep trying new things that will force you to solve new problems. 
+
+I am a professional clown/entertainer. I would not claim to be a master of any of the skills that I use to entertain except my ability to make people laugh. 
+
+This 10,000 hour rule is why it is so hard to be a master at something. And also why it is important to keep learning about your chosen skill(s). Here is an example that I have encountered:
+
+I was at an event that I do annually. I was all decked out as Dylan the Clown. Not only was I wondering around interacting with children I was also the MC for the event. One of the volunteers lets me know that another clown has shown up. Inside all I can think is "Awesome, someone else to interact with and to hang out with the children whilst I am on stage." So I head over to introduce myself and learn a little about his skills/if he is interested in playing around. 
+
+It was horrifying. His makeup was poorly done, not very well thought out and frankly scary. He had used yellow around his eyes instead of white(or blue or pink or almost any other color). He looked sickly. He was also under the impression that clowning just involved being rude and loud. On top of that he had brought his 6 or 7 year old daughter who just followed him around. It was creepy. 
+
+Figuring that he didn't know any better I went over and introduced myself. After a few minutes of interaction in front of the children I asked if we could chat for a moment backstage before we continued. He agreed. Upon our arrival backstage I asked him how long he had been clowning, why he was clowning and why he had come to this event. Turns out that he thought that it would be a fun way to spend time with his daughter and had just thrown together his face/outfit this morning when he read about the event in the newspaper. Sigh. 
+
+At this point I was frustrated. I pride myself on my appearance as a clown as well as the thought that I have put into costumes and the way my clown acts. I told him that there were some things he could do to adjust the experience people had with him at the event. He started to shut down. I told him that he needed to make sure that he was letting people come to him and not just push his way into peoples space by being noisy and pushy. I told him that I would be fine with him following me around so I could show him the ropes of crowd interaction. He wasn't interested. Whatever. 
+
+The last part of our conversation I tried to set up time for us to meet out of clown and discuss clowning. He told me quite frankly that I didn't know what the hell I was talking about and he was going to do what he wanted. After he stormed off I went back to doing what I was doing while keeping a eye out for the other "clown". 
+
+I found out later that he was scary children and they asked him to leave. 
+
+The sadest part of this story is about ten years prior I was that guy. This is because no matter how much training you have, studying you do or mentors you have the first time you put on your clown you are absolutely terrifying. You don't know how to move, you feel uncomfortable in your new skin and you have the urge to overcompensate. I auditioned for Ringling Bros. (via the old fashioned VHS tape method) wearing some of the most terrifying make-up I have ever seen. 
+
+Since that time I have put in an insane amount of time studying clowning, practicing clowning and thinking about clowning. No where near 10,000 hours but enough that I feel confident that I do a good job and look/act like a professional. 
+
+So what the is the moral of the story? Don't ever think you know enough about anything. Accept help. Keep studying. You may think you are the best at something but there is probably someone better. 
+
+Also in that story above I don't feel like I handled the situation the best that I could. I wish I could have spoken to him outside of the event and really helped him understand why what he was doing was wrong. Alas taking criticism from a clown is harder then it sounds.

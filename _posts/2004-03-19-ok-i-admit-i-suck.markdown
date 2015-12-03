@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -28,6 +29,11 @@ comments:
   content: |
     where have you been? i was worried sick!
 ---
-<p>&nbsp;&nbsp;&nbsp;No its true i do. I really suck down the pepsi. I'm not kidding. Another thing I suck at is updating my page. I did however find the <a href="http://www.minimania.com/images/webstuff/parismini/bigpics/mini%20cabrio%20r.jpg" target="_blank">perfect car for harper</a> I mean its perfect.<br />
-Work is good. I enjoy it lots. lots and lots. more then sleeping. well maybe not. I do however like reading <a href="http://www.danbrown.com" target="_blank">dan brown</a> he rules. I would suggest digital fortress, then deception point and then angels and demons, and lastly davinci code</p>
-<p>thats all</p>
+
+   No its true i do. I really suck down the pepsi. I'm not kidding. Another thing I suck at is updating my page. I did however find the [perfect car for harper][1] I mean its perfect.  
+Work is good. I enjoy it lots. lots and lots. more then sleeping. well maybe not. I do however like reading [dan brown][2] he rules. I would suggest digital fortress, then deception point and then angels and demons, and lastly davinci code
+
+   [1]: http://www.minimania.com/images/webstuff/parismini/bigpics/mini%20cabrio%20r.jpg
+   [2]: http://www.danbrown.com
+
+thats all

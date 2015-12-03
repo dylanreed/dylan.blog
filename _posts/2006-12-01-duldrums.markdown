@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -50,12 +51,21 @@ comments:
   date_gmt: '2007-04-13 20:20:24 -0500'
   content: hi nice site.
 ---
-<p>So today has been an eh day</p>
-<p>I have spent it running around at work and even though we got a sweet new copier I just feel eh</p>
-<p>So here is the reasons.</p>
-<p>1. Sarah and I are broke ass poor</p>
-<p>2. There is no end in sight</p>
-<p>3. We don't qualify for financial help cause we make to much money. (this is for hospital bills)</p>
-<p>4. No one wants to help.......sad|-__-|</p>
-<p>Thats it pity party is on. Please RSVP, we are registered at the bank.</p>
-<p>Dylan</p>
+
+So today has been an eh day
+
+I have spent it running around at work and even though we got a sweet new copier I just feel eh
+
+So here is the reasons.
+
+1. Sarah and I are broke ass poor
+
+2. There is no end in sight
+
+3. We don't qualify for financial help cause we make to much money. (this is for hospital bills)
+
+4. No one wants to help.......sad|-__-|
+
+Thats it pity party is on. Please RSVP, we are registered at the bank.
+
+Dylan

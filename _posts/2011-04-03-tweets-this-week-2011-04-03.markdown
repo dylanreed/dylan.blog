@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,28 +21,67 @@ categories:
 tags: []
 comments: []
 ---
-<ul class="aktt_tweet_digest">
-<li>So... who plays magic the gathering in the colorado area that would like to kick my newb ass? <a href="http://twitter.com/awesomeguy/statuses/52190414454784001" class="aktt_tweet_time">#</a></li>
-<li>The new DOnkey Kong game is quite a bit of fun... hard, but fun <a href="http://twitter.com/awesomeguy/statuses/52191997183795200" class="aktt_tweet_time">#</a></li>
-<li><a href="http://dylan.la/faD01h" rel="nofollow">http://dylan.la/faD01h</a> I am not sure if I already shared this but I wish that DC would make something like this. Or just make this <a href="http://twitter.com/awesomeguy/statuses/52196374808244224" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: Rabbit 8: Hug <a href="http://dylan.la/gaMzfG" rel="nofollow">http://dylan.la/gaMzfG</a> <a href="http://twitter.com/awesomeguy/statuses/52388462980116480" class="aktt_tweet_time">#</a></li>
-<li><a href="http://dylan.la/g4YwJv" rel="nofollow">http://dylan.la/g4YwJv</a> you should make these. They are the best <a href="http://twitter.com/awesomeguy/statuses/52565596604350465" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: Sally the Get Well Dog <a href="http://dylan.la/ggWnq0" rel="nofollow">http://dylan.la/ggWnq0</a> <a href="http://twitter.com/awesomeguy/statuses/52750968634359808" class="aktt_tweet_time">#</a></li>
-<li>Getting ready to go on an adventure outside of the house. Wish Sarah and I luck <a href="http://twitter.com/awesomeguy/statuses/52840104493973504" class="aktt_tweet_time">#</a></li>
-<li>Maybe a cat nap for Sarah and then an adventure <a href="http://twitter.com/awesomeguy/statuses/52844572056883201" class="aktt_tweet_time">#</a></li>
-<li>New drawing for next week:  <a href="http://t.co/py20X7m" rel="nofollow">http://t.co/py20X7m</a> <a href="http://twitter.com/awesomeguy/statuses/52889963611697152" class="aktt_tweet_time">#</a></li>
-<li>Dear pain killers, you aren&#039;t doing your job. Sarah and I hate you. Love Dylan. <a href="http://twitter.com/awesomeguy/statuses/52987476121358336" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: Purple Camera Bot <a href="http://dylan.la/f2p6Id" rel="nofollow">http://dylan.la/f2p6Id</a> <a href="http://twitter.com/awesomeguy/statuses/53132934647005185" class="aktt_tweet_time">#</a></li>
-<li>YAWN! <a href="http://twitter.com/awesomeguy/statuses/53242605143736320" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: Alien <a href="http://dylan.la/fNFbEx" rel="nofollow">http://dylan.la/fNFbEx</a> <a href="http://twitter.com/awesomeguy/statuses/53489315388456960" class="aktt_tweet_time">#</a></li>
-<li>fancycadaver.com has been live for about 2 months and it is starting to overtake dylanreed.com on amount of visitors. Weird <a href="http://twitter.com/awesomeguy/statuses/53593976304975872" class="aktt_tweet_time">#</a></li>
-<li><a href="http://dylan.la/esOBH1" rel="nofollow">http://dylan.la/esOBH1</a> This is how doctors should be <a href="http://twitter.com/awesomeguy/statuses/53594162792103936" class="aktt_tweet_time">#</a></li>
-<li>I am pretty much ready for bed... except that I need to finish some drawings before the second or I am going to have a break in my plan <a href="http://twitter.com/awesomeguy/statuses/53621691519213570" class="aktt_tweet_time">#</a></li>
-<li>I keep getting new followers. Who are you guys? <a href="http://twitter.com/awesomeguy/statuses/53622870315778048" class="aktt_tweet_time">#</a></li>
-<li><a href="http://dylan.la/dWDx3v" rel="nofollow">http://dylan.la/dWDx3v</a> <a href="http://twitter.com/awesomeguy/statuses/53626690504634368" class="aktt_tweet_time">#</a></li>
-<li><a href="http://stupidfox.net/tie" rel="nofollow">http://stupidfox.net/tie</a> Start here and go forward. My new favorite web comic <a href="http://twitter.com/awesomeguy/statuses/53631335390126083" class="aktt_tweet_time">#</a></li>
-<li>I love april fools day. Bring it!! <a href="http://twitter.com/awesomeguy/statuses/53815614522925056" class="aktt_tweet_time">#</a></li>
-<li>My friends podcast. Not even an april fools joke but the real thing <a href="http://itun.es/i6L5Pt" rel="nofollow">http://itun.es/i6L5Pt</a> <a href="http://twitter.com/awesomeguy/statuses/53820090646405120" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: Looking Good <a href="http://dylan.la/hQMtkU" rel="nofollow">http://dylan.la/hQMtkU</a> <a href="http://twitter.com/awesomeguy/statuses/53854384823611394" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: Robot Number 2 <a href="http://dylan.la/fW4m6q" rel="nofollow">http://dylan.la/fW4m6q</a> <a href="http://twitter.com/awesomeguy/statuses/54224539512610817" class="aktt_tweet_time">#</a></li><br />
-</ul></p>
+
+  * So... who plays magic the gathering in the colorado area that would like to kick my newb ass? [#][1]
+  * The new DOnkey Kong game is quite a bit of fun... hard, but fun [#][2]
+  * [http://dylan.la/faD01h][3] I am not sure if I already shared this but I wish that DC would make something like this. Or just make this [#][4]
+  * OMG I Drew a Picture: Rabbit 8: Hug [http://dylan.la/gaMzfG][5] [#][6]
+  * [http://dylan.la/g4YwJv][7] you should make these. They are the best [#][8]
+  * OMG I Drew a Picture: Sally the Get Well Dog [http://dylan.la/ggWnq0][9] [#][10]
+  * Getting ready to go on an adventure outside of the house. Wish Sarah and I luck [#][11]
+  * Maybe a cat nap for Sarah and then an adventure [#][12]
+  * New drawing for next week: [http://t.co/py20X7m][13] [#][14]
+  * Dear pain killers, you aren't doing your job. Sarah and I hate you. Love Dylan. [#][15]
+  * OMG I Drew a Picture: Purple Camera Bot [http://dylan.la/f2p6Id][16] [#][17]
+  * YAWN! [#][18]
+  * OMG I Drew a Picture: Alien [http://dylan.la/fNFbEx][19] [#][20]
+  * fancycadaver.com has been live for about 2 months and it is starting to overtake dylanreed.com on amount of visitors. Weird [#][21]
+  * [http://dylan.la/esOBH1][22] This is how doctors should be [#][23]
+  * I am pretty much ready for bed... except that I need to finish some drawings before the second or I am going to have a break in my plan [#][24]
+  * I keep getting new followers. Who are you guys? [#][25]
+  * [http://dylan.la/dWDx3v][26] [#][27]
+  * [http://stupidfox.net/tie][28] Start here and go forward. My new favorite web comic [#][29]
+  * I love april fools day. Bring it!! [#][30]
+  * My friends podcast. Not even an april fools joke but the real thing [http://itun.es/i6L5Pt][31] [#][32]
+  * OMG I Drew a Picture: Looking Good [http://dylan.la/hQMtkU][33] [#][34]
+  * OMG I Drew a Picture: Robot Number 2 [http://dylan.la/fW4m6q][35] [#][36]
+  
+
+
+   [1]: http://twitter.com/awesomeguy/statuses/52190414454784001
+   [2]: http://twitter.com/awesomeguy/statuses/52191997183795200
+   [3]: http://dylan.la/faD01h
+   [4]: http://twitter.com/awesomeguy/statuses/52196374808244224
+   [5]: http://dylan.la/gaMzfG
+   [6]: http://twitter.com/awesomeguy/statuses/52388462980116480
+   [7]: http://dylan.la/g4YwJv
+   [8]: http://twitter.com/awesomeguy/statuses/52565596604350465
+   [9]: http://dylan.la/ggWnq0
+   [10]: http://twitter.com/awesomeguy/statuses/52750968634359808
+   [11]: http://twitter.com/awesomeguy/statuses/52840104493973504
+   [12]: http://twitter.com/awesomeguy/statuses/52844572056883201
+   [13]: http://t.co/py20X7m
+   [14]: http://twitter.com/awesomeguy/statuses/52889963611697152
+   [15]: http://twitter.com/awesomeguy/statuses/52987476121358336
+   [16]: http://dylan.la/f2p6Id
+   [17]: http://twitter.com/awesomeguy/statuses/53132934647005185
+   [18]: http://twitter.com/awesomeguy/statuses/53242605143736320
+   [19]: http://dylan.la/fNFbEx
+   [20]: http://twitter.com/awesomeguy/statuses/53489315388456960
+   [21]: http://twitter.com/awesomeguy/statuses/53593976304975872
+   [22]: http://dylan.la/esOBH1
+   [23]: http://twitter.com/awesomeguy/statuses/53594162792103936
+   [24]: http://twitter.com/awesomeguy/statuses/53621691519213570
+   [25]: http://twitter.com/awesomeguy/statuses/53622870315778048
+   [26]: http://dylan.la/dWDx3v
+   [27]: http://twitter.com/awesomeguy/statuses/53626690504634368
+   [28]: http://stupidfox.net/tie
+   [29]: http://twitter.com/awesomeguy/statuses/53631335390126083
+   [30]: http://twitter.com/awesomeguy/statuses/53815614522925056
+   [31]: http://itun.es/i6L5Pt
+   [32]: http://twitter.com/awesomeguy/statuses/53820090646405120
+   [33]: http://dylan.la/hQMtkU
+   [34]: http://twitter.com/awesomeguy/statuses/53854384823611394
+   [35]: http://dylan.la/fW4m6q
+   [36]: http://twitter.com/awesomeguy/statuses/54224539512610817
+

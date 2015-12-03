@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -35,4 +36,5 @@ comments:
   content: |
     What ever slides rule
 ---
-<p>so I got an "A" on a paper. woohoo so ignore all that B+ bitching I did. The paper was about using a slide at recess. awesome huh.</p>
+
+so I got an "A" on a paper. woohoo so ignore all that B+ bitching I did. The paper was about using a slide at recess. awesome huh.

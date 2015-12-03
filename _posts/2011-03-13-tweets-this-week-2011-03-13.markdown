@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,15 +21,36 @@ categories:
 tags: []
 comments: []
 ---
-<ul class="aktt_tweet_digest">
-<li>Good Morning People. I feel better, well actually I just forbid my body to continue to feel bad. We will see how it goes <a href="http://twitter.com/awesomeguy/statuses/44430856865067009" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: Smelly? <a href="http://dylan.la/gq6yex" rel="nofollow">http://dylan.la/gq6yex</a> <a href="http://twitter.com/awesomeguy/statuses/44791660097437697" class="aktt_tweet_time">#</a></li>
-<li>I think this is neat, though I don&#039;t know where I would put it <a href="http://dylan.la/fYOYOu" rel="nofollow">http://dylan.la/fYOYOu</a> <a href="http://twitter.com/awesomeguy/statuses/44915686786613248" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: Roo <a href="http://dylan.la/hxby4X" rel="nofollow">http://dylan.la/hxby4X</a> <a href="http://twitter.com/awesomeguy/statuses/45164832831442944" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: I&#039;m Not Lion <a href="http://dylan.la/dS8YXx" rel="nofollow">http://dylan.la/dS8YXx</a> <a href="http://twitter.com/awesomeguy/statuses/45527749003194368" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: Zap!!! <a href="http://dylan.la/dU0nXo" rel="nofollow">http://dylan.la/dU0nXo</a> <a href="http://twitter.com/awesomeguy/statuses/45885460140142592" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: Slow and Steady <a href="http://dylan.la/hA5dQM" rel="nofollow">http://dylan.la/hA5dQM</a> <a href="http://twitter.com/awesomeguy/statuses/46250134815780864" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Comic: <a href="http://dylan.la/ew01H4" rel="nofollow">http://dylan.la/ew01H4</a> <a href="http://twitter.com/awesomeguy/statuses/46280202376056832" class="aktt_tweet_time">#</a></li>
-<li>Making invitations is a lot of work... for Sarah and her sisters <a href="http://twitter.com/awesomeguy/statuses/46444907145076737" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: Red Birds Give You Wings <a href="http://dylan.la/dYUDyb" rel="nofollow">http://dylan.la/dYUDyb</a> <a href="http://twitter.com/awesomeguy/statuses/46602189057163264" class="aktt_tweet_time">#</a></li><br />
-</ul></p>
+
+  * Good Morning People. I feel better, well actually I just forbid my body to continue to feel bad. We will see how it goes [#][1]
+  * OMG I Drew a Picture: Smelly? [http://dylan.la/gq6yex][2] [#][3]
+  * I think this is neat, though I don't know where I would put it [http://dylan.la/fYOYOu][4] [#][5]
+  * OMG I Drew a Picture: Roo [http://dylan.la/hxby4X][6] [#][7]
+  * OMG I Drew a Picture: I'm Not Lion [http://dylan.la/dS8YXx][8] [#][9]
+  * OMG I Drew a Picture: Zap!!! [http://dylan.la/dU0nXo][10] [#][11]
+  * OMG I Drew a Picture: Slow and Steady [http://dylan.la/hA5dQM][12] [#][13]
+  * OMG I Drew a Comic: [http://dylan.la/ew01H4][14] [#][15]
+  * Making invitations is a lot of work... for Sarah and her sisters [#][16]
+  * OMG I Drew a Picture: Red Birds Give You Wings [http://dylan.la/dYUDyb][17] [#][18]
+  
+
+
+   [1]: http://twitter.com/awesomeguy/statuses/44430856865067009
+   [2]: http://dylan.la/gq6yex
+   [3]: http://twitter.com/awesomeguy/statuses/44791660097437697
+   [4]: http://dylan.la/fYOYOu
+   [5]: http://twitter.com/awesomeguy/statuses/44915686786613248
+   [6]: http://dylan.la/hxby4X
+   [7]: http://twitter.com/awesomeguy/statuses/45164832831442944
+   [8]: http://dylan.la/dS8YXx
+   [9]: http://twitter.com/awesomeguy/statuses/45527749003194368
+   [10]: http://dylan.la/dU0nXo
+   [11]: http://twitter.com/awesomeguy/statuses/45885460140142592
+   [12]: http://dylan.la/hA5dQM
+   [13]: http://twitter.com/awesomeguy/statuses/46250134815780864
+   [14]: http://dylan.la/ew01H4
+   [15]: http://twitter.com/awesomeguy/statuses/46280202376056832
+   [16]: http://twitter.com/awesomeguy/statuses/46444907145076737
+   [17]: http://dylan.la/dYUDyb
+   [18]: http://twitter.com/awesomeguy/statuses/46602189057163264
+

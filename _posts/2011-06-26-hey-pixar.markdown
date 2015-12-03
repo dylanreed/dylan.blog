@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,5 +21,11 @@ categories:
 tags: []
 comments: []
 ---
-<p>I have long been a fan of pixar movies and them as a company in general. This drawing that I did today is an idea for the next big pixar movie or short. Pixar, shoot me a message if you want to use it.</p>
-<p style="text-align: center;"><a href="http://fancycadaver.com/2011/06/26/space-gophers-in-space/"><img class="aligncenter" title="Space Gophers" src="http://fancycadaver.com/wp-content/uploads/2011/06/SpaceGophersSmall.jpg" alt="" width="570" height="737" /></a></p></p>
+
+I have long been a fan of pixar movies and them as a company in general. This drawing that I did today is an idea for the next big pixar movie or short. Pixar, shoot me a message if you want to use it.
+
+[![][1]][2]
+
+   [1]: http://fancycadaver.com/wp-content/uploads/2011/06/SpaceGophersSmall.jpg (Space Gophers)
+   [2]: http://fancycadaver.com/2011/06/26/space-gophers-in-space/
+

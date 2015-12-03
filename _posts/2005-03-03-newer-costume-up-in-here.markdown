@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,7 +21,17 @@ tags:
 - Clown
 comments: []
 ---
-<p>So I sent back the other <a href="http://dylanreed.org/media/album05">costume</a> today check it out in the photos section of my page. Also there is <a href="http://dylanreed.org/media/album02">wedding</a> pics and such</p>
-<p>My new costume design came today so I am excited. </p>
-<p>Tomarrow is going to be crazy</p>
-<p>isn't she <a href="http://dylanreed.org/media/Family/IMG_0523">cute</a></p>
+
+So I sent back the other [costume][1] today check it out in the photos section of my page. Also there is [wedding][2] pics and such
+
+   [1]: http://dylanreed.org/media/album05
+   [2]: http://dylanreed.org/media/album02
+
+My new costume design came today so I am excited. 
+
+Tomarrow is going to be crazy
+
+isn't she [cute][3]
+
+   [3]: http://dylanreed.org/media/Family/IMG_0523
+

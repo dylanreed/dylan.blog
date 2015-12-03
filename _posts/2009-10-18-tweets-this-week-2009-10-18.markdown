@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,9 +21,18 @@ categories:
 tags: []
 comments: []
 ---
-<ul class="aktt_tweet_digest">
-<li>Stupid wipers of my windshield  <a href="http://twitpic.com/ldk34" rel="nofollow">http://twitpic.com/ldk34</a> <a href="http://twitter.com/awesomeguy/statuses/4836204681" class="aktt_tweet_time">#</a></li>
-<li>Sarah is sick, I am sleepy and one of the cats peed on my new pumas. Not a happy camper <a href="http://twitter.com/awesomeguy/statuses/4916329232" class="aktt_tweet_time">#</a></li>
-<li>Cuddle time <a href="http://twitpic.com/lxagb" rel="nofollow">http://twitpic.com/lxagb</a> <a href="http://twitter.com/awesomeguy/statuses/4950942624" class="aktt_tweet_time">#</a></li>
-<li>I kind of want to start making/selling/wearing bowties. Good idea? <a href="http://twitter.com/awesomeguy/statuses/4952118285" class="aktt_tweet_time">#</a></li><br />
-</ul></p>
+
+  * Stupid wipers of my windshield [http://twitpic.com/ldk34][1] [#][2]
+  * Sarah is sick, I am sleepy and one of the cats peed on my new pumas. Not a happy camper [#][3]
+  * Cuddle time [http://twitpic.com/lxagb][4] [#][5]
+  * I kind of want to start making/selling/wearing bowties. Good idea? [#][6]
+  
+
+
+   [1]: http://twitpic.com/ldk34
+   [2]: http://twitter.com/awesomeguy/statuses/4836204681
+   [3]: http://twitter.com/awesomeguy/statuses/4916329232
+   [4]: http://twitpic.com/lxagb
+   [5]: http://twitter.com/awesomeguy/statuses/4950942624
+   [6]: http://twitter.com/awesomeguy/statuses/4952118285
+

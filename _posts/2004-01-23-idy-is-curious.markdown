@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,5 +21,6 @@ categories:
 tags: []
 comments: []
 ---
-<p>My roomate Idy wanted to know how i update my webpage. So I showed her.<br />
-Love dylan</p>
+
+My roomate Idy wanted to know how i update my webpage. So I showed her.  
+Love dylan

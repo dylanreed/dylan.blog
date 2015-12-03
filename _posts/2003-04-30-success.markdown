@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -27,4 +28,8 @@ comments:
   date_gmt: ''
   content: "nice work \n"
 ---
-<p><a href="http://dylanreed.com/archives/Toss Up 2003 030.avi">successful mount</a> its small so don't worry</p>
+
+[successful mount][1] its small so don't worry
+
+   [1]: http://dylanreed.com/archives/Toss Up 2003 030.avi
+

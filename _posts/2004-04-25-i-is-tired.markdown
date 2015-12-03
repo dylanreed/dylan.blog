@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -45,6 +46,8 @@ comments:
     wtf
 
 ---
-<p>So yesterday i spent about 6 hours in clown. it was quite fun, i did 4 30min shows and walk around entertainment the rest of the time.<br />
-it was quite fun</p>
-<p>today i got up a 3:30 to be at work to open. it ruled the night or early morning as it was.</p>
+
+So yesterday i spent about 6 hours in clown. it was quite fun, i did 4 30min shows and walk around entertainment the rest of the time.  
+it was quite fun
+
+today i got up a 3:30 to be at work to open. it ruled the night or early morning as it was.

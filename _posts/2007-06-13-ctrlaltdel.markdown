@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,4 +21,11 @@ categories:
 tags: []
 comments: []
 ---
-<p>This is the funniest online comic I have found. I think that since I am basically Ethan in these comic it makes me quite happy.</p><a href="http://cad-comic.com/comic.php"><img style="margin: 0px" height="632" src="http://cad-comic.com/comics/20070613.jpg" width="500"/></a></p>
+
+This is the funniest online comic I have found. I think that since I am basically Ethan in these comic it makes me quite happy.
+
+[![][1]][2]
+
+   [1]: http://cad-comic.com/comics/20070613.jpg
+   [2]: http://cad-comic.com/comic.php
+

@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,4 +21,5 @@ categories:
 tags: []
 comments: []
 ---
-<p>So the company we use for some of our biometric building security has stopped supporting the models we are using. So we have to get new systems...So Mad!!!</p>
+
+So the company we use for some of our biometric building security has stopped supporting the models we are using. So we have to get new systems...So Mad!!!

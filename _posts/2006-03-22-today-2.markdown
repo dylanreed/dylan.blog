@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,5 +21,7 @@ categories:
 tags: []
 comments: []
 ---
-<p>So today started off sad with Sarah being all riled up about being sick. She is Sick and Damn Tired of being sick. I agree with her assesment of the being sick. After that I haeaded to FOCO to do my duties at work. While at work I enjoyed watching the hunt for red october while I did paper work.</p>
-<p>I also made a nice entry at clownsareawesome last night, however it appears to be broke right now</p>
+
+So today started off sad with Sarah being all riled up about being sick. She is Sick and Damn Tired of being sick. I agree with her assesment of the being sick. After that I haeaded to FOCO to do my duties at work. While at work I enjoyed watching the hunt for red october while I did paper work.
+
+I also made a nice entry at clownsareawesome last night, however it appears to be broke right now

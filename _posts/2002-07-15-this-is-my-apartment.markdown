@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,5 +21,10 @@ categories:
 tags: []
 comments: []
 ---
-<p><IMG BORDER=0 SRC="http://dylanreed.org/archives/myapt.jpg" ALT="myapt (23k image)" HEIGHT=249 WIDTH=356><IMG BORDER=0 SRC="http://dylanreed.org/archives/school.jpg" ALT="school (16k image)" HEIGHT=249 WIDTH=356></p>
-<p>THIS IS MY APARTMENT AND MY SCHOOL</p>
+
+![myapt (23k image)][1]![school (16k image)][2]
+
+   [1]: http://dylanreed.org/archives/myapt.jpg
+   [2]: http://dylanreed.org/archives/school.jpg
+
+THIS IS MY APARTMENT AND MY SCHOOL

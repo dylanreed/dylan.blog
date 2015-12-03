@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,9 +21,19 @@ categories:
 tags: []
 comments: []
 ---
-<ul class="aktt_tweet_digest">
-<li>What we just attempted. BBQ FTW <a href="http://twitpic.com/bqpak" rel="nofollow">http://twitpic.com/bqpak</a> <a href="http://twitter.com/awesomeguy/statuses/2858424445">#</a></li>
-<li>You want us, you know you do <a href="http://twitpic.com/c32t8" rel="nofollow">http://twitpic.com/c32t8</a> <a href="http://twitter.com/awesomeguy/statuses/2921162200">#</a></li>
-<li><a href="http://ginx.com/-sAHLy" rel="nofollow">http://ginx.com/-sAHLy</a> flooding sucks, even in 1976, remember to climb to higher ground during a flash flood <a href="http://twitter.com/awesomeguy/statuses/2952032940">#</a></li>
-<li>Sarah and I got ditched for breakfast this morning. Up for no reason. Lame <a href="http://twitter.com/awesomeguy/statuses/3086317523">#</a></li><br />
-</ul></p>
+
+  * What we just attempted. BBQ FTW [http://twitpic.com/bqpak][1] [#][2]
+  * You want us, you know you do [http://twitpic.com/c32t8][3] [#][4]
+  * [http://ginx.com/-sAHLy][5] flooding sucks, even in 1976, remember to climb to higher ground during a flash flood [#][6]
+  * Sarah and I got ditched for breakfast this morning. Up for no reason. Lame [#][7]
+  
+
+
+   [1]: http://twitpic.com/bqpak
+   [2]: http://twitter.com/awesomeguy/statuses/2858424445
+   [3]: http://twitpic.com/c32t8
+   [4]: http://twitter.com/awesomeguy/statuses/2921162200
+   [5]: http://ginx.com/-sAHLy
+   [6]: http://twitter.com/awesomeguy/statuses/2952032940
+   [7]: http://twitter.com/awesomeguy/statuses/3086317523
+

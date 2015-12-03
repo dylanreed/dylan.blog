@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,4 +21,8 @@ categories:
 tags: []
 comments: []
 ---
-<p>I like this <a target="_blank" title="Car" href="http://www.waciworld.com/psp_controlled_car/">car</a></p>
+
+I like this [car][1]
+
+   [1]: http://www.waciworld.com/psp_controlled_car/ (Car)
+

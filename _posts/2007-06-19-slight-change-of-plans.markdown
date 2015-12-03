@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,8 +21,11 @@ tags:
 - Projects
 comments: []
 ---
-<p>I have been trying and trying to install Ubuntu and DSL to the purple iMac of death with no luck at all. I have basically given up and am thinking of using one of the busted up laptops instead.</p>
-<p>I will probably use Tommy Sunshine's and a 22" CRT monitor then build the cabinet around it. I am hoping to figure out a way to add a file cabinet into the overall design so that I can weasel it into the den\study area, since it wouldn't just be video games.</p>
-<p>I think a file cabinet MAME player that plays Ms. Pacman will go a long way to convincing Sarah that it is necessary to have in our house. Sure....that will work.</p>
-<p>I will try the Linux nonsense on the laptops tonight.</p>
-<p><!--adsense#text--></p>
+
+I have been trying and trying to install Ubuntu and DSL to the purple iMac of death with no luck at all. I have basically given up and am thinking of using one of the busted up laptops instead.
+
+I will probably use Tommy Sunshine's and a 22" CRT monitor then build the cabinet around it. I am hoping to figure out a way to add a file cabinet into the overall design so that I can weasel it into the den\study area, since it wouldn't just be video games.
+
+I think a file cabinet MAME player that plays Ms. Pacman will go a long way to convincing Sarah that it is necessary to have in our house. Sure....that will work.
+
+I will try the Linux nonsense on the laptops tonight.

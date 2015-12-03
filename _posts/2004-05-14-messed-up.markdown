@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,12 +21,27 @@ categories:
 tags: []
 comments: []
 ---
-<p>This entry is fairly diturbing.</p>
-<p>I just watched the Nicholas Berg beheading video from harpers page. I wouldn't suggest that anyone with a weak stomach or people easly sisturbed to watch it but if you wnat to it is <a href="http://www.nata2.info/?path=war">here</a>. </p>
-<p>here are a buch of links to news stories about Nicholas Berg<br />
-<a href="http://www.abc.net.au/am/content/2004/s1107249.htm">1</a><br />
-<a href="http://www.onnnews.com/Global/story.asp?S=1864037&nav=LQlCN5Mv">2</a><br />
-<a href="http://edition.cnn.com/2004/WORLD/meast/05/14/iraq.berg/">3</a><br />
-<a href="http://kutv.com/topstories/local_story_135115151.html">4</a><br />
-<a href="http://www.reuters.co.uk/newsPackageArticle.jhtml?type=worldNews&storyID=510918&section=news">5</a></p>
-<p><a href="http://www.google.com/news?hl=en&edition=us&ie=UTF-8&q=Nicholas+Berg+&btnG=Search+News">And many more</a></p>
+
+This entry is fairly diturbing.
+
+I just watched the Nicholas Berg beheading video from harpers page. I wouldn't suggest that anyone with a weak stomach or people easly sisturbed to watch it but if you wnat to it is [here][1]. 
+
+   [1]: http://www.nata2.info/?path=war
+
+here are a buch of links to news stories about Nicholas Berg  
+[1][2]  
+[2][3]  
+[3][4]  
+[4][5]  
+[5][6]
+
+   [2]: http://www.abc.net.au/am/content/2004/s1107249.htm
+   [3]: http://www.onnnews.com/Global/story.asp?S=1864037&nav=LQlCN5Mv
+   [4]: http://edition.cnn.com/2004/WORLD/meast/05/14/iraq.berg/
+   [5]: http://kutv.com/topstories/local_story_135115151.html
+   [6]: http://www.reuters.co.uk/newsPackageArticle.jhtml?type=worldNews&storyID=510918&section=news
+
+[And many more][7]
+
+   [7]: http://www.google.com/news?hl=en&edition=us&ie=UTF-8&q=Nicholas+Berg+&btnG=Search+News
+

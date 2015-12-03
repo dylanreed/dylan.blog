@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,7 +21,11 @@ categories:
 tags: []
 comments: []
 ---
-<p>So it is snowing in colorado today. a lot of snow. I wasn't feeling very good this morning so I didn't go into work.</p>
-<p>that turned out to be great planning. sarah also stayed home and so we beasted it around the house and took naps. around lunch we got hungry so we decided to order pizza.</p>
-<p>unfortunatly they were not delivering in this weathr so I was going to have to go get it.</p>
-<p>I left our house and was soon stuck. 50 feet from where I started. I will take picturws later</p>
+
+So it is snowing in colorado today. a lot of snow. I wasn't feeling very good this morning so I didn't go into work.
+
+that turned out to be great planning. sarah also stayed home and so we beasted it around the house and took naps. around lunch we got hungry so we decided to order pizza.
+
+unfortunatly they were not delivering in this weathr so I was going to have to go get it.
+
+I left our house and was soon stuck. 50 feet from where I started. I will take picturws later

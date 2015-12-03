@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,7 +21,11 @@ categories:
 tags: []
 comments: []
 ---
-<p>So I broke my email. It just stopped working, Harper fixed it though. I had about 11000 messages. AND IT BROKE. Thats bullcrap. I guess I should stop giving my email address out and start giving out harpers. sounds good.</p>
-<p>so life is good i love my job and such, coffee rulez.</p>
-<p>more later this month or maybe next</p>
-<p>you know how it goes with me</p>
+
+So I broke my email. It just stopped working, Harper fixed it though. I had about 11000 messages. AND IT BROKE. Thats bullcrap. I guess I should stop giving my email address out and start giving out harpers. sounds good.
+
+so life is good i love my job and such, coffee rulez.
+
+more later this month or maybe next
+
+you know how it goes with me

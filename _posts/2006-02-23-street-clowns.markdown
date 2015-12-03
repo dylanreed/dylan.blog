@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,4 +21,5 @@ tags:
 - Clown
 comments: []
 ---
-<p>Street clowns use the art of clowning to bring laughter to the people. Street clowning is an idea I got after watching the movie &Atilde;&cent;&acirc;&sbquo;&not;&Aring;&ldquo;Rize.&Atilde;&cent;&acirc;&sbquo;&not;&Acirc; It seemed to me that Tommy the Clown had a great idea to get kids off the streets and out of gangs by using a combination of dance and clowning</p>
+
+Street clowns use the art of clowning to bring laughter to the people. Street clowning is an idea I got after watching the movie Ã¢a‚¬Å"Rize.Ã¢a‚¬Â It seemed to me that Tommy the Clown had a great idea to get kids off the streets and out of gangs by using a combination of dance and clowning

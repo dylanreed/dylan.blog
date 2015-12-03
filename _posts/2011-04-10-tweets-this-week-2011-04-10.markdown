@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,23 +21,56 @@ categories:
 tags: []
 comments: []
 ---
-<ul class="aktt_tweet_digest">
-<li>OMG I Drew a Picture: Worker Kitty <a href="http://dylan.la/hnzUwv" rel="nofollow">http://dylan.la/hnzUwv</a> <a href="http://twitter.com/awesomeguy/statuses/54561171319169024" class="aktt_tweet_time">#</a></li>
-<li>Invitations FTW  <a href="http://t.co/xuOD0DZ" rel="nofollow">http://t.co/xuOD0DZ</a> <a href="http://twitter.com/awesomeguy/statuses/54679148970524672" class="aktt_tweet_time">#</a></li>
-<li>Apparently our hot water heater just shot the bed. Annoying!!! <a href="http://t.co/SyVvmZN" rel="nofollow">http://t.co/SyVvmZN</a> <a href="http://twitter.com/awesomeguy/statuses/54723552527646720" class="aktt_tweet_time">#</a></li>
-<li>Good morning world. Showered at Nan&#039;s today with the hopes that our hot water heater will get fixed ASAP. <a href="http://twitter.com/awesomeguy/statuses/54874850107469824" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: The Chin <a href="http://dylan.la/ifxftq" rel="nofollow">http://dylan.la/ifxftq</a> <a href="http://twitter.com/awesomeguy/statuses/54972652246417408" class="aktt_tweet_time">#</a></li>
-<li>Installing a hot water heater takes forever!! <a href="http://twitter.com/awesomeguy/statuses/55010486487494656" class="aktt_tweet_time">#</a></li>
-<li>Maybe I should have let the cats roam why this guy installed the heater, made him earn his money <a href="http://twitter.com/awesomeguy/statuses/55014124022808576" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: Hail to the King <a href="http://dylan.la/eD3mof" rel="nofollow">http://dylan.la/eD3mof</a> <a href="http://twitter.com/awesomeguy/statuses/55285161062973440" class="aktt_tweet_time">#</a></li>
-<li>scanning in colored pieces to update deviantart page and fancycadaver.com <a href="http://twitter.com/awesomeguy/statuses/55311349521186816" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: Clown in Khakis <a href="http://dylan.la/dRZwMb" rel="nofollow">http://dylan.la/dRZwMb</a> <a href="http://twitter.com/awesomeguy/statuses/55665763129888768" class="aktt_tweet_time">#</a></li>
-<li>About to drop a bunch of my drawings onto flickr, Get ready <a href="http://twitter.com/awesomeguy/statuses/56001259727097856" class="aktt_tweet_time">#</a></li>
-<li>uploading to flickr still happening but when it is done they will all be right here: <a href="http://dylan.la/gQqPvo" rel="nofollow">http://dylan.la/gQqPvo</a> Please enjoy them <a href="http://twitter.com/awesomeguy/statuses/56006529521954816" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: Karate Kick <a href="http://dylan.la/h2RlkD" rel="nofollow">http://dylan.la/h2RlkD</a> <a href="http://twitter.com/awesomeguy/statuses/56010739277762560" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: The Green Triangle <a href="http://dylan.la/hnajBg" rel="nofollow">http://dylan.la/hnajBg</a> <a href="http://twitter.com/awesomeguy/statuses/56371014216581120" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: The Green Triangle <a href="http://fancycadaver.com/2011/04/08/the-green-triangle/" rel="nofollow">http://fancycadaver.com/2011/04/08/the-green-triangle/</a> <a href="http://twitter.com/awesomeguy/statuses/56371014149480448" class="aktt_tweet_time">#</a></li>
-<li>I am well on my way to getting Some Bunny to Love week started <a href="http://twitter.com/awesomeguy/statuses/56428937106046976" class="aktt_tweet_time">#</a></li>
-<li>My Facebook app is stuck like this. Help? <a href="http://t.co/JbTZD3P" rel="nofollow">http://t.co/JbTZD3P</a> <a href="http://twitter.com/awesomeguy/statuses/56541480239632385" class="aktt_tweet_time">#</a></li>
-<li>OMG I Drew a Picture: Tattle Tail <a href="http://dylan.la/h53J2r" rel="nofollow">http://dylan.la/h53J2r</a> <a href="http://twitter.com/awesomeguy/statuses/56735096341929984" class="aktt_tweet_time">#</a></li><br />
-</ul></p>
+
+  * OMG I Drew a Picture: Worker Kitty [http://dylan.la/hnzUwv][1] [#][2]
+  * Invitations FTW [http://t.co/xuOD0DZ][3] [#][4]
+  * Apparently our hot water heater just shot the bed. Annoying!!! [http://t.co/SyVvmZN][5] [#][6]
+  * Good morning world. Showered at Nan's today with the hopes that our hot water heater will get fixed ASAP. [#][7]
+  * OMG I Drew a Picture: The Chin [http://dylan.la/ifxftq][8] [#][9]
+  * Installing a hot water heater takes forever!! [#][10]
+  * Maybe I should have let the cats roam why this guy installed the heater, made him earn his money [#][11]
+  * OMG I Drew a Picture: Hail to the King [http://dylan.la/eD3mof][12] [#][13]
+  * scanning in colored pieces to update deviantart page and fancycadaver.com [#][14]
+  * OMG I Drew a Picture: Clown in Khakis [http://dylan.la/dRZwMb][15] [#][16]
+  * About to drop a bunch of my drawings onto flickr, Get ready [#][17]
+  * uploading to flickr still happening but when it is done they will all be right here: [http://dylan.la/gQqPvo][18] Please enjoy them [#][19]
+  * OMG I Drew a Picture: Karate Kick [http://dylan.la/h2RlkD][20] [#][21]
+  * OMG I Drew a Picture: The Green Triangle [http://dylan.la/hnajBg][22] [#][23]
+  * OMG I Drew a Picture: The Green Triangle [http://fancycadaver.com/2011/04/08/the-green-triangle/][24] [#][25]
+  * I am well on my way to getting Some Bunny to Love week started [#][26]
+  * My Facebook app is stuck like this. Help? [http://t.co/JbTZD3P][27] [#][28]
+  * OMG I Drew a Picture: Tattle Tail [http://dylan.la/h53J2r][29] [#][30]
+  
+
+
+   [1]: http://dylan.la/hnzUwv
+   [2]: http://twitter.com/awesomeguy/statuses/54561171319169024
+   [3]: http://t.co/xuOD0DZ
+   [4]: http://twitter.com/awesomeguy/statuses/54679148970524672
+   [5]: http://t.co/SyVvmZN
+   [6]: http://twitter.com/awesomeguy/statuses/54723552527646720
+   [7]: http://twitter.com/awesomeguy/statuses/54874850107469824
+   [8]: http://dylan.la/ifxftq
+   [9]: http://twitter.com/awesomeguy/statuses/54972652246417408
+   [10]: http://twitter.com/awesomeguy/statuses/55010486487494656
+   [11]: http://twitter.com/awesomeguy/statuses/55014124022808576
+   [12]: http://dylan.la/eD3mof
+   [13]: http://twitter.com/awesomeguy/statuses/55285161062973440
+   [14]: http://twitter.com/awesomeguy/statuses/55311349521186816
+   [15]: http://dylan.la/dRZwMb
+   [16]: http://twitter.com/awesomeguy/statuses/55665763129888768
+   [17]: http://twitter.com/awesomeguy/statuses/56001259727097856
+   [18]: http://dylan.la/gQqPvo
+   [19]: http://twitter.com/awesomeguy/statuses/56006529521954816
+   [20]: http://dylan.la/h2RlkD
+   [21]: http://twitter.com/awesomeguy/statuses/56010739277762560
+   [22]: http://dylan.la/hnajBg
+   [23]: http://twitter.com/awesomeguy/statuses/56371014216581120
+   [24]: http://fancycadaver.com/2011/04/08/the-green-triangle/
+   [25]: http://twitter.com/awesomeguy/statuses/56371014149480448
+   [26]: http://twitter.com/awesomeguy/statuses/56428937106046976
+   [27]: http://t.co/JbTZD3P
+   [28]: http://twitter.com/awesomeguy/statuses/56541480239632385
+   [29]: http://dylan.la/h53J2r
+   [30]: http://twitter.com/awesomeguy/statuses/56735096341929984
+

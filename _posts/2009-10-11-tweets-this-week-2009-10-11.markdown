@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,13 +21,27 @@ categories:
 tags: []
 comments: []
 ---
-<ul class="aktt_tweet_digest">
-<li>Dear everyone, the volleyball team finally won a game thanks to are new puma headbands. Thanks puma store in boulder. You guys rock! <a href="http://twitter.com/awesomeguy/statuses/4627600353" class="aktt_tweet_time">#</a></li>
-<li>The alabaster donut thus far <a href="http://twitpic.com/ki0uj" rel="nofollow">http://twitpic.com/ki0uj</a> <a href="http://twitter.com/awesomeguy/statuses/4660724231" class="aktt_tweet_time">#</a></li>
-<li>What!?!  <a href="http://twitpic.com/kig2g" rel="nofollow">http://twitpic.com/kig2g</a> <a href="http://twitter.com/awesomeguy/statuses/4664023557" class="aktt_tweet_time">#</a></li>
-<li>Drawing feet is fun. Or did I mean hard? <a href="http://twitter.com/awesomeguy/statuses/4685168241" class="aktt_tweet_time">#</a></li>
-<li>Sarah pisses excellence <a href="http://twitter.com/awesomeguy/statuses/4699514855" class="aktt_tweet_time">#</a></li>
-<li>It is snowing a very baby amount. <a href="http://twitter.com/awesomeguy/statuses/4709207720" class="aktt_tweet_time">#</a></li>
-<li>I have google wave, Thanks @<a href="http://twitter.com/harper" class="aktt_username">harper</a> <a href="http://twitter.com/awesomeguy/statuses/4737552501" class="aktt_tweet_time">#</a></li>
-<li>RT @atkinsm: I can now cross "eating cow penis" off my list of things to do today. (Me giggling) <a href="http://twitter.com/awesomeguy/statuses/4747876733" class="aktt_tweet_time">#</a></li><br />
-</ul></p>
+
+  * Dear everyone, the volleyball team finally won a game thanks to are new puma headbands. Thanks puma store in boulder. You guys rock! [#][1]
+  * The alabaster donut thus far [http://twitpic.com/ki0uj][2] [#][3]
+  * What!?! [http://twitpic.com/kig2g][4] [#][5]
+  * Drawing feet is fun. Or did I mean hard? [#][6]
+  * Sarah pisses excellence [#][7]
+  * It is snowing a very baby amount. [#][8]
+  * I have google wave, Thanks @[harper][9] [#][10]
+  * RT @atkinsm: I can now cross "eating cow penis" off my list of things to do today. (Me giggling) [#][11]
+  
+
+
+   [1]: http://twitter.com/awesomeguy/statuses/4627600353
+   [2]: http://twitpic.com/ki0uj
+   [3]: http://twitter.com/awesomeguy/statuses/4660724231
+   [4]: http://twitpic.com/kig2g
+   [5]: http://twitter.com/awesomeguy/statuses/4664023557
+   [6]: http://twitter.com/awesomeguy/statuses/4685168241
+   [7]: http://twitter.com/awesomeguy/statuses/4699514855
+   [8]: http://twitter.com/awesomeguy/statuses/4709207720
+   [9]: http://twitter.com/harper
+   [10]: http://twitter.com/awesomeguy/statuses/4737552501
+   [11]: http://twitter.com/awesomeguy/statuses/4747876733
+

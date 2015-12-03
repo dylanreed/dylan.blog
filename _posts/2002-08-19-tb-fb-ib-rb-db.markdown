@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,11 +21,5 @@ categories:
 tags: []
 comments: []
 ---
-<p>TB, FB, IB, RB, DB, IRB, DFB---->What are these types of? Brazing</p>
-<p>SMAW, GMAW, FCAW, GTAW, PAW, SAW, ESW, OAW, SW---->What are these types of? Welding</p>
-<p>What is the position of the weld in a 3G test? Horizontal</p>
-<p>What is my favorite color? Purple</p>
-<p>What does kerf mean? Cut mark made by a saw</p>
-<p>Who is the prettiest girl in the world? Sarah</p>
-<p>Where am I? LBC</p>
-<p>That is the answers. Anyway i am being promoted to a shift leader at work. More maybe tomarrow.</p>
+
+TB, FB, IB, RB, DB, IRB, DFB

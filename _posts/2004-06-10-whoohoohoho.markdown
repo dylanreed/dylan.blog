@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,6 +21,7 @@ categories:
 tags: []
 comments: []
 ---
-<p>Thats right: Whoohoohoho. Thats how I feel. I might have gotten a job working with The City of Greeley's dive unit. Its wierd but i might get to use what i went to school to do. Cause I am awesome.<br />
-ok thats all<br />
-dylan</p>
+
+Thats right: Whoohoohoho. Thats how I feel. I might have gotten a job working with The City of Greeley's dive unit. Its wierd but i might get to use what i went to school to do. Cause I am awesome.  
+ok thats all  
+dylan

@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -21,7 +22,11 @@ tags:
 - School
 comments: []
 ---
-<p class="MsoNormal">I have about two weeks of school left. Ahhhh! I am not saying that I am not ready to be done with school; it&rsquo;s just that I have neglected my history class a bit. I have done a really good job of keeping my Spanish class in line: getting an 82% on my last test and my Intro to PC Applications class is a joke. History, however, is a different story.</p></p>
-<p class="MsoNormal">The reading is just so boring. I have five chapters to read and the quizzes to take for those chapters. Luckily I started my paper for the class and am more than half done for, I just have to finish that by Friday and keep reading my eyes out.</p></p>
-<p class="MsoNormal">The reason that I am having such a hard time being dedicated to history is that it is not nearly as exciting as the Art History class I took last semester. Most likely this is because through Sarah I absorbed a bunch of Art History without knowing. Plus the professor was someone I knew in high school.</p></p>
-<p class="MsoNormal">Alright, deep breaths, you can do it Dylan, kick History&rsquo;s boring ass back to the Stone Age.</p></p>
+
+I have about two weeks of school left. Ahhhh! I am not saying that I am not ready to be done with school; it's just that I have neglected my history class a bit. I have done a really good job of keeping my Spanish class in line: getting an 82% on my last test and my Intro to PC Applications class is a joke. History, however, is a different story.
+
+The reading is just so boring. I have five chapters to read and the quizzes to take for those chapters. Luckily I started my paper for the class and am more than half done for, I just have to finish that by Friday and keep reading my eyes out.
+
+The reason that I am having such a hard time being dedicated to history is that it is not nearly as exciting as the Art History class I took last semester. Most likely this is because through Sarah I absorbed a bunch of Art History without knowing. Plus the professor was someone I knew in high school.
+
+Alright, deep breaths, you can do it Dylan, kick History's boring ass back to the Stone Age.

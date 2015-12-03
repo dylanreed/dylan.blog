@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,4 +21,5 @@ categories:
 tags: []
 comments: []
 ---
-<p>I am retracting my previous statemets about harper. yes he did drop first in the comp. but i was probably going to drop anyway and 46% gay by the gayness test isn't really that gay. so i apologize to anyone offended by my comments and hope to get my cell phone charger soon.</p>
+
+I am retracting my previous statemets about harper. yes he did drop first in the comp. but i was probably going to drop anyway and 46% gay by the gayness test isn't really that gay. so i apologize to anyone offended by my comments and hope to get my cell phone charger soon.

@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,6 +21,9 @@ categories:
 tags: []
 comments: []
 ---
-<p>Sarah and I have been married for three years today. Yeah! Awesome!</p>
-<p>&nbsp;</p>
-<p>Thanks to our parents we where able to go on an awesome trip around southern Colorado including the Garden of the Gods, Royal Gorge, Cave of the Winds and the Great Sand Dunes. After I get work caught up I will post about our adventures</p></p>
+
+Sarah and I have been married for three years today. Yeah! Awesome!
+
+ 
+
+Thanks to our parents we where able to go on an awesome trip around southern Colorado including the Garden of the Gods, Royal Gorge, Cave of the Winds and the Great Sand Dunes. After I get work caught up I will post about our adventures

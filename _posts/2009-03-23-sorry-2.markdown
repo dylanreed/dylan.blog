@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,10 +21,17 @@ categories:
 tags: []
 comments: []
 ---
-<p class="MsoNormal">I finally did it. I took a day off. I promised myself I wouldn&rsquo;t do it. I would write and post a blog post every day this year, no matter what. I had a really good time yesterday and just didn&rsquo;t have time to type up a post. Normally I would have my weekend posts typed and scheduled to post in advance but since wordpress has been giving me trouble on my scheduled posts I stopped doing that.</p></p>
-<p class="MsoNormal">What did I do yesterday that was more important than writing something that the fifteen of you read? To start with Sarah and I had waffles. I am pretty sure that none of you have had her waffles but they are amazing. Of course having waffles also includes having maple syrup flown in from Vermont, which ups the tasty factor by ten, maybe twenty.</p></p>
-<p class="MsoNormal">After waffles Sarah worked on her grading and I was on dishwashing/laundry duty. The awesome part of this is that I listened to really enjoyable music and was able to dance and fold the laundry. Sarah was able to get all of her tests graded and then it was time to go run some errands.</p></p>
-<p class="MsoNormal">The first errand was shopping for a printer cart for Sarah&rsquo;s classroom. We had looked at Office Max and we were not impressed with what they had. Sarah begrudgingly decided to take a look at Office Depot&rsquo;s selection. Luckily Office Depot had a decent cart so we didn&rsquo;t have to dive into the hell that is Wal-mart.</p></p>
-<p class="MsoNormal">After finding the cart we went and ate lunch at Subway (BLT=Awesome) and then headed to SCUBA class. This was Sarah&rsquo;s second session at the pool and aside from a faulty regulator that she was given by her buddy, who is not me, it went great. Sarah is a SCUBA star and is starting to get excited for our trip in May. I am excited because I am going to have a dive buddy.</p></p>
-<p class="MsoNormal">Once the class was done we went to the GAP where Sarah gets to do her brave girl shopping and then we went and ate fried chicken. Fried chicken is awesome. We both enjoyed the crap out of our drumsticks and we headed home to make some pumpkin bread. We finished the bread and then headed off to bed.</p></p>
-<p class="MsoNormal">That is why I didn&rsquo;t post yesterday.</p></p>
+
+I finally did it. I took a day off. I promised myself I wouldn't do it. I would write and post a blog post every day this year, no matter what. I had a really good time yesterday and just didn't have time to type up a post. Normally I would have my weekend posts typed and scheduled to post in advance but since wordpress has been giving me trouble on my scheduled posts I stopped doing that.
+
+What did I do yesterday that was more important than writing something that the fifteen of you read? To start with Sarah and I had waffles. I am pretty sure that none of you have had her waffles but they are amazing. Of course having waffles also includes having maple syrup flown in from Vermont, which ups the tasty factor by ten, maybe twenty.
+
+After waffles Sarah worked on her grading and I was on dishwashing/laundry duty. The awesome part of this is that I listened to really enjoyable music and was able to dance and fold the laundry. Sarah was able to get all of her tests graded and then it was time to go run some errands.
+
+The first errand was shopping for a printer cart for Sarah's classroom. We had looked at Office Max and we were not impressed with what they had. Sarah begrudgingly decided to take a look at Office Depot's selection. Luckily Office Depot had a decent cart so we didn't have to dive into the hell that is Wal-mart.
+
+After finding the cart we went and ate lunch at Subway (BLT=Awesome) and then headed to SCUBA class. This was Sarah's second session at the pool and aside from a faulty regulator that she was given by her buddy, who is not me, it went great. Sarah is a SCUBA star and is starting to get excited for our trip in May. I am excited because I am going to have a dive buddy.
+
+Once the class was done we went to the GAP where Sarah gets to do her brave girl shopping and then we went and ate fried chicken. Fried chicken is awesome. We both enjoyed the crap out of our drumsticks and we headed home to make some pumpkin bread. We finished the bread and then headed off to bed.
+
+That is why I didn't post yesterday.

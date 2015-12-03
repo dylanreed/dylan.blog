@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,8 +21,14 @@ categories:
 tags: []
 comments: []
 ---
-<p>Ok to fun things i learned recently</p>
-<p>1) if you want to get sick and i mean really sick. Go suck on a penny.<br />
-    Thats just what i heard not a real Surprise but interesting</p>
-<p>2)<a href="http://www.peepresearch.org"> Peeps</a>. you know the little creatures made of sugar and marshmellows. If placed in a microwave grow to amazing proportions</p>
-<p>thats it</p>
+
+Ok to fun things i learned recently
+
+1) if you want to get sick and i mean really sick. Go suck on a penny.  
+Thats just what i heard not a real Surprise but interesting
+
+2)[ Peeps][1]. you know the little creatures made of sugar and marshmellows. If placed in a microwave grow to amazing proportions
+
+   [1]: http://www.peepresearch.org
+
+thats it

@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,7 +21,13 @@ tags:
 - Clown
 comments: []
 ---
-<p>I need to purchase this <a href="http://www.weirdthings.com/ibooks.htm">book</a>. It is called Illusion Tech and it teaches how to design and build a bunch of illusions.</p>
-<p>I am hoping that maybe this payday I can maybe order them. I will need to talk to the treasurer of the project ( <a href="http://www.dylanreed.org/wp-admin/www.photodork.org">sarah</a> ) to see if I can get it. I sure hope so.</p>
-<p>Also I am rocking the real estate classes for work. I have quite a bit left to go but i am steadily pluging along. Soon I will be a REAL----TOR. What!</p>
-<p>Sarah is bringing me Wendy's.</p>
+
+I need to purchase this [book][1]. It is called Illusion Tech and it teaches how to design and build a bunch of illusions.
+
+   [1]: http://www.weirdthings.com/ibooks.htm
+
+I am hoping that maybe this payday I can maybe order them. I will need to talk to the treasurer of the project ( [sarah][2] ) to see if I can get it. I sure hope so.
+
+   [2]: http://www.dylanreed.org/wp-admin/www.photodork.org
+
+Also I am rocking the real estate classes for work. I have quite a bit left to go but i am steadily pluging along. Soon I will be a REAL

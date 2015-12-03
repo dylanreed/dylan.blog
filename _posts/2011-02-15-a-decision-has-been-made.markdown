@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,7 +21,19 @@ categories:
 tags: []
 comments: []
 ---
-<p>Last night, well actually all day yesterday, was my 30th birthday. The day that I said I had to decide what book I was going to use in my drawing studies first. And BAM! a decision has been made. I will be using this book:<img class="aligncenter" title="Big Book" src="http://ecx.images-amazon.com/images/I/51ErO3KKQxL.jpg" alt="" width="385" height="500" />It has step by step instructions, not on how to draw certain characters, but on how to draw your characters. I think this will help me create my own characters while getting a lot of practice drawing. I start tomorrow with the drawing, mostly because today is filled with work, and will be trying to post to <a href="http://fancycadaver.com">Fancy Cadaver</a> every day. Check it out.</p>
-<p><a href="http://veggiefight.com"><img class="aligncenter size-full wp-image-1220" title="Screen shot 2011-02-15 at 5.32.38 AM" src="http://www.dylanreed.com/wp-content/uploads/2011/02/Screen-shot-2011-02-15-at-5.32.38-AM.png" alt="" width="698" height="483" /></a>I also have started updating Veggie Fight again. Though I have killed the story about the tomato that wants to be a boxer, I will be updating it more frequently. I am planning on using it as a place to experiment with comics and to use my new found drawing abilities to actually create something.</p>
-<p>You might be wondering how you can keep track of all of this stuff seeing as how it is spread all over the internet. I would suggest either subscribe to each site, which you can do at each site, or you can just follow me on <a href="http://twitter.com/awesomeguy">twitter</a> where I will be posting every time I post something at any of the sites.</p>
-<p>Everyone have a nice Tuesday and look forward to Dylan's Great Drawing Experiment (or DGDE) to start tomorrow. And thanks for all of the birthday wishes, it was nice to hear from everyone.</p>
+
+Last night, well actually all day yesterday, was my 30th birthday. The day that I said I had to decide what book I was going to use in my drawing studies first. And BAM! a decision has been made. I will be using this book:![][1]It has step by step instructions, not on how to draw certain characters, but on how to draw your characters. I think this will help me create my own characters while getting a lot of practice drawing. I start tomorrow with the drawing, mostly because today is filled with work, and will be trying to post to [Fancy Cadaver][2] every day. Check it out.
+
+   [1]: http://ecx.images-amazon.com/images/I/51ErO3KKQxL.jpg (Big Book)
+   [2]: http://fancycadaver.com
+
+[![][3]][4]I also have started updating Veggie Fight again. Though I have killed the story about the tomato that wants to be a boxer, I will be updating it more frequently. I am planning on using it as a place to experiment with comics and to use my new found drawing abilities to actually create something.
+
+   [3]: http://www.dylanreed.com/wp-content/uploads/2011/02/Screen-shot-2011-02-15-at-5.32.38-AM.png (Screen shot 2011-02-15 at 5.32.38 AM)
+   [4]: http://veggiefight.com
+
+You might be wondering how you can keep track of all of this stuff seeing as how it is spread all over the internet. I would suggest either subscribe to each site, which you can do at each site, or you can just follow me on [twitter][5] where I will be posting every time I post something at any of the sites.
+
+   [5]: http://twitter.com/awesomeguy
+
+Everyone have a nice Tuesday and look forward to Dylan's Great Drawing Experiment (or DGDE) to start tomorrow. And thanks for all of the birthday wishes, it was nice to hear from everyone.

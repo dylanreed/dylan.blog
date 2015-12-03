@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,4 +21,5 @@ categories:
 tags: []
 comments: []
 ---
-<p>&nbsp;&nbsp;&nbsp;We just watched the halftime show and i think we might have seen janet jacksons boob or not who knows??</p>
+
+   We just watched the halftime show and i think we might have seen janet jacksons boob or not who knows??

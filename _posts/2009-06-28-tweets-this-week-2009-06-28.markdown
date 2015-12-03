@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,20 +21,48 @@ categories:
 tags: []
 comments: []
 ---
-<ul class="aktt_tweet_digest">
-<li>Starting fathers day part two followed by part three. Awesome. Happy F-day to all of you. <a href="http://twitter.com/awesomeguy/statuses/2268819297">#</a></li>
-<li>Crazy Clementine <a href="http://twitpic.com/81lfi" rel="nofollow">http://twitpic.com/81lfi</a> <a href="http://twitter.com/awesomeguy/statuses/2270304167">#</a></li>
-<li>Need an accountant type person in Greeley Colorado <a href="http://twitter.com/awesomeguy/statuses/2284525851">#</a></li>
-<li>I need Pupils in my Dojo: <a href="http://ginx.com/-RDUxD" rel="nofollow">http://ginx.com/-RDUxD</a> Create a fighter and fight me to join my crew <a href="http://twitter.com/awesomeguy/statuses/2296740205">#</a></li>
-<li>Hating on his nemesis  <a href="http://twitpic.com/889og" rel="nofollow">http://twitpic.com/889og</a> <a href="http://twitter.com/awesomeguy/statuses/2301627867">#</a></li>
-<li>RT @africankelli: I have a new therapist named Retail; we're in session @ the gap.      I feel I need this <a href="http://twitter.com/awesomeguy/statuses/2319386501">#</a></li>
-<li>Devil dogs are so tasty <a href="http://twitter.com/awesomeguy/statuses/2319466781">#</a></li>
-<li>You may kiss the royal paw <a href="http://twitpic.com/8c46k" rel="nofollow">http://twitpic.com/8c46k</a> <a href="http://twitter.com/awesomeguy/statuses/2319815258">#</a></li>
-<li>@<a href="http://twitter.com/pvponline">pvponline</a> good call <a href="http://twitter.com/pvponline/statuses/2320091639">in reply to pvponline</a> <a href="http://twitter.com/awesomeguy/statuses/2320681067">#</a></li>
-<li>Budwieser plant in Fort Collins, stage one of our Utah diving adventure. Go us. #<a href="http://search.twitter.com/search?q=%23roadtrip">roadtrip</a> <a href="http://twitpic.com/8gxql" rel="nofollow">http://twitpic.com/8gxql</a> <a href="http://twitter.com/awesomeguy/statuses/2345358197">#</a></li>
-<li>One hour in, second set of wind farms. #<a href="http://search.twitter.com/search?q=%23roadtrip">roadtrip</a> <a href="http://twitpic.com/8h4zq" rel="nofollow">http://twitpic.com/8h4zq</a> <a href="http://twitter.com/awesomeguy/statuses/2346326460">#</a></li>
-<li>Go clouds go! Tried to send this in wyoming but had no luck. About 20 minutes away. #<a href="http://search.twitter.com/search?q=%23roadtrip">roadtrip</a> <a href="http://twitter.com/awesomeguy/statuses/2351315401">#</a></li>
-<li>We made it. #<a href="http://search.twitter.com/search?q=%23roadtrip">roadtrip</a> is now #<a href="http://search.twitter.com/search?q=%23divetrip">divetrip</a> <a href="http://twitter.com/awesomeguy/statuses/2351995267">#</a></li>
-<li>Ikea Utah does not ship to Colorado but Ikea Internet does. WTF Ikea. Deliver to your isn't home to your home if you don't deliver there. <a href="http://twitter.com/awesomeguy/statuses/2366659708">#</a></li>
-<li>Getting cheese and chocolate at the melting pot salt lake city <a href="http://twitter.com/awesomeguy/statuses/2367225486">#</a></li><br />
-</ul></p>
+
+  * Starting fathers day part two followed by part three. Awesome. Happy F-day to all of you. [#][1]
+  * Crazy Clementine [http://twitpic.com/81lfi][2] [#][3]
+  * Need an accountant type person in Greeley Colorado [#][4]
+  * I need Pupils in my Dojo: [http://ginx.com/-RDUxD][5] Create a fighter and fight me to join my crew [#][6]
+  * Hating on his nemesis [http://twitpic.com/889og][7] [#][8]
+  * RT @africankelli: I have a new therapist named Retail; we're in session @ the gap. I feel I need this [#][9]
+  * Devil dogs are so tasty [#][10]
+  * You may kiss the royal paw [http://twitpic.com/8c46k][11] [#][12]
+  * @[pvponline][13] good call [in reply to pvponline][14] [#][15]
+  * Budwieser plant in Fort Collins, stage one of our Utah diving adventure. Go us. #[roadtrip][16] [http://twitpic.com/8gxql][17] [#][18]
+  * One hour in, second set of wind farms. #[roadtrip][16] [http://twitpic.com/8h4zq][19] [#][20]
+  * Go clouds go! Tried to send this in wyoming but had no luck. About 20 minutes away. #[roadtrip][16] [#][21]
+  * We made it. #[roadtrip][16] is now #[divetrip][22] [#][23]
+  * Ikea Utah does not ship to Colorado but Ikea Internet does. WTF Ikea. Deliver to your isn't home to your home if you don't deliver there. [#][24]
+  * Getting cheese and chocolate at the melting pot salt lake city [#][25]
+  
+
+
+   [1]: http://twitter.com/awesomeguy/statuses/2268819297
+   [2]: http://twitpic.com/81lfi
+   [3]: http://twitter.com/awesomeguy/statuses/2270304167
+   [4]: http://twitter.com/awesomeguy/statuses/2284525851
+   [5]: http://ginx.com/-RDUxD
+   [6]: http://twitter.com/awesomeguy/statuses/2296740205
+   [7]: http://twitpic.com/889og
+   [8]: http://twitter.com/awesomeguy/statuses/2301627867
+   [9]: http://twitter.com/awesomeguy/statuses/2319386501
+   [10]: http://twitter.com/awesomeguy/statuses/2319466781
+   [11]: http://twitpic.com/8c46k
+   [12]: http://twitter.com/awesomeguy/statuses/2319815258
+   [13]: http://twitter.com/pvponline
+   [14]: http://twitter.com/pvponline/statuses/2320091639
+   [15]: http://twitter.com/awesomeguy/statuses/2320681067
+   [16]: http://search.twitter.com/search?q=%23roadtrip
+   [17]: http://twitpic.com/8gxql
+   [18]: http://twitter.com/awesomeguy/statuses/2345358197
+   [19]: http://twitpic.com/8h4zq
+   [20]: http://twitter.com/awesomeguy/statuses/2346326460
+   [21]: http://twitter.com/awesomeguy/statuses/2351315401
+   [22]: http://search.twitter.com/search?q=%23divetrip
+   [23]: http://twitter.com/awesomeguy/statuses/2351995267
+   [24]: http://twitter.com/awesomeguy/statuses/2366659708
+   [25]: http://twitter.com/awesomeguy/statuses/2367225486
+

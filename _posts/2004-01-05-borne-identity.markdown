@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,7 +21,8 @@ categories:
 tags: []
 comments: []
 ---
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Good movie<br />
-fun to watch. kindof slow to get started. Glad that sarah is home<br />
-thats all<br />
-dylan</p>
+
+      Good movie  
+fun to watch. kindof slow to get started. Glad that sarah is home  
+thats all  
+dylan

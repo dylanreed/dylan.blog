@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,6 +21,12 @@ categories:
 tags: []
 comments: []
 ---
-<p>Ok seriously, I really enjoy randomly typing stuff into google. for instance monkey pants. that takes you <a href="http://www.google.com/search?hl=en&lr=&q=monkey+pants&btnG=Search">here</a>. from there you click on the top non product link and <a href="http://archives.cnn.com/2002/US/West/12/19/monkey.pants.reut/">bam</a>. there you have it. so funny.</p>
-<p>thats all</p>
-<p>i love sarah.</p>
+
+Ok seriously, I really enjoy randomly typing stuff into google. for instance monkey pants. that takes you [here][1]. from there you click on the top non product link and [bam][2]. there you have it. so funny.
+
+   [1]: http://www.google.com/search?hl=en&lr=&q=monkey+pants&btnG=Search
+   [2]: http://archives.cnn.com/2002/US/West/12/19/monkey.pants.reut/
+
+thats all
+
+i love sarah.

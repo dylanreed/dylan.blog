@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -21,5 +22,7 @@ categories:
 tags: []
 comments: []
 ---
-<p>http://www.cnn.com/2002/US/06/19/floating.terror/index.html</p>
-<p>scary huh</p>
+
+http://www.cnn.com/2002/US/06/19/floating.terror/index.html
+
+scary huh

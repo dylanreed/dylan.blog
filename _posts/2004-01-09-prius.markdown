@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,5 +21,7 @@ categories:
 tags: []
 comments: []
 ---
-<p>TOday i saw a prius, its a toyota. i almost like it better then the mini. i like that it is a hybrid. it is expensive and i'll probably never get either so that sux. i start school on monday. doh.</p>
-<p>dylan</p>
+
+TOday i saw a prius, its a toyota. i almost like it better then the mini. i like that it is a hybrid. it is expensive and i'll probably never get either so that sux. i start school on monday. doh.
+
+dylan

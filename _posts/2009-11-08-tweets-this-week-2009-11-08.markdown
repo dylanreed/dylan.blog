@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,10 +21,19 @@ categories:
 tags: []
 comments: []
 ---
-<ul class="aktt_tweet_digest">
-<li>Back at school! School is number one! <a href="http://twitter.com/awesomeguy/statuses/5364418118" class="aktt_tweet_time">#</a></li>
-<li>RT @ryankanno:HAWAII AMBER ALERT: Meghan Olcott missing from her home in Hilo, HI on 11/01/09. <a href="http://findmeghanolcott.com" rel="nofollow">http://findmeghanolcott.com</a> Please RT <a href="http://twitter.com/awesomeguy/statuses/5424514192" class="aktt_tweet_time">#</a></li>
-<li>At jamba juice, then headed home to do homeworks and NaNoWriMo. Go Fridays. Oh and an art walk tonight followed by food. And Sarah rocks!! <a href="http://twitter.com/awesomeguy/statuses/5485888701" class="aktt_tweet_time">#</a></li>
-<li>I hate doctors so much today <a href="http://twitter.com/awesomeguy/statuses/5517305150" class="aktt_tweet_time">#</a></li>
-<li>On an unrelated note I need a beardhead from beardhead.com <a href="http://twitter.com/awesomeguy/statuses/5520139260" class="aktt_tweet_time">#</a></li><br />
-</ul></p>
+
+  * Back at school! School is number one! [#][1]
+  * RT @ryankanno:HAWAII AMBER ALERT: Meghan Olcott missing from her home in Hilo, HI on 11/01/09. [http://findmeghanolcott.com][2] Please RT [#][3]
+  * At jamba juice, then headed home to do homeworks and NaNoWriMo. Go Fridays. Oh and an art walk tonight followed by food. And Sarah rocks!! [#][4]
+  * I hate doctors so much today [#][5]
+  * On an unrelated note I need a beardhead from beardhead.com [#][6]
+  
+
+
+   [1]: http://twitter.com/awesomeguy/statuses/5364418118
+   [2]: http://findmeghanolcott.com
+   [3]: http://twitter.com/awesomeguy/statuses/5424514192
+   [4]: http://twitter.com/awesomeguy/statuses/5485888701
+   [5]: http://twitter.com/awesomeguy/statuses/5517305150
+   [6]: http://twitter.com/awesomeguy/statuses/5520139260
+

@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,4 +21,5 @@ categories:
 tags: []
 comments: []
 ---
-<p>I am now 28 years old. Go me. Time for presents and cake. Yeah.</p>
+
+I am now 28 years old. Go me. Time for presents and cake. Yeah.

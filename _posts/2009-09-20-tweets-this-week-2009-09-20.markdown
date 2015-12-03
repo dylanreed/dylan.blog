@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,14 +21,32 @@ categories:
 tags: []
 comments: []
 ---
-<ul class="aktt_tweet_digest">
-<li>Reno wants me to fail <a href="http://twitpic.com/hm0mf" rel="nofollow">http://twitpic.com/hm0mf</a> <a href="http://twitter.com/awesomeguy/statuses/3958796462" class="aktt_tweet_time">#</a></li>
-<li>Starting to take shape <a href="http://twitpic.com/htigh" rel="nofollow">http://twitpic.com/htigh</a> <a href="http://twitter.com/awesomeguy/statuses/4005072005" class="aktt_tweet_time">#</a></li>
-<li>Pre baking <a href="http://twitpic.com/hu518" rel="nofollow">http://twitpic.com/hu518</a> <a href="http://twitter.com/awesomeguy/statuses/4008925354" class="aktt_tweet_time">#</a></li>
-<li>Exciting!!!!!! School!!!!!! Awesome!!!!!! Exclaimation points!!!!!! <a href="http://twitter.com/awesomeguy/statuses/4031817194" class="aktt_tweet_time">#</a></li>
-<li>Time to paint <a href="http://twitpic.com/i28bn" rel="nofollow">http://twitpic.com/i28bn</a> <a href="http://twitter.com/awesomeguy/statuses/4058039060" class="aktt_tweet_time">#</a></li>
-<li>Painting like a bastard  <a href="http://twitpic.com/i324i" rel="nofollow">http://twitpic.com/i324i</a> <a href="http://twitter.com/awesomeguy/statuses/4062538919" class="aktt_tweet_time">#</a></li>
-<li>I am done!!! I think...  <a href="http://twitpic.com/i3egv" rel="nofollow">http://twitpic.com/i3egv</a> <a href="http://twitter.com/awesomeguy/statuses/4064357883" class="aktt_tweet_time">#</a></li>
-<li>Sleepy and undedicated. I am now a fan of ???????? <a href="http://twitter.com/awesomeguy/statuses/4081273112" class="aktt_tweet_time">#</a></li>
-<li>Bio exam one= 76%. 2% above class average, go me!! <a href="http://twitter.com/awesomeguy/statuses/4083500644" class="aktt_tweet_time">#</a></li><br />
-</ul></p>
+
+  * Reno wants me to fail [http://twitpic.com/hm0mf][1] [#][2]
+  * Starting to take shape [http://twitpic.com/htigh][3] [#][4]
+  * Pre baking [http://twitpic.com/hu518][5] [#][6]
+  * Exciting!!!!!! School!!!!!! Awesome!!!!!! Exclaimation points!!!!!! [#][7]
+  * Time to paint [http://twitpic.com/i28bn][8] [#][9]
+  * Painting like a bastard [http://twitpic.com/i324i][10] [#][11]
+  * I am done!!! I think... [http://twitpic.com/i3egv][12] [#][13]
+  * Sleepy and undedicated. I am now a fan of ???????? [#][14]
+  * Bio exam one= 76%. 2% above class average, go me!! [#][15]
+  
+
+
+   [1]: http://twitpic.com/hm0mf
+   [2]: http://twitter.com/awesomeguy/statuses/3958796462
+   [3]: http://twitpic.com/htigh
+   [4]: http://twitter.com/awesomeguy/statuses/4005072005
+   [5]: http://twitpic.com/hu518
+   [6]: http://twitter.com/awesomeguy/statuses/4008925354
+   [7]: http://twitter.com/awesomeguy/statuses/4031817194
+   [8]: http://twitpic.com/i28bn
+   [9]: http://twitter.com/awesomeguy/statuses/4058039060
+   [10]: http://twitpic.com/i324i
+   [11]: http://twitter.com/awesomeguy/statuses/4062538919
+   [12]: http://twitpic.com/i3egv
+   [13]: http://twitter.com/awesomeguy/statuses/4064357883
+   [14]: http://twitter.com/awesomeguy/statuses/4081273112
+   [15]: http://twitter.com/awesomeguy/statuses/4083500644
+

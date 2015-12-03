@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,5 +21,7 @@ categories:
 tags: []
 comments: []
 ---
-<p>There is nothing better in the world then waking up to the sounds of cats having sex, yep freda is in heat woohoo</p>
-<p>oh yeah and i got two a's and a b</p>
+
+There is nothing better in the world then waking up to the sounds of cats having sex, yep freda is in heat woohoo
+
+oh yeah and i got two a's and a b

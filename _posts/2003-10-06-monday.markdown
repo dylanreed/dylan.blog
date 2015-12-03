@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -22,6 +23,7 @@ categories:
 tags: []
 comments: []
 ---
-<p>Emoticons rock. So I am back to school today, and what a fun day it is. Today so far I have learned about learning, specifically language. I found out today that if you are a taught a second language between the ages of 0 and 7 years you will rock at both that language and your natural language. This includes sign language. I wish I would have learned a second language when I was young. Especially since studies by Newport have shown a link to better school performance and those who learn a second language when they are young. Isn't it great how psychollogy lets you blame everything on when you where younger and therefore on you parents. Maybe if I had learned another language when I was young I wouldn't have to use spell check when ever I do an entry.<br />
-<a id="more"></a><a id="more-69"></a><br />
-Emoticons rock. So i am back to school today, and what a fun day it is. Today sofar i have learned about learning. Specifically language. I found out today that if you are a taught a second language between the ages of 0 and 7 years you will rock at both that language and your natural language. this includes sign language. I wish i would have learned a second language when i was young. Especially since studies by Newport have shown a link to better school performance and those who learn a second language when they are young. Isn't it great how psychollogy lets you blame everything on when you where younger and therefore on you parents. maybe if i had learned another language when i was young i wouldn't have to use spell check when ever i do an entry</p>
+
+Emoticons rock. So I am back to school today, and what a fun day it is. Today so far I have learned about learning, specifically language. I found out today that if you are a taught a second language between the ages of 0 and 7 years you will rock at both that language and your natural language. This includes sign language. I wish I would have learned a second language when I was young. Especially since studies by Newport have shown a link to better school performance and those who learn a second language when they are young. Isn't it great how psychollogy lets you blame everything on when you where younger and therefore on you parents. Maybe if I had learned another language when I was young I wouldn't have to use spell check when ever I do an entry.  
+  
+Emoticons rock. So i am back to school today, and what a fun day it is. Today sofar i have learned about learning. Specifically language. I found out today that if you are a taught a second language between the ages of 0 and 7 years you will rock at both that language and your natural language. this includes sign language. I wish i would have learned a second language when i was young. Especially since studies by Newport have shown a link to better school performance and those who learn a second language when they are young. Isn't it great how psychollogy lets you blame everything on when you where younger and therefore on you parents. maybe if i had learned another language when i was young i wouldn't have to use spell check when ever i do an entry

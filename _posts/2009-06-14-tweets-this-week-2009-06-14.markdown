@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,40 +21,94 @@ categories:
 tags: []
 comments: []
 ---
-<ul class="aktt_tweet_digest">
-<li>Need to blog today. It has been too long since a real blog post. Be prepared for an unfocused rambling blog later today. <a href="http://twitter.com/awesomeguy/statuses/2076428840">#</a></li>
-<li>Awesome Guy Rescue on Facebook: <a href="http://ginx.com/-zzRzY" rel="nofollow">http://ginx.com/-zzRzY</a> <a href="http://twitter.com/awesomeguy/statuses/2078901463">#</a></li>
-<li>Hail is awesome <a href="http://twitter.com/awesomeguy/statuses/2096690376">#</a></li>
-<li>@<a href="http://twitter.com/harper">harper</a> can you talk right now? <a href="http://twitter.com/awesomeguy/statuses/2110495973">#</a></li>
-<li>@<a href="http://twitter.com/harper">harper</a> call me when your brain is working <a href="http://twitter.com/harper/statuses/2116355713">in reply to harper</a> <a href="http://twitter.com/awesomeguy/statuses/2117198432">#</a></li>
-<li>In boulder grtting sarah a new computer <a href="http://twitter.com/awesomeguy/statuses/2121898472">#</a></li>
-<li>Apple education discount makes it all better <a href="http://twitter.com/awesomeguy/statuses/2122905519">#</a></li>
-<li>Go iphone <a href="http://twitter.com/awesomeguy/statuses/2125559210">#</a></li>
-<li>@<a href="http://twitter.com/detour1999">detour1999</a> you need to suck it up and go full sick <a href="http://twitter.com/detour1999/statuses/2126257449">in reply to detour1999</a> <a href="http://twitter.com/awesomeguy/statuses/2126306790">#</a></li>
-<li>Goood night!!! <a href="http://twitter.com/awesomeguy/statuses/2126810785">#</a></li>
-<li>iPhone is fun. Too much fun <a href="http://twitter.com/awesomeguy/statuses/2131342124">#</a></li>
-<li>Just setup a network drive. Go me. Plus next time we lose a computer we will have back ups <a href="http://twitter.com/awesomeguy/statuses/2132096526">#</a></li>
-<li>@<a href="http://twitter.com/yoyocottage">yoyocottage</a> I think it will. I know someone who uses frisbees for the same purpose <a href="http://twitter.com/yoyocottage/statuses/2132076706">in reply to yoyocottage</a> <a href="http://twitter.com/awesomeguy/statuses/2132110231">#</a></li>
-<li>I wonder how much more I will tweet now that I have an iPhone? <a href="http://twitter.com/awesomeguy/statuses/2132121072">#</a></li>
-<li>@<a href="http://twitter.com/yoyocottage">yoyocottage</a> yeah I hadn't considered that <a href="http://twitter.com/yoyocottage/statuses/2132164707">in reply to yoyocottage</a> <a href="http://twitter.com/awesomeguy/statuses/2132266274">#</a></li>
-<li>@<a href="http://twitter.com/detour1999">detour1999</a> me too. <a href="http://twitter.com/detour1999/statuses/2132331825">in reply to detour1999</a> <a href="http://twitter.com/awesomeguy/statuses/2132529241">#</a></li>
-<li>Best flicks app to send pictures to flickrs is... <a href="http://twitter.com/awesomeguy/statuses/2132549157">#</a></li>
-<li>Guess who made it into CSU? It's me! <a href="http://twitter.com/awesomeguy/statuses/2132757728">#</a></li>
-<li>@<a href="http://twitter.com/benhagen">benhagen</a> thanks <a href="http://twitter.com/benhagen/statuses/2133394843">in reply to benhagen</a> <a href="http://twitter.com/awesomeguy/statuses/2133638206">#</a></li>
-<li>Headed towards an afternoon of waiting room waiting <a href="http://twitter.com/awesomeguy/statuses/2134713959">#</a></li>
-<li>@<a href="http://twitter.com/ryankanno">ryankanno</a> thanks <a href="http://twitter.com/ryankanno/statuses/2134749366">in reply to ryankanno</a> <a href="http://twitter.com/awesomeguy/statuses/2135048826">#</a></li>
-<li>@<a href="http://twitter.com/ryankanno">ryankanno</a> art specifically fibers <a href="http://twitter.com/ryankanno/statuses/2135058166">in reply to ryankanno</a> <a href="http://twitter.com/awesomeguy/statuses/2135467647">#</a></li>
-<li>@<a href="http://twitter.com/detour1999">detour1999</a> sorry iPhone saved a tweet that was meant for elsewhere. Congrat is what I meant <a href="http://twitter.com/detour1999/statuses/2147653562">in reply to detour1999</a> <a href="http://twitter.com/awesomeguy/statuses/2147753658">#</a></li>
-<li>@<a href="http://twitter.com/detour1999">detour1999</a> sounds good <a href="http://twitter.com/awesomeguy/statuses/2147936302">#</a></li>
-<li>Mac n cheese <a href="http://twitter.com/awesomeguy/statuses/2148474685">#</a></li>
-<li>So full. Thanks Nan. <a href="http://twitter.com/awesomeguy/statuses/2148922382">#</a></li>
-<li>Off to work I go <a href="http://twitter.com/awesomeguy/statuses/2154392746">#</a></li>
-<li>Stomach mad. Must not cry. <a href="http://twitter.com/awesomeguy/statuses/2155319783">#</a></li>
-<li>Almost done with work <a href="http://twitter.com/awesomeguy/statuses/2155931659">#</a></li>
-<li>Time for lunch <a href="http://twitter.com/awesomeguy/statuses/2156698556">#</a></li>
-<li>Cleaning up my computer. Also suffering from mac envy :( <a href="http://twitter.com/awesomeguy/statuses/2157742184">#</a></li>
-<li>Getting ready for family dinner. Jealous? <a href="http://twitter.com/awesomeguy/statuses/2158550494">#</a></li>
-<li>Dinner in foco <a href="http://twitter.com/awesomeguy/statuses/2158991742">#</a></li>
-<li>Hey flickr guess who has a camera phone again? <a href="http://twitter.com/awesomeguy/statuses/2160517296">#</a></li>
-<li>Good night world <a href="http://twitpic.com/7csno" rel="nofollow">http://twitpic.com/7csno</a> <a href="http://twitter.com/awesomeguy/statuses/2161840194">#</a></li><br />
-</ul></p>
+
+  * Need to blog today. It has been too long since a real blog post. Be prepared for an unfocused rambling blog later today. [#][1]
+  * Awesome Guy Rescue on Facebook: [http://ginx.com/-zzRzY][2] [#][3]
+  * Hail is awesome [#][4]
+  * @[harper][5] can you talk right now? [#][6]
+  * @[harper][5] call me when your brain is working [in reply to harper][7] [#][8]
+  * In boulder grtting sarah a new computer [#][9]
+  * Apple education discount makes it all better [#][10]
+  * Go iphone [#][11]
+  * @[detour1999][12] you need to suck it up and go full sick [in reply to detour1999][13] [#][14]
+  * Goood night!!! [#][15]
+  * iPhone is fun. Too much fun [#][16]
+  * Just setup a network drive. Go me. Plus next time we lose a computer we will have back ups [#][17]
+  * @[yoyocottage][18] I think it will. I know someone who uses frisbees for the same purpose [in reply to yoyocottage][19] [#][20]
+  * I wonder how much more I will tweet now that I have an iPhone? [#][21]
+  * @[yoyocottage][18] yeah I hadn't considered that [in reply to yoyocottage][22] [#][23]
+  * @[detour1999][12] me too. [in reply to detour1999][24] [#][25]
+  * Best flicks app to send pictures to flickrs is... [#][26]
+  * Guess who made it into CSU? It's me! [#][27]
+  * @[benhagen][28] thanks [in reply to benhagen][29] [#][30]
+  * Headed towards an afternoon of waiting room waiting [#][31]
+  * @[ryankanno][32] thanks [in reply to ryankanno][33] [#][34]
+  * @[ryankanno][32] art specifically fibers [in reply to ryankanno][35] [#][36]
+  * @[detour1999][12] sorry iPhone saved a tweet that was meant for elsewhere. Congrat is what I meant [in reply to detour1999][37] [#][38]
+  * @[detour1999][12] sounds good [#][39]
+  * Mac n cheese [#][40]
+  * So full. Thanks Nan. [#][41]
+  * Off to work I go [#][42]
+  * Stomach mad. Must not cry. [#][43]
+  * Almost done with work [#][44]
+  * Time for lunch [#][45]
+  * Cleaning up my computer. Also suffering from mac envy :( [#][46]
+  * Getting ready for family dinner. Jealous? [#][47]
+  * Dinner in foco [#][48]
+  * Hey flickr guess who has a camera phone again? [#][49]
+  * Good night world [http://twitpic.com/7csno][50] [#][51]
+  
+
+
+   [1]: http://twitter.com/awesomeguy/statuses/2076428840
+   [2]: http://ginx.com/-zzRzY
+   [3]: http://twitter.com/awesomeguy/statuses/2078901463
+   [4]: http://twitter.com/awesomeguy/statuses/2096690376
+   [5]: http://twitter.com/harper
+   [6]: http://twitter.com/awesomeguy/statuses/2110495973
+   [7]: http://twitter.com/harper/statuses/2116355713
+   [8]: http://twitter.com/awesomeguy/statuses/2117198432
+   [9]: http://twitter.com/awesomeguy/statuses/2121898472
+   [10]: http://twitter.com/awesomeguy/statuses/2122905519
+   [11]: http://twitter.com/awesomeguy/statuses/2125559210
+   [12]: http://twitter.com/detour1999
+   [13]: http://twitter.com/detour1999/statuses/2126257449
+   [14]: http://twitter.com/awesomeguy/statuses/2126306790
+   [15]: http://twitter.com/awesomeguy/statuses/2126810785
+   [16]: http://twitter.com/awesomeguy/statuses/2131342124
+   [17]: http://twitter.com/awesomeguy/statuses/2132096526
+   [18]: http://twitter.com/yoyocottage
+   [19]: http://twitter.com/yoyocottage/statuses/2132076706
+   [20]: http://twitter.com/awesomeguy/statuses/2132110231
+   [21]: http://twitter.com/awesomeguy/statuses/2132121072
+   [22]: http://twitter.com/yoyocottage/statuses/2132164707
+   [23]: http://twitter.com/awesomeguy/statuses/2132266274
+   [24]: http://twitter.com/detour1999/statuses/2132331825
+   [25]: http://twitter.com/awesomeguy/statuses/2132529241
+   [26]: http://twitter.com/awesomeguy/statuses/2132549157
+   [27]: http://twitter.com/awesomeguy/statuses/2132757728
+   [28]: http://twitter.com/benhagen
+   [29]: http://twitter.com/benhagen/statuses/2133394843
+   [30]: http://twitter.com/awesomeguy/statuses/2133638206
+   [31]: http://twitter.com/awesomeguy/statuses/2134713959
+   [32]: http://twitter.com/ryankanno
+   [33]: http://twitter.com/ryankanno/statuses/2134749366
+   [34]: http://twitter.com/awesomeguy/statuses/2135048826
+   [35]: http://twitter.com/ryankanno/statuses/2135058166
+   [36]: http://twitter.com/awesomeguy/statuses/2135467647
+   [37]: http://twitter.com/detour1999/statuses/2147653562
+   [38]: http://twitter.com/awesomeguy/statuses/2147753658
+   [39]: http://twitter.com/awesomeguy/statuses/2147936302
+   [40]: http://twitter.com/awesomeguy/statuses/2148474685
+   [41]: http://twitter.com/awesomeguy/statuses/2148922382
+   [42]: http://twitter.com/awesomeguy/statuses/2154392746
+   [43]: http://twitter.com/awesomeguy/statuses/2155319783
+   [44]: http://twitter.com/awesomeguy/statuses/2155931659
+   [45]: http://twitter.com/awesomeguy/statuses/2156698556
+   [46]: http://twitter.com/awesomeguy/statuses/2157742184
+   [47]: http://twitter.com/awesomeguy/statuses/2158550494
+   [48]: http://twitter.com/awesomeguy/statuses/2158991742
+   [49]: http://twitter.com/awesomeguy/statuses/2160517296
+   [50]: http://twitpic.com/7csno
+   [51]: http://twitter.com/awesomeguy/statuses/2161840194
+

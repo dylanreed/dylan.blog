@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,5 +21,16 @@ categories:
 tags: []
 comments: []
 ---
-<p>&nbsp;<a href="http://half-life2.com/" atomicselection="true"><img src="http://half-life2.com/img/main04/main04_06.jpg"/></a> <a href="http://half-life2.com/" atomicselection="true"><img src="http://half-life2.com/img/main04/main04_07.jpg"/></a><a href="http://half-life2.com/" atomicselection="true"><img src="http://half-life2.com/img/main04/main04_10.jpg"/></a>&nbsp;<a href="http://half-life2.com/" atomicselection="true"><img src="http://half-life2.com/img/main04/main04_11.jpg"/></a> </p>
-<p>I think this is <a href="http://www.markhaywardismyhero.com/">Mark Hayward</a>. Anyone agree?</p></p>
+
+ [![][1]][2] [![][3]][2][![][4]][2] [![][5]][2]
+
+   [1]: http://half-life2.com/img/main04/main04_06.jpg
+   [2]: http://half-life2.com/
+   [3]: http://half-life2.com/img/main04/main04_07.jpg
+   [4]: http://half-life2.com/img/main04/main04_10.jpg
+   [5]: http://half-life2.com/img/main04/main04_11.jpg
+
+I think this is [Mark Hayward][6]. Anyone agree?
+
+   [6]: http://www.markhaywardismyhero.com/
+

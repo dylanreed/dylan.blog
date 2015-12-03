@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,6 +21,12 @@ categories:
 tags: []
 comments: []
 ---
-<p>So harper introduced me to this great game p<a href="http://www.piratewars2.com">i</a>rate w<a href="http://">a</a>rs2 it rulez</p>
-<p>everyone watch out fot the dread ship MonkeyPants</p>
-<p>I guess we are going to party on saturday night</p>
+
+So harper introduced me to this great game p[i][1]rate w[a][2]rs2 it rulez
+
+   [1]: http://www.piratewars2.com
+   [2]: http://
+
+everyone watch out fot the dread ship MonkeyPants
+
+I guess we are going to party on saturday night

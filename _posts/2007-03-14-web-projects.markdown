@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,9 +21,16 @@ tags:
 - Projects
 comments: []
 ---
-<p>Here are some of my web projects that I have been working on:</p>
-<ul>
-<li><a href="http://www.clownsareawesome.com">ClownsAreAwesome.com</a>: This is a site I started to discuss my feelings on entertaining and clowning. I write about everythig from clowning basics all the way up to performance mechanics.</li>
-<li><a href="http://imadeit.myshopify.com/">IMADEIT</a>: This is my shop where I sell purses, hoodies and scarves that my wife and I make. Check it out, we make awesome, awesome stuff.</li>
-<li><a href="http://www.clownusability.com">ClownUsability</a>: This is where I discuss my feelings on making websites more user friendly.</li><br />
-</ul></p>
+
+Here are some of my web projects that I have been working on:
+
+  * [ClownsAreAwesome.com][1]: This is a site I started to discuss my feelings on entertaining and clowning. I write about everythig from clowning basics all the way up to performance mechanics.
+  * [IMADEIT][2]: This is my shop where I sell purses, hoodies and scarves that my wife and I make. Check it out, we make awesome, awesome stuff.
+  * [ClownUsability][3]: This is where I discuss my feelings on making websites more user friendly.
+  
+
+
+   [1]: http://www.clownsareawesome.com
+   [2]: http://imadeit.myshopify.com/
+   [3]: http://www.clownusability.com
+

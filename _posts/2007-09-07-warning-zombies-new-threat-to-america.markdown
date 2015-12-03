@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -21,7 +22,10 @@ tags:
 - Books
 comments: []
 ---
-<p>After reading World War Z I realized that America and the world are toast if Zombies ever attack. Basically you need to be prepared to decapitate your loved ones if they get the sickness.</p>
-<p>I remember reading the book and thinking to myself, thank god it is just a book. Then I saw this:</p>
-<p><embed width="325" height="268" type="application/x-shockwave-flash" src="http://www.youtube.com/v/IoXgRtDysLY" wmode="transparent"/>As I watched this I realized that finally a war I could get behind. I mean terrorist that may or may not want to kill americans are hard to fight. The living dead, that is an enemy I can kill and understand.<br />
-<!--adsense#text--></p>
+
+After reading World War Z I realized that America and the world are toast if Zombies ever attack. Basically you need to be prepared to decapitate your loved ones if they get the sickness.
+
+I remember reading the book and thinking to myself, thank god it is just a book. Then I saw this:
+
+As I watched this I realized that finally a war I could get behind. I mean terrorist that may or may not want to kill americans are hard to fight. The living dead, that is an enemy I can kill and understand.  
+

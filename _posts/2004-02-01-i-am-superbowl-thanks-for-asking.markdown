@@ -1,4 +1,5 @@
 ---
+
 layout: post
 status: publish
 published: true
@@ -20,6 +21,7 @@ categories:
 tags: []
 comments: []
 ---
-<p>&nbsp;&nbsp;&nbsp;So here we are "watching" the superbowl. Actually we are watching the commercials and doing homework and such during the actual game. It is quite fun. The game is good with people getting hit hard but the commercials are better. Such as the one with the Budwieser Donkey and the one with the Farting horse. those ruled<br />
-&nbsp;&nbsp;&nbsp;Thomas has been sitting with me and cufddling with me. Its nice to have a kitty that likes to sit with you. He is so cute.<br />
-&nbsp;&nbsp;&nbsp;Love Dylan</p>
+
+   So here we are "watching" the superbowl. Actually we are watching the commercials and doing homework and such during the actual game. It is quite fun. The game is good with people getting hit hard but the commercials are better. Such as the one with the Budwieser Donkey and the one with the Farting horse. those ruled  
+   Thomas has been sitting with me and cufddling with me. Its nice to have a kitty that likes to sit with you. He is so cute.  
+   Love Dylan
