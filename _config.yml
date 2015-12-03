@@ -10,8 +10,7 @@ author:
   email:      'dylan@dylanreed.com'
   twitter:    '@dylanreed'
   homepage:   'dylanreed.com'
-permalink:    pretty
-
+permalink: /:year/:month/:day/:title/
 paginate:     10
-#gravatar_hash: 36aff981378cc0b408b7d1bc2f082741
+gravatar_hash: 36aff981378cc0b408b7d1bc2f082741
 gems: [jekyll-paginate]
