@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 838
-wordpress_url: http://www.dylanreed.com/?p=838
+wordpress_url: //?p=838
 date: '2009-03-18 06:00:28 -0500'
 date_gmt: '2009-03-18 14:00:28 -0500'
 categories: []
@@ -23,7 +23,7 @@ comments:
 - id: 45651
   author: dylanreed.com &raquo; Blog Archive &raquo; An Attack of ADHD
   author_email: ''
-  author_url: http://www.dylanreed.com/2009/03/19/an-attack-of-adhd/
+  author_url: //2009/03/19/an-attack-of-adhd/
   date: '2009-03-19 05:27:44 -0500'
   date_gmt: '2009-03-19 13:27:44 -0500'
   content: '[...] A New Fighter has Entered the Ring  [...]'

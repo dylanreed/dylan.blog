@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 1430
-wordpress_url: http://www.dylanreed.com/?p=1430
+wordpress_url: //?p=1430
 date: '2012-03-27 08:05:56 -0500'
 date_gmt: '2012-03-27 15:05:56 -0500'
 categories:

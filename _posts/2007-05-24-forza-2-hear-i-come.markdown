@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 384
 wordpress_url: http://www.dylanreed.org/2007/05/24/forza-2-hear-i-come/
 date: '2007-05-24 10:34:50 -0500'

@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 807
-wordpress_url: http://www.dylanreed.com/2009/03/13/d-d-financial-help/
+wordpress_url: //2009/03/13/d-d-financial-help/
 date: '2009-03-13 05:00:00 -0500'
 date_gmt: '2009-03-13 13:00:00 -0500'
 categories:
@@ -42,9 +42,9 @@ If you have questions please let me know and I will do my best to help. I am not
 
 [Pre-Office 2007][1]
 
-   [1]: http://www.dylanreed.com/wp-content/uploads/2009/03/legendary-budget.xls
+   [1]: /media/2009/03/legendary-budget.xls
 
 [Office 2007][2]
 
-   [2]: http://www.dylanreed.com/wp-content/uploads/2009/03/legendary-budget.xlsx
+   [2]: /media/2009/03/legendary-budget.xlsx
 

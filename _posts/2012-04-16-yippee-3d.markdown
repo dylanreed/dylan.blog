@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 1484
-wordpress_url: http://www.dylanreed.com/?p=1484
+wordpress_url: //?p=1484
 date: '2012-04-16 14:18:41 -0500'
 date_gmt: '2012-04-16 21:18:41 -0500'
 categories:
@@ -24,7 +24,7 @@ comments: []
 
 As I posted [here][1] I have a crush on the Nintendo 3DS. As luck would have it I now have one. I got the blue-ish one and I love it. I have Mario Kart 7 and Super Mario Land 3D. I am enjoying both of them a lot and find the 3D to be more then just a fancy gimmick. What I like is that you can turn it off if it hurts your brain or if you are going to be moving a lot while playing.
 
-   [1]: http://www.dylanreed.com/2011/03/30/nostalgic-target-adventures/
+   [1]: //2011/03/30/nostalgic-target-adventures/
 
 So far I have played the most of Mario Kart 7. It is what you would expect of a Mario Kart game. Mario characters in Karts racing around tracks. There are a lot of new tracks as well as some old ones. What is really fun with this Mario Kart is the inclusion of gliders and underwater portions on courses. Nintendo even took the time to update the older courses to include these features. I also enjoy unlocking different Kart parts that let you modify the Kart to fit your style of play.
 

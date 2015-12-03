@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 236
 wordpress_url: http://www.dylanreed.org/2006/10/24/knees-fiasco-part-deux/
 date: '2006-10-24 10:43:52 -0500'

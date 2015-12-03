@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 756
-wordpress_url: http://www.dylanreed.com/2009/02/26/doing-what-you-love/
+wordpress_url: //2009/02/26/doing-what-you-love/
 date: '2009-02-26 07:00:57 -0600'
 date_gmt: '2009-02-26 15:00:57 -0600'
 categories:

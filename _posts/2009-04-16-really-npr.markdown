@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 910
-wordpress_url: http://www.dylanreed.com/?p=910
+wordpress_url: //?p=910
 date: '2009-04-16 06:34:37 -0500'
 date_gmt: '2009-04-16 14:34:37 -0500'
 categories:
@@ -32,7 +32,7 @@ comments:
 - id: 45675
   author: Dylan
   author_email: dylan@dylanreed.com
-  author_url: http://www.dylanreed.com
+  author_url: /
   date: '2009-04-16 17:28:11 -0500'
   date_gmt: '2009-04-17 01:28:11 -0500'
   content: Good point.

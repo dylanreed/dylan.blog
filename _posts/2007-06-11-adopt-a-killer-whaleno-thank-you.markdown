@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 401
 wordpress_url: http://www.dylanreed.org/2007/06/11/adopt-a-killer-whaleno-thank-you/
 date: '2007-06-11 16:00:22 -0500'

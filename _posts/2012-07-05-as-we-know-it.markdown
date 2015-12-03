@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 1525
-wordpress_url: http://www.dylanreed.com/?p=1525
+wordpress_url: //?p=1525
 date: '2012-07-05 08:30:59 -0500'
 date_gmt: '2012-07-05 15:30:59 -0500'
 categories:
@@ -24,7 +24,7 @@ comments: []
 
 [![][1]][2]I have been trying to come up with a good post about video game making for a while. I am by no means a well known developer. I am not even sure I am an indie developer... not yet. But then again maybe I am.
 
-   [1]: http://www.dylanreed.com/wp-content/uploads/2012/04/falling-cats-512-150x150.png (icon)
+   [1]: /media/2012/04/falling-cats-512-150x150.png (icon)
    [2]: http://itunes.apple.com/us/app/falling-cats/id501160569?mt=8
 
 Making a video game is hard. The main reason is deciding what you want to get across with your game. This is made harder by the fact that casual gaming has created a hole in gamings heart. A hole that seems to be filled with casual gaming. I love casual gaming; the quick gameplay and time wasting mechanics, but I miss the stories and difficulty that older generation games had.

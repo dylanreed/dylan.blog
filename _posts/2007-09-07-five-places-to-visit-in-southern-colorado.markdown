@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 455
 wordpress_url: http://www.dylanreed.org/2007/09/07/five-places-to-visit-in-southern-colorado/
 date: '2007-09-07 16:20:09 -0500'

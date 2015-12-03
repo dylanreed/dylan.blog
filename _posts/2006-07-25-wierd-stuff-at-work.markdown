@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 excerpt: "So i was searching in google for \"no soliciting sign rules in greeley CO\"
   in google and I found a swingers club in Denver. It was weird. Sometimes google
   makes me laugh\r\n\r\nAnyway. Today when I got home from work I went through and

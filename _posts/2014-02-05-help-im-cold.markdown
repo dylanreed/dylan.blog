@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 1733
-wordpress_url: http://www.dylanreed.com/?p=1733
+wordpress_url: //?p=1733
 date: '2014-02-05 04:49:14 -0600'
 date_gmt: '2014-02-05 11:49:14 -0600'
 categories:
@@ -32,7 +32,7 @@ comments:
 
 [![20140205-115308.jpg][1]][1]
 
-   [1]: http://www.dylanreed.com/wp-content/uploads/2014/02/20140205-115308.jpg
+   [1]: /media/2014/02/20140205-115308.jpg
 
 It is cold today. Really cold. According to my phone (which is an iphone so it has to be correct) it is -40 with windchill in Greeley today. WTF. That is stupid cold. I am not a fan.
 

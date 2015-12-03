@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 252
 wordpress_url: http://www.dylanreed.org/2006/12/18/piratesslaves/
 date: '2006-12-18 11:59:09 -0600'

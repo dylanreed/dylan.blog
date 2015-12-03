@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 751
-wordpress_url: http://www.dylanreed.com/2009/02/21/its-the-hardest-thing/
+wordpress_url: //2009/02/21/its-the-hardest-thing/
 date: '2009-02-21 07:00:29 -0600'
 date_gmt: '2009-02-21 15:00:29 -0600'
 categories: []

@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 504
 wordpress_url: http://www.dylanreed.org/2008/03/13/chip-on-my-shoulder/
 date: '2008-03-13 08:43:30 -0500'
@@ -35,7 +35,7 @@ I am thinking about ordering something different for giveaways while entertainin
 
 [![nickel(2)][1]][2]
 
-   [1]: http://www.dylanreed.org/wp-content/uploads/2008/03/nickel2-thumb.jpg
-   [2]: http://www.dylanreed.org/wp-content/uploads/2008/03/nickel2.jpg
+   [1]: http://www.dylanreed.org//media/2008/03/nickel2-thumb.jpg
+   [2]: http://www.dylanreed.org//media/2008/03/nickel2.jpg
 
 What do you think?

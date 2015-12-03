@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 342
 wordpress_url: http://www.dylanreed.org/2007/04/02/digital-picture-frame/
 date: '2007-04-02 18:29:51 -0500'

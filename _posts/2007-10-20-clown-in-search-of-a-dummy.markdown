@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 475
 wordpress_url: http://www.dylanreed.org/2007/10/20/clown-in-search-of-a-dummy/
 date: '2007-10-20 08:00:50 -0500'

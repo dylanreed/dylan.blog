@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 784
-wordpress_url: http://www.dylanreed.com/2009/03/04/thanks-internet-insert-thumbs-up-here/
+wordpress_url: //2009/03/04/thanks-internet-insert-thumbs-up-here/
 date: '2009-03-04 07:00:00 -0600'
 date_gmt: '2009-03-04 15:00:00 -0600'
 categories:

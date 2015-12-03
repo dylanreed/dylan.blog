@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 1509
-wordpress_url: http://www.dylanreed.com/?p=1509
+wordpress_url: //?p=1509
 date: '2012-04-27 11:55:56 -0500'
 date_gmt: '2012-04-27 18:55:56 -0500'
 categories:
@@ -24,7 +24,7 @@ comments: []
 
 [![][1]][2]I just released v. 1.0 of [Falling Cats][2] on the iTunes Market for free. So go download it... I'll wait...
 
-   [1]: http://www.dylanreed.com/wp-content/uploads/2012/04/falling-cats-512-150x150.png (falling-cats-512)
+   [1]: /media/2012/04/falling-cats-512-150x150.png (falling-cats-512)
    [2]: http://itunes.apple.com/us/app/falling-cats/id501160569?mt=8
 
 ...

@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 1594
-wordpress_url: http://www.dylanreed.com/?p=1594
+wordpress_url: //?p=1594
 date: '2012-11-30 10:59:41 -0600'
 date_gmt: '2012-11-30 17:59:41 -0600'
 categories:
@@ -26,8 +26,8 @@ I finally finished building a foam puppet... It only took  me a couple years to 
 
 [![][1]][2]
 
-   [1]: http://www.dylanreed.com/wp-content/uploads/2012/11/photo-1024x1024.jpg (Puppet)
-   [2]: http://www.dylanreed.com/wp-content/uploads/2012/11/photo.jpg
+   [1]: /media/2012/11/photo-1024x1024.jpg (Puppet)
+   [2]: /media/2012/11/photo.jpg
 
 Things I would change:
 

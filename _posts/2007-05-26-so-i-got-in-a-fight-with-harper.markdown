@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 383
 wordpress_url: http://www.dylanreed.org/2007/05/26/so-i-got-in-a-fight-with-harper/
 date: '2007-05-26 10:08:42 -0500'

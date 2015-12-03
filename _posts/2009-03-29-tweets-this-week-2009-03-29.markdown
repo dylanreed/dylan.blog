@@ -13,7 +13,7 @@ author_login: admin
 author_email: dylan@dylanreed.org
 author_url: http://
 wordpress_id: 871
-wordpress_url: http://www.dylanreed.com/2009/03/29/tweets-this-week-2009-03-29/
+wordpress_url: //2009/03/29/tweets-this-week-2009-03-29/
 date: '2009-03-29 09:00:00 -0500'
 date_gmt: '2009-03-29 17:00:00 -0500'
 categories:
@@ -50,7 +50,7 @@ Headed home for GAME NIGHT!!! [#][6]
   * The cheerleaders are trying to bring the noise [#][18]
   * The latino dancers may win, but I just saw a collection of little violin players... [#][19]
   * Violins for the wins [#][20]
-  * Don't forget to buy me a slurpee!! [http://www.dylanreed.com][21] [#][22]
+  * Don't forget to buy me a slurpee!! [/][21] [#][22]
   * Sleepy need a nap [#][23]
   * Watching heros. Yipee [#][24]
   * My throat is sore and it sucks [#][25]
@@ -71,7 +71,7 @@ $17.00 This handsome creatu.. [http://tinyurl.com/de324a][26] [#][27]
    [18]: http://twitter.com/awesomeguy/statuses/1408226476
    [19]: http://twitter.com/awesomeguy/statuses/1408405027
    [20]: http://twitter.com/awesomeguy/statuses/1408518935
-   [21]: http://www.dylanreed.com
+   [21]: /
    [22]: http://twitter.com/awesomeguy/statuses/1408527748
    [23]: http://twitter.com/awesomeguy/statuses/1408971598
    [24]: http://twitter.com/awesomeguy/statuses/1409205973

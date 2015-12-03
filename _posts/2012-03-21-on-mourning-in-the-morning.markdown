@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 1420
-wordpress_url: http://www.dylanreed.com/?p=1420
+wordpress_url: //?p=1420
 date: '2012-03-21 09:21:32 -0500'
 date_gmt: '2012-03-21 16:21:32 -0500'
 categories:
@@ -25,7 +25,7 @@ comments: []
 
 ![][1]
 
-   [1]: http://www.dylanreed.com/wp-content/uploads/2012/03/Screen-Shot-2012-03-21-at-10.17.33-AM.png (Screen Shot 2012-03-21 at 10.17.33 AM)
+   [1]: /media/2012/03/Screen-Shot-2012-03-21-at-10.17.33-AM.png (Screen Shot 2012-03-21 at 10.17.33 AM)
 
 On March 19th 2012 my [Grandfather][2](the only one I have ever known) died. He went peacefully in his sleep not screaming like everyone else in the car. Sorry. I always liked that joke.  He did go peacefully. The interesting thing is that I went and visited him on the 13th of March to say my goodbyes because it was apparent that he was not long for this world. When I saw him he was non-responsive, just twitching a little when I held his hand, talked to him and kissed his forehead before I left. Death is hard.
 

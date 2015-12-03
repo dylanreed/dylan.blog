@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 1188
-wordpress_url: http://www.dylanreed.com/?p=1188
+wordpress_url: //?p=1188
 date: '2011-02-09 09:52:26 -0600'
 date_gmt: '2011-02-09 17:52:26 -0600'
 categories:
@@ -24,7 +24,7 @@ comments: []
 
 [caption id="attachment_1189" align="aligncenter" width="367" caption="The Cadavers here are the Fanciest"][![][1]][2][/caption]
 
-   [1]: http://www.dylanreed.com/wp-content/uploads/2011/02/Picture-1.png (Picture 1)
+   [1]: /media/2011/02/Picture-1.png (Picture 1)
    [2]: http://www.fancycadaver.com
 
 Fancy Cadaver is alive. It isn't what I initially intended it to be but I am really enjoying have a specific place to put my drawings for those of you who don't really care about my life and just want to see what I am currently drawing. So please check it out today.

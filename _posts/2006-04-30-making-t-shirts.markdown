@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 216
 wordpress_url: http://www.dylanreed.org/2006/04/30/making-t-shirts/
 date: '2006-04-30 16:56:12 -0500'

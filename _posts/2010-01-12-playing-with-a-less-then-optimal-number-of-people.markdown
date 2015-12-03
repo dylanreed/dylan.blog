@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 989
-wordpress_url: http://www.dylanreed.com/2010/01/12/playing-with-a-less-then-optimal-number-of-people/
+wordpress_url: //2010/01/12/playing-with-a-less-then-optimal-number-of-people/
 date: '2010-01-12 09:12:00 -0600'
 date_gmt: '2010-01-12 17:12:00 -0600'
 categories: []
@@ -32,7 +32,7 @@ comments:
 - id: 45925
   author: Dylan
   author_email: dylan@dylanreed.com
-  author_url: http://www.dylanreed.com
+  author_url: /
   date: '2010-01-19 11:24:23 -0600'
   date_gmt: '2010-01-19 19:24:23 -0600'
   content: That is an excellent point. I will have to make it a point to come to a

@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 907
-wordpress_url: http://www.dylanreed.com/?p=907
+wordpress_url: //?p=907
 date: '2009-04-15 13:59:47 -0500'
 date_gmt: '2009-04-15 21:59:47 -0500'
 categories:
@@ -24,8 +24,8 @@ comments: []
 
 [![idostuff][1]][2]
 
-   [1]: http://www.dylanreed.com/wp-content/uploads/2009/04/idostuff-300x204.jpg (idostuff)
-   [2]: http://www.dylanreed.com/wp-content/uploads/2009/04/idostuff.jpg
+   [1]: /media/2009/04/idostuff-300x204.jpg (idostuff)
+   [2]: /media/2009/04/idostuff.jpg
 
 In a world gone mad with too many things, where are you going to look for help getting stuff done? You're going to look to me, Dylan Reed. I do stuff. Any stuff. I have been doing stuff for a number of years and am very skilled at doing stuff.
 

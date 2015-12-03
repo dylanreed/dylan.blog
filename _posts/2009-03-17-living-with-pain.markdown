@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 835
-wordpress_url: http://www.dylanreed.com/2009/03/17/living-with-pain/
+wordpress_url: //2009/03/17/living-with-pain/
 date: '2009-03-17 04:36:30 -0500'
 date_gmt: '2009-03-17 12:36:30 -0500'
 categories:
@@ -32,7 +32,7 @@ comments:
 - id: 45650
   author: Dylan
   author_email: dylan@dylanreed.com
-  author_url: http://www.dylanreed.com
+  author_url: /
   date: '2009-03-17 10:46:11 -0500'
   date_gmt: '2009-03-17 18:46:11 -0500'
   content: I am glad you liked it. I am sorry to hear that your pain is brain pain.
@@ -42,7 +42,7 @@ comments:
 
 Chronic pain is a part of a lot of people's lives, [mine included][1]. The worst part of chronic pain is that you know you can't do anything about it, there are rarely any drugs that help with it, and you feel like you are the only one who is experiencing that type of pain. What I have noticed a lot of people doing is misinterpreting how they have to treat their pain.
 
-   [1]: http://www.dylanreed.com/category/injuries/
+   [1]: //category/injuries/
 
 Think of your pain as a roommate. You are living with it. You have to share a lot of your life with the pain, you may even have to change the way you live because of it but it doesn't change who you are at your core. If you are living with someone and they are annoying, you learn to deal with it, you may get mad or you may just ignore it, but you live with it. Pain is the same way.
 

@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 747
-wordpress_url: http://www.dylanreed.com/2009/02/19/skip-to-my-lou-2/
+wordpress_url: //2009/02/19/skip-to-my-lou-2/
 date: '2009-02-19 07:00:28 -0600'
 date_gmt: '2009-02-19 15:00:28 -0600'
 categories:

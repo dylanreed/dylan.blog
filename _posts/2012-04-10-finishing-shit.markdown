@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 1465
-wordpress_url: http://www.dylanreed.com/?p=1465
+wordpress_url: //?p=1465
 date: '2012-04-10 13:16:49 -0500'
 date_gmt: '2012-04-10 20:16:49 -0500'
 categories:
@@ -35,18 +35,18 @@ This post is to hopefully put these projects in prespective for me allowing me t
   
 
 
-   [1]: http://www.dylanreed.com/wp-content/uploads/2012/04/Arcade-200x300.png (Arcade)
-   [2]: http://www.dylanreed.com/wp-content/uploads/2012/04/Arcade.png
-   [3]: http://www.dylanreed.com/wp-content/uploads/2012/04/photo-225x300.jpg (photo)
+   [1]: /media/2012/04/Arcade-200x300.png (Arcade)
+   [2]: /media/2012/04/Arcade.png
+   [3]: /media/2012/04/photo-225x300.jpg (photo)
    [4]: http://www.fastmilo.com/
    [5]: http://graphicly.com
-   [6]: http://joeandem.com/wp-content/uploads/2010/06/joeandems.png (logo)
+   [6]: http://joeandem.com//media/2010/06/joeandems.png (logo)
 
   
 I am not going to lie. This process of listing out all of my current projects did nothing to help me prioritize. Damnit. I just need to commit to finishing them all I guess. Probably do some sort of crazy schedule that will allow me to work on each one everyday. Oh and this Fast Milo sprite I made totally has hands... they are just a little too light for the white background.
 
 [![][7]][8]
 
-   [7]: http://www.dylanreed.com/wp-content/uploads/2012/04/Milo_Milo.gif (Milo_Milo)
-   [8]: http://www.dylanreed.com/wp-content/uploads/2012/04/Milo_Milo.gif
+   [7]: /media/2012/04/Milo_Milo.gif (Milo_Milo)
+   [8]: /media/2012/04/Milo_Milo.gif
 

@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 220
 wordpress_url: http://www.dylanreed.org/2006/07/07/pspxbox360wii-and-opps/
 date: '2006-07-07 18:42:57 -0500'

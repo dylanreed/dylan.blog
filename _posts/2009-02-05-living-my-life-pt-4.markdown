@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 593
-wordpress_url: http://www.dylanreed.com/2009/02/05/living-my-life-pt-4/
+wordpress_url: //2009/02/05/living-my-life-pt-4/
 date: '2009-02-05 08:00:23 -0600'
 date_gmt: '2009-02-05 16:00:23 -0600'
 categories:

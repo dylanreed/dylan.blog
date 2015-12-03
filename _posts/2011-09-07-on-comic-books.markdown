@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 1334
-wordpress_url: http://www.dylanreed.com/?p=1334
+wordpress_url: //?p=1334
 date: '2011-09-07 05:12:01 -0500'
 date_gmt: '2011-09-07 12:12:01 -0500'
 categories:
@@ -30,7 +30,7 @@ comments:
 - id: 46915
   author: Dylan
   author_email: dylan@dylanreed.com
-  author_url: http://www.dylanreed.com
+  author_url: /
   date: '2011-09-07 09:01:29 -0500'
   date_gmt: '2011-09-07 16:01:29 -0500'
   content: you should. i have many suggestions
@@ -45,7 +45,7 @@ comments:
 - id: 46918
   author: Dylan
   author_email: dylan@dylanreed.com
-  author_url: http://www.dylanreed.com
+  author_url: /
   date: '2011-09-07 10:52:32 -0500'
   date_gmt: '2011-09-07 17:52:32 -0500'
   content: 'I thought that a decision had been made about superman and DC won. I am

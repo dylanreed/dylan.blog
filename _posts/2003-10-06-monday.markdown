@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 excerpt: |
   Emoticons rock. So I am back to school today, and what a fun day it is. Today so far I have learned about learning, specifically language. I found out today that if you are a taught a second language between the ages of 0 and 7 years you will rock at both that language and your natural language. This includes sign language. I wish I would have learned a second language when I was young. Especially since studies by Newport have shown a link to better school performance and those who learn a second language when they are young. Isn't it great how psychollogy lets you blame everything on when you where younger and therefore on you parents. Maybe if I had learned another language when I was young I wouldn't have to use spell check when ever I do an entry.
 wordpress_id: 69

@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 1453
-wordpress_url: http://www.dylanreed.com/?p=1453
+wordpress_url: //?p=1453
 date: '2012-03-29 15:06:59 -0500'
 date_gmt: '2012-03-29 22:06:59 -0500'
 categories:
@@ -32,7 +32,7 @@ What is hard right now is that I cannot begin to describe what I am feeling. I c
 
 [![][1]][2]
 
-   [1]: http://www.dylanreed.com/wp-content/uploads/2012/03/Robot_Dance.gif (Robot_Dance)
-   [2]: http://www.dylanreed.com/wp-content/uploads/2012/03/Robot_Dance.gif
+   [1]: /media/2012/03/Robot_Dance.gif (Robot_Dance)
+   [2]: /media/2012/03/Robot_Dance.gif
 
  

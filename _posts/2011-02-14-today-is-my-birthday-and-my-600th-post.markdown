@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 1209
-wordpress_url: http://www.dylanreed.com/?p=1209
+wordpress_url: //?p=1209
 date: '2011-02-14 13:24:27 -0600'
 date_gmt: '2011-02-14 21:24:27 -0600'
 categories:
@@ -31,7 +31,7 @@ First off thanks to everyone that has wished me happy birthday today. You are al
 
 [caption id="" align="aligncenter" width="342" caption="Happy Valentines Day"][![][1]][2][/caption]
 
-   [1]: http://fancycadaver.com/wp-content/uploads/2011/02/vdaycolor.jpg (Vday)
+   [1]: http://fancycadaver.com//media/2011/02/vdaycolor.jpg (Vday)
    [2]: http://fancycadaver.com/2011/02/14/happy-valentines-day/
 
 I decided to do a valentines day drawing today, mostly to celebrate my 30th b-day by being a creepy old man and drawing a scantily clad teenage girl. Actually I thought that this would be funny because I rarely do anything for v-day because it is my birthday and I prefer to get presents rather then give them on my birthday, because I am selfish.

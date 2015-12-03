@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 649
-wordpress_url: http://www.dylanreed.com/?p=649
+wordpress_url: //?p=649
 date: '2009-02-16 07:00:03 -0600'
 date_gmt: '2009-02-16 15:00:03 -0600'
 categories: []
@@ -43,7 +43,7 @@ comments:
 
 _This is the first part of the series The Trouble With Sharks. I have included a handy [reference page ][1]__so you can see where I pulled my information. _
 
-   [1]: http://www.dylanreed.com/shark-references/
+   [1]: //shark-references/
 
 Sharks. The word alone evokes powerful images: a fin slicing through dark water, a swimmer being suddenly pulled down from below, crimson stains spreading across the blue sea. Why is this? Is it because sharks are hungry human-killing machines? Or has their image been defined by media seeking to shock and terrify viewers? Ever since the classic film Jaws integrated these real animals into the template of the "monster movie", the image of the shark as a  murderous juggernaut has become iconic. Stripping away the horror-movie hype, however, reveals a fascinating and surprisingly vulnerable sea creature. It may be difficult to associate the word "vulnerable" with sharks, as this side of them is rarely seen or talked about. This great horror movie is to blame for the way that a lot of people view sharks. Everyone needs to take another look. 
 

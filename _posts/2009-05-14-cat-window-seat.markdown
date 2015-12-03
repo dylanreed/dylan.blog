@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 945
-wordpress_url: http://www.dylanreed.com/2009/05/14/cat-window-seat/
+wordpress_url: //2009/05/14/cat-window-seat/
 date: '2009-05-14 08:09:16 -0500'
 date_gmt: '2009-05-14 16:09:16 -0500'
 categories:
@@ -50,7 +50,7 @@ comments:
 - id: 45701
   author: Dylan
   author_email: dylan@dylanreed.com
-  author_url: http://www.dylanreed.com
+  author_url: /
   date: '2009-05-18 06:22:13 -0500'
   date_gmt: '2009-05-18 14:22:13 -0500'
   content: "I didn't even think about including cost in my post. Since I can't find

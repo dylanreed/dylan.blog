@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 1035
-wordpress_url: http://www.dylanreed.com/?p=1035
+wordpress_url: //?p=1035
 date: '2010-03-02 07:06:59 -0600'
 date_gmt: '2010-03-02 15:06:59 -0600'
 categories:
@@ -30,14 +30,14 @@ comments:
 - id: 45964
   author: Dylan
   author_email: dylan@dylanreed.com
-  author_url: http://www.dylanreed.com
+  author_url: /
   date: '2010-03-10 07:47:31 -0600'
   date_gmt: '2010-03-10 15:47:31 -0600'
   content: I am not sure I will fix it
 - id: 45965
   author: Dylan
   author_email: dylan@dylanreed.com
-  author_url: http://www.dylanreed.com
+  author_url: /
   date: '2010-03-11 09:55:47 -0600'
   date_gmt: '2010-03-11 17:55:47 -0600'
   content: The pictures are back

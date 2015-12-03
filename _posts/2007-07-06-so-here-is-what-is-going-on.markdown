@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 426
 wordpress_url: http://www.dylanreed.org/2007/07/06/so-here-is-what-is-going-on/
 date: '2007-07-06 15:40:00 -0500'

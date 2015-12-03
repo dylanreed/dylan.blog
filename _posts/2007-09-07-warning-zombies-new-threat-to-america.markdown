@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 454
 wordpress_url: http://www.dylanreed.org/2007/09/07/warning-zombies-new-threat-to-america/
 date: '2007-09-07 08:35:38 -0500'

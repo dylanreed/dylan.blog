@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 412
 wordpress_url: http://www.dylanreed.org/2007/06/15/why-i-am-glad-i-dont-drive-with-a-controller-in-real-life/
 date: '2007-06-15 08:16:46 -0500'

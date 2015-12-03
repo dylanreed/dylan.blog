@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 494
 wordpress_url: http://www.dylanreed.org/2008/01/10/my-etsy-shoppe-and-the-stories-i-tell/
 date: '2008-01-10 11:15:22 -0600'

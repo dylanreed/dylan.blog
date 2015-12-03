@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 517
 wordpress_url: http://www.dylanreed.org/2008/05/22/i-have-become-a-biker/
 date: '2008-05-22 11:38:43 -0500'

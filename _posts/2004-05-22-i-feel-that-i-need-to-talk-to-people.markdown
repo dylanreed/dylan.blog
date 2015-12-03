@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 excerpt: A guy walks in to the dentist to get a cavity filled. He tells the dentist
   "Doc, I cannot handle pain what can you do for the pain." the docter says, "nomally
   we give shots >" the man turns pale and says" THat won't work i am deathly afraid

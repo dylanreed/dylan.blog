@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 941
-wordpress_url: http://www.dylanreed.com/2009/05/04/water-machine/
+wordpress_url: //2009/05/04/water-machine/
 date: '2009-05-04 14:18:20 -0500'
 date_gmt: '2009-05-04 22:18:20 -0500'
 categories:
@@ -30,7 +30,7 @@ comments:
 - id: 45690
   author: Dylan
   author_email: dylan@dylanreed.com
-  author_url: http://www.dylanreed.com
+  author_url: /
   date: '2009-05-05 05:01:45 -0500'
   date_gmt: '2009-05-05 13:01:45 -0500'
   content: 'I have been thinking along those lines: OJ, Milk, Cupcakes'

@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 1255
-wordpress_url: http://www.dylanreed.com/?p=1255
+wordpress_url: //?p=1255
 date: '2011-03-15 04:42:35 -0500'
 date_gmt: '2011-03-15 11:42:35 -0500'
 categories:
@@ -26,30 +26,30 @@ I thought I would show you the process I typically use to get a drawing done. Th
 
 [caption id="attachment_1256" align="aligncenter" width="275" caption="Pencil Sketch with a lot of work needed... but he has roller blades!"][![][1]][2][/caption]
 
-   [1]: http://www.dylanreed.com/wp-content/uploads/2011/03/EPSON002-275x300.jpg (Safety FIrst)
-   [2]: http://www.dylanreed.com/wp-content/uploads/2011/03/EPSON002.jpg
+   [1]: /media/2011/03/EPSON002-275x300.jpg (Safety FIrst)
+   [2]: /media/2011/03/EPSON002.jpg
 
 After that I happened across the action cats commercial from Saturday night live and thought that an action dinosaur would be even better.Thus Dino Roar was born.
 
 [caption id="attachment_1257" align="aligncenter" width="207" caption="Check out the guns on that one."][![][3]][4][/caption]
 
-   [3]: http://www.dylanreed.com/wp-content/uploads/2011/03/EPSON003-207x300.jpg (Dino Roar)
-   [4]: http://www.dylanreed.com/wp-content/uploads/2011/03/EPSON003.jpg
+   [3]: /media/2011/03/EPSON003-207x300.jpg (Dino Roar)
+   [4]: /media/2011/03/EPSON003.jpg
 
 After that I decided that I needed to practice drawing the t-rex roaring.
 
 [caption id="attachment_1258" align="aligncenter" width="300" caption="Notice all the scary teeth"][![][5]][6][/caption]
 
-   [5]: http://www.dylanreed.com/wp-content/uploads/2011/03/EPSON004-300x243.jpg (Rawr)
-   [6]: http://www.dylanreed.com/wp-content/uploads/2011/03/EPSON004.jpg
+   [5]: /media/2011/03/EPSON004-300x243.jpg (Rawr)
+   [6]: /media/2011/03/EPSON004.jpg
 
 Finally I had all the practice I needed so I made a small scale drawing of the dinosaur complete with laser vision, a jetpack, roller blades and, of course, bacon.
 
 [![][7]][8]
     Yummy, Yummy Bacon
 
-   [7]: http://www.dylanreed.com/wp-content/uploads/2011/03/EPSON005-722x1024.jpg (BACON)
-   [8]: http://www.dylanreed.com/wp-content/uploads/2011/03/EPSON005.jpg
+   [7]: /media/2011/03/EPSON005-722x1024.jpg (BACON)
+   [8]: /media/2011/03/EPSON005.jpg
 
   
 

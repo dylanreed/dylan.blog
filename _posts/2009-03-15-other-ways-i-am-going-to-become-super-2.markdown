@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 834
-wordpress_url: http://www.dylanreed.com/2009/03/15/other-ways-i-am-going-to-become-super-2/
+wordpress_url: //2009/03/15/other-ways-i-am-going-to-become-super-2/
 date: '2009-03-15 05:52:24 -0500'
 date_gmt: '2009-03-15 13:52:24 -0500'
 categories:
@@ -24,7 +24,7 @@ comments: []
 
 After rereading my [Super Power Post][1] I realized that I neglected quite a few ways that I might get super powers. This was unintentional on my part and I feel pretty bad about it. Here are three more ways I can aquire my much needed super powers.
 
-   [1]: http://www.dylanreed.com/2009/02/25/my-plan-to-become-a-superhero/
+   [1]: //2009/02/25/my-plan-to-become-a-superhero/
 
   * Training
   * Robotic Suit

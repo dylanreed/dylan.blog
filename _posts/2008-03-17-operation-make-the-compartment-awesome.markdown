@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 505
 wordpress_url: http://www.dylanreed.org/2008/03/17/operation-make-the-compartment-awesome/
 date: '2008-03-17 15:57:54 -0500'

@@ -13,7 +13,7 @@ author_login: admin
 author_email: dylan@dylanreed.org
 author_url: http://
 wordpress_id: 980
-wordpress_url: http://www.dylanreed.com/2009/11/01/tweets-this-week-2009-11-01/
+wordpress_url: //2009/11/01/tweets-this-week-2009-11-01/
 date: '2009-11-01 08:00:00 -0600'
 date_gmt: '2009-11-01 16:00:00 -0600'
 categories:

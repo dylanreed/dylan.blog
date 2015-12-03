@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 1835
-wordpress_url: http://www.dylanreed.com/?p=1835
+wordpress_url: //?p=1835
 date: '2014-06-21 13:43:07 -0500'
 date_gmt: '2014-06-21 20:43:07 -0500'
 categories:
@@ -62,6 +62,6 @@ We went and picked her up last Thursday. She is the sweetest cat I have ever met
 
 [caption id="attachment_1838" align="aligncenter" width="300"][![Ramona ][1]][2] Ramona "Mo" Jangles[/caption]
 
-   [1]: http://www.dylanreed.com/wp-content/uploads/2014/06/2014-06-20-16.17.18-300x300.jpg
-   [2]: http://www.dylanreed.com/wp-content/uploads/2014/06/2014-06-20-16.17.18.jpg
+   [1]: /media/2014/06/2014-06-20-16.17.18-300x300.jpg
+   [2]: /media/2014/06/2014-06-20-16.17.18.jpg
 

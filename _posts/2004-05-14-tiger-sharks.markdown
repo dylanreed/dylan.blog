@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 excerpt: If you ask most people what is the most dangerous creature in the ocean,
   most will answer Great White Sharks.  Well this is a gross misunderstanding.  Great
   white sharks are huge and can kill you but typically attack only things that look

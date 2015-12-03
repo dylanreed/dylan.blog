@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 1171
-wordpress_url: http://www.dylanreed.com/?p=1171
+wordpress_url: //?p=1171
 date: '2011-02-04 09:46:09 -0600'
 date_gmt: '2011-02-04 17:46:09 -0600'
 categories:
@@ -31,7 +31,7 @@ comments:
 - id: 46154
   author: Dylan
   author_email: dylan@dylanreed.com
-  author_url: http://www.dylanreed.com
+  author_url: /
   date: '2011-02-05 14:45:29 -0600'
   date_gmt: '2011-02-05 22:45:29 -0600'
   content: That is a good point. Who is interested in Canoe Club Greeley?

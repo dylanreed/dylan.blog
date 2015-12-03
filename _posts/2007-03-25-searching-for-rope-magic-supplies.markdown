@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 322
 wordpress_url: http://www.dylanreed.org/2007/03/25/searching-for-rope-magic-supplies/
 date: '2007-03-25 21:09:49 -0500'

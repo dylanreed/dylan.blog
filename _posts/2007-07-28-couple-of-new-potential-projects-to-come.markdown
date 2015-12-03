@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 438
 wordpress_url: http://www.dylanreed.org/2007/07/28/couple-of-new-potential-projects-to-come/
 date: '2007-07-28 20:38:27 -0500'

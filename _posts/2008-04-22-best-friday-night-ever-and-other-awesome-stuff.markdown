@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 512
 wordpress_url: http://www.dylanreed.org/2008/04/22/best-friday-night-ever-and-other-awesome-stuff/
 date: '2008-04-22 08:52:18 -0500'
@@ -26,8 +26,8 @@ comments: []
 
 Well maybe not ever[![My Booster Packs][1]][2], but it was a doozy. I finally took a weekend off of the balloon making to have a relaxing weekend of not making balloons for tips. It was a definite hit in the ol' pocketbook but I think the relaxation was worth it. Plus Sarah and I finally where able to clean our house from top to bottom. But what made Friday night especially awesome is that John and I had ordered a box of booster decks for the World of Warcraft card game and it had arrived the previous night, for those of you paying attention that would be Thursday night. As you can see we ordered from the Dark Portal set and this is my half of the cards in the picture. John not only brought over a bundle of cards for me but he also bought me Taco Bell for dinner, which was delicious and tasty and only made my stomach a little sad. We quickly ate dinner and I opened my cards, what I found was a pretty good variety of standard cards and then in my last pack awesome happened. I finally have the cards necessary to make my priest hero competitive. I already have a hunter hero who pretty much owns the night, I have been trying to use my priest but he lacked abilities. I now have enough abilities to bring the noise as a priest against John's druid. We shall see.
 
-   [1]: http://www.dylanreed.org/wp-content/uploads/2008/04/img-0373-thumb.jpg
-   [2]: http://www.dylanreed.org/wp-content/uploads/2008/04/img-0373.jpg
+   [1]: http://www.dylanreed.org//media/2008/04/img-0373-thumb.jpg
+   [2]: http://www.dylanreed.org//media/2008/04/img-0373.jpg
 
 After I was done opening my cards John and I sat on the couch and watched Sweeney Todd. It was awesome. I cannot lie and say that I hate musicals, because deep down inside I know that I love them. And blood, I love bloody movies. This had both and to top it off cannibalism, what could be better. Johnny Depp was awesome, overall style of the movie was pure Tim Burton and, though I was worried at first, it wasn't as gory as I had read that it was. The worst part of the movie is the slide\crash of the bodies when they are sent to the bake house. I don't think that this movie is for everybody. I think that if you where a nun who dislikes musicals then this movie might not be for you. In fact if you hate musicals you probably should avoid Sweeny Todd as it is a musical, a bloody good musical. Sorry about that.
 
@@ -47,7 +47,7 @@ But then the first trailer came out. OMG, I mean, OMFG this game looked sweet, s
 
 [![million][4]][5]Also a quick update of [this][6]. We finally broke 1000000 spam messages blocked by google apps. And by we I actually mean me. In my account in our google apps there have been 1000000 span messages blocked. It took three days longer then my 30 day prediction but its ok cause it is awesome.
 
-   [4]: http://www.dylanreed.org/wp-content/uploads/2008/04/million-thumb.gif
-   [5]: http://www.dylanreed.org/wp-content/uploads/2008/04/million.gif
+   [4]: http://www.dylanreed.org//media/2008/04/million-thumb.gif
+   [5]: http://www.dylanreed.org//media/2008/04/million.gif
    [6]: http://www.dylanreed.org/2008/04/03/oh-google-calendar-sync-your-such-a-tease/
 

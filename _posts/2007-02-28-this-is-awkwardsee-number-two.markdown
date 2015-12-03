@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 261
 wordpress_url: http://www.dylanreed.org/2007/02/28/this-is-awkwardsee-number-two/
 date: '2007-02-28 11:11:25 -0600'

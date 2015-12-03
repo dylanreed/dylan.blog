@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 777
-wordpress_url: http://www.dylanreed.com/2009/03/28/february-2009-the-month-blogging-happened/
+wordpress_url: //2009/03/28/february-2009-the-month-blogging-happened/
 date: '2009-02-28 07:00:16 -0600'
 date_gmt: '2009-02-28 15:00:16 -0600'
 categories:
@@ -28,7 +28,7 @@ It has been a wonderful and fun February. If you haven't noticed I have blogged 
   
 Every now and again the blogging bug bites me. It has apparently done that recently as I feel the need to blog with all of my spare time. Apparently this has been enjoyable to the people that read my blog, which makes me glad, and I have also been enjoying it.
 
-   [1]: http://www.dylanreed.com/2009/02/02/living-my-life/
+   [1]: //2009/02/02/living-my-life/
 
 Since I recently finished the Seven Things Meme I have been thinking about the interesting things I have done in my life. I have spent a lot of time in my life, not recently, wishing I had a "better" life. Most of this stems from little brother jealousy of an older brother.
 
@@ -38,7 +38,7 @@ See, unlike Harper I didn't know what I wanted to do after high school. Harper w
   
  
 
-   [2]: http://www.dylanreed.com/2009/02/15/faith-in-good/
+   [2]: //2009/02/15/faith-in-good/
 
 Throughout my life I have been happily without faith and religion. I have always been aware of other peoples religion and the varying levels of faith that they have in said religion. As a youngster I was even curious about religion, my mom and I used to go to churches on Sundays and experience the fun that is religion. It even went so far as almost being baptized by a friends mom who didn't understand why my parents didn't want to save my soul.
 
@@ -50,7 +50,7 @@ Faith is one of those crazy things that means different things to different peop
   
  
 
-   [3]: http://www.dylanreed.com/2009/02/18/refrigerator-archeology/
+   [3]: //2009/02/18/refrigerator-archeology/
 
 I realize that with a title like refrigerator archeology this post is already starting to sound disgusting. Be not afraid gentle readers, this post has little to do with nasty moldy food and a lot to do with things thought lost being found.
 
@@ -60,7 +60,7 @@ Sarah and I had been married for a little over a year the first time she ended u
   
  
 
-   [4]: http://www.dylanreed.com/2009/02/21/its-the-hardest-thing/
+   [4]: //2009/02/21/its-the-hardest-thing/
 
 Few people realize how hard it is to learn how to unicycle. Actually a lot of people probably realize how hard it is to learn, but few appreciate how hard it is. I started learning to unicycle when when I was seventeen. I received a [Semcycle 24? Deluxe][5]for Christmas that year. Immeadiatly after receiving the unicycle I started to learn. Or should I say I tried to learn.
 
@@ -74,7 +74,7 @@ During the time I was learning [Jon][6] was living with us, trying to graduate f
   
  
 
-   [7]: http://www.dylanreed.com/2009/02/25/my-plan-to-become-a-superhero/
+   [7]: //2009/02/25/my-plan-to-become-a-superhero/
 
 I have always been disappointed with my apparent lack of super powers. What fun is life without the ability to do extraordinary things like teleport or turn invisible. The only ability that I seem to posses it being able to recognize the make and model of cars by the position of their tail and headlights or their shape. For some reason instant car recognition has failed to gain me membership into any of the superhero groups.
 
@@ -84,7 +84,7 @@ You might blame this feeling of injustice on the fact that I have been playing s
   
  
 
-   [8]: http://www.dylanreed.com/2009/02/26/doing-what-you-love/
+   [8]: //2009/02/26/doing-what-you-love/
 
 Recently I have been reading many different Blogs. Some about being successful in life, some about being successful in business and a few about being happy; almost all of them have the same basic message: Do What You Love.
 

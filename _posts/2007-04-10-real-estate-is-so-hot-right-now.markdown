@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 354
 wordpress_url: http://www.dylanreed.org/2007/04/13/real-estate-is-so-hot-right-now/
 date: '2007-04-10 16:03:18 -0500'

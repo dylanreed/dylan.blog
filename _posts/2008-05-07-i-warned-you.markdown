@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 516
 wordpress_url: http://www.dylanreed.org/2008/05/07/i-warned-you/
 date: '2008-05-07 10:17:15 -0500'

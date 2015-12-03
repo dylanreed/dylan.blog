@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 1195
-wordpress_url: http://www.dylanreed.com/?p=1195
+wordpress_url: //?p=1195
 date: '2011-02-10 05:43:28 -0600'
 date_gmt: '2011-02-10 13:43:28 -0600'
 categories:
@@ -25,7 +25,7 @@ comments: []
 [caption id="" align="aligncenter" width="408" caption="He would still smash your face in"][  
 ![][1]][2][/caption]
 
-   [1]: http://fancycadaver.com/wp-content/uploads/2011/02/UglyRobot.jpg (Ugly Bot)
+   [1]: http://fancycadaver.com//media/2011/02/UglyRobot.jpg (Ugly Bot)
    [2]: http://fancycadaver.com/2011/02/10/ugly-bot/
 
 Yesterday, while trying to decide which direction to head while drawing, I attempted to draw a robot. Not just any robot but a Mech, like voltron but cooler. Well probably not cooler. Since I was to lazy to get a ruler it didn't turn out as awesome. Or possibly it turned out really awesome because of the non-liner-ness of the mech he is much harder for the other mechs to hit... yeah... I'll go with that.

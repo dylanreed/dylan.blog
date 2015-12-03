@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 338
 wordpress_url: http://www.dylanreed.org/2007/03/30/imadeit-aprils-fools-week-sale/
 date: '2007-03-30 17:50:24 -0500'

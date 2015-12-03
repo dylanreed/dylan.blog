@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 753
-wordpress_url: http://www.dylanreed.com/2009/02/23/i-just-blogged-myself/
+wordpress_url: //2009/02/23/i-just-blogged-myself/
 date: '2009-02-24 07:00:06 -0600'
 date_gmt: '2009-02-24 15:00:06 -0600'
 categories:

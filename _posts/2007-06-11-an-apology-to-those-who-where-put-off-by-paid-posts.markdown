@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 399
 wordpress_url: http://www.dylanreed.org/2007/06/11/an-apology-to-those-who-where-put-off-by-paid-posts/
 date: '2007-06-11 15:25:36 -0500'

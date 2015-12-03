@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 1125
-wordpress_url: http://www.dylanreed.com/?p=1125
+wordpress_url: //?p=1125
 date: '2010-11-23 09:11:34 -0600'
 date_gmt: '2010-11-23 17:11:34 -0600'
 categories:
@@ -33,7 +33,7 @@ comments:
 - id: 46101
   author: Dylan
   author_email: dylan@dylanreed.com
-  author_url: http://www.dylanreed.com
+  author_url: /
   date: '2010-11-23 17:04:05 -0600'
   date_gmt: '2010-11-24 01:04:05 -0600'
   content: That does all make sense. Hopefully next time around that all gets better.

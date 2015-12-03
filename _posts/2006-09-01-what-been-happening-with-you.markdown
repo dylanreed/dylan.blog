@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 229
 wordpress_url: http://www.dylanreed.org/2006/09/01/what-been-happening-with-you/
 date: '2006-09-01 07:53:04 -0500'

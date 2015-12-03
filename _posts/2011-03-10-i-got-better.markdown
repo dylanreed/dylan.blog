@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 1241
-wordpress_url: http://www.dylanreed.com/?p=1241
+wordpress_url: //?p=1241
 date: '2011-03-10 16:33:43 -0600'
 date_gmt: '2011-03-10 23:33:43 -0600'
 categories:
@@ -31,7 +31,7 @@ I have been sick with a sinus-cold-energy-suck for two weeks and I am feeling be
 [![][2]][3]
     Feeling much better thank you
 
-   [2]: http://fancycadaver.com/wp-content/uploads/2011/03/Animals-2.jpeg (Turtle)
+   [2]: http://fancycadaver.com//media/2011/03/Animals-2.jpeg (Turtle)
    [3]: http://fancycadaver.com
 
   

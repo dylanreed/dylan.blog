@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 excerpt: "This is a kirby morgan bandmask 18b. on last thursday in my class we were
   required to breathe from just the shell of the mask. the shell is the yellow part
   of the mask. the trick with this is that there is no seal over your mouth so you

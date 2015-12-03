@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 493
 wordpress_url: http://www.dylanreed.org/2008/01/09/balloons-are-awesome/
 date: '2008-01-09 09:50:05 -0600'
@@ -24,7 +24,7 @@ comments: []
 
 [![][1]
 
-   [1]: http://www.dylanreed.org/wp-content/uploads/2008/01/video9a1773ae164a.jpg
+   [1]: http://www.dylanreed.org//media/2008/01/video9a1773ae164a.jpg
 
 <\/param><\/param><\/embed><\/object><\/div>";" alt=""/>][2]
 

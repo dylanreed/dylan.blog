@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 571
-wordpress_url: http://www.dylanreed.com/2009/02/02/fable-musings/
+wordpress_url: //2009/02/02/fable-musings/
 date: '2009-01-31 07:00:39 -0600'
 date_gmt: '2009-01-31 15:00:39 -0600'
 categories:

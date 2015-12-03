@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 1218
-wordpress_url: http://www.dylanreed.com/?p=1218
+wordpress_url: //?p=1218
 date: '2011-02-15 04:55:02 -0600'
 date_gmt: '2011-02-15 12:55:02 -0600'
 categories:
@@ -29,7 +29,7 @@ Last night, well actually all day yesterday, was my 30th birthday. The day that 
 
 [![][3]][4]I also have started updating Veggie Fight again. Though I have killed the story about the tomato that wants to be a boxer, I will be updating it more frequently. I am planning on using it as a place to experiment with comics and to use my new found drawing abilities to actually create something.
 
-   [3]: http://www.dylanreed.com/wp-content/uploads/2011/02/Screen-shot-2011-02-15-at-5.32.38-AM.png (Screen shot 2011-02-15 at 5.32.38 AM)
+   [3]: /media/2011/02/Screen-shot-2011-02-15-at-5.32.38-AM.png (Screen shot 2011-02-15 at 5.32.38 AM)
    [4]: http://veggiefight.com
 
 You might be wondering how you can keep track of all of this stuff seeing as how it is spread all over the internet. I would suggest either subscribe to each site, which you can do at each site, or you can just follow me on [twitter][5] where I will be posting every time I post something at any of the sites.

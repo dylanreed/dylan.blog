@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 1377
-wordpress_url: http://www.dylanreed.com/?p=1377
+wordpress_url: //?p=1377
 date: '2011-09-23 08:39:28 -0500'
 date_gmt: '2011-09-23 15:39:28 -0500'
 categories:
@@ -28,6 +28,6 @@ I find this irritating because I thought I had moved past video games as a hobby
 
 [![][1]][2]
 
-   [1]: http://www.dylanreed.com/wp-content/uploads/2011/09/toast.jpg (toast)
-   [2]: http://www.dylanreed.com/wp-content/uploads/2011/09/toast.jpg
+   [1]: /media/2011/09/toast.jpg (toast)
+   [2]: /media/2011/09/toast.jpg
 

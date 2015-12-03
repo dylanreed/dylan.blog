@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 646
-wordpress_url: http://www.dylanreed.com/2009/02/13/unbearable-bear/
+wordpress_url: //2009/02/13/unbearable-bear/
 date: '2009-02-13 07:00:02 -0600'
 date_gmt: '2009-02-13 15:00:02 -0600'
 categories: []
@@ -50,18 +50,18 @@ Here is a 5 step guide to making your own stuffed bear, rabbit or whatever. This
   
 
 
-   [1]: http://www.dylanreed.com/wp-content/uploads/2009/02/step1-thumb.jpg
-   [2]: http://www.dylanreed.com/wp-content/uploads/2009/02/step1.jpg
-   [3]: http://www.dylanreed.com/wp-content/uploads/2009/02/step2-thumb.jpg
-   [4]: http://www.dylanreed.com/wp-content/uploads/2009/02/step2.jpg
-   [5]: http://www.dylanreed.com/wp-content/uploads/2009/02/step3-thumb.jpg
-   [6]: http://www.dylanreed.com/wp-content/uploads/2009/02/step3.jpg
-   [7]: http://www.dylanreed.com/wp-content/uploads/2009/02/step3-2-thumb.jpg
-   [8]: http://www.dylanreed.com/wp-content/uploads/2009/02/step3-2.jpg
-   [9]: http://www.dylanreed.com/wp-content/uploads/2009/02/step4-thumb.jpg
-   [10]: http://www.dylanreed.com/wp-content/uploads/2009/02/step4.jpg
-   [11]: http://www.dylanreed.com/wp-content/uploads/2009/02/step5-thumb.jpg
-   [12]: http://www.dylanreed.com/wp-content/uploads/2009/02/step5.jpg
+   [1]: /media/2009/02/step1-thumb.jpg
+   [2]: /media/2009/02/step1.jpg
+   [3]: /media/2009/02/step2-thumb.jpg
+   [4]: /media/2009/02/step2.jpg
+   [5]: /media/2009/02/step3-thumb.jpg
+   [6]: /media/2009/02/step3.jpg
+   [7]: /media/2009/02/step3-2-thumb.jpg
+   [8]: /media/2009/02/step3-2.jpg
+   [9]: /media/2009/02/step4-thumb.jpg
+   [10]: /media/2009/02/step4.jpg
+   [11]: /media/2009/02/step5-thumb.jpg
+   [12]: /media/2009/02/step5.jpg
 
   
  

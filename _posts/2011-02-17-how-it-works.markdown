@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 1225
-wordpress_url: http://www.dylanreed.com/?p=1225
+wordpress_url: //?p=1225
 date: '2011-02-17 10:00:14 -0600'
 date_gmt: '2011-02-17 18:00:14 -0600'
 categories:
@@ -38,7 +38,7 @@ The problem is that in raising a lot of small animals I encountered a lot of sma
 
 [caption id="" align="aligncenter" width="456" caption="Puppy"][![][1]][2][/caption]
 
-   [1]: http://fancycadaver.com/wp-content/uploads/2011/02/Doggy.jpg (Chelsea)
+   [1]: http://fancycadaver.com//media/2011/02/Doggy.jpg (Chelsea)
    [2]: http://fancycadaver.com/2011/02/17/puppy/
 
   

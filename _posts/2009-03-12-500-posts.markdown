@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 805
-wordpress_url: http://www.dylanreed.com/?p=805
+wordpress_url: //?p=805
 date: '2009-03-12 06:09:13 -0500'
 date_gmt: '2009-03-12 14:09:13 -0500'
 categories:
@@ -30,7 +30,7 @@ Being awesome I am going to keep this post short and just send you to delve in t
   
 
 
-   [1]: http://www.dylanreed.com/2004/02/04/killer-whales-dont-kill-people/
+   [1]: //2004/02/04/killer-whales-dont-kill-people/
 
   
 Enjoy!

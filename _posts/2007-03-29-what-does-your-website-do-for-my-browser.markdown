@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 332
 wordpress_url: http://www.dylanreed.org/2007/03/29/what-does-your-website-do-for-my-browser/
 date: '2007-03-29 22:02:11 -0500'

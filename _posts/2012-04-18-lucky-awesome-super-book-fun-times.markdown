@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 1488
-wordpress_url: http://www.dylanreed.com/?p=1488
+wordpress_url: //?p=1488
 date: '2012-04-18 12:46:20 -0500'
 date_gmt: '2012-04-18 19:46:20 -0500'
 categories:
@@ -37,7 +37,7 @@ The next book that was awesome was one that I read to get Sarah to read Ready Pl
 
 ![][2]**Sister: A Novel:**
 
-   [2]: http://dizana.com/wp-content/uploads/2012/02/Screen-shot-2012-02-02-at-Feb-2-2012-4.14.26-PM.png (Sister)
+   [2]: http://dizana.com//media/2012/02/Screen-shot-2012-02-02-at-Feb-2-2012-4.14.26-PM.png (Sister)
 
 This is a mystery. Why it was good is not the mystery, the actual story is a mystery. Rosamund Lipton crafted an amazing story that keeps you guessing the entire time. One of the best parts of the novel is that it takes place in England and as such uses all of the awesome British slang that I love so much.
 

@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 excerpt: OOGA BOOGA OOGA BOOGA BOOGA
 wordpress_id: 160
 wordpress_url: http://www.dylanreed.org/2005/04/11/cards-clowns-and-dancing/

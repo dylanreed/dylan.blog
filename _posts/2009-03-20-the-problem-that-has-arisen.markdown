@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 842
-wordpress_url: http://www.dylanreed.com/2009/03/20/the-problem-that-has-arisen/
+wordpress_url: //2009/03/20/the-problem-that-has-arisen/
 date: '2009-03-20 12:56:42 -0500'
 date_gmt: '2009-03-20 20:56:42 -0500'
 categories:

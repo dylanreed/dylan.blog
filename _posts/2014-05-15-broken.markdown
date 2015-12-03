@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 1812
-wordpress_url: http://www.dylanreed.com/?p=1812
+wordpress_url: //?p=1812
 date: '2014-05-15 06:08:13 -0500'
 date_gmt: '2014-05-15 13:08:13 -0500'
 categories:
@@ -29,8 +29,8 @@ Losing Thomas broke me.
 
 [caption id="attachment_1816" align="aligncenter" width="300"][![kitten thomas][1]][2] Kitten Thomas in a Cupboard[/caption]
 
-   [1]: http://www.dylanreed.com/wp-content/uploads/2014/05/Thomas-Cupboard-300x245.jpg
-   [2]: http://www.dylanreed.com/wp-content/uploads/2014/05/Thomas-Cupboard.jpg
+   [1]: /media/2014/05/Thomas-Cupboard-300x245.jpg
+   [2]: /media/2014/05/Thomas-Cupboard.jpg
 
 I am sure this seems ridiculous to some people and if you are one of those people stop reading.
 
@@ -40,8 +40,8 @@ I am more of an adult now so I am able to get out of bed, not spend a lot of tim
 
 [caption id="attachment_1817" align="aligncenter" width="300"][![Relaxing like a boss][3]][4] Relaxing like a boss[/caption]
 
-   [3]: http://www.dylanreed.com/wp-content/uploads/2014/05/Thomas-Feets-300x245.jpg
-   [4]: http://www.dylanreed.com/wp-content/uploads/2014/05/Thomas-Feets.jpg
+   [3]: /media/2014/05/Thomas-Feets-300x245.jpg
+   [4]: /media/2014/05/Thomas-Feets.jpg
 
 I have been unable to write. I mean I am writing this post so obviously I can still write but I don't have the passion in my writing that I once did. I am sure it will come back but I don't know when.
 
@@ -51,7 +51,7 @@ I have stopped making breakfast. Usually I cook breakfast for Sarah and I. Eggs 
 
 [caption id="attachment_1822" align="aligncenter" width="225"]![2014-03-03 06.16.42][5] Muffin Time[/caption]
 
-   [5]: http://www.dylanreed.com/wp-content/uploads/2014/05/2014-03-03-06.16.42-225x300.jpg
+   [5]: /media/2014/05/2014-03-03-06.16.42-225x300.jpg
 
 I can't eat chocolate chip muffins anymore. That is the weirdest thing. Thomas was a strange cat and we would share sweets. He liked chocolate chip muffins(not the chips, just the muffin bits), vanilla wafers and most breads. And since he was my pal I would share with him.
 
@@ -59,8 +59,8 @@ The other day we went to the Human Being to get our usual. I wasn't going to get
 
 [caption id="attachment_1815" align="aligncenter" width="300"][![Thomas Couch][6]][7] Sleepy Kitty[/caption]
 
-   [6]: http://www.dylanreed.com/wp-content/uploads/2014/05/Thomas-Couch-300x245.jpg
-   [7]: http://www.dylanreed.com/wp-content/uploads/2014/05/Thomas-Couch.jpg
+   [6]: /media/2014/05/Thomas-Couch-300x245.jpg
+   [7]: /media/2014/05/Thomas-Couch.jpg
 
 There are constant little things that push me into sadness. Thomas would sit on my lap or next to me during most of my normal activities at home. So all of those activities are missing something.
 
@@ -72,7 +72,7 @@ Do I regret loving Thomas as much as I did? Not at all. That cat helped me throu
 
 [caption id="attachment_1821" align="aligncenter" width="225"][![2014-02-22 12.32.53][8]][9] A boy and his cat[/caption]
 
-   [8]: http://www.dylanreed.com/wp-content/uploads/2014/05/2014-02-22-12.32.53-225x300.jpg
-   [9]: http://www.dylanreed.com/wp-content/uploads/2014/05/2014-02-22-12.32.53.jpg
+   [8]: /media/2014/05/2014-02-22-12.32.53-225x300.jpg
+   [9]: /media/2014/05/2014-02-22-12.32.53.jpg
 
 He will be missed.

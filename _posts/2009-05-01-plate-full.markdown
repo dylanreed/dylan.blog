@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 937
-wordpress_url: http://www.dylanreed.com/?p=937
+wordpress_url: //?p=937
 date: '2009-05-01 13:08:15 -0500'
 date_gmt: '2009-05-01 21:08:15 -0500'
 categories:
@@ -31,7 +31,7 @@ comments:
 - id: 45689
   author: Dylan
   author_email: dylan@dylanreed.com
-  author_url: http://www.dylanreed.com
+  author_url: /
   date: '2009-05-04 16:42:42 -0500'
   date_gmt: '2009-05-05 00:42:42 -0500'
   content: "I have looked into this wheat grass stuff and it doesn't sound good. I

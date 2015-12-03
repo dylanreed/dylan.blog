@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 392
 wordpress_url: http://www.dylanreed.org/2007/06/05/once-again-i-am-in-the-wrong-place/
 date: '2007-06-05 20:29:31 -0500'

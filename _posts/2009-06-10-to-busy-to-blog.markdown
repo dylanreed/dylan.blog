@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 957
-wordpress_url: http://www.dylanreed.com/2009/06/10/to-busy-to-blog/
+wordpress_url: //2009/06/10/to-busy-to-blog/
 date: '2009-06-10 08:06:51 -0500'
 date_gmt: '2009-06-10 16:06:51 -0500'
 categories:

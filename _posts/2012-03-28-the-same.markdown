@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 1447
-wordpress_url: http://www.dylanreed.com/?p=1447
+wordpress_url: //?p=1447
 date: '2012-03-28 11:25:09 -0500'
 date_gmt: '2012-03-28 18:25:09 -0500'
 categories:
@@ -40,6 +40,6 @@ Try to not do this. Don't be a smoke blower. Be a truth teller. If someone gives
 
 [![][1]][2]
 
-   [1]: http://www.dylanreed.com/wp-content/uploads/2012/03/Robot_Dance.gif (Robot_Dance)
-   [2]: http://www.dylanreed.com/wp-content/uploads/2012/03/Robot_Dance.gif
+   [1]: /media/2012/03/Robot_Dance.gif (Robot_Dance)
+   [2]: /media/2012/03/Robot_Dance.gif
 

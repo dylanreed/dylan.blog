@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 314
 wordpress_url: http://www.dylanreed.org/2007/03/22/at-it-again/
 date: '2007-03-22 21:05:11 -0500'

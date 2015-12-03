@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 795
-wordpress_url: http://www.dylanreed.com/2009/03/11/i-got-soap-in-my-mind/
+wordpress_url: //2009/03/11/i-got-soap-in-my-mind/
 date: '2009-03-11 06:00:08 -0500'
 date_gmt: '2009-03-11 14:00:08 -0500'
 categories: []
@@ -38,7 +38,7 @@ comments:
 - id: 45646
   author: Dylan
   author_email: dylan@dylanreed.com
-  author_url: http://www.dylanreed.com
+  author_url: /
   date: '2009-03-13 06:09:31 -0500'
   date_gmt: '2009-03-13 14:09:31 -0500'
   content: I know. I am excited for the day the soap party happens

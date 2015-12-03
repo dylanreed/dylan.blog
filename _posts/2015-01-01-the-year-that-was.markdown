@@ -13,7 +13,7 @@ author_login: admin
 author_email: dylan@dylanreed.org
 author_url: http://
 wordpress_id: 1858
-wordpress_url: http://www.dylanreed.com/?p=1858
+wordpress_url: //?p=1858
 date: '2015-01-01 15:11:18 -0600'
 date_gmt: '2015-01-01 22:11:18 -0600'
 categories:

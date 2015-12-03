@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 755
-wordpress_url: http://www.dylanreed.com/2009/02/25/my-plan-to-become-a-superhero/
+wordpress_url: //2009/02/25/my-plan-to-become-a-superhero/
 date: '2009-02-25 07:00:54 -0600'
 date_gmt: '2009-02-25 15:00:54 -0600'
 categories:
@@ -33,7 +33,7 @@ comments:
   author: dylanreed.com &raquo; Blog Archive &raquo; Other Ways I am Going to Become
     Super
   author_email: ''
-  author_url: http://www.dylanreed.com/2009/03/14/other-ways-i-am-going-to-become-super/
+  author_url: //2009/03/14/other-ways-i-am-going-to-become-super/
   date: '2009-03-14 17:28:03 -0500'
   date_gmt: '2009-03-15 01:28:03 -0500'
   content: '[...] on The Truth About Sharks and FishingTermitedidge on The Truth About
@@ -43,7 +43,7 @@ comments:
   author: dylanreed.com &raquo; Blog Archive &raquo; Other Ways I am Going to Become
     Super
   author_email: ''
-  author_url: http://www.dylanreed.com/2009/03/15/other-ways-i-am-going-to-become-super/
+  author_url: //2009/03/15/other-ways-i-am-going-to-become-super/
   date: '2009-03-15 05:52:25 -0500'
   date_gmt: '2009-03-15 13:52:25 -0500'
   content: '[...] */    Comments dylanreed.com &raquo; Blog Archive &raquo; Other
@@ -54,7 +54,7 @@ comments:
   author: dylanreed.com &raquo; Blog Archive &raquo; Other Ways I am Going to Become
     Super
   author_email: ''
-  author_url: http://www.dylanreed.com/2009/03/15/other-ways-i-am-going-to-become-super-2/
+  author_url: //2009/03/15/other-ways-i-am-going-to-become-super-2/
   date: '2009-03-24 13:18:19 -0500'
   date_gmt: '2009-03-24 21:18:19 -0500'
   content: '[...] Living with Paindylanreed.com &raquo; Blog Archive &raquo; Other

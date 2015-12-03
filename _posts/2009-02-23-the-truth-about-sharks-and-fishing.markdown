@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 651
-wordpress_url: http://www.dylanreed.com/?p=651
+wordpress_url: //?p=651
 date: '2009-02-23 07:00:23 -0600'
 date_gmt: '2009-02-23 15:00:23 -0600'
 categories: []
@@ -35,7 +35,7 @@ comments:
 - id: 45643
   author: Dylan
   author_email: dylan@dylanreed.com
-  author_url: http://www.dylanreed.com
+  author_url: /
   date: '2009-02-27 15:00:58 -0600'
   date_gmt: '2009-02-27 23:00:58 -0600'
   content: That is one of the reasons that I am such a fan of Australia. They believe

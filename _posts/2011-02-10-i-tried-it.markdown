@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 1199
-wordpress_url: http://www.dylanreed.com/?p=1199
+wordpress_url: //?p=1199
 date: '2011-02-10 17:07:17 -0600'
 date_gmt: '2011-02-11 01:07:17 -0600'
 categories:
@@ -30,7 +30,7 @@ comments:
 - id: 46173
   author: Dylan
   author_email: dylan@dylanreed.com
-  author_url: http://www.dylanreed.com
+  author_url: /
   date: '2011-02-10 19:35:16 -0600'
   date_gmt: '2011-02-11 03:35:16 -0600'
   content: Why would that matter? ;)
@@ -40,7 +40,7 @@ As promised I attempted the Manga drawing. It wasn't so bad.
 
 [![][1]][2]
 
-   [1]: http://fancycadaver.com/wp-content/uploads/2011/02/mangagirl-3.jpg (Colored Manga Girl)
+   [1]: http://fancycadaver.com//media/2011/02/mangagirl-3.jpg (Colored Manga Girl)
    [2]: http://fancycadaver.com/2011/02/10/manga-girl/
 
   

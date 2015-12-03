@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 422
 wordpress_url: http://www.dylanreed.org/2007/06/22/now-for-something-completely-different/
 date: '2007-06-22 09:19:33 -0500'

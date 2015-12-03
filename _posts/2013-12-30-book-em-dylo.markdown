@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 1682
-wordpress_url: http://www.dylanreed.com/?p=1682
+wordpress_url: //?p=1682
 date: '2013-12-30 09:34:02 -0600'
 date_gmt: '2013-12-30 16:34:02 -0600'
 categories:
@@ -46,5 +46,5 @@ Thanks
 [![][3]][4]
 
    [3]: http://mentalfloss.com/sites/default/files/styles/article_640x430/public/book-it_5.jpg
-   [4]: http://www.google.com/imgres?sa=X&espv=210&es_sm=91&biw=1075&bih=1015&tbm=isch&tbnid=-3KzNkTlXFhR-M:&imgrefurl=http://www.thewheelhousereview.com/2012/05/09/hey-guys-lets-start-a-book-club/&docid=f00c7s0pcUfezM&imgurl=http://www.thewheelhousereview.com/wp-content/uploads/2012/05/book-it-300x208.jpg&w=300&h=208&ei=AqHBUrq0MKLAyAGQ1IHACw&zoom=1&ved=1t:3588,r:12,s:0,i:117&iact=rc&page=1&tbnh=166&tbnw=240&start=0&ndsp=44&tx=138&ty=61
+   [4]: http://www.google.com/imgres?sa=X&espv=210&es_sm=91&biw=1075&bih=1015&tbm=isch&tbnid=-3KzNkTlXFhR-M:&imgrefurl=http://www.thewheelhousereview.com/2012/05/09/hey-guys-lets-start-a-book-club/&docid=f00c7s0pcUfezM&imgurl=http://www.thewheelhousereview.com//media/2012/05/book-it-300x208.jpg&w=300&h=208&ei=AqHBUrq0MKLAyAGQ1IHACw&zoom=1&ved=1t:3588,r:12,s:0,i:117&iact=rc&page=1&tbnh=166&tbnw=240&start=0&ndsp=44&tx=138&ty=61
 

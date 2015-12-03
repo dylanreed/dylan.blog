@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 867
-wordpress_url: http://www.dylanreed.com/?p=867
+wordpress_url: //?p=867
 date: '2009-03-27 16:08:19 -0500'
 date_gmt: '2009-03-28 00:08:19 -0500'
 categories:
@@ -32,7 +32,7 @@ comments:
 - id: 45661
   author: Dylan
   author_email: dylan@dylanreed.com
-  author_url: http://www.dylanreed.com
+  author_url: /
   date: '2009-03-28 06:22:02 -0500'
   date_gmt: '2009-03-28 14:22:02 -0500'
   content: Actually I have had the same experience when I deviate from the Coke Slurpee.

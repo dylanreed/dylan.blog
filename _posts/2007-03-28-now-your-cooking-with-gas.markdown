@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 327
 wordpress_url: http://www.dylanreed.org/2007/03/28/now-your-cooking-with-gas/
 date: '2007-03-28 16:58:02 -0500'

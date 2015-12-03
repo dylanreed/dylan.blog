@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 296
 wordpress_url: http://www.dylanreed.org/2007/03/19/week-one-of-learning-to-yo-yo/
 date: '2006-02-23 08:11:51 -0600'

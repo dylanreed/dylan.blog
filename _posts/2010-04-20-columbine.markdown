@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 1040
-wordpress_url: http://www.dylanreed.com/?p=1040
+wordpress_url: //?p=1040
 date: '2010-04-20 07:47:13 -0500'
 date_gmt: '2010-04-20 15:47:13 -0500'
 categories:
@@ -36,7 +36,7 @@ comments:
 - id: 45977
   author: Dylan
   author_email: dylan@dylanreed.com
-  author_url: http://www.dylanreed.com
+  author_url: /
   date: '2010-04-20 08:36:58 -0500'
   date_gmt: '2010-04-20 16:36:58 -0500'
   content: "I disagree with the statement that if guns are illegal then only criminals
@@ -74,7 +74,7 @@ comments:
 - id: 45980
   author: Dylan
   author_email: dylan@dylanreed.com
-  author_url: http://www.dylanreed.com
+  author_url: /
   date: '2010-04-20 11:27:48 -0500'
   date_gmt: '2010-04-20 19:27:48 -0500'
   content: "People will always find a way to kill other people. I am just not a fan

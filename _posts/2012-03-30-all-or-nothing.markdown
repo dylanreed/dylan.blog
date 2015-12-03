@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 1456
-wordpress_url: http://www.dylanreed.com/?p=1456
+wordpress_url: //?p=1456
 date: '2012-03-30 10:54:58 -0500'
 date_gmt: '2012-03-30 17:54:58 -0500'
 categories:
@@ -36,6 +36,6 @@ As a consumer I am more likely to use your services if I know that you are a hum
 
 [![][1]][2]
 
-   [1]: http://www.dylanreed.com/wp-content/uploads/2012/03/Robot_Dance.gif (Robot_Dance)
-   [2]: http://www.dylanreed.com/wp-content/uploads/2012/03/Robot_Dance.gif
+   [1]: /media/2012/03/Robot_Dance.gif (Robot_Dance)
+   [2]: /media/2012/03/Robot_Dance.gif
 

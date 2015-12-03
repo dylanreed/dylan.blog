@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 521
 wordpress_url: http://www.dylanreed.org/2008/08/27/first-day-of-school/
 date: '2008-08-27 08:00:30 -0500'

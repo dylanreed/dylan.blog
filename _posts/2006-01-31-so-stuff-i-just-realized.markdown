@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 198
 wordpress_url: http://www.dylanreed.org/2006/01/31/so-stuff-i-just-realized/
 date: '2006-01-31 21:25:37 -0600'

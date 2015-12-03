@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 312
 wordpress_url: http://www.dylanreed.org/2006/02/23/street-clowns/
 date: '2006-02-23 17:20:14 -0600'

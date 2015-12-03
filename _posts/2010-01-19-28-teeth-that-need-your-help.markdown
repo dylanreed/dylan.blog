@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 990
-wordpress_url: http://www.dylanreed.com/2010/02/01/28-teeth-that-need-your-help/
+wordpress_url: //2010/02/01/28-teeth-that-need-your-help/
 date: '2010-01-19 08:12:00 -0600'
 date_gmt: '2010-01-19 16:12:00 -0600'
 categories:
@@ -27,7 +27,7 @@ comments:
   date: '2010-01-21 11:43:58 -0600'
   date_gmt: '2010-01-21 19:43:58 -0600'
   content: '[...] This post was mentioned on Twitter by Harper, April Scissors. April
-    Scissors said: RT @harper: You too can adopt one of my brothers teeth: http://www.dylanreed.com/2010/01/19/28-teeth-that-need-your-help/
+    Scissors said: RT @harper: You too can adopt one of my brothers teeth: //2010/01/19/28-teeth-that-need-your-help/
     [...]'
 - id: 45929
   author: harper
@@ -42,7 +42,7 @@ comments:
   author_url: http://bryanknight.org/2010/01/twitter-weekly-updates-for-2010-01-23/
   date: '2010-01-24 01:25:24 -0600'
   date_gmt: '2010-01-24 09:25:24 -0600'
-  content: '[...] @harper: You too can adopt one of my brothers teeth: http://www.dylanreed.com/2010/01/19/28-teeth-that-need-your-help/
+  content: '[...] @harper: You too can adopt one of my brothers teeth: //2010/01/19/28-teeth-that-need-your-help/
     [...]'
 ---
 

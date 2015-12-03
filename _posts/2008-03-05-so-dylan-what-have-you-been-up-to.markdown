@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 501
 wordpress_url: http://www.dylanreed.org/2008/03/05/so-dylan-what-have-you-been-up-to/
 date: '2008-03-05 12:24:19 -0600'

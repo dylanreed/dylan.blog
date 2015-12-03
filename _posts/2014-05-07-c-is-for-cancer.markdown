@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 1802
-wordpress_url: http://www.dylanreed.com/?p=1802
+wordpress_url: //?p=1802
 date: '2014-05-07 13:43:56 -0500'
 date_gmt: '2014-05-07 20:43:56 -0500'
 categories:
@@ -26,7 +26,7 @@ comments: []
 
 [caption id="attachment_1805" align="alignright" width="199"]![Cape][1] Super Cat[/caption]
 
-   [1]: http://www.dylanreed.com/wp-content/uploads/2014/05/Cape-199x300.jpg
+   [1]: /media/2014/05/Cape-199x300.jpg
 
 Thomas is dying.
 
@@ -39,7 +39,7 @@ This is hard. Thomas is currently sitting on my lap while I type this. He always
 Thomas has been part of our lives since we lived in Fort Collins. He is our first pet. He is the best cat I have ever known. I am having a hard time imagining not having him.  
 This is not the first time that I have lost a [pet][2]. I have lost many pets over the years, mostly because I have had many pets over the years. Most of them were gerbils, snakes and birds; there was a memorable ferret mixed in there as well.
 
-   [2]: http://www.dylanreed.com/2004/04/17/lucy-is-gone/
+   [2]: //2004/04/17/lucy-is-gone/
 
 This is the first time the pet has been my pet. Thomas is my cat. Sure he started out as both of ours but at some point Thomas and I formed a special bond. We hang out together all the time. He loves to sit on one side of the couch and give Sarah dirty looks. He then looks over at me with adoring eyes.
 
@@ -57,6 +57,6 @@ Please keep us in your thoughts. Please think happy thoughts for Thomas. Please 
 
 [caption id="attachment_1806" align="aligncenter" width="300"][![Capes][3]][4] Oh yeah, We are the coolest[/caption]
 
-   [3]: http://www.dylanreed.com/wp-content/uploads/2014/05/Capes-300x199.jpg
-   [4]: http://www.dylanreed.com/wp-content/uploads/2014/05/Capes.jpg
+   [3]: /media/2014/05/Capes-300x199.jpg
+   [4]: /media/2014/05/Capes.jpg
 

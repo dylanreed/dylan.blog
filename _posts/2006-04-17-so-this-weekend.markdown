@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 213
 wordpress_url: http://www.dylanreed.org/2006/04/17/so-this-weekend/
 date: '2006-04-17 15:39:30 -0500'

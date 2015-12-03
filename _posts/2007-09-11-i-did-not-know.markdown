@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 456
 wordpress_url: http://www.dylanreed.org/2007/09/11/i-didnt-know/
 date: '2007-09-11 09:51:18 -0500'

@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 1008
-wordpress_url: http://www.dylanreed.com/?p=1008
+wordpress_url: //?p=1008
 date: '2010-02-09 09:23:39 -0600'
 date_gmt: '2010-02-09 17:23:39 -0600'
 categories:
@@ -32,8 +32,8 @@ comments:
 
 [![][1]][2]
 
-   [1]: http://www.dylanreed.com/wp-content/uploads/2010/02/teeth-300x147.jpg (teeth)
-   [2]: http://www.dylanreed.com/wp-content/uploads/2010/02/teeth.jpg
+   [1]: /media/2010/02/teeth-300x147.jpg (teeth)
+   [2]: /media/2010/02/teeth.jpg
 
 So far so good. Since I have fixed the glitch with Paypal donations have been pouring in. I appreciate everything that people have done, from retweeting to donating money. You may notice on the sidebar there is a new addition. It is the progress bar on the amount donated to help get my teeth done. A[ nice generous soul][3] has already adopted 6 teeth, making him the top sponsor of my mouth. Don't let him be the only one. As you can see the lower right hand side has been saved, which means that if you had your heart set on the lower right you are out of luck. Of course there is still a lot of teeth that need to be saved. Don't be afraid, Do it today.
 

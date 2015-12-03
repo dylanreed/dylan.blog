@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 323
 wordpress_url: http://www.dylanreed.org/2007/03/26/photodorks-new-wordpress-theme/
 date: '2007-03-26 16:38:27 -0500'

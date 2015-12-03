@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 452
 wordpress_url: http://www.dylanreed.org/2007/09/06/warning-i-lied-in-my-last-post/
 date: '2007-09-06 14:20:18 -0500'

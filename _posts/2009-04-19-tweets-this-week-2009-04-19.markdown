@@ -13,7 +13,7 @@ author_login: admin
 author_email: dylan@dylanreed.org
 author_url: http://
 wordpress_id: 915
-wordpress_url: http://www.dylanreed.com/2009/04/19/tweets-this-week-2009-04-19/
+wordpress_url: //2009/04/19/tweets-this-week-2009-04-19/
 date: '2009-04-19 09:00:00 -0500'
 date_gmt: '2009-04-19 17:00:00 -0500'
 categories:
@@ -30,7 +30,7 @@ comments:
 - id: 45677
   author: Dylan
   author_email: dylan@dylanreed.com
-  author_url: http://www.dylanreed.com
+  author_url: /
   date: '2009-04-20 03:34:14 -0500'
   date_gmt: '2009-04-20 11:34:14 -0500'
   content: Me too. I finally found a theme that I like and took the time to make it

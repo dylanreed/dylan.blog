@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 218
 wordpress_url: http://www.dylanreed.org/2006/06/06/this-time-i-really-am-sorry/
 date: '2006-06-06 14:51:18 -0500'

@@ -8,12 +8,12 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 1339
-wordpress_url: http://www.dylanreed.com/?p=1339
+wordpress_url: //?p=1339
 date: '2011-06-26 07:16:03 -0500'
 date_gmt: '2011-06-26 14:16:03 -0500'
 categories:
@@ -26,6 +26,6 @@ I have long been a fan of pixar movies and them as a company in general. This dr
 
 [![][1]][2]
 
-   [1]: http://fancycadaver.com/wp-content/uploads/2011/06/SpaceGophersSmall.jpg (Space Gophers)
+   [1]: http://fancycadaver.com//media/2011/06/SpaceGophersSmall.jpg (Space Gophers)
    [2]: http://fancycadaver.com/2011/06/26/space-gophers-in-space/
 

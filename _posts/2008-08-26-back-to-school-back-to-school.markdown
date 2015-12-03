@@ -8,10 +8,10 @@ author:
   display_name: Dylan
   login: dylan
   email: dylan@dylanreed.com
-  url: http://www.dylanreed.com
+  url: /
 author_login: dylan
 author_email: dylan@dylanreed.com
-author_url: http://www.dylanreed.com
+author_url: /
 wordpress_id: 519
 wordpress_url: http://www.dylanreed.org/2008/08/26/back-to-school-back-to-school/
 date: '2008-08-26 12:44:36 -0500'
