@@ -1,0 +1,32 @@
+---
+
+layout: post
+status: publish
+published: true
+title: Last Week
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 162
+wordpress_url: http://www.dylanreed.org/2005/04/25/last-week/
+date: '2005-04-25 07:43:39 -0500'
+date_gmt: '2005-04-25 14:43:39 -0500'
+categories:
+- Awesome
+tags:
+- Clown
+comments: []
+---
+
+So this last week was crazy. I did some balloon work for a cult. The cult was the [Red HAt Society][1], which consists mostly of ladies over 50, if you happen to be under 50 you are instead a Pink Hat. I enjoyed it quite a bit and thank them for their genorosity and also would like to thank my mom for joining the aforementioned cult and hooking me up with the work. 
+
+   [1]: http://www.redhatsociety.com/
+
+I would say that as far as cults go this one is fairly layed back and is really more of a gang since religious beliefs didn't seem to be a big part of the proceedings. So all you other hat societys watch out cause the red hats are gonna get you.
+
+Oh and none of them really knew anything about Linux.. weird

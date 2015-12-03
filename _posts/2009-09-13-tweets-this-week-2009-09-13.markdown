@@ -1,0 +1,43 @@
+---
+
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2009-09-13'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 973
+wordpress_url: //2009/09/13/tweets-this-week-2009-09-13/
+date: '2009-09-13 09:00:00 -0500'
+date_gmt: '2009-09-13 17:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+  * Why my Interneting has suffered [http://twitpic.com/gzgbq][1] [#][2]
+  * RT @skaw: Happy 9/9/09! ALL TEES ARE $9! No joke! (Pls RT for the chance to win a $99 gift code) (via @[threadless][3]) [#][4]
+  * How is it that I just discovered pandora last night. [#][5]
+  * In a fabric store buying school supplies. Best day ever. [#][6]
+  * Today everyone needs to read The Goon by Eric Powell. Unless you hate zombies, then don't [#][7]
+  * [http://ginx.com/-PvpEh][8] I miss my childhood [#][9]
+  
+
+
+   [1]: http://twitpic.com/gzgbq
+   [2]: http://twitter.com/awesomeguy/statuses/3844352002
+   [3]: http://twitter.com/threadless
+   [4]: http://twitter.com/awesomeguy/statuses/3862971569
+   [5]: http://twitter.com/awesomeguy/statuses/3863158823
+   [6]: http://twitter.com/awesomeguy/statuses/3893052243
+   [7]: http://twitter.com/awesomeguy/statuses/3911140889
+   [8]: http://ginx.com/-PvpEh
+   [9]: http://twitter.com/awesomeguy/statuses/3920362437
+

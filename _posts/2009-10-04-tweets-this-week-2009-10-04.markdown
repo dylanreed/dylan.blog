@@ -1,0 +1,38 @@
+---
+
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2009-10-04'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 976
+wordpress_url: //2009/10/04/tweets-this-week-2009-10-04/
+date: '2009-10-04 09:00:00 -0500'
+date_gmt: '2009-10-04 17:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+  * God damn C- on my sketchbook. Must draw more. [#][1]
+  * The Dylan Rules hoodie is back in full effect [#][2]
+  * Need another half page about Heart of Darkness and A Grain of Wheat!!!! Ugh! [#][3]
+  * Finished my paper. Go me. [#][4]
+  * Good night World [#][5]
+  
+
+
+   [1]: http://twitter.com/awesomeguy/statuses/4445574888
+   [2]: http://twitter.com/awesomeguy/statuses/4530918422
+   [3]: http://twitter.com/awesomeguy/statuses/4544599372
+   [4]: http://twitter.com/awesomeguy/statuses/4545042627
+   [5]: http://twitter.com/awesomeguy/statuses/4545074522
+

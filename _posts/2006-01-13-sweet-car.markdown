@@ -1,0 +1,28 @@
+---
+
+layout: post
+status: publish
+published: true
+title: Sweet Car
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: /
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: /
+wordpress_id: 196
+wordpress_url: http://www.dylanreed.org/2006/01/13/sweet-car/
+date: '2006-01-13 21:38:43 -0600'
+date_gmt: '2006-01-14 04:38:43 -0600'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+I like this [car][1]
+
+   [1]: http://www.waciworld.com/psp_controlled_car/ (Car)
+

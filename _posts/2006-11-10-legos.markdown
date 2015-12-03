@@ -1,0 +1,45 @@
+---
+
+layout: post
+status: publish
+published: true
+title: LEGOS
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: /
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: /
+wordpress_id: 239
+wordpress_url: http://www.dylanreed.org/2006/11/10/legos/
+date: '2006-11-10 09:58:58 -0600'
+date_gmt: '2006-11-10 15:58:58 -0600'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+So yesterday Sarah and I went to target to get dominos. Just so everyone knows playing dominos rocks. So much fun.
+
+While we where there I wondered off and found the LEGO aisle. Low and behold LEGO has started making a castle series again. It is called [KNIGHTSa€™ KINGDOMa„¢][1] This is good becasue when I was a kid I always wanted to build one of the ig castles and now I can.
+
+   [1]: http://shop.lego.com/ByTheme/Product.aspx?p=K8823&cn=354&d=70
+
+Also they have three other things that I would enjoy building. First there is the [Aqua Raiders][2]. These are underwater adventure type legos complete with evil underwater creatures. Just look at the teeth of the Tiger Shark set and you know what I mean.
+
+   [2]: http://shop.lego.com/ByTheme/Leaf.aspx?cn=468&d=70
+
+Secondly, the [EXO-FORCEa„¢][3], I like these because I have always loved the idea of riding inside a giant robot Voltron style. Plus giant robots kick ass.[![][4]][5]
+
+   [3]: http://shop.lego.com/ByTheme/Leaf.aspx?cn=34&d=70
+   [4]: http://www.dylanreed.org//media/2006/11/WindowsLiveWriter/LEGOS_7DED/11_thumb%5B23%5D.jpg
+   [5]: http://www.dylanreed.org//media/2006/11/WindowsLiveWriter/LEGOS_7DED/11%5B25%5D.jpg
+
+Lastly, there is the [LEGOÂ® MINDSTORMSÂ® NXT][6], a kit to build your very own computer controlled robot. I know harper has one of the previous incarnations of this set and he always seems to enjoy it.
+
+   [6]: http://shop.lego.com/ByTheme/Product.aspx?p=8527&cn=17
+
+Alas, all of these cost money and though Xmas is coming I don' t know if I should ask for toys for presents. Also, where would I play with them and how many pieces would our fat cat eat

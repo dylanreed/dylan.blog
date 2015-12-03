@@ -1,0 +1,42 @@
+---
+
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2011-06-05'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 1318
+wordpress_url: //2011/06/05/tweets-this-week-2011-06-05/
+date: '2011-06-05 15:00:00 -0500'
+date_gmt: '2011-06-05 22:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+  * Waffles, sewing, hanging out with cats and wife outside and comic books. What a great day!! [#][1]
+  * I did not realize Fraggle Rock had a comic @[graphicly][2] [http://t.co/RtCzyCM][3] [#][4]
+  * turntable.fm is quite a bit of fun [#][5]
+  * I hate it when sarah isn't around. I can't sleep and I have a crazy day in the morning. [#][6]
+  * time for some lunch of the lunch meeting variety [#][7]
+  * I am bad at recovering from being out late. So sleepy. Looks like it is time to watch the xmen movies and nap. [#][8]
+  
+
+
+   [1]: http://twitter.com/awesomeguy/statuses/75580868588085248
+   [2]: http://twitter.com/graphicly
+   [3]: http://t.co/RtCzyCM
+   [4]: http://twitter.com/awesomeguy/statuses/75681628676034561
+   [5]: http://twitter.com/awesomeguy/statuses/76371119187308544
+   [6]: http://twitter.com/awesomeguy/statuses/76539871996547072
+   [7]: http://twitter.com/awesomeguy/statuses/76714482566565888
+   [8]: http://twitter.com/awesomeguy/statuses/77171722377367552
+

@@ -1,0 +1,52 @@
+---
+
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2009-09-20'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 974
+wordpress_url: //2009/09/20/tweets-this-week-2009-09-20/
+date: '2009-09-20 09:00:00 -0500'
+date_gmt: '2009-09-20 17:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+  * Reno wants me to fail [http://twitpic.com/hm0mf][1] [#][2]
+  * Starting to take shape [http://twitpic.com/htigh][3] [#][4]
+  * Pre baking [http://twitpic.com/hu518][5] [#][6]
+  * Exciting!!!!!! School!!!!!! Awesome!!!!!! Exclaimation points!!!!!! [#][7]
+  * Time to paint [http://twitpic.com/i28bn][8] [#][9]
+  * Painting like a bastard [http://twitpic.com/i324i][10] [#][11]
+  * I am done!!! I think... [http://twitpic.com/i3egv][12] [#][13]
+  * Sleepy and undedicated. I am now a fan of ???????? [#][14]
+  * Bio exam one= 76%. 2% above class average, go me!! [#][15]
+  
+
+
+   [1]: http://twitpic.com/hm0mf
+   [2]: http://twitter.com/awesomeguy/statuses/3958796462
+   [3]: http://twitpic.com/htigh
+   [4]: http://twitter.com/awesomeguy/statuses/4005072005
+   [5]: http://twitpic.com/hu518
+   [6]: http://twitter.com/awesomeguy/statuses/4008925354
+   [7]: http://twitter.com/awesomeguy/statuses/4031817194
+   [8]: http://twitpic.com/i28bn
+   [9]: http://twitter.com/awesomeguy/statuses/4058039060
+   [10]: http://twitpic.com/i324i
+   [11]: http://twitter.com/awesomeguy/statuses/4062538919
+   [12]: http://twitpic.com/i3egv
+   [13]: http://twitter.com/awesomeguy/statuses/4064357883
+   [14]: http://twitter.com/awesomeguy/statuses/4081273112
+   [15]: http://twitter.com/awesomeguy/statuses/4083500644
+

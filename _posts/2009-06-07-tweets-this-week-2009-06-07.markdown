@@ -1,0 +1,43 @@
+---
+
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2009-06-07'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 956
+wordpress_url: //2009/06/07/tweets-this-week-2009-06-07/
+date: '2009-06-07 09:00:00 -0500'
+date_gmt: '2009-06-07 17:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+  * Back from the cruise we had a lot of fun. Will post pictures etc. later in the week. Now just waiting to hear about the laptop. [#][1]
+  * at work. again. worst part of the cruise so far, going back to work. though I guess finding out Sarah's laptop was stolen is a tie with work [#][2]
+  * Pictures from our trip: [http://ginx.com/-EnpZN][3] [#][4]
+  * Work is hard after vacation. Hopefully it gets easier as the week goes on. [#][5]
+  * headed home for ravioli and then art history [#][6]
+  * First drawing class here I come [#][7]
+  * What is the best place to by airline tickets to england from denver and then back to denver from spain? London and Bacelona to be exact. [#][8]
+  
+
+
+   [1]: http://twitter.com/awesomeguy/statuses/1981715472
+   [2]: http://twitter.com/awesomeguy/statuses/1991297483
+   [3]: http://ginx.com/-EnpZN
+   [4]: http://twitter.com/awesomeguy/statuses/1992344689
+   [5]: http://twitter.com/awesomeguy/statuses/1995144828
+   [6]: http://twitter.com/awesomeguy/statuses/1996421922
+   [7]: http://twitter.com/awesomeguy/statuses/2006608760
+   [8]: http://twitter.com/awesomeguy/statuses/2020750695
+

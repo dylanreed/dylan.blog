@@ -1,0 +1,73 @@
+---
+
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2011-05-15'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 1315
+wordpress_url: //2011/05/15/tweets-this-week-2011-05-15/
+date: '2011-05-15 15:00:00 -0500'
+date_gmt: '2011-05-15 22:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+  * My pampered chef site: [http://dylan.la/jd9jcb][1] Check it out... Buy Stuff... no one has to know... [#][2]
+  * [http://dylan.la/mQ5iP9][3] I really enjoy this song and this group. #[GoKarmin][4] [#][5]
+  * but stomach, i say, i need to eat something. my stomach ignores me and continues to be a butthead. [#][6]
+  * [http://dylan.la/l51Kou][7] Yippee [#][8]
+  * getting ready to draw. but what should I draw? [#][9]
+  * OMG I Drew a Picture: Sidekick [http://dylan.la/lRUi6Z][10] [#][11]
+  * Wordpress is being dumb and not allowing me to crop thumbnails of an image WTF...it is possible that it isn't their fault. [#][12]
+  * I think I will spend part of my day lusting over an iPad... so cool, would make comics so much fun to read, I want... [#][13]
+  * Stupid free ipad liars. Plan B: I will give someone a whole buttload of drawings. Let us say 300 for an ipad 2. Any takers [#][14]
+  * Penny Arcade! - A Gentlemen's Evening [http://dylan.la/myzA4b][15] [#][16]
+  * This is a fantastic trick: [http://dylan.la/mPZLSc][17] so slick [#][18]
+  * Go team Greeley. Finally something to tweet about besides failing schools and the smell. [http://dylan.la/jMdDcS][19] [#][20]
+  * Must move to Seattle NOW: [http://dylan.la/ivoR6W][21] [#][22]
+  * It has been so long since I bought cans of soda that I didn't know where to look for then at the grocery store. Weird. [#][23]
+  * Shopping for other people is hard [#][24]
+  * Just finished doing some baby hacking. Converting an old laptop hardrive into external. Thanks for the link @[harper][25] [#][26]
+  * Have you seen this? [http://dylan.la/iUqZc7][27] I am at a loss for words, seriously @[harper][25] this is what your hair should look like. [#][28]
+  
+
+
+   [1]: http://dylan.la/jd9jcb
+   [2]: http://twitter.com/awesomeguy/statuses/67553492184743936
+   [3]: http://dylan.la/mQ5iP9
+   [4]: http://search.twitter.com/search?q=%23GoKarmin
+   [5]: http://twitter.com/awesomeguy/statuses/67577222948597760
+   [6]: http://twitter.com/awesomeguy/statuses/67667897178263552
+   [7]: http://dylan.la/l51Kou
+   [8]: http://twitter.com/awesomeguy/statuses/67673526043295746
+   [9]: http://twitter.com/awesomeguy/statuses/67940491634814976
+   [10]: http://dylan.la/lRUi6Z
+   [11]: http://twitter.com/awesomeguy/statuses/67980157213876225
+   [12]: http://twitter.com/awesomeguy/statuses/67981935204507648
+   [13]: http://twitter.com/awesomeguy/statuses/67987677466722304
+   [14]: http://twitter.com/awesomeguy/statuses/67990823081492480
+   [15]: http://dylan.la/myzA4b
+   [16]: http://twitter.com/awesomeguy/statuses/68040510375337984
+   [17]: http://dylan.la/mPZLSc
+   [18]: http://twitter.com/awesomeguy/statuses/68352165864947713
+   [19]: http://dylan.la/jMdDcS
+   [20]: http://twitter.com/awesomeguy/statuses/68380130371837952
+   [21]: http://dylan.la/ivoR6W
+   [22]: http://twitter.com/awesomeguy/statuses/68723572402700288
+   [23]: http://twitter.com/awesomeguy/statuses/68785525699518464
+   [24]: http://twitter.com/awesomeguy/statuses/68786438388457473
+   [25]: http://twitter.com/harper
+   [26]: http://twitter.com/awesomeguy/statuses/68853514427842560
+   [27]: http://dylan.la/iUqZc7
+   [28]: http://twitter.com/awesomeguy/statuses/69545042380988416
+

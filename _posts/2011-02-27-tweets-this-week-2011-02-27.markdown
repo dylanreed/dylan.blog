@@ -1,0 +1,67 @@
+---
+
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2011-02-27'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 1235
+wordpress_url: //2011/02/27/tweets-this-week-2011-02-27/
+date: '2011-02-27 15:00:00 -0600'
+date_gmt: '2011-02-27 22:00:00 -0600'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+  * OMG I Drew a Picture: Robot for Moshe [http://dylan.la/ft2hZg][1] [#][2]
+  * Well I took a weekend off from the internet and nothing died. Nice. More drawings starting tomorrow. Also a blog post and maybe a comic [#][3]
+  * [http://dylan.la/eRjoUu][4] read this and apply it to your life. [#][5]
+  * [http://twitpic.com/3vspf0][6] this is awesome [#][7]
+  * My beard is gone [http://dylan.la/dOFbyo][8] [#][9]
+  * I just realized that I go to work in one hour instead of three hours. No drawing this morning :( I will finish @[hiromiusagi][10] bunny later [#][11]
+  * It was a long day at the Office(max) today. That is all. Now to exercise... maybe [#][12]
+  * My Mother-in-laws cat turned orange over the past couple days. He was put to sleep this morning. He was 14 years old. :( [#][13]
+  * Off to do dishes... and then to make bacon wrapped pork medallions. Yummy!! [#][14]
+  * The new bag Harper got me. It would hold more then these to pots full of food [http://yfrog.com/h244crbj][15] [#][16]
+  * Sore throat plus runny nose plus not at home equals headache. Lame sauce. [#][17]
+  * I just climbed 707 meters in Ninjatown #[TreesOfDoom][18] To reach great heights, one must first fall down! [http://bit.ly/9G0wNn][19] [#][20]
+  * I just climbed 944 meters in Ninjatown #[TreesOfDoom][18] Every meter climbed is a victory earned! [http://bit.ly/9G0wNn][19] [#][21]
+  * Dylan need protein or he will die!!!! [#][22]
+  * Purchase Clown Marketing For Beginners with 15% off with coupon code SAVE305 [http://dylan.la/hCgHMY][23] [#][24]
+  
+
+
+   [1]: http://dylan.la/ft2hZg
+   [2]: http://twitter.com/awesomeguy/statuses/39343288204926977
+   [3]: http://twitter.com/awesomeguy/statuses/39863557092937728
+   [4]: http://dylan.la/eRjoUu
+   [5]: http://twitter.com/awesomeguy/statuses/39870357980717056
+   [6]: http://twitpic.com/3vspf0
+   [7]: http://twitter.com/awesomeguy/statuses/40025057497595904
+   [8]: http://dylan.la/dOFbyo
+   [9]: http://twitter.com/awesomeguy/statuses/40027066191724544
+   [10]: http://twitter.com/hiromiusagi
+   [11]: http://twitter.com/awesomeguy/statuses/40043324073181184
+   [12]: http://twitter.com/awesomeguy/statuses/40193991156695041
+   [13]: http://twitter.com/awesomeguy/statuses/40474651230605312
+   [14]: http://twitter.com/awesomeguy/statuses/40542255647301633
+   [15]: http://yfrog.com/h244crbj
+   [16]: http://twitter.com/awesomeguy/statuses/40595525405245440
+   [17]: http://twitter.com/awesomeguy/statuses/40845371273908224
+   [18]: http://search.twitter.com/search?q=%23TreesOfDoom
+   [19]: http://bit.ly/9G0wNn
+   [20]: http://twitter.com/awesomeguy/statuses/40848340560265216
+   [21]: http://twitter.com/awesomeguy/statuses/40874450438201344
+   [22]: http://twitter.com/awesomeguy/statuses/40876584093089792
+   [23]: http://dylan.la/hCgHMY
+   [24]: http://twitter.com/awesomeguy/statuses/41357746393722881
+

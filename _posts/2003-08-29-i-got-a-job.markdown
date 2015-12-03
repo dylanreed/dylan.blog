@@ -1,0 +1,31 @@
+---
+
+layout: post
+status: publish
+published: true
+title: I got a job
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: /
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: /
+wordpress_id: 61
+wordpress_url: http://dylanreed.org/?p=61
+date: '2003-08-29 01:19:29 -0500'
+date_gmt: '2003-08-29 07:19:29 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+Cause I'm a Hottie....Or not i am now an employee of Fort FUn in Ft collins (witty name Huh) I iwll be working there on tues and thurs during the daytime leaving plentyof time for my homework. Fort fun consists of an arcade, two golf course, a gokart track (rule) and a weird water balloon game. rock and roll.
+
+In my super wonderful fun math for liberal arts class (read: math for stupid kids") my teacher is doing a research paper on why people hat math. Because of this we (the students) have to write a paper on our mat history. wtf. its math you add and subtract stuff. seirously.
+
+On a lighter note our cat frida got spayed yesterday and so she has a bald belly. it is pretty funny.
+
+I LOVE SARAH A WHOLE LOT.

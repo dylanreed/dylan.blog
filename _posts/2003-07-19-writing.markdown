@@ -1,0 +1,33 @@
+---
+
+layout: post
+status: publish
+published: true
+title: Writing
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: /
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: /
+wordpress_id: 50
+wordpress_url: http://dylanreed.org/?p=50
+date: '2003-07-19 02:20:24 -0500'
+date_gmt: '2003-07-19 08:20:24 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+Hello Everyone.  
+So I have really started enjoying writing. I blame college composition. I just thought i would let everyone know that. I am having fun in school, I have succeded in taking 5 or 6 strokes off of my golf game. Also I have gotten a B on my first sociology exam and a B+ on my first paper in english.  
+Greeley has gotten hotter then hell lately. The heat sucks, a lot. Walking from my car to class is like being stranded in the Sahara Desert with out water. I only wish that I had a pet camel to ride on to class. Imagine it.  
+The bright sun beating down on the hot desert sand, a lone rider sits atop his gigantic camel. He starts foward and his camel trips tossing him down on the scorching hot sand, his camel bolts running off two the horizon. He stands there alone with no water. slowly he starts walking.  
+Thats me everyday as I trudge to class. I walk slowly, unable to move faster then a funeral march. I see shade ahead, an oasis, I start to walk faster. I am walking faster now, starting to get dizzy, just wishing to get away from the heat. I break through to the shade and get a moments reprieve from the heat, only to be forced to walk back out into the sun to continue to class.  
+Up ahead I see Candeleria Hall, that monument of learning and air conditioning, my stride quickens, I am almost skipping now. I get to the building and open the refridgerator like door. I enter and am in heaven.  
+Thats how it is everyday going to class. All I want to know is whose great idea it was to buid this town in the midde of a desert. Thats all.  
+So any who, I hope everyone is doing good and having fun. I am. I love my family, Sarah and my kitties.  
+Love Dylan

@@ -1,0 +1,96 @@
+---
+
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2009-04-19'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 915
+wordpress_url: //2009/04/19/tweets-this-week-2009-04-19/
+date: '2009-04-19 09:00:00 -0500'
+date_gmt: '2009-04-19 17:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments:
+- id: 45676
+  author: Agnes
+  author_email: blackjetta.agnes@gmail.com
+  author_url: http://knockknockingblog.blogspot.com/
+  date: '2009-04-19 10:55:57 -0500'
+  date_gmt: '2009-04-19 18:55:57 -0500'
+  content: Love your blog layout!
+- id: 45677
+  author: Dylan
+  author_email: dylan@dylanreed.com
+  author_url: /
+  date: '2009-04-20 03:34:14 -0500'
+  date_gmt: '2009-04-20 11:34:14 -0500'
+  content: Me too. I finally found a theme that I like and took the time to make it
+    mine.
+- id: 45681
+  author: Another Dylan
+  author_email: dreed2010@gmail.com
+  author_url: ''
+  date: '2009-04-23 14:21:05 -0500'
+  date_gmt: '2009-04-23 22:21:05 -0500'
+  content: hey I googled myself and this came up. I wouldnt mind talking to you, you
+    seem pretty cool and we have some things in common. Let me know if you want to
+    talk.
+---
+
+  * Cleaning energy fading. Help!! [#][1]
+  * Nachos after dying easter eggs is awesome [#][2]
+  * Spanish class, then history studying; when will it end [#][3]
+  * Writing a paper of the historical inaccuracies in 300 and drinking San Pellegrino. Just finished my slurpee from jhruth [#][4]
+  * That was a good slurpee. What to do for lunch? [#][5]
+  * Finished two pages of paper and finished a character for game night tomorrow. Must eat lunch [#][6]
+  * working for the weekend, everybody wants to do a dance. [#][7]
+  * Slurpee fund is getting low. :( [#][8]
+  * [http://ginx.com/-C1q5C][9] SLURPEES [#][10]
+  * No game night. Instead it is a history night. Lame. [#][11]
+  * Not dedicated today. Stupid tired [#][12]
+  * not very motivated today. This is what happens when game night is canceled. [#][13]
+  * Slurpee time thanks @[reedbooks][14] (whois mom) [#][15]
+  * Yea! The first of the spring showers [#][16]
+  * Tricked my self into studying because I only brought my history book. Let it begin! [#][17]
+  * First showing is a no show. Come on, I was up early enough to make it here. [#][18]
+  * So far no-shows 2 shows 0. Lame [#][19]
+  * No shows: 3 Shows: 1 [#][20]
+  * No shows: 3 Shows: 2 [#][21]
+  * No shows: 4 Shows: 2. No Shows Win!! [#][22]
+  * headed to a movie. Go us [#][23]
+  
+
+
+   [1]: http://twitter.com/awesomeguy/statuses/1503010407
+   [2]: http://twitter.com/awesomeguy/statuses/1504004502
+   [3]: http://twitter.com/awesomeguy/statuses/1509196458
+   [4]: http://twitter.com/awesomeguy/statuses/1510539933
+   [5]: http://twitter.com/awesomeguy/statuses/1510694451
+   [6]: http://twitter.com/awesomeguy/statuses/1511651742
+   [7]: http://twitter.com/awesomeguy/statuses/1516860605
+   [8]: http://twitter.com/awesomeguy/statuses/1518384193
+   [9]: http://ginx.com/-C1q5C
+   [10]: http://twitter.com/awesomeguy/statuses/1518440765
+   [11]: http://twitter.com/awesomeguy/statuses/1520832713
+   [12]: http://twitter.com/awesomeguy/statuses/1524714501
+   [13]: http://twitter.com/awesomeguy/statuses/1528027096
+   [14]: http://twitter.com/reedbooks
+   [15]: http://twitter.com/awesomeguy/statuses/1536168668
+   [16]: http://twitter.com/awesomeguy/statuses/1536778283
+   [17]: http://twitter.com/awesomeguy/statuses/1544677278
+   [18]: http://twitter.com/awesomeguy/statuses/1551067622
+   [19]: http://twitter.com/awesomeguy/statuses/1551382153
+   [20]: http://twitter.com/awesomeguy/statuses/1551709755
+   [21]: http://twitter.com/awesomeguy/statuses/1551875609
+   [22]: http://twitter.com/awesomeguy/statuses/1552028381
+   [23]: http://twitter.com/awesomeguy/statuses/1555153303
+

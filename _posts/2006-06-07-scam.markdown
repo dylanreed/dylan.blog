@@ -1,0 +1,35 @@
+---
+
+layout: post
+status: publish
+published: true
+title: scam
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: /
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: /
+wordpress_id: 219
+wordpress_url: http://www.dylanreed.org/2006/06/07/scam/
+date: '2006-06-07 12:04:15 -0500'
+date_gmt: '2006-06-07 19:04:15 -0500'
+categories: []
+tags:
+- Clown
+comments: []
+---
+
+[Alpha project][1] [banachek][2] [Uri][3] and the best [Peter Popoff][4]
+
+   [1]: http://en.wikipedia.org/wiki/Project_Alpha
+   [2]: http://www.banachek.org/
+   [3]: http://en.wikipedia.org/wiki/Uri_Geller
+   [4]: http://www.peterpopoff.org/
+
+[Exposed][5]
+
+   [5]: http://www.darat.org/~dimossi/James.Randi.debunking.on.Tonight.Show.wmv
+

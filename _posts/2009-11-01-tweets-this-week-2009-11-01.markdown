@@ -1,0 +1,47 @@
+---
+
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2009-11-01'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 980
+wordpress_url: //2009/11/01/tweets-this-week-2009-11-01/
+date: '2009-11-01 08:00:00 -0600'
+date_gmt: '2009-11-01 16:00:00 -0600'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+  * At o'hare for like 20 minutes [#][1]
+  * Best place for food in O'Hare? Please help [#][2]
+  * In springfield MO. Almost home [#][3]
+  * Landed safe in denver [#][4]
+  * I wish our bags would arrive faster so we can get home to our cats [#][5]
+  * I meant to post this last night: United airlines lost our bag in springfield where we stayed on the same plane. Hope the cheese is ok [#][6]
+  * Is it cool that I want to see ninja assassin? [#][7]
+  * I think I am turning into a pig. Stay away from me. [#][8]
+  * We are carving stuff [http://twitpic.com/nmd3o][9] [#][10]
+  
+
+
+   [1]: http://twitter.com/awesomeguy/statuses/5153093928
+   [2]: http://twitter.com/awesomeguy/statuses/5153141653
+   [3]: http://twitter.com/awesomeguy/statuses/5157044449
+   [4]: http://twitter.com/awesomeguy/statuses/5160666431
+   [5]: http://twitter.com/awesomeguy/statuses/5161549299
+   [6]: http://twitter.com/awesomeguy/statuses/5177132223
+   [7]: http://twitter.com/awesomeguy/statuses/5199691030
+   [8]: http://twitter.com/awesomeguy/statuses/5201011443
+   [9]: http://twitpic.com/nmd3o
+   [10]: http://twitter.com/awesomeguy/statuses/5305738561
+
