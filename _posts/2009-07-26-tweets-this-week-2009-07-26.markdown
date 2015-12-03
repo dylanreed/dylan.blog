@@ -1,0 +1,34 @@
+---
+
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2009-07-26'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 966
+wordpress_url: //2009/07/26/tweets-this-week-2009-07-26/
+date: '2009-07-26 09:00:00 -0500'
+date_gmt: '2009-07-26 17:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+  * CS4 keeps crashing on new MacBook pro. Why adobe, why? [#][1]
+  * @[skaw][2] what are you reading comic book wise? [in reply to skaw][3] [#][4]
+  
+
+
+   [1]: http://twitter.com/awesomeguy/statuses/2772102715
+   [2]: http://twitter.com/skaw
+   [3]: http://twitter.com/skaw/statuses/2820586463
+   [4]: http://twitter.com/awesomeguy/statuses/2822362424
+

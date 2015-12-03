@@ -1,0 +1,77 @@
+---
+
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2011-03-20'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 1277
+wordpress_url: //2011/03/20/tweets-this-week-2011-03-20/
+date: '2011-03-20 15:00:00 -0500'
+date_gmt: '2011-03-20 22:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+  * OMG I Drew a Picture: Country Croc [http://dylan.la/eOmoUI][1] [#][2]
+  * Slurpees!!! [#][3]
+  * OMG I Drew a Picture: Hippity Hoppity [http://fancycadaver.com/2011/03/14/hippity-hoppity/][4] [#][5]
+  * OMG I Drew a Picture: Hippity Hoppity [http://dylan.la/hQNiP2][6] [#][7]
+  * OMG I Drew a Picture: Nervous Purvis [http://dylan.la/hVIfer][8] [#][9]
+  * You can see by the number of retweets that I am waiting for my take-out to be ready. [#][10]
+  * Early morning grocery shopping for the win!!! [#][11]
+  * OMG I Drew a Picture: Goth Girl [http://dylan.la/f3Lo0a][12] [#][13]
+  * Rough night at work last night. Hopefully having a day off will make it all better. We shall see [#][14]
+  * Happy St. Pancakes day [http://t.co/Hj132vM][15] [#][16]
+  * Our trex is now complete [http://t.co/qdrlhX1][17] [#][18]
+  * If you are not currently reading chew you should be. [#][19]
+  * [http://dylan.la/gvhwSc][20] I think I am super-curious... or maybe this just made me uncomfortable [#][21]
+  * OMG You can buy my prints here:[http://dylan.la/gjcTde][22] [#][23]
+  * OMG I Drew a Picture: The Correspondent [http://dylan.la/hch9I7][24] [#][25]
+  * Just dealt with a lady who was mad that we didn't have the product we said we did when she called. She had called our competitor. [#][26]
+  * Good Morning Saturday, wish I didn't work today so I could hang out with with Sarah more [#][27]
+  * OMG I Drew a Picture: OINK!!! [http://dylan.la/h2NsoV][28] [#][29]
+  * Some people need to check there email addresses before using them. I now have an additional xbox live account that is under the wrong email [#][30]
+  
+
+
+   [1]: http://dylan.la/eOmoUI
+   [2]: http://twitter.com/awesomeguy/statuses/46982100221562880
+   [3]: http://twitter.com/awesomeguy/statuses/47334275942596608
+   [4]: http://fancycadaver.com/2011/03/14/hippity-hoppity/
+   [5]: http://twitter.com/awesomeguy/statuses/47341770127843328
+   [6]: http://dylan.la/hQNiP2
+   [7]: http://twitter.com/awesomeguy/statuses/47341769649696769
+   [8]: http://dylan.la/hVIfer
+   [9]: http://twitter.com/awesomeguy/statuses/47696505485795328
+   [10]: http://twitter.com/awesomeguy/statuses/47813536587591680
+   [11]: http://twitter.com/awesomeguy/statuses/48004778571206656
+   [12]: http://dylan.la/f3Lo0a
+   [13]: http://twitter.com/awesomeguy/statuses/48066172259807233
+   [14]: http://twitter.com/awesomeguy/statuses/48349219865636864
+   [15]: http://t.co/Hj132vM
+   [16]: http://twitter.com/awesomeguy/statuses/48352311898148864
+   [17]: http://t.co/qdrlhX1
+   [18]: http://twitter.com/awesomeguy/statuses/48413909987762176
+   [19]: http://twitter.com/awesomeguy/statuses/48433281099771904
+   [20]: http://dylan.la/gvhwSc
+   [21]: http://twitter.com/awesomeguy/statuses/48511176639913984
+   [22]: http://dylan.la/gjcTde
+   [23]: http://twitter.com/awesomeguy/statuses/48752111156068352
+   [24]: http://dylan.la/hch9I7
+   [25]: http://twitter.com/awesomeguy/statuses/48764610538520576
+   [26]: http://twitter.com/awesomeguy/statuses/48823886711762944
+   [27]: http://twitter.com/awesomeguy/statuses/49103463317123072
+   [28]: http://dylan.la/h2NsoV
+   [29]: http://twitter.com/awesomeguy/statuses/49145314032107520
+   [30]: http://twitter.com/awesomeguy/statuses/49311234742435840
+

@@ -1,0 +1,26 @@
+---
+
+layout: post
+status: publish
+published: true
+title: Working
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: /
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: /
+wordpress_id: 74
+wordpress_url: http://dylanreed.org/?p=74
+date: '2003-10-18 11:09:05 -0500'
+date_gmt: '2003-10-18 17:09:05 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+So ican get on the internet at work if i work at the right computer. so thats good. i am so tired and annoyed. i worked this morning from 11am-2pm and then tonight i am working 5pm until 12:30am. what has me annoyed is that some of the people that i work with got to go home early even though they all came in at 6pm. wtf. i have been working longer hours wise as well as i have been employed longer. plus theses to people are getting out of a lot of the cleaning that goes on at the end of the night. its bullshit.  
+thats all good night.

@@ -1,0 +1,46 @@
+---
+
+layout: post
+status: publish
+published: true
+title: hello
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: /
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: /
+wordpress_id: 18
+wordpress_url: http://dylanreed.org/?p=18
+date: '2002-06-22 10:13:00 -0500'
+date_gmt: '2002-06-22 16:13:00 -0500'
+categories:
+- Awesome
+tags: []
+comments:
+- id: 27
+  author: LOAN VAULT GIRL'S OTHER FRIEND(SHIRA)
+  author_email: ''
+  author_url: ''
+  date: '2002-06-26 11:27:00 -0500'
+  date_gmt: ''
+  content: I REALLY DONT APPRECIATE YOU BASHING MY FRIEND ON YOUR WEB PAGE.  I THOUGHT
+    THAT WAS MEAN.  YOU CANT SMELL HER THROUGH THE COMPUTER.  YOU DONT KNOW HER--PERSONALLY.  ANYWAY,
+    YOUR STORIES ARE PRETTY INTERESTING.  NICE WEB PAGE.  I LOVE THE STORIES SARAH
+    SHARES WITH US ABOUT YOU.  WE WOULD LIKE MORE PICTURES SO GET THEM ON YOUR PAGE.
+- id: 28
+  author: LOAN VAULT GIRL'S OTHER FRIEND(SHIRA)
+  author_email: ''
+  author_url: ''
+  date: '2002-06-26 11:28:00 -0500'
+  date_gmt: ''
+  content: I REALLY DONT APPRECIATE YOU BASHING MY FRIEND ON YOUR WEB PAGE.  I THOUGHT
+    THAT WAS MEAN.  YOU CANT SMELL HER THROUGH THE COMPUTER.  YOU DONT KNOW HER--PERSONALLY.  ANYWAY,
+    YOUR STORIES ARE PRETTY INTERESTING.  NICE WEB PAGE.  I LOVE THE STORIES SARAH
+    SHARES WITH US ABOUT YOU.  WE WOULD LIKE MORE PICTURES SO GET THEM ON YOUR PAGE.
+- id: 29
+  author: Loan Vault Girl's other friend---
+
+Shira author_email: '' author_url: '' date: '2002-06-26 11:31:00 -0500' date_gmt: '' content: I don't appreciate you making fun of my friend on you web page. You can't smell her through the computer. You don't know her- personally. Anyway, we really enjoy your stories. We also enjoy the stories Sarah shares with us about you. We also would like more pictures on your page. - id: 30 author: Loan Vault Girl (Shima) author_email: '' author_url: '' date: '2002-06-26 02:38:00 -0500' date_gmt: '' content: "Well I might smell but you dive like a girl. \n\nSorry for my friend Shira's 10 billion repeats. She on crake or something. We think she was an issue with the clicker.\n" 

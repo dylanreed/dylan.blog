@@ -1,0 +1,78 @@
+---
+
+layout: post
+status: publish
+published: true
+title: i do stuff
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: /
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: /
+wordpress_id: 907
+wordpress_url: //?p=907
+date: '2009-04-15 13:59:47 -0500'
+date_gmt: '2009-04-15 21:59:47 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+[![idostuff][1]][2]
+
+   [1]: /media/2009/04/idostuff-300x204.jpg (idostuff)
+   [2]: /media/2009/04/idostuff.jpg
+
+In a world gone mad with too many things, where are you going to look for help getting stuff done? You're going to look to me, Dylan Reed. I do stuff. Any stuff. I have been doing stuff for a number of years and am very skilled at doing stuff.
+
+This is how I feel a lot of the time. Due to the wondering nature of my brain I have found it hard for me to enjoy any single job for longer than a couple of months. I don't have a problem keep jobs, I just have a hard time finding one that I enjoy a bunch. I wish that there was one career that I found so interesting I wanted to do nothing else. Unfortunately I have yet to find such a career.
+
+On top of that the economy sucks, surprised? This means that finding jobs is more difficult than ever for many people and this makes it harder to get out of a job you dislike. What I am going to try to do, over the next weeks and months, is become a paid doer of stuff. This should be simple to figure out but hard to execute.
+
+Everyone has something that they dislike doing or don't have time to do, that is where I come in. I will do anything* and you pay me for my time. This is almost an on-call service once it is set up and will save you time in the long run. I have experience doing many odd jobs:
+
+*         Entertaining
+
+*         General Household Maintenance
+
+*         General Household Chores
+
+*         Helping pack for moving
+
+*         Picking up dog waste before parties/gatherings
+
+*         Hosting events
+
+*         Being an MC
+
+*         Babysitting, no diapers
+
+*         Pet sitting/vet visits
+
+*         Basic Web design
+
+*         Graphic Design
+
+*         Writing
+
+*         Driving
+
+*         Messenger/Local Delivery
+
+*         Cooking/Baking
+
+*         Search and Recovery Diving
+
+*         Underwater cleaning of Boats
+
+*         More...
+
+As you can see I have done a lot, mostly as hobbies, and I didn't even include anything I learned from jobs that I have had. That is boring stuff like cash handling, alphabetizing videos, making coffee, property management and hanging out with developmentally disabled folks.
+
+ 
+
+*not that, sicko

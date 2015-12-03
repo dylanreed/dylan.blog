@@ -1,0 +1,45 @@
+---
+
+layout: post
+status: publish
+published: true
+title: The Same
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: /
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: /
+wordpress_id: 1447
+wordpress_url: //?p=1447
+date: '2012-03-28 11:25:09 -0500'
+date_gmt: '2012-03-28 18:25:09 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+I have noticed that a lot of people have a work life and a home life. They exhibit one set of characteristics at work and then another when they are not at work. Don't do this. You will be happier in life and at work if you are honest about who you are in both places. This is because no one likes to be lied to.
+
+When I was hiring people at Property Technica I would encounter this a lot. People would answer my questions how they thought I wanted them answer so that they could have the job. I knew this while I was interviewing. So does every single person who interviews people for jobs. How do they know? Because they have probably done the same thing.
+
+There should be nothing in your life that you are so ashamed of that you cannot be honest with people about it. If there is something that you are so ashamed about that you keep it bottled up inside you need to take a look at your life and make adjustments.
+
+Also honesty will beget honesty. If you live your life as honestly as possible then the world will be honest with you. Don't assume that everyone is as honest of you but don't automatically think people are full of shit. If someone asks you for an exemple of a time when you didn't provide good service, tell them about the time you actually provided poor service and then talk about what you learned and what you would do differently in the future. They'll respond to that better then the stock "Well, its hard to think of a time... but here is the closest exemple I could think of." answer.
+
+The same works outside of work. I have been married for 7.5 years now and I can say that our greatest strength is that we don't lie to each other. We are on the same team so we our honest about everything. It can be awkward as you might imagine but I am a better person for the honesty that Sarah drops on me. Because we don't have secrets we don't have problems. Secrets = Problems.
+
+This is why transparency is so important. Working at Graphicly this has been really nice. Micah tells it like it is and doesn't bull shit us. Other jobs I have had really enjoyed jerking all the employees around and watching them dance. I am a good employee but I hate being jerked around. If you are honest with me I will stick around longer then if you jerk me around.
+
+I like to think that I am the majority when it comes to being honest and appreciating honesty, but unfortunately that is not the case. I have worked with numerous people in all industries that cannot take constructive criticism and are afraid to give it. We have all worked with those people(if you haven't then that person is you); the people who are complimentary about everything. They don't have the ability to tell you directly that your design/idea/whatever is shit. They will praise you and praise you and then either bad mouth you behind your back or pass you up for promotions.
+
+Try to not do this. Don't be a smoke blower. Be a truth teller. If someone gives you a design and it is horrible, figure out why and give them criticism that will allow them to grow.
+
+[![][1]][2]
+
+   [1]: /media/2012/03/Robot_Dance.gif (Robot_Dance)
+   [2]: /media/2012/03/Robot_Dance.gif
+

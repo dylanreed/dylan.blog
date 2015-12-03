@@ -1,0 +1,125 @@
+---
+
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2009-06-21'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 959
+wordpress_url: //2009/06/21/tweets-this-week-2009-06-21/
+date: '2009-06-21 09:00:00 -0500'
+date_gmt: '2009-06-21 17:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+  * Pizza street for lunch ohhhh yeah [#][1]
+  * I want a book about pencil shading [#][2]
+  * Project time [http://twitpic.com/7f7po][3] [#][4]
+  * Whoppers, pink panther movies & sewing; is there anything better? [#][5]
+  * RT @[harper][6] Functioning Iran proxies 218.128.112.18:8080 218.206.94.132:808 218.253.65.99:808 219.50.16.70:8080 #[iranelection][7] (via @[twazzup][8]) [#][9]
+  * I am enjoying the new black eyed peas [#][10]
+  * Disney Princess Awesomeness: [http://ginx.com/-eeg0v][11] [#][12]
+  * @[micah][13] that is so true. I sent a laptop there and it was"stolen" [#][14]
+  * @[detour1999][15] shut up, criminal! [in reply to detour1999][16] [#][17]
+  * @[micah][13] I knew it! I hate @[harper][6] but I love me some fukung [in reply to micah][18] [#][19]
+  * @[harper][6] because you are using Sarah's laptop to host fukung according to @[micah][13] [in reply to harper][20] [#][21]
+  * Getting gas [#][22]
+  * @[mandytheclown][23] good luck [in reply to mandytheclown][24] [#][25]
+  * It has begun [http://twitpic.com/7lcgx][26] [#][27]
+  * Scenes from my first warhammer battle. Awesome! [http://twitpic.com/7lja9][28] [#][29]
+  * Sarah made spicy banana bread. Jealous? [http://twitpic.com/7msgm][30] [#][31]
+  * Who plays warhammer fantasy? [#][32]
+  * Bring it tornados. BRING IT!! [#][33]
+  * Tornado warnings and I am out of ice cream,WTF. #[lame][34] [#][35]
+  * @[jhruth][36] good luck on your test [in reply to jhruth][37] [#][38]
+  * Show support for democracy in Iran add green overlay to your Twitter avatar with 1-click - [http://helpiranelection.com/][39] [#][40]
+  * #helpiranelection - show support for democracy in Iran add green overlay to your Twitter avatar with 1-click - [http://helpiranelection.com/][39] [#][41]
+  * Fafsa done. [#][42]
+  * Turtle [http://twitpic.com/7qqw1][43] [#][44]
+  * Hawk [http://twitpic.com/7rfpf][45] [#][46]
+  * So you think you can dance is awesome. Except Mary Murphy [#][47]
+  * @[detour1999][15] yeah, they should being eating cinn-a-bun and playing game boy [in reply to detour1999][48] [#][49]
+  * Wedding photography pratice tonight, advising for next year this morning and possibly a warhammer purchase sometime today. Only work sucks. [#][50]
+  * Just added myself to the [http://wefollow.com][51] twitter directory under: #[clown][52] #[gamer][53] #[awesome][54] [#][55]
+  * Thinks he is so cool [http://twitpic.com/7u2cc][56] [#][57]
+  * Wedding run through taking for ever and of course it is running late. Plus side: we just got paid. [#][58]
+  * Yard work is number 1 [http://twitpic.com/7wk32][59] [#][60]
+  * Time to go to work [http://twitpic.com/7xgx4][61] [#][62]
+  * So wanting this show to get on the road. Seriously. Or I want the nap train to arrive. [#][63]
+  
+
+
+   [1]: http://twitter.com/awesomeguy/statuses/2167797591
+   [2]: http://twitter.com/awesomeguy/statuses/2169938944
+   [3]: http://twitpic.com/7f7po
+   [4]: http://twitter.com/awesomeguy/statuses/2170652352
+   [5]: http://twitter.com/awesomeguy/statuses/2171200214
+   [6]: http://twitter.com/harper
+   [7]: http://search.twitter.com/search?q=%23iranelection
+   [8]: http://twitter.com/twazzup
+   [9]: http://twitter.com/awesomeguy/statuses/2177528583
+   [10]: http://twitter.com/awesomeguy/statuses/2178884086
+   [11]: http://ginx.com/-eeg0v
+   [12]: http://twitter.com/awesomeguy/statuses/2180349217
+   [13]: http://twitter.com/micah
+   [14]: http://twitter.com/awesomeguy/statuses/2183223043
+   [15]: http://twitter.com/detour1999
+   [16]: http://twitter.com/detour1999/statuses/2183270649
+   [17]: http://twitter.com/awesomeguy/statuses/2184758335
+   [18]: http://twitter.com/micah/statuses/2183445230
+   [19]: http://twitter.com/awesomeguy/statuses/2185879233
+   [20]: http://twitter.com/harper/statuses/2186607498
+   [21]: http://twitter.com/awesomeguy/statuses/2187795773
+   [22]: http://twitter.com/awesomeguy/statuses/2194272334
+   [23]: http://twitter.com/mandytheclown
+   [24]: http://twitter.com/mandytheclown/statuses/2193395872
+   [25]: http://twitter.com/awesomeguy/statuses/2194300024
+   [26]: http://twitpic.com/7lcgx
+   [27]: http://twitter.com/awesomeguy/statuses/2200970996
+   [28]: http://twitpic.com/7lja9
+   [29]: http://twitter.com/awesomeguy/statuses/2201941566
+   [30]: http://twitpic.com/7msgm
+   [31]: http://twitter.com/awesomeguy/statuses/2209332287
+   [32]: http://twitter.com/awesomeguy/statuses/2209339073
+   [33]: http://twitter.com/awesomeguy/statuses/2215941217
+   [34]: http://search.twitter.com/search?q=%23lame
+   [35]: http://twitter.com/awesomeguy/statuses/2216052862
+   [36]: http://twitter.com/jhruth
+   [37]: http://twitter.com/jhruth/statuses/2216276016
+   [38]: http://twitter.com/awesomeguy/statuses/2216440857
+   [39]: http://helpiranelection.com/
+   [40]: http://twitter.com/awesomeguy/statuses/2223953368
+   [41]: http://twitter.com/awesomeguy/statuses/2223974589
+   [42]: http://twitter.com/awesomeguy/statuses/2224851606
+   [43]: http://twitpic.com/7qqw1
+   [44]: http://twitter.com/awesomeguy/statuses/2228414598
+   [45]: http://twitpic.com/7rfpf
+   [46]: http://twitter.com/awesomeguy/statuses/2231239029
+   [47]: http://twitter.com/awesomeguy/statuses/2232116839
+   [48]: http://twitter.com/detour1999/statuses/2236708077
+   [49]: http://twitter.com/awesomeguy/statuses/2237571576
+   [50]: http://twitter.com/awesomeguy/statuses/2237599748
+   [51]: http://wefollow.com
+   [52]: http://search.twitter.com/search?q=%23clown
+   [53]: http://search.twitter.com/search?q=%23gamer
+   [54]: http://search.twitter.com/search?q=%23awesome
+   [55]: http://twitter.com/awesomeguy/statuses/2238741955
+   [56]: http://twitpic.com/7u2cc
+   [57]: http://twitter.com/awesomeguy/statuses/2243832030
+   [58]: http://twitter.com/awesomeguy/statuses/2245145043
+   [59]: http://twitpic.com/7wk32
+   [60]: http://twitter.com/awesomeguy/statuses/2253443362
+   [61]: http://twitpic.com/7xgx4
+   [62]: http://twitter.com/awesomeguy/statuses/2256446878
+   [63]: http://twitter.com/awesomeguy/statuses/2257342708
+

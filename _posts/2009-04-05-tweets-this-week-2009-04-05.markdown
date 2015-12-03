@@ -1,0 +1,103 @@
+---
+
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2009-04-05'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 877
+wordpress_url: //2009/04/05/tweets-this-week-2009-04-05/
+date: '2009-04-05 09:00:00 -0500'
+date_gmt: '2009-04-05 17:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+  * Getting ready to go shopping with Sarah and my mom. Should be fun. switching blog updates to only weekdays. [#][1]
+  * Left my kindle at the egg and I like an idiot. Going to get it soon [#][2]
+  * Almost to the beginning of the shopping adventure. [#][3]
+  * @[harper][4] I loved Springtime Death Drive too [#][5]
+  * Shopping with my mom is fun [#][6]
+  * Whole Foods makes no sense [#][7]
+  * Headed home, sleepy, dreading the spanish studying [#][8]
+  * Pork chops plus The Fugitive equals awesome times ten. [#][9]
+  * Still sleepy and I haven't started studying [#][10]
+  * getting ready for bed. Big thanks goes out to Mr. Ruth for making me study. Time for sleep. [#][11]
+  * Up early to finish reviewing Spanish. God I hate early [#][12]
+  * Kindle rescued. Test time [#][13]
+  * Test: COMPLETE!!! [#][14]
+  * To Romas troops. Then to diving. [#][15]
+  * Grocery shopping and SCUBA finished... Go us [#][16]
+  * @harper: I will sell you mine! [#][17]
+  * @harper: I know right [#][18]
+  * Time for bed [#][19]
+  * House is cleanish and it is time to shower. [#][20]
+  * In fort collins for lunch and a 3D movie. [#][21]
+  * I love you pickle barrel [#][22]
+  * Monstres VS Aliens is awesome [#][23]
+  * Go team spanish [#][24]
+  * Time for more SCUBA practice [#][25]
+  * Dear fried chicken. You are awesome [#][26]
+  * Going to work for the second hour this week. It is nice to have to work so little and yet annoying to have to work on vacation [#][27]
+  * Why do people fight at work? Fighting breaks my vacation. Dicks [#][28]
+  * Passing castle rock [#][29]
+  * In colorado city [#][30]
+  * At Fort Union National Monument [#][31]
+  * Almost to las vegas... New Mexico [#][32]
+  * Almost there [#][33]
+  * Almost time to dive. Sarah is nervous, please send her happy thoughts [#][34]
+  * @reedmorebooks: brittany says thanks [#][35]
+  * @reedmorebooks: I mean sarah [#][36]
+  * Sarah is a SCUBA rockstar [#][37]
+  * Last dive in 20 minutes [#][38]
+  
+
+
+   [1]: http://twitter.com/awesomeguy/statuses/1412318543
+   [2]: http://twitter.com/awesomeguy/statuses/1412782494
+   [3]: http://twitter.com/awesomeguy/statuses/1413026375
+   [4]: http://twitter.com/harper
+   [5]: http://twitter.com/awesomeguy/statuses/1413163142
+   [6]: http://twitter.com/awesomeguy/statuses/1413166700
+   [7]: http://twitter.com/awesomeguy/statuses/1414422634
+   [8]: http://twitter.com/awesomeguy/statuses/1414695313
+   [9]: http://twitter.com/awesomeguy/statuses/1414882443
+   [10]: http://twitter.com/awesomeguy/statuses/1415279377
+   [11]: http://twitter.com/awesomeguy/statuses/1415701094
+   [12]: http://twitter.com/awesomeguy/statuses/1417384697
+   [13]: http://twitter.com/awesomeguy/statuses/1417794430
+   [14]: http://twitter.com/awesomeguy/statuses/1418228730
+   [15]: http://twitter.com/awesomeguy/statuses/1418842474
+   [16]: http://twitter.com/awesomeguy/statuses/1420316429
+   [17]: http://twitter.com/awesomeguy/statuses/1420533140
+   [18]: http://twitter.com/awesomeguy/statuses/1420548230
+   [19]: http://twitter.com/awesomeguy/statuses/1422108072
+   [20]: http://twitter.com/awesomeguy/statuses/1425450322
+   [21]: http://twitter.com/awesomeguy/statuses/1425916147
+   [22]: http://twitter.com/awesomeguy/statuses/1426218379
+   [23]: http://twitter.com/awesomeguy/statuses/1427251688
+   [24]: http://twitter.com/awesomeguy/statuses/1432332233
+   [25]: http://twitter.com/awesomeguy/statuses/1433516945
+   [26]: http://twitter.com/awesomeguy/statuses/1436087544
+   [27]: http://twitter.com/awesomeguy/statuses/1439015791
+   [28]: http://twitter.com/awesomeguy/statuses/1441552983
+   [29]: http://twitter.com/awesomeguy/statuses/1446559149
+   [30]: http://twitter.com/awesomeguy/statuses/1447363873
+   [31]: http://twitter.com/awesomeguy/statuses/1448183479
+   [32]: http://twitter.com/awesomeguy/statuses/1448309602
+   [33]: http://twitter.com/awesomeguy/statuses/1448580324
+   [34]: http://twitter.com/awesomeguy/statuses/1451412972
+   [35]: http://twitter.com/awesomeguy/statuses/1451660387
+   [36]: http://twitter.com/awesomeguy/statuses/1453363406
+   [37]: http://twitter.com/awesomeguy/statuses/1453375723
+   [38]: http://twitter.com/awesomeguy/statuses/1456713272
+

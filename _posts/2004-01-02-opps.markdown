@@ -1,0 +1,25 @@
+---
+
+layout: post
+status: publish
+published: true
+title: oPPs
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: /
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: /
+wordpress_id: 91
+wordpress_url: http://dylanreed.org/?p=91
+date: '2004-01-02 06:13:17 -0600'
+date_gmt: '2004-01-02 12:13:17 -0600'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+So I spilled soda on my computer causeing the keyboard to be sticky. Opps. I have to clean it real good tommarrow.

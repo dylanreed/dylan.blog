@@ -1,0 +1,51 @@
+---
+
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2009-08-23'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 970
+wordpress_url: //2009/08/23/tweets-this-week-2009-08-23/
+date: '2009-08-23 09:00:00 -0500'
+date_gmt: '2009-08-23 17:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+  * Reason one why I'll be dead by morning [http://twitpic.com/e4rra][1] [#][2]
+  * Reason two why I'll be dead by morning [http://twitpic.com/e4rtc][3] [#][4]
+  * Pizza hut for lunch. Tasty [#][5]
+  * Sparkling water and bacon are the best things in the world. [#][6]
+  * Time to kick some volleyball ass!! [#][7]
+  * Time to but school books [#][8]
+  * Wondering lost around csu [#][9]
+  * Dear Colorado state university, not being able to look up my student number so I can get my student I.D. is stupid. Just saying [#][10]
+  * What to do for lunch, oh what to do. I am in fort collins, any ideas? [#][11]
+  * I am pretty [http://twitpic.com/evu79][12] [#][13]
+  
+
+
+   [1]: http://twitpic.com/e4rra
+   [2]: http://twitter.com/awesomeguy/statuses/3346372884
+   [3]: http://twitpic.com/e4rtc
+   [4]: http://twitter.com/awesomeguy/statuses/3346380568
+   [5]: http://twitter.com/awesomeguy/statuses/3347553757
+   [6]: http://twitter.com/awesomeguy/statuses/3352593442
+   [7]: http://twitter.com/awesomeguy/statuses/3353636597
+   [8]: http://twitter.com/awesomeguy/statuses/3452014257
+   [9]: http://twitter.com/awesomeguy/statuses/3452259640
+   [10]: http://twitter.com/awesomeguy/statuses/3453139350
+   [11]: http://twitter.com/awesomeguy/statuses/3454841355
+   [12]: http://twitpic.com/evu79
+   [13]: http://twitter.com/awesomeguy/statuses/3477393524
+

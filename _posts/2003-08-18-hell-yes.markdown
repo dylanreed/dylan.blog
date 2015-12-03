@@ -1,0 +1,27 @@
+---
+
+layout: post
+status: publish
+published: true
+title: hell yes
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: /
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: /
+wordpress_id: 59
+wordpress_url: http://dylanreed.org/?p=59
+date: '2003-08-18 05:10:30 -0500'
+date_gmt: '2003-08-18 11:10:30 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+here is some back to school grossness from indy it is real gross. here is somemore
+
+thats all

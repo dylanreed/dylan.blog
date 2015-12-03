@@ -1,0 +1,43 @@
+---
+
+layout: post
+status: publish
+published: true
+title: Ok I lied
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: /
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: /
+wordpress_id: 115
+wordpress_url: http://dylanreed.org/?p=115
+date: '2004-02-06 08:59:00 -0600'
+date_gmt: '2004-02-06 14:59:00 -0600'
+categories: []
+tags:
+- Sea Monsters
+comments: []
+---
+
+   I am not just going to talk about SeaMonsters, I am going to talk about all things dangerous underwater, from pressure to animals.
+
+So new list is such:  
+1. AGE (arterial gas embolism)-->Right Now  
+2. Great Whites-->2/10  
+3. DCS (decompression sickness)-->2/15  
+4. Homboldt squids (possibly with video)-->2/20  
+5. Hydrogen Explosions-->2/25  
+6. Who Knows??-->??
+
+   I think that if I do this Sarah will never ever let me go SCUBA diving nor will she ever learn herself. But whatever.
+
+**AGE**
+
+  
+   An arterial gas embolism (AGE from here on out) is when you go under pressure and then hold you breath as you come up. Say, for exemple, you are taking a SCUBA class. The first day of class your instructor will say, " The safest you can be doing SCUBA is in the pool." **THIS IS A LIE!** What they will also tell you is that if you are underwater in the shallow end of the pool and you panic, just stand up. Please don't. You will **DIE**. The reason you don't need to worry while swimming is that your lungs don't gain any air as you descend. Due to water pressure the air in your lungs actually compresses. So at 5 feet seawater (FSW) the air in your lungs is essentialy cut in half. So if you are at five feet in a pool breathing compressed air, your lungs, instead of being half full will be full. Therefore when you stand up you will double the amount of air in you lungs and pop them. So thats fun.  
+   The problem is not the popped lung(s), you will still be able to breathe, the problem is that one of two things happenend. One, that air has escaped into you cheast cavity causing what is known as the crackles. This is a crackling sensation felt under you skin. This will make you feel itchy and also cause a deformed look in your neck and shoulders. Two, air gets into you lungs travels to your heart and then to your brain. This essentially causes a stroke.  
+   The biggest problem with AGEs is that it gets worse as you go up and it is immediate. It is treatable in a hyperbaric chamber, but only if treatment is availible right away. The treatment consist of a treatment table 6a. This is about a week in a hyperbaric chamber. So please don't do this.  
+   Now a note form me: _I wrote all of this from memory. I make no promises as to the absolute accuracy of all information presented. This is only because my Navy Dive Manual is at my parents house. I will pick it up tomarrow and fix mistakes. If anyone notices glaring mistakes. Email me or comment. Dylan._

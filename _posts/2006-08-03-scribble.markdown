@@ -1,0 +1,35 @@
+---
+
+layout: post
+status: publish
+published: true
+title: Scribble
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: /
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: /
+wordpress_id: 226
+wordpress_url: http://www.dylanreed.org/2006/08/03/scribble/
+date: '2006-08-03 10:29:12 -0500'
+date_gmt: '2006-08-03 17:29:12 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+So today we had shit stolen from one of our properties and it makes me mad. then I have to deal with the cops and such
+
+However
+
+[[![][1]][2]
+
+   [1]: http://www.jmtb02.com/scribble/45686396.jpg
+   [2]: http://www.armorgames.com/games/scribble.html
+
+Thats right level 3  
+WHAT

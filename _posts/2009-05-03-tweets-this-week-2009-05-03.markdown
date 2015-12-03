@@ -1,0 +1,53 @@
+---
+
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2009-05-03'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 940
+wordpress_url: //2009/05/03/tweets-this-week-2009-05-03/
+date: '2009-05-03 09:00:00 -0500'
+date_gmt: '2009-05-03 17:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+  * My brother is a badass [#][1]
+  * work is surprisingly boring after a weekend in Chicago, weird [#][2]
+  * TIME FOR THE EVIL CAMPAIGN. AWESOME!!! [#][3]
+  * Three days of spanish left. So much to do so little time. [#][4]
+  * My fellow students don't think anyone needs to worry about swine flu. That it isn't that bad [#][5]
+  * just made a new pattern. not sure if the first one is awesome enough to sell but number two should be awesome! [#][6]
+  * so what is the deal with Full Sail? is it legit? [#][7]
+  * Lame internet at work is slow today [#][8]
+  * Sleeeeeeepy! Also hungry and annoyed [#][9]
+  * Going to buy beef jerky!! [#][10]
+  * Movie Night, What What!! Should be fun. Dinner and a movie with my beautiful wife [#][11]
+  * [http://ginx.com/-rnnmK][12] my brothers dog Clem. Check her out [#][13]
+  
+
+
+   [1]: http://twitter.com/awesomeguy/statuses/1621538161
+   [2]: http://twitter.com/awesomeguy/statuses/1640781973
+   [3]: http://twitter.com/awesomeguy/statuses/1643996779
+   [4]: http://twitter.com/awesomeguy/statuses/1649072383
+   [5]: http://twitter.com/awesomeguy/statuses/1649104955
+   [6]: http://twitter.com/awesomeguy/statuses/1653600977
+   [7]: http://twitter.com/awesomeguy/statuses/1661142866
+   [8]: http://twitter.com/awesomeguy/statuses/1669558734
+   [9]: http://twitter.com/awesomeguy/statuses/1670046902
+   [10]: http://twitter.com/awesomeguy/statuses/1670583476
+   [11]: http://twitter.com/awesomeguy/statuses/1673652986
+   [12]: http://ginx.com/-rnnmK
+   [13]: http://twitter.com/awesomeguy/statuses/1673816482
+

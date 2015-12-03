@@ -1,0 +1,76 @@
+---
+
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2011-04-10'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 1294
+wordpress_url: //2011/04/10/tweets-this-week-2011-04-10/
+date: '2011-04-10 15:00:00 -0500'
+date_gmt: '2011-04-10 22:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+  * OMG I Drew a Picture: Worker Kitty [http://dylan.la/hnzUwv][1] [#][2]
+  * Invitations FTW [http://t.co/xuOD0DZ][3] [#][4]
+  * Apparently our hot water heater just shot the bed. Annoying!!! [http://t.co/SyVvmZN][5] [#][6]
+  * Good morning world. Showered at Nan's today with the hopes that our hot water heater will get fixed ASAP. [#][7]
+  * OMG I Drew a Picture: The Chin [http://dylan.la/ifxftq][8] [#][9]
+  * Installing a hot water heater takes forever!! [#][10]
+  * Maybe I should have let the cats roam why this guy installed the heater, made him earn his money [#][11]
+  * OMG I Drew a Picture: Hail to the King [http://dylan.la/eD3mof][12] [#][13]
+  * scanning in colored pieces to update deviantart page and fancycadaver.com [#][14]
+  * OMG I Drew a Picture: Clown in Khakis [http://dylan.la/dRZwMb][15] [#][16]
+  * About to drop a bunch of my drawings onto flickr, Get ready [#][17]
+  * uploading to flickr still happening but when it is done they will all be right here: [http://dylan.la/gQqPvo][18] Please enjoy them [#][19]
+  * OMG I Drew a Picture: Karate Kick [http://dylan.la/h2RlkD][20] [#][21]
+  * OMG I Drew a Picture: The Green Triangle [http://dylan.la/hnajBg][22] [#][23]
+  * OMG I Drew a Picture: The Green Triangle [http://fancycadaver.com/2011/04/08/the-green-triangle/][24] [#][25]
+  * I am well on my way to getting Some Bunny to Love week started [#][26]
+  * My Facebook app is stuck like this. Help? [http://t.co/JbTZD3P][27] [#][28]
+  * OMG I Drew a Picture: Tattle Tail [http://dylan.la/h53J2r][29] [#][30]
+  
+
+
+   [1]: http://dylan.la/hnzUwv
+   [2]: http://twitter.com/awesomeguy/statuses/54561171319169024
+   [3]: http://t.co/xuOD0DZ
+   [4]: http://twitter.com/awesomeguy/statuses/54679148970524672
+   [5]: http://t.co/SyVvmZN
+   [6]: http://twitter.com/awesomeguy/statuses/54723552527646720
+   [7]: http://twitter.com/awesomeguy/statuses/54874850107469824
+   [8]: http://dylan.la/ifxftq
+   [9]: http://twitter.com/awesomeguy/statuses/54972652246417408
+   [10]: http://twitter.com/awesomeguy/statuses/55010486487494656
+   [11]: http://twitter.com/awesomeguy/statuses/55014124022808576
+   [12]: http://dylan.la/eD3mof
+   [13]: http://twitter.com/awesomeguy/statuses/55285161062973440
+   [14]: http://twitter.com/awesomeguy/statuses/55311349521186816
+   [15]: http://dylan.la/dRZwMb
+   [16]: http://twitter.com/awesomeguy/statuses/55665763129888768
+   [17]: http://twitter.com/awesomeguy/statuses/56001259727097856
+   [18]: http://dylan.la/gQqPvo
+   [19]: http://twitter.com/awesomeguy/statuses/56006529521954816
+   [20]: http://dylan.la/h2RlkD
+   [21]: http://twitter.com/awesomeguy/statuses/56010739277762560
+   [22]: http://dylan.la/hnajBg
+   [23]: http://twitter.com/awesomeguy/statuses/56371014216581120
+   [24]: http://fancycadaver.com/2011/04/08/the-green-triangle/
+   [25]: http://twitter.com/awesomeguy/statuses/56371014149480448
+   [26]: http://twitter.com/awesomeguy/statuses/56428937106046976
+   [27]: http://t.co/JbTZD3P
+   [28]: http://twitter.com/awesomeguy/statuses/56541480239632385
+   [29]: http://dylan.la/h53J2r
+   [30]: http://twitter.com/awesomeguy/statuses/56735096341929984
+

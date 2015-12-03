@@ -1,0 +1,34 @@
+---
+
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2011-06-19'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 1337
+wordpress_url: //2011/06/19/tweets-this-week-2011-06-19/
+date: '2011-06-19 15:00:00 -0500'
+date_gmt: '2011-06-19 22:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+  * We have a sick cat and I am in boulder. Everyone think happy thoughts for Reno [#][1]
+  * Just heard from sarah Reno is at the vet just waiting to get in to see the vet. he has spent most of his morning since breakfast throwing up [#][2]
+  * Reno is feeling much better. No puking for a while. He is also tried to hit me which is a good sign. [#][3]
+  
+
+
+   [1]: http://twitter.com/awesomeguy/statuses/81813185417580544
+   [2]: http://twitter.com/awesomeguy/statuses/81819108383010816
+   [3]: http://twitter.com/awesomeguy/statuses/81879141066096640
+

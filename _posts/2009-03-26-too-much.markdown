@@ -1,0 +1,90 @@
+---
+
+layout: post
+status: publish
+published: true
+title: Too Much
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: /
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: /
+wordpress_id: 865
+wordpress_url: //?p=865
+date: '2009-03-26 08:49:31 -0500'
+date_gmt: '2009-03-26 16:49:31 -0500'
+categories:
+- Awesome
+tags: []
+comments:
+- id: 45655
+  author: harper
+  author_email: harper@nata2.org
+  author_url: ''
+  date: '2009-03-26 12:16:11 -0500'
+  date_gmt: '2009-03-26 20:16:11 -0500'
+  content: "the trick is aggregations. Make it so you don't have to participate in
+    all the sites. make your blog or twitter the only place you participate. then
+    have it feed the other places. that way you don't have to update everything. you
+    just update what is important to you. \r\n\r\nI am also very against deleting
+    accounts. You can usually keep accounts dormat with no ramifications. I choose
+    that. Look at my myspace account. I just make a message that says \"i don't check
+    this. email me\".\r\n\r\nwith that said - i do a couple things:\r\na) Google reader\r\nb)
+    Twitter\r\nc) Chat\r\nd) Facebook\r\ne) Blog\r\n\r\n\r\nMy Google reader, blog
+    and twitter feed into facebook. so all i do is message people there when they
+    message me. I have a contact page on my site that allows people to call me through
+    grand central, email me or chat with me. I can control that. I blog my complex
+    thoughts and update twitter with my day to day thoughts. you are a better writer
+    so i think it makes more sense for you to blog more than twitter. but you could
+    install the plugin that updates twitter (and therefore facebook) with your blog
+    posts. So you can kill two birds there. \r\n\r\nanyway. i am rambling. my thoughts
+    are: don't quit. aggregate. Make it easy. and simple."
+- id: 45657
+  author: Dylan
+  author_email: dylan@dylanreed.com
+  author_url: /
+  date: '2009-03-27 06:17:22 -0500'
+  date_gmt: '2009-03-27 14:17:22 -0500'
+  content: "The aggregating method sounds interesting. I just need help doing it.
+    What I want to do is make it so the only place I update is the blog. Since I get
+    my twitter/facebook updates from google talk and gmail respectively I don't
+    need to worry about updates. \r\n\r\nThat being said please help me set up this
+    aggregate business."
+- id: 45658
+  author: Larissa
+  author_email: smilelari@gmail.com
+  author_url: http://www.shawnandlarissa.com
+  date: '2009-03-27 16:26:20 -0500'
+  date_gmt: '2009-03-28 00:26:20 -0500'
+  content: What are you selling on Etsy?
+- id: 45660
+  author: Dylan
+  author_email: dylan@dylanreed.com
+  author_url: /
+  date: '2009-03-28 06:20:39 -0500'
+  date_gmt: '2009-03-28 14:20:39 -0500'
+  content: 'I sell little stuffed creatures. Check out my shop: awesomeguy.etsy.com'
+- id: 45662
+  author: Larissa
+  author_email: smilelari@gmail.com
+  author_url: http://www.shawnandlarissa.com
+  date: '2009-03-28 10:30:28 -0500'
+  date_gmt: '2009-03-28 18:30:28 -0500'
+  content: "Way cool!\r\n\r\nBTW - I completely understand the \"too much\" sentiment
+    and I don't even keep up with that much.  My MySpace page is completely neglected
+    at this point.  Facebook is hard to keep up with all on its own.  I'm also on
+    goodreads, I keep 2 blogs and I follow over 100 blogs on google reader.  I'm on
+    a website called The Nest which consumes way too much of my time.  But all the
+    same, it's hard to give any of it up."
+---
+
+The internet is a funny thing. It seems that the more I get involved with it the more I have to get involved with it. I am on Twitter, Ginx (which uses twitter), Facebook, MySpace, worpress (both at wordpress.org and for my personal site), I have a site I designed for my clowning, there is Sarah's Blog, Google Groups, Google Reader, Gmail, Google Apps, Etsy,  viddler, Google Calendar, flickr, iTunes, and Aims Community College's site
+
+These are all the places I visit on a daily basis. And for what? I don't get anything from these sites. Sure, I might get a little bit of traffic from some of them but do I really need all of them. I am not like Harper, a super internet guru. In fact I really don't like all of the crap that you "have" to do to be successful on the internet.
+
+What should I do? I am thinking about killing all of my accounts. It will make my life simpler and give me more time to do what I like to do, write. I am a little worried that my 71 followers on twitter will be lost without me, but since I only know about 10 of the rest are not my problem. The same goes for my 170+ facebook followers. Sorry but I don't really need to know that you are my friend, person I didn't even know in high school.
+
+Should I do it? I can't really decide. I thought about making a list of pros and cons but didn't feel that the internet is worth that kind of work. I will, of course, keep blogging and that sort of thing; I am just done with the whole social networking thing. It is too much work and I haven't seen enough reward. If I wanted to have to work at it I would make the internet into my job. Since the internet is just a hobby I will limit it to the things that I like. Like games. And my blog. And possibly Etsy.

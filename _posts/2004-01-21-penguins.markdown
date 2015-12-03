@@ -1,0 +1,28 @@
+---
+
+layout: post
+status: publish
+published: true
+title: Penguins
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: /
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: /
+wordpress_id: 102
+wordpress_url: http://dylanreed.org/?p=102
+date: '2004-01-21 06:05:12 -0600'
+date_gmt: '2004-01-21 12:05:12 -0600'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+my [record][1] is 317.2
+
+   [1]: http://nata2.info/humor/flash/yeti_baseball.swf
+

@@ -1,0 +1,50 @@
+---
+
+layout: post
+status: publish
+published: true
+title: Engaged
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: /
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: /
+wordpress_id: 7
+wordpress_url: http://dylanreed.org/?p=7
+date: '2002-03-24 07:27:00 -0600'
+date_gmt: '2002-03-24 13:27:00 -0600'
+categories:
+- Awesome
+tags:
+- Sarah
+comments:
+- id: 11
+  author: David
+  author_email: ''
+  author_url: ''
+  date: '2002-03-24 11:19:00 -0600'
+  date_gmt: ''
+  content: Congrats dude :)  Surprised the hell outta me... heh.  You two will be/are
+    great together.
+- id: 12
+  author: harper
+  author_email: ''
+  author_url: http://www.harperreed.org
+  date: '2002-03-25 11:39:00 -0600'
+  date_gmt: ''
+  content: what the hell.. i leave you alone for four years and see what happens...
+    congratulations
+- id: 13
+  author: jon
+  author_email: jruth@nata2.org
+  author_url: ''
+  date: '2002-03-25 11:50:00 -0600'
+  date_gmt: ''
+  content: congratulations are definitly in order...i must say i'm shocked as hell
+    but i Think it's awesome the two of you are great together....i wish you the best
+    of luck and when i get to la a small celebration is in order---
+
+peace - id: 14 author: kinnera author_email: k-bhoopal@cornellcollege.edu author_url: http://www.kinnera.org date: '2002-03-25 11:50:00 -0600' date_gmt: '' content: "Oh my god!!! Congradulations Dylan!! I am very excited and happy for you, I wish you both all the happiness in the world. I'm not going to wish you luck because you dont need it! Congradulations once again. \n\nWith much love, \n\nKinnera Bhoopal" - id: 15 author: mike author_email: mike@proxientunit.com author_url: '' date: '2002-03-28 06:50:00 -0600' date_gmt: '' content: the hell dude, thats badass congrats - id: 16 author: Loan Vault Clerk author_email: '' author_url: '' date: '2002-03-29 09:09:00 -0600' date_gmt: '' content: | That's really cool. Sarah is a very nice girl. You are a lucky guy. 

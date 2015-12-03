@@ -1,0 +1,52 @@
+---
+
+layout: post
+status: publish
+published: true
+title: 'Tweets This Week: 2009-10-25'
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 979
+wordpress_url: //2009/10/25/tweets-this-week-2009-10-25/
+date: '2009-10-25 09:00:00 -0500'
+date_gmt: '2009-10-25 17:00:00 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+  * Sleepy. Sarah is still sick. Send her get well messages. [#][1]
+  * I about an hour I need a reminder from someone telling me to renew my library books. Seriously. [#][2]
+  * Balloon laces! Want some? They rule. [http://twitpic.com/md2vs][3] [#][4]
+  * Http://awesomeguy.etsy.com needs love. Buy a Awesome Guy today! [#][5]
+  * Also @[deltaairlines][6] teach your people at DIA to be polite and not rude. Gate c36 I am looking at you [#][7]
+  * Zipper! [http://twitpic.com/mih00][8] [#][9]
+  * Isn't she adorable [http://twitpic.com/mmfrf][10] [#][11]
+  * Why VT is better then CO reason #[1][12] [http://twitpic.com/mnx7h][13] [#][14]
+  * I am not a good dancer, ask anybody [#][15]
+  
+
+
+   [1]: http://twitter.com/awesomeguy/statuses/4995960485
+   [2]: http://twitter.com/awesomeguy/statuses/5046549689
+   [3]: http://twitpic.com/md2vs
+   [4]: http://twitter.com/awesomeguy/statuses/5046648572
+   [5]: http://twitter.com/awesomeguy/statuses/5046668757
+   [6]: http://twitter.com/deltaairlines
+   [7]: http://twitter.com/awesomeguy/statuses/5069290750
+   [8]: http://twitpic.com/mih00
+   [9]: http://twitter.com/awesomeguy/statuses/5079501999
+   [10]: http://twitpic.com/mmfrf
+   [11]: http://twitter.com/awesomeguy/statuses/5103876945
+   [12]: http://search.twitter.com/search?q=%231
+   [13]: http://twitpic.com/mnx7h
+   [14]: http://twitter.com/awesomeguy/statuses/5111117471
+   [15]: http://twitter.com/awesomeguy/statuses/5134182032
+
