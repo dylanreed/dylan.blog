@@ -26,6 +26,7 @@ comments: []
 I won NaNoWriMo this year. Finally. I think I have attempted it two other times and both times failed to make it past 10,000 words. This year I had a plan and I followed it. Along the way I learned a couple things and found some neat tools. 
 
 **Number 1:**
+
 <!-- Begin I Write Like Badge -->
 <div style="overflow:auto;border:2px solid #ddd;font:20px/1.2 Arial,sans-serif;width:380px;padding:5px; background:#F7F7F7; color:#555"><img src="//s.iwl.me/w.png" style="float:right" width="120"><div style="padding:20px; border-bottom:1px solid #eee; text-shadow:#fff 0 1px"> I write like<br><a href="http://iwl.me/w/147eabd8" style="font-size:30px;color:#698B22;text-decoration:none">H. P. Lovecraft</a></div><p style="font-size:11px; text-align:center; color:#888"><em>I Write Like</em>. <a href="http://iwl.me" style="color:#333; background:#FFFFE0"><b>Analyze your writing!</b></a></p></div>
 <!-- End I Write Like Badge -->
