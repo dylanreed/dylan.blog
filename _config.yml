@@ -1,4 +1,4 @@
-name: Fancy Cadaver
+title: Fancy Cadaver
 tagline: Writing and musings by Dylan Reed
 #description: put a good description here
 markdown: kramdown
@@ -9,7 +9,7 @@ author:
   name:       'Dylan Reed'
   email:      'dylan@dylanreed.com'
   twitter:    '@dylanreed'
-  homepage:   'dylanreed.com'
+  homepage:   'http://dylanreed.com'
 permalink: /:year/:month/:day/:title/
 paginate:     10
 gravatar_hash: 36aff981378cc0b408b7d1bc2f082741

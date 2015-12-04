@@ -1,50 +1,47 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html lang="en-us">
 
   {% include head.html %}
 
   <body>
 
-    <header class="masthead">
-      <div class="masthead-inner">
-        <h1><a href="/">{{ site.name }}</a></h1>
-        <p class="lead">{{ site.tagline }}</p>
-        {% if site.description %}<p>{{ site.description }}</p>{% endif %}
-        <!--<p><a href="/archives/">All stories</a></p>-->
-        <br />
+    {% include sidebar.html %}
 
-        <p><a href="/archives/">Archives</a></p>
-        <p><a href="http://feedburner.google.com/fb/a/mailverify?uri=FancyCadaver&amp;loc=en_US">Subscribe</a></p>
-        <div class="colophon">
-          <ul class="colophon-links">
-            <li>
-              <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
-            </li>
-            <li>
-              <a href="https://twitter.com/{{ site.author.twitter }}">{{ site.author.twitter }}</a>
-            </li>
-            <li>
-              <a href="http://{{ site.author.homepage }}">{{ site.author.homepage }}</a>
-            </li>
-          </ul>
-          {% if site.gravatar_hash %}<p><img src="http://www.gravatar.com/avatar/{{ site.gravatar_hash }}?s=250"></p>{% endif %}
-          <p>&copy; 2015. {{ site.author.name }} All rights reserved.</p>
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+            <small>{{ site.tagline }}</small>
+          </h3>
         </div>
       </div>
-    </header>
 
-    <div class="content container">
-      {{ content }}
-      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Fancy Cadaver - header -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:90px"
-     data-ad-client="ca-pub-3902536835408573"
-     data-ad-slot="4191732094"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+      <div class="container content">
+        {{ content }}
+      </div>
     </div>
 
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
   </body>
 </html>
