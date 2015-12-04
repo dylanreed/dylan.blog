@@ -3,7 +3,7 @@
 layout: post
 status: publish
 published: true
-title: Writing
+title: Fiction
 author:
   display_name: Dylan
   login: dylan
@@ -12,8 +12,7 @@ author:
 author_login: dylan
 author_email: dylan@dylanreed.com
 author_url: /
-wordpress_id: 1860
-wordpress_url: //?p=1860
+
 date: '2015-12-04 07:30:54 -0600'
 date_gmt: '2015-12-02 14:30:54 -0600'
 categories:
