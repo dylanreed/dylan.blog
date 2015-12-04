@@ -1,0 +1,27 @@
+---
+
+layout: post
+status: draft
+published: false
+title: New Sites
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: /
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: /
+date: '2015-12-07 07:30:54 -0600'
+date_gmt: '2015-12-07 14:30:54 -0600'
+categories:
+- Awesome
+tags:
+- Projects
+- writing
+comments: []
+---
+You may have noticed that things have changed around here. I, in my infinite wisdom, decided I need to divide things up a little bit. As I attempt to write more and possibly sell those writings I felt like I needed a place to just write whatever. So that is here. 
+
+I moved all of my posts from dylanreed.com (I of course mean that Harper did this) and will be blogging here from now on. Dylanreed.com will become a more professional type site that will hopefully lead to people buying my books. I thought having a author like presence on the web would be good since there is an erotic fiction writer name Dylan Reed on Amazon, who is much more prolific then I. 
+
