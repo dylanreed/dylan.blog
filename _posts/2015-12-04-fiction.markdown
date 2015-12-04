@@ -1,0 +1,58 @@
+---
+
+layout: post
+status: publish
+published: true
+title: Writing
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: /
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: /
+wordpress_id: 1860
+wordpress_url: //?p=1860
+date: '2015-12-04 07:30:54 -0600'
+date_gmt: '2015-12-02 14:30:54 -0600'
+categories:
+- Awesome
+tags:
+- Projects
+- writing
+comments: []
+---
+
+I won NaNoWriMo this year. Finally. I think I have attempted it two other times and both times failed to make it past 10,000 words. This year I had a plan and I followed it. Along the way I learned a couple things and found some neat tools. 
+
+**Number 1:**
+<!-- Begin I Write Like Badge -->
+<div style="overflow:auto;border:2px solid #ddd;font:20px/1.2 Arial,sans-serif;width:380px;padding:5px; background:#F7F7F7; color:#555"><img src="//s.iwl.me/w.png" style="float:right" width="120"><div style="padding:20px; border-bottom:1px solid #eee; text-shadow:#fff 0 1px"> I write like<br><a href="http://iwl.me/w/147eabd8" style="font-size:30px;color:#698B22;text-decoration:none">H. P. Lovecraft</a></div><p style="font-size:11px; text-align:center; color:#888"><em>I Write Like</em>. <a href="http://iwl.me" style="color:#333; background:#FFFFE0"><b>Analyze your writing!</b></a></p></div>
+<!-- End I Write Like Badge -->
+I know this because of a neat website that analyzes your writing. I am not sure if I actually write like H.P. Lovecraft or if it is because my story has some horror elements. But I thought it was pretty neat. 
+
+**Number 2:**
+
+H.P. Lovecraft's stories freak me out. I typically read before bed and reading Lovecraft before bed is a horrible idea. I normally have awesome dreams about being a secret agent or superhero, post Lovecraft I dreamed about being stuck in a dark cave with an unknown creature. Which I then murdered. 
+
+**Number 3:**
+
+I am a planner. Or at least when it comes to writing I need to be. I used a simple worksheet: 9 Questions to Plan Your Novel to plan out my book. This worksheet caused me to look deeper into my idea and make choices. I was then able to lay it out into 25 sections which I assumed would be 2,000 words each. 
+
+**Number 4**
+
+The best laid plans of Dylans oft go awry. I wrote my heart out for about 18 days. I was kicking ass. I was ahead of my goals everyday, it was awesome. Then I ran out of steam. I was worried I was going to fail to finish again. Then I found [Aeon Timeline](http://www.scribblecode.com/). This awesome program let me layout all of the events in my novel as they happened. I noticed that I had nothing happening for a long span of time. I added the missing elements, adjusted my outline and was able to push through NaNoWriMo.
+
+**Number 5**
+
+I am lucky. My wonderful wife was super supportive of my efforts. She helped me make sure that I made my writing goal for the day. I couldn't have done it without her. I also had support from my friend Jon, my writing buddy and the person who got me thinking about writing fiction. 
+
+**Number 6**
+
+I made and reached a goal. I have never been very good at setting goals, or more accurately I am not very good at reaching goals. I was quite good at self sabotaging any goals I had. But not this time. 
+
+---
+I probably learned other things, but these are the six that came to mind first. There are so many great tools for writing available on the internet that I could make a list of just those. If you are thinking about writing anything I would recommend just doing it. There is no time like the present to start. If I, a kid with ADHD, can write 50,000 words in 30 days then so can anyone. 
+
+And I just finished outlining the second book in the series. Writing another 50k in December is my new secret goal. Wish me luck. If you want to talk writing or anything at all please let me know: [@dylanreed](http://twitter.com/dylanreed).
