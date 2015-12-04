@@ -24,7 +24,7 @@ comments: []
 
 After rereading my [Super Power Post][1] I realized that I neglected quite a few ways that I might get super powers. This was unintentional on my part and I feel pretty bad about it. Here are three more ways I can aquire my much needed super powers.
 
-   [1]: //2009/02/25/my-plan-to-become-a-superhero/
+   [1]: /2009/02/25/my-plan-to-become-a-superhero/
 
   * Training
   * Robotic Suit

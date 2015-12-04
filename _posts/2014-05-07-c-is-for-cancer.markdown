@@ -39,7 +39,7 @@ This is hard. Thomas is currently sitting on my lap while I type this. He always
 Thomas has been part of our lives since we lived in Fort Collins. He is our first pet. He is the best cat I have ever known. I am having a hard time imagining not having him.  
 This is not the first time that I have lost a [pet][2]. I have lost many pets over the years, mostly because I have had many pets over the years. Most of them were gerbils, snakes and birds; there was a memorable ferret mixed in there as well.
 
-   [2]: //2004/04/17/lucy-is-gone/
+   [2]: /2004/04/17/lucy-is-gone/
 
 This is the first time the pet has been my pet. Thomas is my cat. Sure he started out as both of ours but at some point Thomas and I formed a special bond. We hang out together all the time. He loves to sit on one side of the couch and give Sarah dirty looks. He then looks over at me with adoring eyes.
 

@@ -40,7 +40,7 @@ comments:
 
 You may have read the [Harper Post][1]. I wrote that over the course of a month or so and it is probably one of the posts that I thought most about. I wanted to be able to express a point without making anyone feel like I slighted them. I have, at times, had a lot of younger sibling bitterness. Because of this bitterness I have not always expressed my feelings in a way that doesn't hurt peoples feelings. I am sometimes bad at words.
 
-   [1]: //?p=1639
+   [1]: /?p=1639
 
 When I finished up the post I almost deleted it. I was scared of how it would be received by my family. I didn't want them upset because of anything I said. I didn't want to come off as super bitter or hateful. This terrified me. It lingered in my drafts file for a long time. I didn't know what to do. Then I had the best idea ever.*
 

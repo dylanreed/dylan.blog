@@ -42,7 +42,7 @@ comments:
 
 Chronic pain is a part of a lot of people's lives, [mine included][1]. The worst part of chronic pain is that you know you can't do anything about it, there are rarely any drugs that help with it, and you feel like you are the only one who is experiencing that type of pain. What I have noticed a lot of people doing is misinterpreting how they have to treat their pain.
 
-   [1]: //category/injuries/
+   [1]: /category/injuries/
 
 Think of your pain as a roommate. You are living with it. You have to share a lot of your life with the pain, you may even have to change the way you live because of it but it doesn't change who you are at your core. If you are living with someone and they are annoying, you learn to deal with it, you may get mad or you may just ignore it, but you live with it. Pain is the same way.
 

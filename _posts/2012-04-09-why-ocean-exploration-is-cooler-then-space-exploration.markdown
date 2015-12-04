@@ -27,11 +27,11 @@ To start I just want to say that I am a fan of space exploration and do think th
 
 I have written quite a bit about [being][1] [underwater][2], the [dangers][3] of being [underwater][4] and also about killer [whales][5]. I haven't written much about the need for underwater exploration. Exploration is something I have always felt is important to us better understanding our planet. I figured other people understood this but then I look at the big deal that is being made about all of the recent exciting [underwater events][6] and realized that I was wrong. People have no idea how important the oceans are or how under explored they are.
 
-   [1]: //2007/03/23/scuba-classes/
-   [2]: //2007/05/07/diving-the-day-away/
-   [3]: //2007/09/18/four-best-ways-to-die-while-scuba-diving/
-   [4]: //2009/02/12/dirty-water-diving/
-   [5]: //2004/02/04/killer-whales-dont-kill-people/
+   [1]: /2007/03/23/scuba-classes/
+   [2]: /2007/05/07/diving-the-day-away/
+   [3]: /2007/09/18/four-best-ways-to-die-while-scuba-diving/
+   [4]: /2009/02/12/dirty-water-diving/
+   [5]: /2004/02/04/killer-whales-dont-kill-people/
    [6]: https://www.google.com/search?aq=f&ix=acb&sourceid=chrome&ie=UTF-8&q=james+cameron+dive#q=james+cameron+dive&hl=en&prmd=imvnsuo&source=univ&tbm=nws&tbo=u&sa=X&ei=Te-CT8HWB4jE2gXx6bSdBw&ved=0CFkQqAIoADAD&bav=on.2,or.r_gc.r_pw.r_cp.r_qf.,cf.osb&fp=121187e88be93026&biw=1125&bih=1541&ix=acb
 
 [![][7]][8]

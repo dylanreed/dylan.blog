@@ -24,7 +24,7 @@ comments: []
 
 I have had the lamest [about][1] page on this site for about a year now. Seriously it was sad. I have fixed it up now and am quite happy about it. The problem with the old one is that it felt slapped together and to be honest it was. I wasn't even trying when I wrote it, I just felt that I needed to have an about page so I wrote an about page. 
 
-   [1]: //about/
+   [1]: /about/
 
 The new and improved about page is fantastic. It has all of the things I look for in an about page, except lies. I usually like to read an about page and find the one fact I am pretty sure is fabricated. I was going to add a fabricated sentence but alas I couldn't come up with a good lie. Some of the ideas I batted around were: 
 

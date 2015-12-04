@@ -24,7 +24,7 @@ comments: []
 
 Yesterday's [post][1] was bad, really bad. I had a point in that post, I know I did, but I missed it due to my brain wondering.  I am sorry about that. Rather than going back and trying to figure out what in god's name I was trying to write I will just move on and hope for the best.
 
-   [1]: //2009/03/18/a-new-fighter-has-entered-the-ring/
+   [1]: /2009/03/18/a-new-fighter-has-entered-the-ring/
 
 Recently I have been fairly in control of my ADHD. For some reason this semester I have been able to focus more and my mind is wondering less. I guess that a lapse in this is to be expected at some point I was just hoping that it would happen in the middle of the summer instead of in the spring.
 

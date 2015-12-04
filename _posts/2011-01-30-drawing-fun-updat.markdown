@@ -26,11 +26,11 @@ comments: []
 
    [1]: http://farm5.static.flickr.com/4136/5414064476_3fbeb285c0.jpg (Girl)
    [2]: http://farm6.static.flickr.com/5095/5402606995_c7dd8bf531.jpg
-   [3]: //2010/11/23/drawing-is-hard/
+   [3]: /2010/11/23/drawing-is-hard/
 
 If you read the previous [post][4] you saw the drawings I have done so far. I have been spending a lot of my energy doing everyones favorite task: copying. I have done a couple drawings completely on my own... they are not awesome but then they are also not crap. Well the first one is but they are getting better as I train my eye and my hand to work together and draw what I want.
 
-   [4]: //2011/01/27/2011-so-far/
+   [4]: /2011/01/27/2011-so-far/
 
 What I love about drawing, and this is something that my figure drawing instructor was big on, is that it is a learned skill. It isn't something that you have to be born with innate ability, sure it helps, you just have to be dedicated enough to sit down and do it over and over. For some reason I am able to site down and draw for a couple of hours, no matter how repetitive it becomes, and yet I am unable to sit and do math homework. Ever.
 

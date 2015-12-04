@@ -31,7 +31,7 @@ comments:
 
 As you may have [read][1] I am taking a leave of absence from school and finding a job or jobs that will let Sarah and I be awesome this year and allow me to go back to school with no more debt. While I am super happy about being able to go back to school with no more debt it is a hard thing to stop school when I am doing so well. Part of what is making that so difficult is the fact that jobs are a bear to find right now.
 
-   [1]: //2010/11/09/at-times-i-wish-i-had-a-teleporter/
+   [1]: /2010/11/09/at-times-i-wish-i-had-a-teleporter/
 
 I enjoy being awesome. And when I keep getting turned down for jobs or not getting called for interviews or not getting called back when I leave messages I get a little down. I become a sad little badger that just wants ice cream and naps. I have only been activly looking for work for a couple weeks and I am noticing a trend. I have to much expereince and not enough degrees. But rather then let this get me down, which it did a little this morning, I have decided that IT IS ON!!!!
 
