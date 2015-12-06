@@ -31,5 +31,7 @@ Part of this is trying to get paid for this. I have given up on ads. This blog i
 
 I am also using jekyll for both websites which means for now there will be no comments. On the plus side jekyll is super slick and easy to use. I have been able to rebuild [dylanreed.com](http://www.dylanreed.com) to by an author site. Oh and The Three Fs is currently on promotion for free on the site.
 
+Another thing I am going to be doing is not posting as readily on medium. I will instead post writing here. I may cross post to medium if I can figure out an easy way to do that.  
+
 
 
