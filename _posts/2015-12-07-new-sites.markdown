@@ -2,7 +2,7 @@
 
 layout: post
 status: publish
-published: false
+published: true
 title: New Sites
 author:
   display_name: Dylan
