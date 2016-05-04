@@ -24,7 +24,7 @@ comments: []
 <h2>Maybe?</h2>
 I have been busy writing and rewriting, so blogging has taken a backseat. I want to blog more but if I am going to let one form of writing slip it will be blogging. Fiction writing is much more personally rewarding and I enjoy doing it so much that it is hard for me to justify writing random thoughts down when I can instead move a story along. 
 
-You may remember my NaNoWriMo triumph. I was excited because I had written my first novel. I was pleased with it, I let people read it and received positive feedback. Going through what I had written, I removed some things, but otherwise left the manuscript unchanged. 
+You may remember my [NaNoWriMo](http://fancycadaver.com/2015/12/04/fiction/) triumph. I was excited because I had written my first novel. I was pleased with it, I let people read it and received positive feedback. Going through what I had written, I removed some things, but otherwise left the manuscript unchanged. 
 
 Thanks to Harper, I was able to get in contact with a couple authors as well as an agent. Through these connections I learned a very important lesson. Writing is easy, rewriting is hard. 
 
