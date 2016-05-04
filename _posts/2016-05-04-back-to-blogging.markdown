@@ -21,7 +21,6 @@ tags:
 - writing
 comments: []
 ---
-<h1>Back to Blogging</h1>
 <h2>Maybe?</h2>
 I have been busy writing and rewriting, so blogging has taken a backseat. I want to blog more but if I am going to let one form of writing slip it will be blogging. Fiction writing is much more personally rewarding and I enjoy doing it so much that it is hard for me to justify writing random thoughts down when I can instead move a story along. 
 
