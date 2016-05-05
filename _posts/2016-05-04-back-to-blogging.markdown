@@ -12,13 +12,14 @@ author:
 author_login: dylan
 author_email: dylan@dylanreed.com
 author_url: /
-date: '2016-05-04 06:30:54 -0600'
-date_gmt: '2016-05-04 13:30:54 -0600'
+date: '2016-05-05 06:30:54 -0600'
+date_gmt: '2016-05-05 13:30:54 -0600'
 categories:
 - Awesome
 tags:
 - Projects
 - writing
+- books
 comments: []
 ---
 <h2>Maybe?</h2>
@@ -48,7 +49,7 @@ Here is hoping that I start blogging more often and with more interesting things
 
 Thanks for reading. 
 
-If you want to support me on Patreon](http://dylan.la/23JgCMg) you can!!
+If you want to support me on [Patreon](http://dylan.la/23JgCMg) you can!!
 
 
 
