@@ -1,17 +1,24 @@
-title: Fancy Cadaver
-tagline: Writing and musings by Dylan Reed
-#description: put a good description here
-markdown: kramdown
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-url:          http://fancycadaver.com
-baseurl:          http://fancycadaver.com
-version:      1.1.1
-author:
-  name:       'Dylan Reed'
-  email:      'dylan@dylanreed.com'
-  twitter:    '@dylanreed'
-  homepage:   'http://dylanreed.com'
-permalink: /:year/:month/:day/:title/
-paginate:     5
-gravatar_hash: 36aff981378cc0b408b7d1bc2f082741
+# Site settings
+title: Fancy Cadaver: 
+email: dylan@dylanreed.com
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http:/www.fancycadaver.com" # the base hostname & protocol for your site
+author: Dylan Reed
+
+# Gems
 gems: [jekyll-paginate]
+
+# Build settings
+markdown: kramdown
+paginate: 5
+paginate_path: 'page:num/'
+comments: true
+excerpt_separator: <!-- more -->
