@@ -1,0 +1,26 @@
+---
+
+layout: post
+status: publish
+published: true
+title: INDY 500
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: /
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: /
+wordpress_id: 48
+wordpress_url: http://dylanreed.org/?p=48
+date: '2003-05-27 11:12:47 -0500'
+date_gmt: '2003-05-27 17:12:47 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+INDYwas awesome. Trouble was caused. Harper  
+was hurt it was a good time there was lots of drunk people and a lot of people flashing boobs (by people i meant girls) a little uniciycling was done and a little juggling was done. cars crashed and no one was killed. i one the pot. it was awesome. harper got hurt on a scooter. This is funny

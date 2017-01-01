@@ -1,0 +1,87 @@
+---
+
+layout: post
+status: publish
+published: true
+title: Therapy
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: /
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: /
+wordpress_id: 1772
+wordpress_url: //?p=1772
+date: '2014-04-22 07:09:05 -0500'
+date_gmt: '2014-04-22 14:09:05 -0500'
+categories:
+- Serious Business
+tags:
+- Real Talk
+comments:
+- id: 48519
+  author: Nicole Sullivan
+  author_email: nicole@stubbornella.org
+  author_url: http://stubbornella.org/content/
+  date: '2014-04-22 16:45:50 -0500'
+  date_gmt: '2014-04-22 23:45:50 -0500'
+  content: Fantastic post -- brave, thoughtful, and honest.  I was almost half an
+    hour late to my first therapy appointment because I was so freaked out about going.
+    I got lost several times... though it was only a couple blocks from my house.
+    Luckily, I stuck it out. Thanks for being willing to share.
+- id: 48520
+  author: Sue Kading
+  author_email: Kading1303@aol.com
+  author_url: ''
+  date: '2014-04-22 22:42:44 -0500'
+  date_gmt: '2014-04-23 05:42:44 -0500'
+  content: Keep thinking those positive thoughts!
+- id: 48522
+  author: Trey
+  author_email: treybator@gmail.com
+  author_url: ''
+  date: '2014-04-23 05:01:31 -0500'
+  date_gmt: '2014-04-23 12:01:31 -0500'
+  content: This is really cool. I had a similar experience in my late 20's, and once
+    I came out the other end, I realized that I had been putting a ton of cognitive
+    energy into convincing myself that the world was a far more negative place than
+    it actually was, and that it had been causing me to behave in some very some weird,
+    destructive ways, to the point that I almost feel like I owe everyone that I knew
+    before the age of 30 an apology. Either way, I feel like there's a lot of happiness
+    out there that people miss out on because they're up in their own head too much
+    to see it, and most of them never do anything about it. I'm sorry things were
+    kind of dark for you, but I'm really glad that you were proactive about it and
+    are in a better place now. That's a really hard thing to do, and my hat is off
+    to you.
+---
+
+For the about the last six months I have been going to see a therapist once a month. I know what you are thinking "Dylan, you are perfect, why would you need therapy?" It is quite simple:
+
+> I needed therapy because everyone needs therapy.
+
+  
+I was super unhappy. I spent a lot of time feeling like I wasn't as good as my brother or that my parents loved him more then me. I felt slighted for things that happened when we were kids and was generally not a fan of holidays with my family. They were always hard. It didn't help that Harper is semi-famous, people I didn't know would talk to me about my super successful brother and it would kill me a little bit inside.
+
+Sarah, being a wonderful person, noticed how grumpy I was and suggested that I find a professional to talk to. I agreed and was waiting for my new insurance to kick in to get started.
+
+At the end of November I was talking to Harper about the trip to Chicago over the holidays and I mentioned that I wasn't super excited. We got talking about my need to talk to someone about everything and Harper, in true Harper fashion, offered to pay for it.
+
+That meant that I didn't need to wait but could start right away. I got online and found a couple therapists that I thought would be a good fit and sent them messages via the web. The next day I spoke to two of them on the phone and narrowed it down to one that I would meet with.
+
+I made a commitment to myself that no matter what I would be honest and try anything she told me to try in order to deal with all of the crazy. The first visit was the hardest. Just going in the build was super weird. I felt like I was admitting that I was crazy. Which, realistically, aren't we all.
+
+Luckily, on my way there was an article on NPR that explained the stigma in America towards mental health. The article talked about how receiving any sort of therapy was considered a weakness and how that needed to change. I was sold. I would change. Not only that I would be open about what I did every Wednesday I 4pm.
+
+Suddenly I wasn't going to therapy just for me. I was going to be able to show that it was OK to go to therapy. I would be able to tell people how much it helped me and be open and honest about the process. Now I had a reason to go in and be awesome.
+
+The hardest part of therapy for me has been realizing that I am actually awesome. Of course I have stated that I am awesome forever on this blog. My main category is Awesome and the tagline is I Am So Awesome. I didn't believe it. I was constantly making excuses for the way I was treated by people. When I realized that I was worth every bit as much as Harper it was a breakthrough. Especially since I was the one that had been telling myself that he was worth more than me.
+
+This single realization has made my work life better. I am less likely to not call people out on their bullshit and more likely to be 100% honest with people instead of worrying about what they think of me. I am much happier when hanging out with my family because I know in my heart that I am awesome.
+
+The amazing thing is that when you start to truly believe you are worth everything others start to pick up on it. You have more confidence and suddenly people are picking up on it and they also start to believe it.
+
+I went every single week from the end of November through the beginning of April and it was the most helpful activity I could have done weekly to become more healthy. I recently cut back to once a month, more of a maintenance schedule, which allows my therapist and I to focus on me reaching goals and setting boundaries. What is great is that I know that if I need to I can call her and set an appointment anytime.
+
+What everyone needs to realize is this: There is zero shame in seeing a therapist. Everyone should do it. If you think that you don't need to see one then you more than anyone else probably should. However, if you aren't going to be an active participant in your own treatment then don't bother. It won't help you unless you are willing to be part of the treatment.

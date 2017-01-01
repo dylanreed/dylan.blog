@@ -1,0 +1,26 @@
+---
+
+layout: post
+status: publish
+published: true
+title: Right
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: /
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: /
+wordpress_id: 88
+wordpress_url: http://dylanreed.org/?p=88
+date: '2003-12-31 03:02:42 -0600'
+date_gmt: '2003-12-31 09:02:42 -0600'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+Stupid at&t not letting me on the internet. I try to type a nice message for sarah and tell everyone what is going on and i cannot publish it. WTF. I hate you. Ok i am done. I recommend anyone who likes anti romantic romantic comidies to watch love stinks it has the guy from third rock from the sun and some girl from an adam sandler movie i think as well as some other people. It is great amounts of fun. and for the literate people out there i suggest you read eye in the sky by phillip k dick it is a great book about altering realities it is quite something. VT is good if you like snow. fortunately i do. so that is good. Today i went to the ben and jerry's factory. it was quite a bit of fun and they make like 1\2 million pints in a day or something like that so that rocks. mostly just hnging out with sarah and what not. Okay that is all.  
+dylan.

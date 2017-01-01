@@ -1,0 +1,26 @@
+---
+
+layout: post
+status: publish
+published: true
+title: Day One
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: /
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: /
+wordpress_id: 531
+wordpress_url: http://www.dylanreed.org/2008/12/30/day-one/
+date: '2008-12-30 07:36:16 -0600'
+date_gmt: '2008-12-30 15:36:16 -0600'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+  
+Here it is Day One of the video blog. Stupid camera being all sideways. I will fix this for the next one.

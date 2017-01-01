@@ -1,0 +1,54 @@
+---
+
+layout: post
+status: publish
+published: true
+title: Hiatus
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: /
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: /
+wordpress_id: 1848
+wordpress_url: //?p=1848
+date: '2014-08-13 11:57:13 -0500'
+date_gmt: '2014-08-13 18:57:13 -0500'
+categories:
+- Awesome
+- Serious Business
+tags:
+- writing
+comments: []
+---
+
+Well folks, it is time. Time for me to stop messing around with this writing thing and attempt to make some money with it. I have been writing this blog for over twelve years. During that time I have learned a lot and I think I have become a better writer.
+
+Writing has helped me through some tough times recently and has helped me share my experiences with people all over the world. I really have enjoyed blogging and I hope that everyone has enjoyed reading it. To everyone that has commented on posts, Thanks. Here is the top 5 blog posts of mine since I started using google analytics in 2005:
+
+  1. [Cat Window Seat][1]
+  2. [Five Places to Visit in Southern Colorado][2]
+  3. [Killer Whales don't Kill People][3]
+  4. [Four Best Ways to Die While SCUBA Diving][4]
+  5. [Therapy][5]
+  
+
+
+   [1]: /2009/05/cat-window-seat/
+   [2]: /2007/09/07/five-places-to-visit-in-southern-colorado/
+   [3]: /2004/02/04/killer-whales-dont-kill-people/
+   [4]: /2007/09/18/four-best-ways-to-die-while-scuba-diving/
+   [5]: /therapy/
+
+  
+I am at the point now where I am experimenting with fiction. It is a lot of fun to make up stories. The problem is that I only have so much time in my day for writing and I, like most people, enjoy doing what is easy. For me writing a 500 word blog is quick, easy and fun. But writing a blog doesn't move a story forward. Those 500 words could be really handy to have in the more difficult fiction world. So I am going to stop blogging for a while.
+
+My goal is to write some short stories and attempt to get them published the traditional way. This means finishing them, polishing them and sending them off. I need to learn how to write a query letter and all that jazz. I will probably receive rejections a plenty. But that is the game.
+
+Eventually I would like to write a novel. Something that is either published traditionally or something that I feel is strong enough to publish digitally. I will still be posting on [twitter][6] so you can follow me there if you would like.
+
+   [6]: http://www.twitter.com/dylanreed
+
+Wish me luck.

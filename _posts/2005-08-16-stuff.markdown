@@ -1,0 +1,43 @@
+---
+
+layout: post
+status: publish
+published: true
+title: 'Stuff '
+author:
+  display_name: dylan
+  login: admin
+  email: dylan@dylanreed.org
+  url: http://
+author_login: admin
+author_email: dylan@dylanreed.org
+author_url: http://
+wordpress_id: 185
+wordpress_url: http://www.dylanreed.org/2005/08/16/stuff/
+date: '2005-08-16 19:43:26 -0500'
+date_gmt: '2005-08-17 02:43:26 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+So...  
+My knee is very pissed. I am going to try to get to the Doctor this week and figure out what is making it so mad. I hope it dosen't lead to more surgery but if it does I am going to get the video for nata2.info.
+
+[Catapults][1]...thats all I've got on right now. Check it out.
+
+   [1]: http://www.catapultbowling.com/
+
+I think I came up with a logo for API entertainment, I will make a rought for opinions later.
+
+Work is good, I am med certified so I can pass meds in the state of colorado now. 6 hours of class and bam there ya go.
+
+Sarah and I are going to VEgas for our anniversary. it will be fun. We are going to see "o" and Mama mia while we are there. Hopefully sarah will win big and we won't have to come home.
+
+Magic tricks--> EGO is so hard, haven't even started working on the others.  
+Juggling--> taking break tell my knee feels better. also cause I am lazy.
+
+Harper is smelly
+
+I love Sarah

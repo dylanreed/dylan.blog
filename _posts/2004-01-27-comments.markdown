@@ -1,0 +1,34 @@
+---
+
+layout: post
+status: publish
+published: true
+title: comments
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: /
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: /
+wordpress_id: 108
+wordpress_url: http://dylanreed.org/?p=108
+date: '2004-01-27 11:06:15 -0600'
+date_gmt: '2004-01-27 17:06:15 -0600'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+So i keep getting weird comments on my entries like thesethere are others and it confuses me alot.
+
+so my birthday is soon and I can hardly wait. I want all sorts of goodies. I want a new [unicycle][1][with this as well][2], [three pink and three yellow dube poly cigar boxes][3], [a 7.5" red renegade stage ball][4], a [couple movies ][5]and this
+
+   [1]: http://www.unicycle.com/shopping/shopexd.asp?id=634
+   [2]: http://www.unicycle.com/shopping/shopexd.asp?id=608
+   [3]: http://www.dube.com
+   [4]: http://www.renegadejuggling.com
+   [5]: http://www.amazon.com/gp/registry/2J3BIKV2IPXLI
+

@@ -1,0 +1,47 @@
+---
+
+layout: post
+status: publish
+published: true
+title: Messed up
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: /
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: /
+wordpress_id: 133
+wordpress_url: http://dylanreed.org/?p=133
+date: '2004-05-14 11:39:20 -0500'
+date_gmt: '2004-05-14 17:39:20 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+This entry is fairly diturbing.
+
+I just watched the Nicholas Berg beheading video from harpers page. I wouldn't suggest that anyone with a weak stomach or people easly sisturbed to watch it but if you wnat to it is [here][1]. 
+
+   [1]: http://www.nata2.info/?path=war
+
+here are a buch of links to news stories about Nicholas Berg  
+[1][2]  
+[2][3]  
+[3][4]  
+[4][5]  
+[5][6]
+
+   [2]: http://www.abc.net.au/am/content/2004/s1107249.htm
+   [3]: http://www.onnnews.com/Global/story.asp?S=1864037&nav=LQlCN5Mv
+   [4]: http://edition.cnn.com/2004/WORLD/meast/05/14/iraq.berg/
+   [5]: http://kutv.com/topstories/local_story_135115151.html
+   [6]: http://www.reuters.co.uk/newsPackageArticle.jhtml?type=worldNews&storyID=510918&section=news
+
+[And many more][7]
+
+   [7]: http://www.google.com/news?hl=en&edition=us&ie=UTF-8&q=Nicholas+Berg+&btnG=Search+News
+

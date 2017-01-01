@@ -1,0 +1,29 @@
+---
+
+layout: post
+status: publish
+published: true
+title: Finally
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: /
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: /
+wordpress_id: 1529
+wordpress_url: //?p=1529
+date: '2012-06-02 09:50:26 -0500'
+date_gmt: '2012-06-02 16:50:26 -0500'
+categories:
+- Awesome
+tags: []
+comments: []
+---
+
+We have finally launched Joe and Ems!!!! Check it out!!![![][1]][2]
+
+   [1]: /media/2012/06/Screen-Shot-2012-06-02-at-10.48.55-AM-300x202.png (Screen Shot 2012-06-02 at 10.48.55 AM)
+   [2]: http://www.joeandem.com
+
