@@ -12,8 +12,8 @@ author:
 author_login: dylan
 author_email: dylan@dylanreed.com
 author_url: /
-date: '2015-01-01 10:10:00 -0600'
-date_gmt: '2015-01-01 10:10:00 -0600'
+date: '2017-01-01 10:10:00 -0600'
+date_gmt: '2017-01-01 10:10:00 -0600'
 categories:
 - Awesome
 - writing
