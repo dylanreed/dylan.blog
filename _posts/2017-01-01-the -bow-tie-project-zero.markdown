@@ -23,8 +23,6 @@ comments:
 ---
 <img src="https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Screen%20Shot%202017-01-01%20at%2011.12.12%20AM.png">
 
-
-<h1> The Bow Tie Project: Week Zero</h1>
 I love bow ties. They are the coolest of all ties. They are fun and less likely to end up in a bowl of soup than a regular neck tie. I have been wanting to make my own bow ties for a while now, but I never bit the bullet and got started. 
 
 Then with the start of the new year I decided to get started. Making ties takes very little fabric and not very much time. So why not make one bowtie a week. It will give me a lot of bowties added to my collection and will force me to sew more often. 
