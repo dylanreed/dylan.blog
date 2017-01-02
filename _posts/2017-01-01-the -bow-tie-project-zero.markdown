@@ -3,7 +3,7 @@
 layout: post
 status: publish
 published: true
-title: The Bow Tie Project: Week Zero
+title: The Bow Tie Project Week Zero
 author:
   display_name: Dylan
   login: dylan
