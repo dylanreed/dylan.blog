@@ -21,7 +21,7 @@ tags: []
 comments:
 
 ---
-<img src="https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Screen%20Shot%202017-01-01%20at%2011.12.12%20AM.png">
+<img src="https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Screen-Shot-2017-01-01-at-11.12.12-AM.png">
 
 I love bow ties. They are the coolest of all ties. They are fun and less likely to end up in a bowl of soup than a regular neck tie. I have been wanting to make my own bow ties for a while now, but I never bit the bullet and got started. 
 
