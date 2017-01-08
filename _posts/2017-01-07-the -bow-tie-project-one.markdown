@@ -22,7 +22,6 @@ comments:
 
 ---
 <img src="https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Bowtie-week-1.jpg">
-<H3>Week One</H3>
 
 This week was a lot of fun. I perfected my pattern, and found some things that I need to adjust. I also looked into the other shapes of bowties besides the traditional Butterfly. This is the first fabric that Sarah bought me to make a tie out of, and I love it. 
 
