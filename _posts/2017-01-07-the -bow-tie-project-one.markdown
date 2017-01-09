@@ -21,7 +21,8 @@ tags: []
 comments:
 
 ---
-<img src="https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Bowtie-week-1.jpg">
+
+![Pastel Flower Bow Tie](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Bowtie-week-1.jpg)
 
 This week was a lot of fun. I perfected my pattern, and found some things that I need to adjust. I also looked into the other shapes of bowties besides the traditional Butterfly. This is the first fabric that Sarah bought me to make a tie out of, and I love it. 
 
@@ -41,7 +42,7 @@ Less fabric is used to make a bow tie (37 inches), compared to traditional ties 
 <h3>How can you help?</h3>
 Do you also love bow ties? No one needs 52 bow ties, so I was thinking I could share the making of them with others. If you want a bow tie, you just need to buy the fabric, pay for shipping,  and I will add you to the list. Shoot me an email so we can set it up. I will need to know what size your neck is. 
 
-Since I also want to gain some bow ties from this experience I will be only opening up twenty-six of the fifty-two ties for people. So get in now or miss out. Shoot me and email: dylan@dylanreed.com
+Since I also want to gain some bow ties from this experience I will be only opening up twenty-six of the fifty-two ties for people. So get in now or miss out. Fill out the [form](http://dylan.la/2j1ogU3)
 
 Wish me luck and check back every week for the newest bowtie.
 

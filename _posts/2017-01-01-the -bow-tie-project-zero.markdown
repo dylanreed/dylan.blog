@@ -21,7 +21,8 @@ tags: []
 comments:
 
 ---
-<img src="https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Screen-Shot-2017-01-01-at-11.12.12-AM.png">
+
+![Shark Bow Tie](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Screen-Shot-2017-01-01-at-11.12.12-AM.png)
 
 I love bow ties. They are the coolest of all ties. They are fun and less likely to end up in a bowl of soup than a regular neck tie. I have been wanting to make my own bow ties for a while now, but I never bit the bullet and got started. 
 
@@ -40,7 +41,7 @@ From making the shark tie I learned that I need to perfect my pattern. It looks 
 <h3>How can you help?</h3>
 Do you also love bow ties? No one needs 52 bow ties, so I was thinking I could share the making of them with others. If you want a bow tie, you just need to buy the fabric, pay for shipping,  and I will add you to the list. Shoot me an email so we can set it up. I will need to know what size your neck is. 
 
-Since I also want to gain some bow ties from this experience I will be only opening up twenty-six of the fifty-two ties for people. So get in now or miss out. Shoot me and email: dylan@dylanreed.com
+Since I also want to gain some bow ties from this experience I will be only opening up twenty-six of the fifty-two ties for people. So get in now or miss out. Fill out the [form](http://dylan.la/2j1ogU3)
 
 Wish me luck and check back every week for the newest bowtie.
 
