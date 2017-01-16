@@ -46,6 +46,7 @@ Since I also want to gain some bow ties from this experience I will be only open
 
 Wish me luck and check back every week for the newest bowtie.
 
+Don't forget that you can support my writing efforts on [Patreon](https://www.patreon.com/dylanreed)
 
 
 
