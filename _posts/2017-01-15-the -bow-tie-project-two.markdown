@@ -30,7 +30,7 @@ I think that I have my butterfly pattern about perfected. There are a few small 
 
 I am intrigued by the Batwing bow tie. It isn't a tie I have ever worn but it has a much stronger shape than the butterfly. Reading more about bow tie shapes I have found that by making small adjustments to my patterns I can create numerous tie shapes. 
 
-Next week I am going to make a diamond point. I will also try and list the fabric I use to make each tie in case you want to make the same tie. And maybe I'll upload the patterns so you can make ties too,
+Next week I am going to make a diamond point. I will also try and list the fabric I use to make each tie in case you want to make the same tie. And maybe I'll upload the patterns so you can make ties too.
 
 <h6>BOW TIE FACT:</h6>
 
