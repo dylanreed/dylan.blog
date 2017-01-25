@@ -12,5 +12,6 @@ author:
   twitter:    '@dylanreed'
   homepage:   'http://dylanreed.com'
 permalink: /:year/:month/:day/:title/
+paginate:     3
 gravatar_hash: 36aff981378cc0b408b7d1bc2f082741
 gems: [jekyll-paginate]
