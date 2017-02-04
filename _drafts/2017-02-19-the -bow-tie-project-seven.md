@@ -3,7 +3,7 @@
 layout: post
 status: publish
 published: true
-title: The Bow Tie Project Week Five
+title: The Bow Tie Project Week Three
 author:
   display_name: Dylan
   login: dylan
@@ -12,8 +12,8 @@ author:
 author_login: dylan
 author_email: dylan@dylanreed.com
 author_url: /
-date: '2017-02-05 10:10:00 -0600'
-date_gmt: '2017-02-05 10:10:00 -0600'
+date: '2017-02-12 10:10:00 -0600'
+date_gmt: '2017-02-12 10:10:00 -0600'
 categories:
 - Awesome
 - Bow Ties
@@ -22,19 +22,8 @@ comments:
 
 ---
 
-![Squirrel/Blue Bow Tie](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Bowtie-week-5.jpg)
+![](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Bowtie-week-7.jpg)
 
-Quick, to the BATWING MOBILE!!!
-
-This is the first batwing bow tie. And this is my new favorite style. Batwing, then diamond point. The batwing just has a better shape than the others. 
-
-With this one I also put a contrasting fabric on the back side. This makes for an interesting tie. When you tie it you can flip the knot to make it a contrasting color or it will just add a nice fun accent color to the tie. 
-
-This fabric wasn't purchased for ties, but in fact was purchased to be curtains. While cutting the curtain fabric I may have accidentally cut out a bow tie. That is the nice thing about bow ties is they take so little fabric and are easy to sew. 
-
-<h6>BOW TIE FACT:</h6>
-
-Black is the most popular color of bow tie. <b>BORING!</b>
 
 <h3>How can you help?</h3>
 
