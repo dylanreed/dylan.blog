@@ -1,0 +1,47 @@
+---
+
+layout: post
+status: publish
+published: true
+title: January 2017
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: /
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: /
+date: '2017-02-01 10:10:00 -0600'
+date_gmt: '2017-02-01 10:10:00 -0600'
+categories:
+- Awesome
+- writing
+tags: []
+comments:
+
+---
+![Ramona on her yellow footstool.](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/january-two.jpg)
+
+<h4>Writing</h4>
+This month started out super well for writing. I started the next series on [Acme Hero Inc.](http://acmeheroinc.com) I also started editing Calliope (hopefully for the final time). My Nano book for 2016 has been sitting unread for the last two months. TWO MONTHS!!! and I haven't touched it. It has been a struggle and I am thinking that I am going to try and make it until March before I read it. 
+
+<h4>Books</h4>
+I read: Shades of Milk and Honey, Partials, Six Gun Tarot, Lock In, I Was Here, I Am Not A Serial Killer, Chew Vol. 12 and The Goblin Emperor. Phew. That is a lot of reading. I am seven books through my sixty book yearly goal. 
+
+<h4>Life</h4>
+2017 started out so well. I mean, aside from the whole Trump thing, things were looking up. My coworker was back from maternity leave and work was getting more fun. 
+
+But then my dad got sick. An infection that spread forcing him to endure multiple surgeries and wound care. Needless to say this kicked my ass. I have been known to be emotional and when someone I love is injured or sick I do not handle it well. 
+
+My dad getting sick got me thinking about when Sarah was sick and what a hard time I had dealing with that. It drug up a lot of emotions and stopped me from producing. I wasn't writing or sewing, just sitting around. 
+
+<h4>Projects</h4>
+The Bow Tie Project is going great. I am still enjoying making bow ties and am learning a lot about how to make them. There are so many fabrics I am looking forward to making and I can't wait to share them with you here. 
+
+And drawing is back. I started doodling during inktober and have remembered how much I love drawing. And because I don't have enough projects going I think I will start posting more of my drawings. 
+
+I have also started blogging a lot more. Weekly posts, bow tie project, book reviews and a monthly post. So much blogging, and now it is at dylan.blog, which is awesome. 
+
+
+Don't forget that you can support my writing efforts on [Patreon](https://www.patreon.com/dylanreed)
