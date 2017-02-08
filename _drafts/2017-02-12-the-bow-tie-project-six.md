@@ -24,7 +24,7 @@ comments:
 
 ![Grey, Derby, Moustache Bow Tie](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Bowtie-week-6.jpg)
 
-This is a tie for a gentlemen. Or at least someone who fancy's themselves a gentlemen. Moustaches and derbeys galore. I wish that this fabric didn't have a pattern on it because it is such a nice grey color. 
+This is a tie for a gentlemen. Or at least someone who fancy's themselves a gentlemen. Moustaches and derbys galore. I wish that this fabric didn't have a pattern on it because it is such a nice grey color. 
 
 This is a round point tie. I didn't have my rounding game very well figured out, so the edges are less perfect. But I am learning. One thing I need to figure out is how to work with patterns so that they are right side up on all sides. 
 
