@@ -3,7 +3,7 @@
 layout: post
 status: publish
 published: true
-title: Week Six
+title: Week Seven
 author:
   display_name: Dylan
   login: dylan
@@ -21,7 +21,7 @@ tags: []
 comments:
 
 ---
-![Week Six - Dylan looking insane at the end of a panoramic of Wellington NZ](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Weekly-Blog-Post-Six.jpg)
+![Week Six - Dylan looking insane at the end of a panoramic of Wellington NZ](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Weekly-Blog-Post-Seven.jpg)
 
 So... this [happened](https://medium.com/@dylanreed/the-time-i-pooped-blood-599c9cbe0432#.9ms2m3u3z).
 
