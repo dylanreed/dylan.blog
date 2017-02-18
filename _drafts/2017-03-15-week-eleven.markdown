@@ -3,7 +3,7 @@
 layout: post
 status: publish
 published: true
-title: Week Six
+title: Week Eleven
 author:
   display_name: Dylan
   login: dylan
@@ -12,8 +12,8 @@ author:
 author_login: dylan
 author_email: dylan@dylanreed.com
 author_url: /
-date: '2017-02-08 10:10:00 -0600'
-date_gmt: '2017-02-08 10:10:00 -0600'
+date: '2017-03-15 10:10:00 -0600'
+date_gmt: '2017-03-15 10:10:00 -0600'
 categories:
 - Awesome
 - 2017
@@ -21,7 +21,7 @@ tags: []
 comments:
 
 ---
-![Week Six - Dylan looking insane at the end of a panoramic of Wellington NZ](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Weekly-Blog-Post-Six.jpg)
+![Week Six - Dylan looking insane at the end of a panoramic of Wellington NZ](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Weekly-Blog-Post-Eleven.jpg)
 
 A week since dad made it home and things are going. I am not sure how they are going, but they are at least going. My mom is going through a lot of the same things I went through when Sarah was sick and it kills me a little bit. 
 

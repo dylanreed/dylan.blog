@@ -3,7 +3,7 @@
 layout: post
 status: publish
 published: true
-title: The Bow Tie Project Week Three
+title: The Bow Tie Project Week Seven
 author:
   display_name: Dylan
   login: dylan
@@ -12,8 +12,8 @@ author:
 author_login: dylan
 author_email: dylan@dylanreed.com
 author_url: /
-date: '2017-02-12 10:10:00 -0600'
-date_gmt: '2017-02-12 10:10:00 -0600'
+date: '2017-02-19 10:10:00 -0600'
+date_gmt: '2017-02-19 10:10:00 -0600'
 categories:
 - Awesome
 - Bow Ties
@@ -24,6 +24,11 @@ comments:
 
 ![](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Bowtie-week-7.jpg)
 
+Bow Ties are Awesome!!
+
+That is all you need to know.
+
+Sewing bow ties has become easier as the weeks have progressed, and I am finding little tricks on making them look better when finished. 
 
 <h3>How can you help?</h3>
 
