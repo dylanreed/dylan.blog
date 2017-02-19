@@ -22,7 +22,7 @@ comments:
 
 ---
 
-![](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Bowtie-week-26.jpg)
+![](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Bowtie-week-12.jpg)
 
 
 <h3>How can you help?</h3>
