@@ -21,7 +21,7 @@ tags: []
 comments:
 
 ---
-![Week Eight - Dylan looking insane at the end of a panoramic of Wellington NZ](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Weekly-Blog-Post-Eight.jpg)
+![Week Eight - Dylan looking insane at the end of a panoramic of Wellington NZ](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/weekly-blog/Weekly-Blog-Post-Eight.jpg)
 
 What a year!!
 

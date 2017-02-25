@@ -22,7 +22,7 @@ comments:
 
 ---
 
-![](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Bowtie-week-7.jpg)
+![Lacey Bow Tie](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/bow-tie/Bowtie-week-7.jpg)
 
 Bow Ties are Awesome!!
 

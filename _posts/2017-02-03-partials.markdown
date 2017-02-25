@@ -21,7 +21,7 @@ tags: []
 comments:
 
 ---
-![Partials cover](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Partials.jpg)
+![Partials cover](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/book-review/Partials.jpg)
 
 <h4>Synopsis</h4>
 

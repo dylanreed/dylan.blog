@@ -22,7 +22,7 @@ comments:
 
 ---
 
-![Green geometric Bow Tie](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Bowtie-week-4.jpg)
+![Green geometric Bow Tie](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/bow-tie/Bowtie-week-4.jpg)
 
 Here is the first round point tie. The difference between the round point and the diamond point is subtle. I love the diamond point because of the clean look they have, but the round point is softer and more whimsical. 
 

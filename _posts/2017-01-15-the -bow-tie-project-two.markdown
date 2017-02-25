@@ -22,7 +22,7 @@ comments:
 
 ---
 
-![Navy with Gold Flower Bow Tie](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Bowtie-week-2.jpg)
+![Navy with Gold Flower Bow Tie](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/bow-tie/Bowtie-week-2.jpg)
 
 Another week, another bow tie. This fabric is a wonderful navy blue with gold flowers. Finished, this tie looks classy and wonderful tied. I have three bow ties that I have purchased and this one is the nicest looking tie I own. 
 

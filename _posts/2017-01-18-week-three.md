@@ -21,7 +21,7 @@ tags: []
 comments:
 
 ---
-![Week Three - Dylan looking insane at the end of a panoramic of Wellington NZ](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Weekly-Blog-Post-Three.jpg)
+![Week Three - Dylan looking insane at the end of a panoramic of Wellington NZ](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/weekly-blog/Weekly-Blog-Post-Three.jpg)
 
 So, .blog is a thing. I don't even know what it means and I am still very excited. My blog has had a few addresses over the years. 
 

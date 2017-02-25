@@ -22,7 +22,7 @@ comments:
 
 ---
 
-![Squirrel/Blue Bow Tie](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Bowtie-week-5.jpg)
+![Squirrel/Blue Bow Tie](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/bow-tie/Bowtie-week-5.jpg)
 
 Quick, to the BATWING MOBILE!!!
 

@@ -22,7 +22,7 @@ comments:
 
 ---
 
-![Navy with colored triangles Bow Tie](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Bowtie-week-3.jpg)
+![Navy with colored triangles Bow Tie](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/bow-tie/Bowtie-week-3.jpg)
 
 This was one of the fabrics that Sarah brought home for me. I got a text from her asking, "Do you have too many navy bow ties?" Of course you can never have too many navy ties, so she brought it home. 
 

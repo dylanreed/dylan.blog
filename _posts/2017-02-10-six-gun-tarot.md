@@ -21,7 +21,7 @@ tags: []
 comments:
 
 ---
-![Partials cover](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Six-Gun-Tarot.jpg)
+![Partials cover](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/book-review/Six-Gun-Tarot.jpg)
 
 <h4>Synopsis</h4>
 

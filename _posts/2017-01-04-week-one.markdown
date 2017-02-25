@@ -21,7 +21,7 @@ tags: []
 comments:
 
 ---
-<img src="https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Weekly-Blog-Post-One.jpg">
+<img src="https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/weekly-blog/Weekly-Blog-Post-One.jpg">
 
 Halfway through the first week of 2017 and things are looking good. I have done actual writing, started an unplanned weekly [project](http://fancycadaver.com//2017/01/01/the-bow-tie-project-zero/), and we started planning next Christmas. Go us!!
  
