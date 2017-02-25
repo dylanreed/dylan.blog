@@ -24,6 +24,9 @@ comments:
 
 ![](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Bowtie-week-8.jpg)
 
+V-day fabric number two. This was one of the ties Sarah picked out for me. It is the perfect compliment to my bright pink shirt and just looks fantastic. 
+
+As I was finishing this tie Sarah had a great idea. I should have made the ends of the bowtie heart shaped. It would have made the Valentines day tie perfect. But I don't know if I really want a tie that is so holiday specific. 
 
 <h3>How can you help?</h3>
 
