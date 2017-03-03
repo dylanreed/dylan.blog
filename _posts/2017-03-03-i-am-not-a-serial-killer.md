@@ -35,7 +35,7 @@ Dead bodies are normal to John. He likes them, actually. They don't demand or ex
 
 <h4>Review</h4>
 
-One of my favorite tricks that an author can do is to throw something into a book that turns my expectations out the window. I went into this book thinking that it would be Dexter but a kid. 
+One of my favorite tricks that an author can do is to put something into a book that throws my expectations out the window. I went into this book thinking that it would be Dexter but with a kid. 
 
 And Dan Wells makes you think that for half the book. Then it gets crazy and the rest of the book is fantastic. There is a point in the book when I exclaimed, "Shit!" out loud, and I love having that kind of reaction. 
 
