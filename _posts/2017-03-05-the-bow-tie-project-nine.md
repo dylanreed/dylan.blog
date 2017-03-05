@@ -23,7 +23,11 @@ comments:
 ---
 
 ![](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Bowtie-week-9.jpg)
+Another week another heart bow tie!! 
 
+The other day I went without a bow tie. I was tired and just didn't feel like wearing one. It felt super weird to be at work without one. 
+
+Coming soon: A tutorial and pattern for bow ties so you can sew along!! How exciting is that? Super exciting. 
 
 <h3>How can you help?</h3>
 
