@@ -24,6 +24,9 @@ comments:
 
 ![](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Bowtie-week-10.jpg)
 
+This week was a more vintage style heart tie. It is a round point bow tie. One of the best things about all of the heart fabrics I have used is that they aren't obviously valentine day ties. They just happen to be ties with hearts on them. 
+
+Speaking of hearts... I should probably find some St Patricks day fabric. Maybe even just a nice solid green would be nice. 
 
 <h3>How can you help?</h3>
 
