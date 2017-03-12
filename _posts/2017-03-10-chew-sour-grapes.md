@@ -3,7 +3,7 @@
 layout: post
 status: publish
 published: true
-title: Chew: Sour Grapes
+title: Chew - Sour Grapes
 author:
   display_name: Dylan
   login: dylan
