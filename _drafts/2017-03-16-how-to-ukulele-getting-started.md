@@ -21,7 +21,7 @@ tags: []
 comments:
 
 ---
-![How to Ukulele](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/the-goblin-emperor.jpg)
+![How to Ukulele](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/other/ukulele.jpg)
 
 <h4>What?</h4>
 
