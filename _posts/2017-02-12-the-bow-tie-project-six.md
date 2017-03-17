@@ -3,7 +3,7 @@
 layout: post
 status: publish
 published: true
-title: The Bow Tie Project Week Three
+title: The Bow Tie Project Week Six
 author:
   display_name: Dylan
   login: dylan
@@ -22,7 +22,7 @@ comments:
 
 ---
 
-![Grey, Derby, Moustache Bow Tie](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/bow-tie/Images/Bowtie-week-6.jpg)
+![Grey, Derby, Moustache Bow Tie](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/bow-tie/Bowtie-week-6.jpg)
 
 This is a tie for a gentlemen. Or at least someone who fancy's themselves a gentlemen. Moustaches and derbys galore. I wish that this fabric didn't have a pattern on it because it is such a nice grey color. 
 
