@@ -24,6 +24,9 @@ comments:
 
 ![](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Bowtie-week-12.jpg)
 
+This is the first bow tie I made that wasn't typical cotton fabric. It had just the smallest amount of stretch which was a learning process for me. I think it turned out well and I love the colors. 
+
+It is funny how much quicker it is for me to make a bow tie now. The hardest part is the cutting, because I have to make sure that the fabric lines up nice on the pattern. I don't want crooked stripes. 
 
 <h3>How can you help?</h3>
 
