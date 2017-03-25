@@ -3,7 +3,7 @@
 layout: post
 status: publish
 published: true
-title: The Goblin Emperor
+title: City of Bones
 author:
   display_name: Dylan
   login: dylan
@@ -21,20 +21,13 @@ tags: []
 comments:
 
 ---
-![The Goblin Emperor](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/emerge.jpg)
+![City of Bones](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/book-review/City of Bones.jpg)
 
 <h4>Synopsis</h4>
 
-Lia Nautilus may be a Mermaid but she's never lived in the ocean. War has ravaged the seven seas ever since the infamous Little Mermaid unleashed a curse that stripped Mer of their immortality. Lia has grown up in a secret community of land-dwelling Mer hidden among Malibu's seaside mansions. Her biggest problems are surviving P.E. and keeping her feelings for Clay Ericson in check. Sure, he's gorgeous in that cocky, leather jacket sort of way and makes her feel like there's a school of fish swimming in her stomach, but getting involved with a human could put Lia's entire community at risk. So it's for the best that he's dating that new girl, right? 
+When fifteen-year-old Clary Fray heads out to the Pandemonium Club in New York City, she hardly expects to witness a murder― much less a murder committed by three teenagers covered with strange tattoos and brandishing bizarre weapons. Then the body disappears into thin air. It's hard to call the police when the murderers are invisible to everyone else and when there is nothing―not even a smear of blood―to show that a boy has died. Or was he a boy?
 
 <h4>Review</h4>
 
-Twilight with fins!!! 
-
-Not really, but when I first started reading this book that is what kept coming to mind. This is a YA paranormal romance that takes a 'creature' that has been left alone by the YA crowd and brings it front and center. 
-
-Tobie Easton commits to the mermaid thing hard. There are fish\ocean puns abound and this was a light and fun read. Sometimes I felt that the villain's motivation wasn't that great, and I found it hard to have sympathy for Lia since she had everything, except the boy she wanted. There wasn't a lot of things that didn't go her way in the rest of her life. 
-
-At the end of the book I felt like things wrapped up a little too nicely. This is the first book in the series, and I am not sure that I feel there is more I want to read about. But, knowing me, I will probably read book two when it comes out. 
 
 Don't forget that you can support my writing efforts on [Patreon](https://www.patreon.com/dylanreed)
