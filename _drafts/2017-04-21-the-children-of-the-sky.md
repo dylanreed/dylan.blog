@@ -3,7 +3,7 @@
 layout: post
 status: publish
 published: true
-title: The Goblin Emperor
+title: The Children of the Sky
 author:
   display_name: Dylan
   login: dylan
@@ -21,20 +21,22 @@ tags: []
 comments:
 
 ---
-![The Goblin Emperor](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/emerge.jpg)
+![The Children of the Sky](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/emerge.jpg)
 
 <h4>Synopsis</h4>
 
-Lia Nautilus may be a Mermaid but she's never lived in the ocean. War has ravaged the seven seas ever since the infamous Little Mermaid unleashed a curse that stripped Mer of their immortality. Lia has grown up in a secret community of land-dwelling Mer hidden among Malibu's seaside mansions. Her biggest problems are surviving P.E. and keeping her feelings for Clay Ericson in check. Sure, he's gorgeous in that cocky, leather jacket sort of way and makes her feel like there's a school of fish swimming in her stomach, but getting involved with a human could put Lia's entire community at risk. So it's for the best that he's dating that new girl, right? 
+Ten years have passed on Tines World, where Ravna Bergnsdot and a number of human children ended up after a disaster that nearly obliterated humankind throughout the galaxy. Ravna and the pack animals for which the planet is named have survived a war, and Ravna has saved more than one hundred children who were in cold-sleep aboard the vessel that brought them.
+
+While there is peace among the Tines, there are those among them—and among the humans—who seek power… and no matter the cost, these malcontents are determined to overturn the fledgling civilization that has taken root since the humans landed.
 
 <h4>Review</h4>
 
-Twilight with fins!!! 
+I loved *A Fire Upon the Deep* it was my first big science fiction book and it changed everything for me as far as science fiction. Before this most of my science fiction reading had been Philip K. Dick, who I love, but this was something different. 
 
-Not really, but when I first started reading this book that is what kept coming to mind. This is a YA paranormal romance that takes a 'creature' that has been left alone by the YA crowd and brings it front and center. 
+The first encounter with the Tines was amazing and I felt like it was such an amazing alien race. Non-humanoid and awesome. 
 
-Tobie Easton commits to the mermaid thing hard. There are fish\ocean puns abound and this was a light and fun read. Sometimes I felt that the villain's motivation wasn't that great, and I found it hard to have sympathy for Lia since she had everything, except the boy she wanted. There wasn't a lot of things that didn't go her way in the rest of her life. 
+This is not that book. This book was good, but I didn't get the same magical feeling as the first book. I think part of this is because the characters that I loved in the first book are all grown up and I did not love the people they had become. I don't disagree with any choices made but I found so many characters unlikable in their current form. 
 
-At the end of the book I felt like things wrapped up a little too nicely. This is the first book in the series, and I am not sure that I feel there is more I want to read about. But, knowing me, I will probably read book two when it comes out. 
+The writing more than makes up for that though. Verner Vinge's style is wonderful to read and I enjoyed this book from cover to cover. It was a longer read but more than worth it. 
 
 Don't forget that you can support my writing efforts on [Patreon](https://www.patreon.com/dylanreed)
