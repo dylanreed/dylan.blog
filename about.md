@@ -4,7 +4,6 @@ title: About
 permalink: /about/
 ---
 
-
 Who is Dylan Reed? Why is Dylan so awesome? Why should you care? These are all questions I plan to answer in this section, thus the boring title. I have wrestled with this page for days and have finally narrowed down my ideas to focus on those three questions.
 
 ***Who is Dylan Reed?***
@@ -33,3 +32,5 @@ This is a hard question to answer since awesomeness is subjective. It boils down
 ***Why should you care?***
 
 You shouldn’t. Or maybe you should. I have experienced a lot in my thirty-four years and love to share those experiences with others. I have also started writing fiction, which is exciting for me. 
+
+Most links are amazon affiliate links.
