@@ -21,7 +21,7 @@ tags: []
 comments:
 
 ---
-![The Underwater Welder](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/emerge.jpg)
+![The Underwater Welder](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/book-review/the-underwater-welder.jpg)
 
 <h4>Synopsis</h4>
 

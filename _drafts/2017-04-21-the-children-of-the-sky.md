@@ -21,7 +21,7 @@ tags: []
 comments:
 
 ---
-![The Children of the Sky](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/emerge.jpg)
+![The Children of the Sky](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/book-review/the-children-of-the-sky.jpg)
 
 <h4>Synopsis</h4>
 

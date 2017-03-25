@@ -21,7 +21,7 @@ tags: []
 comments:
 
 ---
-![Outcast, Vol. 1](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/emerge.jpg)
+![Outcast, Vol. 1](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/book-review/outcast.jpg)
 
 <h4>Synopsis</h4>
 

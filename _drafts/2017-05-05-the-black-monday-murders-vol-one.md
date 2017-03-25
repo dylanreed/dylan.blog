@@ -21,7 +21,7 @@ tags: []
 comments:
 
 ---
-![The Black Monday Murders](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/book-review/peace-talks.jpg)
+![The Black Monday Murders](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/book-review/the-black-monday-murders.jpg)
 
 <h4>Synopsis</h4>
 
