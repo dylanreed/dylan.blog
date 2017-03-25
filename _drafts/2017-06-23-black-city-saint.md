@@ -21,7 +21,7 @@ tags: []
 comments:
 
 ---
-![Black City Saint](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/book-review/I-was-here.jpg/black-city-saint.jpg)
+![Black City Saint](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/book-review/black-city-saint.jpg)
 
 <h4>Synopsis</h4>
 

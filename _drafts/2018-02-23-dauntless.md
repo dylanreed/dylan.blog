@@ -21,7 +21,7 @@ tags: []
 comments:
 
 ---
-![The Goblin Emperor](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/emerge.jpg)
+![The Goblin Emperor](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/book-review/dauntless.jpg)
 
 <h4>Synopsis</h4>
 

@@ -3,7 +3,7 @@
 layout: post
 status: publish
 published: true
-title: The Goblin Emperor
+title: Something From the Nightside
 author:
   display_name: Dylan
   login: dylan
@@ -21,7 +21,7 @@ tags: []
 comments:
 
 ---
-![The Goblin Emperor](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/emerge.jpg)
+![Something From the Nightside](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/book-review/something-from-the-nightside.jpg)
 
 <h4>Synopsis</h4>
 
