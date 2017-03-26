@@ -22,7 +22,7 @@ comments:
 
 ---
 
-![](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Bowtie-week-11.jpg)
+![](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/bow-tie/Bowtie-week-11.jpg)
 
 This is my absolute favorite bow tie. The fabric is amazing and there are multiple options to wear it. If you tie it one way it is pink, another way it is blue and yellow. Makes it the most versatile tie I have made. 
 

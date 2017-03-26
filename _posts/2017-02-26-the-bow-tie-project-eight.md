@@ -22,7 +22,7 @@ comments:
 
 ---
 
-![](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Bowtie-week-8.jpg)
+![](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/bow-tie/Bowtie-week-8.jpg)
 
 V-day fabric number two. This was one of the ties Sarah picked out for me. It is the perfect compliment to my bright pink shirt and just looks fantastic. 
 

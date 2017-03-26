@@ -22,7 +22,7 @@ comments:
 
 ---
 
-![](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Bowtie-week-9.jpg)
+![](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/bow-tie/Bowtie-week-9.jpg)
 Another week another heart bow tie!! 
 
 The other day I went without a bow tie. I was tired and just didn't feel like wearing one. It felt super weird to be at work without one. 
