@@ -12,8 +12,8 @@ author:
 author_login: dylan
 author_email: dylan@dylanreed.com
 author_url: /
-date: '2017-02-12 10:10:00 -0600'
-date_gmt: '2017-02-12 10:10:00 -0600'
+date: '2017-04-02 10:10:00 -0600'
+date_gmt: '2017-04-02 10:10:00 -0600'
 categories:
 - Awesome
 - Bow Ties
@@ -22,7 +22,7 @@ comments:
 
 ---
 
-![](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Bowtie-week-7.jpg)
+![](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Bowtie-week-13.jpg)
 
 
 <h3>How can you help?</h3>
