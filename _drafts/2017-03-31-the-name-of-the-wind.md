@@ -21,7 +21,7 @@ tags: []
 comments:
 
 ---
-![The Name of the Wind](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/book-review/the-name-of-the-wind.jpg)
+<a href="https://www.amazon.com/gp/product/0756404746/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20">![The Name of the Wind](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/book-review/the-name-of-the-wind.jpg)</a>
 
 <h4>Synopsis</h4>
 
@@ -33,6 +33,10 @@ This was a book I had every intention of reading sooner. But I never got around 
 
 BUT OMFG THIS BOOK IS AWESOME!!
 
-I enjoyed so many small parts of this book. The descriptions of music and the way everything fits together. Even the way Rothuss handles dialect is amazing. This is moving up the list of books that love. I almost skipped ahead on the list and read the second one, but restrained myself. Now I have something to look forward too. 
+I enjoyed so many small parts of this book. The descriptions of music and the way everything fits together. Even the way Rothuss handles dialect is amazing. 
+
+[The Name of the Wind](https://www.amazon.com/gp/product/0756404746/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20) deserves all of the praise it has received. This is how fantasy should be written, with a level of craftsmanship that is unmatched in modern fantasy. 
+
+This is moving up the list of books that I love. I almost skipped ahead on the list and read the second one, but restrained myself. Now I have something to look forward too. 
 
 Don't forget that you can support my writing efforts on [Patreon](https://www.patreon.com/dylanreed)

@@ -21,7 +21,7 @@ tags: []
 comments:
 
 ---
-![Outcast, Vol. 1](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/book-review/outcast.jpg)
+<a href="https://www.amazon.com/gp/product/1632150530/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20">![Outcast, Vol. 1](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/book-review/outcast.jpg)</a>
 
 <h4>Synopsis</h4>
 
@@ -32,6 +32,6 @@ I love Robert Kirkman. There I said it. I loved *The Astounding Wolfman* and I s
 
 When I found this at The Nerd Store I was immediately taken in by the art work. It was beautiful. The colors in this story do as much to tug at your emotions as the story. The team that put this together did a great job. 
 
-I am glad I found this series because it might be able to replace my love of *Chew*. Maybe. 
+I am glad I found this series because it might be able to replace my love of *Chew*. Maybe. Go check [Outcast](https://www.amazon.com/gp/product/1632150530/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20) out.
 
 Don't forget that you can support my writing efforts on [Patreon](https://www.patreon.com/dylanreed)

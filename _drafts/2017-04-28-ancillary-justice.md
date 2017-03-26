@@ -21,7 +21,7 @@ tags: []
 comments:
 
 ---
-![Ancillary Justice](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/book-review/ancillary-justice.jpg)
+<a href="https://www.amazon.com/gp/product/031624662X/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20">![Ancillary Justice](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/book-review/ancillary-justice.jpg)</a>
 
 <h4>Synopsis</h4>
 
