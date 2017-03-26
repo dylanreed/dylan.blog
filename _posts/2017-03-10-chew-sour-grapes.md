@@ -21,7 +21,7 @@ tags: []
 comments:
 
 ---
-![Chew](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/chew-sour-grapes.jpg)
+<a href="https://www.amazon.com/gp/product/01607062933/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20">![Chew](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/chew-sour-grapes.jpg)</a>
 
 <h4>Synopsis</h4>
 
@@ -29,7 +29,7 @@ Tony Chu is a cop with a secret. A weird secret. Tony Chu is cibopathic, which m
 
 <h4>Review</h4>
 
-This is more of a review for the entire Chew series. This is the best comic I have ever read. And I have read quite a few. Some of them have humor, others are serious. Chew has it all. Humor, serious moments, Poyo, and cannibals. It really can't be beat. 
+This is more of a review for the entire [Chew](https://www.amazon.com/gp/product/01607062933/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20) series. This is the best comic I have ever read. And I have read quite a few. Some of them have humor, others are serious. Chew has it all. Humor, serious moments, Poyo, and cannibals. It really can't be beat. 
 
 This is the last trade paperback. Which makes this a bittersweet moment for me. I knew when I started with issue one that they were planning on sixty total issues. And they delivered. 
 

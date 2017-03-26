@@ -21,11 +21,11 @@ tags: []
 comments:
 
 ---
-![Partials cover](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/book-review/Six-Gun-Tarot.jpg)
+<a href="https://www.amazon.com/gp/product/0765367513/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20">![Six Gun Tarot](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/book-review/Six-Gun-Tarot.jpg)</a>
 
 <h4>Synopsis</h4>
 
-Six-Gun Tarot is the first book in the twisted weird west world of the Golgotha series by R.S. Belcher.
+[Six-Gun Tarot](https://www.amazon.com/gp/product/0765367513/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20) is the first book in the twisted weird west world of the Golgotha series by R.S. Belcher.
 Nevada, 1869: Beyond the pitiless 40-Mile Desert lies Golgotha, a cattle town that hides more than its share of unnatural secrets. The sheriff bears the mark of the noose around his neck; some say he is a dead man whose time has not yet come. His half-human deputy is kin to coyotes. The mayor guards a hoard of mythical treasures. A banker's wife belongs to a secret order of assassins. And a shady saloon owner, whose fingers are in everyone's business, may know more about the town's true origins than he's letting on.
 
 

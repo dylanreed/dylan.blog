@@ -21,11 +21,11 @@ tags: []
 comments:
 
 ---
-![Partials cover](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/book-review/Partials.jpg)
+<a href="https://www.amazon.com/gp/product/006207105X/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20">![Partials cover](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/book-review/Partials.jpg)</a>
 
 <h4>Synopsis</h4>
 
-Humanity is all but extinguished after a war with Partials—engineered organic beings identical to humans—has decimated the population. Reduced to only tens of thousands by a weaponized virus to which only a fraction of humanity is immune, the survivors in North America have huddled together on Long Island. But sixteen-year-old Kira is determined to find a solution. As she tries desperately to save what is left of her race, she discovers that that the survival of both humans and Partials rests in her attempts to answer questions about the war's origin that she never knew to ask.
+Humanity is all but extinguished after a war with [Partials](https://www.amazon.com/gp/product/006207105X/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20)—engineered organic beings identical to humans—has decimated the population. Reduced to only tens of thousands by a weaponized virus to which only a fraction of humanity is immune, the survivors in North America have huddled together on Long Island. But sixteen-year-old Kira is determined to find a solution. As she tries desperately to save what is left of her race, she discovers that that the survival of both humans and Partials rests in her attempts to answer questions about the war's origin that she never knew to ask.
 
 <h4>Review</h4>
 

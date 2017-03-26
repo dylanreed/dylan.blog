@@ -21,7 +21,7 @@ tags: []
 comments:
 
 ---
-![I am Not a Serial Killer](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/i-am-not-a-serial-killer.jpg)
+<a href="https://www.amazon.com/gp/product/0765327821/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20">![I am Not a Serial Killer](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/i-am-not-a-serial-killer.jpg)</a>
 
 <h4>Synopsis</h4>
 
@@ -34,6 +34,7 @@ He's obsessed with serial killers, but really doesn't want to become one. So for
 Dead bodies are normal to John. He likes them, actually. They don't demand or expect the empathy he's unable to offer. Perhaps that's what gives him the objectivity to recognize that there's something different about the body the police have just found behind the Wash-n-Dry Laundromat---and to appreciate what that difference means.
 
 <h4>Review</h4>
+*[I am not a Serial Killer](https://www.amazon.com/gp/product/0765327821/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20)* by Dan Wells was not the book I expected it to be. I knew nothing about this book other than hearing about it on writing excuses. 
 
 One of my favorite tricks that an author can do is to put something into a book that throws my expectations out the window. I went into this book thinking that it would be Dexter but with a kid. 
 

@@ -21,7 +21,7 @@ tags: []
 comments:
 
 ---
-![The Goblin Emperor](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/the-goblin-emperor.jpg)
+<a href="https://www.amazon.com/gp/product/0765365685/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20">![The Goblin Emperor](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/the-goblin-emperor.jpg)</a>
 
 <h4>Synopsis</h4>
 
@@ -30,7 +30,7 @@ The youngest, half-goblin son of the Emperor has lived his entire life in exile,
 
 <h4>Review</h4>
 
-Do you know what a Fantasy of Manners is? I didn't until I read this book. If you have read Game of Thrones and love all of the court intrigue than this is the book for you. If you hated all of that and spent your time reading waiting for someone to die, this might not be the book for you. 
+Do you know what a Fantasy of Manners is? I didn't until I read this book. If you have read Game of Thrones and love all of the court intrigue than this is the book for you. If you hated all of that and spent your time reading it waiting for someone to die, <a href="https://www.amazon.com/gp/product/0765365685/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20">The Goblin Emperor</a> might not be the book for you. 
 
 I had no idea what I was getting into when I started this book and it was amazing. Everything moves a long at a perfect pace and you learn about the elf court as the new emperor does. 
 

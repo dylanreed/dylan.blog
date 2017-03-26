@@ -21,11 +21,11 @@ tags: []
 comments:
 
 ---
-![Shades of Milk and Honey cover](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/book-review/Shades-of-MIlk-and-Honey.jpg)
+<a href="https://www.amazon.com/gp/product/0765325608/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20">![Shades of Milk and Honey](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/book-review/Shades-of-MIlk-and-Honey.jpg)</a>
 
 <h4>Synopsis</h4>
 
-Shades of Milk and Honey is an intimate portrait of Jane Ellsworth, a woman ahead of her time in a world where the manipulation of glamour is considered an essential skill for a lady of quality. But despite the prevalence of magic in everyday life, other aspects of Dorchester's society are not that different: Jane and her sister Melody's lives still revolve around vying for the attentions of eligible men. 
+[Shades of Milk and Honey](https://www.amazon.com/gp/product/0765325608/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20) is an intimate portrait of Jane Ellsworth, a woman ahead of her time in a world where the manipulation of glamour is considered an essential skill for a lady of quality. But despite the prevalence of magic in everyday life, other aspects of Dorchester's society are not that different: Jane and her sister Melody's lives still revolve around vying for the attentions of eligible men. 
 
 <h4>Review</h4>
 
