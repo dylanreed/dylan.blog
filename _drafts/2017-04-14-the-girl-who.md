@@ -21,7 +21,7 @@ tags: []
 comments:
 
 ---
-![book with a long title review](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/book-review/the-girl-who.jpg)
+<a href="https://www.amazon.com/gp/product/1250010195/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20">![book with a long title review](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/book-review/the-girl-who.jpg)</a>
 
 <h4>Synopsis</h4>
 
@@ -29,7 +29,7 @@ Twelve-year-old September lives in Omaha, and used to have an ordinary life, unt
 
 <h4>Review</h4>
 
-This is an amazing book. After reading [Alice](http://dylan.blog/2017/04/07/alice/) I wasn't sure I was ready for another magical adventure. But this book changed everything. 
+This is an amazing [book](https://www.amazon.com/gp/product/1250010195/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20). After reading [Alice](http://dylan.blog/2017/04/07/alice/) I wasn't sure I was ready for another magical adventure. But this book changed everything. 
 
 One piece of advice that is given to authors all the time is to read a lot. This helps you become a better writer because it exposes you to a lot of different writing styles. The style this book is written in makes me want to strive to write like this. 
 

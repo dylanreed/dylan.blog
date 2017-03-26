@@ -21,7 +21,7 @@ tags: []
 comments:
 
 ---
-![The Name of the Wind](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/the-name-of-the-wind.jpg)
+![The Name of the Wind](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/book-review/the-name-of-the-wind.jpg)
 
 <h4>Synopsis</h4>
 
