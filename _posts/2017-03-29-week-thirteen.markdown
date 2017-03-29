@@ -21,7 +21,7 @@ tags: []
 comments:
 
 ---
-![Week Six - Dylan looking insane at the end of a panoramic of Wellington NZ](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/weekly-blog/Weekly-Blog-Post-Thrirteen.jpg)
+![Week Thirteen - Dylan looking insane at the end of a panoramic of Wellington NZ](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/weekly-blog/Weekly-Blog-Post-Thrirteen.jpg)
 
 Apparently lack of sleep weakens your immune system. Who knew? Well I suppose science did, but no one likes them anyway. 
 
