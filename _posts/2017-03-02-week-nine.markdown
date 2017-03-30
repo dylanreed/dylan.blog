@@ -21,7 +21,7 @@ tags: []
 comments:
 
 ---
-![Week Nine - Dylan looking insane at the end of a panoramic of Wellington NZ](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Weekly-Blog-Post-Nine.jpg)
+![Week Nine - Dylan looking insane at the end of a panoramic of Wellington NZ](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/weekly-blog/Weekly-Blog-Post-Nine.jpg)
 
 This week was spent worrying about my colonoscopy for nothing. They found nothing or note. I just need to avoid stress. LOL.
 
