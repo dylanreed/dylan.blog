@@ -21,7 +21,7 @@ tags: []
 comments:
 
 ---
-![Week 12 - Dylan looking insane at the end of a panoramic of Wellington NZ](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Weekly-Blog-Post-Twelve.jpg)
+![Week 12 - Dylan looking insane at the end of a panoramic of Wellington NZ](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/weekly-blog/Weekly-Blog-Post-Twelve.jpg)
 
 This was an exciting week. Or so it seems. 
 
