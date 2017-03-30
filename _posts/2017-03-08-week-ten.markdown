@@ -21,7 +21,7 @@ tags: []
 comments:
 
 ---
-![Week Ten - Dylan looking insane at the end of a panoramic of Wellington NZ](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Weekly-Blog-Post-Ten.jpg)
+![Week Ten - Dylan looking insane at the end of a panoramic of Wellington NZ](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/weekly-blog/Weekly-Blog-Post-Ten.jpg)
 
 Guess what the new hotness is? Ukulele!! I may have mentioned it before but I have recently started playing the ukulele. I started about three-ish weeks ago and it has been awesome. 
 
