@@ -21,7 +21,7 @@ tags: []
 comments:
 
 ---
-<a href="https://www.amazon.com/gp/product/0765365685/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20">![The Goblin Emperor](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/the-goblin-emperor.jpg)</a>
+<a href="https://www.amazon.com/gp/product/0765365685/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20">![The Goblin Emperor](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/book-review/the-goblin-emperor.jpg)</a>
 
 <h4>Synopsis</h4>
 
