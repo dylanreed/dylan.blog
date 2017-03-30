@@ -21,7 +21,7 @@ tags: []
 comments:
 
 ---
-![Week Eleven - Dylan looking insane at the end of a panoramic of Wellington NZ](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Weekly-Blog-Post-Eleven.jpg)
+![Week Eleven - Dylan looking insane at the end of a panoramic of Wellington NZ](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/weekly-blog/Weekly-Blog-Post-Eleven.jpg)
 
 Everything is looking up. I have been bullet journaling for about six months or so. I stumbled upon it when I was binge watching the [HowtoADHD](https://www.youtube.com/channel/UC-nPM1_kSZf91ZGkcgy_95Q) (or as I read it: How Toad HD) and she did a great video on the benefits of the [BuJo](https://www.youtube.com/watch?v=5hLnY9L1c-M). 
 
