@@ -21,7 +21,7 @@ tags: []
 comments:
 
 ---
-<a href="https://www.amazon.com/gp/product/0765327821/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20">![I am Not a Serial Killer](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/i-am-not-a-serial-killer.jpg)</a>
+<a href="https://www.amazon.com/gp/product/0765327821/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20">![I am Not a Serial Killer](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/book-review/i-am-not-a-serial-killer.jpg)</a>
 
 <h4>Synopsis</h4>
 
