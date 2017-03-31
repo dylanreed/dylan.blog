@@ -3,7 +3,7 @@
 layout: post
 status: publish
 published: true
-title: The Goblin Emperor
+title: The Name of the Wind
 author:
   display_name: Dylan
   login: dylan
