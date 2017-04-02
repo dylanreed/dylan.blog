@@ -22,7 +22,7 @@ comments:
 
 ---
 
-![](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Bowtie-week-13.jpg)
+![](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/bow-tie/Bowtie-week-13.jpg)
 
 Check out my new model. Only a close up for now, but Ramona is the best bow tie model in the world. This red gingham fabric is one that caught my eye right away. It is a fun tie and works great as a diamond point tie. 
 
