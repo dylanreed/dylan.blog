@@ -3,7 +3,7 @@
 layout: post
 status: publish
 published: true
-title: The Bow Tie Project Week Twenty Four
+title: The Bow Tie Project Week Thirty Eight
 author:
   display_name: Dylan
   login: dylan
@@ -12,8 +12,8 @@ author:
 author_login: dylan
 author_email: dylan@dylanreed.com
 author_url: /
-date: '2017-06-18 10:10:00 -0600'
-date_gmt: '2017-06-18 10:10:00 -0600'
+date: '2017-09-24 10:10:00 -0600'
+date_gmt: '2017-09-24 10:10:00 -0600'
 categories:
 - Awesome
 - Bow Ties
@@ -22,7 +22,7 @@ comments:
 
 ---
 
-![](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/bow-tie/Bowtie-week-24.jpg)
+![](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/bow-tie/Bowtie-week-38.jpg)
 
 
 <h3>How can you help?</h3>
