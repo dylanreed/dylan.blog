@@ -3,7 +3,7 @@
 layout: post
 status: publish
 published: true
-title: The Bow Tie Project Week Three
+title: The Bow Tie Project Week Thirteen
 author:
   display_name: Dylan
   login: dylan
@@ -24,6 +24,9 @@ comments:
 
 ![](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Bowtie-week-13.jpg)
 
+Check out my new model. Only a close up for now, but Ramona is the best bow tie model in the world. This red gingham fabric is one that caught my eye right away. It is a fun tie and works great as a diamond point tie. 
+
+The great thing about the red is that it goes with everything. Well maybe not for everyone... but for me it goes with everything. This tie reminds me of spring and picnics and all of that good stuff. 
 
 <h3>How can you help?</h3>
 
