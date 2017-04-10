@@ -3,7 +3,7 @@
 layout: post
 status: publish
 published: true
-title: How to Ukulele: Getting Started
+title: Getting Started
 author:
   display_name: Dylan
   login: dylan
