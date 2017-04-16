@@ -24,6 +24,8 @@ comments:
 
 ![](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/bow-tie/Bowtie-week-15.jpg)
 
+First Batik tie. Look how pretty it is!! When sewing it the fabric was so stiff that I almost didn't add interfacing. But luckily I did. Apparently when batik fabrics are washed for the first time it washing away the last of the wax left over from the dying process and softens the fabric. So I dodged a bullet there.
+
 
 <h3>How can you help?</h3>
 
