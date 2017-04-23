@@ -24,6 +24,7 @@ comments:
 
 ![](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/bow-tie/Bowtie-week-16.jpg)
 
+This fabric has a very nice color to it and is one of the more subtle ties I have made. The great thing about Easter colored ties is you can wear them year round. 
 
 <h3>How can you help?</h3>
 
