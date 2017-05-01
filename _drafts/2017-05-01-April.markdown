@@ -3,7 +3,7 @@
 layout: post
 status: publish
 published: true
-title: January 2017
+title: April 2017
 author:
   display_name: Dylan
   login: dylan
@@ -12,8 +12,8 @@ author:
 author_login: dylan
 author_email: dylan@dylanreed.com
 author_url: /
-date: '2017-02-01 10:10:00 -0600'
-date_gmt: '2017-02-01 10:10:00 -0600'
+date: '2017-05-01 10:10:00 -0600'
+date_gmt: '2017-05-01 10:10:00 -0600'
 categories:
 - Awesome
 - writing
@@ -21,7 +21,7 @@ tags: []
 comments:
 
 ---
-![Ramona on her yellow footstool.](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/april.jpg)
+![Back yard Lilacs](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/monthly-blog/april.jpg)
 
 <h4>Writing</h4>
 I finished my first read through of *Rio Borealis*, my 2016 Nano book. It is in much better shape than I thought it would be. As I read through it I could see that I had learned a lot in my last year of writing. Granted it isn't perfect but I think I will be able to fix it up quickly. It is also less epic than *Calliope and the Living Biologic*, so there is less continuity to fix. 
@@ -37,14 +37,13 @@ I didn't get as many books read as previous months. At first I thought it was be
 <h4>Life</h4>
 Life still goes on and on. I am having a lot of fun, but it seems like my time is disappearing. I think being on Adderall has made me so much more focused at work that I am forced to work on all my hobbies at home. Like a normal person. 
 
-Being on ADHD meds has really upped my productivity in some areas, but it has made other things more difficult. Writing ha become an interesting hobby because I am more likely to plan instead of just write by the seat of my pants. 
+Being on ADHD meds has really upped my productivity in some areas, but it has made other things more difficult. Writing ha become an interesting hobby because I am more likely to plan instead of just write by the seat of my pants. I am still learning the best way to do that. 
 
 <h4>Projects</h4>
-The Bow Tie Project is going great. I am still enjoying making bow ties and am learning a lot about how to make them. There are so many fabrics I am looking forward to making and I can't wait to share them with you here. 
+The Bow Tie Project was going great, but this last week I just didn't have time. I mean... I had time, I just did other things instead. This week I will get back on my game and get a tie made. 
 
-And drawing is back. I started doodling during inktober and have remembered how much I love drawing. And because I don't have enough projects going I think I will start posting more of my drawings. 
+My brother in law got me Warhammer: Age of Sigmar for my birthday. It is a problem because Warhammer is one of those games I am fascinated with. Previously I had worked on a Skaven army but assembling them was a pain in the ass. They were on square bases and you had to make sure they could stand together as a unit. 
 
-I have also started blogging a lot more. Weekly posts, bow tie project, book reviews and a monthly post. So much blogging, and now it is at dylan.blog, which is awesome. 
-
+Age of Sigmar seems to be a little easier to assemble and I like that you can now play any combination of army within the different factions. So a dwarf, elf, lizard people army is now a thing. 
 
 Don't forget that you can support my writing efforts on [Patreon](https://www.patreon.com/dylanreed)
