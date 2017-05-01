@@ -12,7 +12,7 @@ author:
 author_login: dylan
 author_email: dylan@dylanreed.com
 author_url: /
-date: '2017-04206 10:10:00 -0600'
+date: '2017-042-06 10:10:00 -0600'
 date_gmt: '2017-04-26 10:10:00 -0600'
 categories:
 - Awesome
