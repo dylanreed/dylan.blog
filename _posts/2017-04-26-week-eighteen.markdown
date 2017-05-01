@@ -3,7 +3,7 @@
 layout: post
 status: publish
 published: true
-title: Week Six
+title: Week Eighteen
 author:
   display_name: Dylan
   login: dylan
@@ -12,8 +12,8 @@ author:
 author_login: dylan
 author_email: dylan@dylanreed.com
 author_url: /
-date: '2017-02-08 10:10:00 -0600'
-date_gmt: '2017-02-08 10:10:00 -0600'
+date: '2017-04206 10:10:00 -0600'
+date_gmt: '2017-04-26 10:10:00 -0600'
 categories:
 - Awesome
 - 2017
