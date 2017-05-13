@@ -12,8 +12,8 @@ author:
 author_login: dylan
 author_email: dylan@dylanreed.com
 author_url: /
-date: '2017-03-10 10:10:00 -0600'
-date_gmt: '2017-03-10 10:10:00 -0600'
+date: '2017-05-12 10:10:00 -0600'
+date_gmt: '2017-05-12 10:10:00 -0600'
 categories:
 - Awesome
 - Books
@@ -30,7 +30,7 @@ Ten years ago, Calamity came. It was a burst in the sky that gave ordinary men a
 Nobody fights the Epics...nobody but the Reckoners. A shadowy group of ordinary humans, they spend their lives studying Epics, finding their weaknesses, and then assassinating them.
 
 <h4>Review</h4>
-I love and hate Brandon Sanderson. I love every book of his that I have read. His characters are good, world building is fantastic and his magic (or whatever it is called) is amazing. But I can't put his books down. They are like crack, forcing me to read later than I want, or to try and read and cook at the same time. WHY!?!
+I love and hate Brandon Sanderson. I love every book of his that I have read. His characters are good, world building is fantastic and his magic (or whatever it is called) is amazing. But I can't put his books down. They are like crack, forcing me to read later than I want, or to try to read and cook at the same time. WHY!?!
 
 Steelheart falls right into this same area. I loved it, I loved every moment of it. The twists were great and while I anticipated what one of them would be, I didn't think it would happen the way it did. One of my secret loves is super hero books, and this one has that. The world is dark and the Epics horrible human beings, but it is immersive and fun.
 
