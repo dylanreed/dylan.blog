@@ -12,8 +12,8 @@ author:
 author_login: dylan
 author_email: dylan@dylanreed.com
 author_url: /
-date: '2017-03-10 10:10:00 -0600'
-date_gmt: '2017-03-10 10:10:00 -0600'
+date: '2017-05-26 10:10:00 -0600'
+date_gmt: '2017-05-26 10:10:00 -0600'
 categories:
 - Awesome
 - Books
@@ -31,6 +31,9 @@ Within these nocturnal black-and-white striped tents awaits an utterly unique, a
 
 <h4>Review</h4>
 
+I am not entirely sure what I just read. It was enjoyable, but I am not sure what the story was. The descriptions of the acts of the circus were a feast for the senses and I wanted nothing more than to go to the circus after reading this book. 
+
+When I say I am not sure what the story was, that isn't a bad thing. It was a fantastic journey and I will probably read it again when I have a chance. 
 
 
 Don't forget that you can support my writing efforts on [Patreon](https://www.patreon.com/dylanreed)
