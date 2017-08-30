@@ -1,0 +1,37 @@
+---
+
+layout: post
+status: publish
+published: true
+title: 2017 Reebot
+author:
+  display_name: Dylan
+  login: dylan
+  email: dylan@dylanreed.com
+  url: /
+author_login: dylan
+author_email: dylan@dylanreed.com
+author_url: /
+date: '2017-02-08 10:10:00 -0600'
+date_gmt: '2017-02-08 10:10:00 -0600'
+categories:
+- Awesome
+- 2017
+tags: []
+comments:
+
+---
+![Week Six - Dylan looking insane at the end of a panoramic of Wellington NZ](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/other/reboot.jpg)
+
+To start, I want to make it clear that I am not dead. I kind of disappeared from this blog, but I am back and I am going to attempt to get back into the swing of blogging. 
+
+My time away from the blog took away a large part of my motivation to meet my goals for the year. Luckily the year isn't over yet, and while I might be hard pressed to read all 60 new books this year I should be able to get my bow ties made. 
+
+I was in a bad place professionally for a while and I spent a lot of my time trying to figure out how to be happy again. I had a lot of support from friends and family and I am in a much better place now then I was. 
+
+On the positive side of things: I started a new job and we got a new kitten. Both things happened in the last month and have been a huge change for me and Sarah. Jeff is the cat's name and my new job is with a Hospice company. 
+
+Stay tuned for more updates to come. 
+
+
+Don't forget that you can support my writing efforts on [Patreon](https://www.patreon.com/dylanreed)
