@@ -3,7 +3,7 @@
 layout: post
 status: publish
 published: true
-title: The Goblin Emperor
+title: Outcast Vol. 1
 author:
   display_name: Dylan
   login: dylan
