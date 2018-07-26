@@ -12,8 +12,8 @@ author:
 author_login: dylan
 author_email: dylan@dylanreed.com
 author_url: /
-date: '2017-05-26 10:10:00 -0600'
-date_gmt: '2017-05-26 10:10:00 -0600'
+date: '2018-08-15 10:10:00 -0600'
+date_gmt: '2018-08-15 10:10:00 -0600'
 categories:
 - Awesome
 - Books
