@@ -21,7 +21,9 @@ tags: []
 comments:
 
 ---
-![Idle Hands - A bullet in a drainage grate near IKEA](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/weekly-blog/Idle-Hands.jpg)
+![Idle Hands - A bullet in a drainage grate near IKEA](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/weekly-blog/Cats.png)
+
+I am at a small crossroads in my writing. It is a wonderful crossroads, but one I haven't come to before. When I first came to it, I panicked. But I have come to realize that I am lucky to find myself here. 
 
 
 
