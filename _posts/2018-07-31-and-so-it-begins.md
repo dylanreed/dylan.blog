@@ -3,7 +3,7 @@
 layout: post
 status: publish
 published: true
-title: Idle Hands
+title: And so it begins
 author:
   display_name: Dylan
   login: dylan
@@ -21,7 +21,7 @@ tags: []
 comments:
 
 ---
-![And so it begins - Door Mat that says There are a bunch of cats in here](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/weekly-blog/Cats.png)
+![And so it begins - Door Mat that says There are a bunch of cats in here](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/Cats.png)
 
 I am at a small crossroads in my writing. It is a wonderful crossroads, but one I haven't come to before. When I first came to it, I panicked. But I have come to realize that I am lucky to find myself here. 
 
