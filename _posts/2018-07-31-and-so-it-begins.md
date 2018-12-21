@@ -12,8 +12,8 @@ author:
 author_login: dylan
 author_email: dylan@dylanreed.com
 author_url: /
-date: '2018-07-26 10:10:00 -0600'
-date_gmt: '2018-07-26 10:10:00 -0600'
+date: '2018-07-31 10:10:00 -0600'
+date_gmt: '2018-07-31 10:10:00 -0600'
 categories:
 - Awesome
 - 2018
