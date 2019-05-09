@@ -21,7 +21,7 @@ tags: []
 comments:
 
 ---
-![]()
+![ADHD and Hobbies - picture of a puppet](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/other/Tim%20Blog.jpg)
 
 Everyone has hobbies right? Or if they don't they want one. Hobbies are the things that keep us sane when work sucks, or life sucks, or whatever. Having a thing you do that makes you happy is important. 
 
