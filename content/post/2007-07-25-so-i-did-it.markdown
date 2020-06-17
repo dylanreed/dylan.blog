@@ -1,0 +1,27 @@
+---
+author:
+  display_name: Dylan
+  email: dylan@dylanreed.com
+  login: dylan
+  url: /
+author_email: dylan@dylanreed.com
+author_login: dylan
+author_url: /
+categories:
+- Awesome
+comments: []
+date: "2007-07-25T21:31:11Z"
+date_gmt: 2007-07-26 03:31:11 -0500
+published: true
+status: publish
+tags: []
+title: So I did it
+wordpress_id: 435
+wordpress_url: http://www.dylanreed.org/2007/07/25/so-i-did-it/
+---
+
+![][1]
+
+   [1]: http://farm2.static.flickr.com/1147/900627669_5e217dec46.jpg?v=0
+
+Took me 45minutes to do 154 questions, also I made the cover of WTF Weekly, see above.

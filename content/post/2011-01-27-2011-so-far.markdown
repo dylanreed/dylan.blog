@@ -1,0 +1,44 @@
+---
+author:
+  display_name: Dylan
+  email: dylan@dylanreed.com
+  login: dylan
+  url: /
+author_email: dylan@dylanreed.com
+author_login: dylan
+author_url: /
+categories:
+- Awesome
+comments: []
+date: "2011-01-27T05:54:12Z"
+date_gmt: 2011-01-27 13:54:12 -0600
+published: true
+status: publish
+tags: []
+title: 2011 So Far
+wordpress_id: 1150
+wordpress_url: //?p=1150
+---
+
+I have been working a lot, playing minecraft a bit, drawing often and reading a bunch. I am currently enjoying playing with a more retro (Meet the Jetsons) style of drawing...
+
+[![][1]][2]I need to get a scanner so these look less like photos I took on my iPhone.
+
+   [1]: http://farm5.static.flickr.com/4094/5414139402_8824644cf8.jpg (Retro Reno)
+   [2]: http://farm6.static.flickr.com/5018/5391457556_dea89f08ba.jpg
+
+[![][3]][4]This is the first one I drew in this style and I am pretty sure my subconscious made me draw Sarah.
+
+   [3]: http://farm5.static.flickr.com/4112/5414139124_4cdd23cb71.jpg (Maybe it is Sarah?)
+   [4]: http://farm6.static.flickr.com/5297/5391457372_e7133b174e.jpg
+
+[![][5]][6]I always feel weird when I draw girls that aren't Sarah... especially blondes.
+
+   [5]: http://farm6.static.flickr.com/5178/5413455203_2b36b05dbb.jpg (?????)
+   [6]: http://farm6.static.flickr.com/5051/5391455492_03fc75b6ef.jpg
+
+  
+I started a [2011 drawing][7] set on flickr you can check out.
+
+   [7]: http://www.flickr.com/photos/dylansarah/sets/72157625913268130/
+

@@ -1,0 +1,35 @@
+---
+author:
+  display_name: Dylan
+  email: dylan@dylanreed.com
+  login: dylan
+  url: /
+author_email: dylan@dylanreed.com
+author_login: dylan
+author_url: /
+categories:
+- Awesome
+comments:
+- author: dylan
+  author_email: dylan@dylanreed.org
+  author_url: http://
+  content: congrats. That is exciting. Now you can be RICH!
+  date: 2007-09-25 22:13:27 -0500
+  date_gmt: 2007-09-26 04:13:27 -0500
+  id: 6455
+date: "2007-09-24T20:43:06Z"
+date_gmt: 2007-09-25 02:43:06 -0500
+published: true
+status: publish
+tags: []
+title: I did it
+wordpress_id: 465
+wordpress_url: http://www.dylanreed.org/2007/09/24/i-did-it/
+---
+
+Finally I got online confirmation of my Real Estate license.
+
+[![][1]][1]
+
+   [1]: http://farm2.static.flickr.com/1133/1436173002_7c05c35e55.jpg
+

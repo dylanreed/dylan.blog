@@ -1,0 +1,40 @@
+---
+author:
+  display_name: Dylan
+  email: dylan@dylanreed.com
+  login: dylan
+  url: /
+author_email: dylan@dylanreed.com
+author_login: dylan
+author_url: /
+categories:
+- Awesome
+comments:
+- author: Janise
+  author_email: janise@daylin.org
+  author_url: ""
+  content: Congrats on the kitty!  Where'd you get it - a friend of mine is looking
+    for a kitty in Ft. Collins.
+  date: 2003-03-21 03:39:19 -0600
+  date_gmt: ""
+  id: 55
+- author: Infante!
+  author_email: bjinfant@artsci.wustl.edu
+  author_url: ""
+  content: "Dude! That cat looks like it wants to eat you! \n\nAnd you know it'll
+    try when it gets bigger. Hopefully you'll have better luck fending it off than
+    you did fending off me and my fork! ;-)\n"
+  date: 2003-03-28 11:56:17 -0600
+  date_gmt: ""
+  id: 56
+date: "2003-03-18T09:57:33Z"
+date_gmt: 2003-03-18 15:57:33 -0600
+published: true
+status: publish
+tags: []
+title: New Cat
+wordpress_id: 37
+wordpress_url: http://dylanreed.org/?p=37
+---
+
+Hell all Sarah and I got a kitty together. His name is Thomas O. Malley (the Ally cat). He is helping me type this so sorry about any random letters. i will try to scan in a picture as well for all you kitty fans. He is black and white and is a love. He is all about kitty kissees and after only 2 accidents is sucessfully potty trained he is a talker and meows all the time not just whining but just talking away he ++++++++ loves to be close to people and is just learnng that he can jump. here is the picture more to come

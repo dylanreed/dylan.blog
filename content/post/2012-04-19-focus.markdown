@@ -1,0 +1,36 @@
+---
+author:
+  display_name: Dylan
+  email: dylan@dylanreed.com
+  login: dylan
+  url: /
+author_email: dylan@dylanreed.com
+author_login: dylan
+author_url: /
+categories:
+- Awesome
+comments:
+- author: harper
+  author_email: harper@nata2.org
+  author_url: ""
+  content: stop blogging and focus
+  date: 2012-04-19 13:02:39 -0500
+  date_gmt: 2012-04-19 20:02:39 -0500
+  id: 48149
+date: "2012-04-19T07:50:07Z"
+date_gmt: 2012-04-19 14:50:07 -0500
+published: true
+status: publish
+tags: []
+title: Focus
+wordpress_id: 1505
+wordpress_url: //?p=1505
+---
+
+Harper and I had an interesting conversation yesterday. It was about ideas and games. We were discussing one idea in particular when he said something along the lines of "Dylan you have a hard time focusing."
+
+After a good long laugh, because no one was suprised by this declaration we decided what needed to be done. Falling Cats has now been submitted to Apple and will be approved soon. With that off my plate I am free to focus on other things. Like THE NEXT BIG THING.
+
+I won't be telling you about THE NEXT BIG THING yet. Still need to make sure that it is real. But this does mean that I am going to be focused on that and not on a lot of my other projects. They will be moved to the status of Hobby. That way I can get THE NEXT BIG THING done sooner rather then later.
+
+Wish me luck.

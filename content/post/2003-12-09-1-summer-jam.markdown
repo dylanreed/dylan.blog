@@ -1,0 +1,26 @@
+---
+author:
+  display_name: Dylan
+  email: dylan@dylanreed.com
+  login: dylan
+  url: /
+author_email: dylan@dylanreed.com
+author_login: dylan
+author_url: /
+categories:
+- Awesome
+comments: []
+date: "2003-12-09T09:03:20Z"
+date_gmt: 2003-12-09 15:03:20 -0600
+published: true
+status: publish
+tags: []
+title: '#1 summer jam'
+wordpress_id: 86
+wordpress_url: http://dylanreed.org/?p=86
+---
+
+[woohoo][1]
+
+   [1]: http://www.homestarrunner.com/fhqwhgads.html
+

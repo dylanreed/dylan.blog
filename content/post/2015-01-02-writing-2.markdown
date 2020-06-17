@@ -1,0 +1,36 @@
+---
+author:
+  display_name: Dylan
+  email: dylan@dylanreed.com
+  login: dylan
+  url: /
+author_email: dylan@dylanreed.com
+author_login: dylan
+author_url: /
+categories:
+- Awesome
+comments: []
+date: "2015-01-02T14:48:54Z"
+date_gmt: 2015-01-02 21:48:54 -0600
+published: true
+status: publish
+tags:
+- Recipes
+- Projects
+- writing
+title: Writing
+wordpress_id: 1860
+wordpress_url: //?p=1860
+---
+
+So... remember that post where I said I was going to stop blogging and write more... That didn't happen.
+
+I meant for it to happen and I did alright for about a month. Then life got busy, a new job happened and writing time disappeared. I have been trying to get back into writing again but it is tricky to find time. Which, I know, is the lamest excuse ever.
+
+But I am back to blogging. I seem to produce the most consistent  amount of writing when I blog. It gives me a chance to say what I want and clears my mind for other projects. For instance: I am going to sew a lot more this year. And the focus of said sewing will be craftsmanship. Also Sarah and I are starting The Pie Project, which is making one pie a week for a whole year.
+
+I am going to keep writing as much as possible and probably have too many projects going at one time as usual. My plan is to write a short post (like this one) every day. Something that is less then 500 words and nothing to crazy or profound.  I will then spend time writing something longer and posting it on [medium][1].
+
+   [1]: http://www.medium.com/@dylanreed
+
+I think this will allow me to use this space for more personal reasons while allowing me to focus some energy on producing quality writing elsewhere. Not that I am going to give up on quality here, I am just not going to be writing any long form pieces on this site.

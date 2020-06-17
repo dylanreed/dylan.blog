@@ -1,0 +1,38 @@
+---
+author:
+  display_name: Dylan
+  email: dylan@dylanreed.com
+  login: dylan
+  url: /
+author_email: dylan@dylanreed.com
+author_login: dylan
+author_url: /
+categories:
+- Awesome
+comments:
+- author: harper
+  author_email: harper@nata2.org
+  author_url: ""
+  content: stupid slides
+  date: 2003-07-30 06:51:28 -0500
+  date_gmt: ""
+  id: 65
+- author: dylan
+  author_email: dylan@dylanreed.org
+  author_url: http://www.dylanreed.org
+  content: |
+    What ever slides rule
+  date: 2003-07-31 02:06:31 -0500
+  date_gmt: ""
+  id: 66
+date: "2003-07-28T02:33:42Z"
+date_gmt: 2003-07-28 08:33:42 -0500
+published: true
+status: publish
+tags: []
+title: A Paper
+wordpress_id: 55
+wordpress_url: http://dylanreed.org/?p=55
+---
+
+so I got an "A" on a paper. woohoo so ignore all that B+ bitching I did. The paper was about using a slide at recess. awesome huh.

@@ -1,0 +1,74 @@
+---
+author:
+  display_name: Dylan
+  email: dylan@dylanreed.com
+  login: dylan
+  url: /
+author_email: dylan@dylanreed.com
+author_login: dylan
+author_url: /
+categories:
+- Awesome
+comments:
+- author: Mom
+  author_email: Reedbooks@gmail.com
+  author_url: ""
+  content: Don't forget presents are coming.
+  date: 2011-02-10 19:31:06 -0600
+  date_gmt: 2011-02-11 03:31:06 -0600
+  id: 46172
+- author: Dylan
+  author_email: dylan@dylanreed.com
+  author_url: /
+  content: Why would that matter? ;)
+  date: 2011-02-10 19:35:16 -0600
+  date_gmt: 2011-02-11 03:35:16 -0600
+  id: 46173
+date: "2011-02-10T17:07:17Z"
+date_gmt: 2011-02-11 01:07:17 -0600
+published: true
+status: publish
+tags: []
+title: I Tried It
+wordpress_id: 1199
+wordpress_url: //?p=1199
+---
+
+As promised I attempted the Manga drawing. It wasn't so bad.
+
+[![][1]][2]
+
+   [1]: http://fancycadaver.com//media/2011/02/mangagirl-3.jpg (Colored Manga Girl)
+   [2]: http://fancycadaver.com/2011/02/10/manga-girl/
+
+  
+I am pretty happy with the way it turned out. In fact I am pleasently surpised since my first attempt at a western comic character was pretty [pathetic][3]. Then I thought about it and I figured out why. I read western style comics, I don't read manga. Because of this I have an "idea" of what superheros should look like. This leads me to second guess myself everytime I draw one. With manga the oppisite is true. I have never read manga and the anime that I have watched hasn't had the same impact that comics have. Since I have no frame of reference then I have no room to second guess. It is pretty awesome. The coloring on this is ok... I am not 100% happy with my work with markers, probably should have done it digitally so that I didn't suffer from a lack of colors that I have in markers, which you can help [with][4] ;).  I am not upset with the coloring job, I think it looks nice though I think she looks a little vacant. What I really liked about this drawing was the final pencil work, which I have because I forced myself to trace the inks instead of going over the pencil. I did this partially because I wanted it to look nicer and partially because this was a complex drawing and I was afraid I was going to screw up. Here is the pencil:
+
+   [3]: http://farm5.static.flickr.com/4129/5202013058_028da18b40_o.jpg
+   [4]: http://www.dickblick.com/lists/wishlist/3D7SKCUGDOZQY/publicview/
+
+[![][5]][6]
+
+   [5]: http://farm6.static.flickr.com/5213/5434941628_1eacae3e04.jpg (Pencils)
+   [6]: http://farm6.static.flickr.com/5213/5434941628_1eacae3e04.jpg
+
+I just found out that the Chibi book is in at the library, which I will pick up tomorrow and play with. Then I guess I have to choose a book to do. The choices are:
+
+  * [Retro Cartoons][7]
+  * [Robots][8]
+  * [Chibi][9]
+  * [Anime][10]
+  * [Cute Animals][11]
+  * [Retro Action Cartoons][12]
+  
+
+
+   [7]: http://www.flickr.com/photos/dylansarah/5413454361/sizes/o/in/photostream/
+   [8]: http://www.flickr.com/photos/dylansarah/5433667824/sizes/o/in/photostream/
+   [9]: http://www.flickr.com/photos/dylansarah/5413438219/sizes/o/in/photostream/
+   [10]: http://www.flickr.com/photos/dylansarah/5433901534/
+   [11]: http://www.flickr.com/photos/dylansarah/5433664538/sizes/o/in/photostream/
+   [12]: http://www.flickr.com/photos/dylansarah/5416283057/sizes/o/in/photostream/
+
+  
+If you have an opinion of which I should pursue first let me know. Soon. I have to decide before I am thirty.Which is Monday.

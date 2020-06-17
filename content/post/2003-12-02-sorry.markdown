@@ -1,0 +1,23 @@
+---
+author:
+  display_name: Dylan
+  email: dylan@dylanreed.com
+  login: dylan
+  url: /
+author_email: dylan@dylanreed.com
+author_login: dylan
+author_url: /
+categories:
+- Awesome
+comments: []
+date: "2003-12-02T11:36:56Z"
+date_gmt: 2003-12-02 17:36:56 -0600
+published: true
+status: publish
+tags: []
+title: sorry
+wordpress_id: 84
+wordpress_url: http://dylanreed.org/?p=84
+---
+
+I was a little riled up for my last entry. I was trying to fix sarah's computer and was on the phone with technical support. The problem was that the computer wouldn't start up properly. I would push the power button and it would pretend to start up and then about 15 secs later it would just shut off. it turns out that one of the clips that hold down the heat element thingy ma jigger was broken so it thought it was over heating. neat hu. so they are sending out a technitian to fix it. thats all. almost done with school. go me! and sarah with majesty. bye

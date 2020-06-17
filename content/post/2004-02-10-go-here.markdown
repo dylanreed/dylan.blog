@@ -1,0 +1,27 @@
+---
+author:
+  display_name: Dylan
+  email: dylan@dylanreed.com
+  login: dylan
+  url: /
+author_email: dylan@dylanreed.com
+author_login: dylan
+author_url: /
+categories:
+- Awesome
+comments: []
+date: "2004-02-10T05:13:54Z"
+date_gmt: 2004-02-10 11:13:54 -0600
+published: true
+status: publish
+tags: []
+title: Go here
+wordpress_id: 116
+wordpress_url: http://dylanreed.org/?p=116
+---
+
+**__[DOGS][1]__**
+
+   [1]: http://www.thedogisland.com/index.html
+
+ok more later now back to work

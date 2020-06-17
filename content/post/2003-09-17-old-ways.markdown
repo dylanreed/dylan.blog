@@ -1,0 +1,25 @@
+---
+author:
+  display_name: Dylan
+  email: dylan@dylanreed.com
+  login: dylan
+  url: /
+author_email: dylan@dylanreed.com
+author_login: dylan
+author_url: /
+categories:
+- Awesome
+comments: []
+date: "2003-09-17T08:47:37Z"
+date_gmt: 2003-09-17 14:47:37 -0500
+published: true
+status: publish
+tags: []
+title: Old Ways
+wordpress_id: 63
+wordpress_url: http://dylanreed.org/?p=63
+---
+
+So it appears that i have fallen into my old ways of updating my website.I wait and wait and never do it cause i am lazy. actually i haven't done it becasue i have beeen busy with school so there
+
+love dylan

@@ -1,0 +1,29 @@
+---
+author:
+  display_name: dylan
+  email: dylan@dylanreed.org
+  login: admin
+  url: http://
+author_email: dylan@dylanreed.org
+author_login: admin
+author_url: http://
+categories:
+- Awesome
+comments: []
+date: "2005-06-22T18:03:15Z"
+date_gmt: 2005-06-23 01:03:15 -0500
+published: true
+status: publish
+tags: []
+title: Today
+wordpress_id: 180
+wordpress_url: http://www.dylanreed.org/2005/06/22/today/
+---
+
+So today I might have settled on a theme for my site. Maybe not. At work today I got a new supervisor who is closer to my office. My old supervisor was based out of Longmont and my new one is based out of Greeley.
+
+After work Sarah and I went to the Armadillo for dinner, it was quite good. I had the Enchillada Dinner and Sarah had the enchillada ala crate and my rice and beans. When we got home I practiced juggling for a while.
+
+First I rode my giraffe unicycle for about 20minutes and had half of a sucessful mount. Then I moved onto clubs and practice tricks that involve stalling the club somewhere on my body. Then I did my Cigar Boxes. I worked on balances and vertical tricks. I hope to get 6 more boxes soon. Nine box balance here I come.
+
+Rock on.

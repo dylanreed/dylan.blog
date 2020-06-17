@@ -1,0 +1,26 @@
+---
+author:
+  display_name: Dylan
+  email: dylan@dylanreed.com
+  login: dylan
+  url: /
+author_email: dylan@dylanreed.com
+author_login: dylan
+author_url: /
+categories:
+- Awesome
+comments: []
+date: "2006-11-28T15:13:06Z"
+date_gmt: 2006-11-28 21:13:06 -0600
+published: true
+status: publish
+tags: []
+title: Slogans
+wordpress_id: 240
+wordpress_url: http://www.dylanreed.org/2006/11/28/slogans/
+---
+
+So lately I have been playing on the [threadless][1] site. Since I have no artistic ability I have been trying to come up with slogans for people to score it is a lot of fun. What makes me laugh is some of the random crap that comes out in those slogans. At times it seems to be like a forum with people flaming other designs by changing a few words. The only problem is that the voting interface isn't as cool as the graphic design scoring set up. Also I feel that more of the slogan people are like me, Really bored, without artistic talent. Its rough
+
+   [1]: http://www.threadless.com/profile/174696/reallyreallyawesomeguy
+

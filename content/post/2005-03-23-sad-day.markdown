@@ -1,0 +1,25 @@
+---
+author:
+  display_name: Dylan
+  email: dylan@dylanreed.com
+  login: dylan
+  url: /
+author_email: dylan@dylanreed.com
+author_login: dylan
+author_url: /
+categories:
+- Awesome
+comments: []
+date: "2005-03-23T21:00:15Z"
+date_gmt: 2005-03-24 04:00:15 -0600
+published: true
+status: publish
+tags: []
+title: Sad Day
+wordpress_id: 147
+wordpress_url: http://www.dylanreed.org/2005/03/23/sad-day/
+---
+
+So there has been some tragedy in Westfork Village. At the be ginning of March Nan's(sarah's mom) cat Bailey had an accident and passed away. It was horribly sad and mostly sucked alot. she was only a year old and fell and broke her neck. Thats all i am going to say about that.
+
+My new job rules. I like doing wwhat I am doing and it keeps me real busy. Oh and I am getting a new clown wig and costume soon for my big debut at Chilrens Festival.

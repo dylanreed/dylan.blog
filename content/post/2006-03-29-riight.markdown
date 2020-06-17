@@ -1,0 +1,25 @@
+---
+author:
+  display_name: Dylan
+  email: dylan@dylanreed.com
+  login: dylan
+  url: /
+author_email: dylan@dylanreed.com
+author_login: dylan
+author_url: /
+categories:
+- Awesome
+comments: []
+date: "2006-03-29T20:46:06Z"
+date_gmt: 2006-03-30 03:46:06 -0600
+published: true
+status: publish
+tags: []
+title: Riight!!
+wordpress_id: 210
+wordpress_url: http://www.dylanreed.org/2006/03/29/riight/
+---
+
+So last friday I lost my jerb, it sucked. So then after a weekend of oh shit, I started to work for my father, which is weird only becasue I am working for him in a capacity that i have never done before. I am basically taking little parts of a lot of jobs enabling people to do their jobs better.Ã¯Â¿Â½ So that is good
+
+4.5 out of 21 purses complete

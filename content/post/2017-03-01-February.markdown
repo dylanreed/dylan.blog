@@ -1,0 +1,47 @@
+---
+author:
+  display_name: Dylan
+  email: dylan@dylanreed.com
+  login: dylan
+  url: /
+author_email: dylan@dylanreed.com
+author_login: dylan
+author_url: /
+categories:
+- Awesome
+- writing
+comments: null
+date: "2017-03-01T10:10:00Z"
+date_gmt: 2017-03-01 10:10:00 -0600
+published: true
+status: publish
+tags: []
+title: February 2017
+---
+![Why does no one want this chair?](https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/February.jpg)
+
+<h4>Writing</h4>
+
+Writing has been weird this month. I am trying to finish a novella that doesn't want to be finished. The problem is that I didn't plan out very well and am having a problem getting to the end. I know where the end is, but I don't know if I can get there. I am also debating just killing the whole thing and putting it in the idea recycler. 
+
+The Correspondent is going strong. I have a lot planned out and I am writing about a month ahead. Yay for being ahead. 
+
+Editing Calliope and the Living Biologic and Rio Borealis is going slow. I am not a very motivated editor and I need to spend some time focusing on them both in March. 
+
+<h4>Books</h4>
+
+![February Books](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/monthly-blog/feb-books.png)
+
+I read fewer books, but I read longer books. Kind of. Actually only one was incredibly long, but they were all good. I am now ahead of my reading goal for the year, which means I can focus more energy on other projects and not worry about falling behind. 
+
+<h4>Life</h4>
+I am another year older now. Or at least that is what my birthday told me. One of the best parts about getting older is that your body starts to do weird things. Like pooping blood. Read all about it [here](https://medium.com/@dylanreed/the-time-i-pooped-blood-599c9cbe0432#.o6azwx7et). It hasn't been horrible but my brain can't stop assuming that it will be something horrible. 
+
+<h4>Projects</h4>
+The Bow Tie Project is going great. I think I have perfected my patterns and am starting to pick up some speed while making a tie. I am working ahead so that when I lose steam I won't run out of bow ties. It is also time to start making bow ties for other people. Here is the [form](http://dylan.la/2j1ogU3) if you are interested in getting one. 
+
+Harper got me a subscription to sketchbox for my birthday. This will force me to draw more and to play with other mediums besides just pencil. I also got colored leads for my Kweco lead holder so that will add some fun to my pencil drawing.  
+
+And, because I needed something else to do, I started learning to play the Ukulele. I am using Yousician to learn and having a pretty good time. My fingertips are killing me but I find the act of strumming and practicing to be very relaxing. 
+
+Don't forget that you can support my writing efforts on [Patreon](https://www.patreon.com/dylanreed)

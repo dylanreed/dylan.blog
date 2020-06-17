@@ -1,0 +1,31 @@
+---
+author:
+  display_name: Dylan
+  email: dylan@dylanreed.com
+  login: dylan
+  url: /
+author_email: dylan@dylanreed.com
+author_login: dylan
+author_url: /
+categories: []
+comments: []
+date: "2007-06-12T15:35:24Z"
+date_gmt: 2007-06-12 21:35:24 -0500
+published: true
+status: publish
+tags:
+- Video Games
+title: My New Car
+wordpress_id: 402
+wordpress_url: http://www.dylanreed.org/2007/06/12/my-new-car/
+---
+
+Recently at work I got a new vehicle. It is a 2002 Ford Focus ZX3. It has just over 70,000 miles, though most of those where spent being towed behind a motor home. Because of that it has some pretty funny graphics on the side, ![][1]probably to match the motor home. It is in really good shape and is fun to drive since it has a stick shift. The other fun thing is that it is a car that is represented in Forza 2 so I can have fun designing paint jobs for a car I actually drive. I have spent probably an hour working on the Property Technica Frog to put on the hood as well as getting the placement of both the AMPS and Property Technica logos. I have taken some pictures of them and will post them once they pop up on the Forza website. 
+
+   [1]: http://farm2.static.flickr.com/1244/544197567_440f19c666.jpg?v=0
+
+[![Ads by AdGenta.com][2]][3]
+
+   [2]: http://ads.adgenta.com/ads/ads.dll/view?client=dylan&GUID=06%2F12%2F07+17%3A07%3A39&width=364&height=70&bgColor=ffffff&FOOTER_COLOR=ffffff&FOOTER_GRADIENT=0&TF_C=0000ff&DF_C=000000&DMF_C=0000ff&FF_C=000000&keywords=Xbox
+   [3]: http://ads.adgenta.com/ads/ads.dll/click?client=dylan&GUID=06%2F12%2F07+17%3A07%3A39
+
