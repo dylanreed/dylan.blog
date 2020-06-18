@@ -23,7 +23,7 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: "Draft", name: "draft", widget: "boolean", default: true}
-      - { label: "Tags", name: "tags",  widget: "list", default: ["news"] }
+      - { label: "Tags", name: "tags",  widget: "list", default: ["awesome"] }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'post'
     label: 'Old Posts'
