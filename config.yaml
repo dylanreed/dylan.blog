@@ -6,18 +6,16 @@ title: "Dylan's blog"
 theme: "hyde-hyde"
 canonifyURLs: true
 enableRobotsTXT: true
-paginate:  3
+paginate:  4
 
 Menus:
   main:
     - Name: "Books"
       URL: "https://dylanreed.com"
 
-
 params:
-  ga_id: "UA-70650-74"
+
   description: "Writing and musings by Dylan Reed"
-  mainSections: ["post", "blog"]
   social:
     twitter: dylanreed
     gravatar: "dylan@dylanreed.com"
