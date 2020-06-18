@@ -1,19 +1,22 @@
 
 disablePathToLower: true
 languageCode: en-us
-title: Dylan.blog
+title: "Dylan's blog"
 theme: "hyde-hyde"
 canonifyURLs: true
 enableRobotsTXT: true
-paginate:  5
+paginate:  3
 
 Menus:
   main:
-    - Name: "Dylanreed.com"
+    - Name: "Books"
       URL: "https://dylanreed.com"
-    - Name: "@dylanreed"
-      URL: "https://twitter.com/dylanreed/"
+
 
 params:
   ga_id: "UA-70650-74"
   description: "Writing and musings by Dylan Reed"
+  mainSections: ["post", "blog"]
+  social:
+    twitter: dylanreed
+    gravatar: "dylan@dylanreed.com"

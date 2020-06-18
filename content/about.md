@@ -1,8 +1,10 @@
-+++
-Description = "About"
-menu = "main"
-url = "/about"
-+++
+---
+title: About
+url: /about/
+menu: main
+
+
+---
 
 
 Who is Dylan Reed? Why is Dylan so awesome? Why should you care? These are all questions I plan to answer in this section, thus the boring title. I have wrestled with this page for days and have finally narrowed down my ideas to focus on those three questions.
