@@ -11,6 +11,13 @@ collections:
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
       preview: false
+    view_filters:
+      - label: 'Posts published in 2020'
+        field: date
+        pattern: '2020'
+      - label: Drafts
+        field: draft
+        pattern: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
@@ -22,6 +29,10 @@ collections:
     folder: 'content/post'
     create: false
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    view_filters:
+      - label: Drafts
+        field: draft
+        pattern: true
     editor:
       preview: false
     fields:
