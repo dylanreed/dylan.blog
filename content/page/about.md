@@ -2,8 +2,6 @@
 title: About
 url: /about/
 menu: main
-
-
 ---
 
 
