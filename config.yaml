@@ -2,7 +2,7 @@
 disablePathToLower: true
 languageCode: en-us
 title: Dylan.blog
-theme: "hyde"
+theme: "hyde-hyde"
 canonifyURLs: true
 enableRobotsTXT: true
 paginate:  5
