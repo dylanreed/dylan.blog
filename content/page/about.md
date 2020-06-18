@@ -1,15 +1,16 @@
 ---
 title: About
-url: /about/
 menu: main
+url: /about/
+draft: false
 ---
-
-
 Who is Dylan Reed? Why is Dylan so awesome? Why should you care? These are all questions I plan to answer in this section, thus the boring title. I have wrestled with this page for days and have finally narrowed down my ideas to focus on those three questions.
 
 ***Who is Dylan Reed?***
 
-<img src="https://farm6.staticflickr.com/5684/23542485855_676b3a011f_n.jpg" width="320" height="320" alt="Handsome Guy" hspace="20">He is I and I am him. I was born, raised and still reside in Greeley, Colorado. You may recognize Greeley from accounts of how much it smells. Even if you don’t know where it is you’ll do ok as I try to refer as little as possible to Greeley in my posts.
+![Dylan](/images/dylan.jpg "A beautiful man")
+
+He is I and I am him. I was born, raised and still reside in Greeley, Colorado. You may recognize Greeley from accounts of how much it smells. Even if you don’t know where it is you’ll do ok as I try to refer as little as possible to Greeley in my posts.
 
 I was raised without a television, as was my brother, which makes sense, so I learned to read at a young age and have read a lot. The unfortunate downfall to this is that I had a hard time separating TV from reality. For instance when I watched E.T. I thought that the government was really torturing an alien and was in tears while I watched it. I was twelve.
 
@@ -24,7 +25,6 @@ After a couple years of working for my Dad I was done. It was either hate my dad
 Luckily Harper was able to help me find a job at Graphicly. I worked there for about 18 months. I started out as just an assistant to the CEO but moved on to doing QA on a bunch of android apps. This job taught me attention to detail and the importance of getting things done. I was laid off as the company started to fail and went back to work for my dad. 
 
 My dad and I worked a lot better together then the previous time. I still didn’t love the job but I was good at it. I lucked into a position at a local nursing home doing activities that was the perfect fit. After working there for a while I started working in social services. 
-
 
 ***Why is Dylan so awesome?***
 
