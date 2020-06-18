@@ -1,0 +1,51 @@
+---
+author:
+  display_name: Dylan
+  email: dylan@dylanreed.com
+  login: dylan
+  url: /
+author_email: dylan@dylanreed.com
+author_login: dylan
+author_url: /
+categories:
+- Awesome
+comments:
+- author: haper
+  author_email: harper@nayta2.org
+  author_url: http://asdhklas@$laksdjas.da.aidc
+  content: |-
+    yo. serious. wtf. come to chicago
+    for a week
+    i got PLANS
+    you gunna be partying.
+
+    umm
+    nobody can tell what will happen
+  date: 2004-04-30 12:52:15 -0500
+  date_gmt: ""
+  id: 90
+- author: harper
+  author_email: asd@naaslkdjh.com
+  author_url: ""
+  content: |+
+    jesus. i mispelled my own name
+    wtf
+
+  date: 2004-04-30 12:52:53 -0500
+  date_gmt: ""
+  id: 91
+date: "2004-04-25T10:36:13Z"
+date_gmt: 2004-04-25 16:36:13 -0500
+published: true
+status: publish
+tags:
+- Clown
+title: I is Tired
+wordpress_id: 127
+wordpress_url: http://dylanreed.org/?p=127
+---
+
+So yesterday i spent about 6 hours in clown. it was quite fun, i did 4 30min shows and walk around entertainment the rest of the time.  
+it was quite fun
+
+today i got up a 3:30 to be at work to open. it ruled the night or early morning as it was.

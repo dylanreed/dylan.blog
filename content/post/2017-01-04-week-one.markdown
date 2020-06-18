@@ -1,0 +1,40 @@
+---
+author:
+  display_name: Dylan
+  email: dylan@dylanreed.com
+  login: dylan
+  url: /
+author_email: dylan@dylanreed.com
+author_login: dylan
+author_url: /
+categories:
+- Awesome
+- writing
+comments: null
+date: "2017-01-04T10:10:00Z"
+date_gmt: 2017-01-04 10:10:00 -0600
+published: true
+status: publish
+tags: []
+title: Week One
+---
+<img src="https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/weekly-blog/Weekly-Blog-Post-One.jpg">
+
+Halfway through the first week of 2017 and things are looking good. I have done actual writing, started an unplanned weekly [project](http://fancycadaver.com//2017/01/01/the-bow-tie-project-zero/), and we started planning next Christmas. Go us!!
+ 
+Now I just have to keep the momentum moving forward. This is where I normally fall down. I am great at starting things but not so good at completing them. This year is different. Therapy has taught me a lot about setting goals, and the number one thing I learned was to make them attainable. 
+
+Which as with all good advice I will ignore. Because I want to get things done this year and don't care what I should do. Here are the goals I have set for the year:
+
+1. Finish writing The Problem with Portal 5. This novella follows Jack Featherstone, magician, as he tries to save the world... or a world.
+2.  Finish Calliope and the Living Biologic. This is my NaNoWriMo 2015 book that I have rewritten a couple times and is almost done. Just one more rewrite to go.
+3.   Edit Rio Borealis. NaNoWriMo 2016 book that needs a good read through and edit. Who doesn't love space westerns?  In a small frontier town on the side of Vastitas Borealis basin there has been a death. The largest land owner for a thousand miles has been found dead. Lucy, the local saloon owner and doctor, discovers something unsettling as she does an autopsy.
+4.    Write and Draw a comic. This has been a dream of mine for years and years. My drawing ability is just so-so, and comics are hard to write, but I hope to have it finished by the end of the year.
+5.     Continue The Correspondent. Serial story posted on [Acme Hero, Inc](http://acmeheroinc.com.)
+6.     The Bow Tie Project!!!
+
+Most of these are writing projects, which is great. I love writing. The project I am most nervous about is the last one. A committed sewing project is an insane idea. And what I am most afraid of is that I will peter out before I really get started. But I am not going to give into that fear. 
+
+Speaking of that (SEGUE!!), [The 3Fs](https://www.amazon.com/Fs-Using-overcome-fear-failure-ebook/dp/B00L9MCJHK/ref=sr_1_3?ie=UTF8&qid=1483500343&sr=8-3&keywords=dylan+reed) is free this week!!
+
+Don't forget that you can support my writing efforts on [Patreon](https://www.patreon.com/dylanreed)

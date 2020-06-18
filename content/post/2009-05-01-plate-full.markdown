@@ -1,0 +1,56 @@
+---
+author:
+  display_name: Dylan
+  email: dylan@dylanreed.com
+  login: dylan
+  url: /
+author_email: dylan@dylanreed.com
+author_login: dylan
+author_url: /
+categories:
+- Awesome
+comments:
+- author: harper
+  author_email: harper@nata2.org
+  author_url: ""
+  content: 'Maybe all this slurpee consumption is hurting #10. do they have wheat
+    grass slurpees?'
+  date: 2009-05-02 16:55:11 -0500
+  date_gmt: 2009-05-03 00:55:11 -0500
+  id: 45685
+- author: Dylan
+  author_email: dylan@dylanreed.com
+  author_url: /
+  content: "I have looked into this wheat grass stuff and it doesn't sound good. I
+    am thinking more along the lines of replacing the slurpees with water. Delicious
+    homemade soda water. \r\n\r\nCongrats on being comment #200"
+  date: 2009-05-04 16:42:42 -0500
+  date_gmt: 2009-05-05 00:42:42 -0500
+  id: 45689
+date: "2009-05-01T13:08:15Z"
+date_gmt: 2009-05-01 21:08:15 -0500
+published: true
+status: publish
+tags: []
+title: Plate = Full
+wordpress_id: 937
+wordpress_url: //?p=937
+---
+
+Recently I decided to get busy. I don't know if it was a conscious choice or if my sub-conscious is trying to kill me again. Here is a breakdown of what I have committed to doing over the next couple of months.
+
+  1. DM my first Dungeons and Dragon adventure: The Arena of Dooooom!! Will be a gladiatorial arena style adventure. Levels 1-20 will be covered. Lots of creatures/NPC will need to be created. Should be easy-ish once I have everything made
+  2. Painting Class: I have signed up for a painting class this summer. This will give me some nice credits for when I head to CSU next year for Art school. I am afraid of painting, always thought I wasn't any good at it. We shall see. 
+  3. Dive Master: I also signed up to do my Dive Master training. This should be awesome as it will require a load of dives and a load of learning. The nice thing is that it will allow me to potentially work in the recreational SCUBA market.
+  4. Work: I, of course, have to keep working.
+  5. Get into CSU: By June the first I have to have my admissions crap into CSU. This means writing a kick-ass essay, filling out the app, giving them $50 and hoping that my essay counteracts my GPA at UNC.
+  6. Take a Weaving Class: I am planning on taking a weaving class this summer. It wil either be at Lambspun in Fort Collins or I will learn from my sister in law. This should be fun, just time consuming.
+  7. Finish the wood floors: We haven't finished them yet and we need to.
+  8. Go on a Cruise: Ok this one is awesome.
+  9.  Make and Sell Awesome Guys: I am hoping to make a bundle of Awesome Guys and sell them for a massive profit.
+  10.  Get in Shape: I am becoming a little bit of a fatty. I need to exercise and get buff again.
+  
+
+
+  
+There you have the plate that is mine. A lot of this should be fun and very little of it should suck, but it is a lot. I was planning on having a nice semi relaxing summer, hanging out with Sarah and working. Alas, I made myself busy, so please buy me a SLURPEE.

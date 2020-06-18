@@ -1,0 +1,142 @@
+---
+author:
+  display_name: Dylan
+  email: dylan@dylanreed.com
+  login: dylan
+  url: /
+author_email: dylan@dylanreed.com
+author_login: dylan
+author_url: /
+categories:
+- Awesome
+comments:
+- author: dan
+  author_email: dan@d3fx.com
+  author_url: http://www.d3fx.com
+  content: |-
+    dylan you suck :p
+
+    I was bored and looking through david's site and saw a link to here. Haven't stopped by in quite a while so thought I'd post something.
+
+    Anyway, back to work.
+  date: 2002-11-13 09:39:00 -0600
+  date_gmt: ""
+  id: 39
+- author: not sayin
+  author_email: darkangel067296@aol.com
+  author_url: ""
+  content: Im so pissed today Imma kill my self!!!!!!!!!!!!
+  date: 2003-03-30 12:42:42 -0600
+  date_gmt: ""
+  id: 40
+- author: angel
+  author_email: angelwhatup@hotmail.com
+  author_url: ""
+  content: life sux and today is even worse coz I just been for my well nver mind
+    this just sux
+  date: 2003-04-08 06:43:33 -0500
+  date_gmt: ""
+  id: 41
+- author: patricia
+  author_email: tabooqueen@hotmail.com
+  author_url: ""
+  content: life sux cause i let it..it sux cause i could be anyone and do anything
+    ultimately i just cant be bothered trying cause we all end up the same way no
+    matter wat you do now or ever!!! its always easier to be negative cause peachy
+    ppl just shit me!!! SO.........life sux.....and yeah!!!
+  date: 2003-06-30 03:30:40 -0500
+  date_gmt: ""
+  id: 42
+- author: patricia
+  author_email: tabooqueen@hotmail.com
+  author_url: ""
+  content: your never where you wanna be or who you wanna be, you'll never have everything
+    you want and you never want what you have...you can try but everything you have
+    to give is never enough and then you don't feel like ever trying again if it feels
+    this bad to fail! your nothing and wonder why your not dead wen so many ppl more
+    worthy of this life are!   i only THINK my life sux.......wen in actual fact it
+    probably doesnt its just that i have to much time to think... it sux being a pensive
+    paranoid self obssesed ignorant loser!!!!
+  date: 2003-07-06 07:45:06 -0500
+  date_gmt: ""
+  id: 43
+- author: me
+  author_email: depressed@lifesux.com
+  author_url: ""
+  content: |-
+    hi dylan you dont know me i just thought id write a comment - i like ur site im glad im not the only person whose life sux. i have shit all the time especcially from my 'darling' brother. my best friend tried to kill herself it was so depressing. she used to slit her wrists and id see it coz id be next to her. has ne1 elses frend dun wot she did? i hope not. if they have i feel your pain! yeh id beta go
+
+    PEACE OUT
+  date: 2003-07-21 08:51:12 -0500
+  date_gmt: ""
+  id: 44
+- author: Sherry
+  author_email: Kazaam777@aol.com
+  author_url: ""
+  content: Life seriously sucks. I hate people and I wish they would all  just leave
+    me alone. My idea of the perfect life is one with no one in it. Cept me of course.
+    No guys. I think i'm going to become president and like lock them all under ground
+    only to be used for breeding purposes. Then if it turns out to be a male child,
+    we make the losers down under take care of them. Hopefully they'll all drown in
+    their slobbish pigsty that it's going to turn out to be when there are no women
+    to clean their hole in the ground up. Ok that's all i have to say for today.
+  date: 2003-08-01 04:12:26 -0500
+  date_gmt: ""
+  id: 45
+- author: helen
+  author_email: na@hotmail.com
+  author_url: http://na
+  content: Hey Dylan, Why not join the army or something like that? They pay you to
+    study! And I bet you'll end up with a much better life! Make that change today!
+  date: 2004-01-14 05:02:30 -0600
+  date_gmt: ""
+  id: 46
+- author: unknown
+  author_email: luckybear1404@yahoo.com
+  author_url: ""
+  content: |-
+    dear dylan and others,
+
+    I know life does sux!!! My mom is the biggest bitch in the world! She trys to kick me out but my step dad has to talk her out of it because of the money they get from child support. Now i wouldnt mind going to go live with my dad, i would love to but my dad cannot pay the prices for me to live with them! meaning he is POOR! every day i wake up its a living hell. All my friends our little bitches and they all back talk me! then when i get home from school i still have to deal with my mom! she calles he a little bitch and yells at me for every little thing i do wrong! i can go to a friends because i am always growed! i wish i new how to let it al go away but the only thing that comes to mind is SUISIDE!!!!! i do do all those gay things, i do drugs and slit my wrists but that is all i can do to get away from the pain!so dylan i guess we both have shity lifes!
+  date: 2004-03-16 01:14:57 -0600
+  date_gmt: ""
+  id: 47
+- author: amy
+  author_email: luckybear1404@yahoo.com
+  author_url: ""
+  content: "hey i wrote the comment....\n\ndear dylan and others,\n\nI know life does
+    sux!!! My mom is the biggest bitch in the world! She trys to kick me out but my
+    step dad has to talk her out of it because of the money they get from child support.
+    Now i wouldnt mind going to go live with my dad, i would love to but my dad cannot
+    pay the prices for me to live with them! meaning he is POOR! every day i wake
+    up its a living hell. All my friends our little bitches and they all back talk
+    me! then when i get home from school i still have to deal with my mom! she calles
+    he a little bitch and yells at me for every little thing i do wrong! i can go
+    to a friends because i am always growed! i wish i new how to let it al go away
+    but the only thing that comes to mind is SUISIDE!!!!! i do do all those gay things,
+    i do drugs and slit my wrists but that is all i can do to get away from the pain!so
+    dylan i guess we both have shity lifes!\nPosted by: unknown at March 16, 2004
+    01:14 PM\n\n\nIF ANYONE HAS ANY HELP THEY CAN GIVE ME WRITE IT IN A COMMENT TO
+    AMY14 CUZ THEN I KNOW IT WILL BE TO ME!!!! \nTHANK YOU!!! \n\nLIFE SUX!"
+  date: 2004-03-17 01:27:43 -0600
+  date_gmt: ""
+  id: 48
+- author: joe leogrande
+  author_email: italianmacheveli@netscape.net
+  author_url: ""
+  content: |
+    dylan suck my left nut
+  date: 2004-05-26 08:22:17 -0500
+  date_gmt: ""
+  id: 49
+date: "2002-11-03T11:50:00Z"
+date_gmt: 2002-11-03 17:50:00 -0600
+published: true
+status: publish
+tags: []
+title: Life SUX
+wordpress_id: 30
+wordpress_url: http://dylanreed.org/?p=30
+---
+
+I AM SO PISSED OFF RIGHT NOW. mostly because of work. my hours have been cut from 40 to 10 a week. that sux. so right now i am activly seeking another form of money making. so i am very frustrated. on the good side i am having plenty of time to do my homework. which i guess is good. granted i am going to have to live on the street and eat maggots but at least i will have time to get my homework done....thats good....right. on an actually positive note i think that i might have a job next year with the ARMY CORPS OF ENGINEERS. Sweet. i t pays well and i might actually get to dive. sso that is good. How is everyone else doing. thats good. if anyone feels sorry for me you could donate a lot of money. love dylan

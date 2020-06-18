@@ -1,0 +1,23 @@
+---
+author:
+  display_name: Dylan
+  email: dylan@dylanreed.com
+  login: dylan
+  url: /
+author_email: dylan@dylanreed.com
+author_login: dylan
+author_url: /
+categories: []
+comments: []
+date: "2007-03-17T10:16:13Z"
+date_gmt: 2007-03-17 16:16:13 -0500
+published: true
+status: publish
+tags:
+- Usability
+title: Adwords
+wordpress_id: 291
+wordpress_url: http://www.dylanreed.org/2007/03/17/adwords/
+---
+
+So I started to work with adwords at work. I spent the past hour or so going through and updating us in Google local, designing a banner ad as well as setting up mobile search and text ads. It is a pretty smart system though at times I found it tedious. I think that it would be better if it was smart enough to grab information from you previous ads. Like grab the target URL from your previous text ads when you are making another one.

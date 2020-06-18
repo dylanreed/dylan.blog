@@ -1,0 +1,25 @@
+---
+author:
+  display_name: Dylan
+  email: dylan@dylanreed.com
+  login: dylan
+  url: /
+author_email: dylan@dylanreed.com
+author_login: dylan
+author_url: /
+categories:
+- Awesome
+comments: []
+date: "2006-03-22T13:25:15Z"
+date_gmt: 2006-03-22 20:25:15 -0600
+published: true
+status: publish
+tags: []
+title: Today
+wordpress_id: 208
+wordpress_url: http://www.dylanreed.org/2006/03/22/today-2/
+---
+
+So today started off sad with Sarah being all riled up about being sick. She is Sick and Damn Tired of being sick. I agree with her assesment of the being sick. After that I haeaded to FOCO to do my duties at work. While at work I enjoyed watching the hunt for red october while I did paper work.
+
+I also made a nice entry at clownsareawesome last night, however it appears to be broke right now

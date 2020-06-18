@@ -1,0 +1,23 @@
+---
+author:
+  display_name: Dylan
+  email: dylan@dylanreed.com
+  login: dylan
+  url: /
+author_email: dylan@dylanreed.com
+author_login: dylan
+author_url: /
+categories:
+- Awesome
+comments: []
+date: "2003-10-07T09:41:35Z"
+date_gmt: 2003-10-07 15:41:35 -0500
+published: true
+status: publish
+tags: []
+title: Tuesday!?!
+wordpress_id: 70
+wordpress_url: http://dylanreed.org/?p=70
+---
+
+So today I worked "IT". You know "IT". I am a superstar leaf vacuumer. At work we have a leaf vacuum; it is just like a leaf blower but it sux instead of blows. Unfortunately the bag has a hole in it, that hole is, of course, positioned right over your leg. I didn't realize this until I had sucked up some wet leafs and the engine heated water had made my pants all muddy. "IT" rocked my world. Check this out. The kid in that was in the car is one of my co-workers. He broke his collarbone and one of his legs. At work everyone was wondering if it was his fault. I always thought that when you are going the wrong way and you hit a school bus full of kids it is pretty much your fault. Maybe that?s just me. Soon I leave for Chi-town. Wahoo.

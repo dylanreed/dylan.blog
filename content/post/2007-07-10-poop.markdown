@@ -1,0 +1,27 @@
+---
+author:
+  display_name: Dylan
+  email: dylan@dylanreed.com
+  login: dylan
+  url: /
+author_email: dylan@dylanreed.com
+author_login: dylan
+author_url: /
+categories:
+- Awesome
+comments: []
+date: "2007-07-10T13:56:26Z"
+date_gmt: 2007-07-10 19:56:26 -0500
+published: true
+status: publish
+tags: []
+title: Poop!
+wordpress_id: 427
+wordpress_url: http://www.dylanreed.org/2007/07/10/poop/
+---
+
+Now that I have your attention here is how school is going. I finished up the last class with an 'A' and have started the Practical Applications clas. 
+
+This class is interesting though somewhat annoying. Since it is all real world senerios that a lot of people in my class can't grasp the ideas and fight them tooth and nail.
+
+In fact, right at this moment in class I want a rabbit to come a long and punch me in the nose

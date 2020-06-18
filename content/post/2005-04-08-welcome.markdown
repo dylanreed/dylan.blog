@@ -1,0 +1,27 @@
+---
+author:
+  display_name: Dylan
+  email: dylan@dylanreed.com
+  login: dylan
+  url: /
+author_email: dylan@dylanreed.com
+author_login: dylan
+author_url: /
+categories:
+- Awesome
+comments: []
+date: "2005-04-08T13:05:56Z"
+date_gmt: 2005-04-08 20:05:56 -0500
+published: true
+status: publish
+tags: []
+title: Welcome
+wordpress_id: 152
+wordpress_url: http://www.dylanreed.org/2005/04/08/welcome/
+---
+
+Welcome everyone to the new look of dylanreed.org. Be sure you check out the links above, especially the media tab because it was recently updated with new pictures. 
+
+I am going to get Sarah posting hopefully and you can all get a different perspective of life with me. I guess. Thats all.
+
+Oh and Clowns Are Awesome

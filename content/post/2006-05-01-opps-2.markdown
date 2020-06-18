@@ -1,0 +1,28 @@
+---
+author:
+  display_name: Dylan
+  email: dylan@dylanreed.com
+  login: dylan
+  url: /
+author_email: dylan@dylanreed.com
+author_login: dylan
+author_url: /
+categories:
+- Awesome
+comments: []
+date: "2006-05-01T18:03:12Z"
+date_gmt: 2006-05-02 01:03:12 -0500
+published: true
+status: publish
+tags: []
+title: Opps
+wordpress_id: 217
+wordpress_url: http://www.dylanreed.org/2006/05/01/opps-2/
+---
+
+So if you visited earlier you might have noticed that my theme changed. My bad. I was playing with themes and then I had an appointment and didn't have time to change it back until just now.
+
+So work seems to just get more and more hectic, it seems that even though in theory I should have time to work on my real estate liscense, I never do. [DOH!!][1]
+
+   [1]: http://www.thatvideosite.com/view/2178.html
+

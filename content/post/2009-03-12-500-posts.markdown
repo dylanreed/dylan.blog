@@ -1,0 +1,34 @@
+---
+author:
+  display_name: Dylan
+  email: dylan@dylanreed.com
+  login: dylan
+  url: /
+author_email: dylan@dylanreed.com
+author_login: dylan
+author_url: /
+categories:
+- Awesome
+comments: []
+date: "2009-03-12T06:09:13Z"
+date_gmt: 2009-03-12 14:09:13 -0500
+published: true
+status: publish
+tags: []
+title: 500 posts?
+wordpress_id: 805
+wordpress_url: //?p=805
+---
+
+I have finally done it. 500 posts. Wow. That seems like a lot of posts but when I look back I realize that it has taken me forever to get here. I have been blogging since I started the College of Oceaneering in 2002. That is 62.5 posts a year. The year with the most posts is 2007 where I went a little crazy in the summer. 2006 and 2003 are the next highest post count. So far this year I have posted more then I did in 2002, 2004, 2005 and 2008 apparently I was busy those years.
+
+Being awesome I am going to keep this post short and just send you to delve in to my blog. My favorite posts are all contained in one series:
+
+  * [Killer Whales][1]
+  
+
+
+   [1]: /2004/02/04/killer-whales-dont-kill-people/
+
+  
+Enjoy!

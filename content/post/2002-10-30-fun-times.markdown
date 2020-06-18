@@ -1,0 +1,33 @@
+---
+author:
+  display_name: Dylan
+  email: dylan@dylanreed.com
+  login: dylan
+  url: /
+author_email: dylan@dylanreed.com
+author_login: dylan
+author_url: /
+categories:
+- Awesome
+comments: []
+date: "2002-10-30T07:36:00Z"
+date_gmt: 2002-10-30 13:36:00 -0600
+published: true
+status: publish
+tags: []
+title: fun times
+wordpress_id: 29
+wordpress_url: http://dylanreed.org/?p=29
+---
+
+hello all
+
+i have just spent alot of time on really boring home work but it is done. my roommate josh just got gta vice city it is fun but he is selfish
+
+i think that my work has found my replacement so they are cutting my hours which sux alot
+
+that is all that happend to day
+
+love 
+
+dylan

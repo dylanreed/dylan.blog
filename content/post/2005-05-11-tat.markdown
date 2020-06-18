@@ -1,0 +1,34 @@
+---
+author:
+  display_name: dylan
+  email: dylan@dylanreed.org
+  login: admin
+  url: http://
+author_email: dylan@dylanreed.org
+author_login: admin
+author_url: http://
+categories:
+- Awesome
+comments: []
+date: "2005-05-11T16:36:13Z"
+date_gmt: 2005-05-11 23:36:13 -0500
+published: true
+status: publish
+tags: []
+title: Tat
+wordpress_id: 163
+wordpress_url: http://www.dylanreed.org/2005/05/11/tat/
+---
+
+So i realized that i haven't told some of my friends about my tattoo so here are pictures  
+[One][1]  
+[Two][2]  
+[Three][3]  
+[Four][4]  
+oh wait don't lookat four
+
+   [1]: http://nata2.info/?path=pictures%2Fevents%2F2003%3A10%3A11_dylan_and_meghan_visits&img=dylans%20visit%20008.jpg
+   [2]: http://nata2.info/?path=pictures%2Fevents%2F2003%3A10%3A11_dylan_and_meghan_visits&img=dylans%20visit%20006.jpg
+   [3]: http://nata2.info/?path=pictures%2Fevents%2F2003%3A10%3A11_dylan_and_meghan_visits&img=dylans%20visit%20003.jpg
+   [4]: http://nata2.info/?path=pictures%2Fevents%2F2003%3A10%3A11_dylan_and_meghan_visits&img=dylans%20visit%20015.jpg
+

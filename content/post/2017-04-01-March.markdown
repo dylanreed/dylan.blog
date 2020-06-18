@@ -1,0 +1,49 @@
+---
+author:
+  display_name: Dylan
+  email: dylan@dylanreed.com
+  login: dylan
+  url: /
+author_email: dylan@dylanreed.com
+author_login: dylan
+author_url: /
+categories:
+- Awesome
+- writing
+comments: null
+date: "2017-04-01T10:10:00Z"
+date_gmt: 2017-04-01 10:10:00 -0600
+published: true
+status: publish
+tags: []
+title: March 2017
+---
+![All of the bow ties](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/monthly-blog/march.jpg)
+
+<h4>Writing</h4>
+
+I didn't get as much writing done as I would have liked. I was distracted by the ukulele, and focussing was an issue. The last part of the month was more effective once I started taking ADHD meds. 
+
+I started editing Rio Borealis and I have learned a lot in the last year. My first draft was a lot less rough than Calliope was. I am also enjoying the story that I wrote and can't wait to share it with everyone. 
+
+For Calliope I have found things that I want to change. I am having a huge internal debate on whether I should change things or leave them the way they are. As soon as I figure it out I will be able to move forward. 
+
+<h4>Books</h4>
+
+
+| ![](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/covers-small/ancillary-justice-small.png)  |  ![](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/covers-small/the-children-of-the-sky-small.jpg)|  ![](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/covers-small/the-underwater-welder.jpg)|  ![](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/covers-small/the-black-monday-murders-small.jpg)|  ![](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/covers-small/the-girl-who-small.png)|  ![](https://raw.githubusercontent.com/dylanreed/dylan.blog/gh-pages/images/covers-small/outcast-small.png) |
+|---|---|---|---|---|---|
+| [Amazon](https://www.amazon.com/gp/product/031624662X/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20) | [Amazon](https://www.amazon.com/gp/product/0812579925/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20) | [Amazon](https://www.amazon.com/gp/product/1603090746/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20) | [Amazon](https://www.amazon.com/gp/product/1534300279/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20) | [Amazon](https://www.amazon.com/gp/product/1250010195/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20) | [Amazon](https://www.amazon.com/gp/product/1632150530/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20) 
+
+This months books were had a few more graphic novels than usual. This is mostly because of my super fun colonoscopy prep. All of them were awesome. My favorite book of April was [The Girl who Circumnavigated Fairyland in a Ship of her own Making](https://www.amazon.com/gp/product/1250010195/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20)
+
+
+<h4>Life</h4>
+Meds for Life! I started taking meds for my ADHD finally and it has been interesting. Oh I also had a colonoscopy, so that was fun. I am healthy and all that jazz. I quite drinking soda and dealt with some fun headaches around caffeine withdrawal. So that was fun. 
+
+I am finding ADHD meds to be very helpful in dealing with my symptoms and I am finding being able to focus on a plan long term to be quite nice. 
+
+<h4>Projects</h4>
+Bow tie project is going well. I am getting ready to start making ties for others, so if you are interested fill out the [form](http://dylan.la/2j1ogU3)
+
+	Don't forget that you can support my writing efforts on [Patreon](https://www.patreon.com/dylanreed)
