@@ -13,7 +13,7 @@ comments: []
 date: "2016-05-05T06:30:54Z"
 date_gmt: 2016-05-05 13:30:54 -0600
 draft: true
-published: true
+
 status: publish
 tags:
 - Projects

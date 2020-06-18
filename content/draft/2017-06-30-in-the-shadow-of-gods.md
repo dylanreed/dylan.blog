@@ -14,7 +14,7 @@ comments: null
 date: "2017-06-30T10:10:00Z"
 date_gmt: 2017-03-10 10:10:00 -0600
 draft: true
-published: true
+
 status: publish
 tags: []
 title: In the Shadow of Gods
