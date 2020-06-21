@@ -7,6 +7,7 @@ theme: "hyde-hyde"
 canonifyURLs: true
 enableRobotsTXT: true
 paginate:  4
+summarylength: 30
 
 Menus:
   main:
@@ -14,10 +15,19 @@ Menus:
       URL: "https://dylanreed.com"
 
 params:
-
+  mainSections: ['post', 'blog',]
   description: "Writing and musings by Dylan Reed"
+  author: "Dylan Reed"
+  copyright: "Dylan Reed"
+  dateformat: "Jan 2, 2006"
+  since: 2002
+  license: "CC BY-SA 4.0"
+  licenseURL: "https://creativecommons.org/licenses/by-sa/4.0"
+  showBuiltWith: false
   social:
     twitter: dylanreed
     gravatar: "dylan@dylanreed.com"
     instagram: dylanreed
     github: dylanreed
+    email: "dylan@dylanreed.com"
+  toc: none
