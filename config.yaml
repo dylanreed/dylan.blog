@@ -6,7 +6,7 @@ title: "Dylan's blog"
 theme: "hyde-hyde"
 canonifyURLs: true
 enableRobotsTXT: true
-paginate:  4
+paginate:  12
 summarylength: 30
 
 Menus:
