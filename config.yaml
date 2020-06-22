@@ -1,4 +1,4 @@
-#baseURL: http://dylan.blog/
+baseURL: https://dylan.blog/
 publishDir: "public"
 disablePathToLower: true
 languageCode: en-us
