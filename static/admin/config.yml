@@ -20,7 +20,6 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string', required: false }
       - { label: "Draft", name: "draft", widget: "boolean", default: true}
       - { label: "Categories", name: "categories",  widget: "list", default: ["AWESOME"] }
       - { label: 'Body', name: 'body', widget: 'markdown' }
