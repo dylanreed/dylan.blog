@@ -2,7 +2,7 @@
 title: Writing again
 date: 2020-06-28T00:12:09.851Z
 description: All about how I am trying to become a better writer
-draft: true
+draft: false
 categories:
   - AWESOME
 ---
