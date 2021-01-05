@@ -1,5 +1,5 @@
 ---
-title: Biting off more than I can true... probably
+title: Biting off more than I can chew... probably
 date: 2021-01-05T02:21:20.387Z
 draft: false
 categories:
