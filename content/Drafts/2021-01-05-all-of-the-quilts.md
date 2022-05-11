@@ -1,7 +1,7 @@
 ---
 title: All of the Quilts
 date: 2021-01-05T13:23:14.229Z
-draft: false
+draft: true
 categories:
   - AWESOME
 ---

@@ -1,7 +1,7 @@
 ---
 title: Getting My Shit Together
 date: 2021-01-11T13:20:52.734Z
-draft: false
+draft: true
 categories:
   - AWESOME
 ---
