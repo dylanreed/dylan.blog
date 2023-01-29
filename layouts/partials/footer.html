@@ -1,0 +1,35 @@
+<footer>
+  <div>
+    <div class="footer-contact">
+      always excited to connect with new folks. hmu.
+      </a>
+    </div>
+
+    
+    <div class="footer-social">
+      {{- range $index, $key := .Site.Params.Social -}}
+      <a class="socs" href="{{ $key.url }}" rel="me" target="_blank" title="{{ $key.name }}">
+        <!-- <i data-feather="{{ $key.icon }}"></i> -->
+        {{ $key.icon }}
+        <!-- <img src="/icons/{{ $key.icon }}.svg" width="24" height="24" alt="{{ $key.icon }}" class="email-icon" /> -->
+      </a>
+
+      &middot;
+
+      {{- end -}}
+    </div>
+    <hr>
+
+
+
+
+    <div class="footer-info">
+      Copyright &copy; {{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }} | {{ end }} | Built with <a
+        href="https://gohugo.io">Hugo</a> using the <a href="https://github.com/athul/archie">Archie</a> theme. ❤️ Open
+      Source.
+    </div>
+  </div>
+</footer>
+{{ if not .Site.IsServer }}
+{{ template "_internal/google_analytics_async.html" . }}
+{{ end }}

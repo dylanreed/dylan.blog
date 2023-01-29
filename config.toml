@@ -1,0 +1,83 @@
+baseURL = "https://dylan.blog/"
+publishDir = "public"
+disablePathToLower = true
+languageCode = "en-us"
+title = "Dylan's blog"
+theme = "archie"
+canonifyURLs = true
+enableRobotsTXT = true
+paginate = 5
+summarylength = 50
+
+
+[params]
+mainSections = [ "post", "blog" ]
+description = "Writing and musings by Dylan Reed"
+author = "Dylan Reed"
+copyright = "Dylan Reed"
+eamil = "dylan@dylanreed.com"
+dateformat = "Jan 2, 2006"
+since = 2_002
+license = "CC BY-SA 4.0"
+licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+showBuiltWith = false
+mode="auto"
+useCDN=false
+subtitle = "Writing and musings by Dylan Reed"
+
+
+  # [params.social]
+  # twitter = "dylanreed"
+  # gravatar = "dylan@dylanreed.com"
+  # instagram = "dylanreed"
+  # github = "dylanreed"
+  # email = "dylan+blog@dylanreed.com"
+
+
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/dylanreed"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://github.com/dylanreed/"
+
+[[params.social]]
+name = "Ethereum"
+icon = "ethereum"
+url = "https://etherscan.io/enslookup-search?search=dylanreed.eth"
+
+
+[[params.social]]
+name = "OpenSea"
+icon = "opensea"
+url = "https://opensea.com/dylanreed"
+
+[[params.social]]
+name = "Instagram"
+icon = "instagram"
+url = "https://instagram.com/dylanreed"
+
+[[params.social]]
+name = "Email"
+icon = "email"
+url = "mailto:dylan+blog@dylanreed.com"
+
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3
