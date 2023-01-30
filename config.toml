@@ -75,6 +75,18 @@ url = "/about"
 weight = 2
 
 [[menu.main]]
-name = "Tags"
-url = "/tags"
+name = "Contact"
+url = "/contact"
 weight = 3
+
+[[menu.main]]
+name = "Archives"
+url = "/archives"
+weight = 4
+
+
+
+[[menu.main]]
+name = "dylanreed.com"
+url = "https://dylanreed.com"
+weight = 7
