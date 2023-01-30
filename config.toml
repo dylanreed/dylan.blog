@@ -23,7 +23,7 @@ licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
 showBuiltWith = false
 mode="auto"
 useCDN=false
-subtitle = "Writing and musings by Dylan Reed"
+subtitle = "Writing and musings by Dylan Reed. An og web3 builder, author, clown, and juggler."
 
 
   # [params.social]
@@ -34,6 +34,10 @@ subtitle = "Writing and musings by Dylan Reed"
   # email = "dylan+blog@dylanreed.com"
 
 
+[[params.social]]
+name = "Email"
+icon = "email"
+url = "mailto:dylan+blog@dylanreed.com"
 
 [[params.social]]
 name = "GitHub"
@@ -50,7 +54,6 @@ name = "Ethereum"
 icon = "ethereum"
 url = "https://etherscan.io/enslookup-search?search=dylanreed.eth"
 
-
 [[params.social]]
 name = "OpenSea"
 icon = "opensea"
@@ -60,12 +63,6 @@ url = "https://opensea.com/dylanreed"
 name = "Instagram"
 icon = "instagram"
 url = "https://instagram.com/dylanreed"
-
-[[params.social]]
-name = "Email"
-icon = "email"
-url = "mailto:dylan+blog@dylanreed.com"
-
 
 [[menu.main]]
 name = "Home"
