@@ -8,7 +8,7 @@ tldr: "Had a breakdown...now I work in web3"
 
 This post has been a long time coming. At the beginning of 2021 I was working in healthcare in the middle of a global pandemic. It was super fun, as you might imagine. I have generally been a positive person, but it was taking its toll and I went to a dark place. With the support of my awesome partner I took FMLA for a month, I got help (and medication). When I went back, I was in a better place but the work was no longer for me. So I needed something else. 
 
-My brother has been trying to get me to work in tech forever. He loves and thinks that everyone else should love it. As a younger sibling of a tech genius I never felt like I belonged. I know that comparison is the thief of joy, but with a brother like Harper the comparison is strong. Prior to losing my mind, he told me about NFTs and I made a few (really dumb) NFTs on (opensea)[https://opensea.io/collection/jokes-are-awesome]. Once I left my job permanently he told me I should jump into NFTs as it was relatively new tech and it could be fun. 
+My brother has been trying to get me to work in tech forever. He loves and thinks that everyone else should love it. As a younger sibling of a tech genius I never felt like I belonged. I know that comparison is the thief of joy, but with a brother like Harper the comparison is strong. Prior to losing my mind, he told me about NFTs and I made a few (really dumb) NFTs on [opensea](https://opensea.io/collection/jokes-are-awesome). Once I left my job permanently he told me I should jump into NFTs as it was relatively new tech and it could be fun. 
 
 So I jumped. 
 
