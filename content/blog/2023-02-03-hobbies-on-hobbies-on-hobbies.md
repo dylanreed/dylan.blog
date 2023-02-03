@@ -1,7 +1,7 @@
 ---
 title: "Hobbies on Hobbies on Hobbies"
 summary: ""
-date: 2023-01-29T12:13:38+05:30
+date: 2023-02-03T12:13:38+05:30
 tldr: "I have a cycle of hobbies... and it is great"
 ---
 **Hobbies on Hobbies on Hobbies**
