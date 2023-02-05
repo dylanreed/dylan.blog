@@ -4,10 +4,6 @@ summary: ""
 date: 2023-02-03T12:13:38+05:30
 tldr: "I have a cycle of hobbies... and it is great"
 ---
-**Hobbies on Hobbies on Hobbies**
-
-Hobbies on Hobbies on Hobbies
-
 As I have stated numerous times on this blog I have a lot of hobbies. This is a problem that a lot of people with ADHD have because we get super excited about something, buy the stuff to do it, get started, and then the next awesome hobby comes along. It is a constant cycle that I have finally learned to just ride instead of trying to stop. 
 
 What this means is that I don’t get rid of hobby supplies  when I stop being interested in the hobby… because it will come back around and I will regret getting rid of it. This also helps with the ADHD tax of spending money on a thing only to get bored and get rid of them.
