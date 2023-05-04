@@ -1,6 +1,6 @@
 ---
 title: "OMG NFTs WTF"
-summary: "A bit of info and opinions about NFTs"
+summary: ""
 date: 2023-02-07T12:13:38+05:30
 tldr: "NFTs are great for artists"
 ---

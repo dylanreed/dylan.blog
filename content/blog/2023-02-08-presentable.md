@@ -1,6 +1,6 @@
 ---
 title: "Presentable"
-summary: "Dress for success"
+summary: ""
 date: 2023-02-08T12:13:38+05:30
 tldr: "I like to dress fancy!!!"
 ---
