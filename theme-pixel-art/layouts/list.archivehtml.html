@@ -1,0 +1,78 @@
+{{ define "main" }}
+<div class="archive-container">
+    {{ $pages := where .Site.RegularPages "Type" "post" }}
+    {{ $years := $pages.GroupByDate "2006" }}
+
+    {{ range $years }}
+    <section class="archive-year">
+        <h2 class="year-header">{{ .Key }}</h2>
+        <ul class="archive-list">
+            {{ range .Pages }}
+            <li class="archive-entry {{ partial "category-class.html" . }}">
+                {{/* Small sprite */}}
+                {{ $category := "personal" }}
+                {{ with .Params.categories }}
+                    {{ $category = index . 0 | lower }}
+                {{ end }}
+
+                {{ $spriteClass := "clem" }}
+                {{ $spriteFile := "clem-personal.png" }}
+
+                {{ if eq $category "health" }}
+                    {{ $spriteClass = "cat" }}
+                    {{ $spriteFile = "Cat - Health.png" }}
+                {{ else if eq $category "tabletop" }}
+                    {{ $spriteClass = "dragon" }}
+                    {{ $spriteFile = "dragon - tabletop.png" }}
+                {{ else if eq $category "clowning" }}
+                    {{ $spriteClass = "clown" }}
+                    {{ $spriteFile = "clown - clowning.png" }}
+                {{ else if eq $category "tech" }}
+                    {{ $spriteClass = "golem" }}
+                    {{ $spriteFile = "golem - tech.png" }}
+                {{ else if eq $category "writing" }}
+                    {{ $spriteClass = "quill" }}
+                    {{ $spriteFile = "quill - writing.png" }}
+                {{ else if eq $category "cooking" }}
+                    {{ $spriteClass = "imp" }}
+                    {{ $spriteFile = "imp - cooking.png" }}
+                {{ else if eq $category "music" }}
+                    {{ $spriteClass = "bard" }}
+                    {{ $spriteFile = "bard - music.png" }}
+                {{ else if eq $category "travel" }}
+                    {{ $spriteClass = "adventure" }}
+                    {{ $spriteFile = "adventure - travel.png" }}
+                {{ else if eq $category "reading" }}
+                    {{ $spriteClass = "book" }}
+                    {{ $spriteFile = "book - reading.png" }}
+                {{ else if eq $category "crafting" }}
+                    {{ $spriteClass = "muse" }}
+                    {{ $spriteFile = "muse - crafting.png" }}
+                {{ else if eq $category "adhd" }}
+                    {{ $spriteClass = "adventure" }}
+                    {{ $spriteFile = "adventure - travel.png" }}
+                {{ else }}
+                    {{ $spriteClass = "clem" }}
+                    {{ $spriteFile = "clem-personal.png" }}
+                {{ end }}
+
+                <div class="archive-sprite sprite-{{ $spriteClass }}">
+                    <img src="/sprites/{{ $spriteFile }}" alt="">
+                </div>
+
+                <span class="archive-date">{{ .Date.Format "Jan 02" }}</span>
+                <a href="{{ .Permalink }}" class="archive-title">
+                    {{ if .Title }}{{ .Title }}{{ else }}{{ .Content | plainify | truncate 50 }}{{ end }}
+                </a>
+                {{ with .Params.categories }}
+                    {{ range first 1 . }}
+                    <span class="archive-tag">{{ . }}</span>
+                    {{ end }}
+                {{ end }}
+            </li>
+            {{ end }}
+        </ul>
+    </section>
+    {{ end }}
+</div>
+{{ end }}

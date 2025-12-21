@@ -1,0 +1,54 @@
+{{ define "main" }}
+<div class="posts-container">
+    <div class="posts">
+        {{ range where .Site.RegularPages "Type" "post" }}
+        <article class="post {{ partial "category-class.html" . }}">
+            {{/* Sprite based on first category */}}
+            {{ partial "post-sprite.html" . }}
+
+            <div class="post-body">
+                {{/* Category tag */}}
+                {{ with .Params.categories }}
+                    {{ range first 1 . }}
+                    <span class="post-tag">{{ . }}</span>
+                    {{ end }}
+                {{ end }}
+
+                {{/* Post title - only show if exists */}}
+                {{ if .Title }}
+                <h2 class="post-title">
+                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                </h2>
+                {{ end }}
+
+                {{/* Post date */}}
+                <div class="post-meta">{{ .Date.Format "January 2, 2006" }}</div>
+
+                {{/* Excerpt or full content for short posts */}}
+                <div class="post-excerpt">
+                    {{ if .Summary }}
+                        {{ .Summary | plainify | truncate 200 }}
+                    {{ else }}
+                        {{ .Content | plainify | truncate 200 }}
+                    {{ end }}
+                </div>
+
+                <a href="{{ .Permalink }}" class="post-link">Read more &rarr;</a>
+            </div>
+        </article>
+        {{ end }}
+    </div>
+</div>
+
+{{/* Pagination */}}
+{{ if .Paginator }}
+<nav class="pagination">
+    {{ if .Paginator.HasPrev }}
+    <a href="{{ .Paginator.Prev.URL }}">&larr; Newer</a>
+    {{ end }}
+    {{ if .Paginator.HasNext }}
+    <a href="{{ .Paginator.Next.URL }}">Older &rarr;</a>
+    {{ end }}
+</nav>
+{{ end }}
+{{ end }}
