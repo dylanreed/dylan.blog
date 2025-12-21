@@ -4,21 +4,19 @@
 
     <div class="photo-grid">
         {{ $pages := where .Site.RegularPages "Type" "post" }}
+        {{ $seen := slice }}
         {{ range $pages }}
             {{ $permalink := .Permalink }}
             {{/* Extract images from post content */}}
             {{ $content := .Content }}
-            {{ range findRE `<img[^>]+src="([^"]+)"` $content }}
-                {{ $src := replaceRE `.*src="([^"]+)".*` "$1" . }}
-                <a href="{{ $permalink }}" class="photo-item">
-                    <img src="{{ $src }}" alt="" loading="lazy">
-                </a>
-            {{ end }}
-            {{/* Also check params.photos if available */}}
-            {{ range .Params.photos }}
-            <a href="{{ $permalink }}" class="photo-item">
-                <img src="{{ . }}" alt="" loading="lazy">
-            </a>
+            {{ range findRE `src="(https://[^"]+\.(jpg|jpeg|png|gif|webp))"` $content }}
+                {{ $src := replaceRE `src="([^"]+)"` "$1" . }}
+                {{ if not (in $seen $src) }}
+                    {{ $seen = $seen | append $src }}
+                    <a href="{{ $permalink }}" class="photo-item">
+                        <img src="{{ $src }}" alt="" loading="lazy">
+                    </a>
+                {{ end }}
             {{ end }}
         {{ end }}
     </div>
