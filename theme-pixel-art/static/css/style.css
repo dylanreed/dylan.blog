@@ -63,10 +63,60 @@ body {
     font-family: Georgia, serif;
     font-size: 14px;
     z-index: 100;
+    transition: background 0.3s ease;
 }
 
 .mode-toggle:hover {
     background: #6b4423;
+}
+
+/* Night mode styles */
+body.night {
+    background-image: url("/background/3_night.png");
+}
+
+body.night .mode-toggle {
+    background: #1a1a2e;
+    color: #a0a0c0;
+}
+
+body.night .mode-toggle:hover {
+    background: #2a2a4e;
+}
+
+body.night .posts-container,
+body.night .post-container,
+body.night .page-container,
+body.night .archive-container {
+    background: #2a2520;
+}
+
+body.night .post-title,
+body.night .page-title,
+body.night .year-header {
+    color: #e0d8c8;
+}
+
+body.night .post-excerpt,
+body.night .post-content,
+body.night .page-content {
+    color: #b0a090;
+}
+
+body.night .post-content a {
+    color: #c8a060;
+}
+
+body.night .archive-title {
+    color: #d0c8b8;
+}
+
+body.night .archive-title:hover {
+    color: #e8e0d0;
+}
+
+body.night .site-footer {
+    color: #707070;
 }
 
 /* Header */

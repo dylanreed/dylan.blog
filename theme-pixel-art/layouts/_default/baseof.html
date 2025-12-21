@@ -4,9 +4,28 @@
     {{- partial "head.html" . -}}
 </head>
 <body>
-    <button class="mode-toggle" onclick="document.body.classList.toggle('day'); document.body.classList.toggle('night');">
-        Toggle Day/Night
+    <script>
+        // Apply saved theme immediately to prevent flash
+        if (localStorage.getItem('theme') === 'night') {
+            document.body.classList.add('night');
+        }
+    </script>
+    <button class="mode-toggle" onclick="toggleTheme()">
+        <span class="mode-icon">🌙</span> Night
     </button>
+    <script>
+        function toggleTheme() {
+            const isNight = document.body.classList.toggle('night');
+            localStorage.setItem('theme', isNight ? 'night' : 'day');
+            updateButton();
+        }
+        function updateButton() {
+            const btn = document.querySelector('.mode-toggle');
+            const isNight = document.body.classList.contains('night');
+            btn.innerHTML = isNight ? '<span class="mode-icon">☀️</span> Day' : '<span class="mode-icon">🌙</span> Night';
+        }
+        updateButton();
+    </script>
 
     {{- partial "header.html" . -}}
 
