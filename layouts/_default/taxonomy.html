@@ -3,7 +3,7 @@
 {{ $term := .Data.Term }}
 
 {{/* Create a fake context for the sprite partial */}}
-{{ $spriteContext := dict "Params" (dict "categories" (slice $term)) }}
+{{ $spriteContext := dict "Params" (dict "categories" (slice $term)) "isArchive" false }}
 
 <div class="archive-container">
     {{/* Category header with sprite */}}
