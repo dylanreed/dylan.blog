@@ -1,6 +1,10 @@
 {{ define "main" }}
 <div class="archive-container">
+    {{/* Get posts - try "post" type first (micro.blog), fall back to "posts" section (local) */}}
     {{ $pages := where .Site.RegularPages "Type" "post" }}
+    {{ if not $pages }}
+        {{ $pages = where .Site.RegularPages "Section" "posts" }}
+    {{ end }}
     {{ $years := $pages.GroupByDate "2006" }}
 
     {{ range $years }}
