@@ -5,6 +5,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    cursor: url('/cursors/pointer.png'), auto;
+}
+
+a, button, .nav-sign, .post-tag, .archive-tag, .mode-toggle, .photo-item {
+    cursor: url('/cursors/hand.png'), pointer;
 }
 
 body {
