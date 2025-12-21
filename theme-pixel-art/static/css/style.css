@@ -21,6 +21,71 @@ body {
     image-rendering: pixelated;
 }
 
+/* Custom Scrollbar - Medieval Wood Style */
+::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+}
+
+::-webkit-scrollbar-track {
+    background: linear-gradient(90deg, #3d2810 0%, #5a3d1a 50%, #3d2810 100%);
+    border-left: 2px solid #2a1a08;
+    border-right: 2px solid #2a1a08;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(90deg, #8b5a2b 0%, #a06830 50%, #8b5a2b 100%);
+    border: 2px solid #5c3d1e;
+    border-radius: 0;
+    box-shadow: inset 1px 1px 0 #c4a060, inset -1px -1px 0 #6b4423;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(90deg, #9a6833 0%, #b07840 50%, #9a6833 100%);
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: linear-gradient(90deg, #7a4a1b 0%, #905828 50%, #7a4a1b 100%);
+}
+
+::-webkit-scrollbar-corner {
+    background: #3d2810;
+}
+
+/* Firefox scrollbar */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #8b5a2b #3d2810;
+}
+
+/* Night mode scrollbar */
+body.night::-webkit-scrollbar-track {
+    background: linear-gradient(90deg, #1a2030 0%, #2a3040 50%, #1a2030 100%);
+    border-left: 2px solid #0d1520;
+    border-right: 2px solid #0d1520;
+}
+
+body.night::-webkit-scrollbar-thumb {
+    background: linear-gradient(90deg, #3a4a5a 0%, #4a5a6a 50%, #3a4a5a 100%);
+    border-color: #2a3545;
+    box-shadow:
+        inset 1px 1px 0 #5a6a7a,
+        inset -1px -1px 0 #2a3a4a,
+        0 0 8px rgba(100, 150, 200, 0.2);
+}
+
+body.night::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(90deg, #4a5a6a 0%, #5a6a7a 50%, #4a5a6a 100%);
+}
+
+body.night::-webkit-scrollbar-corner {
+    background: #1a2030;
+}
+
+body.night {
+    scrollbar-color: #4a5a6a #1a2030;
+}
+
 /* Navigation */
 .site-nav {
     max-width: 964px;
@@ -55,28 +120,58 @@ body {
     image-rendering: pixelated;
 }
 
-/* Mode toggle */
+/* Mode toggle - Sierra UI Style */
 .mode-toggle {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    padding: 12px 24px;
-    background: #4a3020;
-    color: #f5e6d3;
+    width: 51px;
+    height: 48px;
+    padding: 0;
+    background: url('/sprites/switch_box.png') no-repeat center center;
+    background-size: 100% 100%;
     border: none;
-    border-radius: 25px;
-    cursor: pointer;
-    font-family: Georgia, serif;
-    font-size: 14px;
+    cursor: url('/cursors/hand.png'), pointer;
     z-index: 1000;
-    transition: background 0.3s ease;
+    image-rendering: pixelated;
+    transition: transform 0.1s ease, filter 0.1s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .mode-toggle:hover {
-    background: #6b4423;
+    transform: translateY(-2px);
+    filter: brightness(1.1);
 }
 
-/* Night mode - twilight overlay */
+.mode-toggle:active {
+    transform: translateY(1px);
+    filter: brightness(0.95);
+}
+
+.mode-toggle .mode-icon {
+    width: 32px;
+    height: 32px;
+    image-rendering: pixelated;
+    pointer-events: none;
+}
+
+/* Night mode toggle styling */
+body.night .mode-toggle {
+    filter: hue-rotate(180deg) saturate(0.7);
+}
+
+body.night .mode-toggle:hover {
+    transform: translateY(-2px);
+    filter: hue-rotate(180deg) saturate(0.7) brightness(1.1);
+}
+
+body.night .mode-toggle .mode-icon {
+    filter: hue-rotate(-180deg) saturate(1.4);
+}
+
+/* Night mode - twilight overlay with stars */
 body.night::after {
     content: "";
     position: fixed;
@@ -84,9 +179,29 @@ body.night::after {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(13, 27, 42, 0.55);
+    background:
+        radial-gradient(1px 1px at 10% 20%, rgba(255, 255, 255, 0.8), transparent),
+        radial-gradient(1px 1px at 25% 15%, rgba(255, 255, 255, 0.6), transparent),
+        radial-gradient(2px 2px at 40% 8%, rgba(200, 220, 255, 0.9), transparent),
+        radial-gradient(1px 1px at 55% 25%, rgba(255, 255, 255, 0.5), transparent),
+        radial-gradient(1px 1px at 70% 12%, rgba(255, 255, 255, 0.7), transparent),
+        radial-gradient(2px 2px at 85% 18%, rgba(180, 200, 255, 0.8), transparent),
+        radial-gradient(1px 1px at 92% 28%, rgba(255, 255, 255, 0.4), transparent),
+        radial-gradient(1px 1px at 15% 35%, rgba(255, 255, 255, 0.5), transparent),
+        radial-gradient(1px 1px at 35% 5%, rgba(255, 255, 255, 0.6), transparent),
+        radial-gradient(1px 1px at 60% 30%, rgba(255, 255, 255, 0.4), transparent),
+        radial-gradient(2px 2px at 78% 5%, rgba(220, 240, 255, 0.7), transparent),
+        radial-gradient(1px 1px at 5% 8%, rgba(255, 255, 255, 0.5), transparent),
+        radial-gradient(1px 1px at 48% 18%, rgba(255, 255, 255, 0.6), transparent),
+        rgba(13, 27, 42, 0.55);
     pointer-events: none;
     z-index: 50;
+    animation: twinkle 8s ease-in-out infinite alternate;
+}
+
+@keyframes twinkle {
+    0% { opacity: 1; }
+    100% { opacity: 0.92; }
 }
 
 /* Elements above the night overlay */
@@ -146,6 +261,52 @@ body.night .photo-item img {
 
 body.night .site-footer {
     color: #c0c0c0;
+}
+
+/* Night mode link glows - adventure game hotspot style */
+body.night .post-content a,
+body.night .page-content a {
+    color: #7dd3fc;
+    text-shadow: 0 0 8px rgba(125, 211, 252, 0.5);
+    transition: text-shadow 0.2s ease, color 0.2s ease;
+}
+
+body.night .post-content a:hover,
+body.night .page-content a:hover {
+    color: #a5f3fc;
+    text-shadow:
+        0 0 12px rgba(165, 243, 252, 0.8),
+        0 0 20px rgba(125, 211, 252, 0.4);
+}
+
+/* Night mode post title glow */
+body.night .post-title a:hover {
+    color: #e8d5b0;
+    text-shadow: 0 0 15px rgba(232, 213, 176, 0.6);
+}
+
+/* Night mode archive title glow */
+body.night .archive-title:hover {
+    color: #e8d5b0;
+    text-shadow: 0 0 12px rgba(232, 213, 176, 0.5);
+}
+
+/* Night mode navigation glow */
+body.night .nav-sign:hover img {
+    filter: drop-shadow(0 0 8px rgba(255, 200, 100, 0.6));
+}
+
+/* Night mode header moonlit effect */
+body.night .header-image {
+    box-shadow:
+        0 4px 20px rgba(0, 0, 0, 0.5),
+        0 0 40px rgba(100, 150, 255, 0.15);
+}
+
+/* Night mode tag glow */
+body.night .post-tag:hover,
+body.night .archive-tag:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 }
 
 /* Header */
@@ -278,24 +439,36 @@ body.night .site-footer {
     flex: 1;
 }
 
+/* Post category tag - Pixel art badge style */
 .post-tag {
     display: inline-block;
-    background: #8b5a2b;
+    background: linear-gradient(180deg, #9a6833 0%, #7a4a23 100%);
     color: #f5e6d3;
     padding: 4px 12px;
-    border-radius: 15px;
-    font-size: 12px;
+    border-radius: 0;
+    font-size: 11px;
+    font-family: "MedievalSharp", cursive;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
     text-decoration: none;
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    border: 2px solid #5c3d1e;
+    box-shadow:
+        inset 1px 1px 0 #b08048,
+        inset -1px -1px 0 #5a3818,
+        2px 2px 0 rgba(0, 0, 0, 0.25);
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+    image-rendering: pixelated;
 }
 
 .post-tag:hover {
     transform: translateY(-2px);
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-    color: #f5e6d3;
+    box-shadow:
+        inset 1px 1px 0 #c09058,
+        inset -1px -1px 0 #6a4820,
+        3px 3px 0 rgba(0, 0, 0, 0.2);
+    color: #fff;
+    background: linear-gradient(180deg, #aa7843 0%, #8a5a33 100%);
 }
 
 .post-title {
@@ -308,10 +481,14 @@ body.night .site-footer {
 .post-title a {
     color: inherit;
     text-decoration: none;
+    transition: color 0.15s ease, text-shadow 0.15s ease;
 }
 
 .post-title a:hover {
-    color: #4a3020;
+    color: #5c3d2e;
+    text-shadow:
+        0 0 12px rgba(139, 90, 43, 0.3),
+        2px 2px 0 rgba(255, 255, 255, 0.4);
 }
 
 .post-meta {
@@ -349,13 +526,23 @@ body.night .site-footer {
     margin: 1.5em 0 0.75em;
 }
 
-.post-content a {
+/* Adventure Game Link Style - Day Mode */
+.post-content a,
+.page-content a {
     color: #8b5a2b;
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 1px;
+    transition: all 0.15s ease;
+    background: linear-gradient(180deg, transparent 60%, rgba(139, 90, 43, 0.15) 60%);
 }
 
-.post-content a:hover {
-    color: #4a3020;
+.post-content a:hover,
+.page-content a:hover {
+    color: #6b4423;
+    border-bottom-color: #c4a060;
+    background: linear-gradient(180deg, transparent 60%, rgba(196, 160, 96, 0.3) 60%);
+    text-shadow: 0 0 8px rgba(196, 160, 96, 0.4);
 }
 
 .post-content ul,
@@ -401,16 +588,44 @@ body.night .site-footer {
     padding: 0;
 }
 
+/* "Read more" link - Adventure game action button style */
 .post-link {
     display: inline-block;
     margin-top: 15px;
-    color: #8b5a2b;
+    padding: 8px 16px;
+    color: #f5e6d3;
     text-decoration: none;
     font-weight: bold;
+    font-family: "MedievalSharp", cursive;
+    background: linear-gradient(180deg, #8b5a2b 0%, #6b4423 100%);
+    border: 3px solid #5c3d1e;
+    box-shadow:
+        inset 1px 1px 0 #a87040,
+        inset -1px -1px 0 #4a3018,
+        2px 2px 0 rgba(0, 0, 0, 0.3);
+    transition: all 0.1s ease;
 }
 
 .post-link:hover {
-    text-decoration: underline;
+    background: linear-gradient(180deg, #9a6833 0%, #7a5030 100%);
+    transform: translateY(-2px);
+    box-shadow:
+        inset 1px 1px 0 #b88050,
+        inset -1px -1px 0 #5a4020,
+        4px 4px 0 rgba(0, 0, 0, 0.25);
+    color: #fff;
+}
+
+.post-link:active {
+    transform: translateY(1px);
+    box-shadow:
+        inset -1px -1px 0 #a87040,
+        inset 1px 1px 0 #4a3018,
+        1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.post-link::after {
+    content: " →";
 }
 
 /* Single post header */
@@ -1021,14 +1236,60 @@ body.night .site-footer {
     text-align: center;
 }
 
-/* Footer */
+/* Footer - Pixel Art Style */
 .site-footer {
     max-width: 964px;
     margin: 40px auto;
-    padding: 20px;
+    padding: 30px 20px;
     text-align: center;
-    color: #888;
+    color: #5c4030;
     font-size: 14px;
+    font-family: "MedievalSharp", cursive;
+    position: relative;
+}
+
+/* Decorative pixel divider above footer */
+.site-footer::before {
+    content: "⚔ ✦ ⚔";
+    display: block;
+    margin-bottom: 20px;
+    font-size: 18px;
+    letter-spacing: 12px;
+    color: #8b5a2b;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.site-footer p {
+    background: linear-gradient(180deg, #d4c4a0 0%, #c4b490 100%);
+    display: inline-block;
+    padding: 12px 24px;
+    border: 3px solid #8b5a2b;
+    box-shadow:
+        inset 2px 2px 0 #e8dcc0,
+        inset -2px -2px 0 #a89870,
+        3px 3px 0 rgba(0, 0, 0, 0.2);
+    image-rendering: pixelated;
+}
+
+/* Night mode footer */
+body.night .site-footer {
+    color: #a0a0a0;
+}
+
+body.night .site-footer::before {
+    color: #6080a0;
+    text-shadow: 0 0 8px rgba(100, 150, 200, 0.4);
+}
+
+body.night .site-footer p {
+    background: linear-gradient(180deg, #3a4050 0%, #2a3040 100%);
+    border-color: #4a5a6a;
+    color: #b0b8c0;
+    box-shadow:
+        inset 2px 2px 0 #4a5560,
+        inset -2px -2px 0 #1a2030,
+        3px 3px 0 rgba(0, 0, 0, 0.4),
+        0 0 15px rgba(80, 120, 180, 0.2);
 }
 
 /* Archive styles */
@@ -1127,28 +1388,40 @@ body.night .site-footer {
     font-size: 18px;
     color: #2d2d2d;
     text-decoration: none;
+    transition: color 0.15s ease, text-shadow 0.15s ease;
 }
 
 .archive-title:hover {
-    color: #4a3020;
+    color: #5c3d2e;
+    text-shadow:
+        0 0 10px rgba(139, 90, 43, 0.25),
+        1px 1px 0 rgba(255, 255, 255, 0.3);
 }
 
+/* Archive tag - Smaller pixel art badge */
 .archive-tag {
     display: inline-block;
-    background: #8b5a2b;
+    background: linear-gradient(180deg, #9a6833 0%, #7a4a23 100%);
     color: #f5e6d3;
-    padding: 2px 8px;
-    border-radius: 10px;
-    font-size: 11px;
+    padding: 3px 8px;
+    border-radius: 0;
+    font-size: 10px;
+    font-family: "MedievalSharp", cursive;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     text-decoration: none;
-    transition: transform 0.15s ease;
+    border: 2px solid #5c3d1e;
+    box-shadow:
+        inset 1px 1px 0 #b08048,
+        inset -1px -1px 0 #5a3818,
+        1px 1px 0 rgba(0, 0, 0, 0.25);
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
 }
 
 .archive-tag:hover {
     transform: translateY(-1px);
-    color: #f5e6d3;
+    color: #fff;
+    background: linear-gradient(180deg, #aa7843 0%, #8a5a33 100%);
 }
 
 /* Category page */
