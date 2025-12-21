@@ -4,10 +4,12 @@
     {{ $category = index . 0 | lower }}
 {{ end }}
 
-{{/* Check if this is archive view */}}
+{{/* Check if this is archive view - use isset to safely check */}}
 {{ $isArchive := false }}
-{{ if .isArchive }}
-    {{ $isArchive = true }}
+{{ if isset . "isArchive" }}
+    {{ if .isArchive }}
+        {{ $isArchive = true }}
+    {{ end }}
 {{ end }}
 
 {{/* Map categories to sprites - canonical list
