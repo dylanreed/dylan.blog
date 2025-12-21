@@ -103,6 +103,8 @@ body.night {
     display: flex;
     justify-content: center;
     gap: 40px;
+    position: relative;
+    z-index: 1; /* Behind header frame (z-index: 5) */
 }
 
 .nav-sign {
