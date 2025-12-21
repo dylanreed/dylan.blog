@@ -58,7 +58,7 @@ body {
 /* Mode toggle */
 .mode-toggle {
     position: fixed;
-    top: 20px;
+    bottom: 20px;
     right: 20px;
     padding: 12px 24px;
     background: #4a3020;
@@ -68,7 +68,7 @@ body {
     cursor: pointer;
     font-family: Georgia, serif;
     font-size: 14px;
-    z-index: 100;
+    z-index: 1000;
     transition: background 0.3s ease;
 }
 
@@ -76,23 +76,76 @@ body {
     background: #6b4423;
 }
 
-/* Night mode */
-body.night {
-    background-image: url("/background/3_night.png");
+/* Night mode - twilight overlay */
+body.night::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(13, 27, 42, 0.55);
+    pointer-events: none;
+    z-index: 50;
 }
 
-/* Night mode borders */
-body.night .posts-container,
-body.night .post-container,
-body.night .page-container,
-body.night .archive-container {
-    border-image-source: url("/tiles/dylanblogtileset_night.png");
-    background: #2a2520;
+/* Elements above the night overlay */
+body.night .nav-sign,
+body.night .post-sprite,
+body.night .archive-sprite,
+body.night .category-sprite-large,
+body.night .diver {
+    position: relative;
+    z-index: 100;
 }
 
-/* Night mode headers */
-body.night .header-image {
-    filter: brightness(0.7) saturate(0.8) hue-rotate(10deg);
+/* Night mode content background - matches overlay-covered cream */
+body.night .posts-container::before,
+body.night .post-container::before,
+body.night .page-container::before,
+body.night .archive-container::before {
+    background: #747878;
+}
+
+/* Night mode text adjustments for readability */
+body.night .post-title,
+body.night .post-title a,
+body.night .page-title,
+body.night .category-title,
+body.night .archive-title,
+body.night .year-header {
+    color: #ffffff;
+    position: relative;
+    z-index: 60;
+}
+
+body.night .post-excerpt,
+body.night .post-content,
+body.night .page-content {
+    color: #f0f0f0;
+    position: relative;
+    z-index: 60;
+}
+
+body.night .post-meta,
+body.night .archive-date,
+body.night .category-count {
+    color: #d0d0d0;
+    position: relative;
+    z-index: 60;
+}
+
+body.night .post,
+body.night .post-body,
+body.night .archive-entry,
+body.night .photo-grid,
+body.night .photo-item img {
+    position: relative;
+    z-index: 60;
+}
+
+body.night .site-footer {
+    color: #c0c0c0;
 }
 
 /* Header */
@@ -160,8 +213,7 @@ body.night .header-image {
 .post-container,
 .page-container {
     position: relative;
-    background: #f1e9d2;
-    background-clip: padding-box;
+    background: transparent;
     image-rendering: pixelated;
     border: 64px solid transparent;
     border-image-source: url("/tiles/dylanblogtileset.png");
@@ -169,6 +221,20 @@ body.night .header-image {
     border-image-width: 64px 96px 64px 96px;
     border-image-repeat: round;
     padding: 20px;
+}
+
+/* Cream background inside border - extends into border to fill transparent gap */
+.posts-container::before,
+.post-container::before,
+.page-container::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    background: #f1e9d2;
+    z-index: -1;
 }
 
 /* Post list */
@@ -968,8 +1034,7 @@ body.night .header-image {
 /* Archive styles */
 .archive-container {
     position: relative;
-    background: #f1e9d2;
-    background-clip: padding-box;
+    background: transparent;
     image-rendering: pixelated;
     border: 64px solid transparent;
     border-image-source: url("/tiles/dylanblogtileset.png");
@@ -977,6 +1042,18 @@ body.night .header-image {
     border-image-width: 64px 96px 64px 96px;
     border-image-repeat: round;
     padding: 20px;
+}
+
+/* Cream background inside archive border */
+.archive-container::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    background: #f1e9d2;
+    z-index: -1;
 }
 
 .year-section {

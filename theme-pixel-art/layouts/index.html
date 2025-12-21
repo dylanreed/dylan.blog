@@ -1,9 +1,17 @@
 {{ define "main" }}
 <div class="posts-container">
-    <div class="posts single-post-view">
+    <div class="posts">
+        {{/* Get posts - try "post" type first (micro.blog), fall back to "posts" section (local) */}}
         {{ $posts := where .Site.RegularPages "Type" "post" }}
-        {{ range $index, $page := $posts }}
-        <article class="post {{ partial "category-class.html" . }}" data-post-index="{{ $index }}" {{ if ne $index 0 }}style="display: none;"{{ end }}>
+        {{ if not $posts }}
+            {{ $posts = where .Site.RegularPages "Section" "posts" }}
+        {{ end }}
+        {{ if not $posts }}
+            {{ $posts = .Site.RegularPages }}
+        {{ end }}
+
+        {{ range $index, $page := first 7 $posts }}
+        <article class="post {{ partial "category-class.html" . }}{{ if eq $index 0 }} featured-post{{ end }}">
             {{/* Sprite based on first category */}}
             {{ partial "post-sprite.html" . }}
 
@@ -25,7 +33,8 @@
                 {{/* Post date */}}
                 <div class="post-meta">{{ .Date.Format "January 2, 2006" }}</div>
 
-                {{/* Excerpt or full content for short posts */}}
+                {{/* First post: summary. Rest: just title and date */}}
+                {{ if eq $index 0 }}
                 <div class="post-excerpt">
                     {{ if .Summary }}
                         {{ .Summary | plainify | truncate 200 }}
@@ -33,63 +42,11 @@
                         {{ .Content | plainify | truncate 200 }}
                     {{ end }}
                 </div>
-
                 <a href="{{ .Permalink }}" class="post-link">Read more &rarr;</a>
+                {{ end }}
             </div>
         </article>
         {{ end }}
     </div>
-
-    {{/* Navigation arrows */}}
-    <nav class="post-nav-arrows">
-        <button class="nav-arrow nav-arrow-left" id="prevPost" disabled aria-label="Previous post">&larr;</button>
-        <span class="post-counter"><span id="currentPostNum">1</span> / <span id="totalPosts">{{ len $posts }}</span></span>
-        <button class="nav-arrow nav-arrow-right" id="nextPost" aria-label="Next post">&rarr;</button>
-    </nav>
 </div>
-
-<script>
-(function() {
-    const posts = document.querySelectorAll('.single-post-view .post');
-    const prevBtn = document.getElementById('prevPost');
-    const nextBtn = document.getElementById('nextPost');
-    const currentNum = document.getElementById('currentPostNum');
-    const totalPosts = posts.length;
-    let currentIndex = 0;
-
-    function showPost(index) {
-        posts.forEach((post, i) => {
-            post.style.display = i === index ? 'flex' : 'none';
-        });
-        currentNum.textContent = index + 1;
-        prevBtn.disabled = index === 0;
-        nextBtn.disabled = index === totalPosts - 1;
-    }
-
-    prevBtn.addEventListener('click', function() {
-        if (currentIndex > 0) {
-            currentIndex--;
-            showPost(currentIndex);
-        }
-    });
-
-    nextBtn.addEventListener('click', function() {
-        if (currentIndex < totalPosts - 1) {
-            currentIndex++;
-            showPost(currentIndex);
-        }
-    });
-
-    // Keyboard navigation
-    document.addEventListener('keydown', function(e) {
-        if (e.key === 'ArrowLeft' && currentIndex > 0) {
-            currentIndex--;
-            showPost(currentIndex);
-        } else if (e.key === 'ArrowRight' && currentIndex < totalPosts - 1) {
-            currentIndex++;
-            showPost(currentIndex);
-        }
-    });
-})();
-</script>
 {{ end }}
