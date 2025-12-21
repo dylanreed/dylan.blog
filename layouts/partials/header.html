@@ -61,7 +61,8 @@
         <span>Home</span>
     </a>
     {{ range .Site.Menus.main }}
-    <a href="{{ .URL }}" class="nav-sign{{ if $.IsMenuCurrent "main" . }} active{{ end }}">
+    {{ $isActive := or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) (eq $.RelPermalink .URL) (hasPrefix $.RelPermalink .URL) }}
+    <a href="{{ .URL }}" class="nav-sign{{ if $isActive }} active{{ end }}">
         <span>{{ .Name }}</span>
     </a>
     {{ end }}
