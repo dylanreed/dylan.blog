@@ -578,8 +578,14 @@ KONAMI CODE: ↑↑↓↓←→←→BA
             const rect = diver.getBoundingClientRect();
             if (rect.width > 0) {
                 createBubble(rect.left + rect.width / 2, rect.top + rect.height * 0.15);
+                // Occasionally spawn a second bubble
+                if (Math.random() < 0.3) {
+                    setTimeout(() => {
+                        createBubble(rect.left + rect.width / 2, rect.top + rect.height * 0.15);
+                    }, 200);
+                }
             }
-        }, 2000);
+        }, 1200);
     }
 
     // ═══════════════════════════════════════════════════════════════
