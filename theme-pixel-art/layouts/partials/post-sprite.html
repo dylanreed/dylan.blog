@@ -4,10 +4,12 @@
     {{ $category = index . 0 | lower }}
 {{ end }}
 
-{{/* Check if this is archive view - only check isArchive if not a page */}}
+{{/* Check if this is archive view - only access isArchive on dicts */}}
 {{ $isArchive := false }}
 {{ if not .IsPage }}
-    {{ $isArchive = .isArchive }}
+    {{ if .isArchive }}
+        {{ $isArchive = true }}
+    {{ end }}
 {{ end }}
 
 {{/* Map categories to sprites - canonical list
