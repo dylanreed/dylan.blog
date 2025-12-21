@@ -539,9 +539,9 @@ KONAMI CODE: ↑↑↓↓←→←→BA
             const bubble = document.createElement('div');
             bubble.className = 'diver-bubble';
 
-            // Random offset from diver position
-            const offsetX = (Math.random() - 0.5) * 20;
-            const offsetY = Math.random() * 10;
+            // Random offset from helmet position
+            const offsetX = (Math.random() - 0.5) * 15;
+            const offsetY = (Math.random() - 0.5) * 10;
 
             bubble.style.left = (x + offsetX) + 'px';
             bubble.style.top = (y + offsetY) + 'px';
@@ -559,7 +559,7 @@ KONAMI CODE: ↑↑↓↓←→←→BA
         const observer = new MutationObserver(() => {
             const rect = diver.getBoundingClientRect();
             const x = rect.left + rect.width / 2;
-            const y = rect.bottom;
+            const y = rect.top + rect.height * 0.2; // Helmet area (top 20%)
 
             // Only create bubble if diver has moved
             if (Math.abs(x - lastX) > 5 || Math.abs(y - lastY) > 5) {
@@ -573,14 +573,13 @@ KONAMI CODE: ↑↑↓↓←→←→BA
 
         observer.observe(diver, { attributes: true, attributeFilter: ['style'] });
 
-        // Also spawn occasional idle bubbles
+        // Spawn idle bubbles always (not just chaos mode)
         setInterval(() => {
-            if (!document.body.classList.contains('chaos-mode')) return;
             const rect = diver.getBoundingClientRect();
             if (rect.width > 0) {
-                createBubble(rect.left + rect.width / 2, rect.bottom);
+                createBubble(rect.left + rect.width / 2, rect.top + rect.height * 0.15);
             }
-        }, 3000);
+        }, 2000);
     }
 
     // ═══════════════════════════════════════════════════════════════

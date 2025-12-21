@@ -137,6 +137,11 @@
                 const existing = document.querySelector('.help-popup');
                 if (existing) existing.remove();
 
+                // Trigger help achievement
+                if (window.achievementHooks?.onHelpClicked) {
+                    window.achievementHooks.onHelpClicked();
+                }
+
                 const popup = document.createElement('div');
                 popup.className = 'help-popup';
                 popup.innerHTML = `

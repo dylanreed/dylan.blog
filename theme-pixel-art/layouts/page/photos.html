@@ -1,0 +1,28 @@
+{{ define "main" }}
+<div class="page-container">
+    <h1 class="page-title">Photos</h1>
+
+    <div class="photo-grid">
+        {{/* Get posts - try "post" type first (micro.blog), fall back to "posts" section (local) */}}
+        {{ $pages := where .Site.RegularPages "Type" "post" }}
+        {{ if not $pages }}
+            {{ $pages = where .Site.RegularPages "Section" "posts" }}
+        {{ end }}
+        {{ $seen := slice }}
+        {{ range $pages }}
+            {{ $permalink := .Permalink }}
+            {{/* Extract images from post content */}}
+            {{ $content := .Content }}
+            {{ range findRE `src="(https://[^"]+\.(jpg|jpeg|png|gif|webp))"` $content }}
+                {{ $src := replaceRE `src="([^"]+)"` "$1" . }}
+                {{ if not (in $seen $src) }}
+                    {{ $seen = $seen | append $src }}
+                    <a href="{{ $permalink }}" class="photo-item">
+                        <img src="{{ $src }}" alt="" loading="lazy">
+                    </a>
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    </div>
+</div>
+{{ end }}
