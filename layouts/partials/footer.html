@@ -48,12 +48,23 @@
         };
     }
 
-    // State
+    // State - restore from localStorage if available
     let bounds = getContainerBounds();
-    let x = Math.random() * (bounds.width - 64); // relative to container
-    let direction = Math.random() > 0.5 ? 1 : -1; // 1 = east, -1 = west
+    const savedState = JSON.parse(localStorage.getItem('diver_state') || 'null');
+    let x = savedState?.x ?? Math.random() * (bounds.width - 64);
+    let direction = savedState?.direction ?? (Math.random() > 0.5 ? 1 : -1);
     let isIdle = false;
     let speed = 1.5;
+
+    // Clamp x to valid bounds
+    x = Math.max(0, Math.min(x, bounds.width - 64));
+
+    // Save state periodically
+    function saveDiverState() {
+        localStorage.setItem('diver_state', JSON.stringify({ x, direction }));
+    }
+    setInterval(saveDiverState, 1000);
+    window.addEventListener('beforeunload', saveDiverState);
 
     // Position diver on top border (32px into the border from top)
     function updateDiverPosition() {
