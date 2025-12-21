@@ -779,7 +779,7 @@ body.night .site-footer {
         0 0 8px #5de2a3,
         2px 2px 0 rgba(255, 255, 255, 0.3);
 }
-.sprite-cat ~ .post-body .post-tag,
+.sprite-skele ~ .post-body .post-tag,
 .category-health .post-tag {
     background: #5de2a3;
     color: #1a3a2a;
@@ -843,24 +843,15 @@ body.night .site-footer {
     color: #3a3020;
 }
 .sprite-donkey ~ .post-body .post-title,
-.category-adhd .post-title {
+.category-adhd .post-title,
+.category-travel .post-title {
     text-shadow:
         0 0 8px #5a9e5a,
         2px 2px 0 rgba(255, 255, 255, 0.3);
 }
 
 .sprite-donkey ~ .post-body .post-tag,
-.category-adhd .post-tag {
-    background: #5a9e5a;
-    color: #fff;
-}
-.sprite-adventure ~ .post-body .post-title,
-.category-travel .post-title {
-    text-shadow:
-        0 0 8px #5a9e5a,
-        2px 2px 0 rgba(255, 255, 255, 0.3);
-}
-.sprite-adventure ~ .post-body .post-tag,
+.category-adhd .post-tag,
 .category-travel .post-tag {
     background: #5a9e5a;
     color: #fff;
