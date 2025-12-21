@@ -2,15 +2,21 @@
     <p>{{ .Site.Title }} &copy; {{ now.Year }} &middot; Powered by chaos goblin energy</p>
 </footer>
 
-<!-- Walking Diver -->
-<div class="diver-container">
-    <img class="diver" id="diver" src="/sprites/diver/walking_east.gif" alt="">
-</div>
-
 <script>
 (function() {
-    const diver = document.getElementById('diver');
-    if (!diver) return;
+    // Find the content container
+    const container = document.querySelector('.posts-container, .post-container, .page-container, .archive-container');
+    if (!container) return;
+
+    // Create and inject diver into body (fixed positioning)
+    const diverContainer = document.createElement('div');
+    diverContainer.className = 'diver-container';
+    const diver = document.createElement('img');
+    diver.className = 'diver';
+    diver.id = 'diver';
+    diver.alt = '';
+    diverContainer.appendChild(diver);
+    document.body.appendChild(diverContainer);
 
     // Sprite paths
     const sprites = {
@@ -32,17 +38,33 @@
         sprites.idleSouthWest, sprites.idleWest
     ];
 
+    // Get container bounds
+    function getContainerBounds() {
+        const rect = container.getBoundingClientRect();
+        return {
+            left: rect.left,
+            width: rect.width,
+            top: rect.top
+        };
+    }
+
     // State
-    let x = Math.random() * (window.innerWidth - 64);
+    let bounds = getContainerBounds();
+    let x = Math.random() * (bounds.width - 64); // relative to container
     let direction = Math.random() > 0.5 ? 1 : -1; // 1 = east, -1 = west
     let isIdle = false;
     let speed = 1.5;
 
-    // Position diver on top border area
-    const topOffset = 20; // pixels from top
-    diver.style.top = topOffset + 'px';
-    diver.style.left = x + 'px';
+    // Position diver on top border (32px into the border from top)
+    function updateDiverPosition() {
+        bounds = getContainerBounds();
+        const diverTop = bounds.top + window.scrollY - 32; // Position on top border
+        diver.style.top = (bounds.top - 32) + 'px';
+        diver.style.left = (bounds.left + x) + 'px';
+    }
+
     diver.src = direction === 1 ? sprites.walkEast : sprites.walkWest;
+    updateDiverPosition();
 
     function setSprite(src) {
         if (diver.src !== src) {
@@ -66,11 +88,13 @@
     }
 
     function animate() {
+        bounds = getContainerBounds();
+
         if (!isIdle) {
             x += speed * direction;
 
-            // Check boundaries
-            const maxX = window.innerWidth - 64;
+            // Check boundaries (constrained to container width)
+            const maxX = bounds.width - 64;
             if (x >= maxX) {
                 x = maxX;
                 direction = -1;
@@ -81,25 +105,20 @@
                 setSprite(sprites.walkEast);
             }
 
-            diver.style.left = x + 'px';
-
             // Random chance to stop and idle (0.3% per frame)
             if (Math.random() < 0.003) {
                 startIdling();
             }
         }
 
+        // Update position (stays fixed relative to container top border)
+        diver.style.top = (bounds.top - 32) + 'px';
+        diver.style.left = (bounds.left + x) + 'px';
+
         requestAnimationFrame(animate);
     }
 
     // Start animation
     animate();
-
-    // Handle window resize
-    window.addEventListener('resize', function() {
-        const maxX = window.innerWidth - 64;
-        if (x > maxX) x = maxX;
-        diver.style.left = x + 'px';
-    });
 })();
 </script>

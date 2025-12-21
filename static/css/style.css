@@ -87,6 +87,7 @@ body.night .post-container,
 body.night .page-container,
 body.night .archive-container {
     border-image-source: url("/tiles/dylanblogtileset_night.png");
+    background: #2a2520;
 }
 
 /* Night mode headers */
@@ -158,6 +159,7 @@ body.night .header-image {
 .posts-container,
 .post-container,
 .page-container {
+    position: relative;
     background: #f1e9d2;
     background-clip: padding-box;
     image-rendering: pixelated;
@@ -905,6 +907,54 @@ body.night .header-image {
     color: #3a2010;
 }
 
+/* Single post navigation arrows */
+.post-nav-arrows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0 10px;
+    margin-top: 10px;
+    border-top: 2px solid rgba(139, 90, 43, 0.2);
+}
+
+.nav-arrow {
+    width: 48px;
+    height: 48px;
+    background: #8b5a2b;
+    color: #f5e6d3;
+    border: 3px solid #5c3d2e;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: url('/cursors/hand.png'), pointer;
+    transition: transform 0.15s ease, background 0.15s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-arrow:hover:not(:disabled) {
+    background: #a06830;
+    transform: scale(1.1);
+}
+
+.nav-arrow:disabled {
+    background: #ccc;
+    border-color: #999;
+    color: #888;
+    cursor: url('/cursors/pointer.png'), auto;
+    opacity: 0.5;
+}
+
+.post-counter {
+    font-family: "MedievalSharp", cursive;
+    font-size: 18px;
+    color: #5c3d2e;
+    min-width: 60px;
+    text-align: center;
+}
+
 /* Footer */
 .site-footer {
     max-width: 964px;
@@ -917,6 +967,7 @@ body.night .header-image {
 
 /* Archive styles */
 .archive-container {
+    position: relative;
     background: #f1e9d2;
     background-clip: padding-box;
     image-rendering: pixelated;
@@ -1069,10 +1120,10 @@ body.night .header-image {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 64px;
     pointer-events: none;
     z-index: 1000;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .diver {
