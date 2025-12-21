@@ -1,0 +1,33 @@
+{{ define "main" }}
+<div class="archive-container">
+    {{/* Get posts - try "post" type first (micro.blog), fall back to "posts" section (local) */}}
+    {{ $pages := where .Site.RegularPages "Type" "post" }}
+    {{ if not $pages }}
+        {{ $pages = where .Site.RegularPages "Section" "posts" }}
+    {{ end }}
+    {{ $years := $pages.GroupByDate "2006" }}
+
+    {{ range $years }}
+    <section class="archive-year">
+        <h2 class="year-header">{{ .Key }}</h2>
+        <ul class="archive-list">
+            {{ range .Pages }}
+            <li class="archive-entry {{ partial "category-class.html" . }}">
+                {{ partial "post-sprite.html" (dict "Params" .Params "isArchive" true) }}
+
+                <span class="archive-date">{{ .Date.Format "Jan 02" }}</span>
+                <a href="{{ .Permalink }}" class="archive-title">
+                    {{ if .Title }}{{ .Title }}{{ else }}{{ .Content | plainify | truncate 50 }}{{ end }}
+                </a>
+                {{ with .Params.categories }}
+                    {{ range first 1 . }}
+                    <a href="/categories/{{ . | urlize }}/" class="archive-tag">{{ . }}</a>
+                    {{ end }}
+                {{ end }}
+            </li>
+            {{ end }}
+        </ul>
+    </section>
+    {{ end }}
+</div>
+{{ end }}

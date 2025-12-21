@@ -98,8 +98,25 @@ body.night {
 }
 
 .nav-sign {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 88px;
+    background: url('/menu/wooden_sign_small.png') no-repeat center center;
+    background-size: contain;
+    image-rendering: pixelated;
+    text-decoration: none;
     transition: transform 0.15s ease;
+}
+
+.nav-sign span {
+    font-family: "MedievalSharp", cursive;
+    font-size: 14px;
+    color: #4a3520;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+    padding-top: 20px; /* Offset for chain area */
+    text-align: center;
 }
 
 .nav-sign:hover {
@@ -114,10 +131,9 @@ body.night {
     transform: rotate(-4deg) translateY(7px);
 }
 
+/* Hide old nav images, show text spans */
 .nav-sign img {
-    height: 88px;
-    width: auto;
-    image-rendering: pixelated;
+    display: none;
 }
 
 /* Mode toggle - Sierra UI Style */
@@ -374,6 +390,7 @@ body.night .archive-tag:hover {
 .post-container,
 .page-container {
     position: relative;
+    z-index: 1; /* Above floating sprites (z-index: -1) */
     background: transparent;
     image-rendering: pixelated;
     border: 64px solid transparent;
@@ -1464,13 +1481,13 @@ body.night .site-footer p {
     font-style: italic;
 }
 
-/* Walking Diver */
+/* Walking Diver - 1.5x scale */
 .diver-container {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 64px;
+    height: 96px;
     pointer-events: none;
     z-index: 1000;
     overflow: visible;
@@ -1478,8 +1495,8 @@ body.night .site-footer p {
 
 .diver {
     position: absolute;
-    width: 64px;
-    height: 64px;
+    width: 96px;
+    height: 96px;
     image-rendering: pixelated;
     transition: none;
 }

@@ -258,6 +258,15 @@
             category: 'secret',
             secret: true,
             points: 40
+        },
+        help_needed: {
+            id: 'help_needed',
+            name: 'Asking for Directions',
+            description: 'You had to ask for help on a blog',
+            icon: '🙋',
+            category: 'secret',
+            secret: true,
+            points: 15
         }
     };
 
@@ -642,12 +651,13 @@
     // CHAOS.JS INTEGRATION HOOKS
     // ═══════════════════════════════════════════════════════════════
 
-    // These get called from chaos.js
+    // These get called from chaos.js and baseof.html
     window.achievementHooks = {
         onKonamiCode: () => unlock('konami_master'),
         onWeather: () => unlock('weather_wizard'),
         onSummon: () => unlock('summoner'),
         onConsoleHelp: () => unlock('console_cowboy'),
+        onHelpClicked: () => unlock('help_needed'),
         onParticleCount: (count) => {
             if (count >= 100) unlock('particle_lord');
         }
