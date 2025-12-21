@@ -494,6 +494,172 @@ KONAMI CODE: ↑↑↓↓←→←→BA
     };
 
     // ═══════════════════════════════════════════════════════════════
+    // AUTO NIGHT MODE - Based on actual time of day
+    // ═══════════════════════════════════════════════════════════════
+
+    function checkAutoNightMode() {
+        // Only auto-switch if user hasn't manually set a preference
+        const userPreference = localStorage.getItem('theme');
+        if (userPreference) return; // User has manual preference, respect it
+
+        const hour = new Date().getHours();
+        const isNightTime = hour >= 19 || hour < 7; // 7pm to 7am
+
+        if (isNightTime && !document.body.classList.contains('night')) {
+            document.body.classList.add('night');
+            updateThemeButtonIfExists();
+        } else if (!isNightTime && document.body.classList.contains('night')) {
+            document.body.classList.remove('night');
+            updateThemeButtonIfExists();
+        }
+    }
+
+    function updateThemeButtonIfExists() {
+        const panel = document.querySelector('.sierra-panel');
+        if (!panel) return;
+        const dayIcon = panel.querySelector('[data-action="theme"] .day-icon');
+        const nightIcon = panel.querySelector('[data-action="theme"] .night-icon');
+        const isNight = document.body.classList.contains('night');
+        if (dayIcon) dayIcon.style.display = isNight ? 'block' : 'none';
+        if (nightIcon) nightIcon.style.display = isNight ? 'none' : 'block';
+    }
+
+    // ═══════════════════════════════════════════════════════════════
+    // DIVER TRAIL - Bubbles/dust following the diver
+    // ═══════════════════════════════════════════════════════════════
+
+    function initDiverTrail() {
+        const diver = document.querySelector('.diver');
+        if (!diver) return;
+
+        let lastX = 0;
+        let lastY = 0;
+
+        function createBubble(x, y) {
+            const bubble = document.createElement('div');
+            bubble.className = 'diver-bubble';
+
+            // Random offset from diver position
+            const offsetX = (Math.random() - 0.5) * 20;
+            const offsetY = Math.random() * 10;
+
+            bubble.style.left = (x + offsetX) + 'px';
+            bubble.style.top = (y + offsetY) + 'px';
+
+            // Random size
+            const size = 3 + Math.random() * 5;
+            bubble.style.width = size + 'px';
+            bubble.style.height = size + 'px';
+
+            document.body.appendChild(bubble);
+            setTimeout(() => bubble.remove(), 2000);
+        }
+
+        // Watch for diver position changes
+        const observer = new MutationObserver(() => {
+            const rect = diver.getBoundingClientRect();
+            const x = rect.left + rect.width / 2;
+            const y = rect.bottom;
+
+            // Only create bubble if diver has moved
+            if (Math.abs(x - lastX) > 5 || Math.abs(y - lastY) > 5) {
+                if (Math.random() < 0.3) { // 30% chance per movement
+                    createBubble(x, y);
+                }
+                lastX = x;
+                lastY = y;
+            }
+        });
+
+        observer.observe(diver, { attributes: true, attributeFilter: ['style'] });
+
+        // Also spawn occasional idle bubbles
+        setInterval(() => {
+            if (!document.body.classList.contains('chaos-mode')) return;
+            const rect = diver.getBoundingClientRect();
+            if (rect.width > 0) {
+                createBubble(rect.left + rect.width / 2, rect.bottom);
+            }
+        }, 3000);
+    }
+
+    // ═══════════════════════════════════════════════════════════════
+    // SEASONAL EFFECTS - Holiday-themed particles
+    // ═══════════════════════════════════════════════════════════════
+
+    function getSeasonalConfig() {
+        const now = new Date();
+        const month = now.getMonth(); // 0-11
+        const day = now.getDate();
+
+        // Valentine's Day (Feb 1-14)
+        if (month === 1 && day <= 14) {
+            return { emoji: ['❤️', '💕', '💖', '💘', '💝'], name: 'Valentine' };
+        }
+        // St. Patrick's Day (Mar 10-17)
+        if (month === 2 && day >= 10 && day <= 17) {
+            return { emoji: ['🍀', '☘️', '🌈', '💚', '🪙'], name: 'St. Patrick' };
+        }
+        // Easter (roughly late March/April - simplified)
+        if ((month === 2 && day >= 20) || (month === 3 && day <= 20)) {
+            return { emoji: ['🐰', '🥚', '🐣', '🌷', '🪺'], name: 'Easter' };
+        }
+        // Halloween (Oct 15-31)
+        if (month === 9 && day >= 15) {
+            return { emoji: ['🎃', '👻', '🦇', '💀', '🕷️', '🕸️'], name: 'Halloween' };
+        }
+        // Thanksgiving (Nov 20-30)
+        if (month === 10 && day >= 20) {
+            return { emoji: ['🦃', '🍂', '🌽', '🥧', '🍁'], name: 'Thanksgiving' };
+        }
+        // Christmas/Winter (Dec 1-31)
+        if (month === 11) {
+            return { emoji: ['🎄', '🎅', '⭐', '🎁', '❄️', '☃️'], name: 'Christmas' };
+        }
+        // New Year (Jan 1-7)
+        if (month === 0 && day <= 7) {
+            return { emoji: ['🎆', '🎇', '🥳', '✨', '🎊'], name: 'New Year' };
+        }
+        // Summer (Jun-Aug)
+        if (month >= 5 && month <= 7) {
+            return { emoji: ['☀️', '🌴', '🍦', '🏖️', '🌺'], name: 'Summer' };
+        }
+
+        // Default - magical fantasy
+        return { emoji: ['✨', '⭐', '💫', '🌙', '☄️'], name: 'Default' };
+    }
+
+    function createSeasonalParticle() {
+        if (!chaosMode) return;
+
+        const seasonal = getSeasonalConfig();
+        const particle = document.createElement('div');
+        particle.className = 'seasonal-particle';
+        particle.textContent = seasonal.emoji[Math.floor(Math.random() * seasonal.emoji.length)];
+
+        particle.style.left = Math.random() * 100 + 'vw';
+        particle.style.fontSize = (16 + Math.random() * 16) + 'px';
+
+        const duration = 8 + Math.random() * 8;
+        particle.style.animationDuration = duration + 's';
+
+        document.body.appendChild(particle);
+        setTimeout(() => particle.remove(), duration * 1000);
+    }
+
+    function startSeasonalEffects() {
+        const seasonal = getSeasonalConfig();
+        console.log(`🗓️ Seasonal theme: ${seasonal.name}`);
+
+        // Spawn seasonal particles occasionally
+        setInterval(() => {
+            if (chaosMode && Math.random() < 0.4) {
+                createSeasonalParticle();
+            }
+        }, 4000);
+    }
+
+    // ═══════════════════════════════════════════════════════════════
     // INITIALIZATION
     // ═══════════════════════════════════════════════════════════════
 
@@ -506,6 +672,16 @@ KONAMI CODE: ↑↑↓↓←→←→BA
 
         // Setup event listeners
         document.addEventListener('keydown', handleKonamiKey);
+
+        // Check auto night mode on load and periodically
+        checkAutoNightMode();
+        setInterval(checkAutoNightMode, 60000); // Check every minute
+
+        // Initialize diver trail
+        initDiverTrail();
+
+        // Start seasonal effects
+        startSeasonalEffects();
 
         // Easter egg hint in console
         console.log('💡 Hint: Try the Konami Code... ↑↑↓↓←→←→BA');
