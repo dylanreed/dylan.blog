@@ -1,8 +1,9 @@
 {{ define "main" }}
 <div class="posts-container">
-    <div class="posts">
-        {{ range where .Site.RegularPages "Type" "post" }}
-        <article class="post {{ partial "category-class.html" . }}">
+    <div class="posts single-post-view">
+        {{ $posts := where .Site.RegularPages "Type" "post" }}
+        {{ range $index, $page := $posts }}
+        <article class="post {{ partial "category-class.html" . }}" data-post-index="{{ $index }}" {{ if ne $index 0 }}style="display: none;"{{ end }}>
             {{/* Sprite based on first category */}}
             {{ partial "post-sprite.html" . }}
 
@@ -38,17 +39,57 @@
         </article>
         {{ end }}
     </div>
+
+    {{/* Navigation arrows */}}
+    <nav class="post-nav-arrows">
+        <button class="nav-arrow nav-arrow-left" id="prevPost" disabled aria-label="Previous post">&larr;</button>
+        <span class="post-counter"><span id="currentPostNum">1</span> / <span id="totalPosts">{{ len $posts }}</span></span>
+        <button class="nav-arrow nav-arrow-right" id="nextPost" aria-label="Next post">&rarr;</button>
+    </nav>
 </div>
 
-{{/* Pagination */}}
-{{ if .Paginator }}
-<nav class="pagination">
-    {{ if .Paginator.HasPrev }}
-    <a href="{{ .Paginator.Prev.URL }}">&larr; Newer</a>
-    {{ end }}
-    {{ if .Paginator.HasNext }}
-    <a href="{{ .Paginator.Next.URL }}">Older &rarr;</a>
-    {{ end }}
-</nav>
-{{ end }}
+<script>
+(function() {
+    const posts = document.querySelectorAll('.single-post-view .post');
+    const prevBtn = document.getElementById('prevPost');
+    const nextBtn = document.getElementById('nextPost');
+    const currentNum = document.getElementById('currentPostNum');
+    const totalPosts = posts.length;
+    let currentIndex = 0;
+
+    function showPost(index) {
+        posts.forEach((post, i) => {
+            post.style.display = i === index ? 'flex' : 'none';
+        });
+        currentNum.textContent = index + 1;
+        prevBtn.disabled = index === 0;
+        nextBtn.disabled = index === totalPosts - 1;
+    }
+
+    prevBtn.addEventListener('click', function() {
+        if (currentIndex > 0) {
+            currentIndex--;
+            showPost(currentIndex);
+        }
+    });
+
+    nextBtn.addEventListener('click', function() {
+        if (currentIndex < totalPosts - 1) {
+            currentIndex++;
+            showPost(currentIndex);
+        }
+    });
+
+    // Keyboard navigation
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'ArrowLeft' && currentIndex > 0) {
+            currentIndex--;
+            showPost(currentIndex);
+        } else if (e.key === 'ArrowRight' && currentIndex < totalPosts - 1) {
+            currentIndex++;
+            showPost(currentIndex);
+        }
+    });
+})();
+</script>
 {{ end }}
