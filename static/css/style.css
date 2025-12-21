@@ -76,9 +76,22 @@ body {
     background: #6b4423;
 }
 
-/* Night mode - only changes background */
+/* Night mode */
 body.night {
     background-image: url("/background/3_night.png");
+}
+
+/* Night mode borders */
+body.night .posts-container,
+body.night .post-container,
+body.night .page-container,
+body.night .archive-container {
+    border-image-source: url("/tiles/dylanblogtileset_night.png");
+}
+
+/* Night mode headers */
+body.night .header-image {
+    filter: brightness(0.7) saturate(0.8) hue-rotate(10deg);
 }
 
 /* Header */
