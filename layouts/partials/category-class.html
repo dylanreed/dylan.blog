@@ -1,0 +1,6 @@
+{{/* Output category class for styling */}}
+{{- with .Params.categories -}}
+    {{- range first 1 . -}}
+category-{{ . | urlize }}
+    {{- end -}}
+{{- end -}}

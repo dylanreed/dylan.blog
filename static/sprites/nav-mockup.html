@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Mockup - Dylan.blog</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Georgia, serif;
+            min-height: 100vh;
+            image-rendering: pixelated;
+        }
+
+        .day {
+            background: linear-gradient(180deg, #87CEEB 0%, #c9e4f5 100%);
+        }
+
+        .night {
+            background: linear-gradient(180deg, #1a1a2e 0%, #16213e 100%);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h2 {
+            margin: 40px 0 20px;
+            color: #4a3020;
+        }
+
+        .night h2 {
+            color: #d4a056;
+        }
+
+        /* OPTION 1: Original image with image map */
+        .option1 {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .option1 img {
+            image-rendering: pixelated;
+            width: 512px;
+            height: auto;
+        }
+
+        .option1 a {
+            display: inline-block;
+        }
+
+        /* OPTION 2: Simple row of signs */
+        .option2 {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 20px;
+        }
+
+        .option2 .nav-sign {
+            text-decoration: none;
+            display: block;
+            transition: transform 0.15s ease;
+        }
+
+        .option2 .nav-sign:hover {
+            transform: rotate(-4deg) translateY(-3px);
+        }
+
+        .option2 .nav-sign img {
+            height: 120px;
+            width: auto;
+            image-rendering: pixelated;
+        }
+
+        /* OPTION 3: Signs hanging from iron rod */
+        .option3 {
+            position: relative;
+            padding: 40px 20px 20px;
+        }
+
+        .iron-rod {
+            width: 700px;
+            height: 8px;
+            background: linear-gradient(180deg, #5a4a3a 0%, #3a2a1a 50%, #2a1a0a 100%);
+            margin: 0 auto;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .option3 .signs {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            margin-top: -4px;
+        }
+
+        .option3 .nav-sign {
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: transform 0.15s ease;
+        }
+
+        .option3 .chain {
+            width: 4px;
+            height: 16px;
+            background: linear-gradient(90deg, #4a4a4a 0%, #7a7a7a 50%, #4a4a4a 100%);
+        }
+
+        .option3 .nav-sign:hover {
+            transform: rotate(-4deg);
+        }
+
+        .option3 .nav-sign img {
+            height: 100px;
+            width: auto;
+            image-rendering: pixelated;
+        }
+
+        /* Night mode */
+        .night .option1 img,
+        .night .option2 img,
+        .night .option3 img {
+            filter: brightness(0.5);
+        }
+
+        .mode-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background: #4a3020;
+            color: #f5e6d3;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body class="day">
+    <button class="mode-toggle" onclick="document.body.classList.toggle('day'); document.body.classList.toggle('night');">
+        Toggle Day/Night
+    </button>
+
+    <div class="container">
+        <h2>Option 1: Original image (use as-is)</h2>
+        <div class="option1">
+            <img src="nav-signs.png" alt="Navigation" usemap="#navmap">
+            <map name="navmap">
+                <area shape="rect" coords="20,180,140,290" href="#home" alt="Home">
+                <area shape="rect" coords="175,180,305,290" href="#about" alt="About">
+                <area shape="rect" coords="345,180,495,290" href="#archive" alt="Archive">
+                <area shape="rect" coords="20,340,175,450" href="#contact" alt="Contact">
+                <area shape="rect" coords="260,340,415,450" href="#photos" alt="Photos">
+            </map>
+        </div>
+
+        <h2>Option 2: Simple row (no bracket)</h2>
+        <div class="option2">
+            <a href="#" class="nav-sign"><img src="nav/home.png" alt="Home"></a>
+            <a href="#" class="nav-sign"><img src="nav/about.png" alt="About"></a>
+            <a href="#" class="nav-sign"><img src="nav/archive.png" alt="Archive"></a>
+            <a href="#" class="nav-sign"><img src="nav/contact.png" alt="Contact"></a>
+            <a href="#" class="nav-sign"><img src="nav/photos.png" alt="Photos"></a>
+        </div>
+
+        <h2>Option 3: Hanging from iron rod</h2>
+        <div class="option3">
+            <div class="iron-rod"></div>
+            <div class="signs">
+                <a href="#" class="nav-sign">
+                    <div class="chain"></div>
+                    <img src="nav/home.png" alt="Home">
+                </a>
+                <a href="#" class="nav-sign">
+                    <div class="chain"></div>
+                    <img src="nav/about.png" alt="About">
+                </a>
+                <a href="#" class="nav-sign">
+                    <div class="chain"></div>
+                    <img src="nav/archive.png" alt="Archive">
+                </a>
+                <a href="#" class="nav-sign">
+                    <div class="chain"></div>
+                    <img src="nav/contact.png" alt="Contact">
+                </a>
+                <a href="#" class="nav-sign">
+                    <div class="chain"></div>
+                    <img src="nav/photos.png" alt="Photos">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

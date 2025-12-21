@@ -1,0 +1,54 @@
+{{/* Get first category and determine sprite */}}
+{{ $category := "personal" }}
+{{ with .Params.categories }}
+    {{ $category = index . 0 | lower }}
+{{ end }}
+
+{{/* Map categories to sprites */}}
+{{ $spriteClass := "clem" }}
+{{ $spriteFile := "clem-personal.png" }}
+
+{{ if eq $category "health" }}
+    {{ $spriteClass = "cat" }}
+    {{ $spriteFile = "Cat - Health.png" }}
+{{ else if eq $category "tabletop" }}
+    {{ $spriteClass = "knight" }}
+    {{ $spriteFile = "knight - tabletop.png" }}
+{{ else if eq $category "gaming" }}
+    {{ $spriteClass = "dragon" }}
+    {{ $spriteFile = "Dragon - Tabletop.png" }}
+{{ else if eq $category "clowning" }}
+    {{ $spriteClass = "clown" }}
+    {{ $spriteFile = "clown - clown.png" }}
+{{ else if eq $category "tech" }}
+    {{ $spriteClass = "golem" }}
+    {{ $spriteFile = "golem - tech.png" }}
+{{ else if eq $category "writing" }}
+    {{ $spriteClass = "quill" }}
+    {{ $spriteFile = "quill - Writing.png" }}
+{{ else if eq $category "cooking" }}
+    {{ $spriteClass = "imp" }}
+    {{ $spriteFile = "imp - cooking.png" }}
+{{ else if eq $category "music" }}
+    {{ $spriteClass = "bard" }}
+    {{ $spriteFile = "bard - music.png" }}
+{{ else if eq $category "travel" }}
+    {{ $spriteClass = "adventure" }}
+    {{ $spriteFile = "Adventure - Travel.png" }}
+{{ else if eq $category "reading" }}
+    {{ $spriteClass = "book" }}
+    {{ $spriteFile = "book-reading.png" }}
+{{ else if eq $category "crafting" }}
+    {{ $spriteClass = "muse" }}
+    {{ $spriteFile = "Muse - Writing.png" }}
+{{ else if eq $category "adhd" }}
+    {{ $spriteClass = "adventure" }}
+    {{ $spriteFile = "Adventure - Travel.png" }}
+{{ else if eq $category "pets" }}
+    {{ $spriteClass = "cat" }}
+    {{ $spriteFile = "Cat - Health.png" }}
+{{ end }}
+
+<div class="post-sprite sprite-{{ $spriteClass }}">
+    <img src="/sprites/{{ $spriteFile }}" alt="">
+</div>
