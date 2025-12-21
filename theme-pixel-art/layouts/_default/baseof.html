@@ -126,13 +126,49 @@
                         break;
 
                     case 'help':
-                        if (window.chaos) {
-                            window.chaos.help();
-                            alert('Check the browser console (F12) for chaos commands!');
-                        }
+                        showHelpPopup();
                         break;
                 }
             });
+
+            // Help popup function
+            function showHelpPopup() {
+                // Remove existing popup if any
+                const existing = document.querySelector('.help-popup');
+                if (existing) existing.remove();
+
+                const popup = document.createElement('div');
+                popup.className = 'help-popup';
+                popup.innerHTML = `
+                    It's a website... why do you need help?
+                    <button class="help-popup-close">OK, fair enough</button>
+                `;
+
+                document.body.appendChild(popup);
+
+                // Trigger animation
+                requestAnimationFrame(() => {
+                    popup.classList.add('visible');
+                });
+
+                // Close button
+                popup.querySelector('.help-popup-close').addEventListener('click', () => {
+                    popup.classList.remove('visible');
+                    setTimeout(() => popup.remove(), 300);
+                    // Log chaos commands as a consolation
+                    if (window.chaos) {
+                        window.chaos.help();
+                    }
+                });
+
+                // Click outside to close
+                popup.addEventListener('click', (e) => {
+                    if (e.target === popup) {
+                        popup.classList.remove('visible');
+                        setTimeout(() => popup.remove(), 300);
+                    }
+                });
+            }
         })();
     </script>
 
