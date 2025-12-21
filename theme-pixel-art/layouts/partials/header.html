@@ -1,6 +1,43 @@
+{{/* Determine header image based on category */}}
+{{ $headerImage := "/headers/home.png" }}
+{{ if .IsPage }}
+    {{ with .Params.categories }}
+        {{ $cat := index . 0 | lower }}
+        {{ if eq $cat "health" }}
+            {{ $headerImage = "/headers/health.png" }}
+        {{ else if eq $cat "tabletop" }}
+            {{ $headerImage = "/headers/tabletop.png" }}
+        {{ else if eq $cat "gaming" }}
+            {{ $headerImage = "/headers/tabletop.png" }}
+        {{ else if eq $cat "personal" }}
+            {{ $headerImage = "/headers/clown.png" }}
+        {{ else if eq $cat "writing" }}
+            {{ $headerImage = "/headers/writing.png" }}
+        {{ else if eq $cat "cooking" }}
+            {{ $headerImage = "/headers/cooking.png" }}
+        {{ else if eq $cat "music" }}
+            {{ $headerImage = "/headers/music.png" }}
+        {{ else if eq $cat "travel" }}
+            {{ $headerImage = "/headers/travel.png" }}
+        {{ else if eq $cat "reading" }}
+            {{ $headerImage = "/headers/reading.png" }}
+        {{ else if eq $cat "crafting" }}
+            {{ $headerImage = "/headers/crafting.png" }}
+        {{ else if eq $cat "adhd" }}
+            {{ $headerImage = "/headers/health.png" }}
+        {{ else if eq $cat "pets" }}
+            {{ $headerImage = "/headers/garden.png" }}
+        {{ else if eq $cat "tech" }}
+            {{ $headerImage = "/headers/tech.png" }}
+        {{ else }}
+            {{ $headerImage = "/headers/default.png" }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+
 <header class="site-header">
     <div class="header-container">
-        <div class="header-image">
+        <div class="header-image" style="background-image: url('{{ $headerImage }}');">
             <h1 class="site-title">
                 <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
             </h1>

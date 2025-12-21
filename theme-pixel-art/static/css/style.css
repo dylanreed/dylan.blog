@@ -20,10 +20,11 @@ body {
 .site-nav {
     max-width: 964px;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0 40px;
     margin-top: -20px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 40px;
 }
 
 .nav-sign {
@@ -201,6 +202,14 @@ body.night {
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
+    text-decoration: none;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.post-tag:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    color: #f5e6d3;
 }
 
 .post-title {
@@ -987,6 +996,13 @@ body.night {
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
+    text-decoration: none;
+    transition: transform 0.15s ease;
+}
+
+.archive-tag:hover {
+    transform: translateY(-1px);
+    color: #f5e6d3;
 }
 
 /* Responsive */

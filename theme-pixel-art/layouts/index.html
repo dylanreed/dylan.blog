@@ -7,10 +7,10 @@
             {{ partial "post-sprite.html" . }}
 
             <div class="post-body">
-                {{/* Category tag */}}
+                {{/* Category tag - links to category page */}}
                 {{ with .Params.categories }}
                     {{ range first 1 . }}
-                    <span class="post-tag">{{ . }}</span>
+                    <a href="/categories/{{ . | urlize }}/" class="post-tag">{{ . }}</a>
                     {{ end }}
                 {{ end }}
 

@@ -1,55 +1,36 @@
-<!doctype html>
-  <html lang="en">
-  <head>
-      {{- partial "head.html" . -}}
-  </head>
-  <body class="day">
-      <button class="mode-toggle" onclick="document.body.classList.toggle('day'); document.body.classList.toggle('night');">
-          Toggle Day/Night
-      </button>
+{{ define "main" }}
+<article class="post-container {{ partial "category-class.html" . }}">
+    <header class="post-header">
+        {{/* Larger sprite for single post view */}}
+        {{ partial "post-sprite-large.html" . }}
 
-      {{- partial "header.html" . -}}
+        <div class="post-header-content">
+            {{/* Category tag - links to category page */}}
+            {{ with .Params.categories }}
+                {{ range first 1 . }}
+                <a href="/categories/{{ . | urlize }}/" class="post-tag">{{ . }}</a>
+                {{ end }}
+            {{ end }}
 
-      <main class="main-content">
-          <article class="post-container {{ partial "category-class.html" . }}">
-              <header class="post-header">
-                  {{/* Larger sprite for single post view */}}
-                  {{ partial "post-sprite-large.html" . }}
+            {{/* Post title */}}
+            {{ if .Title }}
+            <h1 class="post-title">{{ .Title }}</h1>
+            {{ end }}
 
-                  <div class="post-header-content">
-                      {{/* Category tag */}}
-                      {{ with .Params.categories }}
-                          {{ range first 1 . }}
-                          <span class="post-tag">{{ . }}</span>
-                          {{ end }}
-                      {{ end }}
+            {{/* Post date */}}
+            <div class="post-meta">{{ .Date.Format "January 2, 2006" }}</div>
+        </div>
+    </header>
 
-                      {{/* Post title */}}
-                      {{ if .Title }}
-                      <h1 class="post-title">{{ .Title }}</h1>
-                      {{ end }}
+    <div class="post-content">
+        {{ .Content }}
+    </div>
 
-                      {{/* Post date */}}
-                      <div class="post-meta">{{ .Date.Format "January 2, 2006" }}</div>
-                  </div>
-              </header>
-
-              <div class="post-content">
-                  {{ .Content }}
-              </div>
-
-              {{/* Conversations/Webmentions */}}
-              {{ if .Site.Params.conversation }}
-              <div id="conversation">
-                  <script type="text/javascript" src="https://micro.blog/conversation.js?url={{ .Permalink }}"></script>
-              </div>
-              {{ end }}
-          </article>
-      </main>
-
-      {{- partial "footer.html" . -}}
-
-      {{ partial "custom_footer.html" . }}
-      {{ partial "plugin_js.html" . }}
-  </body>
-  </html>
+    {{/* Conversations/Webmentions */}}
+    {{ if .Site.Params.conversation }}
+    <div id="conversation">
+        <script type="text/javascript" src="https://micro.blog/conversation.js?url={{ .Permalink }}"></script>
+    </div>
+    {{ end }}
+</article>
+{{ end }}
