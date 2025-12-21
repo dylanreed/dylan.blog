@@ -4,13 +4,36 @@
     {{ $category = index . 0 | lower }}
 {{ end }}
 
-{{/* Map categories to sprites */}}
+{{/* Check if this is archive view */}}
+{{ $isArchive := false }}
+{{ if .isArchive }}
+    {{ $isArchive = true }}
+{{ end }}
+
+{{/* Map categories to sprites - canonical list
+     Category        Sprite Class    Sprite File
+     ------------------------------------------------
+     health          skele           skele-health.png
+     tabletop        knight          knight - tabletop.png
+     gaming          dragon          Dragon - Tabletop.png
+     clowning        clown           clown - clown.png
+     tech            wizard          wizard-tech.png
+     writing         quill           quill - Writing.png
+     cooking         cauldron        cauldren - cooking.png
+     music           banjo           banjo - music.png
+     travel          donkey          Donkey - Travel.png
+     reading         book            book-reading.png
+     crafting        muse            Muse - Writing.png
+     adhd            donkey          Donkey - Travel.png
+     pets            cat             Cat - Health.png
+     personal        clem            clem-personal.png (default)
+*/}}
 {{ $spriteClass := "clem" }}
 {{ $spriteFile := "clem-personal.png" }}
 
 {{ if eq $category "health" }}
-    {{ $spriteClass = "cat" }}
-    {{ $spriteFile = "Cat - Health.png" }}
+    {{ $spriteClass = "skele" }}
+    {{ $spriteFile = "skele-health.png" }}
 {{ else if eq $category "tabletop" }}
     {{ $spriteClass = "knight" }}
     {{ $spriteFile = "knight - tabletop.png" }}
@@ -21,20 +44,20 @@
     {{ $spriteClass = "clown" }}
     {{ $spriteFile = "clown - clown.png" }}
 {{ else if eq $category "tech" }}
-    {{ $spriteClass = "golem" }}
-    {{ $spriteFile = "golem - tech.png" }}
+    {{ $spriteClass = "wizard" }}
+    {{ $spriteFile = "wizard-tech.png" }}
 {{ else if eq $category "writing" }}
     {{ $spriteClass = "quill" }}
     {{ $spriteFile = "quill - Writing.png" }}
 {{ else if eq $category "cooking" }}
-    {{ $spriteClass = "imp" }}
-    {{ $spriteFile = "imp - cooking.png" }}
+    {{ $spriteClass = "cauldron" }}
+    {{ $spriteFile = "cauldren - cooking.png" }}
 {{ else if eq $category "music" }}
-    {{ $spriteClass = "bard" }}
-    {{ $spriteFile = "bard - music.png" }}
+    {{ $spriteClass = "banjo" }}
+    {{ $spriteFile = "banjo - music.png" }}
 {{ else if eq $category "travel" }}
-    {{ $spriteClass = "adventure" }}
-    {{ $spriteFile = "Adventure - Travel.png" }}
+    {{ $spriteClass = "donkey" }}
+    {{ $spriteFile = "Donkey - Travel.png" }}
 {{ else if eq $category "reading" }}
     {{ $spriteClass = "book" }}
     {{ $spriteFile = "book-reading.png" }}
@@ -42,13 +65,16 @@
     {{ $spriteClass = "muse" }}
     {{ $spriteFile = "Muse - Writing.png" }}
 {{ else if eq $category "adhd" }}
-    {{ $spriteClass = "adventure" }}
-    {{ $spriteFile = "Adventure - Travel.png" }}
+    {{ $spriteClass = "donkey" }}
+    {{ $spriteFile = "Donkey - Travel.png" }}
 {{ else if eq $category "pets" }}
     {{ $spriteClass = "cat" }}
     {{ $spriteFile = "Cat - Health.png" }}
+{{ else if eq $category "personal" }}
+    {{ $spriteClass = "clem" }}
+    {{ $spriteFile = "clem-personal.png" }}
 {{ end }}
 
-<div class="post-sprite sprite-{{ $spriteClass }}">
+<div class="{{ if $isArchive }}archive-sprite{{ else }}post-sprite{{ end }} sprite-{{ $spriteClass }}">
     <img src="/sprites/{{ $spriteFile }}" alt="">
 </div>
