@@ -774,17 +774,26 @@ body.night .site-footer {
 }
 
 .sprite-knight ~ .post-body .post-title,
-.sprite-dragon ~ .post-body .post-title,
-.category-tabletop .post-title,
 .category-gaming .post-title {
     text-shadow:
         0 0 8px #40c8d8,
         2px 2px 0 rgba(255, 255, 255, 0.3);
 }
 .sprite-knight ~ .post-body .post-tag,
-.sprite-dragon ~ .post-body .post-tag,
-.category-tabletop .post-tag,
 .category-gaming .post-tag {
+    background: #40c8d8;
+    color: #1a3a3a;
+}
+
+.sprite-dragon ~ .post-body .post-title,
+.category-tabletop .post-title {
+    text-shadow:
+        0 0 8px #40c8d8,
+        2px 2px 0 rgba(255, 255, 255, 0.3);
+}
+
+.sprite-dragon ~ .post-body .post-tag,
+.category-tabletop .post-tag {
     background: #40c8d8;
     color: #1a3a3a;
 }
@@ -795,6 +804,7 @@ body.night .site-footer {
         0 0 8px #7050a0,
         2px 2px 0 rgba(255, 255, 255, 0.3);
 }
+
 .sprite-clown ~ .post-body .post-tag,
 .category-personal .post-tag {
     background: #7050a0;
@@ -802,27 +812,25 @@ body.night .site-footer {
 }
 
 .sprite-golem ~ .post-body .post-title,
-.sprite-wizard ~ .post-body .post-title,
 .category-tech .post-title {
     text-shadow:
         0 0 8px #6cd9e8,
         2px 2px 0 rgba(255, 255, 255, 0.3);
 }
 .sprite-golem ~ .post-body .post-tag,
-.sprite-wizard ~ .post-body .post-tag,
 .category-tech .post-tag {
     background: #6cd9e8;
     color: #1a3a3a;
 }
 
-.sprite-bard ~ .post-body .post-title,
+.sprite-wizard ~ .post-body .post-tag,
 .sprite-banjo ~ .post-body .post-title,
 .category-music .post-title {
     text-shadow:
         0 0 8px #e8c546,
         2px 2px 0 rgba(255, 255, 255, 0.3);
 }
-.sprite-bard ~ .post-body .post-tag,
+
 .sprite-banjo ~ .post-body .post-tag,
 .category-music .post-tag {
     background: #e8c546;
@@ -853,21 +861,30 @@ body.night .site-footer {
 }
 
 .sprite-quill ~ .post-body .post-title,
+.category-writing .post-title {
+    text-shadow:
+        0 0 8px #c4a060,
+        2px 2px 0 rgba(255, 255, 255, 0.3);
+}
+
+.sprite-quill ~ .post-body .post-tag,
+.category-writing .post-tag {
+    background: #c4a060;
+    color: #2a2010;
+}
+
 .sprite-muse ~ .post-body .post-title,
-.category-writing .post-title,
 .category-crafting .post-title {
     text-shadow:
         0 0 8px #c4a060,
         2px 2px 0 rgba(255, 255, 255, 0.3);
 }
-.sprite-quill ~ .post-body .post-tag,
+
 .sprite-muse ~ .post-body .post-tag,
-.category-writing .post-tag,
 .category-crafting .post-tag {
     background: #c4a060;
     color: #2a2010;
 }
-
 .sprite-cauldron ~ .post-body .post-title,
 .category-cooking .post-title {
     text-shadow:
