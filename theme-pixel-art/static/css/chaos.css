@@ -1,0 +1,824 @@
+/* ABOUTME: Chaos Goblin Mode - Maximum pixel art insanity */
+/* ABOUTME: CRT effects, particles, glitches, and pure visual mayhem */
+
+/* ═══════════════════════════════════════════════════════════════
+   CRT SCANLINE OVERLAY - That authentic retro monitor vibe
+   ═══════════════════════════════════════════════════════════════ */
+
+.crt-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 9999;
+    background: repeating-linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.03) 0px,
+        rgba(0, 0, 0, 0.03) 1px,
+        transparent 1px,
+        transparent 2px
+    );
+    animation: scanline-flicker 0.1s infinite;
+}
+
+.crt-overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(
+        ellipse at center,
+        transparent 0%,
+        rgba(0, 0, 0, 0.15) 90%,
+        rgba(0, 0, 0, 0.3) 100%
+    );
+}
+
+@keyframes scanline-flicker {
+    0% { opacity: 0.95; }
+    50% { opacity: 1; }
+    100% { opacity: 0.97; }
+}
+
+/* Scanline that moves down the screen */
+.crt-overlay::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.03);
+    animation: scanline-move 8s linear infinite;
+}
+
+@keyframes scanline-move {
+    0% { top: 0%; }
+    100% { top: 100%; }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   CHROMATIC ABERRATION - RGB split glitch effect
+   ═══════════════════════════════════════════════════════════════ */
+
+.glitch-hover {
+    position: relative;
+}
+
+.glitch-hover:hover {
+    animation: glitch-shake 0.3s ease-in-out;
+}
+
+.glitch-hover:hover::before,
+.glitch-hover:hover::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+
+.glitch-hover:hover::before {
+    color: #ff0000;
+    z-index: -1;
+    animation: glitch-red 0.3s ease-in-out infinite;
+}
+
+.glitch-hover:hover::after {
+    color: #00ffff;
+    z-index: -2;
+    animation: glitch-cyan 0.3s ease-in-out infinite;
+}
+
+@keyframes glitch-red {
+    0%, 100% { transform: translate(-2px, 0); }
+    25% { transform: translate(2px, -1px); }
+    50% { transform: translate(-1px, 2px); }
+    75% { transform: translate(1px, -2px); }
+}
+
+@keyframes glitch-cyan {
+    0%, 100% { transform: translate(2px, 0); }
+    25% { transform: translate(-2px, 1px); }
+    50% { transform: translate(1px, -2px); }
+    75% { transform: translate(-1px, 2px); }
+}
+
+@keyframes glitch-shake {
+    0%, 100% { transform: translate(0); }
+    10% { transform: translate(-2px, -1px); }
+    20% { transform: translate(2px, 1px); }
+    30% { transform: translate(-1px, 2px); }
+    40% { transform: translate(1px, -2px); }
+    50% { transform: translate(-2px, 1px); }
+    60% { transform: translate(2px, -1px); }
+    70% { transform: translate(-1px, -2px); }
+    80% { transform: translate(1px, 2px); }
+    90% { transform: translate(-2px, -1px); }
+}
+
+/* Post titles get chromatic aberration on hover */
+.post-title a:hover,
+.archive-title:hover,
+.page-title:hover {
+    animation: chromatic-shift 0.5s ease-in-out;
+    text-shadow:
+        -2px 0 #ff0000,
+        2px 0 #00ffff,
+        0 0 20px currentColor;
+}
+
+@keyframes chromatic-shift {
+    0%, 100% {
+        text-shadow: -2px 0 #ff0000, 2px 0 #00ffff, 0 0 20px currentColor;
+    }
+    25% {
+        text-shadow: 2px 0 #ff0000, -2px 0 #00ffff, 0 0 30px currentColor;
+    }
+    50% {
+        text-shadow: -3px 0 #ff0000, 3px 0 #00ffff, 0 0 25px currentColor;
+    }
+    75% {
+        text-shadow: 1px 0 #ff0000, -1px 0 #00ffff, 0 0 35px currentColor;
+    }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   SCREEN SHAKE - For dramatic interactions
+   ═══════════════════════════════════════════════════════════════ */
+
+.screen-shake {
+    animation: screen-shake 0.4s ease-in-out;
+}
+
+@keyframes screen-shake {
+    0%, 100% { transform: translate(0); }
+    10% { transform: translate(-5px, -3px) rotate(-0.5deg); }
+    20% { transform: translate(5px, 2px) rotate(0.5deg); }
+    30% { transform: translate(-4px, 4px) rotate(-0.3deg); }
+    40% { transform: translate(4px, -2px) rotate(0.3deg); }
+    50% { transform: translate(-3px, 3px) rotate(-0.2deg); }
+    60% { transform: translate(3px, -3px) rotate(0.2deg); }
+    70% { transform: translate(-2px, 2px) rotate(-0.1deg); }
+    80% { transform: translate(2px, -1px) rotate(0.1deg); }
+    90% { transform: translate(-1px, 1px); }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   FLOATING SPRITES - Ambient creatures drifting across screen
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Floating sprites go BEHIND content but above background */
+.floating-sprite {
+    position: fixed;
+    pointer-events: none;
+    z-index: 1; /* Behind content containers which are z-index: auto/higher */
+    image-rendering: pixelated;
+    opacity: 0.85;
+    filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.3));
+}
+
+.sprite-float-left {
+    animation: float-left 30s linear infinite;
+}
+
+.sprite-float-right {
+    animation: float-right 35s linear infinite;
+}
+
+.sprite-float-diagonal {
+    animation: float-diagonal 25s linear infinite;
+}
+
+.sprite-bob {
+    animation: sprite-bob 2s ease-in-out infinite;
+}
+
+@keyframes float-left {
+    0% {
+        transform: translateX(calc(100vw + 100px)) translateY(0);
+    }
+    100% {
+        transform: translateX(-100px) translateY(50px);
+    }
+}
+
+@keyframes float-right {
+    0% {
+        transform: translateX(-100px) translateY(0);
+    }
+    100% {
+        transform: translateX(calc(100vw + 100px)) translateY(-30px);
+    }
+}
+
+@keyframes float-diagonal {
+    0% {
+        transform: translate(-100px, 100vh);
+    }
+    100% {
+        transform: translate(calc(100vw + 100px), -100px);
+    }
+}
+
+@keyframes sprite-bob {
+    0%, 100% { transform: translateY(0) rotate(-2deg); }
+    50% { transform: translateY(-10px) rotate(2deg); }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   PARTICLE SYSTEM - Dust motes / Fireflies
+   ═══════════════════════════════════════════════════════════════ */
+
+.particle {
+    position: fixed;
+    pointer-events: none;
+    border-radius: 50%;
+    z-index: 100;
+}
+
+/* Day particles - golden dust motes */
+.particle-dust {
+    width: 3px;
+    height: 3px;
+    background: radial-gradient(circle, #f5e6d3 0%, #c4a060 50%, transparent 100%);
+    animation: particle-float 15s ease-in-out infinite;
+    opacity: 0.6;
+}
+
+/* Night particles - glowing fireflies */
+.particle-firefly {
+    width: 4px;
+    height: 4px;
+    background: radial-gradient(circle, #ffff80 0%, #80ff80 30%, transparent 70%);
+    box-shadow: 0 0 10px #80ff80, 0 0 20px #ffff80;
+    animation: firefly-glow 3s ease-in-out infinite, particle-float 20s ease-in-out infinite;
+}
+
+@keyframes particle-float {
+    0% {
+        transform: translate(0, 0) rotate(0deg);
+        opacity: 0;
+    }
+    10% {
+        opacity: 0.6;
+    }
+    90% {
+        opacity: 0.6;
+    }
+    100% {
+        transform: translate(100px, -200px) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+@keyframes firefly-glow {
+    0%, 100% {
+        opacity: 0.3;
+        box-shadow: 0 0 5px #80ff80, 0 0 10px #ffff80;
+    }
+    50% {
+        opacity: 1;
+        box-shadow: 0 0 15px #80ff80, 0 0 30px #ffff80, 0 0 45px #80ff80;
+    }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   MOUSE SPARKLE TRAIL - Pixel magic following cursor
+   ═══════════════════════════════════════════════════════════════ */
+
+.sparkle {
+    position: fixed;
+    pointer-events: none;
+    z-index: 10000;
+    width: 8px;
+    height: 8px;
+    image-rendering: pixelated;
+}
+
+.sparkle-star {
+    background: radial-gradient(circle, #fff 0%, #ffd700 30%, transparent 70%);
+    box-shadow: 0 0 6px #ffd700, 0 0 12px #fff;
+    animation: sparkle-fade 0.8s ease-out forwards;
+}
+
+.sparkle-pixel {
+    width: 4px;
+    height: 4px;
+    background: #ffd700;
+    box-shadow: 0 0 4px #ffd700;
+    animation: sparkle-pixel-fade 0.5s ease-out forwards;
+}
+
+@keyframes sparkle-fade {
+    0% {
+        transform: scale(1) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0) rotate(180deg);
+        opacity: 0;
+    }
+}
+
+@keyframes sparkle-pixel-fade {
+    0% {
+        transform: scale(1) translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0.5) translateY(-20px);
+        opacity: 0;
+    }
+}
+
+/* Night mode sparkles - cooler tones */
+body.night .sparkle-star {
+    background: radial-gradient(circle, #fff 0%, #80c0ff 30%, transparent 70%);
+    box-shadow: 0 0 6px #80c0ff, 0 0 12px #fff;
+}
+
+body.night .sparkle-pixel {
+    background: #80c0ff;
+    box-shadow: 0 0 4px #80c0ff;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   RAINBOW PRISMATIC MODE - Pure chaos
+   ═══════════════════════════════════════════════════════════════ */
+
+.rainbow-mode .site-title a,
+.rainbow-mode .post-title a,
+.rainbow-mode .category-title {
+    background: linear-gradient(
+        90deg,
+        #ff0000, #ff8000, #ffff00, #80ff00, #00ff00,
+        #00ff80, #00ffff, #0080ff, #0000ff, #8000ff,
+        #ff00ff, #ff0080, #ff0000
+    );
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: rainbow-scroll 3s linear infinite;
+}
+
+@keyframes rainbow-scroll {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 200% 50%; }
+}
+
+.rainbow-mode .post-tag,
+.rainbow-mode .archive-tag {
+    animation: rainbow-bg 2s linear infinite;
+}
+
+@keyframes rainbow-bg {
+    0% { filter: hue-rotate(0deg); }
+    100% { filter: hue-rotate(360deg); }
+}
+
+.rainbow-mode .header-image {
+    animation: rainbow-hue 5s linear infinite;
+}
+
+@keyframes rainbow-hue {
+    0% { filter: hue-rotate(0deg) saturate(1.2); }
+    100% { filter: hue-rotate(360deg) saturate(1.2); }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   VAPORWAVE GLITCH MODE - Aesthetic chaos
+   ═══════════════════════════════════════════════════════════════ */
+
+.vaporwave-mode {
+    filter: saturate(1.5) contrast(1.1);
+}
+
+.vaporwave-mode body {
+    background-blend-mode: color-dodge;
+}
+
+.vaporwave-mode .header-image {
+    filter: saturate(2) hue-rotate(280deg);
+    mix-blend-mode: screen;
+}
+
+.vaporwave-mode .posts-container,
+.vaporwave-mode .post-container,
+.vaporwave-mode .page-container,
+.vaporwave-mode .archive-container {
+    border-image-source: none;
+    border: 4px solid;
+    border-image: linear-gradient(45deg, #ff00ff, #00ffff, #ff00ff) 1;
+    animation: border-pulse 2s ease-in-out infinite;
+}
+
+@keyframes border-pulse {
+    0%, 100% { border-width: 4px; }
+    50% { border-width: 6px; }
+}
+
+.vaporwave-mode .post-title a,
+.vaporwave-mode .site-title a {
+    color: #ff00ff;
+    text-shadow:
+        3px 3px 0 #00ffff,
+        -1px -1px 0 #ff00ff,
+        0 0 30px #ff00ff;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   ANIMATED HEADER EFFECTS - Flickering magic
+   ═══════════════════════════════════════════════════════════════ */
+
+.header-candle-flicker {
+    animation: candle-flicker 0.1s infinite;
+}
+
+@keyframes candle-flicker {
+    0%, 100% { opacity: 1; filter: brightness(1); }
+    25% { opacity: 0.95; filter: brightness(1.05); }
+    50% { opacity: 0.98; filter: brightness(0.98); }
+    75% { opacity: 0.97; filter: brightness(1.02); }
+}
+
+/* Stars that twinkle in the header at night */
+.header-star {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: #fff;
+    border-radius: 50%;
+    animation: star-twinkle 2s ease-in-out infinite;
+}
+
+@keyframes star-twinkle {
+    0%, 100% { opacity: 0.3; transform: scale(1); }
+    50% { opacity: 1; transform: scale(1.5); box-shadow: 0 0 10px #fff; }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   BOUNCY SPRITES - Everything wobbles
+   ═══════════════════════════════════════════════════════════════ */
+
+.chaos-mode .post-sprite,
+.chaos-mode .archive-sprite {
+    animation: sprite-bounce 1s ease-in-out infinite;
+}
+
+@keyframes sprite-bounce {
+    0%, 100% { transform: translateY(0) scale(1); }
+    25% { transform: translateY(-5px) scale(1.02); }
+    50% { transform: translateY(0) scale(1); }
+    75% { transform: translateY(-3px) scale(1.01); }
+}
+
+.chaos-mode .nav-sign {
+    animation: sign-swing 3s ease-in-out infinite;
+}
+
+@keyframes sign-swing {
+    0%, 100% { transform: rotate(-2deg); }
+    50% { transform: rotate(2deg); }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   PORTAL VORTEX - Swirling background effect
+   ═══════════════════════════════════════════════════════════════ */
+
+.vortex-bg {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 200vmax;
+    height: 200vmax;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: -10;
+    opacity: 0.1;
+    background: conic-gradient(
+        from 0deg,
+        transparent 0deg,
+        #8b5a2b 30deg,
+        transparent 60deg,
+        #c4a060 90deg,
+        transparent 120deg,
+        #8b5a2b 150deg,
+        transparent 180deg,
+        #c4a060 210deg,
+        transparent 240deg,
+        #8b5a2b 270deg,
+        transparent 300deg,
+        #c4a060 330deg,
+        transparent 360deg
+    );
+    animation: vortex-spin 60s linear infinite;
+}
+
+body.night .vortex-bg {
+    background: conic-gradient(
+        from 0deg,
+        transparent 0deg,
+        #2a3a5a 30deg,
+        transparent 60deg,
+        #4a5a7a 90deg,
+        transparent 120deg,
+        #2a3a5a 150deg,
+        transparent 180deg,
+        #4a5a7a 210deg,
+        transparent 240deg,
+        #2a3a5a 270deg,
+        transparent 300deg,
+        #4a5a7a 330deg,
+        transparent 360deg
+    );
+}
+
+@keyframes vortex-spin {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   MAGICAL RUNES - Floating mystical symbols
+   ═══════════════════════════════════════════════════════════════ */
+
+.floating-rune {
+    position: fixed;
+    font-size: 24px;
+    opacity: 0.15;
+    pointer-events: none;
+    z-index: 50;
+    color: #8b5a2b;
+    text-shadow: 0 0 10px currentColor;
+    animation: rune-float 20s linear infinite, rune-pulse 3s ease-in-out infinite;
+}
+
+body.night .floating-rune {
+    color: #6080a0;
+    text-shadow: 0 0 15px #80c0ff;
+}
+
+@keyframes rune-float {
+    0% { transform: translateY(100vh) rotate(0deg); }
+    100% { transform: translateY(-100px) rotate(360deg); }
+}
+
+@keyframes rune-pulse {
+    0%, 100% { opacity: 0.1; }
+    50% { opacity: 0.25; }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   CLICK RIPPLE EFFECT - Pixel explosion on click
+   ═══════════════════════════════════════════════════════════════ */
+
+.click-ripple {
+    position: fixed;
+    pointer-events: none;
+    z-index: 10000;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #ffd700;
+    border-radius: 50%;
+    animation: ripple-expand 0.6s ease-out forwards;
+}
+
+@keyframes ripple-expand {
+    0% {
+        transform: translate(-50%, -50%) scale(0);
+        opacity: 1;
+        border-width: 3px;
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(4);
+        opacity: 0;
+        border-width: 1px;
+    }
+}
+
+body.night .click-ripple {
+    border-color: #80c0ff;
+    box-shadow: 0 0 20px #80c0ff;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   TYPEWRITER EFFECT - For dramatic reveals
+   ═══════════════════════════════════════════════════════════════ */
+
+.typewriter {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid #8b5a2b;
+    animation: typewriter 3s steps(20) forwards, blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typewriter {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: #8b5a2b; }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   CHAOS TOGGLE BUTTON - For activating maximum chaos
+   ═══════════════════════════════════════════════════════════════ */
+
+.chaos-toggle {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(135deg, #ff6b6b, #ffd93d, #6bcb77, #4d96ff, #9b59b6);
+    background-size: 300% 300%;
+    border: 3px solid #333;
+    border-radius: 0;
+    cursor: url('/cursors/hand.png'), pointer;
+    z-index: 1001;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: chaos-btn-bg 3s ease infinite;
+    box-shadow:
+        inset 2px 2px 0 rgba(255,255,255,0.3),
+        inset -2px -2px 0 rgba(0,0,0,0.3),
+        3px 3px 0 rgba(0,0,0,0.4);
+    transition: transform 0.1s ease;
+    image-rendering: pixelated;
+}
+
+.chaos-toggle:hover {
+    transform: scale(1.1) rotate(5deg);
+    animation: chaos-btn-bg 0.5s ease infinite;
+}
+
+.chaos-toggle:active {
+    transform: scale(0.95);
+}
+
+@keyframes chaos-btn-bg {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   WEATHER EFFECTS - Rain and snow
+   ═══════════════════════════════════════════════════════════════ */
+
+.rain-drop {
+    position: fixed;
+    width: 2px;
+    height: 15px;
+    background: linear-gradient(transparent, rgba(100, 150, 200, 0.6));
+    pointer-events: none;
+    z-index: 500;
+    animation: rain-fall 0.5s linear infinite;
+}
+
+@keyframes rain-fall {
+    0% { transform: translateY(-20px); opacity: 0; }
+    10% { opacity: 1; }
+    100% { transform: translateY(100vh); opacity: 0.3; }
+}
+
+.snow-flake {
+    position: fixed;
+    width: 6px;
+    height: 6px;
+    background: #fff;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 500;
+    box-shadow: 0 0 5px #fff;
+    animation: snow-fall 5s linear infinite;
+}
+
+@keyframes snow-fall {
+    0% {
+        transform: translateY(-20px) translateX(0) rotate(0deg);
+        opacity: 0;
+    }
+    10% { opacity: 1; }
+    100% {
+        transform: translateY(100vh) translateX(50px) rotate(360deg);
+        opacity: 0.5;
+    }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   KONAMI CODE REWARD - Secret unlocked state
+   ═══════════════════════════════════════════════════════════════ */
+
+.konami-unlocked {
+    animation: konami-flash 0.5s ease-out;
+}
+
+@keyframes konami-flash {
+    0%, 100% { filter: brightness(1); }
+    25% { filter: brightness(2) saturate(2); }
+    50% { filter: brightness(1.5) hue-rotate(180deg); }
+    75% { filter: brightness(2) saturate(2); }
+}
+
+.konami-text {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "MedievalSharp", cursive;
+    font-size: 48px;
+    color: #ffd700;
+    text-shadow:
+        0 0 20px #ffd700,
+        0 0 40px #ff8c00,
+        0 0 60px #ff0000,
+        4px 4px 0 #8b4513;
+    z-index: 99999;
+    animation: konami-reveal 2s ease-out forwards;
+    pointer-events: none;
+}
+
+@keyframes konami-reveal {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.5);
+    }
+    20% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.2);
+    }
+    40% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(1.5);
+    }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   EXTRA CHAOS - Misc insanity
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Make the diver leave a trail */
+.chaos-mode .diver {
+    filter: drop-shadow(0 0 10px #ffd700);
+}
+
+/* Pulsing footer */
+.chaos-mode .site-footer::before {
+    animation: footer-pulse 2s ease-in-out infinite;
+}
+
+@keyframes footer-pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.7; text-shadow: 0 0 20px currentColor; }
+}
+
+/* Wobbly mode toggle */
+.chaos-mode .mode-toggle {
+    animation: wobble 2s ease-in-out infinite;
+}
+
+@keyframes wobble {
+    0%, 100% { transform: rotate(0deg); }
+    25% { transform: rotate(3deg); }
+    75% { transform: rotate(-3deg); }
+}
+
+/* Breathing content area */
+.chaos-mode .posts-container,
+.chaos-mode .post-container,
+.chaos-mode .page-container {
+    animation: content-breathe 4s ease-in-out infinite;
+}
+
+@keyframes content-breathe {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.005); }
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}

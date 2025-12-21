@@ -1,0 +1,445 @@
+/* ABOUTME: Achievement system styling - pixel art badges and notifications */
+/* ABOUTME: Toast popups, panel UI, and Sierra-inspired achievement cards */
+
+/* ═══════════════════════════════════════════════════════════════
+   ACHIEVEMENT TOGGLE BUTTON
+   ═══════════════════════════════════════════════════════════════ */
+
+.achievement-toggle {
+    position: fixed;
+    bottom: 80px;
+    left: 20px;
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(180deg, #d4a030 0%, #a07820 100%);
+    border: 3px solid #6b4c10;
+    border-radius: 0;
+    cursor: url('/cursors/hand.png'), pointer;
+    z-index: 1001;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:
+        inset 2px 2px 0 #e8c040,
+        inset -2px -2px 0 #8b6010,
+        3px 3px 0 rgba(0, 0, 0, 0.4);
+    transition: transform 0.1s ease;
+    image-rendering: pixelated;
+}
+
+.achievement-toggle:hover {
+    transform: scale(1.1);
+    background: linear-gradient(180deg, #e4b040 0%, #b08830 100%);
+}
+
+.achievement-toggle:active {
+    transform: scale(0.95);
+}
+
+.achievement-badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    min-width: 20px;
+    height: 20px;
+    background: #e74c3c;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: "MedievalSharp", cursive;
+    border: 2px solid #a03020;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 4px;
+    box-shadow: 2px 2px 0 rgba(0,0,0,0.3);
+}
+
+/* Night mode toggle */
+body.night .achievement-toggle {
+    background: linear-gradient(180deg, #4a5a7a 0%, #2a3a5a 100%);
+    border-color: #1a2540;
+    box-shadow:
+        inset 2px 2px 0 #6a7a9a,
+        inset -2px -2px 0 #1a2a4a,
+        3px 3px 0 rgba(0, 0, 0, 0.5),
+        0 0 15px rgba(100, 150, 255, 0.2);
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   ACHIEVEMENT PANEL
+   ═══════════════════════════════════════════════════════════════ */
+
+.achievement-panel {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
+    width: 90%;
+    max-width: 600px;
+    max-height: 80vh;
+    background: linear-gradient(180deg, #f5e6d3 0%, #e8d4b8 100%);
+    border: 4px solid #5c3d1e;
+    box-shadow:
+        inset 3px 3px 0 #fff8e8,
+        inset -3px -3px 0 #c4a480,
+        8px 8px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10000;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    image-rendering: pixelated;
+    overflow: hidden;
+}
+
+.achievement-panel.open {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+/* Night mode panel */
+body.night .achievement-panel {
+    background: linear-gradient(180deg, #3a4050 0%, #2a3040 100%);
+    border-color: #1a2030;
+    box-shadow:
+        inset 3px 3px 0 #4a5060,
+        inset -3px -3px 0 #1a2030,
+        8px 8px 0 rgba(0, 0, 0, 0.5),
+        0 0 30px rgba(100, 150, 255, 0.2);
+}
+
+/* Panel Header */
+.achievement-panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background: linear-gradient(180deg, #8b5a2b 0%, #6b4423 100%);
+    border-bottom: 3px solid #4a3018;
+}
+
+.achievement-panel-header h2 {
+    font-family: "MedievalSharp", cursive;
+    font-size: 24px;
+    color: #f5e6d3;
+    margin: 0;
+    text-shadow: 2px 2px 0 rgba(0,0,0,0.5);
+}
+
+.achievement-panel-stats {
+    display: flex;
+    gap: 15px;
+    font-family: "MedievalSharp", cursive;
+    font-size: 14px;
+    color: #e8d4b8;
+}
+
+.achievement-panel-close {
+    width: 32px;
+    height: 32px;
+    background: linear-gradient(180deg, #c0392b 0%, #96281b 100%);
+    border: 2px solid #6b1810;
+    color: #fff;
+    font-size: 16px;
+    cursor: url('/cursors/hand.png'), pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:
+        inset 1px 1px 0 #e74c3c,
+        inset -1px -1px 0 #7b2018;
+    transition: transform 0.1s ease;
+}
+
+.achievement-panel-close:hover {
+    transform: scale(1.1);
+}
+
+body.night .achievement-panel-header {
+    background: linear-gradient(180deg, #3a4a6a 0%, #2a3a5a 100%);
+    border-bottom-color: #1a2540;
+}
+
+/* Panel Content */
+.achievement-panel-content {
+    padding: 15px;
+    overflow-y: auto;
+    max-height: calc(80vh - 70px);
+}
+
+/* Category Sections */
+.achievement-category {
+    margin-bottom: 20px;
+}
+
+.achievement-category h3 {
+    font-family: "MedievalSharp", cursive;
+    font-size: 18px;
+    color: #5c3d2e;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #8b5a2b;
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.5);
+}
+
+body.night .achievement-category h3 {
+    color: #a0b0c0;
+    border-bottom-color: #4a5a6a;
+}
+
+/* Achievement Grid */
+.achievement-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Individual Achievement */
+.achievement-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 12px;
+    background: linear-gradient(180deg, #fff8e8 0%, #f0e4d0 100%);
+    border: 2px solid #c4a480;
+    transition: all 0.15s ease;
+}
+
+.achievement-item.locked {
+    opacity: 0.6;
+    filter: grayscale(0.5);
+}
+
+.achievement-item.unlocked {
+    background: linear-gradient(180deg, #d4f0d4 0%, #b8e0b8 100%);
+    border-color: #5a9a5a;
+    box-shadow: inset 0 0 10px rgba(100, 200, 100, 0.2);
+}
+
+.achievement-item:hover {
+    transform: translateX(5px);
+}
+
+body.night .achievement-item {
+    background: linear-gradient(180deg, #3a4050 0%, #2a3545 100%);
+    border-color: #4a5a6a;
+}
+
+body.night .achievement-item.unlocked {
+    background: linear-gradient(180deg, #2a4a3a 0%, #1a3a2a 100%);
+    border-color: #3a6a4a;
+}
+
+.achievement-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.achievement-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.achievement-name {
+    font-family: "MedievalSharp", cursive;
+    font-size: 16px;
+    color: #4a3020;
+    margin-bottom: 2px;
+}
+
+body.night .achievement-name {
+    color: #d0d8e0;
+}
+
+.achievement-desc {
+    font-size: 12px;
+    color: #8b7060;
+    line-height: 1.3;
+}
+
+body.night .achievement-desc {
+    color: #8090a0;
+}
+
+.achievement-points {
+    font-family: "MedievalSharp", cursive;
+    font-size: 14px;
+    color: #d4a030;
+    white-space: nowrap;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+}
+
+body.night .achievement-points {
+    color: #e8c050;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   ACHIEVEMENT TOAST NOTIFICATION
+   ═══════════════════════════════════════════════════════════════ */
+
+.achievement-toast {
+    position: fixed;
+    top: 20px;
+    right: -400px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 20px;
+    background: linear-gradient(180deg, #2a1a10 0%, #1a0a00 100%);
+    border: 4px solid #d4a030;
+    box-shadow:
+        inset 2px 2px 0 #4a3020,
+        inset -2px -2px 0 #0a0500,
+        0 0 30px rgba(212, 160, 48, 0.5),
+        6px 6px 0 rgba(0, 0, 0, 0.4);
+    z-index: 100000;
+    transition: right 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    image-rendering: pixelated;
+}
+
+.achievement-toast-show {
+    right: 20px;
+}
+
+.achievement-toast-hide {
+    right: -400px;
+    opacity: 0;
+}
+
+.achievement-toast-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #d4a030 0%, #a07820 100%);
+    border: 3px solid #6b4c10;
+    box-shadow:
+        inset 2px 2px 0 #e8c040,
+        inset -2px -2px 0 #8b6010,
+        0 0 20px rgba(212, 160, 48, 0.6);
+    animation: toast-icon-pulse 1s ease-in-out infinite;
+}
+
+@keyframes toast-icon-pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+}
+
+.achievement-toast-content {
+    flex: 1;
+}
+
+.achievement-toast-title {
+    font-family: "MedievalSharp", cursive;
+    font-size: 12px;
+    color: #d4a030;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 4px;
+    animation: toast-title-glow 1s ease-in-out infinite;
+}
+
+@keyframes toast-title-glow {
+    0%, 100% { text-shadow: 0 0 10px #d4a030; }
+    50% { text-shadow: 0 0 20px #d4a030, 0 0 30px #ffd700; }
+}
+
+.achievement-toast-name {
+    font-family: "MedievalSharp", cursive;
+    font-size: 20px;
+    color: #f5e6d3;
+    text-shadow: 2px 2px 0 rgba(0,0,0,0.8);
+    margin-bottom: 4px;
+}
+
+.achievement-toast-desc {
+    font-size: 12px;
+    color: #a08060;
+    line-height: 1.3;
+}
+
+.achievement-toast-points {
+    font-family: "MedievalSharp", cursive;
+    font-size: 16px;
+    color: #4ade80;
+    margin-top: 5px;
+    text-shadow: 0 0 10px rgba(74, 222, 128, 0.5);
+}
+
+/* Toast entrance animation extras */
+.achievement-toast-show::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background: linear-gradient(45deg, transparent, rgba(212, 160, 48, 0.3), transparent);
+    animation: toast-shine 1s ease-out;
+    pointer-events: none;
+}
+
+@keyframes toast-shine {
+    0% {
+        transform: translateX(-100%);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   RESPONSIVE
+   ═══════════════════════════════════════════════════════════════ */
+
+@media (max-width: 768px) {
+    .achievement-panel {
+        width: 95%;
+        max-height: 85vh;
+    }
+
+    .achievement-toast {
+        width: calc(100% - 40px);
+        right: -100%;
+    }
+
+    .achievement-toast-show {
+        right: 20px;
+    }
+
+    .achievement-toast-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 32px;
+    }
+
+    .achievement-toggle {
+        bottom: 140px;
+    }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   REDUCED MOTION
+   ═══════════════════════════════════════════════════════════════ */
+
+@media (prefers-reduced-motion: reduce) {
+    .achievement-toast,
+    .achievement-panel,
+    .achievement-toast-icon,
+    .achievement-toast-title {
+        animation: none;
+        transition-duration: 0.01ms;
+    }
+}

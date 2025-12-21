@@ -1,0 +1,410 @@
+/* ABOUTME: Sierra-style dropdown control panel that slides down from top on hover
+   ABOUTME: Contains all UI buttons (theme toggle, chaos, achievements, etc.) */
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   TRIGGER ZONE - invisible area at top that activates dropdown
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.sierra-trigger {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    height: 20px;
+    z-index: 9998;
+    cursor: pointer;
+}
+
+/* Small tab indicator showing panel is available */
+.sierra-trigger::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 8px;
+    background: linear-gradient(to bottom, #8b6914, #6b4f0f);
+    border-radius: 0 0 4px 4px;
+    box-shadow:
+        inset 0 -2px 0 rgba(0,0,0,0.3),
+        0 2px 4px rgba(0,0,0,0.4);
+    transition: height 0.2s ease, width 0.2s ease;
+}
+
+.sierra-trigger:hover::after,
+.sierra-panel:hover + .sierra-trigger::after,
+.sierra-trigger:has(+ .sierra-panel:hover)::after {
+    height: 12px;
+    width: 80px;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   MAIN PANEL - the dropdown container
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.sierra-panel {
+    position: fixed;
+    top: -180px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    transition: top 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    image-rendering: pixelated;
+}
+
+/* Show panel on trigger hover or panel hover */
+.sierra-trigger:hover + .sierra-panel,
+.sierra-panel:hover {
+    top: 0;
+}
+
+/* Panel background - leather/wood banner style */
+.sierra-panel-bg {
+    background: linear-gradient(to bottom,
+        #5c3d1e 0%,
+        #4a3218 8%,
+        #3d2912 15%,
+        #4a3218 50%,
+        #3d2912 85%,
+        #4a3218 92%,
+        #5c3d1e 100%
+    );
+    border: 4px solid #2a1a0a;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    padding: 12px 16px 16px;
+    box-shadow:
+        inset 0 4px 8px rgba(139, 105, 20, 0.3),
+        inset 0 -2px 4px rgba(0, 0, 0, 0.4),
+        0 8px 24px rgba(0, 0, 0, 0.6),
+        0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Decorative nail/rivet accents */
+.sierra-panel-bg::before,
+.sierra-panel-bg::after {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: radial-gradient(circle at 30% 30%, #c9a227, #8b6914, #5c3d1e);
+    border-radius: 50%;
+    box-shadow:
+        inset -1px -1px 2px rgba(0,0,0,0.5),
+        0 1px 2px rgba(0,0,0,0.3);
+    top: 16px;
+}
+
+.sierra-panel-bg::before {
+    left: 12px;
+}
+
+.sierra-panel-bg::after {
+    right: 12px;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   TITLE BAR - the leather nameplate at top
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.sierra-title {
+    background: linear-gradient(to bottom,
+        #6b4423 0%,
+        #5a3a1e 20%,
+        #4d3119 50%,
+        #5a3a1e 80%,
+        #6b4423 100%
+    );
+    border: 3px solid #2a1a0a;
+    border-radius: 4px;
+    padding: 6px 24px;
+    margin-bottom: 12px;
+    text-align: center;
+    box-shadow:
+        inset 0 2px 4px rgba(139, 105, 20, 0.2),
+        inset 0 -2px 4px rgba(0, 0, 0, 0.3),
+        0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.sierra-title span {
+    font-family: "MedievalSharp", cursive;
+    font-size: 14px;
+    color: #c9a227;
+    text-shadow:
+        1px 1px 0 #2a1a0a,
+        -1px -1px 0 #2a1a0a,
+        1px -1px 0 #2a1a0a,
+        -1px 1px 0 #2a1a0a,
+        0 2px 4px rgba(0,0,0,0.5);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   BUTTON GRID - container for the icon buttons
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.sierra-buttons {
+    display: grid;
+    grid-template-columns: repeat(6, 48px);
+    gap: 8px;
+    justify-content: center;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   INDIVIDUAL BUTTONS - parchment-style with pixel icons
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.sierra-btn {
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(135deg,
+        #e8dcc4 0%,
+        #d4c4a8 25%,
+        #c9b896 50%,
+        #d4c4a8 75%,
+        #e8dcc4 100%
+    );
+    border: 3px solid #8b7355;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.15s ease;
+    box-shadow:
+        inset 2px 2px 0 rgba(255,255,255,0.3),
+        inset -2px -2px 0 rgba(0,0,0,0.15),
+        0 2px 4px rgba(0,0,0,0.3);
+    position: relative;
+    image-rendering: pixelated;
+}
+
+.sierra-btn:hover {
+    background: linear-gradient(135deg,
+        #f5ead6 0%,
+        #e8dcc4 25%,
+        #ddd0b4 50%,
+        #e8dcc4 75%,
+        #f5ead6 100%
+    );
+    transform: translateY(-2px);
+    box-shadow:
+        inset 2px 2px 0 rgba(255,255,255,0.4),
+        inset -2px -2px 0 rgba(0,0,0,0.1),
+        0 4px 8px rgba(0,0,0,0.4);
+}
+
+.sierra-btn:active {
+    transform: translateY(1px);
+    box-shadow:
+        inset -2px -2px 0 rgba(255,255,255,0.3),
+        inset 2px 2px 0 rgba(0,0,0,0.15),
+        0 1px 2px rgba(0,0,0,0.3);
+}
+
+/* Button icons */
+.sierra-btn img {
+    width: 32px;
+    height: 32px;
+    image-rendering: pixelated;
+    filter: sepia(0.3) saturate(1.2);
+}
+
+.sierra-btn .btn-icon {
+    font-size: 24px;
+    line-height: 1;
+}
+
+/* Active state for toggleable buttons */
+.sierra-btn.active {
+    background: linear-gradient(135deg,
+        #c9a227 0%,
+        #a8872a 25%,
+        #8b6914 50%,
+        #a8872a 75%,
+        #c9a227 100%
+    );
+    border-color: #5c3d1e;
+}
+
+.sierra-btn.active img {
+    filter: brightness(1.2) sepia(0.2);
+}
+
+/* Tooltip on hover */
+.sierra-btn::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: -28px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #2a1a0a;
+    color: #c9a227;
+    font-family: "MedievalSharp", cursive;
+    font-size: 10px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    z-index: 10;
+}
+
+.sierra-btn:hover::after {
+    opacity: 1;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   SPECIFIC BUTTON STATES
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* Night mode button */
+.sierra-btn[data-action="theme"] .btn-icon.sun { display: none; }
+.sierra-btn[data-action="theme"] .btn-icon.moon { display: block; }
+
+body.night .sierra-btn[data-action="theme"] .btn-icon.sun { display: block; }
+body.night .sierra-btn[data-action="theme"] .btn-icon.moon { display: none; }
+
+/* Chaos mode active */
+body.chaos-mode .sierra-btn[data-action="chaos"] {
+    animation: chaos-btn-pulse 1s ease-in-out infinite alternate;
+}
+
+@keyframes chaos-btn-pulse {
+    from {
+        box-shadow:
+            inset 2px 2px 0 rgba(255,255,255,0.3),
+            inset -2px -2px 0 rgba(0,0,0,0.15),
+            0 0 8px rgba(201, 162, 39, 0.5);
+    }
+    to {
+        box-shadow:
+            inset 2px 2px 0 rgba(255,255,255,0.3),
+            inset -2px -2px 0 rgba(0,0,0,0.15),
+            0 0 16px rgba(201, 162, 39, 0.8);
+    }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   NIGHT MODE ADJUSTMENTS
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+body.night .sierra-trigger::after {
+    background: linear-gradient(to bottom, #4a3a6a, #2d2245);
+}
+
+body.night .sierra-panel-bg {
+    background: linear-gradient(to bottom,
+        #3d2d5c 0%,
+        #2d2245 8%,
+        #251c3a 15%,
+        #2d2245 50%,
+        #251c3a 85%,
+        #2d2245 92%,
+        #3d2d5c 100%
+    );
+    border-color: #1a1230;
+}
+
+body.night .sierra-panel-bg::before,
+body.night .sierra-panel-bg::after {
+    background: radial-gradient(circle at 30% 30%, #8a7ab8, #5c4a8a, #3d2d5c);
+}
+
+body.night .sierra-title {
+    background: linear-gradient(to bottom,
+        #4a3a6a 0%,
+        #3d2d5c 20%,
+        #2d2245 50%,
+        #3d2d5c 80%,
+        #4a3a6a 100%
+    );
+    border-color: #1a1230;
+}
+
+body.night .sierra-title span {
+    color: #b8a8d8;
+    text-shadow:
+        1px 1px 0 #1a1230,
+        -1px -1px 0 #1a1230,
+        1px -1px 0 #1a1230,
+        -1px 1px 0 #1a1230,
+        0 2px 4px rgba(0,0,0,0.5);
+}
+
+body.night .sierra-btn {
+    background: linear-gradient(135deg,
+        #d8d0e8 0%,
+        #c4b8d4 25%,
+        #b8a8c8 50%,
+        #c4b8d4 75%,
+        #d8d0e8 100%
+    );
+    border-color: #6a5a8a;
+}
+
+body.night .sierra-btn:hover {
+    background: linear-gradient(135deg,
+        #e8e0f0 0%,
+        #d8d0e8 25%,
+        #ccc0dc 50%,
+        #d8d0e8 75%,
+        #e8e0f0 100%
+    );
+}
+
+body.night .sierra-btn.active {
+    background: linear-gradient(135deg,
+        #8a7ab8 0%,
+        #6a5a98 25%,
+        #5c4a8a 50%,
+        #6a5a98 75%,
+        #8a7ab8 100%
+    );
+    border-color: #3d2d5c;
+}
+
+body.night .sierra-btn::after {
+    background: #1a1230;
+    color: #b8a8d8;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   HIDE OLD FLOATING BUTTONS
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* Hide the old mode toggle and chaos toggle - they're now in the panel */
+.mode-toggle,
+.chaos-toggle,
+.achievements-toggle {
+    display: none !important;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   RESPONSIVE ADJUSTMENTS
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+@media (max-width: 480px) {
+    .sierra-buttons {
+        grid-template-columns: repeat(4, 44px);
+        gap: 6px;
+    }
+
+    .sierra-btn {
+        width: 44px;
+        height: 44px;
+    }
+
+    .sierra-btn img {
+        width: 28px;
+        height: 28px;
+    }
+
+    .sierra-trigger {
+        width: 300px;
+    }
+}
