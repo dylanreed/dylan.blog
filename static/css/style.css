@@ -101,10 +101,11 @@ body.night {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100px;
-    height: 88px;
-    background: url('/menu/wooden_sign_small.png') no-repeat center center;
-    background-size: contain;
+    min-width: 80px;
+    padding: 0 10px;
+    height: 100px;
+    background: url('/menu/wooden_sign.png') no-repeat center center;
+    background-size: 100% 100%;
     image-rendering: pixelated;
     text-decoration: none;
     transition: transform 0.15s ease;
@@ -112,11 +113,12 @@ body.night {
 
 .nav-sign span {
     font-family: "MedievalSharp", cursive;
-    font-size: 14px;
+    font-size: 13px;
     color: #4a3520;
     text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
-    padding-top: 20px; /* Offset for chain area */
+    padding-top: 28px; /* Offset for chain area */
     text-align: center;
+    line-height: 1.1;
 }
 
 .nav-sign:hover {
