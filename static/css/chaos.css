@@ -39,9 +39,15 @@
 }
 
 @keyframes scanline-flicker {
-    0% { opacity: 0.95; }
-    50% { opacity: 1; }
-    100% { opacity: 0.97; }
+    0% {
+        opacity: 0.95;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.97;
+    }
 }
 
 /* Scanline that moves down the screen */
@@ -57,8 +63,12 @@
 }
 
 @keyframes scanline-move {
-    0% { top: 0%; }
-    100% { top: 100%; }
+    0% {
+        top: 0%;
+    }
+    100% {
+        top: 100%;
+    }
 }
 
 /* ═══════════════════════════════════════════════════════════════
@@ -97,30 +107,69 @@
 }
 
 @keyframes glitch-red {
-    0%, 100% { transform: translate(-2px, 0); }
-    25% { transform: translate(2px, -1px); }
-    50% { transform: translate(-1px, 2px); }
-    75% { transform: translate(1px, -2px); }
+    0%,
+    100% {
+        transform: translate(-2px, 0);
+    }
+    25% {
+        transform: translate(2px, -1px);
+    }
+    50% {
+        transform: translate(-1px, 2px);
+    }
+    75% {
+        transform: translate(1px, -2px);
+    }
 }
 
 @keyframes glitch-cyan {
-    0%, 100% { transform: translate(2px, 0); }
-    25% { transform: translate(-2px, 1px); }
-    50% { transform: translate(1px, -2px); }
-    75% { transform: translate(-1px, 2px); }
+    0%,
+    100% {
+        transform: translate(2px, 0);
+    }
+    25% {
+        transform: translate(-2px, 1px);
+    }
+    50% {
+        transform: translate(1px, -2px);
+    }
+    75% {
+        transform: translate(-1px, 2px);
+    }
 }
 
 @keyframes glitch-shake {
-    0%, 100% { transform: translate(0); }
-    10% { transform: translate(-2px, -1px); }
-    20% { transform: translate(2px, 1px); }
-    30% { transform: translate(-1px, 2px); }
-    40% { transform: translate(1px, -2px); }
-    50% { transform: translate(-2px, 1px); }
-    60% { transform: translate(2px, -1px); }
-    70% { transform: translate(-1px, -2px); }
-    80% { transform: translate(1px, 2px); }
-    90% { transform: translate(-2px, -1px); }
+    0%,
+    100% {
+        transform: translate(0);
+    }
+    10% {
+        transform: translate(-2px, -1px);
+    }
+    20% {
+        transform: translate(2px, 1px);
+    }
+    30% {
+        transform: translate(-1px, 2px);
+    }
+    40% {
+        transform: translate(1px, -2px);
+    }
+    50% {
+        transform: translate(-2px, 1px);
+    }
+    60% {
+        transform: translate(2px, -1px);
+    }
+    70% {
+        transform: translate(-1px, -2px);
+    }
+    80% {
+        transform: translate(1px, 2px);
+    }
+    90% {
+        transform: translate(-2px, -1px);
+    }
 }
 
 /* Post titles get chromatic aberration on hover */
@@ -135,17 +184,30 @@
 }
 
 @keyframes chromatic-shift {
-    0%, 100% {
-        text-shadow: -2px 0 #ff0000, 2px 0 #00ffff, 0 0 20px currentColor;
+    0%,
+    100% {
+        text-shadow:
+            -2px 0 #ff0000,
+            2px 0 #00ffff,
+            0 0 20px currentColor;
     }
     25% {
-        text-shadow: 2px 0 #ff0000, -2px 0 #00ffff, 0 0 30px currentColor;
+        text-shadow:
+            2px 0 #ff0000,
+            -2px 0 #00ffff,
+            0 0 30px currentColor;
     }
     50% {
-        text-shadow: -3px 0 #ff0000, 3px 0 #00ffff, 0 0 25px currentColor;
+        text-shadow:
+            -3px 0 #ff0000,
+            3px 0 #00ffff,
+            0 0 25px currentColor;
     }
     75% {
-        text-shadow: 1px 0 #ff0000, -1px 0 #00ffff, 0 0 35px currentColor;
+        text-shadow:
+            1px 0 #ff0000,
+            -1px 0 #00ffff,
+            0 0 35px currentColor;
     }
 }
 
@@ -158,16 +220,37 @@
 }
 
 @keyframes screen-shake {
-    0%, 100% { transform: translate(0); }
-    10% { transform: translate(-5px, -3px) rotate(-0.5deg); }
-    20% { transform: translate(5px, 2px) rotate(0.5deg); }
-    30% { transform: translate(-4px, 4px) rotate(-0.3deg); }
-    40% { transform: translate(4px, -2px) rotate(0.3deg); }
-    50% { transform: translate(-3px, 3px) rotate(-0.2deg); }
-    60% { transform: translate(3px, -3px) rotate(0.2deg); }
-    70% { transform: translate(-2px, 2px) rotate(-0.1deg); }
-    80% { transform: translate(2px, -1px) rotate(0.1deg); }
-    90% { transform: translate(-1px, 1px); }
+    0%,
+    100% {
+        transform: translate(0);
+    }
+    10% {
+        transform: translate(-5px, -3px) rotate(-0.5deg);
+    }
+    20% {
+        transform: translate(5px, 2px) rotate(0.5deg);
+    }
+    30% {
+        transform: translate(-4px, 4px) rotate(-0.3deg);
+    }
+    40% {
+        transform: translate(4px, -2px) rotate(0.3deg);
+    }
+    50% {
+        transform: translate(-3px, 3px) rotate(-0.2deg);
+    }
+    60% {
+        transform: translate(3px, -3px) rotate(0.2deg);
+    }
+    70% {
+        transform: translate(-2px, 2px) rotate(-0.1deg);
+    }
+    80% {
+        transform: translate(2px, -1px) rotate(0.1deg);
+    }
+    90% {
+        transform: translate(-1px, 1px);
+    }
 }
 
 /* ═══════════════════════════════════════════════════════════════
@@ -181,7 +264,7 @@
     z-index: -1; /* Behind all content - negative to go under positioned elements */
     image-rendering: pixelated;
     opacity: 0.7;
-    filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.3));
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
 }
 
 .sprite-float-left {
@@ -228,8 +311,13 @@
 }
 
 @keyframes sprite-bob {
-    0%, 100% { transform: translateY(0) rotate(-2deg); }
-    50% { transform: translateY(-10px) rotate(2deg); }
+    0%,
+    100% {
+        transform: translateY(0) rotate(-2deg);
+    }
+    50% {
+        transform: translateY(-10px) rotate(2deg);
+    }
 }
 
 /* ═══════════════════════════════════════════════════════════════
@@ -247,7 +335,12 @@
 .particle-dust {
     width: 3px;
     height: 3px;
-    background: radial-gradient(circle, #f5e6d3 0%, #c4a060 50%, transparent 100%);
+    background: radial-gradient(
+        circle,
+        #f5e6d3 0%,
+        #c4a060 50%,
+        transparent 100%
+    );
     animation: particle-float 15s ease-in-out infinite;
     opacity: 0.6;
 }
@@ -256,9 +349,18 @@
 .particle-firefly {
     width: 4px;
     height: 4px;
-    background: radial-gradient(circle, #ffff80 0%, #80ff80 30%, transparent 70%);
-    box-shadow: 0 0 10px #80ff80, 0 0 20px #ffff80;
-    animation: firefly-glow 3s ease-in-out infinite, particle-float 20s ease-in-out infinite;
+    background: radial-gradient(
+        circle,
+        #ffff80 0%,
+        #80ff80 30%,
+        transparent 70%
+    );
+    box-shadow:
+        0 0 10px #80ff80,
+        0 0 20px #ffff80;
+    animation:
+        firefly-glow 3s ease-in-out infinite,
+        particle-float 20s ease-in-out infinite;
 }
 
 @keyframes particle-float {
@@ -279,13 +381,19 @@
 }
 
 @keyframes firefly-glow {
-    0%, 100% {
+    0%,
+    100% {
         opacity: 0.3;
-        box-shadow: 0 0 5px #80ff80, 0 0 10px #ffff80;
+        box-shadow:
+            0 0 5px #80ff80,
+            0 0 10px #ffff80;
     }
     50% {
         opacity: 1;
-        box-shadow: 0 0 15px #80ff80, 0 0 30px #ffff80, 0 0 45px #80ff80;
+        box-shadow:
+            0 0 15px #80ff80,
+            0 0 30px #ffff80,
+            0 0 45px #80ff80;
     }
 }
 
@@ -304,7 +412,9 @@
 
 .sparkle-star {
     background: radial-gradient(circle, #fff 0%, #ffd700 30%, transparent 70%);
-    box-shadow: 0 0 6px #ffd700, 0 0 12px #fff;
+    box-shadow:
+        0 0 6px #ffd700,
+        0 0 12px #fff;
     animation: sparkle-fade 0.8s ease-out forwards;
 }
 
@@ -341,7 +451,9 @@
 /* Night mode sparkles - cooler tones */
 body.night .sparkle-star {
     background: radial-gradient(circle, #fff 0%, #80c0ff 30%, transparent 70%);
-    box-shadow: 0 0 6px #80c0ff, 0 0 12px #fff;
+    box-shadow:
+        0 0 6px #80c0ff,
+        0 0 12px #fff;
 }
 
 body.night .sparkle-pixel {
@@ -358,9 +470,19 @@ body.night .sparkle-pixel {
 .rainbow-mode .category-title {
     background: linear-gradient(
         90deg,
-        #ff0000, #ff8000, #ffff00, #80ff00, #00ff00,
-        #00ff80, #00ffff, #0080ff, #0000ff, #8000ff,
-        #ff00ff, #ff0080, #ff0000
+        #ff0000,
+        #ff8000,
+        #ffff00,
+        #80ff00,
+        #00ff00,
+        #00ff80,
+        #00ffff,
+        #0080ff,
+        #0000ff,
+        #8000ff,
+        #ff00ff,
+        #ff0080,
+        #ff0000
     );
     background-size: 200% 100%;
     -webkit-background-clip: text;
@@ -370,8 +492,12 @@ body.night .sparkle-pixel {
 }
 
 @keyframes rainbow-scroll {
-    0% { background-position: 0% 50%; }
-    100% { background-position: 200% 50%; }
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 200% 50%;
+    }
 }
 
 .rainbow-mode .post-tag,
@@ -380,8 +506,12 @@ body.night .sparkle-pixel {
 }
 
 @keyframes rainbow-bg {
-    0% { filter: hue-rotate(0deg); }
-    100% { filter: hue-rotate(360deg); }
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
 }
 
 .rainbow-mode .header-image {
@@ -389,8 +519,12 @@ body.night .sparkle-pixel {
 }
 
 @keyframes rainbow-hue {
-    0% { filter: hue-rotate(0deg) saturate(1.2); }
-    100% { filter: hue-rotate(360deg) saturate(1.2); }
+    0% {
+        filter: hue-rotate(0deg) saturate(1.2);
+    }
+    100% {
+        filter: hue-rotate(360deg) saturate(1.2);
+    }
 }
 
 /* ═══════════════════════════════════════════════════════════════
@@ -421,8 +555,13 @@ body.night .sparkle-pixel {
 }
 
 @keyframes border-pulse {
-    0%, 100% { border-width: 4px; }
-    50% { border-width: 6px; }
+    0%,
+    100% {
+        border-width: 4px;
+    }
+    50% {
+        border-width: 6px;
+    }
 }
 
 .vaporwave-mode .post-title a,
@@ -443,10 +582,23 @@ body.night .sparkle-pixel {
 }
 
 @keyframes candle-flicker {
-    0%, 100% { opacity: 1; filter: brightness(1); }
-    25% { opacity: 0.95; filter: brightness(1.05); }
-    50% { opacity: 0.98; filter: brightness(0.98); }
-    75% { opacity: 0.97; filter: brightness(1.02); }
+    0%,
+    100% {
+        opacity: 1;
+        filter: brightness(1);
+    }
+    25% {
+        opacity: 0.95;
+        filter: brightness(1.05);
+    }
+    50% {
+        opacity: 0.98;
+        filter: brightness(0.98);
+    }
+    75% {
+        opacity: 0.97;
+        filter: brightness(1.02);
+    }
 }
 
 /* Stars that twinkle in the header at night */
@@ -460,8 +612,16 @@ body.night .sparkle-pixel {
 }
 
 @keyframes star-twinkle {
-    0%, 100% { opacity: 0.3; transform: scale(1); }
-    50% { opacity: 1; transform: scale(1.5); box-shadow: 0 0 10px #fff; }
+    0%,
+    100% {
+        opacity: 0.3;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.5);
+        box-shadow: 0 0 10px #fff;
+    }
 }
 
 /* ═══════════════════════════════════════════════════════════════
@@ -474,10 +634,19 @@ body.night .sparkle-pixel {
 }
 
 @keyframes sprite-bounce {
-    0%, 100% { transform: translateY(0) scale(1); }
-    25% { transform: translateY(-5px) scale(1.02); }
-    50% { transform: translateY(0) scale(1); }
-    75% { transform: translateY(-3px) scale(1.01); }
+    0%,
+    100% {
+        transform: translateY(0) scale(1);
+    }
+    25% {
+        transform: translateY(-5px) scale(1.02);
+    }
+    50% {
+        transform: translateY(0) scale(1);
+    }
+    75% {
+        transform: translateY(-3px) scale(1.01);
+    }
 }
 
 .chaos-mode .nav-sign {
@@ -485,8 +654,13 @@ body.night .sparkle-pixel {
 }
 
 @keyframes sign-swing {
-    0%, 100% { transform: rotate(-2deg); }
-    50% { transform: rotate(2deg); }
+    0%,
+    100% {
+        transform: rotate(-2deg);
+    }
+    50% {
+        transform: rotate(2deg);
+    }
 }
 
 /* ═══════════════════════════════════════════════════════════════
@@ -542,8 +716,12 @@ body.night .vortex-bg {
 }
 
 @keyframes vortex-spin {
-    0% { transform: translate(-50%, -50%) rotate(0deg); }
-    100% { transform: translate(-50%, -50%) rotate(360deg); }
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
 }
 
 /* ═══════════════════════════════════════════════════════════════
@@ -558,7 +736,9 @@ body.night .vortex-bg {
     z-index: 50;
     color: #8b5a2b;
     text-shadow: 0 0 10px currentColor;
-    animation: rune-float 20s linear infinite, rune-pulse 3s ease-in-out infinite;
+    animation:
+        rune-float 20s linear infinite,
+        rune-pulse 3s ease-in-out infinite;
 }
 
 body.night .floating-rune {
@@ -567,13 +747,22 @@ body.night .floating-rune {
 }
 
 @keyframes rune-float {
-    0% { transform: translateY(100vh) rotate(0deg); }
-    100% { transform: translateY(-100px) rotate(360deg); }
+    0% {
+        transform: translateY(100vh) rotate(0deg);
+    }
+    100% {
+        transform: translateY(-100px) rotate(360deg);
+    }
 }
 
 @keyframes rune-pulse {
-    0%, 100% { opacity: 0.1; }
-    50% { opacity: 0.25; }
+    0%,
+    100% {
+        opacity: 0.1;
+    }
+    50% {
+        opacity: 0.25;
+    }
 }
 
 /* ═══════════════════════════════════════════════════════════════
@@ -617,17 +806,28 @@ body.night .click-ripple {
     overflow: hidden;
     white-space: nowrap;
     border-right: 3px solid #8b5a2b;
-    animation: typewriter 3s steps(20) forwards, blink-caret 0.75s step-end infinite;
+    animation:
+        typewriter 3s steps(20) forwards,
+        blink-caret 0.75s step-end infinite;
 }
 
 @keyframes typewriter {
-    from { width: 0; }
-    to { width: 100%; }
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
 }
 
 @keyframes blink-caret {
-    from, to { border-color: transparent; }
-    50% { border-color: #8b5a2b; }
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #8b5a2b;
+    }
 }
 
 /* ═══════════════════════════════════════════════════════════════
@@ -640,11 +840,18 @@ body.night .click-ripple {
     left: 20px;
     width: 48px;
     height: 48px;
-    background: linear-gradient(135deg, #ff6b6b, #ffd93d, #6bcb77, #4d96ff, #9b59b6);
+    background: linear-gradient(
+        135deg,
+        #ff6b6b,
+        #ffd93d,
+        #6bcb77,
+        #4d96ff,
+        #9b59b6
+    );
     background-size: 300% 300%;
     border: 3px solid #333;
     border-radius: 0;
-    cursor: url('/cursors/hand.png'), pointer;
+    cursor: url("/cursors/hand.png"), pointer;
     z-index: 1001;
     font-size: 24px;
     display: flex;
@@ -652,9 +859,9 @@ body.night .click-ripple {
     justify-content: center;
     animation: chaos-btn-bg 3s ease infinite;
     box-shadow:
-        inset 2px 2px 0 rgba(255,255,255,0.3),
-        inset -2px -2px 0 rgba(0,0,0,0.3),
-        3px 3px 0 rgba(0,0,0,0.4);
+        inset 2px 2px 0 rgba(255, 255, 255, 0.3),
+        inset -2px -2px 0 rgba(0, 0, 0, 0.3),
+        3px 3px 0 rgba(0, 0, 0, 0.4);
     transition: transform 0.1s ease;
     image-rendering: pixelated;
 }
@@ -669,9 +876,15 @@ body.night .click-ripple {
 }
 
 @keyframes chaos-btn-bg {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 /* ═══════════════════════════════════════════════════════════════
@@ -683,7 +896,12 @@ body.night .click-ripple {
     top: -20px;
     width: 3px;
     height: 20px;
-    background: linear-gradient(to bottom, transparent 0%, rgba(120, 180, 255, 0.8) 50%, rgba(80, 140, 220, 0.9) 100%);
+    background: linear-gradient(
+        to bottom,
+        transparent 0%,
+        rgba(120, 180, 255, 0.8) 50%,
+        rgba(80, 140, 220, 0.9) 100%
+    );
     border-radius: 0 0 2px 2px;
     pointer-events: none;
     z-index: 9000;
@@ -691,8 +909,14 @@ body.night .click-ripple {
 }
 
 @keyframes rain-fall {
-    0% { transform: translateY(0); opacity: 0.8; }
-    100% { transform: translateY(100vh); opacity: 0.4; }
+    0% {
+        transform: translateY(0);
+        opacity: 0.8;
+    }
+    100% {
+        transform: translateY(100vh);
+        opacity: 0.4;
+    }
 }
 
 .snow-flake {
@@ -713,7 +937,9 @@ body.night .click-ripple {
         transform: translateY(-20px) translateX(0) rotate(0deg);
         opacity: 0;
     }
-    10% { opacity: 1; }
+    10% {
+        opacity: 1;
+    }
     100% {
         transform: translateY(100vh) translateX(50px) rotate(360deg);
         opacity: 0.5;
@@ -729,10 +955,19 @@ body.night .click-ripple {
 }
 
 @keyframes konami-flash {
-    0%, 100% { filter: brightness(1); }
-    25% { filter: brightness(2) saturate(2); }
-    50% { filter: brightness(1.5) hue-rotate(180deg); }
-    75% { filter: brightness(2) saturate(2); }
+    0%,
+    100% {
+        filter: brightness(1);
+    }
+    25% {
+        filter: brightness(2) saturate(2);
+    }
+    50% {
+        filter: brightness(1.5) hue-rotate(180deg);
+    }
+    75% {
+        filter: brightness(2) saturate(2);
+    }
 }
 
 .konami-text {
@@ -789,8 +1024,14 @@ body.night .click-ripple {
 }
 
 @keyframes footer-pulse {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.7; text-shadow: 0 0 20px currentColor; }
+    0%,
+    100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.7;
+        text-shadow: 0 0 20px currentColor;
+    }
 }
 
 /* Wobbly mode toggle */
@@ -799,9 +1040,16 @@ body.night .click-ripple {
 }
 
 @keyframes wobble {
-    0%, 100% { transform: rotate(0deg); }
-    25% { transform: rotate(3deg); }
-    75% { transform: rotate(-3deg); }
+    0%,
+    100% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(3deg);
+    }
+    75% {
+        transform: rotate(-3deg);
+    }
 }
 
 /* Breathing content area */
@@ -812,8 +1060,13 @@ body.night .click-ripple {
 }
 
 @keyframes content-breathe {
-    0%, 100% { transform: scale(1); }
-    50% { transform: scale(1.005); }
+    0%,
+    100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.005);
+    }
 }
 
 /* ═══════════════════════════════════════════════════════════════
@@ -824,13 +1077,17 @@ body.night .click-ripple {
     position: fixed;
     pointer-events: none;
     z-index: 50;
-    background: radial-gradient(circle at 30% 30%,
-        rgba(255, 255, 255, 0.8) 0%,
-        rgba(120, 200, 255, 0.4) 40%,
-        rgba(80, 160, 220, 0.2) 70%,
-        transparent 100%);
-    border-radius: 50%;
-    animation: bubble-float 2s ease-out forwards;
+    background: radial-gradient(
+        circle at 30% 30%,
+        rgba(255, 255, 255, 0.95) 0%,
+        rgba(100, 180, 255, 0.7) 40%,
+        rgba(60, 140, 220, 0.5) 70%,
+        rgba(40, 120, 200, 0.2) 100%
+    );
+    border: 1px solid rgba(100, 180, 255, 0.6);
+    border-radius: 100%;
+    box-shadow: 0 0 4px rgba(100, 180, 255, 0.4);
+    animation: bubble-float 3s ease-out forwards;
 }
 
 @keyframes bubble-float {
@@ -849,12 +1106,15 @@ body.night .click-ripple {
 
 /* Night mode bubbles - more ethereal */
 body.night .diver-bubble {
-    background: radial-gradient(circle at 30% 30%,
-        rgba(200, 220, 255, 0.6) 0%,
-        rgba(100, 150, 200, 0.3) 40%,
-        rgba(60, 100, 160, 0.1) 70%,
-        transparent 100%);
-    box-shadow: 0 0 6px rgba(150, 200, 255, 0.5);
+    background: radial-gradient(
+        circle at 30% 30%,
+        rgba(220, 240, 255, 0.9) 0%,
+        rgba(150, 200, 255, 0.6) 40%,
+        rgba(100, 160, 220, 0.4) 70%,
+        rgba(80, 140, 200, 0.2) 100%
+    );
+    border-color: rgba(150, 200, 255, 0.7);
+    box-shadow: 0 0 8px rgba(150, 200, 255, 0.6);
 }
 
 /* ═══════════════════════════════════════════════════════════════
@@ -1017,7 +1277,9 @@ body.night .help-popup-close {
 
 /* Respect reduced motion */
 @media (prefers-reduced-motion: reduce) {
-    *, *::before, *::after {
+    *,
+    *::before,
+    *::after {
         animation-duration: 0.01ms !important;
         animation-iteration-count: 1 !important;
         transition-duration: 0.01ms !important;
