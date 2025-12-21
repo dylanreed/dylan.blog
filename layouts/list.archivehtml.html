@@ -17,7 +17,7 @@
                 </a>
                 {{ with .Params.categories }}
                     {{ range first 1 . }}
-                    <span class="archive-tag">{{ . }}</span>
+                    <a href="/categories/{{ . | urlize }}/" class="archive-tag">{{ . }}</a>
                     {{ end }}
                 {{ end }}
             </li>
