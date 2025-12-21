@@ -18,23 +18,23 @@
             <div class="sierra-title"><span>Controls</span></div>
             <div class="sierra-buttons">
                 <button class="sierra-btn" data-action="theme" data-tooltip="Day/Night">
-                    <img class="btn-icon moon" src="/sprites/moon.png" alt="Night mode">
-                    <img class="btn-icon sun" src="/sprites/sun.png" alt="Day mode" style="display:none">
+                    <img class="btn-icon day-icon" src="/sprites/drop_down_icons/day.png" alt="Day mode">
+                    <img class="btn-icon night-icon" src="/sprites/drop_down_icons/night.png" alt="Night mode" style="display:none">
                 </button>
                 <button class="sierra-btn" data-action="chaos" data-tooltip="Chaos Mode">
-                    <span class="btn-icon">🌀</span>
+                    <img class="btn-icon" src="/sprites/drop_down_icons/swirl.png" alt="Chaos">
                 </button>
                 <button class="sierra-btn" data-action="achievements" data-tooltip="Achievements">
-                    <span class="btn-icon">🏆</span>
+                    <img class="btn-icon" src="/sprites/drop_down_icons/trophey.png" alt="Achievements">
                 </button>
                 <button class="sierra-btn" data-action="rainbow" data-tooltip="Rainbow">
-                    <span class="btn-icon">🌈</span>
+                    <img class="btn-icon" src="/sprites/drop_down_icons/rainbow.png" alt="Rainbow">
                 </button>
                 <button class="sierra-btn" data-action="weather" data-tooltip="Weather">
-                    <span class="btn-icon">🌧️</span>
+                    <img class="btn-icon weather-icon" src="/sprites/drop_down_icons/sun.png" alt="Weather">
                 </button>
                 <button class="sierra-btn" data-action="help" data-tooltip="Help">
-                    <span class="btn-icon">❓</span>
+                    <img class="btn-icon" src="/sprites/drop_down_icons/help.png" alt="Help">
                 </button>
             </div>
         </div>
@@ -46,18 +46,25 @@
             const panel = document.querySelector('.sierra-panel');
             if (!panel) return;
 
-            // Theme toggle
+            // Theme toggle - swap day/night icons
             function updateThemeButton() {
-                const moonIcon = panel.querySelector('[data-action="theme"] .moon');
-                const sunIcon = panel.querySelector('[data-action="theme"] .sun');
+                const dayIcon = panel.querySelector('[data-action="theme"] .day-icon');
+                const nightIcon = panel.querySelector('[data-action="theme"] .night-icon');
                 const isNight = document.body.classList.contains('night');
-                if (moonIcon) moonIcon.style.display = isNight ? 'none' : 'block';
-                if (sunIcon) sunIcon.style.display = isNight ? 'block' : 'none';
+                // Show night icon (moon) when in day mode (to switch TO night)
+                // Show day icon (sun) when in night mode (to switch TO day)
+                if (dayIcon) dayIcon.style.display = isNight ? 'block' : 'none';
+                if (nightIcon) nightIcon.style.display = isNight ? 'none' : 'block';
             }
             updateThemeButton();
 
-            // Weather state
+            // Weather state and icons
             let currentWeather = null;
+            const weatherIcons = {
+                sun: '/sprites/drop_down_icons/sun.png',
+                rain: '/sprites/drop_down_icons/rain.png',
+                snow: '/sprites/drop_down_icons/snow.png'
+            };
 
             panel.addEventListener('click', (e) => {
                 const btn = e.target.closest('.sierra-btn');
@@ -84,10 +91,10 @@
                         break;
 
                     case 'achievements':
-                        const achPanel = document.getElementById('achievements-panel');
-                        if (achPanel) {
-                            achPanel.classList.toggle('visible');
-                            btn.classList.toggle('active', achPanel.classList.contains('visible'));
+                        if (window.achievementPanel) {
+                            window.achievementPanel.toggle();
+                            const achPanel = document.getElementById('achievements-panel');
+                            btn.classList.toggle('active', achPanel && achPanel.classList.contains('open'));
                         }
                         break;
 
@@ -99,19 +106,20 @@
                         break;
 
                     case 'weather':
+                        const weatherIcon = btn.querySelector('.weather-icon');
                         if (window.chaosWeather) {
                             if (currentWeather === null) {
                                 window.chaosWeather.rain();
                                 currentWeather = 'rain';
-                                btn.innerHTML = '<span class="btn-icon">🌧️</span>';
+                                if (weatherIcon) weatherIcon.src = weatherIcons.rain;
                             } else if (currentWeather === 'rain') {
                                 window.chaosWeather.snow();
                                 currentWeather = 'snow';
-                                btn.innerHTML = '<span class="btn-icon">❄️</span>';
+                                if (weatherIcon) weatherIcon.src = weatherIcons.snow;
                             } else {
                                 window.chaosWeather.stop();
                                 currentWeather = null;
-                                btn.innerHTML = '<span class="btn-icon">☀️</span>';
+                                if (weatherIcon) weatherIcon.src = weatherIcons.sun;
                             }
                             btn.classList.toggle('active', currentWeather !== null);
                         }

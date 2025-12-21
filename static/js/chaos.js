@@ -21,26 +21,22 @@
         floatingSprites: {
             enabled: true,
             count: 3,
-            // Mix of images and emoji fallbacks
+            // Pixel art floating sprites
             sprites: [
-                { type: 'image', src: '/sprites/floating/dragon.gif', size: 80 },
-                { type: 'image', src: '/sprites/floating/orb.png', size: 48 },
-                { type: 'image', src: '/sprites/floating/orb2.png', size: 48 },
-                { type: 'image', src: '/sprites/floating/potion.png', size: 48 },
-                { type: 'image', src: '/sprites/floating/scroll.png', size: 48 },
-                { type: 'image', src: '/sprites/floating/crystal.png', size: 56 },
-                { type: 'image', src: '/sprites/floating/rune.png', size: 48 },
-                { type: 'image', src: '/sprites/floating/book.png', size: 48 },
-                { type: 'image', src: '/sprites/floating/lamp.png', size: 48 },
-                { type: 'image', src: '/sprites/floating/lantern.png', size: 48 },
-                { type: 'image', src: '/sprites/floating/key.png', size: 48 },
-                { type: 'image', src: '/sprites/floating/star.png', size: 32 },
-                { type: 'image', src: '/sprites/floating/shootingstar.png', size: 32 },
-                { type: 'image', src: '/sprites/floating/ufo.png', size: 48 },
-                { type: 'emoji', content: '🧙', size: 48 },
-                { type: 'emoji', content: '🦇', size: 40 },
-                { type: 'emoji', content: '🦋', size: 36 },
-                { type: 'emoji', content: '👻', size: 44 }
+                { type: 'image', src: '/sprites/floating/dragon-icon.png', size: 64 },
+                { type: 'image', src: '/sprites/floating/crystal-ball.png', size: 56 },
+                { type: 'image', src: '/sprites/floating/spellbook.png', size: 48 },
+                { type: 'image', src: '/sprites/floating/wand.png', size: 56 },
+                { type: 'image', src: '/sprites/floating/potion-glow.png', size: 48 },
+                { type: 'image', src: '/sprites/floating/runestone.png', size: 48 },
+                { type: 'image', src: '/sprites/floating/fairy-light.png', size: 48 },
+                { type: 'image', src: '/sprites/floating/wisp.png', size: 48 },
+                { type: 'image', src: '/sprites/floating/phoenix-feather.png', size: 48 },
+                { type: 'image', src: '/sprites/floating/crescent-moon.png', size: 48 },
+                { type: 'image', src: '/sprites/floating/shooting-star.png', size: 48 },
+                { type: 'image', src: '/sprites/floating/treasure-chest.png', size: 56 },
+                { type: 'image', src: '/sprites/floating/leaf.png', size: 40 },
+                { type: 'image', src: '/sprites/floating/dylan.png', size: 48 }
             ]
         },
         runes: {

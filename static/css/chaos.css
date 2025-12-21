@@ -178,9 +178,9 @@
 .floating-sprite {
     position: fixed;
     pointer-events: none;
-    z-index: 1; /* Behind content containers which are z-index: auto/higher */
+    z-index: -1; /* Behind all content - negative to go under positioned elements */
     image-rendering: pixelated;
-    opacity: 0.85;
+    opacity: 0.7;
     filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.3));
 }
 
@@ -680,30 +680,32 @@ body.night .click-ripple {
 
 .rain-drop {
     position: fixed;
-    width: 2px;
-    height: 15px;
-    background: linear-gradient(transparent, rgba(100, 150, 200, 0.6));
+    top: -20px;
+    width: 3px;
+    height: 20px;
+    background: linear-gradient(to bottom, transparent 0%, rgba(120, 180, 255, 0.8) 50%, rgba(80, 140, 220, 0.9) 100%);
+    border-radius: 0 0 2px 2px;
     pointer-events: none;
-    z-index: 500;
-    animation: rain-fall 0.5s linear infinite;
+    z-index: 9000;
+    animation: rain-fall 0.6s linear forwards;
 }
 
 @keyframes rain-fall {
-    0% { transform: translateY(-20px); opacity: 0; }
-    10% { opacity: 1; }
-    100% { transform: translateY(100vh); opacity: 0.3; }
+    0% { transform: translateY(0); opacity: 0.8; }
+    100% { transform: translateY(100vh); opacity: 0.4; }
 }
 
 .snow-flake {
     position: fixed;
+    top: 0;
     width: 6px;
     height: 6px;
     background: #fff;
     border-radius: 50%;
     pointer-events: none;
-    z-index: 500;
+    z-index: 9000;
     box-shadow: 0 0 5px #fff;
-    animation: snow-fall 5s linear infinite;
+    animation: snow-fall 5s linear forwards;
 }
 
 @keyframes snow-fall {
