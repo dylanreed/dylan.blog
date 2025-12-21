@@ -1,3 +1,105 @@
 <footer class="site-footer">
     <p>{{ .Site.Title }} &copy; {{ now.Year }} &middot; Powered by chaos goblin energy</p>
 </footer>
+
+<!-- Walking Diver -->
+<div class="diver-container">
+    <img class="diver" id="diver" src="/sprites/diver/walking_east.gif" alt="">
+</div>
+
+<script>
+(function() {
+    const diver = document.getElementById('diver');
+    if (!diver) return;
+
+    // Sprite paths
+    const sprites = {
+        walkEast: '/sprites/diver/walking_east.gif',
+        walkWest: '/sprites/diver/walking_west.gif',
+        idleNorth: '/sprites/diver/idel_north.gif',
+        idleEast: '/sprites/diver/idle_east.gif',
+        idleNorthEast: '/sprites/diver/idle_north_east.gif',
+        idleNorthWest: '/sprites/diver/idle_north_west.gif',
+        idleSouthEast: '/sprites/diver/idle_sout_east.gif',
+        idleSouth: '/sprites/diver/idle_south.gif',
+        idleSouthWest: '/sprites/diver/idle_south_west.gif',
+        idleWest: '/sprites/diver/idle_west.gif'
+    };
+
+    const idleSprites = [
+        sprites.idleNorth, sprites.idleEast, sprites.idleNorthEast,
+        sprites.idleNorthWest, sprites.idleSouthEast, sprites.idleSouth,
+        sprites.idleSouthWest, sprites.idleWest
+    ];
+
+    // State
+    let x = Math.random() * (window.innerWidth - 64);
+    let direction = Math.random() > 0.5 ? 1 : -1; // 1 = east, -1 = west
+    let isIdle = false;
+    let speed = 1.5;
+
+    // Position diver on top border area
+    const topOffset = 20; // pixels from top
+    diver.style.top = topOffset + 'px';
+    diver.style.left = x + 'px';
+    diver.src = direction === 1 ? sprites.walkEast : sprites.walkWest;
+
+    function setSprite(src) {
+        if (diver.src !== src) {
+            diver.src = src;
+        }
+    }
+
+    function startWalking() {
+        isIdle = false;
+        setSprite(direction === 1 ? sprites.walkEast : sprites.walkWest);
+    }
+
+    function startIdling() {
+        isIdle = true;
+        const randomIdle = idleSprites[Math.floor(Math.random() * idleSprites.length)];
+        setSprite(randomIdle);
+
+        // Resume walking after random time (2-6 seconds)
+        const idleTime = 2000 + Math.random() * 4000;
+        setTimeout(startWalking, idleTime);
+    }
+
+    function animate() {
+        if (!isIdle) {
+            x += speed * direction;
+
+            // Check boundaries
+            const maxX = window.innerWidth - 64;
+            if (x >= maxX) {
+                x = maxX;
+                direction = -1;
+                setSprite(sprites.walkWest);
+            } else if (x <= 0) {
+                x = 0;
+                direction = 1;
+                setSprite(sprites.walkEast);
+            }
+
+            diver.style.left = x + 'px';
+
+            // Random chance to stop and idle (0.3% per frame)
+            if (Math.random() < 0.003) {
+                startIdling();
+            }
+        }
+
+        requestAnimationFrame(animate);
+    }
+
+    // Start animation
+    animate();
+
+    // Handle window resize
+    window.addEventListener('resize', function() {
+        const maxX = window.innerWidth - 64;
+        if (x > maxX) x = maxX;
+        diver.style.left = x + 'px';
+    });
+})();
+</script>
