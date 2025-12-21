@@ -10,8 +10,8 @@
             document.body.classList.add('night');
         }
     </script>
-    <button class="mode-toggle" onclick="toggleTheme()">
-        <span class="mode-icon">🌙</span> Night
+    <button class="mode-toggle" onclick="toggleTheme()" title="Toggle day/night mode">
+        <img class="mode-icon" src="/sprites/moon.png" alt="Toggle theme">
     </button>
     <script>
         function toggleTheme() {
@@ -20,9 +20,9 @@
             updateButton();
         }
         function updateButton() {
-            const btn = document.querySelector('.mode-toggle');
+            const btn = document.querySelector('.mode-toggle .mode-icon');
             const isNight = document.body.classList.contains('night');
-            btn.innerHTML = isNight ? '<span class="mode-icon">☀️</span> Day' : '<span class="mode-icon">🌙</span> Night';
+            btn.src = isNight ? '/sprites/sun.png' : '/sprites/moon.png';
         }
         updateButton();
     </script>
