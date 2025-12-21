@@ -1,0 +1,72 @@
+{{ define "main" }}
+{{/* Get the category/term name */}}
+{{ $term := .Data.Term }}
+{{ $termLower := $term | lower }}
+
+{{/* Create a fake context for the sprite partial */}}
+{{ $spriteContext := dict "Params" (dict "categories" (slice $term)) }}
+
+<div class="category-page">
+    {{/* Category header with sprite */}}
+    <header class="category-header">
+        <div class="category-sprite-large">
+            {{ partial "post-sprite.html" $spriteContext }}
+        </div>
+        <h1 class="category-title">{{ $term | title }}</h1>
+        <p class="category-count">{{ len .Pages }} {{ if eq (len .Pages) 1 }}post{{ else }}posts{{ end }}</p>
+    </header>
+
+    {{/* Posts in this category */}}
+    <div class="posts-container">
+        <div class="posts">
+            {{ range .Pages }}
+            <article class="post {{ partial "category-class.html" . }}">
+                {{ partial "post-sprite.html" . }}
+
+                <div class="post-body">
+                    {{/* Category tag */}}
+                    {{ with .Params.categories }}
+                        {{ range first 1 . }}
+                        <a href="/categories/{{ . | urlize }}/" class="post-tag">{{ . }}</a>
+                        {{ end }}
+                    {{ end }}
+
+                    {{/* Post title */}}
+                    {{ if .Title }}
+                    <h2 class="post-title">
+                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    </h2>
+                    {{ end }}
+
+                    {{/* Post date */}}
+                    <div class="post-meta">{{ .Date.Format "January 2, 2006" }}</div>
+
+                    {{/* Excerpt */}}
+                    <div class="post-excerpt">
+                        {{ if .Summary }}
+                            {{ .Summary | plainify | truncate 200 }}
+                        {{ else }}
+                            {{ .Content | plainify | truncate 200 }}
+                        {{ end }}
+                    </div>
+
+                    <a href="{{ .Permalink }}" class="post-link">Read more &rarr;</a>
+                </div>
+            </article>
+            {{ end }}
+        </div>
+    </div>
+</div>
+
+{{/* Pagination */}}
+{{ if .Paginator }}
+<nav class="pagination">
+    {{ if .Paginator.HasPrev }}
+    <a href="{{ .Paginator.Prev.URL }}">&larr; Newer</a>
+    {{ end }}
+    {{ if .Paginator.HasNext }}
+    <a href="{{ .Paginator.Next.URL }}">Older &rarr;</a>
+    {{ end }}
+</nav>
+{{ end }}
+{{ end }}
