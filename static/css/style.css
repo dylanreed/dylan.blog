@@ -761,18 +761,6 @@ body.night .site-footer {
 }
 
 /* Sprite-specific title glow and tag colors */
-.sprite-cat ~ .post-body .post-title,
-.category-pets .post-title {
-    text-shadow:
-        0 0 8px #5de2a3,
-        2px 2px 0 rgba(255, 255, 255, 0.3);
-}
-.sprite-cat ~ .post-body .post-tag,
-.category-pets .post-tag {
-    background: #5de2a3;
-    color: #1a3a2a;
-}
-
 .sprite-skele ~ .post-body .post-title,
 .category-health .post-title {
     text-shadow:
@@ -802,15 +790,13 @@ body.night .site-footer {
 }
 
 .sprite-clown ~ .post-body .post-title,
-.anim-balloon ~ .post-body .post-title,
-.category-clowning .post-title {
+.category-personal .post-title {
     text-shadow:
         0 0 8px #7050a0,
         2px 2px 0 rgba(255, 255, 255, 0.3);
 }
 .sprite-clown ~ .post-body .post-tag,
-.anim-balloon ~ .post-body .post-tag,
-.category-clowning .post-tag {
+.category-personal .post-tag {
     background: #7050a0;
     color: #fff;
 }
@@ -842,17 +828,26 @@ body.night .site-footer {
     background: #e8c546;
     color: #3a3020;
 }
-.sprite-donkey ~ .post-body .post-title,
-.category-adhd .post-title,
+.sprite-adventure ~ .post-body .post-title,
 .category-travel .post-title {
     text-shadow:
         0 0 8px #5a9e5a,
         2px 2px 0 rgba(255, 255, 255, 0.3);
 }
-
-.sprite-donkey ~ .post-body .post-tag,
-.category-adhd .post-tag,
+.sprite-adventure ~ .post-body .post-tag,
 .category-travel .post-tag {
+    background: #5a9e5a;
+    color: #fff;
+}
+
+.sprite-donkey ~ .post-body .post-title,
+.category-adhd .post-title {
+    text-shadow:
+        0 0 8px #5a9e5a,
+        2px 2px 0 rgba(255, 255, 255, 0.3);
+}
+.sprite-donkey ~ .post-body .post-tag,
+.category-adhd .post-tag {
     background: #5a9e5a;
     color: #fff;
 }
@@ -898,15 +893,13 @@ body.night .site-footer {
     color: #fff;
 }
 
-.sprite-clem ~ .post-body .post-title,
-.category-personal .post-title,
+.sprite-cat ~ .post-body .post-title,
 .category-pets .post-title {
     text-shadow:
         0 0 8px #e0a080,
         2px 2px 0 rgba(255, 255, 255, 0.3);
 }
-.sprite-clem ~ .post-body .post-tag,
-.category-personal .post-tag,
+.sprite-cat ~ .post-body .post-tag,
 .category-pets .post-tag {
     background: #e0a080;
     color: #3a2010;

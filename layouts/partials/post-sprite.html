@@ -1,5 +1,5 @@
 {{/* Get first category and determine sprite */}}
-{{ $category := "personal" }}
+{{ $category := "" }}
 {{ with .Params.categories }}
     {{ $category = index . 0 | lower }}
 {{ end }}
@@ -16,20 +16,19 @@
      health          skele           skele-health.png
      tabletop        knight          knight - tabletop.png
      gaming          dragon          Dragon - Tabletop.png
-     clowning        clown           clown - clown.png
-     tech            wizard          wizard-tech.png
+     personal        clown           clown - clown.png
      writing         quill           quill - Writing.png
      cooking         cauldron        cauldren - cooking.png
      music           banjo           banjo - music.png
-     travel          donkey          Donkey - Travel.png
+     travel          adventure       Adventure - Travel.png
      reading         book            book-reading.png
      crafting        muse            Muse - Writing.png
      adhd            donkey          Donkey - Travel.png
      pets            cat             Cat - Health.png
-     personal        clem            clem-personal.png (default)
+     (default)       wizard          wizard-tech.png
 */}}
-{{ $spriteClass := "clem" }}
-{{ $spriteFile := "clem-personal.png" }}
+{{ $spriteClass := "wizard" }}
+{{ $spriteFile := "wizard-tech.png" }}
 
 {{ if eq $category "health" }}
     {{ $spriteClass = "skele" }}
@@ -40,12 +39,9 @@
 {{ else if eq $category "gaming" }}
     {{ $spriteClass = "dragon" }}
     {{ $spriteFile = "Dragon - Tabletop.png" }}
-{{ else if eq $category "clowning" }}
+{{ else if eq $category "personal" }}
     {{ $spriteClass = "clown" }}
     {{ $spriteFile = "clown - clown.png" }}
-{{ else if eq $category "tech" }}
-    {{ $spriteClass = "wizard" }}
-    {{ $spriteFile = "wizard-tech.png" }}
 {{ else if eq $category "writing" }}
     {{ $spriteClass = "quill" }}
     {{ $spriteFile = "quill - Writing.png" }}
@@ -56,8 +52,8 @@
     {{ $spriteClass = "banjo" }}
     {{ $spriteFile = "banjo - music.png" }}
 {{ else if eq $category "travel" }}
-    {{ $spriteClass = "donkey" }}
-    {{ $spriteFile = "Donkey - Travel.png" }}
+    {{ $spriteClass = "adventure" }}
+    {{ $spriteFile = "Adventure - Travel.png" }}
 {{ else if eq $category "reading" }}
     {{ $spriteClass = "book" }}
     {{ $spriteFile = "book-reading.png" }}
@@ -70,9 +66,6 @@
 {{ else if eq $category "pets" }}
     {{ $spriteClass = "cat" }}
     {{ $spriteFile = "Cat - Health.png" }}
-{{ else if eq $category "personal" }}
-    {{ $spriteClass = "clem" }}
-    {{ $spriteFile = "clem-personal.png" }}
 {{ end }}
 
 <div class="{{ if $isArchive }}archive-sprite{{ else }}post-sprite{{ end }} sprite-{{ $spriteClass }}">
