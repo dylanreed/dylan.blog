@@ -449,14 +449,14 @@
 }
 
 /* Night mode sparkles - cooler tones */
-body.night .sparkle-star {
+html.night .sparkle-star {
     background: radial-gradient(circle, #fff 0%, #80c0ff 30%, transparent 70%);
     box-shadow:
         0 0 6px #80c0ff,
         0 0 12px #fff;
 }
 
-body.night .sparkle-pixel {
+html.night .sparkle-pixel {
     background: #80c0ff;
     box-shadow: 0 0 4px #80c0ff;
 }
@@ -696,7 +696,7 @@ body.night .sparkle-pixel {
     animation: vortex-spin 60s linear infinite;
 }
 
-body.night .vortex-bg {
+html.night .vortex-bg {
     background: conic-gradient(
         from 0deg,
         transparent 0deg,
@@ -741,7 +741,7 @@ body.night .vortex-bg {
         rune-pulse 3s ease-in-out infinite;
 }
 
-body.night .floating-rune {
+html.night .floating-rune {
     color: #6080a0;
     text-shadow: 0 0 15px #80c0ff;
 }
@@ -793,7 +793,7 @@ body.night .floating-rune {
     }
 }
 
-body.night .click-ripple {
+html.night .click-ripple {
     border-color: #80c0ff;
     box-shadow: 0 0 20px #80c0ff;
 }
@@ -1105,7 +1105,7 @@ body.night .click-ripple {
 }
 
 /* Night mode bubbles - more ethereal */
-body.night .diver-bubble {
+html.night .diver-bubble {
     background: radial-gradient(
         circle at 30% 30%,
         rgba(220, 240, 255, 0.9) 0%,
@@ -1259,17 +1259,17 @@ body.night .diver-bubble {
     transform: scale(0.95);
 }
 
-body.night .help-popup {
+html.night .help-popup {
     background: linear-gradient(135deg, #2a3a5a 0%, #1a2a4a 100%);
     border-color: #4a5a7a;
     color: #c0d0e0;
 }
 
-body.night .help-popup::before {
-    color: #6080a0;
+html.night .help-popup::before {
+    color: #80a0c0;
 }
 
-body.night .help-popup-close {
+html.night .help-popup-close {
     background: linear-gradient(to bottom, #4a5a7a 0%, #3a4a6a 100%);
     border-color: #2a3a5a;
     color: #c0d0e0;

@@ -198,10 +198,10 @@
     display: block;
 }
 
-body.night .sierra-btn[data-action="theme"] .btn-icon.sun {
+html.night .sierra-btn[data-action="theme"] .btn-icon.sun {
     display: block;
 }
-body.night .sierra-btn[data-action="theme"] .btn-icon.moon {
+html.night .sierra-btn[data-action="theme"] .btn-icon.moon {
     display: none;
 }
 
@@ -230,11 +230,11 @@ body.chaos-mode .sierra-btn[data-action="chaos"] {
    ═══════════════════════════════════════════════════════════════════════════ */
 
 /* Night mode - keep same pixel art menu, just adjust trigger tab */
-body.night .sierra-trigger::after {
+html.night .sierra-trigger::after {
     background: linear-gradient(to bottom, #5a4a3a, #3d3020);
 }
 
-body.night .sierra-btn::after {
+html.night .sierra-btn::after {
     background: #2a1a0a;
     color: #c9a227;
 }
@@ -254,16 +254,62 @@ body.night .sierra-btn::after {
    RESPONSIVE ADJUSTMENTS
    ═══════════════════════════════════════════════════════════════════════════ */
 
-@media (max-width: 480px) {
-    .sierra-buttons {
-        grid-template-columns: repeat(4, 44px);
-        gap: 6px;
+/* Tablet and below - scale down panel */
+@media (max-width: 550px) {
+    .sierra-panel-bg {
+        width: 350px;
+        height: 56px;
+        background-size: 410px 56px;
     }
 
     .sierra-btn {
-        width: 44px;
+        width: 60px;
         height: 44px;
+        top: 6px;
     }
+
+    .sierra-btn:nth-child(1) { left: 0px; }
+    .sierra-btn:nth-child(2) { left: 59px; }
+    .sierra-btn:nth-child(3) { left: 118px; }
+    .sierra-btn:nth-child(4) { left: 174px; }
+    .sierra-btn:nth-child(5) { left: 232px; }
+    .sierra-btn:nth-child(6) { left: 290px; }
+
+    .sierra-btn img {
+        width: 36px;
+        height: 36px;
+    }
+
+    .sierra-trigger {
+        width: 300px;
+    }
+
+    .sierra-trigger::after {
+        width: 50px;
+        height: 6px;
+    }
+}
+
+/* Small phones */
+@media (max-width: 400px) {
+    .sierra-panel-bg {
+        width: 280px;
+        height: 48px;
+        background-size: 330px 48px;
+    }
+
+    .sierra-btn {
+        width: 48px;
+        height: 38px;
+        top: 5px;
+    }
+
+    .sierra-btn:nth-child(1) { left: 0px; }
+    .sierra-btn:nth-child(2) { left: 47px; }
+    .sierra-btn:nth-child(3) { left: 94px; }
+    .sierra-btn:nth-child(4) { left: 140px; }
+    .sierra-btn:nth-child(5) { left: 186px; }
+    .sierra-btn:nth-child(6) { left: 232px; }
 
     .sierra-btn img {
         width: 28px;
@@ -271,6 +317,10 @@ body.night .sierra-btn::after {
     }
 
     .sierra-trigger {
-        width: 300px;
+        width: 250px;
+    }
+
+    .sierra-btn::after {
+        display: none; /* Hide tooltips on very small screens */
     }
 }

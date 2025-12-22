@@ -41,6 +41,13 @@ Headers transform based on post tags:
 | Tabletop gaming | Tavern table with dice, maps, tankards |
 | Clowning/performance | Stage or dressing room with costumes and props |
 | Tech/coding | Wizard's workshop with glowing runes and arcane machinery |
+| Writing/creativity | Scriptorium with quills, ink wells, scattered manuscripts |
+| Food/cooking | Fantasy kitchen with bubbling cauldrons and hanging herbs |
+| Music | Bardic corner with instruments, sheet music, candles |
+| Travel | Explorer's study with maps, compass, travel journals |
+| Reading/books | Towering library with ladders, floating tomes, cozy chair |
+| Garden/nature | Greenhouse or cottage garden with magical plants |
+| Craft/DIY | Craftsman's workshop with tools, gears, works in progress |
 | Default | Cozy reading nook or writing desk |
 
 Each scene has day/night variants.
@@ -70,6 +77,13 @@ Nav items styled as pixel art elements - wooden signs, scroll tabs, or carved st
 | Tabletop | Rolling dice, miniature knights, dragons, floating spell effects |
 | Clowning | Clowns, juggling balls, honking horns, balloon animals |
 | Tech/coding | Wizards with laptops, magical runes, golems, enchanted tools |
+| Writing | Floating quill pens, ink bottles, manuscript pages, tiny muses |
+| Food | Animated cookpots, floating ingredients, chef imps, enchanted utensils |
+| Music | Walking instruments, dancing music notes, tiny bards, singing birds |
+| Travel | Floating maps, spinning compasses, miniature adventurers, pack mules |
+| Reading | Floating tomes, bookworms, reading ghosts, library sprites |
+| Garden | Walking plants, garden sprites, butterflies, magical bugs |
+| Craft | Animated tools, spinning gears, crafting sprites, enchanted hammers |
 | Default | Birds, bats, wandering wizards, knights, fairies |
 
 Sprite pool combines tag-context AND time-of-day (e.g., health post at night = skeleton with candle).
@@ -130,7 +144,7 @@ Micro.blog with custom CSS + JavaScript via theme customization. Assets on CDN o
 | Asset Type | Day | Night | Notes |
 |------------|-----|-------|-------|
 | Home header scene | 1 | 1 | Avatar at desk/study |
-| Post headers | ~5 | ~5 | Health, tabletop, clowning, tech, default |
+| Post headers | ~12 | ~12 | All tag categories + default |
 | Border frame (9-slice) | 1 set | 1 set | Corners, edges, fills |
 | Nav elements | 1 set | 1 set | Buttons, hover states |
 | Sprites (default) | 6-8 | 6-8 | Birds, wizards, knights, etc. |
@@ -138,9 +152,16 @@ Micro.blog with custom CSS + JavaScript via theme customization. Assets on CDN o
 | Sprites (tabletop) | 4-5 | 4-5 | Dice, dragons, etc. |
 | Sprites (clowning) | 4-5 | 4-5 | Clowns, props, etc. |
 | Sprites (tech) | 4-5 | 4-5 | Wizard hackers, runes, etc. |
+| Sprites (writing) | 4-5 | 4-5 | Quills, ink, muses, etc. |
+| Sprites (food) | 4-5 | 4-5 | Cookpots, ingredients, chef imps |
+| Sprites (music) | 4-5 | 4-5 | Instruments, bards, notes |
+| Sprites (travel) | 4-5 | 4-5 | Maps, compasses, adventurers |
+| Sprites (reading) | 4-5 | 4-5 | Tomes, bookworms, ghosts |
+| Sprites (garden) | 4-5 | 4-5 | Plants, garden sprites, bugs |
+| Sprites (craft) | 4-5 | 4-5 | Tools, gears, crafting sprites |
 | UI elements | 1 set | 1 set | Toggle, lightbox frame, icons |
 
-**Estimated total: 60-80 pixel art assets**
+**Estimated total: 120-150 pixel art assets**
 
 ## Next Steps
 

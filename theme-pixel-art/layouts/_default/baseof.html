@@ -4,12 +4,6 @@
     {{- partial "head.html" . -}}
 </head>
 <body>
-    <script>
-        // Apply saved theme immediately to prevent flash
-        if (localStorage.getItem('theme') === 'night') {
-            document.body.classList.add('night');
-        }
-    </script>
 
     <!-- Sierra-style Control Panel -->
     <div class="sierra-trigger"></div>
@@ -50,7 +44,7 @@
             function updateThemeButton() {
                 const dayIcon = panel.querySelector('[data-action="theme"] .day-icon');
                 const nightIcon = panel.querySelector('[data-action="theme"] .night-icon');
-                const isNight = document.body.classList.contains('night');
+                const isNight = document.documentElement.classList.contains('night');
                 // Show night icon (moon) when in day mode (to switch TO night)
                 // Show day icon (sun) when in night mode (to switch TO day)
                 if (dayIcon) dayIcon.style.display = isNight ? 'block' : 'none';
@@ -74,7 +68,7 @@
 
                 switch(action) {
                     case 'theme':
-                        const isNight = document.body.classList.toggle('night');
+                        const isNight = document.documentElement.classList.toggle('night');
                         localStorage.setItem('theme', isNight ? 'night' : 'day');
                         updateThemeButton();
                         break;
