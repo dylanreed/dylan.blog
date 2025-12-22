@@ -44,7 +44,7 @@
 {{/* Use category-specific OG image if available */}}
 {{ else if .Params.categories }}
     {{ $cat := index .Params.categories 0 | lower }}
-    {{ $ogPath := printf "og/%s.png" $cat }}
+    {{ $ogPath := printf "og/%s.gif" $cat }}
     {{ if fileExists (printf "static/%s" $ogPath) }}
         {{ $image = printf "%s%s" .Site.BaseURL $ogPath }}
     {{ end }}
@@ -52,8 +52,8 @@
 
 {{/* Fallback to default OG image */}}
 {{ if not $image }}
-    {{ if fileExists "static/og/default.png" }}
-        {{ $image = printf "%sog/default.png" .Site.BaseURL }}
+    {{ if fileExists "static/og/default.gif" }}
+        {{ $image = printf "%sog/default.gif" .Site.BaseURL }}
     {{ else if .Site.Params.ogImage }}
         {{ $image = .Site.Params.ogImage }}
     {{ end }}
