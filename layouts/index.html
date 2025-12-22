@@ -1,6 +1,9 @@
 {{ define "main" }}
-{{/* Get all posts from posts section */}}
+{{/* Get all posts - try Section first, fall back to all regular pages for micro.blog */}}
 {{ $posts := where .Site.RegularPages "Section" "posts" }}
+{{ if eq (len $posts) 0 }}
+    {{ $posts = .Site.RegularPages }}
+{{ end }}
 
 {{/* Track state for grouping blogs vs notes */}}
 {{ $.Scratch.Set "inBlogGroup" false }}

@@ -2,7 +2,7 @@
 {{/* Track state for grouping blogs vs notes */}}
 {{ $.Scratch.Set "inBlogGroup" false }}
 
-{{ range where .Site.RegularPages "Type" "post" }}
+{{ range .Pages }}
     {{/* Note = no title OR explicitly marked as note */}}
     {{ $isNote := or (not .Title) (eq .Params.format "note") }}
 
