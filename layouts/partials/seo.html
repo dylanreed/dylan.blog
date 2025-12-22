@@ -1,0 +1,99 @@
+{{/* ABOUTME: SEO and social sharing meta tags partial */}}
+{{/* ABOUTME: Handles meta description, Open Graph, Twitter Cards, and canonical URLs */}}
+
+{{/* Build the description */}}
+{{ $description := "" }}
+{{ if .Description }}
+    {{ $description = .Description }}
+{{ else if .Summary }}
+    {{ $description = .Summary | plainify | truncate 160 }}
+{{ else if .Site.Params.description }}
+    {{ $description = .Site.Params.description }}
+{{ else }}
+    {{ $description = "Dylan's pixel art blog about gaming, health, tabletop, and life adventures." }}
+{{ end }}
+
+{{/* Build the title */}}
+{{ $title := .Site.Title }}
+{{ if .Title }}
+    {{ $title = printf "%s - %s" .Title .Site.Title }}
+{{ end }}
+
+{{/* Build the canonical URL */}}
+{{ $canonicalURL := .Permalink }}
+
+{{/* Build the image URL */}}
+{{ $image := "" }}
+{{ $imageWidth := 1200 }}
+{{ $imageHeight := 630 }}
+
+{{/* Check for page-specific image in frontmatter */}}
+{{ if .Params.image }}
+    {{ $image = .Params.image }}
+    {{ if not (hasPrefix $image "http") }}
+        {{ $image = printf "%s%s" .Site.BaseURL (strings.TrimPrefix "/" $image) }}
+    {{ end }}
+{{/* Check for photos in the page */}}
+{{ else if .Params.photos }}
+    {{ with index .Params.photos 0 }}
+        {{ $image = . }}
+        {{ if not (hasPrefix $image "http") }}
+            {{ $image = printf "%s%s" $.Site.BaseURL (strings.TrimPrefix "/" $image) }}
+        {{ end }}
+    {{ end }}
+{{/* Use category-specific OG image if available */}}
+{{ else if .Params.categories }}
+    {{ $cat := index .Params.categories 0 | lower }}
+    {{ $ogPath := printf "og/%s.png" $cat }}
+    {{ if fileExists (printf "static/%s" $ogPath) }}
+        {{ $image = printf "%s%s" .Site.BaseURL $ogPath }}
+    {{ end }}
+{{ end }}
+
+{{/* Fallback to default OG image */}}
+{{ if not $image }}
+    {{ if fileExists "static/og/default.png" }}
+        {{ $image = printf "%sog/default.png" .Site.BaseURL }}
+    {{ else if .Site.Params.ogImage }}
+        {{ $image = .Site.Params.ogImage }}
+    {{ end }}
+{{ end }}
+
+{{/* Get page type for og:type */}}
+{{ $ogType := "website" }}
+{{ if .IsPage }}
+    {{ $ogType = "article" }}
+{{ end }}
+
+{{/* Meta description */}}
+<meta name="description" content="{{ $description }}">
+
+{{/* Canonical URL */}}
+<link rel="canonical" href="{{ $canonicalURL }}">
+
+{{/* Open Graph tags */}}
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:type" content="{{ $ogType }}">
+<meta property="og:url" content="{{ $canonicalURL }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+{{ with $image }}
+<meta property="og:image" content="{{ . }}">
+<meta property="og:image:width" content="{{ $imageWidth }}">
+<meta property="og:image:height" content="{{ $imageHeight }}">
+{{ end }}
+{{ if .IsPage }}
+<meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+{{ with .Lastmod }}<meta property="article:modified_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">{{ end }}
+{{ with .Site.Params.author }}<meta property="article:author" content="{{ . }}">{{ end }}
+{{ range .Params.categories }}<meta property="article:section" content="{{ . }}">{{ end }}
+{{ range .Params.tags }}<meta property="article:tag" content="{{ . }}">{{ end }}
+{{ end }}
+
+{{/* Twitter Card tags */}}
+<meta name="twitter:card" content="{{ if $image }}summary_large_image{{ else }}summary{{ end }}">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $description }}">
+{{ with $image }}<meta name="twitter:image" content="{{ . }}">{{ end }}
+{{ with .Site.Params.twitter }}<meta name="twitter:site" content="@{{ . }}">{{ end }}
+{{ with .Site.Params.twitter }}<meta name="twitter:creator" content="@{{ . }}">{{ end }}

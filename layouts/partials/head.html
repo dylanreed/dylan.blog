@@ -2,6 +2,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{{ if .Title }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
 
+{{/* SEO and social sharing meta tags */}}
+{{ partial "seo.html" . }}
+
+<!-- Theme detection - MUST run before CSS to prevent flash -->
+<script>
+(function() {
+    var theme = localStorage.getItem('theme');
+    if (theme === 'night' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('night');
+    }
+})();
+</script>
+
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,9 +37,9 @@
 <link rel="microsub" href="https://micro.blog/microsub">
 
 <!-- Social identity links -->
-{{ with .Site.Author.twitter }}<link rel="me" href="https://twitter.com/{{ . }}">{{ end }}
-{{ with .Site.Author.github }}<link rel="me" href="https://github.com/{{ . }}">{{ end }}
-{{ with .Site.Author.instagram }}<link rel="me" href="https://instagram.com/{{ . }}">{{ end }}
+{{ with .Site.Params.twitter }}<link rel="me" href="https://twitter.com/{{ . }}">{{ end }}
+{{ with .Site.Params.github }}<link rel="me" href="https://github.com/{{ . }}">{{ end }}
+{{ with .Site.Params.instagram }}<link rel="me" href="https://instagram.com/{{ . }}">{{ end }}
 
 <!-- RSS Feed -->
 <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ .Site.BaseURL }}feed.xml">

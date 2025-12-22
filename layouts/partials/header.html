@@ -19,8 +19,10 @@
     {{ else if eq $cat "tabletop" }}
         {{ $headerImage = "/headers/tabletop.png" }}
     {{ else if eq $cat "gaming" }}
-        {{ $headerImage = "/headers/tabletop.png" }}
+        {{ $headerImage = "/headers/gaming.png" }}
     {{ else if eq $cat "personal" }}
+        {{ $headerImage = "/headers/home.png" }}
+    {{ else if eq $cat "clown" }}
         {{ $headerImage = "/headers/clown.png" }}
     {{ else if eq $cat "writing" }}
         {{ $headerImage = "/headers/writing.png" }}
@@ -35,9 +37,9 @@
     {{ else if eq $cat "crafting" }}
         {{ $headerImage = "/headers/crafting.png" }}
     {{ else if eq $cat "adhd" }}
-        {{ $headerImage = "/headers/health.png" }}
+        {{ $headerImage = "/headers/adhd.png" }}
     {{ else if eq $cat "pets" }}
-        {{ $headerImage = "/headers/garden.png" }}
+        {{ $headerImage = "/headers/pets.png" }}
     {{ else if eq $cat "tech" }}
         {{ $headerImage = "/headers/tech.png" }}
     {{ else }}

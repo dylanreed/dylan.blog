@@ -18,6 +18,10 @@ button,
     cursor: url("/cursors/hand.png"), pointer;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     font-family: "Spectral", Georgia, serif;
     min-height: 100vh;
@@ -25,6 +29,8 @@ body {
     background: url("/background/3.png");
     background-repeat: repeat;
     image-rendering: pixelated;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 /* Custom Scrollbar - Medieval Wood Style */
@@ -67,13 +73,13 @@ body {
 }
 
 /* Night mode scrollbar */
-body.night::-webkit-scrollbar-track {
+html.night::-webkit-scrollbar-track {
     background: linear-gradient(90deg, #1a2030 0%, #2a3040 50%, #1a2030 100%);
     border-left: 2px solid #0d1520;
     border-right: 2px solid #0d1520;
 }
 
-body.night::-webkit-scrollbar-thumb {
+html.night::-webkit-scrollbar-thumb {
     background: linear-gradient(90deg, #3a4a5a 0%, #4a5a6a 50%, #3a4a5a 100%);
     border-color: #2a3545;
     box-shadow:
@@ -82,15 +88,15 @@ body.night::-webkit-scrollbar-thumb {
         0 0 8px rgba(100, 150, 200, 0.2);
 }
 
-body.night::-webkit-scrollbar-thumb:hover {
+html.night::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(90deg, #4a5a6a 0%, #5a6a7a 50%, #4a5a6a 100%);
 }
 
-body.night::-webkit-scrollbar-corner {
+html.night::-webkit-scrollbar-corner {
     background: #1a2030;
 }
 
-body.night {
+html.night {
     scrollbar-color: #4a5a6a #1a2030;
 }
 
@@ -188,170 +194,105 @@ body.night {
 }
 
 /* Night mode toggle styling */
-body.night .mode-toggle {
+html.night .mode-toggle {
     filter: hue-rotate(180deg) saturate(0.7);
 }
 
-body.night .mode-toggle:hover {
+html.night .mode-toggle:hover {
     transform: translateY(-2px);
     filter: hue-rotate(180deg) saturate(0.7) brightness(1.1);
 }
 
-body.night .mode-toggle .mode-icon {
+html.night .mode-toggle .mode-icon {
     filter: hue-rotate(-180deg) saturate(1.4);
 }
 
-/* Night mode - twilight overlay with stars */
-body.night::after {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background:
-        radial-gradient(
-            1px 1px at 10% 20%,
-            rgba(255, 255, 255, 0.8),
-            transparent
-        ),
-        radial-gradient(
-            1px 1px at 25% 15%,
-            rgba(255, 255, 255, 0.6),
-            transparent
-        ),
-        radial-gradient(
-            2px 2px at 40% 8%,
-            rgba(200, 220, 255, 0.9),
-            transparent
-        ),
-        radial-gradient(
-            1px 1px at 55% 25%,
-            rgba(255, 255, 255, 0.5),
-            transparent
-        ),
-        radial-gradient(
-            1px 1px at 70% 12%,
-            rgba(255, 255, 255, 0.7),
-            transparent
-        ),
-        radial-gradient(
-            2px 2px at 85% 18%,
-            rgba(180, 200, 255, 0.8),
-            transparent
-        ),
-        radial-gradient(
-            1px 1px at 92% 28%,
-            rgba(255, 255, 255, 0.4),
-            transparent
-        ),
-        radial-gradient(
-            1px 1px at 15% 35%,
-            rgba(255, 255, 255, 0.5),
-            transparent
-        ),
-        radial-gradient(
-            1px 1px at 35% 5%,
-            rgba(255, 255, 255, 0.6),
-            transparent
-        ),
-        radial-gradient(
-            1px 1px at 60% 30%,
-            rgba(255, 255, 255, 0.4),
-            transparent
-        ),
-        radial-gradient(
-            2px 2px at 78% 5%,
-            rgba(220, 240, 255, 0.7),
-            transparent
-        ),
-        radial-gradient(
-            1px 1px at 5% 8%,
-            rgba(255, 255, 255, 0.5),
-            transparent
-        ),
-        radial-gradient(
-            1px 1px at 48% 18%,
-            rgba(255, 255, 255, 0.6),
-            transparent
-        ),
-        rgba(13, 27, 42, 0.55);
-    pointer-events: none;
-    z-index: 50;
-    animation: twinkle 8s ease-in-out infinite alternate;
+/* Night mode background */
+html.night body {
+    background: url("/background/3_night.png");
+    background-repeat: repeat;
 }
 
-@keyframes twinkle {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0.92;
-    }
+/* Night mode content background */
+html.night .posts-container::before,
+html.night .post-container::before,
+html.night .page-container::before,
+html.night .archive-container::before {
+    background: #3b454d;
 }
 
-/* Elements above the night overlay */
-
-body.night .post-sprite,
-body.night .archive-sprite,
-body.night .category-sprite-large,
-body.night .diver {
-    position: relative;
-    z-index: 100;
+/* Night mode border tiles */
+html.night .posts-container,
+html.night .post-container,
+html.night .page-container,
+html.night .archive-container {
+    border-image-source: url("/tiles/tiles_night.png");
 }
 
-/* Night mode content background - matches overlay-covered cream */
-body.night .posts-container::before,
-body.night .post-container::before,
-body.night .page-container::before,
-body.night .archive-container::before {
-    background: #747878;
-}
+/* Night mode headers - swap to night versions */
+html.night .header-image[style*="home.png"] { background-image: url("/headers/home_night.png") !important; }
+html.night .header-image[style*="default.png"] { background-image: url("/headers/default_night.png") !important; }
+html.night .header-image[style*="health.png"] { background-image: url("/headers/health_night.png") !important; }
+html.night .header-image[style*="tabletop.png"] { background-image: url("/headers/tabletop_night.png") !important; }
+html.night .header-image[style*="gaming.png"] { background-image: url("/headers/gaming_night.png") !important; }
+html.night .header-image[style*="clown.png"] { background-image: url("/headers/clown_night.png") !important; }
+html.night .header-image[style*="writing.png"] { background-image: url("/headers/writing_night.png") !important; }
+html.night .header-image[style*="cooking.png"] { background-image: url("/headers/cooking_night.png") !important; }
+html.night .header-image[style*="music.png"] { background-image: url("/headers/music_night.png") !important; }
+html.night .header-image[style*="travel.png"] { background-image: url("/headers/travel_night.png") !important; }
+html.night .header-image[style*="reading.png"] { background-image: url("/headers/reading_night.png") !important; }
+html.night .header-image[style*="crafting.png"] { background-image: url("/headers/crafting_night.png") !important; }
+html.night .header-image[style*="garden.png"] { background-image: url("/headers/garden_night.png") !important; }
+html.night .header-image[style*="tech.png"] { background-image: url("/headers/tech_night.png") !important; }
+html.night .header-image[style*="pets.png"] { background-image: url("/headers/pets_night.png") !important; }
+html.night .header-image[style*="adhd.png"] { background-image: url("/headers/adhd_night.png") !important; }
 
 /* Night mode text adjustments for readability */
-body.night .post-title,
-body.night .post-title a,
-body.night .page-title,
-body.night .category-title,
-body.night .archive-title,
-body.night .year-header {
+html.night .post-title,
+html.night .post-title a,
+html.night .page-title,
+html.night .category-title,
+html.night .archive-title,
+html.night .year-header {
     color: #ffffff;
-    position: relative;
-    z-index: 60;
 }
 
-body.night .post-excerpt,
-body.night .post-content,
-body.night .page-content {
+html.night .post-excerpt,
+html.night .post-content,
+html.night .page-content {
     color: #f0f0f0;
-    position: relative;
-    z-index: 60;
 }
 
-body.night .post-meta,
-body.night .archive-date,
-body.night .category-count {
+html.night .post-meta,
+html.night .archive-date,
+html.night .category-count {
     color: #d0d0d0;
-    position: relative;
-    z-index: 60;
 }
 
-body.night .post,
-body.night .post-body,
-body.night .archive-entry,
-body.night .photo-grid,
-body.night .photo-item img {
-    position: relative;
-    z-index: 60;
+html.night .post-content blockquote,
+html.night .page-content blockquote {
+    color: #c0c8d0;
+    border-left-color: #6080a0;
 }
 
-body.night .site-footer {
+html.night .post-content code,
+html.night .page-content code {
+    background: rgba(100, 140, 180, 0.2);
+    color: #e0e8f0;
+}
+
+html.night .post-content pre,
+html.night .page-content pre {
+    background: rgba(20, 30, 45, 0.5);
+}
+
+html.night .site-footer {
     color: #c0c0c0;
 }
 
 /* Night mode link glows - adventure game hotspot style */
-body.night .post-content a,
-body.night .page-content a {
+html.night .post-content a,
+html.night .page-content a {
     color: #7dd3fc;
     text-shadow: 0 0 8px rgba(125, 211, 252, 0.5);
     transition:
@@ -359,8 +300,8 @@ body.night .page-content a {
         color 0.2s ease;
 }
 
-body.night .post-content a:hover,
-body.night .page-content a:hover {
+html.night .post-content a:hover,
+html.night .page-content a:hover {
     color: #a5f3fc;
     text-shadow:
         0 0 12px rgba(165, 243, 252, 0.8),
@@ -368,32 +309,32 @@ body.night .page-content a:hover {
 }
 
 /* Night mode post title glow */
-body.night .post-title a:hover {
+html.night .post-title a:hover {
     color: #e8d5b0;
     text-shadow: 0 0 15px rgba(232, 213, 176, 0.6);
 }
 
 /* Night mode archive title glow */
-body.night .archive-title:hover {
+html.night .archive-title:hover {
     color: #e8d5b0;
     text-shadow: 0 0 12px rgba(232, 213, 176, 0.5);
 }
 
 /* Night mode navigation glow */
-body.night .nav-sign:hover img {
+html.night .nav-sign:hover img {
     filter: drop-shadow(0 0 8px rgba(255, 200, 100, 0.6));
 }
 
 /* Night mode header moonlit effect */
-body.night .header-image {
+html.night .header-image {
     box-shadow:
         0 4px 20px rgba(0, 0, 0, 0.5),
         0 0 40px rgba(100, 150, 255, 0.15);
 }
 
 /* Night mode tag glow */
-body.night .post-tag:hover,
-body.night .archive-tag:hover {
+html.night .post-tag:hover,
+html.night .archive-tag:hover {
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 }
 
@@ -454,7 +395,8 @@ body.night .archive-tag:hover {
 .main-content {
     max-width: 964px;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 10px;
+    width: 100%;
 }
 
 /* Posts container - single grass border */
@@ -466,7 +408,7 @@ body.night .archive-tag:hover {
     background: transparent;
     image-rendering: pixelated;
     border: 64px solid transparent;
-    border-image-source: url("/tiles/dylanblogtileset.png");
+    border-image-source: url("/tiles/day_tiles.png");
     border-image-slice: 64 96 64 96;
     border-image-width: 64px 96px 64px 96px;
     border-image-repeat: round;
@@ -586,7 +528,7 @@ body.night .archive-tag:hover {
 
 .post-meta {
     font-size: 14px;
-    color: #888;
+    color: #6a5a4a;
     margin-bottom: 15px;
 }
 
@@ -692,6 +634,47 @@ body.night .archive-tag:hover {
 .post-content pre code {
     background: none;
     padding: 0;
+}
+
+/* Tables - responsive wrapper */
+.post-content table,
+.page-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5em 0;
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.post-content th,
+.post-content td,
+.page-content th,
+.page-content td {
+    padding: 10px 12px;
+    border: 1px solid rgba(139, 90, 43, 0.3);
+    text-align: left;
+    white-space: nowrap;
+}
+
+.post-content th,
+.page-content th {
+    background: rgba(139, 90, 43, 0.15);
+    font-family: "MedievalSharp", cursive;
+    color: #4a3520;
+}
+
+html.night .post-content th,
+html.night .page-content th {
+    background: rgba(100, 140, 180, 0.2);
+    color: #d0d8e0;
+}
+
+html.night .post-content th,
+html.night .post-content td,
+html.night .page-content th,
+html.night .page-content td {
+    border-color: rgba(100, 140, 180, 0.3);
 }
 
 /* "Read more" link - Adventure game action button style */
@@ -1331,10 +1314,10 @@ body.night .archive-tag:hover {
 
 .nav-arrow:disabled {
     background: #ccc;
-    border-color: #999;
-    color: #888;
+    border-color: #888;
+    color: #555;
     cursor: url("/cursors/pointer.png"), auto;
-    opacity: 0.5;
+    opacity: 0.6;
 }
 
 .post-counter {
@@ -1381,16 +1364,16 @@ body.night .archive-tag:hover {
 }
 
 /* Night mode footer */
-body.night .site-footer {
-    color: #a0a0a0;
+html.night .site-footer {
+    color: #b5b5b5;
 }
 
-body.night .site-footer::before {
-    color: #6080a0;
+html.night .site-footer::before {
+    color: #80a0c0;
     text-shadow: 0 0 8px rgba(100, 150, 200, 0.4);
 }
 
-body.night .site-footer p {
+html.night .site-footer p {
     background: linear-gradient(180deg, #3a4050 0%, #2a3040 100%);
     border-color: #4a5a6a;
     color: #b0b8c0;
@@ -1407,7 +1390,7 @@ body.night .site-footer p {
     background: transparent;
     image-rendering: pixelated;
     border: 64px solid transparent;
-    border-image-source: url("/tiles/dylanblogtileset.png");
+    border-image-source: url("/tiles/day_tiles.png");
     border-image-slice: 64 96 64 96;
     border-image-width: 64px 96px 64px 96px;
     border-image-repeat: round;
@@ -1487,7 +1470,7 @@ body.night .site-footer p {
 
 .archive-date {
     font-size: 14px;
-    color: #888;
+    color: #6a5a4a;
     min-width: 60px;
 }
 
@@ -1684,11 +1667,11 @@ body.night .site-footer p {
 }
 
 /* Night mode notes */
-body.night .note-scroll {
-    filter: brightness(0.85) sepia(0.2);
+html.night .note-scroll {
+    filter: invert(0.85) hue-rotate(180deg);
 }
 
-body.night .note-scroll .note-content {
+html.night .note-scroll .note-content {
     color: #3a2a18;
 }
 
@@ -1828,7 +1811,7 @@ body.night .note-scroll .note-content {
 }
 
 /* Night mode pagination */
-body.night .pagination {
+html.night .pagination {
     background: linear-gradient(180deg, #3a4050 0%, #2a3040 100%);
     border-color: #1a2030;
     box-shadow:
@@ -1837,7 +1820,7 @@ body.night .pagination {
         4px 4px 0 rgba(0, 0, 0, 0.4);
 }
 
-body.night .pagination a {
+html.night .pagination a {
     color: #d0d8e0;
     background: linear-gradient(180deg, #4a5a6a 0%, #3a4a5a 100%);
     border-color: #2a3a4a;
@@ -1846,10 +1829,275 @@ body.night .pagination a {
         inset -1px -1px 0 #2a3a4a;
 }
 
-body.night .pagination a:hover {
+html.night .pagination a:hover {
     background: linear-gradient(180deg, #5a6a7a 0%, #4a5a6a 100%);
 }
 
-body.night .pagination-info {
+html.night .pagination-info {
     color: #a0b0c0;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   ENHANCED MOBILE RESPONSIVE STYLES
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Small tablets and large phones */
+@media (max-width: 600px) {
+    /* Navigation - smaller signs */
+    .site-nav {
+        gap: 8px;
+        padding: 0 10px;
+        margin-top: -40px;
+    }
+
+    .nav-sign {
+        min-width: 100px;
+        height: 100px;
+        background-size: contain;
+    }
+
+    .nav-sign span {
+        font-size: 16px;
+        padding-top: 45px;
+    }
+
+    /* Header adjustments */
+    .site-header {
+        padding: 10px 10px 0;
+    }
+
+    .header-image {
+        height: 150px;
+    }
+
+    .site-title {
+        font-size: 22px;
+        left: 15px;
+        bottom: 15px;
+    }
+
+    /* Content containers - smaller borders */
+    .posts-container,
+    .post-container,
+    .page-container,
+    .archive-container {
+        border-width: 24px;
+        border-image-width: 24px 36px 24px 36px;
+        padding: 15px;
+    }
+
+    /* Post content */
+    .post-content,
+    .page-content {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .post-title {
+        font-size: 20px;
+    }
+
+    .post-header .post-title {
+        font-size: 24px;
+    }
+
+    /* Archive entries */
+    .archive-entry {
+        flex-wrap: wrap;
+    }
+
+    .archive-sprite {
+        transform: scale(0.5);
+        margin-right: -48px;
+        margin-bottom: -48px;
+    }
+
+    .archive-date {
+        font-size: 12px;
+        min-width: 50px;
+    }
+
+    .archive-title {
+        font-size: 16px;
+    }
+
+    .year-header {
+        font-size: 26px;
+    }
+
+    /* Note scrolls - responsive width */
+    .note-scroll {
+        max-width: 100%;
+        margin: -100px auto;
+    }
+
+    .note-scroll:first-child {
+        margin-top: -30px;
+    }
+
+    .note-scroll::before,
+    .note-scroll::after {
+        max-width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .note-scroll .note-content {
+        max-width: 100%;
+        font-size: 16px;
+        padding: 15px 15% 20px 15%;
+        margin-bottom: -40px;
+    }
+
+    /* Pagination */
+    .pagination {
+        gap: 10px;
+        padding: 15px;
+        max-width: 90%;
+    }
+
+    .pagination a {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+
+    /* Category page */
+    .category-title {
+        font-size: 24px;
+    }
+
+    .category-sprite-large .post-sprite {
+        transform: scale(1);
+    }
+
+    /* Footer */
+    .site-footer {
+        padding: 20px 15px;
+    }
+
+    .site-footer p {
+        padding: 10px 16px;
+        font-size: 12px;
+    }
+
+    /* Photo grid - fewer columns */
+    .photo-grid {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        gap: 8px;
+    }
+
+    /* Touch-friendly links in content */
+    .post-content a,
+    .page-content a,
+    .note-scroll a {
+        padding: 4px 2px;
+        margin: -4px -2px;
+    }
+
+    /* Better spacing for tags */
+    .post-tags {
+        gap: 8px;
+    }
+
+    .post-tag {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+}
+
+/* Very small phones */
+@media (max-width: 400px) {
+    /* Navigation - even smaller */
+    .site-nav {
+        gap: 5px;
+        margin-top: -30px;
+    }
+
+    .nav-sign {
+        min-width: 80px;
+        height: 80px;
+    }
+
+    .nav-sign span {
+        font-size: 13px;
+        padding-top: 36px;
+    }
+
+    /* Header */
+    .header-image {
+        height: 120px;
+    }
+
+    .site-title {
+        font-size: 18px;
+        left: 10px;
+        bottom: 10px;
+    }
+
+    /* Content containers - minimal borders */
+    .posts-container,
+    .post-container,
+    .page-container,
+    .archive-container {
+        border-width: 16px;
+        border-image-width: 16px 24px 16px 24px;
+        padding: 10px;
+    }
+
+    /* Posts */
+    .post {
+        gap: 10px;
+        padding: 8px 0;
+    }
+
+    .post-sprite {
+        width: 48px;
+        height: 48px;
+    }
+
+    .post-sprite img {
+        width: 96px;
+        height: 96px;
+    }
+
+    .post-title {
+        font-size: 18px;
+    }
+
+    .post-content,
+    .page-content {
+        font-size: 15px;
+    }
+
+    /* Note scrolls */
+    .note-scroll::before,
+    .note-scroll::after {
+        height: 150px;
+    }
+
+    .note-scroll .note-content {
+        font-size: 14px;
+        padding: 10px 12% 15px 12%;
+    }
+
+    /* Category */
+    .category-header {
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+    }
+
+    .category-title {
+        font-size: 20px;
+    }
+
+    /* Pagination - stacked on tiny screens */
+    .pagination {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    /* Photo grid */
+    .photo-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
