@@ -1,7 +1,35 @@
 {{ define "main" }}
-<div class="posts-container">
-    <div class="posts">
-        {{ range where .Site.RegularPages "Type" "post" }}
+{{/* Track state for grouping blogs vs notes */}}
+{{ $.Scratch.Set "inBlogGroup" false }}
+
+{{ range where .Site.RegularPages "Type" "post" }}
+    {{/* Note = no title OR explicitly marked as note */}}
+    {{ $isNote := or (not .Title) (eq .Params.format "note") }}
+
+    {{ if $isNote }}
+        {{/* Close blog container if we were in one */}}
+        {{ if $.Scratch.Get "inBlogGroup" }}
+            </div></div>
+            {{ $.Scratch.Set "inBlogGroup" false }}
+        {{ end }}
+
+        {{/* Render note as scroll */}}
+        <article class="note-scroll">
+            <div class="note-content">
+                {{ .Content }}
+            </div>
+            <div class="note-meta">
+                <a href="{{ .Permalink }}" class="note-date">{{ .Date.Format "January 2, 2006" }}</a>
+            </div>
+        </article>
+    {{ else }}
+        {{/* Open blog container if not already in one */}}
+        {{ if not ($.Scratch.Get "inBlogGroup") }}
+            <div class="posts-container"><div class="posts">
+            {{ $.Scratch.Set "inBlogGroup" true }}
+        {{ end }}
+
+        {{/* Render blog post */}}
         <article class="post {{ partial "category-class.html" . }}">
             {{/* Sprite based on first category */}}
             {{ partial "post-sprite.html" . }}
@@ -36,9 +64,13 @@
                 <a href="{{ .Permalink }}" class="post-link">Read more &rarr;</a>
             </div>
         </article>
-        {{ end }}
-    </div>
-</div>
+    {{ end }}
+{{ end }}
+
+{{/* Close blog container if still open */}}
+{{ if $.Scratch.Get "inBlogGroup" }}
+    </div></div>
+{{ end }}
 
 {{/* Pagination */}}
 {{ if .Paginator }}

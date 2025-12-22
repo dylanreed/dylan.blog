@@ -1,17 +1,41 @@
 {{ define "main" }}
-<div class="posts-container">
-    <div class="posts">
-        {{/* Get posts - try "post" type first (micro.blog), fall back to "posts" section (local) */}}
-        {{ $posts := where .Site.RegularPages "Type" "post" }}
-        {{ if not $posts }}
-            {{ $posts = where .Site.RegularPages "Section" "posts" }}
-        {{ end }}
-        {{ if not $posts }}
-            {{ $posts = .Site.RegularPages }}
+{{/* Get all posts from posts section */}}
+{{ $posts := where .Site.RegularPages "Section" "posts" }}
+
+{{/* Track state for grouping blogs vs notes */}}
+{{ $.Scratch.Set "inBlogGroup" false }}
+{{ $.Scratch.Set "blogIndex" 0 }}
+
+{{ range first 10 $posts }}
+    {{/* Note = no title OR explicitly marked as note */}}
+    {{ $isNote := or (not .Title) (eq .Params.format "note") }}
+
+    {{ if $isNote }}
+        {{/* Close blog container if we were in one */}}
+        {{ if $.Scratch.Get "inBlogGroup" }}
+            </div></div>
+            {{ $.Scratch.Set "inBlogGroup" false }}
         {{ end }}
 
-        {{ range $index, $page := first 7 $posts }}
-        <article class="post {{ partial "category-class.html" . }}{{ if eq $index 0 }} featured-post{{ end }}">
+        {{/* Render note as scroll */}}
+        <article class="note-scroll">
+            <div class="note-content">
+                {{ .Content }}
+            </div>
+            <div class="note-meta">
+                <a href="{{ .Permalink }}" class="note-date">{{ .Date.Format "January 2, 2006" }}</a>
+            </div>
+        </article>
+    {{ else }}
+        {{/* Open blog container if not already in one */}}
+        {{ if not ($.Scratch.Get "inBlogGroup") }}
+            <div class="posts-container"><div class="posts">
+            {{ $.Scratch.Set "inBlogGroup" true }}
+        {{ end }}
+
+        {{/* Render blog post */}}
+        {{ $blogIndex := $.Scratch.Get "blogIndex" }}
+        <article class="post {{ partial "category-class.html" . }}{{ if eq $blogIndex 0 }} featured-post{{ end }}">
             {{/* Sprite based on first category */}}
             {{ partial "post-sprite.html" . }}
 
@@ -33,8 +57,8 @@
                 {{/* Post date */}}
                 <div class="post-meta">{{ .Date.Format "January 2, 2006" }}</div>
 
-                {{/* First post: summary. Rest: just title and date */}}
-                {{ if eq $index 0 }}
+                {{/* First blog post: summary. Rest: just title and date */}}
+                {{ if eq $blogIndex 0 }}
                 <div class="post-excerpt">
                     {{ if .Summary }}
                         {{ .Summary | plainify | truncate 200 }}
@@ -46,7 +70,12 @@
                 {{ end }}
             </div>
         </article>
-        {{ end }}
-    </div>
-</div>
+        {{ $.Scratch.Set "blogIndex" (add $blogIndex 1) }}
+    {{ end }}
+{{ end }}
+
+{{/* Close blog container if still open */}}
+{{ if $.Scratch.Get "inBlogGroup" }}
+    </div></div>
+{{ end }}
 {{ end }}
