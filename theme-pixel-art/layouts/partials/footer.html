@@ -1,135 +1,151 @@
 <footer class="site-footer">
-    <p>{{ .Site.Title }} &copy; {{ now.Year }} &middot; Powered by chaos goblin energy</p>
+    <p>
+        {{ .Site.Title }} &copy; {{ now.Year }} &middot; Powered by chaos goblin
+        energy
+    </p>
 </footer>
 
 <script>
-(function() {
-    // Find the content container
-    const container = document.querySelector('.posts-container, .post-container, .page-container, .archive-container');
-    if (!container) return;
+    (function () {
+        // Find ALL content containers with grass borders
+        const containers = document.querySelectorAll(
+            ".posts-container, .post-container, .page-container, .archive-container",
+        );
+        if (containers.length === 0) return;
 
-    // Create and inject diver into body (fixed positioning)
-    const diverContainer = document.createElement('div');
-    diverContainer.className = 'diver-container';
-    const diver = document.createElement('img');
-    diver.className = 'diver';
-    diver.id = 'diver';
-    diver.alt = '';
-    diverContainer.appendChild(diver);
-    document.body.appendChild(diverContainer);
-
-    // Sprite paths
-    const sprites = {
-        walkEast: '/sprites/diver/walking_east.gif',
-        walkWest: '/sprites/diver/walking_west.gif',
-        idleNorth: '/sprites/diver/idel_north.gif',
-        idleEast: '/sprites/diver/idle_east.gif',
-        idleNorthEast: '/sprites/diver/idle_north_east.gif',
-        idleNorthWest: '/sprites/diver/idle_north_west.gif',
-        idleSouthEast: '/sprites/diver/idle_sout_east.gif',
-        idleSouth: '/sprites/diver/idle_south.gif',
-        idleSouthWest: '/sprites/diver/idle_south_west.gif',
-        idleWest: '/sprites/diver/idle_west.gif'
-    };
-
-    const idleSprites = [
-        sprites.idleNorth, sprites.idleEast, sprites.idleNorthEast,
-        sprites.idleNorthWest, sprites.idleSouthEast, sprites.idleSouth,
-        sprites.idleSouthWest, sprites.idleWest
-    ];
-
-    // Get container bounds
-    function getContainerBounds() {
-        const rect = container.getBoundingClientRect();
-        return {
-            left: rect.left,
-            width: rect.width,
-            top: rect.top
+        // Sprite paths
+        const sprites = {
+            walkEast: "/sprites/diver/walking_east.gif",
+            walkWest: "/sprites/diver/walking_west.gif",
+            idleNorth: "/sprites/diver/idel_north.gif",
+            idleEast: "/sprites/diver/idle_east.gif",
+            idleNorthEast: "/sprites/diver/idle_north_east.gif",
+            idleNorthWest: "/sprites/diver/idle_north_west.gif",
+            idleSouthEast: "/sprites/diver/idle_sout_east.gif",
+            idleSouth: "/sprites/diver/idle_south.gif",
+            idleSouthWest: "/sprites/diver/idle_south_west.gif",
+            idleWest: "/sprites/diver/idle_west.gif",
         };
-    }
 
-    // State - restore from localStorage if available
-    let bounds = getContainerBounds();
-    const savedState = JSON.parse(localStorage.getItem('diver_state') || 'null');
-    let x = savedState?.x ?? Math.random() * (bounds.width - 64);
-    let direction = savedState?.direction ?? (Math.random() > 0.5 ? 1 : -1);
-    let isIdle = false;
-    let speed = 1.5;
+        const idleSprites = [
+            sprites.idleNorth,
+            sprites.idleEast,
+            sprites.idleNorthEast,
+            sprites.idleNorthWest,
+            sprites.idleSouthEast,
+            sprites.idleSouth,
+            sprites.idleSouthWest,
+            sprites.idleWest,
+        ];
 
-    // Clamp x to valid bounds
-    x = Math.max(0, Math.min(x, bounds.width - 64));
+        // Create a diver for each container
+        containers.forEach((container, index) => {
+            const diver = document.createElement("img");
+            diver.className = "diver";
+            diver.alt = "";
+            diver.style.position = "fixed";
+            diver.style.pointerEvents = "none";
+            diver.style.zIndex = "1000";
+            document.body.appendChild(diver);
 
-    // Save state periodically
-    function saveDiverState() {
-        localStorage.setItem('diver_state', JSON.stringify({ x, direction }));
-    }
-    setInterval(saveDiverState, 1000);
-    window.addEventListener('beforeunload', saveDiverState);
-
-    // Position diver on top border (32px into the border from top)
-    function updateDiverPosition() {
-        bounds = getContainerBounds();
-        const diverTop = bounds.top + window.scrollY - 32; // Position on top border
-        diver.style.top = (bounds.top - 32) + 'px';
-        diver.style.left = (bounds.left + x) + 'px';
-    }
-
-    diver.src = direction === 1 ? sprites.walkEast : sprites.walkWest;
-    updateDiverPosition();
-
-    function setSprite(src) {
-        if (diver.src !== src) {
-            diver.src = src;
-        }
-    }
-
-    function startWalking() {
-        isIdle = false;
-        setSprite(direction === 1 ? sprites.walkEast : sprites.walkWest);
-    }
-
-    function startIdling() {
-        isIdle = true;
-        const randomIdle = idleSprites[Math.floor(Math.random() * idleSprites.length)];
-        setSprite(randomIdle);
-
-        // Resume walking after random time (2-6 seconds)
-        const idleTime = 2000 + Math.random() * 4000;
-        setTimeout(startWalking, idleTime);
-    }
-
-    function animate() {
-        bounds = getContainerBounds();
-
-        if (!isIdle) {
-            x += speed * direction;
-
-            // Check boundaries (constrained to container width)
-            const maxX = bounds.width - 64;
-            if (x >= maxX) {
-                x = maxX;
-                direction = -1;
-                setSprite(sprites.walkWest);
-            } else if (x <= 0) {
-                x = 0;
-                direction = 1;
-                setSprite(sprites.walkEast);
+            // Get container bounds
+            function getContainerBounds() {
+                const rect = container.getBoundingClientRect();
+                return {
+                    left: rect.left,
+                    width: rect.width,
+                    top: rect.top,
+                };
             }
 
-            // Random chance to stop and idle (0.3% per frame)
-            if (Math.random() < 0.003) {
-                startIdling();
+            // State - restore from localStorage if available (only for first diver)
+            let bounds = getContainerBounds();
+            const stateKey = "diver_state_" + index;
+            const savedState = JSON.parse(
+                localStorage.getItem(stateKey) || "null",
+            );
+            let x = savedState?.x ?? Math.random() * (bounds.width - 64);
+            let direction =
+                savedState?.direction ?? (Math.random() > 0.5 ? 1 : -1);
+            let isIdle = false;
+            let speed = 1.5;
+
+            // Clamp x to valid bounds
+            x = Math.max(0, Math.min(x, bounds.width - 64));
+
+            // Save state periodically
+            function saveDiverState() {
+                localStorage.setItem(
+                    stateKey,
+                    JSON.stringify({ x, direction }),
+                );
             }
-        }
+            setInterval(saveDiverState, 1000);
 
-        // Update position (stays fixed relative to container top border)
-        diver.style.top = (bounds.top - 32) + 'px';
-        diver.style.left = (bounds.left + x) + 'px';
+            diver.src = direction === 1 ? sprites.walkEast : sprites.walkWest;
 
-        requestAnimationFrame(animate);
-    }
+            function setSprite(src) {
+                if (diver.src !== src) {
+                    diver.src = src;
+                }
+            }
 
-    // Start animation
-    animate();
-})();
+            function startWalking() {
+                isIdle = false;
+                setSprite(
+                    direction === 1 ? sprites.walkEast : sprites.walkWest,
+                );
+            }
+
+            function startIdling() {
+                isIdle = true;
+                const randomIdle =
+                    idleSprites[Math.floor(Math.random() * idleSprites.length)];
+                setSprite(randomIdle);
+
+                // Resume walking after random time (2-6 seconds)
+                const idleTime = 2000 + Math.random() * 4000;
+                setTimeout(startWalking, idleTime);
+            }
+
+            function animate() {
+                bounds = getContainerBounds();
+
+                if (!isIdle) {
+                    x += speed * direction;
+
+                    // Check boundaries (constrained to container width)
+                    const maxX = bounds.width - 64;
+                    if (x >= maxX) {
+                        x = maxX;
+                        direction = -1;
+                        setSprite(sprites.walkWest);
+                    } else if (x <= 0) {
+                        x = 0;
+                        direction = 1;
+                        setSprite(sprites.walkEast);
+                    }
+
+                    // Random chance to stop and idle (0.3% per frame)
+                    if (Math.random() < 0.003) {
+                        startIdling();
+                    }
+                }
+
+                // Update position (stays fixed relative to container top border)
+                diver.style.top = bounds.top - 52 + "px";
+                diver.style.left = bounds.left + x + "px";
+
+                requestAnimationFrame(animate);
+            }
+
+            // Start animation
+            animate();
+        });
+
+        // Save all diver states on page unload
+        window.addEventListener("beforeunload", () => {
+            // States are saved by individual intervals
+        });
+    })();
 </script>
