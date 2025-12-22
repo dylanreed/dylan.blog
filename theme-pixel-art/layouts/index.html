@@ -10,11 +10,14 @@
     {{ $posts = where .Site.RegularPages ".Params.layout" "!=" "page" }}
 {{ end }}
 
+{{/* Paginate the posts */}}
+{{ $paginator := .Paginate $posts 10 }}
+
 {{/* Track state for grouping blogs vs notes */}}
 {{ $.Scratch.Set "inBlogGroup" false }}
 {{ $.Scratch.Set "blogIndex" 0 }}
 
-{{ range first 10 $posts }}
+{{ range $paginator.Pages }}
     {{/* Note = no title OR explicitly marked as note */}}
     {{ $isNote := or (not .Title) (eq .Params.format "note") }}
 
@@ -85,5 +88,20 @@
 {{/* Close blog container if still open */}}
 {{ if $.Scratch.Get "inBlogGroup" }}
     </div></div>
+{{ end }}
+
+{{/* Pagination */}}
+{{ if gt $paginator.TotalPages 1 }}
+<nav class="pagination">
+    {{ if $paginator.HasPrev }}
+    <a href="{{ $paginator.Prev.URL }}" class="pagination-prev">&larr; Newer</a>
+    {{ end }}
+
+    <span class="pagination-info">Page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}</span>
+
+    {{ if $paginator.HasNext }}
+    <a href="{{ $paginator.Next.URL }}" class="pagination-next">Older &rarr;</a>
+    {{ end }}
+</nav>
 {{ end }}
 {{ end }}
