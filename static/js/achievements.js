@@ -361,9 +361,9 @@
     // TOAST NOTIFICATIONS
     // ═══════════════════════════════════════════════════════════════
 
-    function renderIcon(icon) {
+    function renderIcon(icon, size = 40) {
         if (icon.startsWith('/')) {
-            return `<img src="${icon}" alt="" class="achievement-icon-img">`;
+            return `<img src="${icon}" alt="" class="achievement-icon-img" style="width:${size}px;height:${size}px;max-width:${size}px;max-height:${size}px;">`;
         }
         return icon;
     }
@@ -372,7 +372,7 @@
         const toast = document.createElement('div');
         toast.className = 'achievement-toast';
         toast.innerHTML = `
-            <div class="achievement-toast-icon">${renderIcon(achievement.icon)}</div>
+            <div class="achievement-toast-icon">${renderIcon(achievement.icon, 50)}</div>
             <div class="achievement-toast-content">
                 <div class="achievement-toast-title">🏆 Achievement Unlocked!</div>
                 <div class="achievement-toast-name">${achievement.name}</div>
