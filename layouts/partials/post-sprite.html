@@ -28,6 +28,7 @@
      crafting        muse            Muse - Writing.png
      adhd            donkey          Donkey - Travel.png
      pets            cat             Cat - Health.png
+     tech            tech            golem - tech.png
      (default)       bard            bard - music.png
 */}}
 {{ $spriteClass := "bard" }}
@@ -72,6 +73,9 @@
 {{ else if eq $category "pets" }}
     {{ $spriteClass = "cat" }}
     {{ $spriteFile = "Cat - Health.png" }}
+{{ else if eq $category "tech" }}
+    {{ $spriteClass = "tech" }}
+    {{ $spriteFile = "golem - tech.png" }}
 {{ end }}
 
 <div class="{{ if $isArchive }}archive-sprite{{ else }}post-sprite{{ end }} sprite-{{ $spriteClass }}">

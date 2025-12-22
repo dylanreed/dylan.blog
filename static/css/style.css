@@ -822,7 +822,8 @@ body.night .archive-tag:hover {
 .sprite-clown img {
     animation: anim-clown 1.6s steps(1) infinite;
 }
-.sprite-golem img {
+.sprite-golem img,
+.sprite-tech img {
     animation: anim-golem 1.6s steps(1) infinite;
 }
 .sprite-bard img {
