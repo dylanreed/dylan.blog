@@ -14,7 +14,7 @@
             id: 'first_visit',
             name: 'Welcome, Traveler',
             description: 'Visit the blog for the first time',
-            icon: '🏠',
+            icon: '/sprites/achievements/first_visit.png',
             category: 'discovery',
             secret: false,
             points: 10
@@ -23,7 +23,7 @@
             id: 'night_owl',
             name: 'Night Owl',
             description: 'Switch to night mode',
-            icon: '🦉',
+            icon: '/sprites/achievements/night_owl.png',
             category: 'discovery',
             secret: false,
             points: 10
@@ -32,7 +32,7 @@
             id: 'early_bird',
             name: 'Early Bird',
             description: 'Switch back to day mode',
-            icon: '🐦',
+            icon: '/sprites/achievements/early_bird.png',
             category: 'discovery',
             secret: false,
             points: 10
@@ -41,7 +41,7 @@
             id: 'chaos_curious',
             name: 'Chaos Curious',
             description: 'Activate chaos mode for the first time',
-            icon: '🌀',
+            icon: '/sprites/achievements/chaos_curious.png',
             category: 'discovery',
             secret: false,
             points: 25
@@ -52,7 +52,7 @@
             id: 'bookworm',
             name: 'Bookworm',
             description: 'Read 5 different posts',
-            icon: '📚',
+            icon: '/sprites/achievements/bookworm.png',
             category: 'exploration',
             secret: false,
             points: 25,
@@ -62,7 +62,7 @@
             id: 'scholar',
             name: 'Scholar',
             description: 'Read 15 different posts',
-            icon: '🎓',
+            icon: '/sprites/achievements/scholar.png',
             category: 'exploration',
             secret: false,
             points: 50,
@@ -72,7 +72,7 @@
             id: 'archivist',
             name: 'Archivist',
             description: 'Visit the archive page',
-            icon: '📜',
+            icon: '/sprites/achievements/archivist.png',
             category: 'exploration',
             secret: false,
             points: 15
@@ -81,7 +81,7 @@
             id: 'photographer',
             name: 'Photographer',
             description: 'Visit the photos page',
-            icon: '📸',
+            icon: '/sprites/achievements/photographer.png',
             category: 'exploration',
             secret: false,
             points: 15
@@ -90,7 +90,7 @@
             id: 'curious_cat',
             name: 'Curious Cat',
             description: 'Visit the about page',
-            icon: '🐱',
+            icon: '/sprites/achievements/curious_cat.png',
             category: 'exploration',
             secret: false,
             points: 15
@@ -99,7 +99,7 @@
             id: 'category_hopper',
             name: 'Category Hopper',
             description: 'Visit 3 different category pages',
-            icon: '🏷️',
+            icon: '/sprites/achievements/category_hopper.png',
             category: 'exploration',
             secret: false,
             points: 30,
@@ -109,7 +109,7 @@
             id: 'deep_diver',
             name: 'Deep Diver',
             description: 'Scroll to the bottom of a long page',
-            icon: '🤿',
+            icon: '/sprites/achievements/deep_diver.png',
             category: 'exploration',
             secret: false,
             points: 15
@@ -120,7 +120,7 @@
             id: 'clicker',
             name: 'Clicker',
             description: 'Click 50 times',
-            icon: '👆',
+            icon: '/sprites/achievements/clicker.png',
             category: 'interaction',
             secret: false,
             points: 15,
@@ -130,7 +130,7 @@
             id: 'click_master',
             name: 'Click Master',
             description: 'Click 500 times',
-            icon: '🖱️',
+            icon: '/sprites/achievements/click_master.png',
             category: 'interaction',
             secret: false,
             points: 50,
@@ -140,7 +140,7 @@
             id: 'marathon_reader',
             name: 'Marathon Reader',
             description: 'Stay on the site for 5 minutes',
-            icon: '⏱️',
+            icon: '/sprites/achievements/marathon_reader.png',
             category: 'interaction',
             secret: false,
             points: 30,
@@ -150,7 +150,7 @@
             id: 'dedicated_fan',
             name: 'Dedicated Fan',
             description: 'Stay on the site for 15 minutes',
-            icon: '💜',
+            icon: '/sprites/achievements/dedicated_fan.png',
             category: 'interaction',
             secret: false,
             points: 75,
@@ -162,7 +162,7 @@
             id: 'rainbow_warrior',
             name: 'Rainbow Warrior',
             description: 'Activate rainbow mode',
-            icon: '🌈',
+            icon: '/sprites/achievements/rainbow_warrior.png',
             category: 'chaos',
             secret: false,
             points: 30
@@ -171,7 +171,7 @@
             id: 'konami_master',
             name: 'Konami Master',
             description: 'Enter the legendary code',
-            icon: '🎮',
+            icon: '/sprites/achievements/konami_master.png',
             category: 'chaos',
             secret: true,
             points: 100
@@ -180,7 +180,7 @@
             id: 'vaporwave_aesthetic',
             name: 'A E S T H E T I C',
             description: 'Experience vaporwave mode',
-            icon: '📼',
+            icon: '/sprites/achievements/vaporwave_aesthetic.png',
             category: 'chaos',
             secret: true,
             points: 50
@@ -189,7 +189,7 @@
             id: 'weather_wizard',
             name: 'Weather Wizard',
             description: 'Make it rain or snow',
-            icon: '🌧️',
+            icon: '/sprites/achievements/weather_wizard.png',
             category: 'chaos',
             secret: true,
             points: 40
@@ -198,7 +198,7 @@
             id: 'summoner',
             name: 'Summoner',
             description: 'Summon creatures via the console',
-            icon: '🧙',
+            icon: '/sprites/achievements/summoner.png',
             category: 'chaos',
             secret: true,
             points: 50
@@ -207,7 +207,7 @@
             id: 'particle_lord',
             name: 'Particle Lord',
             description: 'Have 100 particles on screen at once',
-            icon: '✨',
+            icon: '/sprites/achievements/particle_lord.png',
             category: 'chaos',
             secret: true,
             points: 40
@@ -218,7 +218,7 @@
             id: 'midnight_visitor',
             name: 'Midnight Visitor',
             description: 'Visit the blog between midnight and 1am',
-            icon: '🌙',
+            icon: '/sprites/achievements/midnight_visitor.png',
             category: 'secret',
             secret: true,
             points: 75
@@ -227,7 +227,7 @@
             id: 'triple_threat',
             name: 'Triple Threat',
             description: 'Triple-click something',
-            icon: '3️⃣',
+            icon: '/sprites/achievements/triple_threat.png',
             category: 'secret',
             secret: true,
             points: 25
@@ -236,7 +236,7 @@
             id: 'completionist',
             name: 'Completionist',
             description: 'Unlock all other achievements',
-            icon: '👑',
+            icon: '/sprites/achievements/completionist.png',
             category: 'secret',
             secret: true,
             points: 500
@@ -245,7 +245,7 @@
             id: 'console_cowboy',
             name: 'Console Cowboy',
             description: 'Use the chaos.help() command',
-            icon: '🤠',
+            icon: '/sprites/achievements/console_cowboy.png',
             category: 'secret',
             secret: true,
             points: 30
@@ -254,7 +254,7 @@
             id: 'speed_reader',
             name: 'Speed Reader',
             description: 'Visit 5 pages in under 30 seconds',
-            icon: '⚡',
+            icon: '/sprites/achievements/speed_reader.png',
             category: 'secret',
             secret: true,
             points: 40
@@ -263,7 +263,7 @@
             id: 'help_needed',
             name: 'Asking for Directions',
             description: 'You had to ask for help on a blog',
-            icon: '🙋',
+            icon: '/sprites/achievements/help_needed.png',
             category: 'secret',
             secret: true,
             points: 15
@@ -361,11 +361,18 @@
     // TOAST NOTIFICATIONS
     // ═══════════════════════════════════════════════════════════════
 
+    function renderIcon(icon) {
+        if (icon.startsWith('/')) {
+            return `<img src="${icon}" alt="" class="achievement-icon-img">`;
+        }
+        return icon;
+    }
+
     function showToast(achievement) {
         const toast = document.createElement('div');
         toast.className = 'achievement-toast';
         toast.innerHTML = `
-            <div class="achievement-toast-icon">${achievement.icon}</div>
+            <div class="achievement-toast-icon">${renderIcon(achievement.icon)}</div>
             <div class="achievement-toast-content">
                 <div class="achievement-toast-title">🏆 Achievement Unlocked!</div>
                 <div class="achievement-toast-name">${achievement.name}</div>
@@ -451,7 +458,7 @@
 
                 html += `
                     <div class="achievement-item ${unlocked ? 'unlocked' : 'locked'}">
-                        <div class="achievement-icon">${showDetails ? achievement.icon : '❓'}</div>
+                        <div class="achievement-icon">${showDetails ? renderIcon(achievement.icon) : '❓'}</div>
                         <div class="achievement-info">
                             <div class="achievement-name">${showDetails ? achievement.name : '???'}</div>
                             <div class="achievement-desc">${showDetails ? achievement.description : 'Secret achievement'}</div>
