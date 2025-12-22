@@ -663,10 +663,15 @@ body.night .archive-tag:hover {
     color: #6a5040;
 }
 
-.post-content img {
+.post-content img,
+.post-content video,
+.post-content iframe,
+.post-content embed,
+.post-content object {
     max-width: 100%;
     height: auto;
     margin: 1.5em 0;
+    display: block;
 }
 
 .post-content code {
@@ -1641,6 +1646,19 @@ body.night .site-footer p {
 
 .note-scroll .note-content a:hover {
     color: #5c3d2e;
+}
+
+/* Media constraints for notes */
+.note-scroll .note-content img,
+.note-scroll .note-content video,
+.note-scroll .note-content iframe,
+.note-scroll .note-content embed,
+.note-scroll .note-content object {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 12px auto;
+    border-radius: 4px;
 }
 
 .note-scroll .note-meta {
