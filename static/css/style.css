@@ -667,8 +667,14 @@ html.night .archive-tag:hover {
 .post-content object {
     max-width: 100%;
     height: auto;
-    margin: 1.5em 0;
+    margin: 1.5em auto;
     display: block;
+}
+
+/* First image in post - put at top with no top margin */
+.post-content > p:first-child img,
+.post-content > img:first-child {
+    margin-top: 0;
 }
 
 .post-content code {
@@ -1728,6 +1734,15 @@ html.night .note-scroll {
 
 html.night .note-scroll .note-content {
     color: #3a2a18;
+}
+
+/* Counter-invert media in night mode scrolls so they look normal */
+html.night .note-scroll img,
+html.night .note-scroll video,
+html.night .note-scroll iframe,
+html.night .note-scroll embed,
+html.night .note-scroll object {
+    filter: invert(1) hue-rotate(180deg);
 }
 
 /* Hero image for posts */
