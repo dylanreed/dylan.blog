@@ -59,13 +59,20 @@
 </header>
 
 <nav class="site-nav">
-    <a href="{{ .Site.BaseURL }}" class="nav-sign{{ if .IsHome }} active{{ end }}">
-        <span>Home</span>
-    </a>
-    {{ range .Site.Menus.main }}
-    {{ $isActive := or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) (eq $.RelPermalink .URL) (hasPrefix $.RelPermalink .URL) }}
-    <a href="{{ .URL }}" class="nav-sign{{ if $isActive }} active{{ end }}">
-        <span>{{ .Name }}</span>
-    </a>
-    {{ end }}
+    <button class="nav-hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+    </button>
+    <div class="nav-links">
+        <a href="{{ .Site.BaseURL }}" class="nav-sign{{ if .IsHome }} active{{ end }}">
+            <span>Home</span>
+        </a>
+        {{ range .Site.Menus.main }}
+        {{ $isActive := or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) (eq $.RelPermalink .URL) (hasPrefix $.RelPermalink .URL) }}
+        <a href="{{ .URL }}" class="nav-sign{{ if $isActive }} active{{ end }}">
+            <span>{{ .Name }}</span>
+        </a>
+        {{ end }}
+    </div>
 </nav>

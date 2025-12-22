@@ -173,6 +173,40 @@
 
     {{- partial "header.html" . -}}
 
+    <script>
+        // Mobile hamburger menu toggle
+        (function() {
+            const hamburger = document.querySelector('.nav-hamburger');
+            const navLinks = document.querySelector('.nav-links');
+            if (!hamburger || !navLinks) return;
+
+            hamburger.addEventListener('click', () => {
+                hamburger.classList.toggle('open');
+                navLinks.classList.toggle('open');
+                hamburger.setAttribute('aria-expanded',
+                    hamburger.classList.contains('open'));
+            });
+
+            // Close menu when clicking a link
+            navLinks.querySelectorAll('.nav-sign').forEach(link => {
+                link.addEventListener('click', () => {
+                    hamburger.classList.remove('open');
+                    navLinks.classList.remove('open');
+                    hamburger.setAttribute('aria-expanded', 'false');
+                });
+            });
+
+            // Close menu when clicking outside
+            document.addEventListener('click', (e) => {
+                if (!e.target.closest('.site-nav') && navLinks.classList.contains('open')) {
+                    hamburger.classList.remove('open');
+                    navLinks.classList.remove('open');
+                    hamburger.setAttribute('aria-expanded', 'false');
+                }
+            });
+        })();
+    </script>
+
     <main class="main-content">
         {{- block "main" . }}{{- end }}
     </main>
