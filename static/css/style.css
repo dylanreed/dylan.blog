@@ -154,6 +154,61 @@ html.night {
     display: none;
 }
 
+/* ═══════════════════════════════════════════════════════════════
+   MOBILE HAMBURGER MENU
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Nav links wrapper - flex on desktop */
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+}
+
+/* Hamburger button - hidden on desktop */
+.nav-hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    width: 60px;
+    height: 60px;
+    background: url("/menu/wooden_sign.png") no-repeat center center;
+    background-size: 100% 100%;
+    image-rendering: pixelated;
+    border: none;
+    cursor: url("/cursors/hand.png"), pointer;
+    padding: 15px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 100;
+}
+
+.hamburger-bar {
+    display: block;
+    width: 24px;
+    height: 3px;
+    background: #4a3520;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+    box-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+/* Hamburger animation when open */
+.nav-hamburger.open .hamburger-bar:nth-child(1) {
+    transform: rotate(45deg) translate(6px, 6px);
+}
+
+.nav-hamburger.open .hamburger-bar:nth-child(2) {
+    opacity: 0;
+}
+
+.nav-hamburger.open .hamburger-bar:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+}
+
 /* Mode toggle - Sierra UI Style */
 .mode-toggle {
     position: fixed;
@@ -1711,13 +1766,18 @@ html.night .note-scroll .note-content {
 
 /* Responsive */
 @media (max-width: 768px) {
-    .site-nav {
+    .nav-links {
         flex-wrap: wrap;
-        gap: 10px;
+        gap: 15px;
     }
 
-    .nav-sign img {
-        height: 60px;
+    .nav-sign {
+        min-width: 130px;
+        height: 120px;
+    }
+
+    .nav-sign span {
+        font-size: 22px;
     }
 
     .header-image {
@@ -1843,22 +1903,67 @@ html.night .pagination-info {
 
 /* Small tablets and large phones */
 @media (max-width: 600px) {
-    /* Navigation - smaller signs */
+    /* Mobile hamburger menu */
     .site-nav {
-        gap: 8px;
+        flex-direction: column;
+        align-items: center;
         padding: 0 10px;
-        margin-top: -40px;
+        margin-top: -30px;
+        gap: 0;
+    }
+
+    .nav-hamburger {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+        padding: 20px 0;
+        background: linear-gradient(180deg,
+            rgba(212, 196, 168, 0.95) 0%,
+            rgba(196, 180, 152, 0.95) 100%);
+        border: 3px solid #8b7355;
+        border-radius: 8px;
+        box-shadow:
+            inset 2px 2px 0 rgba(255, 255, 255, 0.3),
+            inset -2px -2px 0 rgba(0, 0, 0, 0.1),
+            0 4px 12px rgba(0, 0, 0, 0.3);
+        margin-top: 10px;
+    }
+
+    .nav-links.open {
+        display: flex;
     }
 
     .nav-sign {
-        min-width: 100px;
-        height: 100px;
+        min-width: 140px;
+        height: 80px;
         background-size: contain;
     }
 
     .nav-sign span {
         font-size: 16px;
-        padding-top: 45px;
+        padding-top: 35px;
+    }
+
+    .nav-sign.active {
+        transform: none;
+    }
+
+    .nav-sign:hover {
+        transform: scale(1.05);
+    }
+
+    /* Night mode dropdown */
+    html.night .nav-links {
+        background: linear-gradient(180deg,
+            rgba(58, 64, 80, 0.95) 0%,
+            rgba(42, 48, 64, 0.95) 100%);
+        border-color: #1a2030;
     }
 
     /* Header adjustments */
@@ -2007,20 +2112,26 @@ html.night .pagination-info {
 
 /* Very small phones */
 @media (max-width: 400px) {
-    /* Navigation - even smaller */
-    .site-nav {
-        gap: 5px;
-        margin-top: -30px;
+    /* Hamburger menu - smaller on tiny screens */
+    .nav-hamburger {
+        width: 50px;
+        height: 50px;
+        padding: 12px;
+    }
+
+    .hamburger-bar {
+        width: 20px;
+        height: 2px;
     }
 
     .nav-sign {
-        min-width: 80px;
-        height: 80px;
+        min-width: 120px;
+        height: 70px;
     }
 
     .nav-sign span {
-        font-size: 13px;
-        padding-top: 36px;
+        font-size: 14px;
+        padding-top: 30px;
     }
 
     /* Header */
