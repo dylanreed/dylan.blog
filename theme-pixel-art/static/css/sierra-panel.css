@@ -13,7 +13,7 @@
     width: 400px;
     height: 20px;
     z-index: 9998;
-    cursor: pointer;
+    cursor: url("/cursors/hand.png"), pointer;
 }
 
 /* Small tab indicator showing panel is available */
@@ -103,7 +103,7 @@
     height: 62px; /* ADJUST: button height */
     background: transparent;
     border: none;
-    cursor: pointer;
+    cursor: url("/cursors/hand.png"), pointer;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -294,33 +294,66 @@ html.night .sierra-btn::after {
 @media (max-width: 400px) {
     .sierra-panel-bg {
         width: 280px;
+        max-width: calc(100vw - 20px);
         height: 48px;
-        background-size: 330px 48px;
+        background-size: cover;
+        background-position: center;
     }
 
     .sierra-btn {
-        width: 48px;
+        width: 44px;
         height: 38px;
         top: 5px;
     }
 
-    .sierra-btn:nth-child(1) { left: 0px; }
-    .sierra-btn:nth-child(2) { left: 47px; }
+    .sierra-btn:nth-child(1) { left: 2px; }
+    .sierra-btn:nth-child(2) { left: 48px; }
     .sierra-btn:nth-child(3) { left: 94px; }
     .sierra-btn:nth-child(4) { left: 140px; }
     .sierra-btn:nth-child(5) { left: 186px; }
     .sierra-btn:nth-child(6) { left: 232px; }
 
     .sierra-btn img {
-        width: 28px;
-        height: 28px;
+        width: 26px;
+        height: 26px;
     }
 
     .sierra-trigger {
         width: 250px;
+        max-width: calc(100vw - 40px);
     }
 
     .sierra-btn::after {
         display: none; /* Hide tooltips on very small screens */
+    }
+}
+
+/* Very small phones (320px and below) */
+@media (max-width: 320px) {
+    .sierra-panel-bg {
+        width: 240px;
+        height: 42px;
+    }
+
+    .sierra-btn {
+        width: 38px;
+        height: 34px;
+        top: 4px;
+    }
+
+    .sierra-btn:nth-child(1) { left: 2px; }
+    .sierra-btn:nth-child(2) { left: 41px; }
+    .sierra-btn:nth-child(3) { left: 80px; }
+    .sierra-btn:nth-child(4) { left: 119px; }
+    .sierra-btn:nth-child(5) { left: 158px; }
+    .sierra-btn:nth-child(6) { left: 197px; }
+
+    .sierra-btn img {
+        width: 22px;
+        height: 22px;
+    }
+
+    .sierra-trigger {
+        width: 200px;
     }
 }

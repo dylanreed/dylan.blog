@@ -8,13 +8,27 @@
     cursor: url("/cursors/pointer.png"), auto;
 }
 
+/* All clickable elements get hand cursor */
 a,
 button,
+input[type="submit"],
+input[type="button"],
+select,
+label,
 .nav-sign,
+.nav-hamburger,
 .post-tag,
 .archive-tag,
+.archive-entry,
 .mode-toggle,
-.photo-item {
+.photo-item,
+.sierra-btn,
+.sierra-trigger,
+.post-link,
+.pagination a,
+.note-date,
+[role="button"],
+[onclick] {
     cursor: url("/cursors/hand.png"), pointer;
 }
 
@@ -125,6 +139,7 @@ html.night {
     image-rendering: pixelated;
     text-decoration: none;
     transition: transform 0.15s ease;
+    position: relative;
 }
 
 .nav-sign span {
@@ -135,6 +150,7 @@ html.night {
     padding-top: 67px; /* Offset for chain area */
     text-align: center;
     line-height: 1.1;
+    pointer-events: none; /* Let clicks pass through to parent link */
 }
 
 .nav-sign:hover {
@@ -1759,13 +1775,13 @@ html.night .note-scroll object {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-/* Walking Diver - 1.5x scale */
+/* Walking Diver - smaller scale for better fit */
 .diver-container {
     position: fixed;
-    top: -21px;
+    top: -10px;
     left: 0;
     width: 100%;
-    height: 96px;
+    height: 48px;
     pointer-events: none;
     z-index: 1000;
     overflow: visible;
@@ -1773,8 +1789,8 @@ html.night .note-scroll object {
 
 .diver {
     position: absolute;
-    width: 96px;
-    height: 96px;
+    width: 48px;
+    height: 48px;
     image-rendering: pixelated;
     transition: none;
 }
@@ -1935,12 +1951,12 @@ html.night .pagination-info {
         display: none;
         flex-direction: column;
         align-items: center;
-        gap: 15px;
+        gap: 0;
         width: 100%;
-        padding: 20px 0;
+        max-width: 280px;
         background: linear-gradient(180deg,
-            rgba(212, 196, 168, 0.95) 0%,
-            rgba(196, 180, 152, 0.95) 100%);
+            rgba(212, 196, 168, 0.98) 0%,
+            rgba(196, 180, 152, 0.98) 100%);
         border: 3px solid #8b7355;
         border-radius: 8px;
         box-shadow:
@@ -1948,37 +1964,67 @@ html.night .pagination-info {
             inset -2px -2px 0 rgba(0, 0, 0, 0.1),
             0 4px 12px rgba(0, 0, 0, 0.3);
         margin-top: 10px;
+        overflow: hidden;
     }
 
     .nav-links.open {
         display: flex;
     }
 
+    /* Mobile nav - text only, no sign graphics */
     .nav-sign {
-        min-width: 140px;
-        height: 80px;
-        background-size: contain;
+        min-width: 100%;
+        height: auto;
+        background: none;
+        padding: 0;
+        border-bottom: 1px solid rgba(139, 115, 85, 0.3);
+    }
+
+    .nav-sign:last-child {
+        border-bottom: none;
     }
 
     .nav-sign span {
-        font-size: 16px;
-        padding-top: 35px;
+        font-size: 18px;
+        padding: 14px 20px;
+        padding-top: 14px;
+        display: block;
+        width: 100%;
+        pointer-events: none;
     }
 
     .nav-sign.active {
         transform: none;
+        background: rgba(139, 90, 43, 0.15);
     }
 
     .nav-sign:hover {
-        transform: scale(1.05);
+        transform: none;
+        background: rgba(139, 90, 43, 0.1);
     }
 
     /* Night mode dropdown */
     html.night .nav-links {
         background: linear-gradient(180deg,
-            rgba(58, 64, 80, 0.95) 0%,
-            rgba(42, 48, 64, 0.95) 100%);
+            rgba(58, 64, 80, 0.98) 0%,
+            rgba(42, 48, 64, 0.98) 100%);
         border-color: #1a2030;
+    }
+
+    html.night .nav-sign {
+        border-bottom-color: rgba(100, 140, 180, 0.3);
+    }
+
+    html.night .nav-sign span {
+        color: #d0d8e0;
+    }
+
+    html.night .nav-sign.active {
+        background: rgba(100, 140, 180, 0.2);
+    }
+
+    html.night .nav-sign:hover {
+        background: rgba(100, 140, 180, 0.15);
     }
 
     /* Header adjustments */
@@ -2139,14 +2185,9 @@ html.night .pagination-info {
         height: 2px;
     }
 
-    .nav-sign {
-        min-width: 120px;
-        height: 70px;
-    }
-
     .nav-sign span {
-        font-size: 14px;
-        padding-top: 30px;
+        font-size: 16px;
+        padding: 12px 16px;
     }
 
     /* Header */
