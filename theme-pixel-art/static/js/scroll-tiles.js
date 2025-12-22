@@ -25,13 +25,6 @@
 
             // Set height to show full tiles
             content.style.minHeight = snappedHeight + 'px';
-
-            console.log('Scroll tile info:', {
-                naturalHeight: Math.round(naturalHeight),
-                snappedHeight: Math.round(snappedHeight),
-                tileHeight: Math.round(scaledTileHeight),
-                tilesUsed: fullTiles
-            });
         });
     }
 
