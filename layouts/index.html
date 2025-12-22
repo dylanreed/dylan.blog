@@ -1,8 +1,13 @@
 {{ define "main" }}
-{{/* Get all posts - try Section first, fall back to all regular pages for micro.blog */}}
+{{/* Get all posts - try Section first, fall back to filtering out pages for micro.blog */}}
 {{ $posts := where .Site.RegularPages "Section" "posts" }}
 {{ if eq (len $posts) 0 }}
-    {{ $posts = .Site.RegularPages }}
+    {{/* Micro.blog fallback: get all regular pages but exclude pages (about, archive, etc.) */}}
+    {{ $posts = where .Site.RegularPages "Type" "post" }}
+{{ end }}
+{{ if eq (len $posts) 0 }}
+    {{/* Final fallback: exclude pages by checking for page layout */}}
+    {{ $posts = where .Site.RegularPages ".Params.layout" "!=" "page" }}
 {{ end }}
 
 {{/* Track state for grouping blogs vs notes */}}
