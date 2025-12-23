@@ -1795,6 +1795,18 @@ html.night .note-scroll object {
     transition: none;
 }
 
+/* Hide decorative sprites on mobile for cleaner experience */
+@media (max-width: 768px) {
+    .diver,
+    .diver-container,
+    .floating-sprite,
+    .floating-rune,
+    .post-sprite,
+    .category-sprite-large {
+        display: none !important;
+    }
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .nav-links {
