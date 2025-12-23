@@ -18,7 +18,7 @@
                 {{ if not (in $seen $src) }}
                     {{ $seen = $seen | append $src }}
                     <a href="{{ $permalink }}" class="photo-item">
-                        <img src="{{ $src }}" alt="" loading="lazy">
+                        <img src="{{ $src }}" alt="Photo from blog post" loading="lazy">
                     </a>
                 {{ end }}
             {{ end }}

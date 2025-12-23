@@ -79,5 +79,5 @@
 {{ end }}
 
 <div class="{{ if $isArchive }}archive-sprite{{ else }}post-sprite{{ end }} sprite-{{ $spriteClass }}">
-    <img src="/sprites/{{ $spriteFile }}" alt="">
+    <img src="/sprites/{{ $spriteFile }}" alt="Animated {{ $spriteClass }} sprite for {{ $category | default "default" }} category">
 </div>

@@ -3,7 +3,7 @@
     {{/* Hero image - centered at top */}}
     {{ with .Params.image }}
     <div class="post-hero-image">
-        <img src="{{ . }}" alt="">
+        <img src="{{ . }}" alt="{{ $.Title | default "Post hero image" }}">
     </div>
     {{ end }}
 
