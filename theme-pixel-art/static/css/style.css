@@ -479,9 +479,7 @@ html.night .archive-tag:hover {
     pointer-events: none;
 }
 
-.header-container:hover .header-video {
-    opacity: 1;
-}
+/* Video opacity controlled by JS to keep paused frame visible */
 
 .header-frame {
     position: absolute;
