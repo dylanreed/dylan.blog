@@ -301,22 +301,54 @@ html.night .archive-container {
 }
 
 /* Night mode headers - swap to night versions */
-html.night .header-image[style*="home.png"] { background-image: url("/headers/home_night.png") !important; }
-html.night .header-image[style*="default.png"] { background-image: url("/headers/default_night.png") !important; }
-html.night .header-image[style*="health.png"] { background-image: url("/headers/health_night.png") !important; }
-html.night .header-image[style*="tabletop.png"] { background-image: url("/headers/tabletop_night.png") !important; }
-html.night .header-image[style*="gaming.png"] { background-image: url("/headers/gaming_night.png") !important; }
-html.night .header-image[style*="clown.png"] { background-image: url("/headers/clown_night.png") !important; }
-html.night .header-image[style*="writing.png"] { background-image: url("/headers/writing_night.png") !important; }
-html.night .header-image[style*="cooking.png"] { background-image: url("/headers/cooking_night.png") !important; }
-html.night .header-image[style*="music.png"] { background-image: url("/headers/music_night.png") !important; }
-html.night .header-image[style*="travel.png"] { background-image: url("/headers/travel_night.png") !important; }
-html.night .header-image[style*="reading.png"] { background-image: url("/headers/reading_night.png") !important; }
-html.night .header-image[style*="crafting.png"] { background-image: url("/headers/crafting_night.png") !important; }
-html.night .header-image[style*="garden.png"] { background-image: url("/headers/garden_night.png") !important; }
-html.night .header-image[style*="tech.png"] { background-image: url("/headers/tech_night.png") !important; }
-html.night .header-image[style*="pets.png"] { background-image: url("/headers/pets_night.png") !important; }
-html.night .header-image[style*="adhd.png"] { background-image: url("/headers/adhd_night.png") !important; }
+html.night .header-image[style*="home.png"] {
+    background-image: url("/headers/home_night.png") !important;
+}
+html.night .header-image[style*="default.png"] {
+    background-image: url("/headers/default_night.png") !important;
+}
+html.night .header-image[style*="health.png"] {
+    background-image: url("/headers/health_night.png") !important;
+}
+html.night .header-image[style*="tabletop.png"] {
+    background-image: url("/headers/tabletop_night.png") !important;
+}
+html.night .header-image[style*="gaming.png"] {
+    background-image: url("/headers/gaming_night.png") !important;
+}
+html.night .header-image[style*="clown.png"] {
+    background-image: url("/headers/clown_night.png") !important;
+}
+html.night .header-image[style*="writing.png"] {
+    background-image: url("/headers/writing_night.png") !important;
+}
+html.night .header-image[style*="cooking.png"] {
+    background-image: url("/headers/cooking_night.png") !important;
+}
+html.night .header-image[style*="music.png"] {
+    background-image: url("/headers/music_night.png") !important;
+}
+html.night .header-image[style*="travel.png"] {
+    background-image: url("/headers/travel_night.png") !important;
+}
+html.night .header-image[style*="reading.png"] {
+    background-image: url("/headers/reading_night.png") !important;
+}
+html.night .header-image[style*="crafting.png"] {
+    background-image: url("/headers/crafting_night.png") !important;
+}
+html.night .header-image[style*="garden.png"] {
+    background-image: url("/headers/garden_night.png") !important;
+}
+html.night .header-image[style*="tech.png"] {
+    background-image: url("/headers/tech_night.png") !important;
+}
+html.night .header-image[style*="pets.png"] {
+    background-image: url("/headers/pets_night.png") !important;
+}
+html.night .header-image[style*="adhd.png"] {
+    background-image: url("/headers/adhd_night.png") !important;
+}
 
 /* Night mode text adjustments for readability */
 html.night .post-title,
@@ -1743,6 +1775,121 @@ html.night .site-footer p {
     font-size: 24px;
 }
 
+/* Clickable bottom zone for scroll roll-up */
+.scroll-bottom-clickable {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 318px; /* Match scroll-bottom.png height */
+    cursor: url("/cursors/hand.png"), pointer;
+    z-index: 5;
+    transition: filter 0.2s ease;
+}
+
+.scroll-bottom-clickable:hover {
+    filter: brightness(1.1);
+}
+
+.scroll-bottom-clickable:active {
+    filter: brightness(0.95);
+}
+
+/* Roll-up animation */
+.note-scroll {
+    transition:
+        margin 0.5s ease,
+        height 0.5s ease;
+}
+
+.note-scroll::before,
+.note-scroll::after {
+    transition:
+        height 0.5s ease,
+        background-position 0.3s ease,
+        top 0.5s ease,
+        background-size 0.3s ease;
+}
+
+.note-scroll .note-content {
+    transition:
+        max-height 0.5s ease,
+        padding 0.5s ease,
+        opacity 0.3s ease;
+    overflow: hidden;
+}
+
+.note-scroll .note-meta {
+    transition:
+        max-height 0.3s ease,
+        opacity 0.3s ease,
+        margin 0.3s ease,
+        padding 0.3s ease;
+    overflow: hidden;
+}
+
+/* Snap mode - disable animations for scroll rollup */
+.note-scroll,
+.note-scroll::before,
+.note-scroll::after,
+.note-scroll .note-content,
+.note-scroll .note-meta {
+    transition: none !important;
+}
+
+/* Rolled up state */
+.note-scroll.rolled-up {
+    /* Fixed height = top (57px) + bottom (98px) */
+    height: 155px;
+    overflow: hidden;
+    /* Adjust to keep top aligned when rolled */
+    margin-top: 10px;
+    /* Match the gap that exists when open */
+    margin-bottom: 100px;
+}
+
+.note-scroll.rolled-up .note-content,
+.note-scroll.rolled-up .note-meta {
+    max-height: 0 !important;
+    overflow: hidden;
+    opacity: 0;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Top scroll - 35% of scaled height (~57px) */
+.note-scroll.rolled-up::before {
+    height: 57px;
+    background-position: center top;
+}
+
+/* Bottom scroll - 60% from bottom of scaled height (~98px) */
+.note-scroll.rolled-up::after {
+    position: absolute;
+    top: 57px;
+    left: 0;
+    right: 0;
+    height: 98px;
+    background-position: center bottom;
+}
+
+/* Clickable zone covers whole scroll when rolled */
+.note-scroll.rolled-up .scroll-bottom-clickable {
+    height: 100%;
+    top: 0;
+    bottom: 0;
+}
+
+/* Hide focus outline on clickable zone */
+.scroll-bottom-clickable:focus {
+    outline: none;
+}
+
+/* Hover effect */
+.note-scroll.rolled-up:hover {
+    filter: brightness(1.05);
+}
+
 /* Night mode notes */
 html.night .note-scroll {
     filter: invert(0.85) hue-rotate(180deg);
@@ -1966,9 +2113,11 @@ html.night .pagination-info {
         gap: 0;
         width: 100%;
         max-width: 280px;
-        background: linear-gradient(180deg,
+        background: linear-gradient(
+            180deg,
             rgba(212, 196, 168, 0.98) 0%,
-            rgba(196, 180, 152, 0.98) 100%);
+            rgba(196, 180, 152, 0.98) 100%
+        );
         border: 3px solid #8b7355;
         border-radius: 8px;
         box-shadow:
@@ -2017,9 +2166,11 @@ html.night .pagination-info {
 
     /* Night mode dropdown */
     html.night .nav-links {
-        background: linear-gradient(180deg,
+        background: linear-gradient(
+            180deg,
             rgba(58, 64, 80, 0.98) 0%,
-            rgba(42, 48, 64, 0.98) 100%);
+            rgba(42, 48, 64, 0.98) 100%
+        );
         border-color: #1a2030;
     }
 
