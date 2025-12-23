@@ -1939,6 +1939,21 @@ html.night .note-scroll object {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
+/* Post images extracted from content - displayed below title */
+.post-images {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.post-images img {
+    max-width: 100%;
+    height: auto;
+    image-rendering: auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin-bottom: 16px;
+}
+
 /* Walking Diver - smaller scale for better fit */
 .diver-container {
     position: fixed;

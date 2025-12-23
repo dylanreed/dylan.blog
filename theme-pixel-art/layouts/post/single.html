@@ -1,12 +1,5 @@
 {{ define "main" }}
 <article class="post-container {{ partial "category-class.html" . }}">
-    {{/* Hero image - centered at top */}}
-    {{ with .Params.image }}
-    <div class="post-hero-image">
-        <img src="{{ . }}" alt="{{ $.Title | default "Post hero image" }}">
-    </div>
-    {{ end }}
-
     <header class="post-header">
         {{/* Larger sprite for single post view */}}
         {{ partial "post-sprite-large.html" . }}
@@ -29,8 +22,26 @@
         </div>
     </header>
 
+    {{/* Extract and display images from content below title */}}
+    {{ $images := findRE `<img[^>]+>` .Content }}
+    {{ if $images }}
+    <div class="post-images">
+        {{ range $images }}
+            {{ . | safeHTML }}
+        {{ end }}
+    </div>
+    {{ end }}
+
+    {{/* Hero image if specified in front matter */}}
+    {{ with .Params.image }}
+    <div class="post-hero-image">
+        <img src="{{ . }}" alt="{{ $.Title | default "Post hero image" }}">
+    </div>
+    {{ end }}
+
     <div class="post-content">
-        {{ .Content }}
+        {{/* Remove images from content since we displayed them above */}}
+        {{ .Content | replaceRE `<img[^>]+>` "" | safeHTML }}
     </div>
 
     {{/* Conversations/Webmentions */}}
