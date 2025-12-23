@@ -39,7 +39,6 @@ html {
 body {
     font-family: "Spectral", Georgia, serif;
     min-height: 100vh;
-    transition: background 0.3s ease;
     background-color: #87CEEB;
     background-image: url("/background/3.png");
     background-repeat: repeat;
