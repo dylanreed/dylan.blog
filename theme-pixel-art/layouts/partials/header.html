@@ -71,15 +71,15 @@
 <script>
 // Header video hover play/pause
 (function() {
-    const headerImage = document.querySelector('.header-image');
+    const container = document.querySelector('.header-container');
     const video = document.querySelector('.header-video');
-    if (!headerImage || !video) return;
+    if (!container || !video) return;
 
-    headerImage.addEventListener('mouseenter', () => {
+    container.addEventListener('mouseenter', () => {
         video.play();
     });
 
-    headerImage.addEventListener('mouseleave', () => {
+    container.addEventListener('mouseleave', () => {
         video.pause();
     });
 })();

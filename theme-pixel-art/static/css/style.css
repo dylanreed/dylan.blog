@@ -479,7 +479,7 @@ html.night .archive-tag:hover {
     pointer-events: none;
 }
 
-.header-image:hover .header-video {
+.header-container:hover .header-video {
     opacity: 1;
 }
 
