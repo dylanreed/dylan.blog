@@ -40,7 +40,7 @@ body {
     font-family: "Spectral", Georgia, serif;
     min-height: 100vh;
     background-color: #87CEEB;
-    background-image: url("/background/3.png");
+    background-image: url("/background/3.webp");
     background-repeat: repeat;
     image-rendering: pixelated;
     overflow-x: hidden;
@@ -134,7 +134,7 @@ html.night {
     min-width: 160px;
     padding: 0 10px;
     height: 150px;
-    background: url("/menu/wooden_sign.png") no-repeat center center;
+    background: url("/menu/wooden_sign.webp") no-repeat center center;
     background-size: 100% 100%;
     image-rendering: pixelated;
     text-decoration: none;
@@ -191,7 +191,7 @@ html.night {
     gap: 6px;
     width: 60px;
     height: 60px;
-    background: url("/menu/wooden_sign.png") no-repeat center center;
+    background: url("/menu/wooden_sign.webp") no-repeat center center;
     background-size: 100% 100%;
     image-rendering: pixelated;
     border: none;
@@ -281,7 +281,7 @@ html.night .mode-toggle .mode-icon {
 /* Night mode background */
 html.night body {
     background-color: #1a2030;
-    background-image: url("/background/3_night.png");
+    background-image: url("/background/3_night.webp");
     background-repeat: repeat;
 }
 
@@ -302,53 +302,53 @@ html.night .archive-container {
 }
 
 /* Night mode headers - swap to night versions */
-html.night .header-image[style*="home.png"] {
-    background-image: url("/headers/home_night.png") !important;
+html.night .header-image[style*="home.webp"] {
+    background-image: url("/headers/home_night.webp") !important;
 }
-html.night .header-image[style*="default.png"] {
-    background-image: url("/headers/default_night.png") !important;
+html.night .header-image[style*="default.webp"] {
+    background-image: url("/headers/default_night.webp") !important;
 }
-html.night .header-image[style*="health.png"] {
-    background-image: url("/headers/health_night.png") !important;
+html.night .header-image[style*="health.webp"] {
+    background-image: url("/headers/health_night.webp") !important;
 }
-html.night .header-image[style*="tabletop.png"] {
-    background-image: url("/headers/tabletop_night.png") !important;
+html.night .header-image[style*="tabletop.webp"] {
+    background-image: url("/headers/tabletop_night.webp") !important;
 }
-html.night .header-image[style*="gaming.png"] {
-    background-image: url("/headers/gaming_night.png") !important;
+html.night .header-image[style*="gaming.webp"] {
+    background-image: url("/headers/gaming_night.webp") !important;
 }
-html.night .header-image[style*="clown.png"] {
-    background-image: url("/headers/clown_night.png") !important;
+html.night .header-image[style*="clown.webp"] {
+    background-image: url("/headers/clown_night.webp") !important;
 }
-html.night .header-image[style*="writing.png"] {
-    background-image: url("/headers/writing_night.png") !important;
+html.night .header-image[style*="writing.webp"] {
+    background-image: url("/headers/writing_night.webp") !important;
 }
-html.night .header-image[style*="cooking.png"] {
-    background-image: url("/headers/cooking_night.png") !important;
+html.night .header-image[style*="cooking.webp"] {
+    background-image: url("/headers/cooking_night.webp") !important;
 }
-html.night .header-image[style*="music.png"] {
-    background-image: url("/headers/music_night.png") !important;
+html.night .header-image[style*="music.webp"] {
+    background-image: url("/headers/music_night.webp") !important;
 }
-html.night .header-image[style*="travel.png"] {
-    background-image: url("/headers/travel_night.png") !important;
+html.night .header-image[style*="travel.webp"] {
+    background-image: url("/headers/travel_night.webp") !important;
 }
-html.night .header-image[style*="reading.png"] {
-    background-image: url("/headers/reading_night.png") !important;
+html.night .header-image[style*="reading.webp"] {
+    background-image: url("/headers/reading_night.webp") !important;
 }
-html.night .header-image[style*="crafting.png"] {
-    background-image: url("/headers/crafting_night.png") !important;
+html.night .header-image[style*="crafting.webp"] {
+    background-image: url("/headers/crafting_night.webp") !important;
 }
-html.night .header-image[style*="garden.png"] {
-    background-image: url("/headers/garden_night.png") !important;
+html.night .header-image[style*="garden.webp"] {
+    background-image: url("/headers/garden_night.webp") !important;
 }
-html.night .header-image[style*="tech.png"] {
-    background-image: url("/headers/tech_night.png") !important;
+html.night .header-image[style*="tech.webp"] {
+    background-image: url("/headers/tech_night.webp") !important;
 }
-html.night .header-image[style*="pets.png"] {
-    background-image: url("/headers/pets_night.png") !important;
+html.night .header-image[style*="pets.webp"] {
+    background-image: url("/headers/pets_night.webp") !important;
 }
-html.night .header-image[style*="adhd.png"] {
-    background-image: url("/headers/adhd_night.png") !important;
+html.night .header-image[style*="adhd.webp"] {
+    background-image: url("/headers/adhd_night.webp") !important;
 }
 
 /* Night mode text adjustments for readability */

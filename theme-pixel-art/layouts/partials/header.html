@@ -1,5 +1,5 @@
 {{/* Determine header image based on category */}}
-{{ $headerImage := "/headers/home.png" }}
+{{ $headerImage := "/headers/home.webp" }}
 {{ $cat := "" }}
 
 {{/* Get category from page or taxonomy */}}
@@ -15,40 +15,40 @@
 {{/* Map category to header image */}}
 {{ if $cat }}
     {{ if eq $cat "health" }}
-        {{ $headerImage = "/headers/health.png" }}
+        {{ $headerImage = "/headers/health.webp" }}
     {{ else if eq $cat "tabletop" }}
-        {{ $headerImage = "/headers/tabletop.png" }}
+        {{ $headerImage = "/headers/tabletop.webp" }}
     {{ else if eq $cat "gaming" }}
-        {{ $headerImage = "/headers/gaming.png" }}
+        {{ $headerImage = "/headers/gaming.webp" }}
     {{ else if eq $cat "personal" }}
-        {{ $headerImage = "/headers/home.png" }}
+        {{ $headerImage = "/headers/home.webp" }}
     {{ else if eq $cat "clown" }}
-        {{ $headerImage = "/headers/clown.png" }}
+        {{ $headerImage = "/headers/clown.webp" }}
     {{ else if eq $cat "writing" }}
-        {{ $headerImage = "/headers/writing.png" }}
+        {{ $headerImage = "/headers/writing.webp" }}
     {{ else if eq $cat "cooking" }}
-        {{ $headerImage = "/headers/cooking.png" }}
+        {{ $headerImage = "/headers/cooking.webp" }}
     {{ else if eq $cat "music" }}
-        {{ $headerImage = "/headers/music.png" }}
+        {{ $headerImage = "/headers/music.webp" }}
     {{ else if eq $cat "travel" }}
-        {{ $headerImage = "/headers/travel.png" }}
+        {{ $headerImage = "/headers/travel.webp" }}
     {{ else if eq $cat "reading" }}
-        {{ $headerImage = "/headers/reading.png" }}
+        {{ $headerImage = "/headers/reading.webp" }}
     {{ else if eq $cat "crafting" }}
-        {{ $headerImage = "/headers/crafting.png" }}
+        {{ $headerImage = "/headers/crafting.webp" }}
     {{ else if eq $cat "adhd" }}
-        {{ $headerImage = "/headers/adhd.png" }}
+        {{ $headerImage = "/headers/adhd.webp" }}
     {{ else if eq $cat "pets" }}
-        {{ $headerImage = "/headers/pets.png" }}
+        {{ $headerImage = "/headers/pets.webp" }}
     {{ else if eq $cat "tech" }}
-        {{ $headerImage = "/headers/tech.png" }}
+        {{ $headerImage = "/headers/tech.webp" }}
     {{ else }}
-        {{ $headerImage = "/headers/default.png" }}
+        {{ $headerImage = "/headers/default.webp" }}
     {{ end }}
 {{ end }}
 
 {{/* Check for video version of header */}}
-{{ $headerVideo := replace $headerImage ".png" ".mp4" }}
+{{ $headerVideo := replace $headerImage ".webp" ".mp4" }}
 
 <header class="site-header">
     <div class="header-container">
