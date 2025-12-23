@@ -153,6 +153,13 @@
     line-height: 1;
 }
 
+/* Wood-carved look for chaos and rainbow icons when inactive */
+.sierra-btn[data-action="chaos"] img,
+.sierra-btn[data-action="rainbow"] img {
+    filter: sepia(1) saturate(0.3) brightness(0.7);
+    transition: filter 0.3s ease;
+}
+
 /* Active state for toggleable buttons */
 .sierra-btn.active {
     filter: drop-shadow(0 0 4px rgba(255, 200, 50, 0.8));
@@ -160,6 +167,12 @@
 
 .sierra-btn.active img {
     filter: brightness(1.3);
+}
+
+/* Restore full color when chaos/rainbow are active */
+.sierra-btn[data-action="chaos"].active img,
+.sierra-btn[data-action="rainbow"].active img {
+    filter: brightness(1.3) saturate(1.2);
 }
 
 /* Tooltip on hover */
