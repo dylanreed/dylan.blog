@@ -47,9 +47,19 @@
     {{ end }}
 {{ end }}
 
+{{/* Check for video version of header */}}
+{{ $headerVideo := replace $headerImage ".png" ".mp4" }}
+
 <header class="site-header">
     <div class="header-container">
         <div class="header-image" style="background-image: url('{{ $headerImage }}');">
+            {{/* If video exists, add video element for hover effect */}}
+            {{ $videoPath := printf "static%s" $headerVideo }}
+            {{ if fileExists $videoPath }}
+            <video class="header-video" muted loop playsinline preload="auto">
+                <source src="{{ $headerVideo }}" type="video/mp4">
+            </video>
+            {{ end }}
             <h1 class="site-title">
                 <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
             </h1>
@@ -57,6 +67,23 @@
         <div class="header-frame"></div>
     </div>
 </header>
+
+<script>
+// Header video hover play/pause
+(function() {
+    const headerImage = document.querySelector('.header-image');
+    const video = document.querySelector('.header-video');
+    if (!headerImage || !video) return;
+
+    headerImage.addEventListener('mouseenter', () => {
+        video.play();
+    });
+
+    headerImage.addEventListener('mouseleave', () => {
+        video.pause();
+    });
+})();
+</script>
 
 <nav class="site-nav">
     <button class="nav-hamburger" aria-label="Toggle menu" aria-expanded="false">
