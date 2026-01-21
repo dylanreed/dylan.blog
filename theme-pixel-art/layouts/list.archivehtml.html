@@ -2,10 +2,14 @@
 <div class="archive-container">
     {{ $pages := where .Site.RegularPages "Type" "post" }}
     {{ $years := $pages.GroupByDate "2006" }}
+    {{ $currentYear := now.Format "2006" }}
 
-    {{ range $years }}
-    <section class="archive-year">
-        <h2 class="year-header">{{ .Key }}</h2>
+    {{ range $index, $yearGroup := $years }}
+    <details class="archive-year" {{ if eq $index 0 }}open{{ end }}>
+        <summary class="year-header">
+            {{ .Key }}
+            <span class="year-count">({{ len .Pages }} posts)</span>
+        </summary>
         <ul class="archive-list">
             {{ range .Pages }}
             <li class="archive-entry {{ partial "category-class.html" . }}">
@@ -23,7 +27,7 @@
             </li>
             {{ end }}
         </ul>
-    </section>
+    </details>
     {{ end }}
 </div>
 {{ end }}

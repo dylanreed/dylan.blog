@@ -1188,3 +1188,50 @@ body.night .header-image {
     font-size: 14px;
     font-style: italic;
 }
+
+/* Collapsible Archive Years */
+details.archive-year {
+    margin-bottom: 10px;
+}
+
+details.archive-year > summary {
+    cursor: pointer;
+    padding: 10px 15px;
+    background: rgba(74, 55, 40, 0.1);
+    border-radius: 4px;
+    font-size: 24px;
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: background 0.2s ease;
+}
+
+details.archive-year > summary::-webkit-details-marker {
+    display: none;
+}
+
+details.archive-year > summary::before {
+    content: "▶";
+    font-size: 14px;
+    transition: transform 0.2s ease;
+}
+
+details.archive-year[open] > summary::before {
+    transform: rotate(90deg);
+}
+
+details.archive-year > summary:hover {
+    background: rgba(74, 55, 40, 0.2);
+}
+
+details.archive-year .year-count {
+    font-size: 14px;
+    font-weight: normal;
+    color: #666;
+}
+
+details.archive-year .archive-list {
+    margin-top: 10px;
+}
