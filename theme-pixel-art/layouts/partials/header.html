@@ -1,0 +1,78 @@
+{{/* Determine header image based on category */}}
+{{ $headerImage := "/headers/home.png" }}
+{{ $cat := "" }}
+
+{{/* Get category from page or taxonomy */}}
+{{ if .IsPage }}
+    {{ with .Params.categories }}
+        {{ $cat = index . 0 | lower }}
+    {{ end }}
+{{ else if .Data.Term }}
+    {{/* This is a taxonomy/category page */}}
+    {{ $cat = .Data.Term | lower }}
+{{ end }}
+
+{{/* Map category to header image */}}
+{{ if $cat }}
+    {{ if eq $cat "health" }}
+        {{ $headerImage = "/headers/health.png" }}
+    {{ else if eq $cat "tabletop" }}
+        {{ $headerImage = "/headers/tabletop.png" }}
+    {{ else if eq $cat "gaming" }}
+        {{ $headerImage = "/headers/tabletop.png" }}
+    {{ else if eq $cat "personal" }}
+        {{ $headerImage = "/headers/clown.png" }}
+    {{ else if eq $cat "writing" }}
+        {{ $headerImage = "/headers/writing.png" }}
+    {{ else if eq $cat "cooking" }}
+        {{ $headerImage = "/headers/cooking.png" }}
+    {{ else if eq $cat "music" }}
+        {{ $headerImage = "/headers/music.png" }}
+    {{ else if eq $cat "travel" }}
+        {{ $headerImage = "/headers/travel.png" }}
+    {{ else if eq $cat "reading" }}
+        {{ $headerImage = "/headers/reading.png" }}
+    {{ else if eq $cat "crafting" }}
+        {{ $headerImage = "/headers/crafting.png" }}
+    {{ else if eq $cat "adhd" }}
+        {{ $headerImage = "/headers/health.png" }}
+    {{ else if eq $cat "pets" }}
+        {{ $headerImage = "/headers/garden.png" }}
+    {{ else if eq $cat "tech" }}
+        {{ $headerImage = "/headers/tech.png" }}
+    {{ else }}
+        {{ $headerImage = "/headers/default.png" }}
+    {{ end }}
+{{ end }}
+
+<header class="site-header">
+    <div class="header-container">
+        <div class="header-image" style="background-image: url('{{ $headerImage }}');">
+            <h1 class="site-title">
+                <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+            </h1>
+        </div>
+        <div class="header-frame"></div>
+    </div>
+</header>
+
+<nav class="site-nav">
+    <a href="{{ .Site.BaseURL }}" class="nav-sign{{ if .IsHome }} active{{ end }}">
+        <img src="/menu/home.png" alt="Home">
+    </a>
+    {{ range .Site.Menus.main }}
+    <a href="{{ .URL }}" class="nav-sign{{ if $.IsMenuCurrent "main" . }} active{{ end }}">
+        {{ if or (eq .Name "About") (eq .Name "who is?") }}<img src="/menu/about.png" alt="{{ .Name }}">
+        {{ else if eq .Name "Contact" }}<img src="/menu/contact.png" alt="Contact">
+        {{ else if or (eq .Name "Archive") (eq .Name "old stuff") }}<img src="/menu/archive.png" alt="{{ .Name }}">
+        {{ else if or (eq .Name "Photos") (eq .Name "pictures") }}<img src="/menu/photos.png" alt="{{ .Name }}">
+        {{ else if eq .Name "jokes" }}<img src="/menu/jokes.png" alt="Jokes">
+        {{ else if eq .Name "Replies" }}<img src="/menu/replies.png" alt="Replies">
+        {{ else }}<span>{{ .Name }}</span>
+        {{ end }}
+    </a>
+    {{ end }}
+    <a href="https://duckduckgo.com/?q=site%3Adylan.blog+" class="nav-sign" title="Search the blog">
+        <span>🔍</span>
+    </a>
+</nav>
