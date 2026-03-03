@@ -1,0 +1,934 @@
+/* ABOUTME: Sierra-style dropdown control panel that slides down from top on hover
+   ABOUTME: Contains all UI buttons (theme toggle, mode, achievements, etc.) */
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   TRIGGER ZONE - invisible area at top that activates dropdown
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.sierra-trigger {
+    position: fixed;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+    height: 20px;
+    z-index: 9998;
+    cursor: url("/fantasy/cursors/hand.png"), pointer;
+}
+
+/* Small tab indicator showing panel is available */
+.sierra-trigger::after {
+    content: "";
+    position: absolute;
+    bottom: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+    height: 8px;
+    background: linear-gradient(to bottom, #8b6914, #6b4f0f);
+    border-radius: 0 0 4px 4px;
+    box-shadow:
+        inset 0 -2px 0 rgba(0, 0, 0, 0.3),
+        0 2px 4px rgba(0, 0, 0, 0.4);
+    transition:
+        height 0.2s ease,
+        width 0.2s ease;
+}
+
+.sierra-trigger:hover::after,
+.sierra-panel:hover + .sierra-trigger::after,
+.sierra-trigger:has(+ .sierra-panel:hover)::after {
+    height: 12px;
+    width: 80px;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   MAIN PANEL - the dropdown container
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.sierra-panel {
+    position: fixed;
+    top: -130px; /* Hide panel (height is ~122px) */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    transition: top 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    image-rendering: pixelated;
+}
+
+/* Show panel on trigger hover or panel hover */
+.sierra-trigger:hover + .sierra-panel,
+.sierra-panel:hover {
+    top: -5px;
+}
+
+/* Panel background - dimensions only, theme-specific backgrounds in themes.css */
+.sierra-panel-bg {
+    width: 500px;
+    height: 122px;
+    background-size: 500px 122px;
+    image-rendering: pixelated;
+    position: relative;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   TITLE BAR - hidden, using image instead
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.sierra-title {
+    display: none;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   BUTTON GRID - positioned over the menu bar image slots
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.sierra-buttons {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   INDIVIDUAL BUTTONS - transparent, positioned over image slots
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+.sierra-btn {
+    position: absolute;
+    background: transparent;
+    border: none;
+    cursor: url("/fantasy/cursors/hand.png"), pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.15s ease;
+    image-rendering: pixelated;
+    padding: 0;
+}
+
+.sierra-btn:hover {
+    transform: scale(1.05);
+}
+
+.sierra-btn:active {
+    transform: scale(0.95);
+}
+
+/* Button icons */
+.sierra-btn img {
+    image-rendering: pixelated;
+}
+
+.sierra-btn .btn-icon {
+    font-size: 36px;
+    line-height: 1;
+}
+
+/* Snow icon - no filter needed, icon is already designed correctly */
+
+/* No special button effects - keep icons clean */
+
+/* Tooltip on hover */
+.sierra-btn::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: -28px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #2a1a0a;
+    color: #c9a227;
+    font-family: "MedievalSharp", cursive;
+    font-size: 10px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+    z-index: 10;
+}
+
+.sierra-btn:hover::after {
+    opacity: 1;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   SPECIFIC BUTTON STATES
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* Night mode button */
+.sierra-btn[data-action="theme"] .btn-icon.sun {
+    display: none;
+}
+.sierra-btn[data-action="theme"] .btn-icon.moon {
+    display: block;
+}
+
+html.night .sierra-btn[data-action="theme"] .btn-icon.sun {
+    display: block;
+}
+html.night .sierra-btn[data-action="theme"] .btn-icon.moon {
+    display: none;
+}
+
+/* Chaos mode active */
+body.chaos-mode .sierra-btn[data-action="chaos"] {
+    animation: chaos-btn-pulse 1s ease-in-out infinite alternate;
+}
+
+@keyframes chaos-btn-pulse {
+    from {
+        box-shadow:
+            inset 2px 2px 0 rgba(255, 255, 255, 0.3),
+            inset -2px -2px 0 rgba(0, 0, 0, 0.15),
+            0 0 8px rgba(201, 162, 39, 0.5);
+    }
+    to {
+        box-shadow:
+            inset 2px 2px 0 rgba(255, 255, 255, 0.3),
+            inset -2px -2px 0 rgba(0, 0, 0, 0.15),
+            0 0 16px rgba(201, 162, 39, 0.8);
+    }
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   NIGHT MODE ADJUSTMENTS
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* Night mode - keep same pixel art menu, just adjust trigger tab */
+html.night .sierra-trigger::after {
+    background: linear-gradient(to bottom, #5a4a3a, #3d3020);
+}
+
+html.night .sierra-btn::after {
+    background: #2a1a0a;
+    color: #c9a227;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   HIDE OLD FLOATING BUTTONS
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* Hide the old mode toggle and chaos toggle - they're now in the panel */
+.mode-toggle,
+.chaos-toggle,
+.achievement-toggle {
+    display: none !important;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   THEME-SPECIFIC DROPDOWN CALIBRATION
+   Generated by calibration tool - contains panel sizes, button positions per theme/breakpoint
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* ═══════════════════════════════════════════════════════════════
+   THEME: FANTASY DROPDOWN (default)
+   ═══════════════════════════════════════════════════════════════ */
+
+/* fantasy - xl */
+.sierra-panel-bg {
+    width: 500px !important;
+    height: 122px !important;
+    background-size: 500px 122px !important;
+}
+
+.sierra-btn {
+    top: 34px !important;
+    width: 55px !important;
+    height: 55px !important;
+}
+
+.sierra-btn:nth-child(1) { left: 29px !important; }
+.sierra-btn:nth-child(2) { left: 93px !important; }
+.sierra-btn:nth-child(3) { left: 156px !important; }
+.sierra-btn:nth-child(4) { left: 222px !important; }
+.sierra-btn:nth-child(5) { left: 286px !important; }
+.sierra-btn:nth-child(6) { left: 350px !important; }
+.sierra-btn:nth-child(7) { left: 414px !important; }
+
+.sierra-btn img {
+    width: 48px !important;
+    height: 48px !important;
+}
+
+@media (max-width: 1200px) {
+    /* fantasy - desktop */
+    .sierra-panel-bg {
+        width: 500px !important;
+        height: 122px !important;
+        background-size: 500px 122px !important;
+    }
+
+    .sierra-btn {
+        top: 34px !important;
+        width: 55px !important;
+        height: 55px !important;
+    }
+
+    .sierra-btn:nth-child(1) { left: 29px !important; }
+    .sierra-btn:nth-child(2) { left: 93px !important; }
+    .sierra-btn:nth-child(3) { left: 156px !important; }
+    .sierra-btn:nth-child(4) { left: 222px !important; }
+    .sierra-btn:nth-child(5) { left: 286px !important; }
+    .sierra-btn:nth-child(6) { left: 350px !important; }
+    .sierra-btn:nth-child(7) { left: 414px !important; }
+
+    .sierra-btn img {
+        width: 48px !important;
+        height: 48px !important;
+    }
+}
+
+@media (max-width: 992px) {
+    /* fantasy - tablet */
+    .sierra-panel-bg {
+        width: 380px !important;
+        height: 93px !important;
+        background-size: 380px 93px !important;
+    }
+
+    .sierra-btn {
+        top: 26px !important;
+        width: 42px !important;
+        height: 42px !important;
+    }
+
+    .sierra-btn:nth-child(1) { left: 22px !important; }
+    .sierra-btn:nth-child(2) { left: 71px !important; }
+    .sierra-btn:nth-child(3) { left: 119px !important; }
+    .sierra-btn:nth-child(4) { left: 169px !important; }
+    .sierra-btn:nth-child(5) { left: 217px !important; }
+    .sierra-btn:nth-child(6) { left: 266px !important; }
+    .sierra-btn:nth-child(7) { left: 315px !important; }
+
+    .sierra-btn img {
+        width: 27px !important;
+        height: 27px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    /* fantasy - mobile */
+    .sierra-panel-bg {
+        width: 300px !important;
+        height: 73px !important;
+        background-size: 300px 73px !important;
+    }
+
+    .sierra-btn {
+        top: 20px !important;
+        width: 33px !important;
+        height: 33px !important;
+    }
+
+    .sierra-btn:nth-child(1) { left: 17px !important; }
+    .sierra-btn:nth-child(2) { left: 56px !important; }
+    .sierra-btn:nth-child(3) { left: 94px !important; }
+    .sierra-btn:nth-child(4) { left: 133px !important; }
+    .sierra-btn:nth-child(5) { left: 172px !important; }
+    .sierra-btn:nth-child(6) { left: 210px !important; }
+    .sierra-btn:nth-child(7) { left: 248px !important; }
+
+    .sierra-btn img {
+        width: 22px !important;
+        height: 22px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    /* fantasy - xs */
+    .sierra-panel-bg {
+        width: 260px !important;
+        height: 63px !important;
+        background-size: 260px 63px !important;
+    }
+
+    .sierra-btn {
+        top: 18px !important;
+        width: 29px !important;
+        height: 29px !important;
+    }
+
+    .sierra-btn:nth-child(1) { left: 15px !important; }
+    .sierra-btn:nth-child(2) { left: 48px !important; }
+    .sierra-btn:nth-child(3) { left: 81px !important; }
+    .sierra-btn:nth-child(4) { left: 115px !important; }
+    .sierra-btn:nth-child(5) { left: 149px !important; }
+    .sierra-btn:nth-child(6) { left: 182px !important; }
+    .sierra-btn:nth-child(7) { left: 215px !important; }
+
+    .sierra-btn img {
+        width: 19px !important;
+        height: 19px !important;
+    }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   THEME: SCI-FI DROPDOWN
+   ═══════════════════════════════════════════════════════════════ */
+
+/* sci-fi - xl */
+html.theme-sci-fi .sierra-panel-bg {
+    width: 500px !important;
+    height: 122px !important;
+    background-size: 500px 122px !important;
+}
+
+html.theme-sci-fi .sierra-btn {
+    top: 34px !important;
+    width: 55px !important;
+    height: 55px !important;
+}
+
+html.theme-sci-fi .sierra-btn:nth-child(1) { left: 29px !important; }
+html.theme-sci-fi .sierra-btn:nth-child(2) { left: 93px !important; }
+html.theme-sci-fi .sierra-btn:nth-child(3) { left: 157px !important; }
+html.theme-sci-fi .sierra-btn:nth-child(4) { left: 222px !important; }
+html.theme-sci-fi .sierra-btn:nth-child(5) { left: 286px !important; }
+html.theme-sci-fi .sierra-btn:nth-child(6) { left: 350px !important; }
+html.theme-sci-fi .sierra-btn:nth-child(7) { left: 414px !important; }
+
+html.theme-sci-fi .sierra-btn img {
+    width: 48px !important;
+    height: 48px !important;
+}
+
+@media (max-width: 1200px) {
+    /* sci-fi - desktop */
+    html.theme-sci-fi .sierra-panel-bg {
+        width: 500px !important;
+        height: 122px !important;
+        background-size: 500px 122px !important;
+    }
+
+    html.theme-sci-fi .sierra-btn {
+        top: 34px !important;
+        width: 55px !important;
+        height: 55px !important;
+    }
+
+    html.theme-sci-fi .sierra-btn:nth-child(1) { left: 29px !important; }
+    html.theme-sci-fi .sierra-btn:nth-child(2) { left: 93px !important; }
+    html.theme-sci-fi .sierra-btn:nth-child(3) { left: 158px !important; }
+    html.theme-sci-fi .sierra-btn:nth-child(4) { left: 222px !important; }
+    html.theme-sci-fi .sierra-btn:nth-child(5) { left: 286px !important; }
+    html.theme-sci-fi .sierra-btn:nth-child(6) { left: 350px !important; }
+    html.theme-sci-fi .sierra-btn:nth-child(7) { left: 414px !important; }
+
+    html.theme-sci-fi .sierra-btn img {
+        width: 48px !important;
+        height: 48px !important;
+    }
+}
+
+@media (max-width: 992px) {
+    /* sci-fi - tablet */
+    html.theme-sci-fi .sierra-panel-bg {
+        width: 380px !important;
+        height: 93px !important;
+        background-size: 380px 93px !important;
+    }
+
+    html.theme-sci-fi .sierra-btn {
+        top: 26px !important;
+        width: 42px !important;
+        height: 42px !important;
+    }
+
+    html.theme-sci-fi .sierra-btn:nth-child(1) { left: 22px !important; }
+    html.theme-sci-fi .sierra-btn:nth-child(2) { left: 71px !important; }
+    html.theme-sci-fi .sierra-btn:nth-child(3) { left: 119px !important; }
+    html.theme-sci-fi .sierra-btn:nth-child(4) { left: 169px !important; }
+    html.theme-sci-fi .sierra-btn:nth-child(5) { left: 217px !important; }
+    html.theme-sci-fi .sierra-btn:nth-child(6) { left: 266px !important; }
+    html.theme-sci-fi .sierra-btn:nth-child(7) { left: 315px !important; }
+
+    html.theme-sci-fi .sierra-btn img {
+        width: 27px !important;
+        height: 27px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    /* sci-fi - mobile */
+    html.theme-sci-fi .sierra-panel-bg {
+        width: 300px !important;
+        height: 73px !important;
+        background-size: 300px 73px !important;
+    }
+
+    html.theme-sci-fi .sierra-btn {
+        top: 20px !important;
+        width: 33px !important;
+        height: 33px !important;
+    }
+
+    html.theme-sci-fi .sierra-btn:nth-child(1) { left: 17px !important; }
+    html.theme-sci-fi .sierra-btn:nth-child(2) { left: 56px !important; }
+    html.theme-sci-fi .sierra-btn:nth-child(3) { left: 94px !important; }
+    html.theme-sci-fi .sierra-btn:nth-child(4) { left: 133px !important; }
+    html.theme-sci-fi .sierra-btn:nth-child(5) { left: 172px !important; }
+    html.theme-sci-fi .sierra-btn:nth-child(6) { left: 210px !important; }
+    html.theme-sci-fi .sierra-btn:nth-child(7) { left: 248px !important; }
+
+    html.theme-sci-fi .sierra-btn img {
+        width: 22px !important;
+        height: 22px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    /* sci-fi - xs */
+    html.theme-sci-fi .sierra-panel-bg {
+        width: 260px !important;
+        height: 63px !important;
+        background-size: 260px 63px !important;
+    }
+
+    html.theme-sci-fi .sierra-btn {
+        top: 18px !important;
+        width: 29px !important;
+        height: 29px !important;
+    }
+
+    html.theme-sci-fi .sierra-btn:nth-child(1) { left: 15px !important; }
+    html.theme-sci-fi .sierra-btn:nth-child(2) { left: 48px !important; }
+    html.theme-sci-fi .sierra-btn:nth-child(3) { left: 81px !important; }
+    html.theme-sci-fi .sierra-btn:nth-child(4) { left: 115px !important; }
+    html.theme-sci-fi .sierra-btn:nth-child(5) { left: 149px !important; }
+    html.theme-sci-fi .sierra-btn:nth-child(6) { left: 182px !important; }
+    html.theme-sci-fi .sierra-btn:nth-child(7) { left: 215px !important; }
+
+    html.theme-sci-fi .sierra-btn img {
+        width: 19px !important;
+        height: 19px !important;
+    }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   THEME: CYBERPUNK DROPDOWN
+   ═══════════════════════════════════════════════════════════════ */
+
+/* cyberpunk - xl */
+html.theme-cyberpunk .sierra-panel-bg {
+    width: 500px !important;
+    height: 122px !important;
+    background-size: 500px 122px !important;
+}
+
+html.theme-cyberpunk .sierra-btn {
+    top: 35px !important;
+    width: 55px !important;
+    height: 55px !important;
+}
+
+html.theme-cyberpunk .sierra-btn:nth-child(1) { left: 29px !important; }
+html.theme-cyberpunk .sierra-btn:nth-child(2) { left: 93px !important; }
+html.theme-cyberpunk .sierra-btn:nth-child(3) { left: 157px !important; }
+html.theme-cyberpunk .sierra-btn:nth-child(4) { left: 223px !important; }
+html.theme-cyberpunk .sierra-btn:nth-child(5) { left: 287px !important; }
+html.theme-cyberpunk .sierra-btn:nth-child(6) { left: 352px !important; }
+html.theme-cyberpunk .sierra-btn:nth-child(7) { left: 415px !important; }
+
+html.theme-cyberpunk .sierra-btn img {
+    width: 48px !important;
+    height: 48px !important;
+}
+
+@media (max-width: 1200px) {
+    /* cyberpunk - desktop */
+    html.theme-cyberpunk .sierra-panel-bg {
+        width: 500px !important;
+        height: 122px !important;
+        background-size: 500px 122px !important;
+    }
+
+    html.theme-cyberpunk .sierra-btn {
+        top: 35px !important;
+        width: 55px !important;
+        height: 55px !important;
+    }
+
+    html.theme-cyberpunk .sierra-btn:nth-child(1) { left: 29px !important; }
+    html.theme-cyberpunk .sierra-btn:nth-child(2) { left: 93px !important; }
+    html.theme-cyberpunk .sierra-btn:nth-child(3) { left: 156px !important; }
+    html.theme-cyberpunk .sierra-btn:nth-child(4) { left: 222px !important; }
+    html.theme-cyberpunk .sierra-btn:nth-child(5) { left: 286px !important; }
+    html.theme-cyberpunk .sierra-btn:nth-child(6) { left: 350px !important; }
+    html.theme-cyberpunk .sierra-btn:nth-child(7) { left: 414px !important; }
+
+    html.theme-cyberpunk .sierra-btn img {
+        width: 48px !important;
+        height: 48px !important;
+    }
+}
+
+@media (max-width: 992px) {
+    /* cyberpunk - tablet */
+    html.theme-cyberpunk .sierra-panel-bg {
+        width: 380px !important;
+        height: 93px !important;
+        background-size: 380px 93px !important;
+    }
+
+    html.theme-cyberpunk .sierra-btn {
+        top: 26px !important;
+        width: 42px !important;
+        height: 42px !important;
+    }
+
+    html.theme-cyberpunk .sierra-btn:nth-child(1) { left: 22px !important; }
+    html.theme-cyberpunk .sierra-btn:nth-child(2) { left: 71px !important; }
+    html.theme-cyberpunk .sierra-btn:nth-child(3) { left: 119px !important; }
+    html.theme-cyberpunk .sierra-btn:nth-child(4) { left: 169px !important; }
+    html.theme-cyberpunk .sierra-btn:nth-child(5) { left: 217px !important; }
+    html.theme-cyberpunk .sierra-btn:nth-child(6) { left: 266px !important; }
+    html.theme-cyberpunk .sierra-btn:nth-child(7) { left: 315px !important; }
+
+    html.theme-cyberpunk .sierra-btn img {
+        width: 27px !important;
+        height: 27px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    /* cyberpunk - mobile */
+    html.theme-cyberpunk .sierra-panel-bg {
+        width: 300px !important;
+        height: 73px !important;
+        background-size: 300px 73px !important;
+    }
+
+    html.theme-cyberpunk .sierra-btn {
+        top: 20px !important;
+        width: 33px !important;
+        height: 33px !important;
+    }
+
+    html.theme-cyberpunk .sierra-btn:nth-child(1) { left: 17px !important; }
+    html.theme-cyberpunk .sierra-btn:nth-child(2) { left: 56px !important; }
+    html.theme-cyberpunk .sierra-btn:nth-child(3) { left: 94px !important; }
+    html.theme-cyberpunk .sierra-btn:nth-child(4) { left: 133px !important; }
+    html.theme-cyberpunk .sierra-btn:nth-child(5) { left: 172px !important; }
+    html.theme-cyberpunk .sierra-btn:nth-child(6) { left: 210px !important; }
+    html.theme-cyberpunk .sierra-btn:nth-child(7) { left: 248px !important; }
+
+    html.theme-cyberpunk .sierra-btn img {
+        width: 22px !important;
+        height: 22px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    /* cyberpunk - xs */
+    html.theme-cyberpunk .sierra-panel-bg {
+        width: 260px !important;
+        height: 63px !important;
+        background-size: 260px 63px !important;
+    }
+
+    html.theme-cyberpunk .sierra-btn {
+        top: 18px !important;
+        width: 29px !important;
+        height: 29px !important;
+    }
+
+    html.theme-cyberpunk .sierra-btn:nth-child(1) { left: 15px !important; }
+    html.theme-cyberpunk .sierra-btn:nth-child(2) { left: 48px !important; }
+    html.theme-cyberpunk .sierra-btn:nth-child(3) { left: 81px !important; }
+    html.theme-cyberpunk .sierra-btn:nth-child(4) { left: 115px !important; }
+    html.theme-cyberpunk .sierra-btn:nth-child(5) { left: 149px !important; }
+    html.theme-cyberpunk .sierra-btn:nth-child(6) { left: 182px !important; }
+    html.theme-cyberpunk .sierra-btn:nth-child(7) { left: 215px !important; }
+
+    html.theme-cyberpunk .sierra-btn img {
+        width: 19px !important;
+        height: 19px !important;
+    }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   THEME: CABIN DROPDOWN
+   ═══════════════════════════════════════════════════════════════ */
+
+/* cabin - xl */
+html.theme-cabin .sierra-panel-bg {
+    width: 500px !important;
+    height: 122px !important;
+    background-size: 500px 122px !important;
+}
+
+html.theme-cabin .sierra-btn {
+    top: 34px !important;
+    width: 55px !important;
+    height: 55px !important;
+}
+
+html.theme-cabin .sierra-btn:nth-child(1) { left: 29px !important; }
+html.theme-cabin .sierra-btn:nth-child(2) { left: 93px !important; }
+html.theme-cabin .sierra-btn:nth-child(3) { left: 156px !important; }
+html.theme-cabin .sierra-btn:nth-child(4) { left: 222px !important; }
+html.theme-cabin .sierra-btn:nth-child(5) { left: 286px !important; }
+html.theme-cabin .sierra-btn:nth-child(6) { left: 350px !important; }
+html.theme-cabin .sierra-btn:nth-child(7) { left: 414px !important; }
+
+html.theme-cabin .sierra-btn img {
+    width: 48px !important;
+    height: 48px !important;
+}
+
+@media (max-width: 1200px) {
+    /* cabin - desktop */
+    html.theme-cabin .sierra-panel-bg {
+        width: 500px !important;
+        height: 122px !important;
+        background-size: 500px 122px !important;
+    }
+
+    html.theme-cabin .sierra-btn {
+        top: 34px !important;
+        width: 55px !important;
+        height: 55px !important;
+    }
+
+    html.theme-cabin .sierra-btn:nth-child(1) { left: 29px !important; }
+    html.theme-cabin .sierra-btn:nth-child(2) { left: 93px !important; }
+    html.theme-cabin .sierra-btn:nth-child(3) { left: 156px !important; }
+    html.theme-cabin .sierra-btn:nth-child(4) { left: 222px !important; }
+    html.theme-cabin .sierra-btn:nth-child(5) { left: 286px !important; }
+    html.theme-cabin .sierra-btn:nth-child(6) { left: 350px !important; }
+    html.theme-cabin .sierra-btn:nth-child(7) { left: 414px !important; }
+
+    html.theme-cabin .sierra-btn img {
+        width: 48px !important;
+        height: 48px !important;
+    }
+}
+
+@media (max-width: 992px) {
+    /* cabin - tablet */
+    html.theme-cabin .sierra-panel-bg {
+        width: 380px !important;
+        height: 93px !important;
+        background-size: 380px 93px !important;
+    }
+
+    html.theme-cabin .sierra-btn {
+        top: 26px !important;
+        width: 42px !important;
+        height: 42px !important;
+    }
+
+    html.theme-cabin .sierra-btn:nth-child(1) { left: 22px !important; }
+    html.theme-cabin .sierra-btn:nth-child(2) { left: 71px !important; }
+    html.theme-cabin .sierra-btn:nth-child(3) { left: 119px !important; }
+    html.theme-cabin .sierra-btn:nth-child(4) { left: 169px !important; }
+    html.theme-cabin .sierra-btn:nth-child(5) { left: 217px !important; }
+    html.theme-cabin .sierra-btn:nth-child(6) { left: 266px !important; }
+    html.theme-cabin .sierra-btn:nth-child(7) { left: 315px !important; }
+
+    html.theme-cabin .sierra-btn img {
+        width: 27px !important;
+        height: 27px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    /* cabin - mobile */
+    html.theme-cabin .sierra-panel-bg {
+        width: 300px !important;
+        height: 73px !important;
+        background-size: 300px 73px !important;
+    }
+
+    html.theme-cabin .sierra-btn {
+        top: 20px !important;
+        width: 33px !important;
+        height: 33px !important;
+    }
+
+    html.theme-cabin .sierra-btn:nth-child(1) { left: 17px !important; }
+    html.theme-cabin .sierra-btn:nth-child(2) { left: 56px !important; }
+    html.theme-cabin .sierra-btn:nth-child(3) { left: 94px !important; }
+    html.theme-cabin .sierra-btn:nth-child(4) { left: 133px !important; }
+    html.theme-cabin .sierra-btn:nth-child(5) { left: 172px !important; }
+    html.theme-cabin .sierra-btn:nth-child(6) { left: 210px !important; }
+    html.theme-cabin .sierra-btn:nth-child(7) { left: 248px !important; }
+
+    html.theme-cabin .sierra-btn img {
+        width: 22px !important;
+        height: 22px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    /* cabin - xs */
+    html.theme-cabin .sierra-panel-bg {
+        width: 260px !important;
+        height: 63px !important;
+        background-size: 260px 63px !important;
+    }
+
+    html.theme-cabin .sierra-btn {
+        top: 18px !important;
+        width: 29px !important;
+        height: 29px !important;
+    }
+
+    html.theme-cabin .sierra-btn:nth-child(1) { left: 15px !important; }
+    html.theme-cabin .sierra-btn:nth-child(2) { left: 48px !important; }
+    html.theme-cabin .sierra-btn:nth-child(3) { left: 81px !important; }
+    html.theme-cabin .sierra-btn:nth-child(4) { left: 115px !important; }
+    html.theme-cabin .sierra-btn:nth-child(5) { left: 149px !important; }
+    html.theme-cabin .sierra-btn:nth-child(6) { left: 182px !important; }
+    html.theme-cabin .sierra-btn:nth-child(7) { left: 215px !important; }
+
+    html.theme-cabin .sierra-btn img {
+        width: 19px !important;
+        height: 19px !important;
+    }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   THEME: UNDERWATER DROPDOWN
+   ═══════════════════════════════════════════════════════════════ */
+
+/* underwater - xl */
+html.theme-underwater .sierra-panel-bg {
+    width: 500px !important;
+    height: 122px !important;
+    background-size: 500px 122px !important;
+}
+
+html.theme-underwater .sierra-btn {
+    top: 34px !important;
+    width: 55px !important;
+    height: 55px !important;
+}
+
+html.theme-underwater .sierra-btn:nth-child(1) { left: 29px !important; }
+html.theme-underwater .sierra-btn:nth-child(2) { left: 95px !important; }
+html.theme-underwater .sierra-btn:nth-child(3) { left: 158px !important; }
+html.theme-underwater .sierra-btn:nth-child(4) { left: 224px !important; }
+html.theme-underwater .sierra-btn:nth-child(5) { left: 288px !important; }
+html.theme-underwater .sierra-btn:nth-child(6) { left: 352px !important; }
+html.theme-underwater .sierra-btn:nth-child(7) { left: 417px !important; }
+
+html.theme-underwater .sierra-btn img {
+    width: 48px !important;
+    height: 48px !important;
+}
+
+@media (max-width: 1200px) {
+    /* underwater - desktop */
+    html.theme-underwater .sierra-panel-bg {
+        width: 500px !important;
+        height: 122px !important;
+        background-size: 500px 122px !important;
+    }
+
+    html.theme-underwater .sierra-btn {
+        top: 34px !important;
+        width: 55px !important;
+        height: 55px !important;
+    }
+
+    html.theme-underwater .sierra-btn:nth-child(1) { left: 29px !important; }
+    html.theme-underwater .sierra-btn:nth-child(2) { left: 93px !important; }
+    html.theme-underwater .sierra-btn:nth-child(3) { left: 158px !important; }
+    html.theme-underwater .sierra-btn:nth-child(4) { left: 222px !important; }
+    html.theme-underwater .sierra-btn:nth-child(5) { left: 286px !important; }
+    html.theme-underwater .sierra-btn:nth-child(6) { left: 350px !important; }
+    html.theme-underwater .sierra-btn:nth-child(7) { left: 414px !important; }
+
+    html.theme-underwater .sierra-btn img {
+        width: 48px !important;
+        height: 48px !important;
+    }
+}
+
+@media (max-width: 992px) {
+    /* underwater - tablet */
+    html.theme-underwater .sierra-panel-bg {
+        width: 380px !important;
+        height: 93px !important;
+        background-size: 380px 93px !important;
+    }
+
+    html.theme-underwater .sierra-btn {
+        top: 26px !important;
+        width: 42px !important;
+        height: 42px !important;
+    }
+
+    html.theme-underwater .sierra-btn:nth-child(1) { left: 22px !important; }
+    html.theme-underwater .sierra-btn:nth-child(2) { left: 71px !important; }
+    html.theme-underwater .sierra-btn:nth-child(3) { left: 119px !important; }
+    html.theme-underwater .sierra-btn:nth-child(4) { left: 169px !important; }
+    html.theme-underwater .sierra-btn:nth-child(5) { left: 217px !important; }
+    html.theme-underwater .sierra-btn:nth-child(6) { left: 266px !important; }
+    html.theme-underwater .sierra-btn:nth-child(7) { left: 315px !important; }
+
+    html.theme-underwater .sierra-btn img {
+        width: 27px !important;
+        height: 27px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    /* underwater - mobile */
+    html.theme-underwater .sierra-panel-bg {
+        width: 300px !important;
+        height: 73px !important;
+        background-size: 300px 73px !important;
+    }
+
+    html.theme-underwater .sierra-btn {
+        top: 20px !important;
+        width: 33px !important;
+        height: 33px !important;
+    }
+
+    html.theme-underwater .sierra-btn:nth-child(1) { left: 17px !important; }
+    html.theme-underwater .sierra-btn:nth-child(2) { left: 56px !important; }
+    html.theme-underwater .sierra-btn:nth-child(3) { left: 94px !important; }
+    html.theme-underwater .sierra-btn:nth-child(4) { left: 133px !important; }
+    html.theme-underwater .sierra-btn:nth-child(5) { left: 172px !important; }
+    html.theme-underwater .sierra-btn:nth-child(6) { left: 210px !important; }
+    html.theme-underwater .sierra-btn:nth-child(7) { left: 250px !important; }
+
+    html.theme-underwater .sierra-btn img {
+        width: 22px !important;
+        height: 22px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    /* underwater - xs */
+    html.theme-underwater .sierra-panel-bg {
+        width: 260px !important;
+        height: 63px !important;
+        background-size: 260px 63px !important;
+    }
+
+    html.theme-underwater .sierra-btn {
+        top: 18px !important;
+        width: 29px !important;
+        height: 29px !important;
+    }
+
+    html.theme-underwater .sierra-btn:nth-child(1) { left: 15px !important; }
+    html.theme-underwater .sierra-btn:nth-child(2) { left: 48px !important; }
+    html.theme-underwater .sierra-btn:nth-child(3) { left: 81px !important; }
+    html.theme-underwater .sierra-btn:nth-child(4) { left: 115px !important; }
+    html.theme-underwater .sierra-btn:nth-child(5) { left: 149px !important; }
+    html.theme-underwater .sierra-btn:nth-child(6) { left: 182px !important; }
+    html.theme-underwater .sierra-btn:nth-child(7) { left: 215px !important; }
+
+    html.theme-underwater .sierra-btn img {
+        width: 19px !important;
+        height: 19px !important;
+    }
+}

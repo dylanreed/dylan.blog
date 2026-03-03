@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Size Demo</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Comic Sans MS', 'Chalkboard', sans-serif;
+            background: #1a1a2e;
+            color: #eee;
+            padding: 20px;
+            margin: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #ff6b9d;
+            text-shadow: 2px 2px 0 #16213e;
+        }
+
+        .demo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .demo-card {
+            background: #16213e;
+            border: 4px solid #0f3460;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .demo-card h2 {
+            color: #e94560;
+            margin-top: 0;
+            font-size: 1.2em;
+        }
+
+        .demo-card p {
+            font-size: 0.85em;
+            color: #aaa;
+            margin-bottom: 15px;
+        }
+
+        .photo-container {
+            width: 250px;
+            height: 250px;
+            margin: 0 auto;
+            overflow: hidden;
+            border: 3px solid #0f3460;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .photo-container img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: opacity 0.4s ease;
+        }
+
+        .photo-container .pixelated {
+            image-rendering: pixelated;
+            image-rendering: -moz-crisp-edges;
+            image-rendering: crisp-edges;
+        }
+
+        .photo-container .clear {
+            opacity: 0;
+        }
+
+        .photo-container:hover .pixelated {
+            opacity: 0;
+        }
+
+        .photo-container:hover .clear {
+            opacity: 1;
+        }
+
+        .hint {
+            margin-top: 10px;
+            font-size: 0.75em;
+            color: #666;
+        }
+
+        .pixel-info {
+            margin-top: 10px;
+            padding: 8px;
+            background: rgba(0,0,0,0.3);
+            border-radius: 4px;
+            font-size: 0.8em;
+        }
+
+        .pixel-info .size {
+            color: #4ade80;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pixel Chunkiness Demo - Gonzo Edition</h1>
+    <p style="text-align: center; color: #888;">Hover over each photo to see the reveal effect</p>
+
+    <div class="demo-grid">
+        <!-- 8x8 Subtle -->
+        <div class="demo-card">
+            <h2>1. Subtle</h2>
+            <p>You can mostly tell what it is</p>
+            <div class="photo-container">
+                <img class="pixelated" src="gonzo-8.jpg" alt="Gonzo pixelated">
+                <img class="clear" src="gonzo.jpg" alt="Gonzo clear">
+            </div>
+            <div class="hint">Hover to reveal</div>
+            <div class="pixel-info">
+                <span class="size">~8x8</span> pixel blocks
+            </div>
+        </div>
+
+        <!-- 12x12 Medium -->
+        <div class="demo-card">
+            <h2>2. Medium</h2>
+            <p>Good balance of mystery</p>
+            <div class="photo-container">
+                <img class="pixelated" src="gonzo-12.jpg" alt="Gonzo pixelated">
+                <img class="clear" src="gonzo.jpg" alt="Gonzo clear">
+            </div>
+            <div class="hint">Hover to reveal</div>
+            <div class="pixel-info">
+                <span class="size">~12x12</span> pixel blocks
+            </div>
+        </div>
+
+        <!-- 16x16 Chunky -->
+        <div class="demo-card">
+            <h2>3. Chunky</h2>
+            <p>Very retro, harder to identify</p>
+            <div class="photo-container">
+                <img class="pixelated" src="gonzo-16.jpg" alt="Gonzo pixelated">
+                <img class="clear" src="gonzo.jpg" alt="Gonzo clear">
+            </div>
+            <div class="hint">Hover to reveal</div>
+            <div class="pixel-info">
+                <span class="size">~16x16</span> pixel blocks
+            </div>
+        </div>
+
+        <!-- 24x24 Extreme -->
+        <div class="demo-card">
+            <h2>4. Extreme</h2>
+            <p>Almost abstract, max mystery</p>
+            <div class="photo-container">
+                <img class="pixelated" src="gonzo-24.jpg" alt="Gonzo pixelated">
+                <img class="clear" src="gonzo.jpg" alt="Gonzo clear">
+            </div>
+            <div class="hint">Hover to reveal</div>
+            <div class="pixel-info">
+                <span class="size">~24x24</span> pixel blocks
+            </div>
+        </div>
+    </div>
+</body>
+</html>

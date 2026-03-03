@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes Scroll Positioning Test</title>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Orbitron:wght@400;600&family=Oxanium:wght@400;600&family=Fredericka+the+Great&family=Quicksand:wght@400;500&family=IM+Fell+English&family=Vollkorn:wght@400;500&family=Literata:wght@400;500&family=EB+Garamond:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #1a1a2e;
+            min-height: 100vh;
+            padding: 20px;
+            font-family: system-ui, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            color: #fff;
+            margin-bottom: 15px;
+        }
+
+        .info-text {
+            text-align: center;
+            color: #888;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+
+        .controls {
+            background: #2a2a4e;
+            border-radius: 8px;
+            padding: 20px;
+            max-width: 1100px;
+            margin: 0 auto 30px;
+        }
+
+        .controls h3 {
+            color: #fff;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .control-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: rgba(255,255,255,0.05);
+            padding: 8px;
+            border-radius: 6px;
+            min-width: 80px;
+        }
+
+        .control-group label {
+            color: #aaa;
+            font-size: 10px;
+            margin-bottom: 4px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        .control-group input[type="number"] {
+            width: 60px;
+            padding: 5px;
+            border: 1px solid #444;
+            border-radius: 4px;
+            background: #1a1a2e;
+            color: #fff;
+            text-align: center;
+            font-size: 13px;
+        }
+
+        .control-group input[type="number"]:focus {
+            outline: none;
+            border-color: #6a6aff;
+        }
+
+        .output-css {
+            background: #0a0a1e;
+            border: 1px solid #444;
+            border-radius: 6px;
+            padding: 15px;
+            margin-top: 15px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+        .output-css pre {
+            color: #8f8;
+            font-family: 'Monaco', 'Consolas', monospace;
+            font-size: 11px;
+            white-space: pre-wrap;
+        }
+
+        .copy-btn {
+            background: #4a4a8a;
+            color: #fff;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+
+        .copy-btn:hover {
+            background: #5a5a9a;
+        }
+
+        .toggle-guides {
+            background: #3a3a6a;
+            color: #fff;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+            margin-left: 10px;
+        }
+
+        .toggle-guides:hover {
+            background: #4a4a7a;
+        }
+
+        .notes-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 60px;
+            padding: 40px 0;
+        }
+
+        .note-wrapper {
+            position: relative;
+            padding-top: 30px;
+            width: 100%;
+            max-width: 800px;
+        }
+
+        .theme-label {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #fff;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            white-space: nowrap;
+        }
+
+        /* Note scroll structure */
+        .note-scroll {
+            position: relative;
+            z-index: 1;
+            max-width: 800px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .note-scroll::before {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 200px;
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-size: 100% 100%;
+            image-rendering: pixelated;
+        }
+
+        .note-scroll::after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 200px;
+            background-repeat: no-repeat;
+            background-position: center bottom;
+            background-size: 100% 100%;
+            image-rendering: pixelated;
+        }
+
+        .note-scroll .note-content {
+            font-size: 20px;
+            line-height: 1.6;
+            color: #4a3520;
+            padding: 20px 15% 30px 15%;
+            background-repeat: repeat-y;
+            background-position: center top;
+            background-size: 100% auto;
+            image-rendering: pixelated;
+            margin-top: -5px;
+            z-index: -1;
+        }
+
+        .note-scroll .note-content p {
+            margin: 0 0 12px 0;
+        }
+
+        .note-scroll .note-content p:last-child {
+            margin-bottom: 0;
+        }
+
+        .note-scroll .note-meta {
+            text-align: center;
+            position: absolute;
+            bottom: 90px;
+            left: 0;
+            right: 0;
+            z-index: 10;
+        }
+
+        .note-scroll .note-date {
+            font-size: 14px;
+            color: #7a6550;
+            text-decoration: none;
+        }
+
+        /* Theme-specific fonts and backgrounds */
+        .fantasy .note-scroll .note-content { font-family: "MedievalSharp", cursive; }
+        .fantasy .note-scroll::before { background-image: url('/fantasy/notes/top.webp'); }
+        .fantasy .note-scroll::after { background-image: url('/fantasy/notes/bottom.webp'); }
+        .fantasy .note-scroll .note-content { background-image: url('/fantasy/notes/middle.webp'); }
+        .fantasy .note-scroll .note-date { font-family: "MedievalSharp", cursive; }
+
+        .sci-fi .note-scroll .note-content { font-family: "Orbitron", sans-serif; font-weight: 400; }
+        .sci-fi .note-scroll::before { background-image: url('/sci-fi/notes/top.webp'); }
+        .sci-fi .note-scroll::after { background-image: url('/sci-fi/notes/bottom.webp'); }
+        .sci-fi .note-scroll .note-content { background-image: url('/sci-fi/notes/middle.webp'); }
+        .sci-fi .note-scroll .note-date { font-family: "Orbitron", sans-serif; }
+
+        .cyberpunk .note-scroll .note-content { font-family: "Oxanium", sans-serif; font-weight: 400; }
+        .cyberpunk .note-scroll::before { background-image: url('/cyberpunk/notes/top.webp'); }
+        .cyberpunk .note-scroll::after { background-image: url('/cyberpunk/notes/bottom.webp'); }
+        .cyberpunk .note-scroll .note-content { background-image: url('/cyberpunk/notes/middle.webp'); }
+        .cyberpunk .note-scroll .note-date { font-family: "Oxanium", sans-serif; }
+
+        .cabin .note-scroll .note-content { font-family: "Literata", serif; }
+        .cabin .note-scroll::before { background-image: url('/cabin/notes/top.webp'); }
+        .cabin .note-scroll::after { background-image: url('/cabin/notes/bottom.webp'); }
+        .cabin .note-scroll .note-content { background-image: url('/cabin/notes/middle.webp'); }
+        .cabin .note-scroll .note-date { font-family: "Quicksand", sans-serif; }
+
+        .underwater .note-scroll .note-content { font-family: "EB Garamond", serif; }
+        .underwater .note-scroll::before { background-image: url('/underwater/notes/top.webp'); }
+        .underwater .note-scroll::after { background-image: url('/underwater/notes/bottom.webp'); }
+        .underwater .note-scroll .note-content { background-image: url('/underwater/notes/middle.webp'); }
+        .underwater .note-scroll .note-date { font-family: "Vollkorn", serif; }
+
+        /* Guide overlays */
+        .note-scroll .note-content {
+            position: relative;
+        }
+
+        .note-content-guide {
+            position: absolute;
+            top: 0;
+            left: 15%;
+            right: 15%;
+            bottom: 0;
+            border: 2px dashed rgba(255, 255, 0, 0.5);
+            pointer-events: none;
+        }
+
+        .note-content-guide::before {
+            content: "Text Area";
+            position: absolute;
+            top: -20px;
+            left: 0;
+            color: rgba(255, 255, 0, 0.7);
+            font-size: 10px;
+            font-family: system-ui, sans-serif;
+        }
+
+        /* Clickable area */
+        .click-guide {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100px;
+            border: 3px dashed rgba(50, 255, 50, 0.6);
+            background: rgba(50, 255, 50, 0.1);
+            pointer-events: none;
+        }
+
+        .click-guide::before {
+            content: "Clickable Area";
+            position: absolute;
+            top: 5px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: rgba(50, 255, 50, 0.9);
+            font-size: 11px;
+            font-family: system-ui, sans-serif;
+            background: rgba(0,0,0,0.5);
+            padding: 2px 8px;
+            border-radius: 3px;
+        }
+
+        .hide-guides .note-content-guide,
+        .hide-guides .click-guide {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Notes Scroll Positioning</h1>
+    <p class="info-text">
+        Adjust values to position text and date within scrolls. Yellow = text area | Green = clickable area
+    </p>
+
+    <div class="controls">
+        <h3>Scroll Dimensions</h3>
+        <div class="control-row">
+            <div class="control-group">
+                <label>Top Height</label>
+                <input type="number" id="topHeight" value="200" min="50" max="400">
+            </div>
+            <div class="control-group">
+                <label>Bottom Height</label>
+                <input type="number" id="bottomHeight" value="200" min="50" max="400">
+            </div>
+            <div class="control-group">
+                <label>Scroll Width</label>
+                <input type="number" id="scrollWidth" value="800" min="400" max="1200">
+            </div>
+        </div>
+
+        <h3>Text Positioning</h3>
+        <div class="control-row">
+            <div class="control-group">
+                <label>Font Size</label>
+                <input type="number" id="fontSize" value="20" min="12" max="32">
+            </div>
+            <div class="control-group">
+                <label>Line Height</label>
+                <input type="number" id="lineHeight" value="1.6" min="1" max="2.5" step="0.1">
+            </div>
+            <div class="control-group">
+                <label>Pad Top</label>
+                <input type="number" id="padTop" value="20" min="0" max="100">
+            </div>
+            <div class="control-group">
+                <label>Pad Bottom</label>
+                <input type="number" id="padBottom" value="30" min="0" max="100">
+            </div>
+            <div class="control-group">
+                <label>Pad Left %</label>
+                <input type="number" id="padLeft" value="15" min="5" max="30">
+            </div>
+            <div class="control-group">
+                <label>Pad Right %</label>
+                <input type="number" id="padRight" value="15" min="5" max="30">
+            </div>
+        </div>
+
+        <h3>Date Positioning</h3>
+        <div class="control-row">
+            <div class="control-group">
+                <label>Date Size</label>
+                <input type="number" id="dateSize" value="14" min="10" max="24">
+            </div>
+            <div class="control-group">
+                <label>Date Bottom</label>
+                <input type="number" id="dateBottom" value="90" min="20" max="300">
+            </div>
+        </div>
+
+        <h3>Clickable Area (Open/Close)</h3>
+        <div class="control-row">
+            <div class="control-group">
+                <label>Click Height</label>
+                <input type="number" id="clickHeight" value="100" min="50" max="500">
+            </div>
+            <div class="control-group">
+                <label>Click Bottom</label>
+                <input type="number" id="clickBottom" value="0" min="0" max="200">
+            </div>
+            <button class="toggle-guides" onclick="toggleGuides()">Toggle Guides</button>
+        </div>
+    </div>
+
+    <div class="notes-container" id="notesContainer">
+        <!-- Fantasy -->
+        <div class="note-wrapper fantasy">
+            <div class="theme-label">Fantasy</div>
+            <article class="note-scroll">
+                <div class="note-content">
+                    <div class="note-content-guide"></div>
+                    <p>This is a sample note to test the scroll positioning. The text should fit nicely within the parchment area.</p>
+                    <p>Here's a second paragraph to show spacing.</p>
+                </div>
+                <div class="note-meta">
+                    <a class="note-date">Dec 26, 2025</a>
+                </div>
+                <div class="click-guide"></div>
+            </article>
+        </div>
+
+        <!-- Sci-Fi -->
+        <div class="note-wrapper sci-fi">
+            <div class="theme-label">Sci-Fi</div>
+            <article class="note-scroll">
+                <div class="note-content">
+                    <div class="note-content-guide"></div>
+                    <p>This is a sample note to test the scroll positioning. The text should fit nicely within the parchment area.</p>
+                    <p>Here's a second paragraph to show spacing.</p>
+                </div>
+                <div class="note-meta">
+                    <a class="note-date">Dec 26, 2025</a>
+                </div>
+                <div class="click-guide"></div>
+            </article>
+        </div>
+
+        <!-- Cyberpunk -->
+        <div class="note-wrapper cyberpunk">
+            <div class="theme-label">Cyberpunk</div>
+            <article class="note-scroll">
+                <div class="note-content">
+                    <div class="note-content-guide"></div>
+                    <p>This is a sample note to test the scroll positioning. The text should fit nicely within the parchment area.</p>
+                    <p>Here's a second paragraph to show spacing.</p>
+                </div>
+                <div class="note-meta">
+                    <a class="note-date">Dec 26, 2025</a>
+                </div>
+                <div class="click-guide"></div>
+            </article>
+        </div>
+
+        <!-- Cabin -->
+        <div class="note-wrapper cabin">
+            <div class="theme-label">Cabin</div>
+            <article class="note-scroll">
+                <div class="note-content">
+                    <div class="note-content-guide"></div>
+                    <p>This is a sample note to test the scroll positioning. The text should fit nicely within the parchment area.</p>
+                    <p>Here's a second paragraph to show spacing.</p>
+                </div>
+                <div class="note-meta">
+                    <a class="note-date">Dec 26, 2025</a>
+                </div>
+                <div class="click-guide"></div>
+            </article>
+        </div>
+
+        <!-- Underwater -->
+        <div class="note-wrapper underwater">
+            <div class="theme-label">Underwater</div>
+            <article class="note-scroll">
+                <div class="note-content">
+                    <div class="note-content-guide"></div>
+                    <p>This is a sample note to test the scroll positioning. The text should fit nicely within the parchment area.</p>
+                    <p>Here's a second paragraph to show spacing.</p>
+                </div>
+                <div class="note-meta">
+                    <a class="note-date">Dec 26, 2025</a>
+                </div>
+                <div class="click-guide"></div>
+            </article>
+        </div>
+    </div>
+
+    <div class="controls" style="margin-top: 40px;">
+        <h3>Generated CSS</h3>
+        <div class="output-css">
+            <pre id="cssOutput"></pre>
+        </div>
+        <button class="copy-btn" onclick="copyCSS()">Copy CSS to Clipboard</button>
+    </div>
+
+    <script>
+        function updateNotes() {
+            const topHeight = parseInt(document.getElementById('topHeight').value) || 200;
+            const bottomHeight = parseInt(document.getElementById('bottomHeight').value) || 200;
+            const scrollWidth = parseInt(document.getElementById('scrollWidth').value) || 800;
+            const fontSize = parseInt(document.getElementById('fontSize').value) || 20;
+            const lineHeight = parseFloat(document.getElementById('lineHeight').value) || 1.6;
+            const padTop = parseInt(document.getElementById('padTop').value) || 20;
+            const padBottom = parseInt(document.getElementById('padBottom').value) || 30;
+            const padLeft = parseInt(document.getElementById('padLeft').value) || 15;
+            const padRight = parseInt(document.getElementById('padRight').value) || 15;
+            const dateSize = parseInt(document.getElementById('dateSize').value) || 14;
+            const dateBottom = parseInt(document.getElementById('dateBottom').value) || 90;
+            const clickHeight = parseInt(document.getElementById('clickHeight').value) || 100;
+            const clickBottom = parseInt(document.getElementById('clickBottom').value) || 0;
+
+            // Update scroll dimensions
+            document.querySelectorAll('.note-scroll').forEach(scroll => {
+                scroll.style.maxWidth = scrollWidth + 'px';
+            });
+
+            // Update top/bottom heights
+            const styleEl = document.getElementById('dynamic-styles') || document.createElement('style');
+            styleEl.id = 'dynamic-styles';
+            styleEl.textContent = `
+                .note-scroll::before { height: ${topHeight}px; }
+                .note-scroll::after { height: ${bottomHeight}px; }
+                .note-scroll .note-content {
+                    font-size: ${fontSize}px;
+                    line-height: ${lineHeight};
+                    padding: ${padTop}px ${padRight}% ${padBottom}px ${padLeft}%;
+                }
+                .note-scroll .note-meta {
+                    bottom: ${dateBottom}px;
+                }
+                .note-scroll .note-date {
+                    font-size: ${dateSize}px;
+                }
+                .click-guide {
+                    height: ${clickHeight}px;
+                    bottom: ${clickBottom}px;
+                }
+                .note-content-guide {
+                    left: ${padLeft}%;
+                    right: ${padRight}%;
+                }
+            `;
+            if (!document.getElementById('dynamic-styles')) {
+                document.head.appendChild(styleEl);
+            }
+
+            updateCSSOutput();
+        }
+
+        function updateCSSOutput() {
+            const topHeight = document.getElementById('topHeight').value;
+            const bottomHeight = document.getElementById('bottomHeight').value;
+            const scrollWidth = document.getElementById('scrollWidth').value;
+            const fontSize = document.getElementById('fontSize').value;
+            const lineHeight = document.getElementById('lineHeight').value;
+            const padTop = document.getElementById('padTop').value;
+            const padBottom = document.getElementById('padBottom').value;
+            const padLeft = document.getElementById('padLeft').value;
+            const padRight = document.getElementById('padRight').value;
+            const dateSize = document.getElementById('dateSize').value;
+            const dateBottom = document.getElementById('dateBottom').value;
+            const clickHeight = document.getElementById('clickHeight').value;
+            const clickBottom = document.getElementById('clickBottom').value;
+
+            const css = `/* Note scroll positioning - style.css */
+
+.note-scroll {
+    max-width: ${scrollWidth}px;
+}
+
+.note-scroll::before {
+    height: ${topHeight}px;
+}
+
+.note-scroll::after {
+    height: ${bottomHeight}px;
+}
+
+.note-scroll .note-content {
+    font-size: ${fontSize}px;
+    line-height: ${lineHeight};
+    padding: ${padTop}px ${padRight}% ${padBottom}px ${padLeft}%;
+}
+
+.note-scroll .note-meta {
+    bottom: ${dateBottom}px;
+}
+
+.note-scroll .note-date {
+    font-size: ${dateSize}px;
+}
+
+.scroll-bottom-clickable {
+    height: ${clickHeight}px;
+    bottom: ${clickBottom}px;
+}`;
+            document.getElementById('cssOutput').textContent = css;
+        }
+
+        function copyCSS() {
+            const css = document.getElementById('cssOutput').textContent;
+            navigator.clipboard.writeText(css).then(() => {
+                const btn = document.querySelector('.copy-btn');
+                btn.textContent = 'Copied!';
+                setTimeout(() => btn.textContent = 'Copy CSS to Clipboard', 2000);
+            });
+        }
+
+        function toggleGuides() {
+            document.getElementById('notesContainer').classList.toggle('hide-guides');
+        }
+
+        // Add event listeners to all inputs
+        document.querySelectorAll('input[type="number"]').forEach(input => {
+            input.addEventListener('input', updateNotes);
+        });
+
+        // Initialize
+        updateNotes();
+    </script>
+</body>
+</html>

@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Navigation Mockup - Dylan.blog</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: Georgia, serif;
+                min-height: 100vh;
+            }
+
+            .day {
+                background: linear-gradient(180deg, #87ceeb 0%, #c9e4f5 100%);
+            }
+
+            .night {
+                background: linear-gradient(180deg, #1a1a2e 0%, #16213e 100%);
+            }
+
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 40px 20px;
+            }
+
+            /* Navigation bar */
+            .nav-bar {
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                image-rendering: pixelated;
+            }
+
+            .nav-bar img {
+                display: block;
+                image-rendering: pixelated;
+                height: 178px; /* 2x scale */
+                width: auto;
+            }
+
+            /* Bracket pieces - overlap to connect seamlessly */
+            .bracket-left {
+                flex-shrink: 0;
+                margin-right: 0px;
+                z-index: 2;
+            }
+
+            .bracket-right {
+                flex-shrink: 0;
+                margin-left: -48px;
+                z-index: 2;
+            }
+
+            /* Sign containers - overlap middle sections */
+            .sign-slot {
+                position: relative;
+                flex-shrink: 0;
+                margin-left: -24px;
+                margin-right: -24px;
+            }
+
+            .sign-slot .bracket {
+                display: block;
+            }
+
+            .sign-slot .sign {
+                position: absolute;
+                top: 45px; /* Adjust to hang from hook */
+                left: 50%;
+                transform: translateX(-50%);
+                height: 178px;
+                width: auto;
+                transition: transform 0.15s ease;
+                cursor: pointer;
+            }
+
+            .sign-slot:hover .sign {
+                transform: translateX(-50%) rotate(-4deg) translateY(-3px);
+            }
+
+            /* Night mode */
+            .night .nav-bar img {
+                filter: brightness(0.5);
+            }
+
+            /* Toggle button */
+            .mode-toggle {
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                padding: 10px 20px;
+                background: #4a3020;
+                color: #f5e6d3;
+                border: none;
+                border-radius: 20px;
+                cursor: pointer;
+                font-family: Georgia, serif;
+                z-index: 100;
+            }
+
+            .mode-toggle:hover {
+                background: #6b4423;
+            }
+
+            /* Content mockup */
+            .content {
+                background: #f5e6d3;
+                border: 4px solid #8b5a2b;
+                border-radius: 8px;
+                padding: 40px;
+                margin-top: 40px;
+                max-width: 800px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .night .content {
+                background:
+                    linear-gradient(rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.67)),
+                    #f5e6d3;
+                border-color: #4a3728;
+            }
+
+            .content h1 {
+                color: #4a3020;
+                margin-bottom: 16px;
+            }
+
+            .night .content h1 {
+                color: #d4a056;
+            }
+
+            .content p {
+                color: #5a4030;
+                line-height: 1.6;
+            }
+
+            .night .content p {
+                color: #b0a090;
+            }
+        </style>
+    </head>
+    <body class="day">
+        <button
+            class="mode-toggle"
+            onclick="document.body.classList.toggle('day'); document.body.classList.toggle('night');"
+        >
+            Toggle Day/Night
+        </button>
+
+        <div class="container">
+            <nav class="nav-bar">
+                <!-- Left bracket (wall mount) -->
+                <img src="left sign bracket.png" alt="" class="bracket-left" />
+
+                <!-- Sign slots: bracket middle + sign layered -->
+                <a href="#" class="sign-slot">
+                    <img src="middle sign bracket.png" alt="" class="bracket" />
+                    <img src="home.png" alt="Home" class="sign" />
+                </a>
+
+                <a href="#" class="sign-slot">
+                    <img src="middle sign bracket.png" alt="" class="bracket" />
+                    <img src="about.png" alt="About" class="sign" />
+                </a>
+
+                <a href="#" class="sign-slot">
+                    <img src="middle sign bracket.png" alt="" class="bracket" />
+                    <img src="archive.png" alt="Archive" class="sign" />
+                </a>
+
+                <a href="#" class="sign-slot">
+                    <img src="middle sign bracket.png" alt="" class="bracket" />
+                    <img src="contact.png" alt="Contact" class="sign" />
+                </a>
+
+                <a href="#" class="sign-slot">
+                    <img src="middle sign bracket.png" alt="" class="bracket" />
+                    <img src="photos.png" alt="Photos" class="sign" />
+                </a>
+
+                <!-- Right bracket (end cap) -->
+                <img
+                    src="right sign bracket.png"
+                    alt=""
+                    class="bracket-right"
+                />
+            </nav>
+
+            <main class="content">
+                <h1>Welcome to Dylan.blog</h1>
+                <p>
+                    The navigation bar now uses your 3-slice bracket system!
+                    Signs hang from the hooks and tilt on hover. Toggle
+                    day/night mode to see the darkened version.
+                </p>
+            </main>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+---
+title: Sweet Car
+date: 2006-01-13T21:38:43-0600
+categories:
+- personal
+---
+
+I like this [car][1]
+
+   [1]: http://www.waciworld.com/psp_controlled_car/ (Car)
+

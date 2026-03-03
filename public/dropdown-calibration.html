@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<!-- ABOUTME: Dropdown menu calibration tool for aligning button hitboxes per theme and breakpoint -->
+<!-- ABOUTME: Adjust panel size, button positions, and icon sizes with live preview and CSS output -->
+<html>
+<head>
+    <title>Dropdown Menu Calibration</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: monospace;
+            background: #1a1a2e;
+            color: #eee;
+            padding: 20px;
+            margin: 0;
+        }
+        h1 { text-align: center; color: #0ff; margin-bottom: 10px; }
+        .subtitle { text-align: center; color: #888; margin-bottom: 20px; }
+
+        .layout {
+            display: flex;
+            gap: 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .controls-panel {
+            flex: 0 0 340px;
+            background: #2a2a4e;
+            padding: 15px;
+            border-radius: 8px;
+            max-height: 85vh;
+            overflow-y: auto;
+        }
+
+        .control-section {
+            margin-bottom: 15px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #444;
+        }
+
+        .control-section h3 {
+            margin: 0 0 8px 0;
+            color: #0ff;
+            font-size: 13px;
+        }
+
+        .control-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 6px;
+            gap: 8px;
+        }
+
+        .control-row label {
+            flex: 0 0 50px;
+            color: #aaa;
+            font-size: 11px;
+        }
+
+        .control-row input[type="range"] {
+            flex: 1;
+            height: 16px;
+        }
+
+        .control-row .value {
+            flex: 0 0 50px;
+            color: #ff0;
+            text-align: right;
+            font-size: 11px;
+        }
+
+        select {
+            width: 100%;
+            padding: 8px;
+            font-size: 14px;
+            margin-bottom: 8px;
+            background: #1a1a2e;
+            color: #eee;
+            border: 1px solid #444;
+        }
+
+        .selectors {
+            display: flex;
+            gap: 10px;
+        }
+        .selectors > div { flex: 1; }
+
+        .preview-panel {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .preview-container {
+            background: #2a2a4e;
+            padding: 20px;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .dropdown-wrapper {
+            position: relative;
+            image-rendering: pixelated;
+        }
+
+        .dropdown-bg {
+            display: block;
+            image-rendering: pixelated;
+        }
+
+        .btn-hitbox {
+            position: absolute;
+            background: rgba(255, 0, 0, 0.4);
+            border: 2px solid #f00;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            font-weight: bold;
+            color: #fff;
+            text-shadow: 1px 1px 0 #000;
+        }
+
+        .btn-hitbox:nth-child(1) { background: rgba(255, 0, 0, 0.4); border-color: #f00; }
+        .btn-hitbox:nth-child(2) { background: rgba(0, 255, 0, 0.4); border-color: #0f0; }
+        .btn-hitbox:nth-child(3) { background: rgba(0, 0, 255, 0.4); border-color: #00f; }
+        .btn-hitbox:nth-child(4) { background: rgba(255, 255, 0, 0.4); border-color: #ff0; }
+        .btn-hitbox:nth-child(5) { background: rgba(255, 0, 255, 0.4); border-color: #f0f; }
+        .btn-hitbox:nth-child(6) { background: rgba(0, 255, 255, 0.4); border-color: #0ff; }
+        .btn-hitbox:nth-child(7) { background: rgba(255, 165, 0, 0.4); border-color: #fa0; }
+
+        .icon-preview {
+            background: rgba(255, 255, 255, 0.3);
+            border: 1px dashed #fff;
+        }
+
+        .output {
+            background: #000;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+
+        .output h3 {
+            color: #0ff;
+            margin: 0 0 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .output pre {
+            background: #1a1a2e;
+            padding: 10px;
+            overflow-x: auto;
+            color: #0f0;
+            font-size: 10px;
+            max-height: 300px;
+            overflow-y: auto;
+            margin: 0;
+        }
+
+        .btn-row {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .copy-btn, .export-btn {
+            background: #0ff;
+            color: #000;
+            border: none;
+            padding: 8px 16px;
+            cursor: pointer;
+            font-family: monospace;
+            font-size: 12px;
+        }
+
+        .copy-btn:hover, .export-btn:hover {
+            background: #0f0;
+        }
+
+        .export-btn {
+            background: #f0f;
+        }
+
+        .btn-tabs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+            margin-bottom: 10px;
+        }
+
+        .btn-tab {
+            padding: 4px 8px;
+            font-size: 10px;
+            cursor: pointer;
+            background: #1a1a2e;
+            border: 1px solid #444;
+            color: #888;
+        }
+
+        .btn-tab.active {
+            background: #0ff;
+            color: #000;
+            border-color: #0ff;
+        }
+
+        .btn-tab:nth-child(1).active { background: #f00; border-color: #f00; color: #fff; }
+        .btn-tab:nth-child(2).active { background: #0f0; border-color: #0f0; color: #000; }
+        .btn-tab:nth-child(3).active { background: #00f; border-color: #00f; color: #fff; }
+        .btn-tab:nth-child(4).active { background: #ff0; border-color: #ff0; color: #000; }
+        .btn-tab:nth-child(5).active { background: #f0f; border-color: #f0f; color: #fff; }
+        .btn-tab:nth-child(6).active { background: #0ff; border-color: #0ff; color: #000; }
+        .btn-tab:nth-child(7).active { background: #fa0; border-color: #fa0; color: #000; }
+
+        .breakpoint-info {
+            text-align: center;
+            color: #888;
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+
+        .quick-actions {
+            display: flex;
+            gap: 5px;
+            margin-top: 8px;
+        }
+
+        .quick-btn {
+            flex: 1;
+            padding: 4px;
+            font-size: 9px;
+            cursor: pointer;
+            background: #333;
+            border: 1px solid #555;
+            color: #aaa;
+        }
+
+        .quick-btn:hover {
+            background: #444;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dropdown Menu Calibration</h1>
+    <p class="subtitle">Adjust button positions per theme and breakpoint</p>
+
+    <div class="layout">
+        <div class="controls-panel">
+            <div class="control-section">
+                <div class="selectors">
+                    <div>
+                        <h3>Theme</h3>
+                        <select id="themeSelect">
+                            <option value="fantasy">Fantasy</option>
+                            <option value="sci-fi">Sci-Fi</option>
+                            <option value="cyberpunk">Cyberpunk</option>
+                            <option value="cabin">Cabin</option>
+                            <option value="underwater">Underwater</option>
+                        </select>
+                    </div>
+                    <div>
+                        <h3>Breakpoint</h3>
+                        <select id="breakpointSelect">
+                            <option value="xl">XL (>1200px)</option>
+                            <option value="desktop">Desktop (992-1200px)</option>
+                            <option value="tablet">Tablet (768-992px)</option>
+                            <option value="mobile">Mobile (576-768px)</option>
+                            <option value="xs">XS (<576px)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="control-section">
+                <h3>Panel Size</h3>
+                <div class="control-row">
+                    <label>Width:</label>
+                    <input type="range" id="panel-width" min="200" max="600" value="500" step="1">
+                    <span class="value" id="panel-width-val">500px</span>
+                </div>
+                <div class="control-row">
+                    <label>Height:</label>
+                    <input type="range" id="panel-height" min="50" max="200" value="122" step="1">
+                    <span class="value" id="panel-height-val">122px</span>
+                </div>
+            </div>
+
+            <div class="control-section">
+                <h3>Button Common</h3>
+                <div class="control-row">
+                    <label>Top:</label>
+                    <input type="range" id="btn-top" min="0" max="100" value="34" step="1">
+                    <span class="value" id="btn-top-val">34px</span>
+                </div>
+                <div class="control-row">
+                    <label>Width:</label>
+                    <input type="range" id="btn-width" min="20" max="100" value="55" step="1">
+                    <span class="value" id="btn-width-val">55px</span>
+                </div>
+                <div class="control-row">
+                    <label>Height:</label>
+                    <input type="range" id="btn-height" min="20" max="100" value="55" step="1">
+                    <span class="value" id="btn-height-val">55px</span>
+                </div>
+                <div class="control-row">
+                    <label>Icon:</label>
+                    <input type="range" id="icon-size" min="16" max="64" value="36" step="1">
+                    <span class="value" id="icon-size-val">36px</span>
+                </div>
+            </div>
+
+            <div class="control-section">
+                <h3>Button Positions (Left)</h3>
+                <div class="btn-tabs">
+                    <div class="btn-tab active" data-btn="0">1</div>
+                    <div class="btn-tab" data-btn="1">2</div>
+                    <div class="btn-tab" data-btn="2">3</div>
+                    <div class="btn-tab" data-btn="3">4</div>
+                    <div class="btn-tab" data-btn="4">5</div>
+                    <div class="btn-tab" data-btn="5">6</div>
+                    <div class="btn-tab" data-btn="6">7</div>
+                </div>
+                <div class="control-row">
+                    <label>Btn 1:</label>
+                    <input type="range" id="btn-left-0" min="0" max="500" value="29" step="1">
+                    <span class="value" id="btn-left-0-val">29px</span>
+                </div>
+                <div class="control-row">
+                    <label>Btn 2:</label>
+                    <input type="range" id="btn-left-1" min="0" max="500" value="93" step="1">
+                    <span class="value" id="btn-left-1-val">93px</span>
+                </div>
+                <div class="control-row">
+                    <label>Btn 3:</label>
+                    <input type="range" id="btn-left-2" min="0" max="500" value="156" step="1">
+                    <span class="value" id="btn-left-2-val">156px</span>
+                </div>
+                <div class="control-row">
+                    <label>Btn 4:</label>
+                    <input type="range" id="btn-left-3" min="0" max="500" value="222" step="1">
+                    <span class="value" id="btn-left-3-val">222px</span>
+                </div>
+                <div class="control-row">
+                    <label>Btn 5:</label>
+                    <input type="range" id="btn-left-4" min="0" max="500" value="286" step="1">
+                    <span class="value" id="btn-left-4-val">286px</span>
+                </div>
+                <div class="control-row">
+                    <label>Btn 6:</label>
+                    <input type="range" id="btn-left-5" min="0" max="500" value="350" step="1">
+                    <span class="value" id="btn-left-5-val">350px</span>
+                </div>
+                <div class="control-row">
+                    <label>Btn 7:</label>
+                    <input type="range" id="btn-left-6" min="0" max="500" value="414" step="1">
+                    <span class="value" id="btn-left-6-val">414px</span>
+                </div>
+                <div class="quick-actions">
+                    <button class="quick-btn" onclick="distributeEvenly()">Distribute Evenly</button>
+                    <button class="quick-btn" onclick="copyFromBreakpoint()">Copy from XL</button>
+                    <button class="quick-btn" onclick="scaleFromXL()">Scale from XL</button>
+                </div>
+            </div>
+
+            <div class="output">
+                <h3>
+                    CSS Output
+                    <span style="font-size: 10px; color: #888;">Current: <span id="currentThemeBp"></span></span>
+                </h3>
+                <pre id="cssOutput"></pre>
+                <div class="btn-row">
+                    <button class="copy-btn" onclick="copyCSS()">Copy Current</button>
+                    <button class="export-btn" onclick="exportAllCSS()">Export All CSS</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="preview-panel">
+            <div class="breakpoint-info" id="breakpointInfo">XL: Panel at 500px</div>
+            <div class="preview-container">
+                <div class="dropdown-wrapper" id="dropdownWrapper">
+                    <img class="dropdown-bg" id="dropdownBg" src="/fantasy/dropdown/drop_down_menu.webp">
+                    <div class="btn-hitbox" id="hitbox-0">1</div>
+                    <div class="btn-hitbox" id="hitbox-1">2</div>
+                    <div class="btn-hitbox" id="hitbox-2">3</div>
+                    <div class="btn-hitbox" id="hitbox-3">4</div>
+                    <div class="btn-hitbox" id="hitbox-4">5</div>
+                    <div class="btn-hitbox" id="hitbox-5">6</div>
+                    <div class="btn-hitbox" id="hitbox-6">7</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const themes = ['fantasy', 'sci-fi', 'cyberpunk', 'cabin', 'underwater'];
+        const breakpoints = ['xl', 'desktop', 'tablet', 'mobile', 'xs'];
+        const breakpointWidths = {
+            xl: 500,
+            desktop: 500,
+            tablet: 380,
+            mobile: 300,
+            xs: 260
+        };
+        const breakpointMediaQueries = {
+            xl: '',
+            desktop: '@media (max-width: 1200px)',
+            tablet: '@media (max-width: 992px)',
+            mobile: '@media (max-width: 768px)',
+            xs: '@media (max-width: 576px)'
+        };
+
+        // Initialize saved values for all theme/breakpoint combinations
+        const savedValues = {};
+        themes.forEach(theme => {
+            savedValues[theme] = {};
+            breakpoints.forEach(bp => {
+                const w = breakpointWidths[bp];
+                const scale = w / 500;
+                savedValues[theme][bp] = {
+                    panel: { width: w, height: Math.round(122 * scale) },
+                    btnCommon: {
+                        top: Math.round(34 * scale),
+                        width: Math.round(55 * scale),
+                        height: Math.round(55 * scale),
+                        iconSize: Math.round(36 * scale)
+                    },
+                    btnLeft: [
+                        Math.round(29 * scale),
+                        Math.round(93 * scale),
+                        Math.round(156 * scale),
+                        Math.round(222 * scale),
+                        Math.round(286 * scale),
+                        Math.round(350 * scale),
+                        Math.round(414 * scale)
+                    ]
+                };
+            });
+        });
+
+        const themeSelect = document.getElementById('themeSelect');
+        const breakpointSelect = document.getElementById('breakpointSelect');
+        const dropdownBg = document.getElementById('dropdownBg');
+        const dropdownWrapper = document.getElementById('dropdownWrapper');
+
+        function getCurrentValues() {
+            const theme = themeSelect.value;
+            const bp = breakpointSelect.value;
+            return savedValues[theme][bp];
+        }
+
+        function setCurrentValues(vals) {
+            const theme = themeSelect.value;
+            const bp = breakpointSelect.value;
+            savedValues[theme][bp] = vals;
+        }
+
+        function loadControls() {
+            const vals = getCurrentValues();
+
+            document.getElementById('panel-width').value = vals.panel.width;
+            document.getElementById('panel-width-val').textContent = vals.panel.width + 'px';
+            document.getElementById('panel-height').value = vals.panel.height;
+            document.getElementById('panel-height-val').textContent = vals.panel.height + 'px';
+
+            document.getElementById('btn-top').value = vals.btnCommon.top;
+            document.getElementById('btn-top-val').textContent = vals.btnCommon.top + 'px';
+            document.getElementById('btn-width').value = vals.btnCommon.width;
+            document.getElementById('btn-width-val').textContent = vals.btnCommon.width + 'px';
+            document.getElementById('btn-height').value = vals.btnCommon.height;
+            document.getElementById('btn-height-val').textContent = vals.btnCommon.height + 'px';
+            document.getElementById('icon-size').value = vals.btnCommon.iconSize;
+            document.getElementById('icon-size-val').textContent = vals.btnCommon.iconSize + 'px';
+
+            for (let i = 0; i < 7; i++) {
+                document.getElementById(`btn-left-${i}`).value = vals.btnLeft[i];
+                document.getElementById(`btn-left-${i}-val`).textContent = vals.btnLeft[i] + 'px';
+            }
+        }
+
+        function saveControls() {
+            const vals = {
+                panel: {
+                    width: parseInt(document.getElementById('panel-width').value),
+                    height: parseInt(document.getElementById('panel-height').value)
+                },
+                btnCommon: {
+                    top: parseInt(document.getElementById('btn-top').value),
+                    width: parseInt(document.getElementById('btn-width').value),
+                    height: parseInt(document.getElementById('btn-height').value),
+                    iconSize: parseInt(document.getElementById('icon-size').value)
+                },
+                btnLeft: []
+            };
+            for (let i = 0; i < 7; i++) {
+                vals.btnLeft.push(parseInt(document.getElementById(`btn-left-${i}`).value));
+            }
+            setCurrentValues(vals);
+        }
+
+        function updatePreview() {
+            const theme = themeSelect.value;
+            const bp = breakpointSelect.value;
+            const vals = getCurrentValues();
+
+            // Update dropdown image
+            dropdownBg.src = `/${theme}/dropdown/drop_down_menu.webp`;
+            dropdownBg.style.width = vals.panel.width + 'px';
+            dropdownBg.style.height = vals.panel.height + 'px';
+
+            // Update hitboxes
+            for (let i = 0; i < 7; i++) {
+                const hitbox = document.getElementById(`hitbox-${i}`);
+                hitbox.style.top = vals.btnCommon.top + 'px';
+                hitbox.style.left = vals.btnLeft[i] + 'px';
+                hitbox.style.width = vals.btnCommon.width + 'px';
+                hitbox.style.height = vals.btnCommon.height + 'px';
+            }
+
+            // Update info
+            document.getElementById('breakpointInfo').textContent =
+                `${bp.toUpperCase()}: Panel at ${vals.panel.width}x${vals.panel.height}px`;
+            document.getElementById('currentThemeBp').textContent =
+                `${theme} @ ${bp}`;
+
+            generateCSS();
+        }
+
+        function generateCSS() {
+            const theme = themeSelect.value;
+            const bp = breakpointSelect.value;
+            const vals = getCurrentValues();
+
+            const themeSelector = theme === 'fantasy'
+                ? '.sierra-panel-bg'
+                : `html.theme-${theme} .sierra-panel-bg`;
+            const btnSelector = theme === 'fantasy' ? '' : `html.theme-${theme} `;
+
+            let css = `/* ${theme.charAt(0).toUpperCase() + theme.slice(1)} - ${bp.toUpperCase()} */\n`;
+
+            if (breakpointMediaQueries[bp]) {
+                css += `${breakpointMediaQueries[bp]} {\n`;
+            }
+
+            const indent = breakpointMediaQueries[bp] ? '    ' : '';
+
+            css += `${indent}${themeSelector} {\n`;
+            css += `${indent}    width: ${vals.panel.width}px !important;\n`;
+            css += `${indent}    height: ${vals.panel.height}px !important;\n`;
+            css += `${indent}    background-size: ${vals.panel.width}px ${vals.panel.height}px !important;\n`;
+            css += `${indent}}\n\n`;
+
+            css += `${indent}${btnSelector}.sierra-btn {\n`;
+            css += `${indent}    top: ${vals.btnCommon.top}px !important;\n`;
+            css += `${indent}    width: ${vals.btnCommon.width}px !important;\n`;
+            css += `${indent}    height: ${vals.btnCommon.height}px !important;\n`;
+            css += `${indent}}\n\n`;
+
+            for (let i = 0; i < 7; i++) {
+                css += `${indent}${btnSelector}.sierra-btn:nth-child(${i + 1}) {\n`;
+                css += `${indent}    left: ${vals.btnLeft[i]}px !important;\n`;
+                css += `${indent}}\n`;
+            }
+
+            css += `\n${indent}${btnSelector}.sierra-btn img {\n`;
+            css += `${indent}    width: ${vals.btnCommon.iconSize}px !important;\n`;
+            css += `${indent}    height: ${vals.btnCommon.iconSize}px !important;\n`;
+            css += `${indent}}\n`;
+
+            if (breakpointMediaQueries[bp]) {
+                css += `}\n`;
+            }
+
+            document.getElementById('cssOutput').textContent = css;
+        }
+
+        function copyCSS() {
+            navigator.clipboard.writeText(document.getElementById('cssOutput').textContent);
+            alert('CSS copied!');
+        }
+
+        function exportAllCSS() {
+            let allCSS = `/* ABOUTME: Theme-specific dropdown panel styles generated by calibration tool */\n`;
+            allCSS += `/* ABOUTME: Contains panel sizes, button positions, and icon sizes per theme/breakpoint */\n\n`;
+
+            themes.forEach(theme => {
+                allCSS += `/* ═══════════════════════════════════════════════════════════════\n`;
+                allCSS += `   THEME: ${theme.toUpperCase()} DROPDOWN\n`;
+                allCSS += `   ═══════════════════════════════════════════════════════════════ */\n\n`;
+
+                breakpoints.forEach(bp => {
+                    const vals = savedValues[theme][bp];
+                    const themeSelector = theme === 'fantasy'
+                        ? '.sierra-panel-bg'
+                        : `html.theme-${theme} .sierra-panel-bg`;
+                    const btnSelector = theme === 'fantasy' ? '' : `html.theme-${theme} `;
+
+                    if (breakpointMediaQueries[bp]) {
+                        allCSS += `${breakpointMediaQueries[bp]} {\n`;
+                    }
+
+                    const indent = breakpointMediaQueries[bp] ? '    ' : '';
+
+                    allCSS += `${indent}/* ${theme} - ${bp} */\n`;
+                    allCSS += `${indent}${themeSelector} {\n`;
+                    allCSS += `${indent}    width: ${vals.panel.width}px !important;\n`;
+                    allCSS += `${indent}    height: ${vals.panel.height}px !important;\n`;
+                    allCSS += `${indent}    background-size: ${vals.panel.width}px ${vals.panel.height}px !important;\n`;
+                    allCSS += `${indent}}\n\n`;
+
+                    allCSS += `${indent}${btnSelector}.sierra-btn {\n`;
+                    allCSS += `${indent}    top: ${vals.btnCommon.top}px !important;\n`;
+                    allCSS += `${indent}    width: ${vals.btnCommon.width}px !important;\n`;
+                    allCSS += `${indent}    height: ${vals.btnCommon.height}px !important;\n`;
+                    allCSS += `${indent}}\n\n`;
+
+                    for (let i = 0; i < 7; i++) {
+                        allCSS += `${indent}${btnSelector}.sierra-btn:nth-child(${i + 1}) { left: ${vals.btnLeft[i]}px !important; }\n`;
+                    }
+
+                    allCSS += `\n${indent}${btnSelector}.sierra-btn img {\n`;
+                    allCSS += `${indent}    width: ${vals.btnCommon.iconSize}px !important;\n`;
+                    allCSS += `${indent}    height: ${vals.btnCommon.iconSize}px !important;\n`;
+                    allCSS += `${indent}}\n`;
+
+                    if (breakpointMediaQueries[bp]) {
+                        allCSS += `}\n`;
+                    }
+                    allCSS += `\n`;
+                });
+            });
+
+            navigator.clipboard.writeText(allCSS);
+            alert('All CSS exported to clipboard!');
+        }
+
+        function distributeEvenly() {
+            const vals = getCurrentValues();
+            const panelWidth = vals.panel.width;
+            const btnWidth = vals.btnCommon.width;
+            const padding = Math.round(panelWidth * 0.05);
+            const availableWidth = panelWidth - (padding * 2);
+            const spacing = (availableWidth - (btnWidth * 7)) / 6;
+
+            for (let i = 0; i < 7; i++) {
+                vals.btnLeft[i] = Math.round(padding + (i * (btnWidth + spacing)));
+            }
+
+            setCurrentValues(vals);
+            loadControls();
+            updatePreview();
+        }
+
+        function copyFromBreakpoint() {
+            const theme = themeSelect.value;
+            const xlVals = JSON.parse(JSON.stringify(savedValues[theme]['xl']));
+            setCurrentValues(xlVals);
+            loadControls();
+            updatePreview();
+        }
+
+        function scaleFromXL() {
+            const theme = themeSelect.value;
+            const bp = breakpointSelect.value;
+            const xlVals = savedValues[theme]['xl'];
+            const targetWidth = breakpointWidths[bp];
+            const scale = targetWidth / xlVals.panel.width;
+
+            const scaled = {
+                panel: {
+                    width: Math.round(xlVals.panel.width * scale),
+                    height: Math.round(xlVals.panel.height * scale)
+                },
+                btnCommon: {
+                    top: Math.round(xlVals.btnCommon.top * scale),
+                    width: Math.round(xlVals.btnCommon.width * scale),
+                    height: Math.round(xlVals.btnCommon.height * scale),
+                    iconSize: Math.round(xlVals.btnCommon.iconSize * scale)
+                },
+                btnLeft: xlVals.btnLeft.map(l => Math.round(l * scale))
+            };
+
+            setCurrentValues(scaled);
+            loadControls();
+            updatePreview();
+        }
+
+        // Event listeners
+        themeSelect.addEventListener('change', () => {
+            loadControls();
+            updatePreview();
+        });
+
+        breakpointSelect.addEventListener('change', () => {
+            loadControls();
+            updatePreview();
+        });
+
+        // Panel controls
+        ['panel-width', 'panel-height'].forEach(id => {
+            document.getElementById(id).addEventListener('input', (e) => {
+                document.getElementById(id + '-val').textContent = e.target.value + 'px';
+                saveControls();
+                updatePreview();
+            });
+        });
+
+        // Button common controls
+        ['btn-top', 'btn-width', 'btn-height', 'icon-size'].forEach(id => {
+            document.getElementById(id).addEventListener('input', (e) => {
+                document.getElementById(id + '-val').textContent = e.target.value + 'px';
+                saveControls();
+                updatePreview();
+            });
+        });
+
+        // Button left controls
+        for (let i = 0; i < 7; i++) {
+            document.getElementById(`btn-left-${i}`).addEventListener('input', (e) => {
+                document.getElementById(`btn-left-${i}-val`).textContent = e.target.value + 'px';
+                saveControls();
+                updatePreview();
+            });
+        }
+
+        // Button tabs (just for visual highlight)
+        document.querySelectorAll('.btn-tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                document.querySelectorAll('.btn-tab').forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+            });
+        });
+
+        // Initialize
+        loadControls();
+        updatePreview();
+    </script>
+</body>
+</html>

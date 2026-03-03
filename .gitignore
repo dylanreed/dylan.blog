@@ -3,3 +3,5 @@
 hugo.toml
 themes/
 content/
+
+.DS_Store

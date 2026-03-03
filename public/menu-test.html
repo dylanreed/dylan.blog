@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Menu Positioning Test</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #1a1a2e;
+            min-height: 100vh;
+            padding: 40px 20px;
+            font-family: system-ui, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        .controls {
+            background: #2a2a4e;
+            border-radius: 8px;
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto 40px;
+        }
+
+        .controls h3 {
+            color: #fff;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .control-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: rgba(255,255,255,0.05);
+            padding: 10px;
+            border-radius: 6px;
+            min-width: 100px;
+        }
+
+        .control-group label {
+            color: #aaa;
+            font-size: 11px;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+        }
+
+        .control-group input[type="number"] {
+            width: 70px;
+            padding: 6px;
+            border: 1px solid #444;
+            border-radius: 4px;
+            background: #1a1a2e;
+            color: #fff;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .control-group input[type="number"]:focus {
+            outline: none;
+            border-color: #6a6aff;
+        }
+
+        .global-controls {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding-top: 15px;
+            border-top: 1px solid #444;
+        }
+
+        .output-css {
+            background: #0a0a1e;
+            border: 1px solid #444;
+            border-radius: 6px;
+            padding: 15px;
+            margin-top: 15px;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .output-css pre {
+            color: #8f8;
+            font-family: 'Monaco', 'Consolas', monospace;
+            font-size: 11px;
+            white-space: pre-wrap;
+        }
+
+        .copy-btn {
+            background: #4a4a8a;
+            color: #fff;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+
+        .copy-btn:hover {
+            background: #5a5a9a;
+        }
+
+        .menu-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 60px;
+        }
+
+        .menu-wrapper {
+            position: relative;
+        }
+
+        .menu-bg {
+            width: 500px;
+            height: 122px;
+            background-size: 500px 122px;
+            image-rendering: pixelated;
+            position: relative;
+        }
+
+        .button-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            pointer-events: none;
+        }
+
+        .btn-zone {
+            position: absolute;
+            width: 56px;
+            height: 66px;
+            background: rgba(128, 128, 128, 0.4);
+            border: 2px solid rgba(255, 255, 255, 0.5);
+            border-radius: 4px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: left 0.1s ease, top 0.1s ease, width 0.1s ease, height 0.1s ease;
+        }
+
+        .btn-zone::after {
+            content: attr(data-index);
+            position: absolute;
+            bottom: -20px;
+            font-size: 10px;
+            color: #fff;
+            background: rgba(0,0,0,0.7);
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+
+        .btn-zone .icon {
+            width: 48px;
+            height: 48px;
+            background: rgba(255, 200, 50, 0.3);
+            border: 1px dashed rgba(255, 200, 50, 0.8);
+            border-radius: 50%;
+            transition: width 0.1s ease, height 0.1s ease;
+        }
+
+        .theme-label {
+            position: absolute;
+            top: -30px;
+            left: 0;
+            color: #fff;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .info-text {
+            text-align: center;
+            color: #888;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dropdown Menu Button Positioning</h1>
+    <p class="info-text">
+        Adjust values below to position buttons. Grey boxes = clickable areas | Yellow circles = icon areas
+    </p>
+
+    <div class="controls">
+        <h3>Button Positions (left px)</h3>
+        <div class="control-row">
+            <div class="control-group">
+                <label>Btn 1</label>
+                <input type="number" id="pos1" value="25" min="0" max="500">
+            </div>
+            <div class="control-group">
+                <label>Btn 2</label>
+                <input type="number" id="pos2" value="90" min="0" max="500">
+            </div>
+            <div class="control-group">
+                <label>Btn 3</label>
+                <input type="number" id="pos3" value="161" min="0" max="500">
+            </div>
+            <div class="control-group">
+                <label>Btn 4</label>
+                <input type="number" id="pos4" value="250" min="0" max="500">
+            </div>
+            <div class="control-group">
+                <label>Btn 5</label>
+                <input type="number" id="pos5" value="303" min="0" max="500">
+            </div>
+            <div class="control-group">
+                <label>Btn 6</label>
+                <input type="number" id="pos6" value="374" min="0" max="500">
+            </div>
+            <div class="control-group">
+                <label>Btn 7</label>
+                <input type="number" id="pos7" value="432" min="0" max="500">
+            </div>
+        </div>
+
+        <div class="global-controls">
+            <div class="control-group">
+                <label>Top Offset</label>
+                <input type="number" id="topOffset" value="28" min="0" max="100">
+            </div>
+            <div class="control-group">
+                <label>Btn Width</label>
+                <input type="number" id="btnWidth" value="56" min="20" max="100">
+            </div>
+            <div class="control-group">
+                <label>Btn Height</label>
+                <input type="number" id="btnHeight" value="66" min="20" max="120">
+            </div>
+            <div class="control-group">
+                <label>Icon Size</label>
+                <input type="number" id="iconSize" value="48" min="16" max="80">
+            </div>
+        </div>
+
+        <div class="output-css">
+            <pre id="cssOutput"></pre>
+        </div>
+        <button class="copy-btn" onclick="copyCSS()">Copy CSS to Clipboard</button>
+    </div>
+
+    <div class="menu-container">
+        <!-- Fantasy -->
+        <div class="menu-wrapper">
+            <div class="theme-label">Fantasy</div>
+            <div class="menu-bg" style="background-image: url('/fantasy/dropdown/drop_down_menu.webp');">
+                <div class="button-overlay">
+                    <div class="btn-zone" data-index="1"><div class="icon"></div></div>
+                    <div class="btn-zone" data-index="2"><div class="icon"></div></div>
+                    <div class="btn-zone" data-index="3"><div class="icon"></div></div>
+                    <div class="btn-zone" data-index="4"><div class="icon"></div></div>
+                    <div class="btn-zone" data-index="5"><div class="icon"></div></div>
+                    <div class="btn-zone" data-index="6"><div class="icon"></div></div>
+                    <div class="btn-zone" data-index="7"><div class="icon"></div></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sci-Fi -->
+        <div class="menu-wrapper">
+            <div class="theme-label">Sci-Fi</div>
+            <div class="menu-bg" style="background-image: url('/sci-fi/dropdown/drop_down_menu.webp');">
+                <div class="button-overlay">
+                    <div class="btn-zone" data-index="1"><div class="icon"></div></div>
+                    <div class="btn-zone" data-index="2"><div class="icon"></div></div>
+                    <div class="btn-zone" data-index="3"><div class="icon"></div></div>
+                    <div class="btn-zone" data-index="4"><div class="icon"></div></div>
+                    <div class="btn-zone" data-index="5"><div class="icon"></div></div>
+                    <div class="btn-zone" data-index="6"><div class="icon"></div></div>
+                    <div class="btn-zone" data-index="7"><div class="icon"></div></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cyberpunk -->
+        <div class="menu-wrapper">
+            <div class="theme-label">Cyberpunk</div>
+            <div class="menu-bg" style="background-image: url('/cyberpunk/dropdown/drop_down_menu.webp');">
+                <div class="button-overlay">
+                    <div class="btn-zone" data-index="1"><div class="icon"></div></div>
+                    <div class="btn-zone" data-index="2"><div class="icon"></div></div>
+                    <div class="btn-zone" data-index="3"><div class="icon"></div></div>
+                    <div class="btn-zone" data-index="4"><div class="icon"></div></div>
+                    <div class="btn-zone" data-index="5"><div class="icon"></div></div>
+                    <div class="btn-zone" data-index="6"><div class="icon"></div></div>
+                    <div class="btn-zone" data-index="7"><div class="icon"></div></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cabin -->
+        <div class="menu-wrapper">
+            <div class="theme-label">Cabin</div>
+            <div class="menu-bg" style="background-image: url('/cabin/dropdown/drop_down_menu.webp');">
+                <div class="button-overlay">
+                    <div class="btn-zone" data-index="1"><div class="icon"></div></div>
+                    <div class="btn-zone" data-index="2"><div class="icon"></div></div>
+                    <div class="btn-zone" data-index="3"><div class="icon"></div></div>
+                    <div class="btn-zone" data-index="4"><div class="icon"></div></div>
+                    <div class="btn-zone" data-index="5"><div class="icon"></div></div>
+                    <div class="btn-zone" data-index="6"><div class="icon"></div></div>
+                    <div class="btn-zone" data-index="7"><div class="icon"></div></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Underwater -->
+        <div class="menu-wrapper">
+            <div class="theme-label">Underwater</div>
+            <div class="menu-bg" style="background-image: url('/underwater/dropdown/drop_down_menu.webp');">
+                <div class="button-overlay">
+                    <div class="btn-zone" data-index="1"><div class="icon"></div></div>
+                    <div class="btn-zone" data-index="2"><div class="icon"></div></div>
+                    <div class="btn-zone" data-index="3"><div class="icon"></div></div>
+                    <div class="btn-zone" data-index="4"><div class="icon"></div></div>
+                    <div class="btn-zone" data-index="5"><div class="icon"></div></div>
+                    <div class="btn-zone" data-index="6"><div class="icon"></div></div>
+                    <div class="btn-zone" data-index="7"><div class="icon"></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const positions = [25, 90, 161, 250, 303, 374, 432];
+        let topOffset = 28;
+        let btnWidth = 56;
+        let btnHeight = 66;
+        let iconSize = 48;
+
+        function updateButtons() {
+            // Get all values
+            for (let i = 1; i <= 7; i++) {
+                positions[i-1] = parseInt(document.getElementById('pos' + i).value) || 0;
+            }
+            topOffset = parseInt(document.getElementById('topOffset').value) || 28;
+            btnWidth = parseInt(document.getElementById('btnWidth').value) || 56;
+            btnHeight = parseInt(document.getElementById('btnHeight').value) || 66;
+            iconSize = parseInt(document.getElementById('iconSize').value) || 48;
+
+            // Update all button zones
+            document.querySelectorAll('.btn-zone').forEach((btn, index) => {
+                const posIndex = index % 7;
+                btn.style.left = positions[posIndex] + 'px';
+                btn.style.top = topOffset + 'px';
+                btn.style.width = btnWidth + 'px';
+                btn.style.height = btnHeight + 'px';
+
+                const icon = btn.querySelector('.icon');
+                if (icon) {
+                    icon.style.width = iconSize + 'px';
+                    icon.style.height = iconSize + 'px';
+                }
+            });
+
+            // Update CSS output
+            updateCSSOutput();
+        }
+
+        function updateCSSOutput() {
+            const css = `/* Button positioning - sierra-panel.css */
+.sierra-btn {
+    position: absolute;
+    top: ${topOffset}px;
+    width: ${btnWidth}px;
+    height: ${btnHeight}px;
+}
+
+.sierra-btn:nth-child(1) { left: ${positions[0]}px; }
+.sierra-btn:nth-child(2) { left: ${positions[1]}px; }
+.sierra-btn:nth-child(3) { left: ${positions[2]}px; }
+.sierra-btn:nth-child(4) { left: ${positions[3]}px; }
+.sierra-btn:nth-child(5) { left: ${positions[4]}px; }
+.sierra-btn:nth-child(6) { left: ${positions[5]}px; }
+.sierra-btn:nth-child(7) { left: ${positions[6]}px; }
+
+.sierra-btn img {
+    width: ${iconSize}px;
+    height: ${iconSize}px;
+}`;
+            document.getElementById('cssOutput').textContent = css;
+        }
+
+        function copyCSS() {
+            const css = document.getElementById('cssOutput').textContent;
+            navigator.clipboard.writeText(css).then(() => {
+                const btn = document.querySelector('.copy-btn');
+                btn.textContent = 'Copied!';
+                setTimeout(() => btn.textContent = 'Copy CSS to Clipboard', 2000);
+            });
+        }
+
+        // Add event listeners to all inputs
+        document.querySelectorAll('input[type="number"]').forEach(input => {
+            input.addEventListener('input', updateButtons);
+        });
+
+        // Initialize
+        updateButtons();
+    </script>
+</body>
+</html>

@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corporate Theme Header Calibration</title>
+    <style>
+        /* ABOUTME: Calibration tool for corporate theme header and ornate frame */
+        /* ABOUTME: Allows independent adjustment of header image and frame overlay */
+
+        * { box-sizing: border-box; }
+
+        body {
+            font-family: system-ui, sans-serif;
+            background: #2c3e50;
+            color: #eee;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .layout {
+            display: grid;
+            grid-template-columns: 320px 1fr;
+            gap: 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .controls {
+            background: #34495e;
+            padding: 20px;
+            border-radius: 8px;
+            height: fit-content;
+            position: sticky;
+            top: 20px;
+        }
+
+        .preview-area {
+            background: #1a252f;
+            padding: 40px;
+            border-radius: 8px;
+            min-height: 600px;
+        }
+
+        h1 {
+            margin: 0 0 20px 0;
+            font-size: 1.4rem;
+            color: #3498db;
+        }
+
+        h2 {
+            margin: 20px 0 10px 0;
+            font-size: 1rem;
+            color: #95a5a6;
+            border-bottom: 1px solid #4a5568;
+            padding-bottom: 5px;
+        }
+
+        .control-group {
+            margin-bottom: 12px;
+        }
+
+        label {
+            display: block;
+            font-size: 11px;
+            color: #bdc3c7;
+            margin-bottom: 4px;
+        }
+
+        input[type="text"],
+        select {
+            width: 100%;
+            padding: 8px;
+            background: #1a252f;
+            border: 1px solid #4a5568;
+            color: #eee;
+            border-radius: 4px;
+            font-size: 13px;
+        }
+
+        .range-row {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+
+        .range-row input[type="range"] {
+            flex: 1;
+        }
+
+        .range-row span {
+            min-width: 55px;
+            text-align: right;
+            font-size: 11px;
+            color: #95a5a6;
+        }
+
+        button {
+            padding: 8px 16px;
+            background: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-right: 8px;
+            margin-top: 8px;
+            font-size: 12px;
+        }
+
+        button:hover {
+            background: #2980b9;
+        }
+
+        button.secondary {
+            background: #7f8c8d;
+        }
+
+        button.secondary:hover {
+            background: #6c7a7d;
+        }
+
+        .toggle-row {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .toggle-row input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+        }
+
+        .toggle-row label {
+            margin: 0;
+            font-size: 13px;
+        }
+
+        /* Preview container */
+        .header-preview {
+            max-width: 964px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .header-container {
+            position: relative;
+            width: 100%;
+        }
+
+        .header-image {
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            image-rendering: pixelated;
+        }
+
+        .header-frame {
+            position: absolute;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            image-rendering: pixelated;
+            pointer-events: none;
+        }
+
+        /* Visualization helpers */
+        .show-bounds .header-image {
+            outline: 3px dashed #e74c3c;
+            outline-offset: -3px;
+        }
+
+        .show-bounds .header-frame {
+            outline: 3px dashed #2ecc71;
+            outline-offset: -3px;
+        }
+
+        .legend {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+            font-size: 12px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .legend-color {
+            width: 20px;
+            height: 3px;
+            border: 2px dashed;
+        }
+
+        .legend-color.header {
+            border-color: #e74c3c;
+        }
+
+        .legend-color.frame {
+            border-color: #2ecc71;
+        }
+
+        /* CSS Output */
+        .css-output {
+            margin-top: 15px;
+        }
+
+        .css-output textarea {
+            width: 100%;
+            height: 180px;
+            background: #1a252f;
+            color: #2ecc71;
+            border: 1px solid #4a5568;
+            border-radius: 4px;
+            padding: 10px;
+            font-family: monospace;
+            font-size: 11px;
+        }
+
+        .info-box {
+            background: #2c3e50;
+            padding: 10px;
+            border-radius: 4px;
+            font-size: 11px;
+            margin-bottom: 15px;
+            border-left: 3px solid #3498db;
+        }
+
+        .info-box p {
+            margin: 0 0 5px 0;
+        }
+
+        .info-box p:last-child {
+            margin: 0;
+        }
+
+        .section-divider {
+            border-top: 2px solid #4a5568;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="layout">
+        <div class="controls">
+            <h1>Corporate Header Calibration</h1>
+
+            <div class="info-box">
+                <p><strong>Header Image:</strong> The main background (default.png)</p>
+                <p><strong>Ornate Frame:</strong> The overlay frame (ornate frame.webp)</p>
+            </div>
+
+            <div class="toggle-row">
+                <input type="checkbox" id="showBounds" checked>
+                <label for="showBounds">Show boundaries</label>
+            </div>
+
+            <h2>Header Image</h2>
+
+            <div class="control-group">
+                <label>Height (px)</label>
+                <div class="range-row">
+                    <input type="range" id="headerHeight" min="100" max="400" value="215">
+                    <span id="headerHeightVal">215px</span>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label>Background Size</label>
+                <select id="headerBgSize">
+                    <option value="cover">cover</option>
+                    <option value="contain">contain</option>
+                    <option value="100% 100%">100% 100% (stretch)</option>
+                    <option value="100% auto">100% auto</option>
+                    <option value="auto 100%">auto 100%</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <label>Background Position X</label>
+                <div class="range-row">
+                    <input type="range" id="headerPosX" min="0" max="100" value="50">
+                    <span id="headerPosXVal">50%</span>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label>Background Position Y</label>
+                <div class="range-row">
+                    <input type="range" id="headerPosY" min="0" max="100" value="50">
+                    <span id="headerPosYVal">50%</span>
+                </div>
+            </div>
+
+            <div class="section-divider"></div>
+
+            <h2>Ornate Frame</h2>
+
+            <div class="control-group">
+                <label>Width (%)</label>
+                <div class="range-row">
+                    <input type="range" id="frameWidth" min="50" max="150" value="100">
+                    <span id="frameWidthVal">100%</span>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label>Height (%)</label>
+                <div class="range-row">
+                    <input type="range" id="frameHeight" min="50" max="150" value="100">
+                    <span id="frameHeightVal">100%</span>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label>Left Offset (px)</label>
+                <div class="range-row">
+                    <input type="range" id="frameLeft" min="-100" max="100" value="0">
+                    <span id="frameLeftVal">0px</span>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label>Top Offset (px)</label>
+                <div class="range-row">
+                    <input type="range" id="frameTop" min="-100" max="100" value="0">
+                    <span id="frameTopVal">0px</span>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label>Background Size</label>
+                <select id="frameBgSize">
+                    <option value="100% 100%" selected>100% 100% (stretch)</option>
+                    <option value="cover">cover</option>
+                    <option value="contain">contain</option>
+                    <option value="100% auto">100% auto</option>
+                    <option value="auto 100%">auto 100%</option>
+                </select>
+            </div>
+
+            <button onclick="resetToDefaults()">Reset to Defaults</button>
+
+            <div class="css-output">
+                <h2>Generated CSS</h2>
+                <textarea id="cssOutput" readonly></textarea>
+                <button onclick="copyCSS()">Copy CSS</button>
+            </div>
+        </div>
+
+        <div class="preview-area">
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="legend-color header"></div>
+                    <span>Header Image</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color frame"></div>
+                    <span>Ornate Frame</span>
+                </div>
+            </div>
+
+            <div class="header-preview" id="headerPreview">
+                <div class="header-container">
+                    <div class="header-image" id="headerImage"></div>
+                    <div class="header-frame" id="headerFrame"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Default values
+        const defaults = {
+            headerHeight: 215,
+            headerBgSize: 'cover',
+            headerPosX: 50,
+            headerPosY: 50,
+            frameWidth: 100,
+            frameHeight: 100,
+            frameLeft: 0,
+            frameTop: 0,
+            frameBgSize: '100% 100%'
+        };
+
+        // DOM elements
+        const headerImage = document.getElementById('headerImage');
+        const headerFrame = document.getElementById('headerFrame');
+        const headerPreview = document.getElementById('headerPreview');
+        const cssOutput = document.getElementById('cssOutput');
+
+        // Initialize
+        function init() {
+            // Set images
+            headerImage.style.backgroundImage = 'url("/corporate/headers/default.png")';
+            headerFrame.style.backgroundImage = 'url("/corporate/headers/ornate frame.webp")';
+
+            // Show bounds toggle
+            document.getElementById('showBounds').addEventListener('change', (e) => {
+                headerPreview.classList.toggle('show-bounds', e.target.checked);
+            });
+            headerPreview.classList.add('show-bounds');
+
+            // Input listeners
+            const rangeInputs = [
+                'headerHeight', 'headerPosX', 'headerPosY',
+                'frameWidth', 'frameHeight', 'frameLeft', 'frameTop'
+            ];
+
+            rangeInputs.forEach(id => {
+                document.getElementById(id).addEventListener('input', () => {
+                    updatePreview();
+                });
+            });
+
+            // Select listeners
+            document.getElementById('headerBgSize').addEventListener('change', updatePreview);
+            document.getElementById('frameBgSize').addEventListener('change', updatePreview);
+
+            updatePreview();
+        }
+
+        function updatePreview() {
+            // Get values
+            const headerHeight = document.getElementById('headerHeight').value;
+            const headerBgSize = document.getElementById('headerBgSize').value;
+            const headerPosX = document.getElementById('headerPosX').value;
+            const headerPosY = document.getElementById('headerPosY').value;
+            const frameWidth = document.getElementById('frameWidth').value;
+            const frameHeight = document.getElementById('frameHeight').value;
+            const frameLeft = document.getElementById('frameLeft').value;
+            const frameTop = document.getElementById('frameTop').value;
+            const frameBgSize = document.getElementById('frameBgSize').value;
+
+            // Update value displays
+            document.getElementById('headerHeightVal').textContent = headerHeight + 'px';
+            document.getElementById('headerPosXVal').textContent = headerPosX + '%';
+            document.getElementById('headerPosYVal').textContent = headerPosY + '%';
+            document.getElementById('frameWidthVal').textContent = frameWidth + '%';
+            document.getElementById('frameHeightVal').textContent = frameHeight + '%';
+            document.getElementById('frameLeftVal').textContent = frameLeft + 'px';
+            document.getElementById('frameTopVal').textContent = frameTop + 'px';
+
+            // Apply to header image
+            headerImage.style.height = headerHeight + 'px';
+            headerImage.style.backgroundSize = headerBgSize;
+            headerImage.style.backgroundPosition = `${headerPosX}% ${headerPosY}%`;
+
+            // Apply to frame
+            headerFrame.style.width = frameWidth + '%';
+            headerFrame.style.height = frameHeight + '%';
+            headerFrame.style.left = frameLeft + 'px';
+            headerFrame.style.top = frameTop + 'px';
+            headerFrame.style.backgroundSize = frameBgSize;
+
+            generateCSS();
+        }
+
+        function generateCSS() {
+            const headerHeight = document.getElementById('headerHeight').value;
+            const headerBgSize = document.getElementById('headerBgSize').value;
+            const headerPosX = document.getElementById('headerPosX').value;
+            const headerPosY = document.getElementById('headerPosY').value;
+            const frameWidth = document.getElementById('frameWidth').value;
+            const frameHeight = document.getElementById('frameHeight').value;
+            const frameLeft = document.getElementById('frameLeft').value;
+            const frameTop = document.getElementById('frameTop').value;
+            const frameBgSize = document.getElementById('frameBgSize').value;
+
+            let css = '/* CORPORATE THEME HEADER CALIBRATION */\n\n';
+
+            // Header image styles
+            css += '/* Header Image */\n';
+            css += 'html.easy-read .header-image {\n';
+            css += `    height: ${headerHeight}px !important;\n`;
+            if (headerBgSize !== 'cover') {
+                css += `    background-size: ${headerBgSize} !important;\n`;
+            }
+            if (headerPosX !== '50' || headerPosY !== '50') {
+                css += `    background-position: ${headerPosX}% ${headerPosY}% !important;\n`;
+            }
+            css += '}\n\n';
+
+            // Frame styles
+            css += '/* Ornate Frame */\n';
+            css += 'html.easy-read .header-frame {\n';
+            if (frameWidth !== '100') {
+                css += `    width: ${frameWidth}% !important;\n`;
+            }
+            if (frameHeight !== '100') {
+                css += `    height: ${frameHeight}% !important;\n`;
+            }
+            if (frameLeft !== '0') {
+                css += `    left: ${frameLeft}px !important;\n`;
+            }
+            if (frameTop !== '0') {
+                css += `    top: ${frameTop}px !important;\n`;
+            }
+            if (frameBgSize !== '100% 100%') {
+                css += `    background-size: ${frameBgSize} !important;\n`;
+            }
+            css += '}\n';
+
+            cssOutput.value = css;
+        }
+
+        function resetToDefaults() {
+            document.getElementById('headerHeight').value = defaults.headerHeight;
+            document.getElementById('headerBgSize').value = defaults.headerBgSize;
+            document.getElementById('headerPosX').value = defaults.headerPosX;
+            document.getElementById('headerPosY').value = defaults.headerPosY;
+            document.getElementById('frameWidth').value = defaults.frameWidth;
+            document.getElementById('frameHeight').value = defaults.frameHeight;
+            document.getElementById('frameLeft').value = defaults.frameLeft;
+            document.getElementById('frameTop').value = defaults.frameTop;
+            document.getElementById('frameBgSize').value = defaults.frameBgSize;
+            updatePreview();
+        }
+
+        function copyCSS() {
+            cssOutput.select();
+            document.execCommand('copy');
+            alert('CSS copied to clipboard!');
+        }
+
+        init();
+    </script>
+</body>
+</html>

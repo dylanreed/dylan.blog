@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note/Post Spacing Calibration</title>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Share+Tech+Mono&family=Cabin&family=Quicksand&display=swap" rel="stylesheet">
+    <style>
+        /* ABOUTME: Calibration tool for spacing between notes and posts */
+        /* ABOUTME: Visual preview with adjustable margins for all element combinations */
+
+        * { box-sizing: border-box; }
+
+        body {
+            font-family: system-ui, sans-serif;
+            background: #1a1a2e;
+            color: #eee;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .layout {
+            display: grid;
+            grid-template-columns: 320px 1fr;
+            gap: 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .controls {
+            background: #16213e;
+            padding: 20px;
+            border-radius: 8px;
+            height: fit-content;
+            position: sticky;
+            top: 20px;
+            max-height: calc(100vh - 40px);
+            overflow-y: auto;
+        }
+
+        .preview-area {
+            background: #2a1a0a;
+            padding: 40px 20px;
+            border-radius: 8px;
+            min-height: 100vh;
+        }
+
+        h1 {
+            margin: 0 0 15px 0;
+            font-size: 1.3rem;
+            color: #c9a227;
+        }
+
+        h2 {
+            margin: 20px 0 10px 0;
+            font-size: 0.9rem;
+            color: #888;
+            border-bottom: 1px solid #333;
+            padding-bottom: 5px;
+        }
+
+        .theme-tabs {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+
+        .theme-tab {
+            padding: 6px 10px;
+            background: #333;
+            border: none;
+            color: #aaa;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 11px;
+        }
+
+        .theme-tab.active {
+            background: #c9a227;
+            color: #1a1a2e;
+        }
+
+        .control-group {
+            margin-bottom: 12px;
+        }
+
+        .control-group label {
+            display: block;
+            font-size: 11px;
+            color: #aaa;
+            margin-bottom: 4px;
+        }
+
+        .range-row {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+
+        .range-row input[type="range"] {
+            flex: 1;
+            height: 6px;
+        }
+
+        .range-row span {
+            min-width: 50px;
+            text-align: right;
+            font-size: 11px;
+            color: #888;
+            font-family: monospace;
+        }
+
+        button.action {
+            padding: 10px 20px;
+            background: #c9a227;
+            color: #1a1a2e;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-right: 8px;
+            margin-top: 8px;
+            font-size: 12px;
+        }
+
+        button.action:hover {
+            background: #d4af37;
+        }
+
+        button.secondary {
+            background: #444;
+            color: #eee;
+        }
+
+        .css-output {
+            margin-top: 15px;
+        }
+
+        .css-output textarea {
+            width: 100%;
+            height: 200px;
+            background: #0a0a15;
+            color: #4a9;
+            border: 1px solid #333;
+            border-radius: 4px;
+            padding: 10px;
+            font-family: monospace;
+            font-size: 11px;
+        }
+
+        .reset-btn {
+            background: #662222 !important;
+            color: #eee !important;
+        }
+
+        .reset-btn:hover {
+            background: #883333 !important;
+        }
+
+        /* Preview Feed Styles */
+        .feed-preview {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* Spacing wrapper - this is what we adjust */
+        .spacing-wrapper {
+            position: relative;
+            border-left: 3px solid rgba(201, 162, 39, 0.5);
+            padding-left: 15px;
+        }
+
+        .spacing-wrapper::before {
+            content: attr(data-label);
+            position: absolute;
+            left: -120px;
+            top: 0;
+            width: 100px;
+            text-align: right;
+            font-size: 10px;
+            color: #c9a227;
+            font-family: monospace;
+            padding: 2px 5px;
+            background: rgba(0,0,0,0.3);
+            border-radius: 3px;
+        }
+
+        /* Note Scroll Styles */
+        .note-scroll {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            max-width: 800px;
+            image-rendering: pixelated;
+        }
+
+        .note-scroll::before {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 200px;
+            background-repeat: no-repeat;
+            background-position: center bottom;
+            background-size: 100% auto;
+            image-rendering: pixelated;
+        }
+
+        .note-scroll::after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 200px;
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-size: 100% auto;
+            image-rendering: pixelated;
+        }
+
+        .note-scroll .note-content {
+            padding: 20px 15%;
+            background-repeat: repeat-y;
+            background-position: center top;
+            background-size: 100% auto;
+            min-height: 80px;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .note-scroll .note-content p {
+            margin: 0;
+        }
+
+        .note-scroll .note-meta {
+            text-align: center;
+            position: absolute;
+            bottom: 90px;
+            left: 0;
+            right: 0;
+        }
+
+        .note-scroll .note-date {
+            font-size: 14px;
+        }
+
+        /* Rolled up state */
+        .note-scroll.rolled-up {
+            height: 289px;
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-size: 100% auto;
+        }
+
+        .note-scroll.rolled-up::before,
+        .note-scroll.rolled-up::after {
+            display: none;
+        }
+
+        .note-scroll.rolled-up .note-content {
+            display: none;
+        }
+
+        .note-scroll.rolled-up .note-meta {
+            top: 130px;
+            bottom: auto;
+        }
+
+        /* Mock Posts Container */
+        .posts-container-mock {
+            background: rgba(0,0,0,0.3);
+            border: 2px dashed rgba(255,255,255,0.2);
+            border-radius: 8px;
+            padding: 20px;
+        }
+
+        .posts-container-mock .mock-post {
+            background: rgba(255,255,255,0.1);
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 10px;
+            display: flex;
+            gap: 15px;
+            align-items: flex-start;
+        }
+
+        .posts-container-mock .mock-post:last-child {
+            margin-bottom: 0;
+        }
+
+        .mock-post .sprite-placeholder {
+            width: 60px;
+            height: 60px;
+            background: rgba(201, 162, 39, 0.3);
+            border-radius: 4px;
+            flex-shrink: 0;
+        }
+
+        .mock-post .post-content {
+            flex: 1;
+        }
+
+        .mock-post .post-title {
+            font-size: 14px;
+            font-weight: bold;
+            color: #c9a227;
+            margin-bottom: 5px;
+        }
+
+        .mock-post .post-meta {
+            font-size: 11px;
+            color: #666;
+        }
+
+        /* Theme-specific note styles */
+        .theme-fantasy .note-scroll::before { background-image: url("/fantasy/notes/top.webp"); }
+        .theme-fantasy .note-scroll .note-content {
+            background-image: url("/fantasy/notes/middle.webp");
+            font-family: 'MedievalSharp', cursive;
+            color: #4a3520;
+        }
+        .theme-fantasy .note-scroll::after { background-image: url("/fantasy/notes/bottom.webp"); }
+        .theme-fantasy .note-scroll.rolled-up { background-image: url("/fantasy/notes/closed.webp"); }
+        .theme-fantasy .note-scroll .note-date { font-family: 'MedievalSharp', cursive; color: #7a6550; }
+
+        .theme-sci-fi .note-scroll::before { background-image: url("/sci-fi/notes/top.webp"); height: 289px; }
+        .theme-sci-fi .note-scroll .note-content {
+            background-image: url("/sci-fi/notes/middle.webp");
+            font-family: 'Share Tech Mono', monospace;
+            color: #88ccff;
+        }
+        .theme-sci-fi .note-scroll::after { background-image: url("/sci-fi/notes/bottom.webp"); height: 275px; }
+        .theme-sci-fi .note-scroll.rolled-up { background-image: url("/sci-fi/notes/closed.webp"); }
+        .theme-sci-fi .note-scroll .note-date { font-family: 'Share Tech Mono', monospace; color: #88ccff; }
+
+        .theme-cyberpunk .note-scroll::before { background-image: url("/cyberpunk/notes/top.webp"); height: 289px; }
+        .theme-cyberpunk .note-scroll .note-content {
+            background-image: url("/cyberpunk/notes/middle.webp");
+            font-family: 'Share Tech Mono', monospace;
+            color: #33ff33;
+            text-shadow: 0 0 8px rgba(51, 255, 51, 0.6);
+        }
+        .theme-cyberpunk .note-scroll::after { background-image: url("/cyberpunk/notes/bottom.webp"); height: 117px; }
+        .theme-cyberpunk .note-scroll.rolled-up { background-image: url("/cyberpunk/notes/closed.webp"); height: 209px; }
+        .theme-cyberpunk .note-scroll .note-date { font-family: 'Share Tech Mono', monospace; color: #33ff33; }
+
+        .theme-cabin .note-scroll::before { background-image: url("/cabin/notes/top.webp"); }
+        .theme-cabin .note-scroll .note-content {
+            background-image: url("/cabin/notes/middle.webp");
+            font-family: 'Cabin', sans-serif;
+            color: #4a3728;
+        }
+        .theme-cabin .note-scroll::after { background-image: url("/cabin/notes/bottom.webp"); }
+        .theme-cabin .note-scroll.rolled-up { background-image: url("/cabin/notes/closed.webp"); }
+        .theme-cabin .note-scroll .note-date { font-family: 'Cabin', sans-serif; color: #bfa440; }
+
+        .theme-underwater .note-scroll::before { background-image: url("/underwater/notes/top.webp"); height: 289px; }
+        .theme-underwater .note-scroll .note-content {
+            background-image: url("/underwater/notes/middle.webp");
+            font-family: 'Quicksand', sans-serif;
+            color: #3a5a4a;
+        }
+        .theme-underwater .note-scroll::after { background-image: url("/underwater/notes/bottom.webp"); height: 272px; }
+        .theme-underwater .note-scroll.rolled-up { background-image: url("/underwater/notes/closed.webp"); }
+        .theme-underwater .note-scroll .note-date { font-family: 'Quicksand', sans-serif; color: #62b2b0; }
+    </style>
+</head>
+<body>
+    <div class="layout">
+        <div class="controls">
+            <h1>Spacing Calibration</h1>
+
+            <div class="theme-tabs">
+                <button class="theme-tab active" data-theme="fantasy">Fantasy</button>
+                <button class="theme-tab" data-theme="sci-fi">Sci-Fi</button>
+                <button class="theme-tab" data-theme="cyberpunk">Cyberpunk</button>
+                <button class="theme-tab" data-theme="cabin">Cabin</button>
+                <button class="theme-tab" data-theme="underwater">Underwater</button>
+            </div>
+
+            <h2>Note ↔ Note Spacing</h2>
+
+            <div class="control-group">
+                <label>Open + Open (margin-top)</label>
+                <div class="range-row">
+                    <input type="range" id="openOpen" min="-300" max="100" value="-150">
+                    <span id="openOpenVal">-150px</span>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label>Open + Closed (margin-top)</label>
+                <div class="range-row">
+                    <input type="range" id="openClosed" min="-300" max="200" value="0">
+                    <span id="openClosedVal">0px</span>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label>Closed + Open (margin-top)</label>
+                <div class="range-row">
+                    <input type="range" id="closedOpen" min="-300" max="200" value="0">
+                    <span id="closedOpenVal">0px</span>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label>Closed + Closed (margin-top)</label>
+                <div class="range-row">
+                    <input type="range" id="closedClosed" min="-100" max="100" value="10">
+                    <span id="closedClosedVal">10px</span>
+                </div>
+            </div>
+
+            <h2>Note ↔ Posts Spacing</h2>
+
+            <div class="control-group">
+                <label>Open Note → Posts (margin-top)</label>
+                <div class="range-row">
+                    <input type="range" id="openPosts" min="-300" max="100" value="0">
+                    <span id="openPostsVal">0px</span>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label>Closed Note → Posts (margin-top)</label>
+                <div class="range-row">
+                    <input type="range" id="closedPosts" min="-100" max="100" value="20">
+                    <span id="closedPostsVal">20px</span>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label>Posts → Open Note (margin-top)</label>
+                <div class="range-row">
+                    <input type="range" id="postsOpen" min="-300" max="100" value="0">
+                    <span id="postsOpenVal">0px</span>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label>Posts → Closed Note (margin-top)</label>
+                <div class="range-row">
+                    <input type="range" id="postsClosed" min="-100" max="100" value="20">
+                    <span id="postsClosedVal">20px</span>
+                </div>
+            </div>
+
+            <h2>First Element Spacing</h2>
+
+            <div class="control-group">
+                <label>First Open Note (margin-top)</label>
+                <div class="range-row">
+                    <input type="range" id="firstOpen" min="-200" max="100" value="-50">
+                    <span id="firstOpenVal">-50px</span>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label>First Closed Note (margin-top)</label>
+                <div class="range-row">
+                    <input type="range" id="firstClosed" min="-100" max="100" value="10">
+                    <span id="firstClosedVal">10px</span>
+                </div>
+            </div>
+
+            <div style="margin-top: 15px;">
+                <button class="action reset-btn" onclick="resetDefaults()">Reset</button>
+            </div>
+
+            <div class="css-output">
+                <h2>Generated CSS</h2>
+                <textarea id="cssOutput" readonly></textarea>
+                <button class="action" onclick="copyCSS()">Copy CSS</button>
+            </div>
+        </div>
+
+        <div class="preview-area">
+            <div class="feed-preview theme-fantasy" id="feedPreview">
+
+                <!-- 1. First Open Note -->
+                <div class="spacing-wrapper" id="wrap1" data-label="First Open">
+                    <article class="note-scroll">
+                        <div class="note-content"><p>First open note in the feed.</p></div>
+                        <div class="note-meta"><span class="note-date">January 6, 2026</span></div>
+                    </article>
+                </div>
+
+                <!-- 2. Open + Open -->
+                <div class="spacing-wrapper" id="wrap2" data-label="Open+Open">
+                    <article class="note-scroll">
+                        <div class="note-content"><p>Second open note (Open+Open).</p></div>
+                        <div class="note-meta"><span class="note-date">January 5, 2026</span></div>
+                    </article>
+                </div>
+
+                <!-- 3. Open + Closed -->
+                <div class="spacing-wrapper" id="wrap3" data-label="Open+Closed">
+                    <article class="note-scroll rolled-up">
+                        <div class="note-content"></div>
+                        <div class="note-meta"><span class="note-date">January 4, 2026</span></div>
+                    </article>
+                </div>
+
+                <!-- 4. Closed + Closed -->
+                <div class="spacing-wrapper" id="wrap4" data-label="Closed+Closed">
+                    <article class="note-scroll rolled-up">
+                        <div class="note-content"></div>
+                        <div class="note-meta"><span class="note-date">January 3, 2026</span></div>
+                    </article>
+                </div>
+
+                <!-- 5. Closed + Open -->
+                <div class="spacing-wrapper" id="wrap5" data-label="Closed+Open">
+                    <article class="note-scroll">
+                        <div class="note-content"><p>Open note after closed (Closed+Open).</p></div>
+                        <div class="note-meta"><span class="note-date">January 2, 2026</span></div>
+                    </article>
+                </div>
+
+                <!-- 6. Open → Posts -->
+                <div class="spacing-wrapper" id="wrap6" data-label="Open→Posts">
+                    <div class="posts-container-mock">
+                        <div class="mock-post">
+                            <div class="sprite-placeholder"></div>
+                            <div class="post-content">
+                                <div class="post-title">Blog Post Title</div>
+                                <div class="post-meta">January 1, 2026 · Tech</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 7. Posts → Open -->
+                <div class="spacing-wrapper" id="wrap7" data-label="Posts→Open">
+                    <article class="note-scroll">
+                        <div class="note-content"><p>Open note after posts.</p></div>
+                        <div class="note-meta"><span class="note-date">December 31, 2025</span></div>
+                    </article>
+                </div>
+
+                <!-- 8. Open + Closed (again for Posts→Closed setup) -->
+                <div class="spacing-wrapper" id="wrap8" data-label="Open+Closed">
+                    <article class="note-scroll rolled-up">
+                        <div class="note-content"></div>
+                        <div class="note-meta"><span class="note-date">December 30, 2025</span></div>
+                    </article>
+                </div>
+
+                <!-- 9. Closed → Posts -->
+                <div class="spacing-wrapper" id="wrap9" data-label="Closed→Posts">
+                    <div class="posts-container-mock">
+                        <div class="mock-post">
+                            <div class="sprite-placeholder"></div>
+                            <div class="post-content">
+                                <div class="post-title">Another Post</div>
+                                <div class="post-meta">December 29, 2025 · Gaming</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 10. Posts → Closed -->
+                <div class="spacing-wrapper" id="wrap10" data-label="Posts→Closed">
+                    <article class="note-scroll rolled-up">
+                        <div class="note-content"></div>
+                        <div class="note-meta"><span class="note-date">December 28, 2025</span></div>
+                    </article>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const defaults = {
+            openOpen: -150,
+            openClosed: 0,
+            closedOpen: 0,
+            closedClosed: 10,
+            openPosts: 0,
+            closedPosts: 20,
+            postsOpen: 0,
+            postsClosed: 20,
+            firstOpen: -50,
+            firstClosed: 10
+        };
+
+        // Map wrapper IDs to which spacing value they use
+        const wrapperMap = {
+            wrap1: 'firstOpen',
+            wrap2: 'openOpen',
+            wrap3: 'openClosed',
+            wrap4: 'closedClosed',
+            wrap5: 'closedOpen',
+            wrap6: 'openPosts',
+            wrap7: 'postsOpen',
+            wrap8: 'openClosed',
+            wrap9: 'closedPosts',
+            wrap10: 'postsClosed'
+        };
+
+        function init() {
+            // Theme tabs
+            document.querySelectorAll('.theme-tab').forEach(tab => {
+                tab.addEventListener('click', () => {
+                    document.querySelectorAll('.theme-tab').forEach(t => t.classList.remove('active'));
+                    tab.classList.add('active');
+                    document.getElementById('feedPreview').className = 'feed-preview theme-' + tab.dataset.theme;
+                });
+            });
+
+            // Slider listeners
+            Object.keys(defaults).forEach(id => {
+                const el = document.getElementById(id);
+                if (el) {
+                    el.addEventListener('input', updateAll);
+                }
+            });
+
+            updateAll();
+        }
+
+        function updateAll() {
+            // Update all value displays and wrapper margins
+            Object.keys(defaults).forEach(id => {
+                const el = document.getElementById(id);
+                const valEl = document.getElementById(id + 'Val');
+                if (el && valEl) {
+                    valEl.textContent = el.value + 'px';
+                }
+            });
+
+            // Apply margins to wrappers
+            Object.entries(wrapperMap).forEach(([wrapperId, spacingId]) => {
+                const wrapper = document.getElementById(wrapperId);
+                const slider = document.getElementById(spacingId);
+                if (wrapper && slider) {
+                    wrapper.style.marginTop = slider.value + 'px';
+                    wrapper.dataset.label = spacingId.replace(/([A-Z])/g, '+$1').replace(/^/, '').replace('first+', 'First ') + ': ' + slider.value + 'px';
+                }
+            });
+
+            generateCSS();
+        }
+
+        function generateCSS() {
+            const v = id => document.getElementById(id).value;
+
+            let css = `/* NOTE/POST SPACING RULES */\n\n`;
+
+            css += `/* Base note scroll margin */\n`;
+            css += `.note-scroll {\n    margin: ${v('openOpen')}px auto;\n}\n\n`;
+
+            css += `/* First open note */\n`;
+            css += `.note-scroll:first-child {\n    margin-top: ${v('firstOpen')}px;\n}\n\n`;
+
+            css += `/* First closed note */\n`;
+            css += `.note-scroll.rolled-up:first-child {\n    margin-top: ${v('firstClosed')}px;\n}\n\n`;
+
+            css += `/* Open + Open */\n`;
+            css += `.note-scroll + .note-scroll {\n    margin-top: ${v('openOpen')}px;\n}\n\n`;
+
+            css += `/* Open + Closed */\n`;
+            css += `.note-scroll:not(.rolled-up) + .note-scroll.rolled-up {\n    margin-top: ${v('openClosed')}px;\n}\n\n`;
+
+            css += `/* Closed + Open */\n`;
+            css += `.note-scroll.rolled-up + .note-scroll:not(.rolled-up) {\n    margin-top: ${v('closedOpen')}px;\n}\n\n`;
+
+            css += `/* Closed + Closed */\n`;
+            css += `.note-scroll.rolled-up + .note-scroll.rolled-up {\n    margin-top: ${v('closedClosed')}px;\n}\n\n`;
+
+            css += `/* Open → Posts */\n`;
+            css += `.note-scroll:not(.rolled-up) + .posts-container {\n    margin-top: ${v('openPosts')}px;\n}\n\n`;
+
+            css += `/* Closed → Posts */\n`;
+            css += `.note-scroll.rolled-up + .posts-container {\n    margin-top: ${v('closedPosts')}px;\n}\n\n`;
+
+            css += `/* Posts → Open */\n`;
+            css += `.posts-container + .note-scroll:not(.rolled-up) {\n    margin-top: ${v('postsOpen')}px;\n}\n\n`;
+
+            css += `/* Posts → Closed */\n`;
+            css += `.posts-container + .note-scroll.rolled-up {\n    margin-top: ${v('postsClosed')}px;\n}\n`;
+
+            document.getElementById('cssOutput').value = css;
+        }
+
+        function copyCSS() {
+            const ta = document.getElementById('cssOutput');
+            ta.select();
+            document.execCommand('copy');
+            alert('Copied!');
+        }
+
+        function resetDefaults() {
+            Object.entries(defaults).forEach(([id, val]) => {
+                const el = document.getElementById(id);
+                if (el) el.value = val;
+            });
+            updateAll();
+        }
+
+        init();
+    </script>
+</body>
+</html>

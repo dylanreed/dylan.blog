@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note + Post Layout Test</title>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            padding: 20px;
+            font-family: system-ui, sans-serif;
+            /* Fantasy day background */
+            background-color: #87ceeb;
+            background-image: url('/fantasy/backgrounds/3.webp');
+            background-size: 964px auto;
+            background-repeat: repeat-x;
+            background-position: bottom center;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2d2d2d;
+            margin-bottom: 10px;
+            font-family: "MedievalSharp", cursive;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .info-text {
+            text-align: center;
+            color: #4a3520;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+
+        /* Controls Panel */
+        .controls {
+            background: rgba(241, 233, 210, 0.95);
+            border: 4px solid #8b5a2b;
+            border-radius: 8px;
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto 30px;
+            box-shadow: 4px 4px 0 rgba(0,0,0,0.3);
+        }
+
+        .controls h3 {
+            color: #4a3520;
+            margin-bottom: 15px;
+            text-align: center;
+            font-family: "MedievalSharp", cursive;
+        }
+
+        .control-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: rgba(139, 90, 43, 0.1);
+            padding: 10px;
+            border-radius: 6px;
+            min-width: 100px;
+        }
+
+        .control-group label {
+            color: #5a4030;
+            font-size: 11px;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .control-group input[type="number"] {
+            width: 70px;
+            padding: 6px;
+            border: 2px solid #8b5a2b;
+            border-radius: 4px;
+            background: #fff;
+            color: #4a3520;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .control-group input[type="number"]:focus {
+            outline: none;
+            border-color: #c9a227;
+        }
+
+        .output-css {
+            background: #2a1a0a;
+            border: 2px solid #8b5a2b;
+            border-radius: 6px;
+            padding: 15px;
+            margin-top: 15px;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .output-css pre {
+            color: #8f8;
+            font-family: 'Monaco', 'Consolas', monospace;
+            font-size: 11px;
+            white-space: pre-wrap;
+        }
+
+        .copy-btn {
+            background: linear-gradient(180deg, #9a6833 0%, #7a4a23 100%);
+            color: #f5e6d3;
+            border: 2px solid #5c3d1e;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+            margin-top: 10px;
+            font-family: "MedievalSharp", cursive;
+        }
+
+        .copy-btn:hover {
+            background: linear-gradient(180deg, #aa7843 0%, #8a5a33 100%);
+        }
+
+        /* Main Content Area */
+        main {
+            max-width: 964px;
+            margin: 0 auto;
+            padding: 0 10px;
+        }
+
+        /* ═══════════════════════════════════════════════════════════════════════════
+           NOTE SCROLL STYLING (from style.css)
+           ═══════════════════════════════════════════════════════════════════════════ */
+
+        .note-scroll {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 800px;
+            margin: 0 auto;
+            cursor: pointer;
+        }
+
+        .note-scroll::before {
+            content: "";
+            display: block;
+            width: 100%;
+            max-width: 800px;
+            height: 200px;
+            background-image: url("/fantasy/notes/top.webp");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            image-rendering: pixelated;
+            position: relative;
+            z-index: 2;
+        }
+
+        .note-scroll::after {
+            content: "";
+            display: block;
+            width: 100%;
+            max-width: 800px;
+            height: 200px;
+            background-image: url("/fantasy/notes/bottom.webp");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            image-rendering: pixelated;
+            position: relative;
+            z-index: 2;
+        }
+
+        .note-content {
+            background-image: url("/fantasy/notes/middle.webp");
+            background-size: 100% auto;
+            background-repeat: repeat-y;
+            image-rendering: pixelated;
+            padding: 20px 15% 30px 15%;
+            width: 100%;
+            max-width: 800px;
+            position: relative;
+            z-index: 1;
+            margin-top: -1px;
+            margin-bottom: -1px;
+            font-family: "MedievalSharp", cursive;
+            color: #4a3520;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .note-meta {
+            text-align: center;
+            position: absolute;
+            bottom: 90px;
+            left: 0;
+            right: 0;
+            z-index: 10;
+        }
+
+        .note-date {
+            font-family: "MedievalSharp", cursive;
+            color: #6b4423;
+            font-size: 14px;
+            text-decoration: none;
+        }
+
+        .scroll-bottom-clickable {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100px;
+            cursor: pointer;
+            z-index: 3;
+        }
+
+        /* ═══════════════════════════════════════════════════════════════════════════
+           POST CONTAINER STYLING (from style.css)
+           ═══════════════════════════════════════════════════════════════════════════ */
+
+        .posts-container {
+            position: relative;
+            z-index: 1;
+            background: transparent;
+            image-rendering: pixelated;
+            border: 64px solid transparent;
+            border-image-source: url("/fantasy/tiles/day_tiles.png");
+            border-image-slice: 64 96 64 96;
+            border-image-width: 64px 96px 64px 96px;
+            border-image-repeat: round;
+            padding: 20px;
+        }
+
+        .posts-container::before {
+            content: "";
+            position: absolute;
+            top: -20px;
+            left: -20px;
+            right: -20px;
+            bottom: -20px;
+            background: #f1e9d2;
+            z-index: -1;
+        }
+
+        .posts {
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+        }
+
+        .post {
+            position: relative;
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            padding: 10px 0;
+            border-bottom: 2px solid rgba(139, 90, 43, 0.2);
+        }
+
+        .post:last-child {
+            border-bottom: none;
+        }
+
+        .post-sprite {
+            width: 96px;
+            height: 96px;
+            overflow: hidden;
+            image-rendering: pixelated;
+            flex-shrink: 0;
+            background: rgba(139, 90, 43, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #8b5a2b;
+            font-size: 12px;
+            border-radius: 8px;
+        }
+
+        .post-body {
+            flex: 1;
+        }
+
+        .post-tag {
+            display: inline-block;
+            background: linear-gradient(180deg, #9a6833 0%, #7a4a23 100%);
+            color: #f5e6d3;
+            padding: 4px 12px;
+            border-radius: 0;
+            font-size: 12px;
+            font-family: "MedievalSharp", cursive;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+            text-decoration: none;
+            border: 2px solid #5c3d1e;
+            box-shadow:
+                inset 1px 1px 0 #b08048,
+                inset -1px -1px 0 #5a3818,
+                2px 2px 0 rgba(0, 0, 0, 0.25);
+        }
+
+        .post-title {
+            font-family: "MedievalSharp", cursive;
+            font-size: 24px;
+            color: #2d2d2d;
+            margin-bottom: 8px;
+        }
+
+        .post-title a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .post-meta {
+            font-size: 14px;
+            color: #6b6b6b;
+            margin-bottom: 10px;
+        }
+
+        .post-excerpt {
+            color: #4a4a4a;
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .post-link {
+            display: inline-block;
+            background: linear-gradient(180deg, #8b6914 0%, #6b4f0f 100%);
+            color: #f5e6d3;
+            padding: 8px 20px;
+            font-family: "MedievalSharp", cursive;
+            font-size: 14px;
+            text-decoration: none;
+            border: 2px solid #4a3810;
+            box-shadow:
+                inset 2px 2px 0 rgba(255, 255, 255, 0.2),
+                inset -2px -2px 0 rgba(0, 0, 0, 0.2),
+                3px 3px 0 rgba(0, 0, 0, 0.3);
+        }
+
+        /* Visual guides */
+        .show-guides .note-scroll {
+            outline: 3px dashed rgba(0, 255, 0, 0.5);
+        }
+
+        .show-guides .posts-container {
+            outline: 3px dashed rgba(255, 0, 0, 0.5);
+        }
+
+        .element-label {
+            position: absolute;
+            top: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: bold;
+            white-space: nowrap;
+            z-index: 100;
+        }
+
+        .note-scroll .element-label { background: rgba(0, 128, 0, 0.8); }
+        .posts-container .element-label { background: rgba(200, 0, 0, 0.8); }
+
+        .toggle-guides {
+            background: #3a6a3a;
+            color: #fff;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+            margin-left: 10px;
+        }
+
+        .toggle-guides:hover {
+            background: #4a7a4a;
+        }
+    </style>
+</head>
+<body class="show-guides">
+    <h1>Note + Post Layout Spacing</h1>
+    <p class="info-text">
+        Adjust margins between notes and posts. Green = notes | Red = posts container
+    </p>
+
+    <div class="controls">
+        <h3>Spacing Controls</h3>
+        <div class="control-row">
+            <div class="control-group">
+                <label>Note Margin Top</label>
+                <input type="number" id="noteMarginTop" value="0" min="-100" max="100">
+            </div>
+            <div class="control-group">
+                <label>Note Margin Bottom</label>
+                <input type="number" id="noteMarginBottom" value="0" min="-100" max="100">
+            </div>
+            <div class="control-group">
+                <label>Post Container Top</label>
+                <input type="number" id="postMarginTop" value="0" min="-100" max="100">
+            </div>
+            <div class="control-group">
+                <label>Post Container Bottom</label>
+                <input type="number" id="postMarginBottom" value="0" min="-100" max="100">
+            </div>
+            <button class="toggle-guides" onclick="toggleGuides()">Toggle Guides</button>
+        </div>
+
+        <div class="output-css">
+            <pre id="cssOutput"></pre>
+        </div>
+        <button class="copy-btn" onclick="copyCSS()">Copy CSS to Clipboard</button>
+    </div>
+
+    <main>
+        <!-- First Note -->
+        <article class="note-scroll" style="position: relative;">
+            <span class="element-label">NOTE 1</span>
+            <div class="note-content">
+                <p>This is the first note on the page. Notes appear as scrolls and contain shorter content without titles.</p>
+                <p>The scroll design wraps around the content with decorative top and bottom pieces.</p>
+            </div>
+            <div class="note-meta">
+                <a href="#" class="note-date">December 25, 2024</a>
+            </div>
+            <div class="scroll-bottom-clickable"></div>
+        </article>
+
+        <!-- Posts Container -->
+        <div class="posts-container" style="position: relative;">
+            <span class="element-label">POSTS CONTAINER</span>
+            <div class="posts">
+                <article class="post">
+                    <div class="post-sprite">96x96 sprite</div>
+                    <div class="post-body">
+                        <a href="#" class="post-tag">Gaming</a>
+                        <h2 class="post-title">
+                            <a href="#">A Sample Blog Post Title</a>
+                        </h2>
+                        <div class="post-meta">December 24, 2024</div>
+                        <div class="post-excerpt">
+                            This is a sample blog post excerpt. Blog posts have titles, categories, sprites, and longer content. They appear in a bordered container with grass tiles.
+                        </div>
+                        <a href="#" class="post-link">Read more &rarr;</a>
+                    </div>
+                </article>
+                <article class="post">
+                    <div class="post-sprite">96x96 sprite</div>
+                    <div class="post-body">
+                        <a href="#" class="post-tag">Tech</a>
+                        <h2 class="post-title">
+                            <a href="#">Another Blog Post</a>
+                        </h2>
+                        <div class="post-meta">December 23, 2024</div>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <!-- Second Note -->
+        <article class="note-scroll" style="position: relative;">
+            <span class="element-label">NOTE 2</span>
+            <div class="note-content">
+                <p>This is the second note after the posts container. Notice how the spacing affects the visual flow between different content types.</p>
+            </div>
+            <div class="note-meta">
+                <a href="#" class="note-date">December 22, 2024</a>
+            </div>
+            <div class="scroll-bottom-clickable"></div>
+        </article>
+    </main>
+
+    <script>
+        let noteMarginTop = 0;
+        let noteMarginBottom = 0;
+        let postMarginTop = 0;
+        let postMarginBottom = 0;
+
+        function updateLayout() {
+            noteMarginTop = parseInt(document.getElementById('noteMarginTop').value) || 0;
+            noteMarginBottom = parseInt(document.getElementById('noteMarginBottom').value) || 0;
+            postMarginTop = parseInt(document.getElementById('postMarginTop').value) || 0;
+            postMarginBottom = parseInt(document.getElementById('postMarginBottom').value) || 0;
+
+            // Apply margins to notes
+            document.querySelectorAll('.note-scroll').forEach(note => {
+                note.style.marginTop = noteMarginTop + 'px';
+                note.style.marginBottom = noteMarginBottom + 'px';
+            });
+
+            // Apply margins to posts container
+            document.querySelectorAll('.posts-container').forEach(container => {
+                container.style.marginTop = postMarginTop + 'px';
+                container.style.marginBottom = postMarginBottom + 'px';
+            });
+
+            updateCSSOutput();
+        }
+
+        function updateCSSOutput() {
+            const css = `/* Layout spacing - style.css */
+
+.note-scroll {
+    margin-top: ${noteMarginTop}px;
+    margin-bottom: ${noteMarginBottom}px;
+}
+
+.posts-container {
+    margin-top: ${postMarginTop}px;
+    margin-bottom: ${postMarginBottom}px;
+}`;
+            document.getElementById('cssOutput').textContent = css;
+        }
+
+        function copyCSS() {
+            const css = document.getElementById('cssOutput').textContent;
+            navigator.clipboard.writeText(css).then(() => {
+                const btn = document.querySelector('.copy-btn');
+                btn.textContent = 'Copied!';
+                setTimeout(() => btn.textContent = 'Copy CSS to Clipboard', 2000);
+            });
+        }
+
+        function toggleGuides() {
+            document.body.classList.toggle('show-guides');
+        }
+
+        // Add event listeners to all inputs
+        document.querySelectorAll('input[type="number"]').forEach(input => {
+            input.addEventListener('input', updateLayout);
+        });
+
+        // Initialize
+        updateLayout();
+    </script>
+</body>
+</html>

@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Menu Positioning Test</title>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Orbitron:wght@400;600&family=Oxanium:wght@400;600&family=Fredericka+the+Great&family=Quicksand:wght@400;500&family=IM+Fell+English&family=Vollkorn:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #1a1a2e;
+            min-height: 100vh;
+            padding: 20px;
+            font-family: system-ui, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            color: #fff;
+            margin-bottom: 15px;
+        }
+
+        .info-text {
+            text-align: center;
+            color: #888;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+
+        .controls {
+            background: #2a2a4e;
+            border-radius: 8px;
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto 30px;
+        }
+
+        .controls h3 {
+            color: #fff;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .control-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: center;
+            margin-bottom: 15px;
+        }
+
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: rgba(255,255,255,0.05);
+            padding: 10px;
+            border-radius: 6px;
+            min-width: 90px;
+        }
+
+        .control-group label {
+            color: #aaa;
+            font-size: 11px;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+        }
+
+        .control-group input[type="number"] {
+            width: 65px;
+            padding: 6px;
+            border: 1px solid #444;
+            border-radius: 4px;
+            background: #1a1a2e;
+            color: #fff;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .control-group input[type="number"]:focus {
+            outline: none;
+            border-color: #6a6aff;
+        }
+
+        .output-css {
+            background: #0a0a1e;
+            border: 1px solid #444;
+            border-radius: 6px;
+            padding: 15px;
+            margin-top: 15px;
+            max-height: 250px;
+            overflow-y: auto;
+        }
+
+        .output-css pre {
+            color: #8f8;
+            font-family: 'Monaco', 'Consolas', monospace;
+            font-size: 11px;
+            white-space: pre-wrap;
+        }
+
+        .copy-btn {
+            background: #4a4a8a;
+            color: #fff;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+
+        .copy-btn:hover {
+            background: #5a5a9a;
+        }
+
+        .menu-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 80px;
+            padding: 40px 0;
+        }
+
+        .menu-wrapper {
+            position: relative;
+            padding-top: 30px;
+        }
+
+        .theme-label {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #fff;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            white-space: nowrap;
+        }
+
+        /* Header reference line */
+        .header-reference {
+            position: relative;
+            width: 100%;
+            max-width: 964px;
+            height: 60px;
+            background: linear-gradient(180deg, rgba(139, 90, 43, 0.4) 0%, rgba(139, 90, 43, 0.2) 100%);
+            border-bottom: 3px solid #ff6b6b;
+            margin-bottom: 0;
+        }
+
+        .header-reference::after {
+            content: "← Header Bottom Edge";
+            position: absolute;
+            right: -140px;
+            bottom: -8px;
+            color: #ff6b6b;
+            font-size: 12px;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+
+        /* Simulated nav area */
+        .nav-preview {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            background: rgba(135, 206, 235, 0.3);
+            padding: 20px 40px;
+            padding-top: 0;
+            border-radius: 0 0 8px 8px;
+            min-height: 200px;
+            align-items: flex-start;
+            margin-top: -50px;
+        }
+
+        .nav-sign {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 160px;
+            padding: 0 10px;
+            height: 150px;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: 100% 100%;
+            image-rendering: pixelated;
+            text-decoration: none;
+            transition: transform 0.15s ease;
+            position: relative;
+        }
+
+        .nav-sign span {
+            font-size: 26px;
+            color: #4a3520;
+            text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+            padding-top: 30px;
+            text-align: center;
+            line-height: 1.1;
+        }
+
+        .nav-sign:hover {
+            transform: rotate(-4deg) translateY(-3px);
+        }
+
+        .nav-sign.active {
+            transform: translateY(25px);
+        }
+
+        .nav-sign.active:hover {
+            transform: rotate(-4deg) translateY(22px);
+        }
+
+        /* Theme-specific fonts */
+        .fantasy .nav-sign span { font-family: "MedievalSharp", cursive; }
+        .sci-fi .nav-sign span { font-family: "Orbitron", sans-serif; font-weight: 600; letter-spacing: 1px; }
+        .cyberpunk .nav-sign span { font-family: "Oxanium", sans-serif; font-weight: 600; letter-spacing: 2px; }
+        .cabin .nav-sign span { font-family: "Quicksand", sans-serif; font-weight: 500; }
+        .underwater .nav-sign span { font-family: "Vollkorn", serif; font-weight: 500; }
+
+        /* Theme backgrounds */
+        .fantasy { background: rgba(135, 206, 235, 0.3); }
+        .sci-fi { background: rgba(10, 20, 40, 0.8); }
+        .cyberpunk { background: rgba(20, 10, 30, 0.8); }
+        .cabin { background: rgba(139, 90, 43, 0.3); }
+        .underwater { background: rgba(0, 80, 120, 0.4); }
+
+        .fantasy .nav-sign { background-image: url('/fantasy/menu/sign.webp'); }
+        .sci-fi .nav-sign { background-image: url('/sci-fi/menu/sign.webp'); }
+        .cyberpunk .nav-sign { background-image: url('/cyberpunk/menu/sign.webp'); }
+        .cabin .nav-sign { background-image: url('/cabin/menu/sign.webp'); }
+        .underwater .nav-sign { background-image: url('/underwater/menu/sign.webp'); }
+
+        /* Overlay guides */
+        .nav-sign::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border: 2px dashed rgba(255, 255, 0, 0.5);
+            pointer-events: none;
+        }
+
+        .nav-sign::after {
+            content: "";
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80%;
+            height: 40px;
+            background: rgba(255, 200, 50, 0.2);
+            border: 1px dashed rgba(255, 200, 50, 0.6);
+            pointer-events: none;
+        }
+
+        .toggle-guides {
+            background: #3a3a6a;
+            color: #fff;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+            margin-left: 10px;
+        }
+
+        .toggle-guides:hover {
+            background: #4a4a7a;
+        }
+
+        .hide-guides .nav-sign::before,
+        .hide-guides .nav-sign::after {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Nav Menu Sign Positioning</h1>
+    <p class="info-text">
+        Adjust values to position text within signs. Yellow dashed = sign bounds | Gold area = text zone
+    </p>
+
+    <div class="controls">
+        <h3>Sign Dimensions & Text Position</h3>
+        <div class="control-row">
+            <div class="control-group">
+                <label>Width</label>
+                <input type="number" id="signWidth" value="160" min="80" max="300">
+            </div>
+            <div class="control-group">
+                <label>Height</label>
+                <input type="number" id="signHeight" value="150" min="80" max="300">
+            </div>
+            <div class="control-group">
+                <label>Gap</label>
+                <input type="number" id="signGap" value="40" min="0" max="100">
+            </div>
+            <div class="control-group">
+                <label>Font Size</label>
+                <input type="number" id="fontSize" value="26" min="12" max="48">
+            </div>
+            <div class="control-group">
+                <label>Text Top</label>
+                <input type="number" id="textTop" value="30" min="-20" max="80">
+            </div>
+            <div class="control-group">
+                <label>Active Drop</label>
+                <input type="number" id="activeDrop" value="25" min="0" max="60">
+            </div>
+            <div class="control-group">
+                <label>Nav Overlap</label>
+                <input type="number" id="navOverlap" value="50" min="0" max="120">
+            </div>
+        </div>
+
+        <div class="control-row">
+            <div class="control-group">
+                <label>Text Zone Top</label>
+                <input type="number" id="zoneTop" value="55" min="0" max="150">
+            </div>
+            <div class="control-group">
+                <label>Zone Height</label>
+                <input type="number" id="zoneHeight" value="40" min="20" max="100">
+            </div>
+            <button class="toggle-guides" onclick="toggleGuides()">Toggle Guides</button>
+        </div>
+
+        <div class="output-css">
+            <pre id="cssOutput"></pre>
+        </div>
+        <button class="copy-btn" onclick="copyCSS()">Copy CSS to Clipboard</button>
+    </div>
+
+    <div class="menu-container" id="menuContainer">
+        <!-- Fantasy -->
+        <div class="menu-wrapper">
+            <div class="theme-label">Fantasy</div>
+            <div class="header-reference"></div>
+            <div class="nav-preview fantasy">
+                <a class="nav-sign"><span>home</span></a>
+                <a class="nav-sign"><span>archive</span></a>
+                <a class="nav-sign active"><span>photos</span></a>
+                <a class="nav-sign"><span>about</span></a>
+            </div>
+        </div>
+
+        <!-- Sci-Fi -->
+        <div class="menu-wrapper">
+            <div class="theme-label">Sci-Fi</div>
+            <div class="header-reference"></div>
+            <div class="nav-preview sci-fi">
+                <a class="nav-sign"><span>home</span></a>
+                <a class="nav-sign"><span>archive</span></a>
+                <a class="nav-sign active"><span>photos</span></a>
+                <a class="nav-sign"><span>about</span></a>
+            </div>
+        </div>
+
+        <!-- Cyberpunk -->
+        <div class="menu-wrapper">
+            <div class="theme-label">Cyberpunk</div>
+            <div class="header-reference"></div>
+            <div class="nav-preview cyberpunk">
+                <a class="nav-sign"><span>home</span></a>
+                <a class="nav-sign"><span>archive</span></a>
+                <a class="nav-sign active"><span>photos</span></a>
+                <a class="nav-sign"><span>about</span></a>
+            </div>
+        </div>
+
+        <!-- Cabin -->
+        <div class="menu-wrapper">
+            <div class="theme-label">Cabin</div>
+            <div class="header-reference"></div>
+            <div class="nav-preview cabin">
+                <a class="nav-sign"><span>home</span></a>
+                <a class="nav-sign"><span>archive</span></a>
+                <a class="nav-sign active"><span>photos</span></a>
+                <a class="nav-sign"><span>about</span></a>
+            </div>
+        </div>
+
+        <!-- Underwater -->
+        <div class="menu-wrapper">
+            <div class="theme-label">Underwater</div>
+            <div class="header-reference"></div>
+            <div class="nav-preview underwater">
+                <a class="nav-sign"><span>home</span></a>
+                <a class="nav-sign"><span>archive</span></a>
+                <a class="nav-sign active"><span>photos</span></a>
+                <a class="nav-sign"><span>about</span></a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let signWidth = 160;
+        let signHeight = 150;
+        let signGap = 40;
+        let fontSize = 26;
+        let textTop = 30;
+        let activeDrop = 25;
+        let navOverlap = 50;
+        let zoneTop = 55;
+        let zoneHeight = 40;
+
+        function updateSigns() {
+            signWidth = parseInt(document.getElementById('signWidth').value) || 160;
+            signHeight = parseInt(document.getElementById('signHeight').value) || 150;
+            signGap = parseInt(document.getElementById('signGap').value) || 40;
+            fontSize = parseInt(document.getElementById('fontSize').value) || 26;
+            textTop = parseInt(document.getElementById('textTop').value) || 30;
+            activeDrop = parseInt(document.getElementById('activeDrop').value) || 25;
+            navOverlap = parseInt(document.getElementById('navOverlap').value) || 50;
+            zoneTop = parseInt(document.getElementById('zoneTop').value) || 55;
+            zoneHeight = parseInt(document.getElementById('zoneHeight').value) || 40;
+
+            // Update all nav signs
+            document.querySelectorAll('.nav-sign').forEach(sign => {
+                sign.style.minWidth = signWidth + 'px';
+                sign.style.height = signHeight + 'px';
+            });
+
+            document.querySelectorAll('.nav-sign span').forEach(span => {
+                span.style.fontSize = fontSize + 'px';
+                span.style.paddingTop = textTop + 'px';
+            });
+
+            document.querySelectorAll('.nav-preview').forEach(nav => {
+                nav.style.gap = signGap + 'px';
+                nav.style.marginTop = -navOverlap + 'px';
+            });
+
+            // Update active drop
+            const styleEl = document.getElementById('dynamic-styles') || document.createElement('style');
+            styleEl.id = 'dynamic-styles';
+            styleEl.textContent = `
+                .nav-sign.active { transform: translateY(${activeDrop}px); }
+                .nav-sign.active:hover { transform: rotate(-4deg) translateY(${activeDrop - 3}px); }
+                .nav-sign::after { top: ${zoneTop}px; height: ${zoneHeight}px; }
+            `;
+            if (!document.getElementById('dynamic-styles')) {
+                document.head.appendChild(styleEl);
+            }
+
+            updateCSSOutput();
+        }
+
+        function updateCSSOutput() {
+            const css = `/* Nav sign positioning - style.css */
+
+.site-nav {
+    margin-top: -${navOverlap}px;
+    gap: ${signGap}px;
+}
+
+.nav-sign {
+    min-width: ${signWidth}px;
+    height: ${signHeight}px;
+}
+
+.nav-sign span {
+    font-size: ${fontSize}px;
+    padding-top: ${textTop}px;
+}
+
+.nav-sign.active {
+    transform: translateY(${activeDrop}px);
+}
+
+.nav-sign.active:hover {
+    transform: rotate(-4deg) translateY(${activeDrop - 3}px);
+}`;
+            document.getElementById('cssOutput').textContent = css;
+        }
+
+        function copyCSS() {
+            const css = document.getElementById('cssOutput').textContent;
+            navigator.clipboard.writeText(css).then(() => {
+                const btn = document.querySelector('.copy-btn');
+                btn.textContent = 'Copied!';
+                setTimeout(() => btn.textContent = 'Copy CSS to Clipboard', 2000);
+            });
+        }
+
+        function toggleGuides() {
+            document.getElementById('menuContainer').classList.toggle('hide-guides');
+        }
+
+        // Add event listeners to all inputs
+        document.querySelectorAll('input[type="number"]').forEach(input => {
+            input.addEventListener('input', updateSigns);
+        });
+
+        // Initialize
+        updateSigns();
+    </script>
+</body>
+</html>

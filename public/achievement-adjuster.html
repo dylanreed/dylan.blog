@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievement Panel Button Adjuster</title>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: system-ui, sans-serif;
+            background: #1a1a2e;
+            color: #eee;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        h1 { text-align: center; margin-bottom: 10px; }
+        .controls {
+            background: #2a2a4e;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        .control-group label {
+            font-size: 12px;
+            color: #aaa;
+        }
+        .control-group input {
+            width: 80px;
+            padding: 8px;
+            border: 1px solid #444;
+            border-radius: 4px;
+            background: #1a1a2e;
+            color: #fff;
+            font-size: 14px;
+        }
+        .output {
+            background: #0a0a1e;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: monospace;
+            font-size: 12px;
+            white-space: pre-wrap;
+            margin-top: 20px;
+        }
+        .preview-container {
+            display: flex;
+            justify-content: center;
+            padding: 40px;
+        }
+
+        /* Achievement Panel Styles (copied from achievements.css) */
+        .achievement-panel {
+            position: relative;
+            width: 90%;
+            max-width: 600px;
+            background: linear-gradient(180deg, #f5e6d3 0%, #e8d4b8 100%);
+            border: 4px solid #5c3d1e;
+            box-shadow:
+                inset 3px 3px 0 #fff8e8,
+                inset -3px -3px 0 #c4a480,
+                8px 8px 0 rgba(0, 0, 0, 0.4);
+            image-rendering: pixelated;
+            overflow: hidden;
+        }
+        .achievement-panel-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 20px;
+            background: linear-gradient(180deg, #8b5a2b 0%, #6b4423 100%);
+            border-bottom: 3px solid #4a3018;
+        }
+        .achievement-panel-header h2 {
+            font-family: "MedievalSharp", cursive;
+            font-size: 24px;
+            color: #f5e6d3;
+            margin: 0;
+            text-shadow: 2px 2px 0 rgba(0,0,0,0.5);
+        }
+        .achievement-panel-stats {
+            display: flex;
+            gap: 15px;
+            font-family: "MedievalSharp", cursive;
+            font-size: 14px;
+            color: #e8d4b8;
+        }
+        .achievement-panel-close {
+            width: 32px;
+            height: 32px;
+            background: linear-gradient(180deg, #c0392b 0%, #96281b 100%);
+            border: 2px solid #6b1810;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow:
+                inset 1px 1px 0 #e74c3c,
+                inset -1px -1px 0 #7b2018;
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            z-index: 10;
+        }
+        .achievement-panel-close:hover {
+            transform: scale(1.1);
+        }
+        /* Click area visualizer */
+        .achievement-panel-close::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: rgba(255, 0, 0, 0.2);
+            border: 1px dashed red;
+            pointer-events: none;
+            display: block;
+        }
+        .achievement-panel-content {
+            padding: 15px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        .achievement-category h3 {
+            font-family: "MedievalSharp", cursive;
+            font-size: 18px;
+            color: #5c3d2e;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #8b5a2b;
+        }
+        .achievement-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 10px 12px;
+            background: linear-gradient(180deg, #fff8e8 0%, #f0e4d0 100%);
+            border: 2px solid #c4a480;
+            margin-bottom: 8px;
+        }
+        .achievement-icon { font-size: 28px; }
+        .achievement-name {
+            font-family: "MedievalSharp", cursive;
+            font-size: 16px;
+            color: #4a3020;
+        }
+        .achievement-desc {
+            font-size: 12px;
+            color: #8b7060;
+        }
+
+        /* Crosshair for alignment */
+        .crosshair {
+            position: absolute;
+            pointer-events: none;
+            z-index: 100;
+        }
+        .crosshair-h, .crosshair-v {
+            position: absolute;
+            background: rgba(255, 0, 0, 0.5);
+        }
+        .crosshair-h {
+            width: 100%;
+            height: 1px;
+            left: 0;
+        }
+        .crosshair-v {
+            width: 1px;
+            height: 100%;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Achievement Panel Close Button Adjuster</h1>
+
+    <div class="controls">
+        <div class="control-group">
+            <label>Top (px)</label>
+            <input type="number" id="top" value="12">
+        </div>
+        <div class="control-group">
+            <label>Right (px)</label>
+            <input type="number" id="right" value="12">
+        </div>
+        <div class="control-group">
+            <label>Width (px)</label>
+            <input type="number" id="width" value="32">
+        </div>
+        <div class="control-group">
+            <label>Height (px)</label>
+            <input type="number" id="height" value="32">
+        </div>
+        <div class="control-group">
+            <label>Font Size (px)</label>
+            <input type="number" id="fontSize" value="16">
+        </div>
+        <div class="control-group">
+            <label>Click Padding (px)</label>
+            <input type="number" id="clickPadding" value="0">
+        </div>
+    </div>
+
+    <div class="preview-container">
+        <div class="achievement-panel">
+            <div class="crosshair">
+                <div class="crosshair-h"></div>
+                <div class="crosshair-v"></div>
+            </div>
+            <div class="achievement-panel-header">
+                <h2>🏆 Achievements</h2>
+                <div class="achievement-panel-stats">
+                    <span>5/20 Unlocked</span>
+                    <span>150 Points</span>
+                </div>
+                <button class="achievement-panel-close" id="closeBtn">✕</button>
+            </div>
+            <div class="achievement-panel-content">
+                <div class="achievement-category">
+                    <h3>Explorer</h3>
+                    <div class="achievement-item">
+                        <span class="achievement-icon">🗺️</span>
+                        <div>
+                            <div class="achievement-name">First Steps</div>
+                            <div class="achievement-desc">Visit the blog for the first time</div>
+                        </div>
+                    </div>
+                    <div class="achievement-item">
+                        <span class="achievement-icon">📖</span>
+                        <div>
+                            <div class="achievement-name">Bookworm</div>
+                            <div class="achievement-desc">Read 10 blog posts</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="output" id="output"></div>
+
+    <script>
+        const closeBtn = document.getElementById('closeBtn');
+        const crosshair = document.querySelector('.crosshair');
+        const inputs = {
+            top: document.getElementById('top'),
+            right: document.getElementById('right'),
+            width: document.getElementById('width'),
+            height: document.getElementById('height'),
+            fontSize: document.getElementById('fontSize'),
+            clickPadding: document.getElementById('clickPadding')
+        };
+        const output = document.getElementById('output');
+
+        function updateButton() {
+            const values = {
+                top: parseInt(inputs.top.value),
+                right: parseInt(inputs.right.value),
+                width: parseInt(inputs.width.value),
+                height: parseInt(inputs.height.value),
+                fontSize: parseInt(inputs.fontSize.value),
+                clickPadding: parseInt(inputs.clickPadding.value)
+            };
+
+            closeBtn.style.top = values.top + 'px';
+            closeBtn.style.right = values.right + 'px';
+            closeBtn.style.width = values.width + 'px';
+            closeBtn.style.height = values.height + 'px';
+            closeBtn.style.fontSize = values.fontSize + 'px';
+
+            // Update click area visualization
+            const pad = values.clickPadding;
+            closeBtn.style.setProperty('--click-pad', pad + 'px');
+            const beforeStyle = `top: -${pad}px; right: -${pad}px; bottom: -${pad}px; left: -${pad}px;`;
+            closeBtn.setAttribute('style', closeBtn.getAttribute('style') + '; --before-style: 1');
+
+            // Apply to ::before via inline style workaround
+            let styleEl = document.getElementById('dynamic-click-style');
+            if (!styleEl) {
+                styleEl = document.createElement('style');
+                styleEl.id = 'dynamic-click-style';
+                document.head.appendChild(styleEl);
+            }
+            styleEl.textContent = `.achievement-panel-close::before { top: -${pad}px; right: -${pad}px; bottom: -${pad}px; left: -${pad}px; }`;
+
+            // Update crosshair to show button center
+            const btnRect = closeBtn.getBoundingClientRect();
+            const panelRect = closeBtn.closest('.achievement-panel').getBoundingClientRect();
+            crosshair.querySelector('.crosshair-h').style.top = (btnRect.top - panelRect.top + btnRect.height/2) + 'px';
+            crosshair.querySelector('.crosshair-v').style.left = (btnRect.left - panelRect.left + btnRect.width/2) + 'px';
+
+            // Generate CSS
+            let css = `.achievement-panel-close {
+    width: ${values.width}px;
+    height: ${values.height}px;
+    font-size: ${values.fontSize}px;
+    position: absolute;
+    top: ${values.top}px;
+    right: ${values.right}px;
+    z-index: 10;
+}`;
+
+            if (pad > 0) {
+                css += `
+
+/* Extended click area */
+.achievement-panel-close::before {
+    content: '';
+    position: absolute;
+    top: -${pad}px;
+    right: -${pad}px;
+    bottom: -${pad}px;
+    left: -${pad}px;
+}`;
+            }
+
+            output.textContent = css;
+        }
+
+        // Add event listeners
+        Object.values(inputs).forEach(input => {
+            input.addEventListener('input', updateButton);
+        });
+
+        // Initial update
+        updateButton();
+    </script>
+</body>
+</html>

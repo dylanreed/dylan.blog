@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll Click Area Calibration</title>
+    <style>
+        /* ABOUTME: Calibration tool for note scroll clickable area positioning */
+        /* ABOUTME: Allows visual adjustment of the close button zone per theme */
+
+        * { box-sizing: border-box; }
+
+        body {
+            font-family: system-ui, sans-serif;
+            background: #1a1a2e;
+            color: #eee;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .layout {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .controls {
+            background: #16213e;
+            padding: 20px;
+            border-radius: 8px;
+            height: fit-content;
+            position: sticky;
+            top: 20px;
+        }
+
+        .preview-area {
+            background: #0f0f23;
+            padding: 40px;
+            border-radius: 8px;
+            min-height: 800px;
+        }
+
+        h1 {
+            margin: 0 0 20px 0;
+            font-size: 1.5rem;
+            color: #c9a227;
+        }
+
+        h2 {
+            margin: 20px 0 10px 0;
+            font-size: 1rem;
+            color: #888;
+            border-bottom: 1px solid #333;
+            padding-bottom: 5px;
+        }
+
+        .control-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            font-size: 12px;
+            color: #aaa;
+            margin-bottom: 4px;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        select {
+            width: 100%;
+            padding: 8px;
+            background: #0f0f23;
+            border: 1px solid #333;
+            color: #eee;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .range-row {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .range-row input[type="range"] {
+            flex: 1;
+        }
+
+        .range-row span {
+            min-width: 60px;
+            text-align: right;
+            font-size: 12px;
+            color: #888;
+        }
+
+        button {
+            padding: 10px 20px;
+            background: #c9a227;
+            color: #1a1a2e;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-right: 10px;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background: #d4af37;
+        }
+
+        button.secondary {
+            background: #444;
+            color: #eee;
+        }
+
+        .theme-tabs {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+
+        .theme-tab {
+            padding: 8px 12px;
+            background: #333;
+            border: none;
+            color: #aaa;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+
+        .theme-tab.active {
+            background: #c9a227;
+            color: #1a1a2e;
+        }
+
+        /* Note Preview Styles */
+        .note-preview {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .note-scroll {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            image-rendering: pixelated;
+        }
+
+        .note-scroll .note-top {
+            width: 100%;
+            background-repeat: no-repeat;
+            background-position: center bottom;
+            background-size: 100% auto;
+        }
+
+        .note-scroll .note-content {
+            padding: 20px 15%;
+            background-repeat: repeat-y;
+            background-position: center top;
+            background-size: 100% auto;
+            min-height: 150px;
+            text-align: center;
+        }
+
+        .note-scroll .note-content p {
+            margin: 0 0 12px 0;
+        }
+
+        .note-scroll .note-bottom {
+            width: 100%;
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-size: 100% auto;
+        }
+
+        /* Clickable area visualization */
+        .click-zone {
+            position: absolute;
+            left: 0;
+            right: 0;
+            background: rgba(255, 0, 0, 0.3);
+            border: 2px dashed #ff0000;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            color: #fff;
+            text-shadow: 0 0 4px #000;
+        }
+
+        .click-zone:hover {
+            background: rgba(255, 0, 0, 0.5);
+        }
+
+        /* CSS Output */
+        .css-output {
+            margin-top: 20px;
+        }
+
+        .css-output textarea {
+            width: 100%;
+            height: 200px;
+            background: #0a0a15;
+            color: #4a9;
+            border: 1px solid #333;
+            border-radius: 4px;
+            padding: 10px;
+            font-family: monospace;
+            font-size: 12px;
+        }
+
+        .info-box {
+            background: #2a3a5a;
+            padding: 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            margin-bottom: 15px;
+        }
+
+        .info-box p {
+            margin: 0 0 5px 0;
+        }
+
+        .info-box p:last-child {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="layout">
+        <div class="controls">
+            <h1>Click Zone Calibration</h1>
+
+            <div class="info-box">
+                <p>Red zone = clickable area to close/roll-up the note</p>
+                <p>Adjust height to cover the bottom portion of the scroll</p>
+            </div>
+
+            <div class="theme-tabs">
+                <button class="theme-tab active" data-theme="fantasy">Fantasy</button>
+                <button class="theme-tab" data-theme="sci-fi">Sci-Fi</button>
+                <button class="theme-tab" data-theme="cyberpunk">Cyberpunk</button>
+                <button class="theme-tab" data-theme="cabin">Cabin</button>
+                <button class="theme-tab" data-theme="underwater">Underwater</button>
+            </div>
+
+            <h2>Click Zone Position</h2>
+
+            <div class="control-group">
+                <label>Height (px)</label>
+                <div class="range-row">
+                    <input type="range" id="zoneHeight" min="50" max="400" value="269">
+                    <span id="zoneHeightVal">269px</span>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label>Bottom Offset (px)</label>
+                <div class="range-row">
+                    <input type="range" id="zoneBottom" min="-100" max="100" value="0">
+                    <span id="zoneBottomVal">0px</span>
+                </div>
+            </div>
+
+            <h2>Reference Values</h2>
+
+            <div class="control-group">
+                <label>Top Image Height (px)</label>
+                <div class="range-row">
+                    <input type="range" id="topHeight" min="100" max="400" value="289">
+                    <span id="topHeightVal">289px</span>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label>Bottom Image Height (px)</label>
+                <div class="range-row">
+                    <input type="range" id="bottomHeight" min="100" max="400" value="269">
+                    <span id="bottomHeightVal">269px</span>
+                </div>
+            </div>
+
+            <button onclick="matchBottomHeight()">Match to Bottom Height</button>
+
+            <div class="css-output">
+                <h2>Generated CSS</h2>
+                <textarea id="cssOutput" readonly></textarea>
+                <button onclick="copyCSS()">Copy CSS</button>
+                <button class="secondary" onclick="exportAll()">Export All Themes</button>
+            </div>
+        </div>
+
+        <div class="preview-area">
+            <div class="note-preview">
+                <div class="note-scroll" id="notePreview">
+                    <div class="note-top"></div>
+                    <div class="note-content">
+                        <p>This is a sample note with some text content.</p>
+                        <p>The red zone shows the clickable area for closing the scroll.</p>
+                        <p>Adjust the height to cover the bottom portion appropriately.</p>
+                    </div>
+                    <div class="note-bottom"></div>
+                    <div class="click-zone" id="clickZone">Click to Close</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Theme configurations
+        const themes = {
+            fantasy: {
+                topHeight: 289,
+                bottomHeight: 269,
+                zoneHeight: 269,
+                zoneBottom: 0,
+                images: {
+                    top: '/fantasy/notes/top.webp',
+                    middle: '/fantasy/notes/middle.webp',
+                    bottom: '/fantasy/notes/bottom.webp'
+                },
+                contentStyle: {
+                    fontFamily: "'MedievalSharp', cursive",
+                    fontSize: '20px',
+                    color: '#4a3520'
+                }
+            },
+            'sci-fi': {
+                topHeight: 289,
+                bottomHeight: 275,
+                zoneHeight: 275,
+                zoneBottom: 0,
+                images: {
+                    top: '/sci-fi/notes/top.webp',
+                    middle: '/sci-fi/notes/middle.webp',
+                    bottom: '/sci-fi/notes/bottom.webp'
+                },
+                contentStyle: {
+                    fontFamily: "'Share Tech Mono', monospace",
+                    fontSize: '20px',
+                    color: '#ffffff'
+                }
+            },
+            cyberpunk: {
+                topHeight: 289,
+                bottomHeight: 117,
+                zoneHeight: 117,
+                zoneBottom: 0,
+                images: {
+                    top: '/cyberpunk/notes/top.webp',
+                    middle: '/cyberpunk/notes/middle.webp',
+                    bottom: '/cyberpunk/notes/bottom.webp'
+                },
+                contentStyle: {
+                    fontFamily: "'Share Tech Mono', monospace",
+                    fontSize: '20px',
+                    color: '#33ff33'
+                }
+            },
+            cabin: {
+                topHeight: 200,
+                bottomHeight: 200,
+                zoneHeight: 200,
+                zoneBottom: 0,
+                images: {
+                    top: '/cabin/notes/top.webp',
+                    middle: '/cabin/notes/middle.webp',
+                    bottom: '/cabin/notes/bottom.webp'
+                },
+                contentStyle: {
+                    fontFamily: "'Cabin', sans-serif",
+                    fontSize: '20px',
+                    color: '#ef7c25'
+                }
+            },
+            underwater: {
+                topHeight: 289,
+                bottomHeight: 272,
+                zoneHeight: 272,
+                zoneBottom: 0,
+                images: {
+                    top: '/underwater/notes/top.webp',
+                    middle: '/underwater/notes/middle.webp',
+                    bottom: '/underwater/notes/bottom.webp'
+                },
+                contentStyle: {
+                    fontFamily: "'Quicksand', sans-serif",
+                    fontSize: '20px',
+                    color: '#5cffec'
+                }
+            }
+        };
+
+        let currentTheme = 'fantasy';
+
+        // DOM elements
+        const notePreview = document.getElementById('notePreview');
+        const clickZone = document.getElementById('clickZone');
+        const cssOutput = document.getElementById('cssOutput');
+
+        // Initialize
+        function init() {
+            // Theme tabs
+            document.querySelectorAll('.theme-tab').forEach(tab => {
+                tab.addEventListener('click', () => {
+                    document.querySelectorAll('.theme-tab').forEach(t => t.classList.remove('active'));
+                    tab.classList.add('active');
+                    currentTheme = tab.dataset.theme;
+                    loadTheme();
+                    updatePreview();
+                });
+            });
+
+            // Input listeners
+            const inputs = ['zoneHeight', 'zoneBottom', 'topHeight', 'bottomHeight'];
+
+            inputs.forEach(id => {
+                const el = document.getElementById(id);
+                el.addEventListener('input', () => {
+                    saveToTheme();
+                    updatePreview();
+                });
+            });
+
+            loadTheme();
+            updatePreview();
+        }
+
+        function loadTheme() {
+            const theme = themes[currentTheme];
+
+            document.getElementById('zoneHeight').value = theme.zoneHeight;
+            document.getElementById('zoneHeightVal').textContent = theme.zoneHeight + 'px';
+            document.getElementById('zoneBottom').value = theme.zoneBottom;
+            document.getElementById('zoneBottomVal').textContent = theme.zoneBottom + 'px';
+            document.getElementById('topHeight').value = theme.topHeight;
+            document.getElementById('topHeightVal').textContent = theme.topHeight + 'px';
+            document.getElementById('bottomHeight').value = theme.bottomHeight;
+            document.getElementById('bottomHeightVal').textContent = theme.bottomHeight + 'px';
+        }
+
+        function saveToTheme() {
+            const theme = themes[currentTheme];
+
+            theme.zoneHeight = parseInt(document.getElementById('zoneHeight').value);
+            theme.zoneBottom = parseInt(document.getElementById('zoneBottom').value);
+            theme.topHeight = parseInt(document.getElementById('topHeight').value);
+            theme.bottomHeight = parseInt(document.getElementById('bottomHeight').value);
+
+            // Update value displays
+            document.getElementById('zoneHeightVal').textContent = theme.zoneHeight + 'px';
+            document.getElementById('zoneBottomVal').textContent = theme.zoneBottom + 'px';
+            document.getElementById('topHeightVal').textContent = theme.topHeight + 'px';
+            document.getElementById('bottomHeightVal').textContent = theme.bottomHeight + 'px';
+        }
+
+        function updatePreview() {
+            const theme = themes[currentTheme];
+            const top = notePreview.querySelector('.note-top');
+            const content = notePreview.querySelector('.note-content');
+            const bottom = notePreview.querySelector('.note-bottom');
+
+            top.style.backgroundImage = `url("${theme.images.top}")`;
+            top.style.height = theme.topHeight + 'px';
+
+            content.style.backgroundImage = `url("${theme.images.middle}")`;
+            content.style.fontFamily = theme.contentStyle.fontFamily;
+            content.style.fontSize = theme.contentStyle.fontSize;
+            content.style.color = theme.contentStyle.color;
+
+            bottom.style.backgroundImage = `url("${theme.images.bottom}")`;
+            bottom.style.height = theme.bottomHeight + 'px';
+
+            // Update click zone
+            clickZone.style.height = theme.zoneHeight + 'px';
+            clickZone.style.bottom = theme.zoneBottom + 'px';
+
+            generateCSS();
+        }
+
+        function matchBottomHeight() {
+            const theme = themes[currentTheme];
+            document.getElementById('zoneHeight').value = theme.bottomHeight;
+            saveToTheme();
+            updatePreview();
+        }
+
+        function generateCSS() {
+            const theme = themes[currentTheme];
+            const selector = currentTheme === 'fantasy' ? '' : `html.theme-${currentTheme} `;
+
+            let css = `/* ${currentTheme.toUpperCase()} SCROLL CLICK ZONE */\n\n`;
+
+            css += `${selector}.scroll-bottom-clickable {\n`;
+            css += `    height: ${theme.zoneHeight}px;\n`;
+            if (theme.zoneBottom !== 0) {
+                css += `    bottom: ${theme.zoneBottom}px;\n`;
+            }
+            css += `}\n`;
+
+            cssOutput.value = css;
+        }
+
+        function copyCSS() {
+            cssOutput.select();
+            document.execCommand('copy');
+            alert('CSS copied to clipboard!');
+        }
+
+        function exportAll() {
+            let allCSS = '/* SCROLL CLICK ZONES - ALL THEMES */\n';
+            allCSS += '/* Generated by Click Zone Calibration Tool */\n\n';
+
+            Object.keys(themes).forEach(themeName => {
+                const theme = themes[themeName];
+                const selector = themeName === 'fantasy' ? '' : `html.theme-${themeName} `;
+
+                allCSS += `/* ${themeName} */\n`;
+                allCSS += `${selector}.scroll-bottom-clickable {\n`;
+                allCSS += `    height: ${theme.zoneHeight}px;\n`;
+                if (theme.zoneBottom !== 0) {
+                    allCSS += `    bottom: ${theme.zoneBottom}px;\n`;
+                }
+                allCSS += `}\n\n`;
+            });
+
+            cssOutput.value = allCSS;
+            alert('All theme CSS generated! Copy from the textarea.');
+        }
+
+        init();
+    </script>
+</body>
+</html>

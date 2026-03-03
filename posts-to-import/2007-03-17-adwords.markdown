@@ -1,0 +1,8 @@
+---
+title: Adwords
+date: 2007-03-17T10:16:13-0500
+categories:
+- tech
+---
+
+So I started to work with adwords at work. I spent the past hour or so going through and updating us in Google local, designing a banner ad as well as setting up mobile search and text ads. It is a pretty smart system though at times I found it tedious. I think that it would be better if it was smart enough to grab information from you previous ads. Like grab the target URL from your previous text ads when you are making another one.

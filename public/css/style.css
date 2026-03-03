@@ -1,0 +1,3768 @@
+/* Pixel Art Theme for micro.blog */
+/* Dylan's Blog */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: url("/fantasy/cursors/pointer.png"), auto;
+}
+
+/* All clickable elements get hand cursor */
+a,
+button,
+input[type="submit"],
+input[type="button"],
+select,
+label,
+.nav-sign,
+.nav-hamburger,
+.post-tag,
+.archive-tag,
+.archive-entry,
+.mode-toggle,
+.photo-item,
+.sierra-btn,
+.sierra-trigger,
+.post-link,
+.pagination a,
+.note-date,
+[role="button"],
+[onclick] {
+    cursor: url("/fantasy/cursors/hand.png"), pointer;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Spectral", Georgia, serif;
+    min-height: 100vh;
+    background-color: #87ceeb;
+    background-image: url("/fantasy/backgrounds/3.webp");
+    background-repeat: repeat;
+    background-size: 75%;
+    image-rendering: pixelated;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+/* Custom Scrollbar - Medieval Wood Style */
+::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+}
+
+::-webkit-scrollbar-track {
+    background: linear-gradient(90deg, #3d2810 0%, #5a3d1a 50%, #3d2810 100%);
+    border-left: 2px solid #2a1a08;
+    border-right: 2px solid #2a1a08;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(90deg, #8b5a2b 0%, #a06830 50%, #8b5a2b 100%);
+    border: 2px solid #5c3d1e;
+    border-radius: 0;
+    box-shadow:
+        inset 1px 1px 0 #c4a060,
+        inset -1px -1px 0 #6b4423;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(90deg, #9a6833 0%, #b07840 50%, #9a6833 100%);
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: linear-gradient(90deg, #7a4a1b 0%, #905828 50%, #7a4a1b 100%);
+}
+
+::-webkit-scrollbar-corner {
+    background: #3d2810;
+}
+
+/* Firefox scrollbar */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #8b5a2b #3d2810;
+}
+
+/* Night mode scrollbar */
+html.night::-webkit-scrollbar-track {
+    background: linear-gradient(90deg, #1a2030 0%, #2a3040 50%, #1a2030 100%);
+    border-left: 2px solid #0d1520;
+    border-right: 2px solid #0d1520;
+}
+
+html.night::-webkit-scrollbar-thumb {
+    background: linear-gradient(90deg, #3a4a5a 0%, #4a5a6a 50%, #3a4a5a 100%);
+    border-color: #2a3545;
+    box-shadow:
+        inset 1px 1px 0 #5a6a7a,
+        inset -1px -1px 0 #2a3a4a,
+        0 0 8px rgba(100, 150, 200, 0.2);
+}
+
+html.night::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(90deg, #4a5a6a 0%, #5a6a7a 50%, #4a5a6a 100%);
+}
+
+html.night::-webkit-scrollbar-corner {
+    background: #1a2030;
+}
+
+html.night {
+    scrollbar-color: #4a5a6a #1a2030;
+}
+
+/* Navigation */
+.site-nav {
+    max-width: 964px;
+    margin: 0 auto;
+    padding: 0 40px;
+    margin-top: -63px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+    z-index: 1; /* Behind header frame (z-index: 5) */
+}
+
+.nav-sign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 160px;
+    padding: 0 10px;
+    height: 140px;
+    background: url("/fantasy/menu/sign.webp") no-repeat center center;
+    background-size: 100% 100%;
+    image-rendering: pixelated;
+    text-decoration: none;
+    transition: transform 0.15s ease;
+    position: relative;
+}
+
+.nav-sign span {
+    font-family: "MedievalSharp", cursive;
+    font-size: 27px;
+    color: #4a3520;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+    padding-top: 30px; /* Offset for chain area */
+    text-align: center;
+    line-height: 1.1;
+    pointer-events: none; /* Let clicks pass through to parent link */
+}
+
+.nav-sign:hover {
+    transform: rotate(-4deg) translateY(-3px);
+}
+
+.nav-sign.active {
+    transform: translateY(15px);
+}
+
+.nav-sign.active span {
+    color: #381b00;
+    text-shadow: 0 0 8px rgba(139, 90, 43, 0.5);
+}
+
+.nav-sign.active:hover {
+    transform: rotate(-4deg) translateY(12px);
+}
+
+/* Hide old nav images, show text spans */
+.nav-sign img {
+    display: none;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   MOBILE HAMBURGER MENU
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Nav links wrapper - flex on desktop */
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+}
+
+/* Hamburger button - hidden on desktop */
+.nav-hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    width: 60px;
+    height: 60px;
+    background: url("/fantasy/menu/sign.webp") no-repeat center center;
+    background-size: 100% 100%;
+    image-rendering: pixelated;
+    border: none;
+    cursor: url("/fantasy/cursors/hand.png"), pointer;
+    padding: 15px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 100;
+}
+
+.hamburger-bar {
+    display: block;
+    width: 24px;
+    height: 3px;
+    background: #4a3520;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+    box-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+/* Hamburger animation when open */
+.nav-hamburger.open .hamburger-bar:nth-child(1) {
+    transform: rotate(45deg) translate(6px, 6px);
+}
+
+.nav-hamburger.open .hamburger-bar:nth-child(2) {
+    opacity: 0;
+}
+
+.nav-hamburger.open .hamburger-bar:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* Mode toggle - Sierra UI Style */
+.mode-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 51px;
+    height: 48px;
+    padding: 0;
+    background: url("/sprites/switch_box.png") no-repeat center center;
+    background-size: 100% 100%;
+    border: none;
+    cursor: url("/fantasy/cursors/hand.png"), pointer;
+    z-index: 1000;
+    image-rendering: pixelated;
+    transition:
+        transform 0.1s ease,
+        filter 0.1s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mode-toggle:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.1);
+}
+
+.mode-toggle:active {
+    transform: translateY(1px);
+    filter: brightness(0.95);
+}
+
+.mode-toggle .mode-icon {
+    width: 32px;
+    height: 32px;
+    image-rendering: pixelated;
+    pointer-events: none;
+}
+
+/* Night mode toggle styling */
+html.night .mode-toggle {
+    filter: hue-rotate(180deg) saturate(0.7);
+}
+
+html.night .mode-toggle:hover {
+    transform: translateY(-2px);
+    filter: hue-rotate(180deg) saturate(0.7) brightness(1.1);
+}
+
+html.night .mode-toggle .mode-icon {
+    filter: hue-rotate(-180deg) saturate(1.4);
+}
+
+/* Night mode background */
+html.night body {
+    background-color: #1a2030;
+    background-image: url("/fantasy/backgrounds/3_night.webp");
+    background-repeat: repeat;
+    background-size: 75%;
+}
+
+/* Night mode content background */
+html.night .posts-container::before,
+html.night .post-container::before,
+html.night .page-container::before,
+html.night .archive-container::before {
+    background: #3b454d;
+}
+
+/* Night mode border tiles */
+html.night .posts-container,
+html.night .post-container,
+html.night .page-container,
+html.night .archive-container {
+    border-image-source: url("/fantasy/tiles/tiles_night.webp");
+}
+
+/* Night mode border overlay */
+html.night .border-overlay {
+    border-image-source: url("/fantasy/tiles/tiles_night.webp");
+}
+
+/* Night mode headers - swap to night versions */
+html.night .header-image[style*="home.webp"] {
+    background-image: url("/fantasy/headers/home_night.webp") !important;
+}
+html.night .header-image[style*="default.webp"] {
+    background-image: url("/fantasy/headers/default_night.webp") !important;
+}
+html.night .header-image[style*="health.webp"] {
+    background-image: url("/fantasy/headers/health_night.webp") !important;
+}
+html.night .header-image[style*="tabletop.webp"] {
+    background-image: url("/fantasy/headers/tabletop_night.webp") !important;
+}
+html.night .header-image[style*="gaming.webp"] {
+    background-image: url("/fantasy/headers/gaming_night.webp") !important;
+}
+html.night .header-image[style*="clown.webp"] {
+    background-image: url("/fantasy/headers/clown_night.webp") !important;
+}
+html.night .header-image[style*="writing.webp"] {
+    background-image: url("/fantasy/headers/writing_night.webp") !important;
+}
+html.night .header-image[style*="cooking.webp"] {
+    background-image: url("/fantasy/headers/cooking_night.webp") !important;
+}
+html.night .header-image[style*="music.webp"] {
+    background-image: url("/fantasy/headers/music_night.webp") !important;
+}
+html.night .header-image[style*="travel.webp"] {
+    background-image: url("/fantasy/headers/travel_night.webp") !important;
+}
+html.night .header-image[style*="reading.webp"] {
+    background-image: url("/fantasy/headers/reading_night.webp") !important;
+}
+html.night .header-image[style*="crafting.webp"] {
+    background-image: url("/fantasy/headers/crafting_night.webp") !important;
+}
+html.night .header-image[style*="garden.webp"] {
+    background-image: url("/fantasy/headers/garden_night.webp") !important;
+}
+html.night .header-image[style*="tech.webp"] {
+    background-image: url("/fantasy/headers/tech_night.webp") !important;
+}
+html.night .header-image[style*="pets.webp"] {
+    background-image: url("/fantasy/headers/pets_night.webp") !important;
+}
+html.night .header-image[style*="adhd.webp"] {
+    background-image: url("/fantasy/headers/adhd_night.webp") !important;
+}
+
+/* Night mode text adjustments for readability */
+html.night .post-title,
+html.night .post-title a,
+html.night .page-title,
+html.night .category-title,
+html.night .archive-title,
+html.night .year-header {
+    color: #ffffff;
+}
+
+html.night .post-excerpt,
+html.night .post-content,
+html.night .page-content {
+    color: #f0f0f0;
+}
+
+html.night .post-meta,
+html.night .archive-date,
+html.night .category-count {
+    color: #d0d0d0;
+}
+
+html.night .post-content blockquote,
+html.night .page-content blockquote {
+    color: #c0c8d0;
+    border-left-color: #6080a0;
+}
+
+/* Night mode inherits retro terminal styles - phosphor green stays consistent */
+html.night .post-content code,
+html.night .page-content code {
+    background: #1a1a1a;
+    color: #20c20e;
+}
+
+html.night .post-content pre,
+html.night .page-content pre {
+    background: #0a0a0a;
+    border-color: #444;
+}
+
+html.night .site-footer {
+    color: #c0c0c0;
+}
+
+/* Night mode link glows - adventure game hotspot style */
+html.night .post-content a,
+html.night .page-content a {
+    color: #7dd3fc;
+    text-shadow: 0 0 8px rgba(125, 211, 252, 0.5);
+    transition:
+        text-shadow 0.2s ease,
+        color 0.2s ease;
+}
+
+html.night .post-content a:hover,
+html.night .page-content a:hover {
+    color: #a5f3fc;
+    text-shadow:
+        0 0 12px rgba(165, 243, 252, 0.8),
+        0 0 20px rgba(125, 211, 252, 0.4);
+}
+
+/* Night mode post title glow */
+html.night .post-title a:hover {
+    color: #e8d5b0;
+    text-shadow: 0 0 15px rgba(232, 213, 176, 0.6);
+}
+
+/* Night mode archive title glow */
+html.night .archive-title:hover {
+    color: #e8d5b0;
+    text-shadow: 0 0 12px rgba(232, 213, 176, 0.5);
+}
+
+/* Night mode navigation glow */
+html.night .nav-sign:hover img {
+    filter: drop-shadow(0 0 8px rgba(255, 200, 100, 0.6));
+}
+
+/* Night mode header moonlit effect */
+html.night .header-image {
+    box-shadow:
+        0 4px 20px rgba(0, 0, 0, 0.5),
+        0 0 40px rgba(100, 150, 255, 0.15);
+}
+
+/* Night mode tag glow */
+html.night .post-tag:hover,
+html.night .archive-tag:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+/* Header */
+.site-header {
+    max-width: 964px;
+    margin: 0 auto;
+    padding: 20px 20px 0;
+}
+
+.header-container {
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+
+.header-image {
+    width: 100%;
+    height: 215px;
+    background-image: url("/fantasy/headers/home.webp");
+    background-size: cover;
+    background-position: center;
+    image-rendering: pixelated;
+    position: relative;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Header video for hover animation */
+.header-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    image-rendering: pixelated;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+/* Video opacity controlled by JS to keep paused frame visible */
+
+.header-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/fantasy/headers/ornate frame.webp");
+    background-size: 100% 100%;
+    image-rendering: pixelated;
+    pointer-events: none;
+    z-index: 5;
+}
+
+.site-title {
+    position: absolute;
+    bottom: 0px;
+    left: 65px;
+    font-family: "Uncial Antiqua", cursive;
+    font-size: 37px;
+    color: #f5e6d3;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+
+.site-title a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Main content */
+.main-content {
+    max-width: 964px;
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 100%;
+}
+
+/* Posts container - single grass border */
+.posts-container,
+.post-container,
+.page-container {
+    position: relative;
+    z-index: 1; /* Above floating sprites (z-index: -1) */
+    background: transparent;
+    image-rendering: pixelated;
+    border: 64px solid transparent;
+    border-image-source: url("/fantasy/tiles/day_tiles.webp");
+    border-image-slice: 64 96 64 96;
+    border-image-width: 64px 96px 64px 96px;
+    border-image-repeat: round;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+/* Cream background inside border - extends into border to fill transparent gap */
+.posts-container::before,
+.post-container::before,
+.page-container::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    background: #f1e9d2;
+    z-index: -1;
+}
+
+/* Border overlay - injected by JS, sits on top of content so tiles aren't cut off */
+.border-overlay {
+    position: absolute;
+    top: -64px;
+    left: -64px;
+    right: -64px;
+    bottom: -64px;
+    border: 64px solid transparent;
+    border-image-source: url("/fantasy/tiles/day_tiles.webp");
+    border-image-slice: 64 96 64 96;
+    border-image-width: 64px 96px 64px 96px;
+    border-image-repeat: round;
+    pointer-events: none;
+    z-index: 100;
+    image-rendering: pixelated;
+}
+
+/* Hide original border when overlay is present */
+.posts-container:has(.border-overlay),
+.post-container:has(.border-overlay),
+.page-container:has(.border-overlay),
+.archive-container:has(.border-overlay) {
+    border-image-source: none;
+}
+
+/* Post list */
+.posts {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+/* Individual post in list */
+.post {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 10px 0;
+    border-bottom: 2px solid rgba(139, 90, 43, 0.2);
+}
+
+.post:last-child {
+    border-bottom: none;
+}
+
+/* Post sprite - inline with content */
+.post-sprite {
+    width: 96px;
+    height: 96px;
+    overflow: hidden;
+    image-rendering: pixelated;
+    flex-shrink: 0;
+}
+
+.post-sprite img {
+    width: 192px;
+    height: 192px;
+    image-rendering: pixelated;
+}
+
+/* Post body */
+.post-body {
+    flex: 1;
+}
+
+/* Post category tag - Pixel art badge style */
+.post-tag {
+    display: inline-block;
+    background: linear-gradient(180deg, #9a6833 0%, #7a4a23 100%);
+    color: #f5e6d3;
+    padding: 4px 12px;
+    border-radius: 0;
+    font-size: 12px;
+    font-family: "MedievalSharp", cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    border: 2px solid #5c3d1e;
+    box-shadow:
+        inset 1px 1px 0 #b08048,
+        inset -1px -1px 0 #5a3818,
+        2px 2px 0 rgba(0, 0, 0, 0.25);
+    transition:
+        transform 0.1s ease,
+        box-shadow 0.1s ease;
+    image-rendering: pixelated;
+}
+
+.post-tag:hover {
+    transform: translateY(-2px);
+    box-shadow:
+        inset 1px 1px 0 #c09058,
+        inset -1px -1px 0 #6a4820,
+        3px 3px 0 rgba(0, 0, 0, 0.2);
+    color: #fff;
+    background: linear-gradient(180deg, #aa7843 0%, #8a5a33 100%);
+}
+
+.post-title {
+    font-family: "MedievalSharp", cursive;
+    font-size: 24px;
+    color: #2d2d2d;
+    margin-bottom: 8px;
+}
+
+.post-title a {
+    color: inherit;
+    text-decoration: none;
+    transition:
+        color 0.15s ease,
+        text-shadow 0.15s ease;
+}
+
+.post-title a:hover {
+    color: #5c3d2e;
+    text-shadow:
+        0 0 12px rgba(139, 90, 43, 0.3),
+        2px 2px 0 rgba(255, 255, 255, 0.4);
+}
+
+.post-meta {
+    font-size: 14px;
+    color: #6a5a4a;
+    margin-bottom: 15px;
+}
+
+.post-excerpt,
+.post-content {
+    color: #5a4030;
+    line-height: 1.7;
+}
+
+.post-content {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.post-content p {
+    margin-bottom: 1.5em;
+}
+
+.post-content h2 {
+    font-family: "MedievalSharp", cursive;
+    font-size: 24px;
+    color: #4a3020;
+    margin: 2em 0 1em;
+}
+
+.post-content h3 {
+    font-family: "MedievalSharp", cursive;
+    font-size: 20px;
+    color: #4a3020;
+    margin: 1.5em 0 0.75em;
+}
+
+/* Adventure Game Link Style - Day Mode */
+.post-content a,
+.page-content a {
+    color: #8b5a2b;
+    text-decoration: underline;
+    text-decoration-color: rgba(139, 90, 43, 0.4);
+    text-underline-offset: 2px;
+    border-bottom: none;
+    padding-bottom: 1px;
+    transition: all 0.15s ease;
+    background: linear-gradient(
+        180deg,
+        transparent 60%,
+        rgba(139, 90, 43, 0.15) 60%
+    );
+}
+
+.post-content a:hover,
+.page-content a:hover {
+    color: #6b4423;
+    text-decoration-color: #c4a060;
+    background: linear-gradient(
+        180deg,
+        transparent 60%,
+        rgba(196, 160, 96, 0.3) 60%
+    );
+    text-shadow: 0 0 8px rgba(196, 160, 96, 0.4);
+}
+
+.post-content ul,
+.post-content ol {
+    margin: 1em 0 1.5em 2em;
+}
+
+.post-content li {
+    margin-bottom: 0.5em;
+}
+
+.post-content blockquote {
+    border-left: 4px solid #8b5a2b;
+    padding-left: 1.5em;
+    margin: 1.5em 0;
+    font-style: italic;
+    color: #6a5040;
+}
+
+.post-content img,
+.post-content video,
+.post-content iframe,
+.post-content embed,
+.post-content object {
+    max-width: 100%;
+    height: auto;
+    margin: 1.5em auto;
+    display: block;
+}
+
+/* First image in post - put at top with no top margin */
+.post-content > p:first-child img,
+.post-content > img:first-child {
+    margin-top: 0;
+}
+
+/* Retro terminal code blocks - phosphor green */
+.post-content code,
+.page-content code {
+    background: #1a1a1a;
+    color: #20c20e;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.post-content pre,
+.page-content pre {
+    background: #0a0a0a;
+    padding: 1em;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin: 1.5em 0;
+    border: 2px solid #333;
+    box-shadow: inset 0 0 20px rgba(32, 194, 14, 0.05);
+    position: relative;
+}
+
+/* CRT scanline effect */
+.post-content pre::before,
+.page-content pre::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: repeating-linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.15),
+        rgba(0, 0, 0, 0.15) 1px,
+        transparent 1px,
+        transparent 2px
+    );
+    pointer-events: none;
+    border-radius: 6px;
+}
+
+.post-content pre code,
+.page-content pre code {
+    background: none;
+    padding: 0;
+    color: #20c20e;
+    font-family: "Courier New", Courier, monospace;
+    text-shadow: 0 0 5px rgba(32, 194, 14, 0.5);
+}
+
+/* Tables - responsive wrapper */
+.post-content table,
+.page-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5em 0;
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.post-content th,
+.post-content td,
+.page-content th,
+.page-content td {
+    padding: 10px 12px;
+    border: 1px solid rgba(139, 90, 43, 0.3);
+    text-align: left;
+    white-space: nowrap;
+}
+
+.post-content th,
+.page-content th {
+    background: rgba(139, 90, 43, 0.15);
+    font-family: "MedievalSharp", cursive;
+    color: #4a3520;
+}
+
+html.night .post-content th,
+html.night .page-content th {
+    background: rgba(100, 140, 180, 0.2);
+    color: #d0d8e0;
+}
+
+html.night .post-content th,
+html.night .post-content td,
+html.night .page-content th,
+html.night .page-content td {
+    border-color: rgba(100, 140, 180, 0.3);
+}
+
+/* "Read more" link - Adventure game action button style */
+.post-link {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 16px;
+    color: #f5e6d3;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "MedievalSharp", cursive;
+    background: linear-gradient(180deg, #8b5a2b 0%, #6b4423 100%);
+    border: 3px solid #5c3d1e;
+    box-shadow:
+        inset 1px 1px 0 #a87040,
+        inset -1px -1px 0 #4a3018,
+        2px 2px 0 rgba(0, 0, 0, 0.3);
+    transition: all 0.1s ease;
+}
+
+.post-link:hover {
+    background: linear-gradient(180deg, #9a6833 0%, #7a5030 100%);
+    transform: translateY(-2px);
+    box-shadow:
+        inset 1px 1px 0 #b88050,
+        inset -1px -1px 0 #5a4020,
+        4px 4px 0 rgba(0, 0, 0, 0.25);
+    color: #fff;
+}
+
+.post-link:active {
+    transform: translateY(1px);
+    box-shadow:
+        inset -1px -1px 0 #a87040,
+        inset 1px 1px 0 #4a3018,
+        1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.post-link::after {
+    content: " →";
+}
+
+/* Single post header */
+.post-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgba(139, 90, 43, 0.2);
+}
+
+.post-header .post-sprite {
+    width: 96px;
+    height: 96px;
+    /* Scale container to 128px visual size while keeping 96px for animations */
+    transform: scale(1.333);
+    transform-origin: top left;
+    margin-right: 32px;
+    margin-bottom: 32px;
+}
+
+.post-header .post-sprite img {
+    width: 192px;
+    height: 192px;
+}
+
+.post-header-content {
+    flex: 1;
+}
+
+.post-header .post-title {
+    font-size: 32px;
+    line-height: 1.2;
+}
+
+/* Page title (for about, contact, etc) */
+.page-title {
+    font-family: "MedievalSharp", cursive;
+    font-size: 32px;
+    color: #2d2d2d;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.page-content {
+    color: #5a4030;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+/* Photo grid */
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 12px;
+    padding: 10px 0;
+}
+
+.photo-item {
+    display: block;
+    aspect-ratio: 1;
+    overflow: hidden;
+    border: 3px solid #8b5a2b;
+    border-radius: 4px;
+    position: relative;
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.photo-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.photo-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    image-rendering: auto;
+}
+
+.photo-item img.pixelated {
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    transition: opacity 0.4s ease;
+}
+
+.photo-item img.clear {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.photo-item:hover img.pixelated {
+    opacity: 0;
+}
+
+.photo-item:hover img.clear {
+    opacity: 1;
+}
+
+/* Sprite animations (96px size for list) */
+.sprite-cat img {
+    animation: anim-cat 2.4s steps(1) infinite;
+}
+.sprite-knight img {
+    animation: anim-knight 3.1s steps(1) infinite;
+}
+.sprite-dragon img {
+    animation: anim-dragon 1.8s steps(1) infinite;
+}
+.sprite-clown img {
+    animation: anim-clown 1.6s steps(1) infinite;
+}
+.sprite-golem img,
+.sprite-tech img {
+    animation: anim-golem 1.6s steps(1) infinite;
+}
+.sprite-bard img {
+    animation: anim-bard 0.6s steps(1) infinite;
+}
+.sprite-adventure img {
+    animation: anim-adventure 1.6s steps(1) infinite;
+}
+.sprite-quill img {
+    animation: anim-quill 1.6s steps(1) infinite;
+}
+.sprite-imp img {
+    animation: anim-imp 1.6s steps(1) infinite;
+}
+.sprite-book img {
+    animation: anim-book 0.8s steps(1) infinite;
+}
+.sprite-clem img {
+    animation: anim-clem 0.8s steps(1) infinite;
+}
+.sprite-muse img {
+    animation: anim-muse 1.6s steps(1) infinite;
+}
+.sprite-skele img {
+    animation: anim-skele 2s steps(1) infinite;
+}
+.sprite-balloon img {
+    animation: anim-balloon 1.5s steps(1) infinite;
+}
+.sprite-donkey img {
+    animation: anim-donkey 2.8s steps(1) infinite;
+}
+.sprite-cauldron img {
+    animation: anim-cauldron 1.6s steps(1) infinite;
+}
+.sprite-banjo img {
+    animation: anim-banjo 0.8s steps(1) infinite;
+}
+.sprite-wizard img {
+    animation: anim-wizard 0.8s steps(1) infinite;
+}
+
+@keyframes anim-cat {
+    0% {
+        transform: translate(0, 0);
+    }
+    41.67% {
+        transform: translate(-96px, 0);
+    }
+    50% {
+        transform: translate(0, -96px);
+    }
+    91.67% {
+        transform: translate(-96px, -96px);
+    }
+}
+@keyframes anim-knight {
+    0% {
+        transform: translate(0, 0);
+    }
+    6.45% {
+        transform: translate(-96px, 0);
+    }
+    38.71% {
+        transform: translate(-96px, -96px);
+    }
+    54.84% {
+        transform: translate(-96px, 0);
+    }
+    87.1% {
+        transform: translate(-96px, -96px);
+    }
+    93.55% {
+        transform: translate(0, -96px);
+    }
+}
+@keyframes anim-dragon {
+    0% {
+        transform: translate(0, 0);
+    }
+    55.56% {
+        transform: translate(-96px, 0);
+    }
+    66.67% {
+        transform: translate(0, -96px);
+    }
+    88.89% {
+        transform: translate(-96px, -96px);
+    }
+}
+@keyframes anim-clown {
+    0% {
+        transform: translate(0, 0);
+    }
+    12.5% {
+        transform: translate(-96px, 0);
+    }
+    25% {
+        transform: translate(-96px, -96px);
+    }
+    87.5% {
+        transform: translate(0, -96px);
+    }
+}
+@keyframes anim-golem {
+    0% {
+        transform: translate(0, 0);
+    }
+    62.5% {
+        transform: translate(-96px, 0);
+    }
+    75% {
+        transform: translate(0, -96px);
+    }
+    87.5% {
+        transform: translate(-96px, -96px);
+    }
+}
+@keyframes anim-bard {
+    0% {
+        transform: translate(0, 0);
+    }
+    16.67% {
+        transform: translate(-96px, 0);
+    }
+    50% {
+        transform: translate(0, -96px);
+    }
+    66.67% {
+        transform: translate(-96px, -96px);
+    }
+}
+@keyframes anim-adventure {
+    0% {
+        transform: translate(0, 0);
+    }
+    62.5% {
+        transform: translate(-96px, 0);
+    }
+    75% {
+        transform: translate(0, -96px);
+    }
+    87.5% {
+        transform: translate(-96px, -96px);
+    }
+}
+@keyframes anim-quill {
+    0% {
+        transform: translate(0, 0);
+    }
+    12.5% {
+        transform: translate(-96px, 0);
+    }
+    25% {
+        transform: translate(0, -96px);
+    }
+    37.5% {
+        transform: translate(-96px, -96px);
+    }
+}
+@keyframes anim-imp {
+    0% {
+        transform: translate(0, 0);
+    }
+    62.5% {
+        transform: translate(-96px, 0);
+    }
+    75% {
+        transform: translate(0, -96px);
+    }
+    87.5% {
+        transform: translate(-96px, -96px);
+    }
+}
+@keyframes anim-book {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(-96px, 0);
+    }
+    50% {
+        transform: translate(0, -96px);
+    }
+    75% {
+        transform: translate(-96px, -96px);
+    }
+}
+@keyframes anim-clem {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(-96px, 0);
+    }
+    50% {
+        transform: translate(0, -96px);
+    }
+    75% {
+        transform: translate(-96px, -96px);
+    }
+}
+@keyframes anim-muse {
+    0% {
+        transform: translate(0, 0);
+    }
+    12.5% {
+        transform: translate(-96px, 0);
+    }
+    25% {
+        transform: translate(0, -96px);
+    }
+    37.5% {
+        transform: translate(-96px, -96px);
+    }
+}
+@keyframes anim-skele {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(-96px, 0);
+    }
+    62.5% {
+        transform: translate(0, -96px);
+    }
+    87.5% {
+        transform: translate(-96px, -96px);
+    }
+}
+@keyframes anim-balloon {
+    0% {
+        transform: translate(0, 0);
+    }
+    33.33% {
+        transform: translate(-96px, 0);
+    }
+    53.33% {
+        transform: translate(0, -96px);
+    }
+    86.67% {
+        transform: translate(-96px, -96px);
+    }
+}
+@keyframes anim-donkey {
+    0% {
+        transform: translate(0, 0);
+    }
+    7.14% {
+        transform: translate(-96px, 0);
+    }
+    42.86% {
+        transform: translate(-96px, -96px);
+    }
+    57.14% {
+        transform: translate(-96px, 0);
+    }
+    92.86% {
+        transform: translate(-96px, -96px);
+    }
+}
+@keyframes anim-cauldron {
+    0% {
+        transform: translate(0, 0);
+    }
+    62.5% {
+        transform: translate(-96px, 0);
+    }
+    75% {
+        transform: translate(0, -96px);
+    }
+    87.5% {
+        transform: translate(-96px, -96px);
+    }
+}
+@keyframes anim-banjo {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(-96px, 0);
+    }
+    50% {
+        transform: translate(0, -96px);
+    }
+    75% {
+        transform: translate(-96px, -96px);
+    }
+}
+@keyframes anim-wizard {
+    0% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(-96px, 0);
+    }
+    50% {
+        transform: translate(0, -96px);
+    }
+    75% {
+        transform: translate(-96px, -96px);
+    }
+}
+
+/* Theme-specific 6x3 sprite sheet animations (18 frames at 64px, scaled to 96px) */
+/* Used for theme category sprites in /{theme}/sprites/category/*.png */
+.theme-sprite-6x3 img {
+    width: 576px !important;  /* 384 * 1.5 */
+    height: 288px !important; /* 192 * 1.5 */
+    animation: anim-theme-6x3 6s steps(1) infinite !important;
+}
+
+@keyframes anim-theme-6x3 {
+    0%      { transform: translate(0, 0); }
+    5.56%   { transform: translate(-96px, 0); }
+    11.11%  { transform: translate(-192px, 0); }
+    16.67%  { transform: translate(-288px, 0); }
+    22.22%  { transform: translate(-384px, 0); }
+    27.78%  { transform: translate(-480px, 0); }
+    33.33%  { transform: translate(0, -96px); }
+    38.89%  { transform: translate(-96px, -96px); }
+    44.44%  { transform: translate(-192px, -96px); }
+    50%     { transform: translate(-288px, -96px); }
+    55.56%  { transform: translate(-384px, -96px); }
+    61.11%  { transform: translate(-480px, -96px); }
+    66.67%  { transform: translate(0, -192px); }
+    72.22%  { transform: translate(-96px, -192px); }
+    77.78%  { transform: translate(-192px, -192px); }
+    83.33%  { transform: translate(-288px, -192px); }
+    88.89%  { transform: translate(-384px, -192px); }
+    94.44%  { transform: translate(-480px, -192px); }
+}
+
+/* Sprite-specific title glow and tag colors */
+.sprite-skele ~ .post-body .post-title,
+.category-health .post-title,
+.category-health .archive-title {
+    text-shadow:
+        0 0 8px #5de2a3,
+        2px 2px 0 rgba(255, 255, 255, 0.3);
+}
+.sprite-skele ~ .post-body .post-tag,
+.category-health .post-tag,
+.category-health .archive-tag {
+    background: #5de2a3;
+    color: #1a3a2a;
+}
+
+.sprite-knight ~ .post-body .post-title,
+.category-gaming .post-title,
+.category-gaming .archive-title {
+    text-shadow:
+        0 0 8px #40c8d8,
+        2px 2px 0 rgba(255, 255, 255, 0.3);
+}
+.sprite-knight ~ .post-body .post-tag,
+.category-gaming .post-tag,
+.category-gaming .archive-tag {
+    background: #40c8d8;
+    color: #1a3a3a;
+}
+
+.sprite-dragon ~ .post-body .post-title,
+.category-tabletop .post-title,
+.category-tabletop .archive-title {
+    text-shadow:
+        0 0 8px #40c8d8,
+        2px 2px 0 rgba(255, 255, 255, 0.3);
+}
+
+.sprite-dragon ~ .post-body .post-tag,
+.category-tabletop .post-tag,
+.category-tabletop .archive-tag {
+    background: #40c8d8;
+    color: #1a3a3a;
+}
+
+.sprite-clown ~ .post-body .post-title,
+.category-personal .post-title,
+.category-personal .archive-title {
+    text-shadow:
+        0 0 8px #7050a0,
+        2px 2px 0 rgba(255, 255, 255, 0.3);
+}
+
+.sprite-clown ~ .post-body .post-tag,
+.category-personal .post-tag,
+.category-personal .archive-tag {
+    background: #7050a0;
+    color: #fff;
+}
+
+.sprite-golem ~ .post-body .post-title,
+.category-tech .post-title,
+.category-tech .archive-title {
+    text-shadow:
+        0 0 8px #6cd9e8,
+        2px 2px 0 rgba(255, 255, 255, 0.3);
+}
+.sprite-golem ~ .post-body .post-tag,
+.category-tech .post-tag,
+.category-tech .archive-tag {
+    background: #6cd9e8;
+    color: #1a3a3a;
+}
+
+.sprite-wizard ~ .post-body .post-tag,
+.sprite-banjo ~ .post-body .post-title,
+.category-music .post-title,
+.category-music .archive-title {
+    text-shadow:
+        0 0 8px #e8c546,
+        2px 2px 0 rgba(255, 255, 255, 0.3);
+}
+
+.sprite-banjo ~ .post-body .post-tag,
+.category-music .post-tag,
+.category-music .archive-tag {
+    background: #e8c546;
+    color: #3a3020;
+}
+.sprite-adventure ~ .post-body .post-title,
+.category-travel .post-title,
+.category-travel .archive-title {
+    text-shadow:
+        0 0 8px #5a9e5a,
+        2px 2px 0 rgba(255, 255, 255, 0.3);
+}
+.sprite-adventure ~ .post-body .post-tag,
+.category-travel .post-tag,
+.category-travel .archive-tag {
+    background: #5a9e5a;
+    color: #fff;
+}
+
+.sprite-donkey ~ .post-body .post-title,
+.category-adhd .post-title,
+.category-adhd .archive-title {
+    text-shadow:
+        0 0 8px #5a9e5a,
+        2px 2px 0 rgba(255, 255, 255, 0.3);
+}
+.sprite-donkey ~ .post-body .post-tag,
+.category-adhd .post-tag,
+.category-adhd .archive-tag {
+    background: #5a9e5a;
+    color: #fff;
+}
+
+.sprite-quill ~ .post-body .post-title,
+.category-writing .post-title,
+.category-writing .archive-title {
+    text-shadow:
+        0 0 8px #c4a060,
+        2px 2px 0 rgba(255, 255, 255, 0.3);
+}
+
+.sprite-quill ~ .post-body .post-tag,
+.category-writing .post-tag,
+.category-writing .archive-tag {
+    background: #c4a060;
+    color: #1a1408;
+}
+
+.sprite-muse ~ .post-body .post-title,
+.category-crafting .post-title,
+.category-crafting .archive-title {
+    text-shadow:
+        0 0 8px #c4a060,
+        2px 2px 0 rgba(255, 255, 255, 0.3);
+}
+
+.sprite-muse ~ .post-body .post-tag,
+.category-crafting .post-tag,
+.category-crafting .archive-tag {
+    background: #c4a060;
+    color: #1a1408;
+}
+.sprite-cauldron ~ .post-body .post-title,
+.category-cooking .post-title,
+.category-cooking .archive-title {
+    text-shadow:
+        0 0 8px #e07040,
+        2px 2px 0 rgba(255, 255, 255, 0.3);
+}
+
+.sprite-cauldron ~ .post-body .post-tag,
+.category-cooking .post-tag,
+.category-cooking .archive-tag {
+    background: #e07040;
+    color: #fff;
+}
+
+.sprite-book ~ .post-body .post-title,
+.category-reading .post-title,
+.category-reading .archive-title {
+    text-shadow:
+        0 0 8px #8060c0,
+        2px 2px 0 rgba(255, 255, 255, 0.3);
+}
+.sprite-book ~ .post-body .post-tag,
+.category-reading .post-tag,
+.category-reading .archive-tag {
+    background: #8060c0;
+    color: #fff;
+}
+
+.sprite-cat ~ .post-body .post-title,
+.category-pets .post-title,
+.category-pets .archive-title {
+    text-shadow:
+        0 0 8px #e0a080,
+        2px 2px 0 rgba(255, 255, 255, 0.3);
+}
+.sprite-cat ~ .post-body .post-tag,
+.category-pets .post-tag,
+.category-pets .archive-tag {
+    background: #e0a080;
+    color: #2a1008;
+}
+
+/* Single post navigation arrows */
+.post-nav-arrows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0 10px;
+    margin-top: 10px;
+    border-top: 2px solid rgba(139, 90, 43, 0.2);
+}
+
+.nav-arrow {
+    width: 48px;
+    height: 48px;
+    background: #8b5a2b;
+    color: #f5e6d3;
+    border: 3px solid #5c3d2e;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: url("/fantasy/cursors/hand.png"), pointer;
+    transition:
+        transform 0.15s ease,
+        background 0.15s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-arrow:hover:not(:disabled) {
+    background: #a06830;
+    transform: scale(1.1);
+}
+
+.nav-arrow:disabled {
+    background: #ccc;
+    border-color: #888;
+    color: #555;
+    cursor: url("/fantasy/cursors/pointer.png"), auto;
+    opacity: 0.6;
+}
+
+.post-counter {
+    font-family: "MedievalSharp", cursive;
+    font-size: 18px;
+    color: #5c3d2e;
+    min-width: 60px;
+    text-align: center;
+}
+
+/* Footer - Pixel Art Style */
+.site-footer {
+    max-width: 964px;
+    margin: 20px auto;
+    padding: 20px 20px;
+    text-align: center;
+    color: #5c4030;
+    font-size: 14px;
+    font-family: "MedievalSharp", cursive;
+    position: relative;
+}
+
+/* Decorative pixel divider above footer */
+.site-footer::before {
+    content: "⚔ ✦ ⚔";
+    display: block;
+    margin-bottom: 20px;
+    font-size: 18px;
+    letter-spacing: 12px;
+    color: #8b5a2b;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+.site-footer p {
+    background: linear-gradient(180deg, #d4c4a0 0%, #c4b490 100%);
+    display: inline-block;
+    padding: 12px 24px;
+    border: 3px solid #8b5a2b;
+    box-shadow:
+        inset 2px 2px 0 #e8dcc0,
+        inset -2px -2px 0 #a89870,
+        3px 3px 0 rgba(0, 0, 0, 0.2);
+    image-rendering: pixelated;
+}
+
+/* Night mode footer */
+html.night .site-footer {
+    color: #b5b5b5;
+}
+
+html.night .site-footer::before {
+    color: #80a0c0;
+    text-shadow: 0 0 8px rgba(100, 150, 200, 0.4);
+}
+
+html.night .site-footer p {
+    background: linear-gradient(180deg, #3a4050 0%, #2a3040 100%);
+    border-color: #4a5a6a;
+    color: #b0b8c0;
+    box-shadow:
+        inset 2px 2px 0 #4a5560,
+        inset -2px -2px 0 #1a2030,
+        3px 3px 0 rgba(0, 0, 0, 0.4),
+        0 0 15px rgba(80, 120, 180, 0.2);
+}
+
+/* Archive styles */
+.archive-container {
+    position: relative;
+    z-index: 1; /* Above floating sprites (z-index: -1) */
+    background: transparent;
+    image-rendering: pixelated;
+    border: 64px solid transparent;
+    border-image-source: url("/fantasy/tiles/day_tiles.webp");
+    border-image-slice: 64 96 64 96;
+    border-image-width: 64px 96px 64px 96px;
+    border-image-repeat: round;
+    padding: 20px;
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+
+/* Cream background inside archive border */
+.archive-container::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    background: #f1e9d2;
+    z-index: -1;
+}
+
+.year-section {
+    margin-bottom: 40px;
+}
+
+.year-section:last-child {
+    margin-bottom: 0;
+}
+
+.year-header {
+    font-family: "MedievalSharp", cursive;
+    font-size: 32px;
+    color: #4a3020;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #8b5a2b;
+}
+
+.archive-list {
+    list-style: none;
+    position: relative;
+    z-index: 1; /* Ensure list is above ::before background */
+}
+
+.archive-entry {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(139, 90, 43, 0.2);
+    transition: background 0.2s;
+    position: relative; /* Ensure clickable above background */
+}
+
+.archive-entry:hover {
+    background: rgba(139, 90, 43, 0.1);
+    margin: 0 -10px;
+    padding: 8px 10px;
+}
+
+.archive-entry:last-child {
+    border-bottom: none;
+}
+
+.archive-sprite {
+    width: 96px;
+    height: 96px;
+    overflow: hidden;
+    image-rendering: pixelated;
+    flex-shrink: 0;
+    /* Scale container to 64px visual size while keeping 96px for animations */
+    transform: scale(0.667);
+    transform-origin: top left;
+    margin-right: -32px;
+    margin-bottom: -32px;
+}
+
+.archive-sprite img {
+    width: 192px;
+    height: 192px;
+    image-rendering: pixelated;
+}
+
+.archive-date {
+    font-size: 14px;
+    color: #6a5a4a;
+    min-width: 60px;
+}
+
+.archive-title {
+    flex: 1;
+    font-family: "MedievalSharp", cursive;
+    font-size: 18px;
+    color: #2d2d2d;
+    text-decoration: none;
+    transition:
+        color 0.15s ease,
+        text-shadow 0.15s ease;
+}
+
+.archive-title:hover {
+    color: #5c3d2e;
+    text-shadow:
+        0 0 10px rgba(139, 90, 43, 0.25),
+        1px 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+/* Archive tag - Smaller pixel art badge */
+.archive-tag {
+    display: inline-block;
+    background: linear-gradient(180deg, #9a6833 0%, #7a4a23 100%);
+    color: #f5e6d3;
+    padding: 3px 8px;
+    border-radius: 0;
+    font-size: 12px;
+    font-family: "MedievalSharp", cursive;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    border: 2px solid #5c3d1e;
+    box-shadow:
+        inset 1px 1px 0 #b08048,
+        inset -1px -1px 0 #5a3818,
+        1px 1px 0 rgba(0, 0, 0, 0.25);
+    transition:
+        transform 0.1s ease,
+        box-shadow 0.1s ease;
+}
+
+.archive-tag:hover {
+    transform: translateY(-1px);
+    color: #fff;
+    background: linear-gradient(180deg, #aa7843 0%, #8a5a33 100%);
+}
+
+/* Category page */
+.category-page {
+    padding: 20px 0;
+}
+
+.category-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid rgba(139, 90, 43, 0.2);
+}
+
+.category-sprite-large {
+    margin-bottom: 20px;
+}
+
+.category-sprite-large .post-sprite {
+    width: 96px;
+    height: 96px;
+    transform: scale(1.5);
+    transform-origin: center;
+}
+
+.category-title {
+    font-family: "MedievalSharp", cursive;
+    font-size: 36px;
+    color: #5c3d2e;
+    margin-bottom: 8px;
+    text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.5);
+}
+
+.category-count {
+    font-size: 14px;
+    color: #8b5a2b;
+    font-style: italic;
+}
+
+/* Note Scrolls - 3-part tileable */
+.note-scroll {
+    position: relative;
+    z-index: 1;
+    margin: -73px auto;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* First open note */
+.note-scroll:first-child {
+    margin-top: 20px;
+}
+
+/* First closed note */
+.note-scroll.rolled-up:first-child {
+    margin-top: 2px;
+}
+
+/* Open + Open */
+.note-scroll + .note-scroll {
+    margin-top: -73px;
+}
+
+/* Open + Closed */
+.note-scroll:not(.rolled-up) + .note-scroll.rolled-up {
+    margin-top: -13px;
+}
+
+/* Closed + Open */
+.note-scroll.rolled-up + .note-scroll:not(.rolled-up) {
+    margin-top: -124px;
+}
+
+/* Closed + Closed */
+.note-scroll.rolled-up + .note-scroll.rolled-up {
+    margin-top: -87px;
+}
+
+/* Open → Posts */
+.note-scroll:not(.rolled-up) + .posts-container {
+    margin-top: -23px;
+}
+
+/* Closed → Posts */
+.note-scroll.rolled-up + .posts-container {
+    margin-top: -100px;
+}
+
+/* Posts → Open */
+.posts-container + .note-scroll:not(.rolled-up) {
+    margin-top: -18px;
+}
+
+/* Posts → Closed */
+.posts-container + .note-scroll.rolled-up {
+    margin-top: 20px;
+}
+
+.note-scroll::before {
+    content: "";
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    height: 289px;
+    background: url("/fantasy/notes/top.webp") no-repeat center bottom;
+    background-size: 100% auto;
+    image-rendering: pixelated;
+}
+
+.note-scroll::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 269px;
+    max-width: 800px;
+    background: url("/fantasy/notes/bottom.webp") no-repeat center top;
+    background-size: 100% auto;
+    image-rendering: pixelated;
+}
+
+.note-scroll .note-content {
+    font-family: "MedievalSharp", cursive;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #4a3520;
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    padding: 0px 15% 0px 15%;
+    box-sizing: border-box;
+    background: url("/fantasy/notes/middle.webp") repeat-y center top;
+    background-size: 100% auto;
+    image-rendering: pixelated;
+    margin-top: 0px;
+    margin-bottom: -59px;
+    position: relative;
+    z-index: -1;
+}
+
+.note-scroll .note-content p {
+    margin: 0 0 12px 0;
+}
+
+.note-scroll .note-content p:last-child {
+    margin-bottom: 0;
+}
+
+.note-scroll .note-content a {
+    color: #8b4513;
+    text-decoration: underline;
+}
+
+.note-scroll .note-content a:hover {
+    color: #5c3d2e;
+}
+
+/* Media constraints for notes */
+.note-scroll .note-content img,
+.note-scroll .note-content video,
+.note-scroll .note-content iframe,
+.note-scroll .note-content embed,
+.note-scroll .note-content object {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 12px auto;
+    border-radius: 4px;
+}
+
+.note-scroll .note-meta {
+    text-align: center;
+    position: absolute;
+    bottom: 200px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.note-scroll .note-date {
+    font-family: "MedievalSharp", cursive;
+    font-size: 24px;
+    color: #7a6550;
+    text-decoration: none;
+}
+
+.note-scroll a.note-date:hover {
+    color: #4a3520;
+}
+
+/* Single note page - larger font */
+.note-scroll-single .note-content {
+    font-size: 24px;
+}
+
+/* Clickable bottom zone for scroll roll-up */
+.scroll-bottom-clickable {
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    height: 50px;
+    cursor: url("/fantasy/cursors/hand.png"), pointer;
+    z-index: 5;
+    transition: filter 0.2s ease;
+}
+
+.scroll-bottom-clickable:hover {
+    filter: brightness(1.1);
+}
+
+.scroll-bottom-clickable:active {
+    filter: brightness(0.95);
+}
+
+/* Roll-up animation */
+.note-scroll {
+    transition:
+        margin 0.5s ease,
+        height 0.5s ease;
+}
+
+.note-scroll::before,
+.note-scroll::after {
+    transition:
+        height 0.5s ease,
+        background-position 0.3s ease,
+        top 0.5s ease,
+        background-size 0.3s ease;
+}
+
+.note-scroll .note-content {
+    transition:
+        max-height 0.5s ease,
+        padding 0.5s ease,
+        opacity 0.3s ease;
+    overflow: hidden;
+}
+
+.note-scroll .note-meta {
+    transition:
+        max-height 0.3s ease,
+        opacity 0.3s ease,
+        margin 0.3s ease,
+        padding 0.3s ease;
+    overflow: hidden;
+}
+
+/* Snap mode - disable animations for scroll rollup */
+.note-scroll,
+.note-scroll::before,
+.note-scroll::after,
+.note-scroll .note-content,
+.note-scroll .note-meta {
+    transition: none !important;
+}
+
+/* Rolled up state - show closed scroll image */
+.note-scroll.rolled-up {
+    width: 100%;
+    height: 289px;
+    overflow: hidden;
+    margin: 10px auto 10px auto;
+    background: url("/fantasy/notes/closed.webp") no-repeat center top;
+    background-size: 100% auto;
+    image-rendering: pixelated;
+    z-index: 100 !important;
+}
+
+.note-scroll.rolled-up .note-content {
+    max-height: 0 !important;
+    overflow: hidden;
+    opacity: 0;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.note-scroll.rolled-up .note-meta {
+    display: block;
+    position: absolute;
+    top: 28px;
+    bottom: auto;
+    opacity: 1;
+    max-height: none;
+}
+
+.note-scroll.rolled-up .note-date {
+    font-size: 24px;
+    color: #7a6550;
+}
+
+/* Hide top/bottom when rolled - using closed image instead */
+.note-scroll.rolled-up::before,
+.note-scroll.rolled-up::after {
+    display: none;
+}
+
+/* Clickable zone covers whole scroll when rolled */
+.note-scroll.rolled-up .scroll-bottom-clickable {
+    height: 100%;
+    top: 0;
+    bottom: 0;
+}
+
+/* Focus visible styles for clickable zone */
+.scroll-bottom-clickable:focus {
+    outline: none;
+}
+.scroll-bottom-clickable:focus-visible {
+    outline: 3px solid #8b5a2b;
+    outline-offset: 2px;
+}
+
+/* Hover effect */
+.note-scroll.rolled-up:hover {
+    filter: brightness(1.05);
+}
+
+/* Night mode notes */
+html.night .note-scroll {
+    filter: invert(0.85) hue-rotate(180deg);
+}
+
+html.night .note-scroll.rolled-up:hover {
+    filter: invert(0.85) hue-rotate(180deg) brightness(1.1);
+}
+
+html.night .note-scroll .note-content {
+    color: #3a2a18;
+}
+
+/* Counter-invert media in night mode scrolls so they look normal */
+html.night .note-scroll img,
+html.night .note-scroll video,
+html.night .note-scroll iframe,
+html.night .note-scroll embed,
+html.night .note-scroll object {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   THEME: SCI-FI NOTES
+   ═══════════════════════════════════════════════════════════════ */
+
+/* sci-fi - Base spacing */
+html.theme-sci-fi .note-scroll {
+    margin: -196px auto;
+}
+
+html.theme-sci-fi .note-scroll:first-child {
+    margin-top: 20px;
+}
+
+html.theme-sci-fi .note-scroll.rolled-up:first-child {
+    margin-top: 2px;
+}
+
+/* sci-fi - Open + Open */
+html.theme-sci-fi .note-scroll + .note-scroll {
+    margin-top: -196px;
+}
+
+/* sci-fi - Open + Closed */
+html.theme-sci-fi .note-scroll:not(.rolled-up) + .note-scroll.rolled-up {
+    margin-top: -66px;
+}
+
+/* sci-fi - Closed + Open */
+html.theme-sci-fi .note-scroll.rolled-up + .note-scroll:not(.rolled-up) {
+    margin-top: -224px;
+}
+
+/* sci-fi - Closed + Closed */
+html.theme-sci-fi .note-scroll.rolled-up + .note-scroll.rolled-up {
+    margin-top: -87px;
+}
+
+/* sci-fi - Open → Posts */
+html.theme-sci-fi .note-scroll:not(.rolled-up) + .posts-container {
+    margin-top: -84px;
+}
+
+/* sci-fi - Closed → Posts */
+html.theme-sci-fi .note-scroll.rolled-up + .posts-container {
+    margin-top: -83px;
+}
+
+/* sci-fi - Posts → Open */
+html.theme-sci-fi .posts-container + .note-scroll:not(.rolled-up) {
+    margin-top: -94px;
+}
+
+/* sci-fi - Posts → Closed */
+html.theme-sci-fi .posts-container + .note-scroll.rolled-up {
+    margin-top: 13px;
+}
+
+html.theme-sci-fi .note-scroll::before {
+    background-image: url("/sci-fi/notes/top.webp");
+    height: 289px;
+}
+
+html.theme-sci-fi .note-scroll .note-content {
+    background-image: url("/sci-fi/notes/middle.webp");
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 20px;
+    color: #ffffff;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    line-height: 1.5;
+    padding: 0px 15% 0px 15%;
+}
+
+html.theme-sci-fi .note-scroll::after {
+    background-image: url("/sci-fi/notes/bottom.webp");
+    height: 275px;
+}
+
+/* sci-fi - Date (Open) */
+html.theme-sci-fi .note-scroll .note-meta {
+    position: absolute;
+    bottom: 200px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+html.theme-sci-fi .note-scroll .note-date {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 24px;
+    color: #88ccff;
+}
+
+/* sci-fi - Closed */
+html.theme-sci-fi .note-scroll.rolled-up {
+    background-image: url("/sci-fi/notes/closed.webp");
+    height: 289px;
+}
+
+/* sci-fi - Date (Closed) */
+html.theme-sci-fi .note-scroll.rolled-up .note-meta {
+    display: block;
+    position: absolute;
+    top: 60px;
+    bottom: auto;
+}
+
+html.theme-sci-fi .note-scroll.rolled-up .note-date {
+    font-size: 24px;
+    color: #88ccff;
+}
+
+html.theme-sci-fi .scroll-bottom-clickable {
+    height: 50px;
+    bottom: 100px;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   THEME: CYBERPUNK NOTES
+   ═══════════════════════════════════════════════════════════════ */
+
+/* cyberpunk - Base spacing */
+html.theme-cyberpunk .note-scroll {
+    margin: -72px auto;
+}
+
+html.theme-cyberpunk .note-scroll:first-child {
+    margin-top: 20px;
+}
+
+html.theme-cyberpunk .note-scroll.rolled-up:first-child {
+    margin-top: 2px;
+}
+
+/* cyberpunk - Open + Open */
+html.theme-cyberpunk .note-scroll + .note-scroll {
+    margin-top: -72px;
+}
+
+/* cyberpunk - Open + Closed */
+html.theme-cyberpunk .note-scroll:not(.rolled-up) + .note-scroll.rolled-up {
+    margin-top: 24px;
+}
+
+/* cyberpunk - Closed + Open */
+html.theme-cyberpunk .note-scroll.rolled-up + .note-scroll:not(.rolled-up) {
+    margin-top: -96px;
+}
+
+/* cyberpunk - Closed + Closed */
+html.theme-cyberpunk .note-scroll.rolled-up + .note-scroll.rolled-up {
+    margin-top: -2px;
+}
+
+/* cyberpunk - Open → Posts */
+html.theme-cyberpunk .note-scroll:not(.rolled-up) + .posts-container {
+    margin-top: 29px;
+}
+
+/* cyberpunk - Closed → Posts */
+html.theme-cyberpunk .note-scroll.rolled-up + .posts-container {
+    margin-top: -15px;
+}
+
+/* cyberpunk - Posts → Open */
+html.theme-cyberpunk .posts-container + .note-scroll:not(.rolled-up) {
+    margin-top: -99px;
+}
+
+/* cyberpunk - Posts → Closed */
+html.theme-cyberpunk .posts-container + .note-scroll.rolled-up {
+    margin-top: 13px;
+}
+
+html.theme-cyberpunk .note-scroll::before {
+    background-image: url("/cyberpunk/notes/top.webp");
+    height: 289px;
+}
+
+html.theme-cyberpunk .note-scroll .note-content {
+    background-image: url("/cyberpunk/notes/middle.webp");
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 20px;
+    color: #33ff33;
+    text-shadow: 0 0 8px rgba(51, 255, 51, 0.6);
+    line-height: 1.5;
+    padding: 0px 15% 0px 15%;
+}
+
+html.theme-cyberpunk .note-scroll::after {
+    background-image: url("/cyberpunk/notes/bottom.webp");
+    height: 117px;
+}
+
+/* cyberpunk - Date (Open) */
+html.theme-cyberpunk .note-scroll .note-meta {
+    position: absolute;
+    bottom: 45px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+html.theme-cyberpunk .note-scroll .note-date {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 24px;
+    color: #33ff33;
+}
+
+/* cyberpunk - Closed */
+html.theme-cyberpunk .note-scroll.rolled-up {
+    background-image: url("/cyberpunk/notes/closed.webp");
+    height: 209px;
+}
+
+/* cyberpunk - Date (Closed) */
+html.theme-cyberpunk .note-scroll.rolled-up .note-meta {
+    display: block;
+    position: absolute;
+    top: 116px;
+    bottom: auto;
+}
+
+html.theme-cyberpunk .note-scroll.rolled-up .note-date {
+    font-size: 24px;
+    color: #33ff33;
+}
+
+html.theme-cyberpunk .scroll-bottom-clickable {
+    height: 50px;
+    bottom: -12px;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   THEME: CABIN NOTES
+   ═══════════════════════════════════════════════════════════════ */
+
+/* cabin - Base spacing */
+html.theme-cabin .note-scroll {
+    margin: -35px auto;
+}
+
+html.theme-cabin .note-scroll:first-child {
+    margin-top: 20px;
+}
+
+html.theme-cabin .note-scroll.rolled-up:first-child {
+    margin-top: 2px;
+}
+
+/* cabin - Open + Open */
+html.theme-cabin .note-scroll + .note-scroll {
+    margin-top: -35px;
+}
+
+/* cabin - Open + Closed */
+html.theme-cabin .note-scroll:not(.rolled-up) + .note-scroll.rolled-up {
+    margin-top: 0px;
+}
+
+/* cabin - Closed + Open */
+html.theme-cabin .note-scroll.rolled-up + .note-scroll:not(.rolled-up) {
+    margin-top: -113px;
+}
+
+/* cabin - Closed + Closed */
+html.theme-cabin .note-scroll.rolled-up + .note-scroll.rolled-up {
+    margin-top: -80px;
+}
+
+/* cabin - Open → Posts */
+html.theme-cabin .note-scroll:not(.rolled-up) + .posts-container {
+    margin-top: -8px;
+}
+
+/* cabin - Closed → Posts */
+html.theme-cabin .note-scroll.rolled-up + .posts-container {
+    margin-top: -92px;
+}
+
+/* cabin - Posts → Open */
+html.theme-cabin .posts-container + .note-scroll:not(.rolled-up) {
+    margin-top: 8px;
+}
+
+/* cabin - Posts → Closed */
+html.theme-cabin .posts-container + .note-scroll.rolled-up {
+    margin-top: 24px;
+}
+
+html.theme-cabin .note-scroll::before {
+    background-image: url("/cabin/notes/top.webp");
+    height: 200px;
+}
+
+html.theme-cabin .note-scroll .note-content {
+    background-image: url("/cabin/notes/middle.webp");
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+    color: #ef7c25;
+    line-height: 1.6;
+    padding: 20px 15% 30px 15%;
+}
+
+html.theme-cabin .note-scroll::after {
+    background-image: url("/cabin/notes/bottom.webp");
+    height: 200px;
+}
+
+/* cabin - Date (Open) */
+html.theme-cabin .note-scroll .note-meta {
+    position: absolute;
+    bottom: 88px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+html.theme-cabin .note-scroll .note-date {
+    font-family: 'Cabin', sans-serif;
+    font-size: 24px;
+    color: #bfa440;
+}
+
+/* cabin - Closed */
+html.theme-cabin .note-scroll.rolled-up {
+    background-image: url("/cabin/notes/closed.webp");
+    height: 289px;
+}
+
+/* cabin - Date (Closed) */
+html.theme-cabin .note-scroll.rolled-up .note-meta {
+    display: block;
+    position: absolute;
+    top: 36px;
+    bottom: auto;
+}
+
+html.theme-cabin .note-scroll.rolled-up .note-date {
+    font-size: 24px;
+    color: #cf6717;
+}
+
+html.theme-cabin .scroll-bottom-clickable {
+    height: 50px;
+    bottom: 55px;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   THEME: UNDERWATER NOTES
+   ═══════════════════════════════════════════════════════════════ */
+
+/* underwater - Base spacing */
+html.theme-underwater .note-scroll {
+    margin: -178px auto;
+}
+
+html.theme-underwater .note-scroll:first-child {
+    margin-top: 20px;
+}
+
+html.theme-underwater .note-scroll.rolled-up:first-child {
+    margin-top: 2px;
+}
+
+/* underwater - Open + Open */
+html.theme-underwater .note-scroll + .note-scroll {
+    margin-top: -178px;
+}
+
+/* underwater - Open + Closed */
+html.theme-underwater .note-scroll:not(.rolled-up) + .note-scroll.rolled-up {
+    margin-top: -61px;
+}
+
+/* underwater - Closed + Open */
+html.theme-underwater .note-scroll.rolled-up + .note-scroll:not(.rolled-up) {
+    margin-top: -188px;
+}
+
+/* underwater - Closed + Closed */
+html.theme-underwater .note-scroll.rolled-up + .note-scroll.rolled-up {
+    margin-top: -84px;
+}
+
+/* underwater - Open → Posts */
+html.theme-underwater .note-scroll:not(.rolled-up) + .posts-container {
+    margin-top: -59px;
+}
+
+/* underwater - Closed → Posts */
+html.theme-underwater .note-scroll.rolled-up + .posts-container {
+    margin-top: -92px;
+}
+
+/* underwater - Posts → Open */
+html.theme-underwater .posts-container + .note-scroll:not(.rolled-up) {
+    margin-top: -81px;
+}
+
+/* underwater - Posts → Closed */
+html.theme-underwater .posts-container + .note-scroll.rolled-up {
+    margin-top: 24px;
+}
+
+html.theme-underwater .note-scroll::before {
+    background-image: url("/underwater/notes/top.webp");
+    height: 289px;
+}
+
+html.theme-underwater .note-scroll .note-content {
+    background-image: url("/underwater/notes/middle.webp");
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: #5cffec;
+    line-height: 1.5;
+    padding: 0px 15% 0px 15%;
+}
+
+html.theme-underwater .note-scroll::after {
+    background-image: url("/underwater/notes/bottom.webp");
+    height: 272px;
+}
+
+/* underwater - Date (Open) */
+html.theme-underwater .note-scroll .note-meta {
+    position: absolute;
+    bottom: 200px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+html.theme-underwater .note-scroll .note-date {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    color: #62b2b0;
+}
+
+/* underwater - Closed */
+html.theme-underwater .note-scroll.rolled-up {
+    background-image: url("/underwater/notes/closed.webp");
+    height: 289px;
+}
+
+/* underwater - Date (Closed) */
+html.theme-underwater .note-scroll.rolled-up .note-meta {
+    display: block;
+    position: absolute;
+    top: 60px;
+    bottom: auto;
+}
+
+html.theme-underwater .note-scroll.rolled-up .note-date {
+    font-size: 24px;
+    color: #62b2b0;
+}
+
+html.theme-underwater .scroll-bottom-clickable {
+    height: 50px;
+    bottom: 100px;
+}
+
+/* Hero image for posts */
+.post-hero-image {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.post-hero-image img {
+    max-width: 100%;
+    height: auto;
+    image-rendering: auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Post images extracted from content - displayed below title */
+.post-images {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.post-images img {
+    max-width: 100%;
+    height: auto;
+    image-rendering: auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin-bottom: 16px;
+}
+
+/* Ramona the cat - walks along container borders */
+.ramona {
+    position: fixed;
+    width: 192px;
+    height: 192px;
+    image-rendering: pixelated;
+    transition: none;
+    pointer-events: none;
+    z-index: 1000;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Sprite sheet animations for sitting poses */
+.ramona-sitting-wink,
+.ramona-sitting-yawn {
+    background-size: 200% 200%;
+}
+
+.ramona-sitting-wink {
+    animation: sprite-wink 1.2s steps(1) infinite;
+}
+
+.ramona-sitting-yawn {
+    animation: sprite-yawn 2s steps(1) infinite;
+}
+
+/* 2x2 sprite sheet animation - cycles through 4 frames */
+@keyframes sprite-wink {
+    0% {
+        background-position: 0% 0%;
+    }
+    25% {
+        background-position: 100% 0%;
+    }
+    50% {
+        background-position: 0% 100%;
+    }
+    75% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+@keyframes sprite-yawn {
+    0% {
+        background-position: 0% 0%;
+    }
+    25% {
+        background-position: 100% 0%;
+    }
+    50% {
+        background-position: 0% 100%;
+    }
+    75% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+/* Hide decorative sprites on mobile for cleaner experience */
+@media (max-width: 768px) {
+    .ramona,
+    .floating-sprite,
+    .floating-rune,
+    .post-sprite,
+    .category-sprite-large {
+        display: none !important;
+    }
+
+    /* Disable scroll roll-up on mobile - not touch-friendly */
+    .scroll-bottom-clickable {
+        display: none !important;
+    }
+
+    .note-scroll.rolled-up {
+        height: auto !important;
+        margin-top: 0 !important;
+    }
+
+    .note-scroll.rolled-up .note-content,
+    .note-scroll.rolled-up .note-meta {
+        max-height: none !important;
+        padding: inherit !important;
+        margin: inherit !important;
+        opacity: 1 !important;
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .nav-sign {
+        min-width: 130px;
+        height: 120px;
+    }
+
+    .nav-sign span {
+        font-size: 22px;
+    }
+
+    .header-image {
+        height: 200px;
+    }
+
+    .site-title {
+        font-size: 28px;
+        left: 20px;
+        bottom: 20px;
+    }
+
+    .posts-container,
+    .post-container,
+    .page-container,
+    .archive-container,
+    .category-page {
+        border-width: 32px;
+        border-image-width: 32px 48px 32px 48px;
+        margin-top: 5px;
+        margin-bottom: 50px;
+    }
+
+    .border-overlay {
+        top: -32px;
+        left: -32px;
+        right: -32px;
+        bottom: -32px;
+        border-width: 32px;
+        border-image-width: 32px 48px 32px 48px;
+    }
+
+    .category-title {
+        font-size: 28px;
+    }
+
+    .category-sprite-large .post-sprite {
+        transform: scale(1.2);
+    }
+
+    .post {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .post-sprite {
+        width: 64px;
+        height: 64px;
+    }
+
+    .post-sprite img {
+        width: 128px;
+        height: 128px;
+    }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   PAGINATION
+   ═══════════════════════════════════════════════════════════════ */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    background: linear-gradient(180deg, #d4c4a8 0%, #c4b498 100%);
+    border: 3px solid #8b7355;
+    box-shadow:
+        inset 2px 2px 0 #e8dcc8,
+        inset -2px -2px 0 #a89878,
+        4px 4px 0 rgba(0, 0, 0, 0.3);
+    image-rendering: pixelated;
+}
+
+.pagination a {
+    font-family: "MedievalSharp", cursive;
+    font-size: 16px;
+    color: #4a3520;
+    text-decoration: none;
+    padding: 8px 16px;
+    background: linear-gradient(180deg, #e8d4b8 0%, #d4c4a0 100%);
+    border: 2px solid #8b7355;
+    box-shadow:
+        inset 1px 1px 0 #f5e8d8,
+        inset -1px -1px 0 #b8a888;
+    transition: all 0.15s ease;
+}
+
+.pagination a:hover {
+    background: linear-gradient(180deg, #f0e0c8 0%, #e0d0b0 100%);
+    transform: translateY(-2px);
+}
+
+.pagination-info {
+    font-family: "MedievalSharp", cursive;
+    font-size: 14px;
+    color: #5c4030;
+}
+
+/* Night mode pagination */
+html.night .pagination {
+    background: linear-gradient(180deg, #3a4050 0%, #2a3040 100%);
+    border-color: #1a2030;
+    box-shadow:
+        inset 2px 2px 0 #4a5060,
+        inset -2px -2px 0 #1a2030,
+        4px 4px 0 rgba(0, 0, 0, 0.4);
+}
+
+html.night .pagination a {
+    color: #d0d8e0;
+    background: linear-gradient(180deg, #4a5a6a 0%, #3a4a5a 100%);
+    border-color: #2a3a4a;
+    box-shadow:
+        inset 1px 1px 0 #5a6a7a,
+        inset -1px -1px 0 #2a3a4a;
+}
+
+html.night .pagination a:hover {
+    background: linear-gradient(180deg, #5a6a7a 0%, #4a5a6a 100%);
+}
+
+html.night .pagination-info {
+    color: #a0b0c0;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   ENHANCED MOBILE RESPONSIVE STYLES
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Small tablets and large phones */
+@media (max-width: 600px) {
+    /* Mobile hamburger menu */
+    .site-nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 10px;
+        margin-top: -40px;
+        gap: 0;
+        z-index: 10; /* Above header-container (z-index: 2) so hamburger is clickable */
+    }
+
+    /* Tighter container margins on mobile */
+    .posts-container,
+    .post-container,
+    .page-container,
+    .archive-container {
+        margin-top: 5px;
+        margin-bottom: 40px;
+    }
+
+    .nav-hamburger {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        width: 90%;
+        max-width: 320px;
+        background: linear-gradient(
+            180deg,
+            rgba(212, 196, 168, 0.98) 0%,
+            rgba(196, 180, 152, 0.98) 100%
+        );
+        border: 3px solid #8b7355;
+        border-radius: 8px;
+        box-shadow:
+            inset 2px 2px 0 rgba(255, 255, 255, 0.3),
+            inset -2px -2px 0 rgba(0, 0, 0, 0.1),
+            0 4px 12px rgba(0, 0, 0, 0.3);
+        margin-top: 5px;
+        overflow: hidden;
+    }
+
+    .nav-links.open {
+        display: flex;
+    }
+
+    /* Mobile nav - text only, no sign graphics */
+    .nav-sign {
+        min-width: 100%;
+        height: auto;
+        background: none;
+        padding: 0;
+        border-bottom: 1px solid rgba(139, 115, 85, 0.3);
+    }
+
+    .nav-sign:last-child {
+        border-bottom: none;
+    }
+
+    .nav-sign span {
+        font-size: 18px;
+        padding: 14px 20px;
+        padding-top: 14px;
+        display: block;
+        width: 100%;
+        pointer-events: none;
+    }
+
+    .nav-sign.active {
+        transform: none;
+        background: rgba(139, 90, 43, 0.15);
+    }
+
+    .nav-sign:hover {
+        transform: none;
+        background: rgba(139, 90, 43, 0.1);
+    }
+
+    /* Night mode dropdown */
+    html.night .nav-links {
+        background: linear-gradient(
+            180deg,
+            rgba(58, 64, 80, 0.98) 0%,
+            rgba(42, 48, 64, 0.98) 100%
+        );
+        border-color: #1a2030;
+    }
+
+    html.night .nav-sign {
+        border-bottom-color: rgba(100, 140, 180, 0.3);
+    }
+
+    html.night .nav-sign span {
+        color: #d0d8e0;
+    }
+
+    html.night .nav-sign.active {
+        background: rgba(100, 140, 180, 0.2);
+    }
+
+    html.night .nav-sign:hover {
+        background: rgba(100, 140, 180, 0.15);
+    }
+
+    /* Header adjustments */
+    .site-header {
+        padding: 5px 5px 0;
+    }
+
+    .header-image {
+        height: 130px;
+    }
+
+    .site-title {
+        font-size: 20px;
+        left: 12px;
+        bottom: 12px;
+    }
+
+    /* Content containers - smaller borders, full width */
+    .posts-container,
+    .post-container,
+    .page-container,
+    .archive-container {
+        border-width: 20px;
+        border-image-width: 20px 30px 20px 30px;
+        padding: 12px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .main-content {
+        padding: 0 5px;
+    }
+
+    .border-overlay {
+        top: -20px;
+        left: -20px;
+        right: -20px;
+        bottom: -20px;
+        border-width: 20px;
+        border-image-width: 20px 30px 20px 30px;
+    }
+
+    /* Post content */
+    .post-content,
+    .page-content {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .post-title {
+        font-size: 20px;
+    }
+
+    .post-header .post-title {
+        font-size: 24px;
+    }
+
+    /* Archive entries */
+    .archive-entry {
+        flex-wrap: wrap;
+    }
+
+    .archive-sprite {
+        transform: scale(0.5);
+        margin-right: -48px;
+        margin-bottom: -48px;
+    }
+
+    .archive-date {
+        font-size: 12px;
+        min-width: 50px;
+    }
+
+    .archive-title {
+        font-size: 16px;
+    }
+
+    .year-header {
+        font-size: 26px;
+    }
+
+    /* Note scrolls - responsive width */
+    .note-scroll {
+        max-width: 100%;
+        margin: -100px auto;
+    }
+
+    .note-scroll:first-child {
+        margin-top: -30px;
+    }
+
+    .note-scroll::before,
+    .note-scroll::after {
+        max-width: 100%;
+        height: 200px;
+        background-size: contain;
+    }
+
+    .note-scroll::after {
+        margin-top: -5px;
+    }
+
+    .note-scroll .note-content {
+        max-width: 100%;
+        font-size: 16px;
+        padding: 15px 15% 20px 15%;
+        margin-bottom: -40px;
+    }
+
+    /* Pagination */
+    .pagination {
+        gap: 10px;
+        padding: 15px;
+        max-width: 90%;
+    }
+
+    .pagination a {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+
+    /* Category page */
+    .category-title {
+        font-size: 24px;
+    }
+
+    .category-sprite-large .post-sprite {
+        transform: scale(1);
+    }
+
+    /* Footer */
+    .site-footer {
+        padding: 20px 15px;
+    }
+
+    .site-footer p {
+        padding: 10px 16px;
+        font-size: 12px;
+    }
+
+    /* Photo grid - fewer columns */
+    .photo-grid {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        gap: 8px;
+    }
+
+    /* Touch-friendly links in content */
+    .post-content a,
+    .page-content a,
+    .note-scroll a {
+        padding: 4px 2px;
+        margin: -4px -2px;
+    }
+
+    /* Better spacing for tags */
+    .post-tags {
+        gap: 8px;
+    }
+
+    .post-tag {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+}
+
+/* Very small phones */
+@media (max-width: 400px) {
+    /* Hamburger menu - smaller on tiny screens */
+    .nav-hamburger {
+        width: 50px;
+        height: 50px;
+        padding: 12px;
+    }
+
+    .hamburger-bar {
+        width: 20px;
+        height: 2px;
+    }
+
+    .nav-sign span {
+        font-size: 16px;
+        padding: 12px 16px;
+    }
+
+    /* Header */
+    .header-image {
+        height: 120px;
+    }
+
+    .site-title {
+        font-size: 18px;
+        left: 10px;
+        bottom: 10px;
+    }
+
+    /* Content containers - minimal borders */
+    .posts-container,
+    .post-container,
+    .page-container,
+    .archive-container {
+        border-width: 16px;
+        border-image-width: 16px 24px 16px 24px;
+        padding: 10px;
+    }
+
+    .border-overlay {
+        top: -16px;
+        left: -16px;
+        right: -16px;
+        bottom: -16px;
+        border-width: 16px;
+        border-image-width: 16px 24px 16px 24px;
+    }
+
+    /* Posts */
+    .post {
+        gap: 10px;
+        padding: 8px 0;
+    }
+
+    .post-sprite {
+        width: 48px;
+        height: 48px;
+    }
+
+    .post-sprite img {
+        width: 96px;
+        height: 96px;
+    }
+
+    .post-title {
+        font-size: 18px;
+    }
+
+    .post-content,
+    .page-content {
+        font-size: 15px;
+    }
+
+    /* Note scrolls */
+    .note-scroll::before,
+    .note-scroll::after {
+        height: 150px;
+    }
+
+    .note-scroll::after {
+        margin-top: -5px;
+    }
+
+    .note-scroll .note-content {
+        font-size: 14px;
+        padding: 10px 12% 15px 12%;
+    }
+
+    /* Category */
+    .category-header {
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+    }
+
+    .category-title {
+        font-size: 20px;
+    }
+
+    /* Pagination - stacked on tiny screens */
+    .pagination {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    /* Photo grid */
+    .photo-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   ACCESSIBILITY - Focus states, skip links, reduced motion
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Skip to content link - hidden until focused */
+.skip-link {
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #4a3520;
+    color: #f5e6d3;
+    padding: 12px 24px;
+    font-family: "MedievalSharp", cursive;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 0 0 8px 8px;
+    z-index: 100000;
+    transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+    top: 0;
+    outline: 3px solid #c4a060;
+    outline-offset: 2px;
+}
+
+html.night .skip-link {
+    background: #2a3040;
+    color: #d0d8e0;
+}
+
+html.night .skip-link:focus {
+    outline-color: #6a8ab0;
+}
+
+/* Global focus-visible styles for interactive elements */
+a:focus-visible,
+button:focus-visible,
+[role="button"]:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+    outline: 3px solid #8b5a2b;
+    outline-offset: 2px;
+}
+
+html.night a:focus-visible,
+html.night button:focus-visible,
+html.night [role="button"]:focus-visible,
+html.night input:focus-visible,
+html.night select:focus-visible,
+html.night textarea:focus-visible {
+    outline-color: #6a8ab0;
+}
+
+/* Navigation focus styles */
+.nav-sign:focus-visible,
+.nav-hamburger:focus-visible {
+    outline: 3px solid #8b5a2b;
+    outline-offset: 4px;
+}
+
+html.night .nav-sign:focus-visible,
+html.night .nav-hamburger:focus-visible {
+    outline-color: #6a8ab0;
+}
+
+/* Tag and button focus styles */
+.post-tag:focus-visible,
+.archive-tag:focus-visible,
+.pagination a:focus-visible,
+.nav-arrow:focus-visible {
+    outline: 3px solid #8b5a2b;
+    outline-offset: 2px;
+    transform: translateY(-2px);
+}
+
+html.night .post-tag:focus-visible,
+html.night .archive-tag:focus-visible,
+html.night .pagination a:focus-visible,
+html.night .nav-arrow:focus-visible {
+    outline-color: #6a8ab0;
+}
+
+/* Post link focus styles */
+.post-link:focus-visible {
+    outline: 3px solid #8b5a2b;
+    outline-offset: 4px;
+}
+
+html.night .post-link:focus-visible {
+    outline-color: #6a8ab0;
+}
+
+/* Note scroll focus */
+.note-scroll:focus-visible {
+    outline: 3px solid #8b5a2b;
+    outline-offset: 4px;
+}
+
+html.night .note-scroll:focus-visible {
+    outline-color: #6a8ab0;
+}
+
+/* Prefers reduced motion - disable all animations */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+
+    /* Keep essential transitions but make them instant */
+    .nav-links,
+    .sierra-panel,
+    .post-tag,
+    .archive-tag,
+    .pagination a {
+        transition: none !important;
+    }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   FIXED UI BUTTONS - Back to Top & Easy Read Toggle
+   ═══════════════════════════════════════════════════════════════ */
+
+.fixed-btn {
+    position: fixed;
+    bottom: 20px;
+    z-index: 9000;
+    padding: 10px 16px;
+    font-family: "MedievalSharp", cursive;
+    font-size: 14px;
+    color: #4a3520;
+    background: linear-gradient(180deg, #f5e6c8 0%, #e0d0a8 100%);
+    border: 3px solid #8b6914;
+    border-radius: 4px;
+    box-shadow:
+        inset 2px 2px 0 rgba(255, 255, 255, 0.4),
+        inset -2px -2px 0 rgba(0, 0, 0, 0.1),
+        3px 3px 0 rgba(0, 0, 0, 0.3);
+    cursor: url("/fantasy/cursors/hand.png"), pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.3s ease;
+    image-rendering: pixelated;
+}
+
+.fixed-btn-right {
+    right: 20px;
+}
+
+.fixed-btn-left {
+    left: 20px;
+}
+
+.fixed-btn:hover {
+    transform: translateY(-2px);
+    box-shadow:
+        inset 2px 2px 0 rgba(255, 255, 255, 0.5),
+        inset -2px -2px 0 rgba(0, 0, 0, 0.1),
+        4px 4px 0 rgba(0, 0, 0, 0.35);
+}
+
+.fixed-btn:active {
+    transform: translateY(1px);
+    box-shadow:
+        inset -2px -2px 0 rgba(255, 255, 255, 0.4),
+        inset 2px 2px 0 rgba(0, 0, 0, 0.1),
+        1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Night mode fixed buttons */
+html.night .fixed-btn {
+    background: linear-gradient(180deg, #3a4a5a 0%, #2a3a4a 100%);
+    border-color: #1a2a3a;
+    color: #c0d0e0;
+    box-shadow:
+        inset 2px 2px 0 rgba(255, 255, 255, 0.1),
+        inset -2px -2px 0 rgba(0, 0, 0, 0.2),
+        3px 3px 0 rgba(0, 0, 0, 0.4);
+}
+
+/* Mobile - larger touch targets */
+@media (max-width: 768px) {
+    .fixed-btn {
+        bottom: 15px;
+        padding: 12px 18px;
+        font-size: 13px;
+    }
+
+    .fixed-btn-right {
+        right: 15px;
+    }
+
+    .fixed-btn-left {
+        left: 15px;
+    }
+}
+
+/* Small phones - stack vertically or smaller */
+@media (max-width: 420px) {
+    .fixed-btn {
+        bottom: 10px;
+        padding: 10px 14px;
+        font-size: 12px;
+    }
+
+    .fixed-btn-right {
+        right: 10px;
+    }
+
+    .fixed-btn-left {
+        left: 10px;
+    }
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   PAGINATION Z-INDEX FIX
+   Ensure pagination sits above overlapping note scrolls
+   ═══════════════════════════════════════════════════════════════ */
+
+.pagination {
+    position: relative;
+    z-index: 10;
+}
+
+/* ═══════════════════════════════════════════════════════════════
+   EASY READ MODE - Corporate Pixel Art
+   Same pixel aesthetic, just boring and professional
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Corporate color palette */
+html.easy-read {
+    --corp-bg: #e8eaed;
+    --corp-panel: #ffffff;
+    --corp-border: #9aa0a6;
+    --corp-text: #3c4043;
+    --corp-text-light: #5f6368;
+    --corp-accent: #1a73e8;
+    --corp-accent-hover: #1557b0;
+    --corp-header-bg: #f1f3f4;
+}
+
+/* Corporate background - override any theme */
+html.easy-read body,
+html.easy-read.theme-sci-fi body,
+html.easy-read.theme-cyberpunk body,
+html.easy-read.theme-cabin body,
+html.easy-read.theme-underwater body,
+html.easy-read.theme-western body,
+html.easy-read.theme-kaiju body {
+    background: url("/corporate/backgrounds/3.png") !important;
+    background-size: 75% !important;
+    background-repeat: repeat !important;
+}
+
+/* Easy-read mode - hide chaos overlays only, everything else styled in themes.css */
+html.easy-read .crt-overlay,
+html.easy-read .vortex-bg {
+    display: none !important;
+}
+
+/* Keep pixel fonts but use more subdued styling */
+html.easy-read body,
+html.easy-read .post-content,
+html.easy-read .page-content,
+html.easy-read .post-excerpt,
+html.easy-read article p {
+    color: var(--corp-text) !important;
+    text-shadow: none !important;
+}
+
+html.easy-read .post-title,
+html.easy-read .post-title a,
+html.easy-read .page-title {
+    color: var(--corp-text) !important;
+    text-shadow: none !important;
+}
+
+html.easy-read .site-title {
+    color: var(--corp-text) !important;
+    text-shadow: none !important;
+}
+
+/* Corporate links - professional blue */
+html.easy-read a {
+    color: var(--corp-accent) !important;
+}
+
+html.easy-read a:hover {
+    color: var(--corp-accent-hover) !important;
+}
+
+/* Note scrolls become corporate memos */
+html.easy-read .note-scroll {
+    filter: none !important;
+}
+
+html.easy-read .note-scroll::before {
+    background-image: url("/corporate/notes/top.webp") !important;
+}
+
+html.easy-read .note-scroll::after {
+    background-image: url("/corporate/notes/bottom.webp") !important;
+}
+
+html.easy-read .note-scroll .note-content {
+    background-image: url("/corporate/notes/middle.webp") !important;
+    color: var(--corp-text) !important;
+}
+
+html.easy-read .note-scroll.rolled-up {
+    background-image: url("/corporate/notes/closed.webp") !important;
+}
+
+html.easy-read .note-scroll .note-date {
+    color: var(--corp-text-light) !important;
+}
+
+/* Hide animations and visual chaos */
+html.easy-read .falling-sprite,
+html.easy-read .chaos-sprite,
+html.easy-read .floating-sprite,
+html.easy-read .floating-rune,
+html.easy-read .particle,
+html.easy-read .sparkle,
+html.easy-read .seasonal-particle,
+html.easy-read .rain-drop,
+html.easy-read .snow-flake,
+html.easy-read .ramona,
+html.easy-read .ramona-heart,
+html.easy-read .ramona-dirt {
+    display: none !important;
+}
+
+/* Headers - use corporate header for ALL categories, override any theme */
+html.easy-read .header-image,
+html.easy-read .header-image[style*="home.webp"],
+html.easy-read .header-image[style*="default.webp"],
+html.easy-read .header-image[style*="health.webp"],
+html.easy-read .header-image[style*="tech.webp"],
+html.easy-read .header-image[style*="gaming.webp"],
+html.easy-read .header-image[style*="cooking.webp"],
+html.easy-read .header-image[style*="reading.webp"],
+html.easy-read .header-image[style*="music.webp"],
+html.easy-read .header-image[style*="writing.webp"],
+html.easy-read .header-image[style*="crafting.webp"],
+html.easy-read .header-image[style*="pets.webp"],
+html.easy-read .header-image[style*="travel.webp"],
+html.easy-read .header-image[style*="tabletop.webp"],
+html.easy-read .header-image[style*="garden.webp"],
+html.easy-read .header-image[style*="adhd.webp"],
+html.easy-read .header-image[style*="clown.webp"] {
+    background-image: url("/corporate/headers/default.png") !important;
+}
+
+html.easy-read .header-frame {
+    background-image: url("/corporate/headers/ornate frame.webp") !important;
+}
+
+/* Corporate Theme Header Calibration */
+html.easy-read .header-image {
+    height: 212px !important;
+}
+
+html.easy-read .header-frame {
+    width: 103% !important;
+    height: 107% !important;
+    left: -10px !important;
+    top: -7px !important;
+}
+
+/* Navigation - corporate pixel signs */
+html.easy-read .nav-sign,
+html.easy-read .nav-hamburger {
+    background-image: url("/corporate/menu/sign.webp") !important;
+}
+
+html.easy-read .nav-sign span {
+    color: var(--corp-text) !important;
+    text-shadow: none !important;
+}
+
+html.easy-read .nav-sign.active span {
+    color: var(--corp-accent) !important;
+    text-shadow: none !important;
+}
+
+/* Post tags - corporate badges */
+html.easy-read .post-tag,
+html.easy-read .archive-tag {
+    background: var(--corp-header-bg) !important;
+    border: 2px solid var(--corp-border) !important;
+    color: var(--corp-text) !important;
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Pagination - corporate style */
+html.easy-read .pagination {
+    background: var(--corp-header-bg) !important;
+    border: 2px solid var(--corp-border) !important;
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.15) !important;
+}
+
+html.easy-read .pagination a {
+    background: var(--corp-panel) !important;
+    border: 2px solid var(--corp-border) !important;
+    color: var(--corp-text) !important;
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1) !important;
+}
+
+html.easy-read .pagination-info {
+    color: var(--corp-text-light) !important;
+}
+
+/* Footer - corporate gray */
+html.easy-read .site-footer {
+    background: var(--corp-header-bg) !important;
+    color: var(--corp-text-light) !important;
+    border-top: 2px solid var(--corp-border) !important;
+}
+
+/* HIDE Sierra dropdown panel completely in easy read */
+html.easy-read .sierra-panel,
+html.easy-read .sierra-trigger {
+    display: none !important;
+}
+
+/* Fixed buttons - corporate pixel style */
+html.easy-read .fixed-btn {
+    background: var(--corp-panel) !important;
+    border: 2px solid var(--corp-border) !important;
+    color: var(--corp-text) !important;
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.2) !important;
+    border-radius: 0 !important;
+}
+
+html.easy-read .fixed-btn:hover {
+    background: var(--corp-header-bg) !important;
+}
+
+/* Category sprites - make grayscale corporate icons */
+html.easy-read .post-sprite {
+    filter: grayscale(100%) !important;
+    opacity: 0.5 !important;
+}
+
+/* Cursors - keep pixel but corporate */
+html.easy-read * {
+    cursor: auto !important;
+}
+
+html.easy-read a,
+html.easy-read button,
+html.easy-read [role="button"],
+html.easy-read .fixed-btn {
+    cursor: pointer !important;
+}
+
+/* Kill all animations - very professional */
+html.easy-read *,
+html.easy-read *::before,
+html.easy-read *::after {
+    animation: none !important;
+    transition: none !important;
+}
+
+/* Archive page adjustments */
+html.easy-read .archive-title,
+html.easy-read .year-header {
+    color: var(--corp-text) !important;
+    border-color: var(--corp-border) !important;
+}
+
+html.easy-read .archive-entry {
+    border-color: var(--corp-border) !important;
+}
+
+html.easy-read .archive-entry:hover {
+    background: var(--corp-header-bg) !important;
+}
+
+html.easy-read .archive-date {
+    color: var(--corp-text-light) !important;
+}
+
+/* Post content in easy read */
+html.easy-read .post-meta {
+    color: var(--corp-text-light) !important;
+}
+
+html.easy-read .post-link {
+    background: var(--corp-accent) !important;
+    border: 2px solid #1557b0 !important;
+    color: white !important;
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.2) !important;
+}
+
+html.easy-read .post-link:hover {
+    background: var(--corp-accent-hover) !important;
+}

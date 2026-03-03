@@ -1,0 +1,11 @@
+---
+title: Penguins
+date: 2004-01-21T06:05:12-0600
+tags:
+- personal
+---
+
+my [record][1] is 317.2
+
+   [1]: http://nata2.info/humor/flash/yeti_baseball.swf
+

@@ -1,0 +1,39 @@
+{
+  "jokes": [
+    {
+      "id": "VID_what_do_you_call_0000",
+      "title": "What Do You Call",
+      "video_url": "https://res.cloudinary.com/dbz84hlvk/video/upload/v1752542888/joke-a-tron/What_Do_You_Call.mp4",
+      "thumbnail": "https://res.cloudinary.com/dbz84hlvk/video/upload/so_0,w_400,h_225,c_fill,g_center/v1752542888/joke-a-tron/What_Do_You_Call.jpg",
+      "date": "2025-07-14"
+    },
+    {
+      "id": "VID_what_does_my_finger_0001",
+      "title": "What Does My Finger",
+      "video_url": "https://res.cloudinary.com/dbz84hlvk/video/upload/v1752542890/joke-a-tron/What_Does_My_Finger.mp4",
+      "thumbnail": "https://res.cloudinary.com/dbz84hlvk/video/upload/so_0,w_400,h_225,c_fill,g_center/v1752542890/joke-a-tron/What_Does_My_Finger.jpg",
+      "date": "2025-07-14"
+    },
+    {
+      "id": "VID_what_do_you_get_0002",
+      "title": "What Do You Get",
+      "video_url": "https://res.cloudinary.com/dbz84hlvk/video/upload/v1752542891/joke-a-tron/What_Do_You_Get.mp4",
+      "thumbnail": "https://res.cloudinary.com/dbz84hlvk/video/upload/so_0,w_400,h_225,c_fill,g_center/v1752542891/joke-a-tron/What_Do_You_Get.jpg",
+      "date": "2025-07-14"
+    },
+    {
+      "id": "VID_what_did_the_ruler_0003",
+      "title": "What Did The Ruler",
+      "video_url": "https://res.cloudinary.com/dbz84hlvk/video/upload/v1752542892/joke-a-tron/What_Did_The_Ruler.mp4",
+      "thumbnail": "https://res.cloudinary.com/dbz84hlvk/video/upload/so_0,w_400,h_225,c_fill,g_center/v1752542892/joke-a-tron/What_Did_The_Ruler.jpg",
+      "date": "2025-07-14"
+    },
+    {
+      "id": "VID_what_was_bob_the_0004",
+      "title": "What Was Bob The",
+      "video_url": "https://res.cloudinary.com/dbz84hlvk/video/upload/v1752542894/joke-a-tron/What_Was_Bob_The.mp4",
+      "thumbnail": "https://res.cloudinary.com/dbz84hlvk/video/upload/so_0,w_400,h_225,c_fill,g_center/v1752542894/joke-a-tron/What_Was_Bob_The.jpg",
+      "date": "2025-07-14"
+    }
+  ]
+}

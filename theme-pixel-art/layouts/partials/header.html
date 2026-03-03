@@ -1,5 +1,5 @@
 {{/* Determine header image based on category */}}
-{{ $headerImage := "/headers/home.png" }}
+{{ $headerImage := "/fantasy/headers/home.png" }}
 {{ $cat := "" }}
 
 {{/* Get category from page or taxonomy */}}
@@ -15,33 +15,33 @@
 {{/* Map category to header image */}}
 {{ if $cat }}
     {{ if eq $cat "health" }}
-        {{ $headerImage = "/headers/health.png" }}
+        {{ $headerImage = "/fantasy/headers/health.png" }}
     {{ else if eq $cat "tabletop" }}
-        {{ $headerImage = "/headers/tabletop.png" }}
+        {{ $headerImage = "/fantasy/headers/tabletop.png" }}
     {{ else if eq $cat "gaming" }}
-        {{ $headerImage = "/headers/tabletop.png" }}
+        {{ $headerImage = "/fantasy/headers/tabletop.png" }}
     {{ else if eq $cat "personal" }}
-        {{ $headerImage = "/headers/clown.png" }}
+        {{ $headerImage = "/fantasy/headers/clown.png" }}
     {{ else if eq $cat "writing" }}
-        {{ $headerImage = "/headers/writing.png" }}
+        {{ $headerImage = "/fantasy/headers/writing.png" }}
     {{ else if eq $cat "cooking" }}
-        {{ $headerImage = "/headers/cooking.png" }}
+        {{ $headerImage = "/fantasy/headers/cooking.png" }}
     {{ else if eq $cat "music" }}
-        {{ $headerImage = "/headers/music.png" }}
+        {{ $headerImage = "/fantasy/headers/music.png" }}
     {{ else if eq $cat "travel" }}
-        {{ $headerImage = "/headers/travel.png" }}
+        {{ $headerImage = "/fantasy/headers/travel.png" }}
     {{ else if eq $cat "reading" }}
-        {{ $headerImage = "/headers/reading.png" }}
+        {{ $headerImage = "/fantasy/headers/reading.png" }}
     {{ else if eq $cat "crafting" }}
-        {{ $headerImage = "/headers/crafting.png" }}
+        {{ $headerImage = "/fantasy/headers/crafting.png" }}
     {{ else if eq $cat "adhd" }}
-        {{ $headerImage = "/headers/health.png" }}
+        {{ $headerImage = "/fantasy/headers/health.png" }}
     {{ else if eq $cat "pets" }}
-        {{ $headerImage = "/headers/garden.png" }}
+        {{ $headerImage = "/fantasy/headers/garden.png" }}
     {{ else if eq $cat "tech" }}
-        {{ $headerImage = "/headers/tech.png" }}
+        {{ $headerImage = "/fantasy/headers/tech.png" }}
     {{ else }}
-        {{ $headerImage = "/headers/default.png" }}
+        {{ $headerImage = "/fantasy/headers/default.png" }}
     {{ end }}
 {{ end }}
 

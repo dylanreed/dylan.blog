@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Scroll Calibration Tool</title>
+    <style>
+        /* ABOUTME: Calibration tool for note scroll styling across themes */
+        /* ABOUTME: Allows visual adjustment of text, positioning, and generates CSS */
+
+        * { box-sizing: border-box; }
+
+        body {
+            font-family: system-ui, sans-serif;
+            background: #1a1a2e;
+            color: #eee;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .layout {
+            display: grid;
+            grid-template-columns: 350px 1fr;
+            gap: 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .controls {
+            background: #16213e;
+            padding: 20px;
+            border-radius: 8px;
+            height: fit-content;
+            position: sticky;
+            top: 20px;
+        }
+
+        .preview-area {
+            background: #0f0f23;
+            padding: 40px;
+            border-radius: 8px;
+            min-height: 800px;
+        }
+
+        h1 {
+            margin: 0 0 20px 0;
+            font-size: 1.5rem;
+            color: #c9a227;
+        }
+
+        h2 {
+            margin: 20px 0 10px 0;
+            font-size: 1rem;
+            color: #888;
+            border-bottom: 1px solid #333;
+            padding-bottom: 5px;
+        }
+
+        .control-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            font-size: 12px;
+            color: #aaa;
+            margin-bottom: 4px;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        select {
+            width: 100%;
+            padding: 8px;
+            background: #0f0f23;
+            border: 1px solid #333;
+            color: #eee;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        input[type="color"] {
+            width: 60px;
+            height: 30px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .color-row {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .color-row input[type="text"] {
+            flex: 1;
+        }
+
+        .range-row {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .range-row input[type="range"] {
+            flex: 1;
+        }
+
+        .range-row span {
+            min-width: 50px;
+            text-align: right;
+            font-size: 12px;
+            color: #888;
+        }
+
+        button {
+            padding: 10px 20px;
+            background: #c9a227;
+            color: #1a1a2e;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-right: 10px;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background: #d4af37;
+        }
+
+        button.secondary {
+            background: #444;
+            color: #eee;
+        }
+
+        .theme-tabs {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+
+        .theme-tab {
+            padding: 8px 12px;
+            background: #333;
+            border: none;
+            color: #aaa;
+            cursor: pointer;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+
+        .theme-tab.active {
+            background: #c9a227;
+            color: #1a1a2e;
+        }
+
+        .state-toggle {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .state-toggle button {
+            flex: 1;
+            margin: 0;
+        }
+
+        .state-toggle button.active {
+            background: #4a9;
+        }
+
+        /* Note Preview Styles */
+        .note-preview {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .note-scroll {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            image-rendering: pixelated;
+        }
+
+        .note-scroll .note-top {
+            width: 100%;
+            height: 200px;
+            background-repeat: no-repeat;
+            background-position: center bottom;
+            background-size: 100% auto;
+        }
+
+        .note-scroll .note-content {
+            padding: 20px 15%;
+            background-repeat: repeat-y;
+            background-position: center top;
+            background-size: 100% auto;
+            min-height: 150px;
+        }
+
+        .note-scroll .note-content p {
+            margin: 0 0 12px 0;
+        }
+
+        .note-scroll .note-bottom {
+            width: 100%;
+            height: 200px;
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-size: 100% auto;
+        }
+
+        .note-scroll.rolled-up {
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-size: 100% auto;
+        }
+
+        .note-scroll.rolled-up .note-top,
+        .note-scroll.rolled-up .note-content,
+        .note-scroll.rolled-up .note-bottom {
+            display: none;
+        }
+
+        .note-meta {
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 90px;
+            left: 0;
+            right: 0;
+        }
+
+        .note-date {
+            font-size: 14px;
+        }
+
+        /* CSS Output */
+        .css-output {
+            margin-top: 20px;
+        }
+
+        .css-output textarea {
+            width: 100%;
+            height: 300px;
+            background: #0a0a15;
+            color: #4a9;
+            border: 1px solid #333;
+            border-radius: 4px;
+            padding: 10px;
+            font-family: monospace;
+            font-size: 12px;
+        }
+
+        .copy-btn {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="layout">
+        <div class="controls">
+            <h1>Note Calibration</h1>
+
+            <div class="theme-tabs">
+                <button class="theme-tab active" data-theme="fantasy">Fantasy</button>
+                <button class="theme-tab" data-theme="sci-fi">Sci-Fi</button>
+                <button class="theme-tab" data-theme="cyberpunk">Cyberpunk</button>
+                <button class="theme-tab" data-theme="cabin">Cabin</button>
+                <button class="theme-tab" data-theme="underwater">Underwater</button>
+            </div>
+
+            <div class="state-toggle">
+                <button class="active" data-state="open">Open</button>
+                <button data-state="closed">Closed</button>
+            </div>
+
+            <h2>Text Styling</h2>
+
+            <div class="control-group">
+                <label>Font Family</label>
+                <select id="fontFamily">
+                    <option value="'MedievalSharp', cursive">MedievalSharp</option>
+                    <option value="'Orbitron', sans-serif">Orbitron</option>
+                    <option value="'Share Tech Mono', monospace">Share Tech Mono</option>
+                    <option value="'Amatic SC', cursive">Amatic SC</option>
+                    <option value="'Cabin', sans-serif">Cabin</option>
+                    <option value="'Quicksand', sans-serif">Quicksand</option>
+                    <option value="'Cinzel', serif">Cinzel</option>
+                    <option value="monospace">Monospace</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <label>Font Size (px)</label>
+                <div class="range-row">
+                    <input type="range" id="fontSize" min="12" max="36" value="20">
+                    <span id="fontSizeVal">20px</span>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label>Text Color</label>
+                <div class="color-row">
+                    <input type="color" id="textColorPicker" value="#4a3520">
+                    <input type="text" id="textColor" value="#4a3520">
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label>Text Shadow</label>
+                <input type="text" id="textShadow" value="none" placeholder="e.g. 0 0 8px rgba(0,255,0,0.6)">
+            </div>
+
+            <div class="control-group">
+                <label>Line Height</label>
+                <div class="range-row">
+                    <input type="range" id="lineHeight" min="1" max="2.5" step="0.1" value="1.6">
+                    <span id="lineHeightVal">1.6</span>
+                </div>
+            </div>
+
+            <h2>Positioning - Open</h2>
+
+            <div class="control-group">
+                <label>Content Padding (top right bottom left)</label>
+                <input type="text" id="contentPadding" value="20px 15% 30px 15%">
+            </div>
+
+            <div class="control-group">
+                <label>Note Margin</label>
+                <input type="text" id="noteMargin" value="-150px auto">
+            </div>
+
+            <div class="control-group">
+                <label>Top Image Height (px)</label>
+                <div class="range-row">
+                    <input type="range" id="topHeight" min="100" max="400" value="200">
+                    <span id="topHeightVal">200px</span>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label>Bottom Image Height (px)</label>
+                <div class="range-row">
+                    <input type="range" id="bottomHeight" min="100" max="400" value="200">
+                    <span id="bottomHeightVal">200px</span>
+                </div>
+            </div>
+
+            <h2>Date - Open</h2>
+
+            <div class="control-group">
+                <label>Date Bottom Position (px)</label>
+                <div class="range-row">
+                    <input type="range" id="dateOpenBottom" min="0" max="200" value="90">
+                    <span id="dateOpenBottomVal">90px</span>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label>Date Font Family</label>
+                <select id="dateFontFamily">
+                    <option value="'MedievalSharp', cursive">MedievalSharp</option>
+                    <option value="'Orbitron', sans-serif">Orbitron</option>
+                    <option value="'Share Tech Mono', monospace">Share Tech Mono</option>
+                    <option value="'Amatic SC', cursive">Amatic SC</option>
+                    <option value="'Cabin', sans-serif">Cabin</option>
+                    <option value="'Quicksand', sans-serif">Quicksand</option>
+                    <option value="'Cinzel', serif">Cinzel</option>
+                    <option value="monospace">Monospace</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <label>Date Font Size (px)</label>
+                <div class="range-row">
+                    <input type="range" id="dateFontSize" min="10" max="24" value="14">
+                    <span id="dateFontSizeVal">14px</span>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label>Date Color</label>
+                <div class="color-row">
+                    <input type="color" id="dateColorPicker" value="#7a6550">
+                    <input type="text" id="dateColor" value="#7a6550">
+                </div>
+            </div>
+
+            <h2>Positioning - Closed</h2>
+
+            <div class="control-group">
+                <label>Closed Height (px)</label>
+                <div class="range-row">
+                    <input type="range" id="closedHeight" min="100" max="400" value="289">
+                    <span id="closedHeightVal">289px</span>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label>Closed Margin</label>
+                <input type="text" id="closedMargin" value="10px auto 10px auto">
+            </div>
+
+            <h2>Date - Closed</h2>
+
+            <div class="control-group">
+                <label><input type="checkbox" id="dateClosedVisible" checked> Show Date on Closed</label>
+            </div>
+
+            <div class="control-group">
+                <label>Date Top Position (px)</label>
+                <div class="range-row">
+                    <input type="range" id="dateClosedTop" min="0" max="300" value="130">
+                    <span id="dateClosedTopVal">130px</span>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label>Date Closed Font Size (px)</label>
+                <div class="range-row">
+                    <input type="range" id="dateClosedFontSize" min="10" max="24" value="14">
+                    <span id="dateClosedFontSizeVal">14px</span>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label>Date Closed Color</label>
+                <div class="color-row">
+                    <input type="color" id="dateClosedColorPicker" value="#7a6550">
+                    <input type="text" id="dateClosedColor" value="#7a6550">
+                </div>
+            </div>
+
+            <div class="css-output">
+                <h2>Generated CSS</h2>
+                <textarea id="cssOutput" readonly></textarea>
+                <button class="copy-btn" onclick="copyCSS()">Copy CSS</button>
+                <button class="secondary" onclick="exportAll()">Export All Themes</button>
+            </div>
+        </div>
+
+        <div class="preview-area">
+            <div class="note-preview">
+                <div class="note-scroll" id="notePreview">
+                    <div class="note-top"></div>
+                    <div class="note-content">
+                        <p>This is a sample note with some text content to preview the styling.</p>
+                        <p>You can adjust the font, colors, shadows, and positioning using the controls on the left.</p>
+                        <p>The generated CSS will update in real-time as you make changes.</p>
+                    </div>
+                    <div class="note-bottom"></div>
+                    <div class="note-meta">
+                        <span class="note-date">January 6, 2026</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Theme configurations
+        const themes = {
+            fantasy: {
+                open: {
+                    fontFamily: "'MedievalSharp', cursive",
+                    fontSize: 20,
+                    textColor: '#4a3520',
+                    textShadow: 'none',
+                    lineHeight: 1.6,
+                    contentPadding: '20px 15% 30px 15%',
+                    noteMargin: '-150px auto',
+                    topHeight: 200,
+                    bottomHeight: 200,
+                    dateBottom: 90,
+                    dateFontFamily: "'MedievalSharp', cursive",
+                    dateFontSize: 14,
+                    dateColor: '#7a6550'
+                },
+                closed: {
+                    height: 289,
+                    margin: '10px auto 10px auto',
+                    dateVisible: true,
+                    dateTop: 130,
+                    dateFontSize: 14,
+                    dateColor: '#7a6550'
+                },
+                images: {
+                    top: '/fantasy/notes/top.webp',
+                    middle: '/fantasy/notes/middle.webp',
+                    bottom: '/fantasy/notes/bottom.webp',
+                    closed: '/fantasy/notes/closed.webp'
+                }
+            },
+            'sci-fi': {
+                open: {
+                    fontFamily: "'Share Tech Mono', monospace",
+                    fontSize: 18,
+                    textColor: '#ffffff',
+                    textShadow: '0 0 4px rgba(0, 0, 0, 0.5)',
+                    lineHeight: 1.6,
+                    contentPadding: '20px 15% 30px 15%',
+                    noteMargin: '-150px auto',
+                    topHeight: 200,
+                    bottomHeight: 200,
+                    dateBottom: 90,
+                    dateFontFamily: "'Share Tech Mono', monospace",
+                    dateFontSize: 14,
+                    dateColor: '#88ccff'
+                },
+                closed: {
+                    height: 289,
+                    margin: '10px auto 10px auto',
+                    dateVisible: true,
+                    dateTop: 130,
+                    dateFontSize: 14,
+                    dateColor: '#88ccff'
+                },
+                images: {
+                    top: '/sci-fi/notes/top.webp',
+                    middle: '/sci-fi/notes/middle.webp',
+                    bottom: '/sci-fi/notes/bottom.webp',
+                    closed: '/sci-fi/notes/closed.webp'
+                }
+            },
+            cyberpunk: {
+                open: {
+                    fontFamily: "'Share Tech Mono', monospace",
+                    fontSize: 18,
+                    textColor: '#33ff33',
+                    textShadow: '0 0 8px rgba(51, 255, 51, 0.6)',
+                    lineHeight: 1.6,
+                    contentPadding: '20px 15% 30px 15%',
+                    noteMargin: '-150px auto',
+                    topHeight: 200,
+                    bottomHeight: 200,
+                    dateBottom: 90,
+                    dateFontFamily: "'Share Tech Mono', monospace",
+                    dateFontSize: 14,
+                    dateColor: '#33ff33'
+                },
+                closed: {
+                    height: 289,
+                    margin: '10px auto 10px auto',
+                    dateVisible: true,
+                    dateTop: 130,
+                    dateFontSize: 14,
+                    dateColor: '#33ff33'
+                },
+                images: {
+                    top: '/cyberpunk/notes/top.webp',
+                    middle: '/cyberpunk/notes/middle.webp',
+                    bottom: '/cyberpunk/notes/bottom.webp',
+                    closed: '/cyberpunk/notes/closed.webp'
+                }
+            },
+            cabin: {
+                open: {
+                    fontFamily: "'Cabin', sans-serif",
+                    fontSize: 20,
+                    textColor: '#4a3728',
+                    textShadow: 'none',
+                    lineHeight: 1.6,
+                    contentPadding: '20px 15% 30px 15%',
+                    noteMargin: '-150px auto',
+                    topHeight: 200,
+                    bottomHeight: 200,
+                    dateBottom: 90,
+                    dateFontFamily: "'Cabin', sans-serif",
+                    dateFontSize: 14,
+                    dateColor: '#6a5748'
+                },
+                closed: {
+                    height: 289,
+                    margin: '10px auto 10px auto',
+                    dateVisible: true,
+                    dateTop: 130,
+                    dateFontSize: 14,
+                    dateColor: '#6a5748'
+                },
+                images: {
+                    top: '/cabin/notes/top.webp',
+                    middle: '/cabin/notes/middle.webp',
+                    bottom: '/cabin/notes/bottom.webp',
+                    closed: '/cabin/notes/closed.webp'
+                }
+            },
+            underwater: {
+                open: {
+                    fontFamily: "'Quicksand', sans-serif",
+                    fontSize: 20,
+                    textColor: '#3a2a1a',
+                    textShadow: 'none',
+                    lineHeight: 1.6,
+                    contentPadding: '20px 15% 30px 15%',
+                    noteMargin: '-150px auto',
+                    topHeight: 200,
+                    bottomHeight: 200,
+                    dateBottom: 90,
+                    dateFontFamily: "'Quicksand', sans-serif",
+                    dateFontSize: 14,
+                    dateColor: '#5a4a3a'
+                },
+                closed: {
+                    height: 289,
+                    margin: '10px auto 10px auto',
+                    dateVisible: true,
+                    dateTop: 130,
+                    dateFontSize: 14,
+                    dateColor: '#5a4a3a'
+                },
+                images: {
+                    top: '/underwater/notes/top.webp',
+                    middle: '/underwater/notes/middle.webp',
+                    bottom: '/underwater/notes/bottom.webp',
+                    closed: '/underwater/notes/closed.webp'
+                }
+            }
+        };
+
+        let currentTheme = 'fantasy';
+        let currentState = 'open';
+
+        // DOM elements
+        const notePreview = document.getElementById('notePreview');
+        const cssOutput = document.getElementById('cssOutput');
+
+        // Initialize
+        function init() {
+            // Theme tabs
+            document.querySelectorAll('.theme-tab').forEach(tab => {
+                tab.addEventListener('click', () => {
+                    document.querySelectorAll('.theme-tab').forEach(t => t.classList.remove('active'));
+                    tab.classList.add('active');
+                    currentTheme = tab.dataset.theme;
+                    loadTheme();
+                    updatePreview();
+                });
+            });
+
+            // State toggle
+            document.querySelectorAll('.state-toggle button').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    document.querySelectorAll('.state-toggle button').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    currentState = btn.dataset.state;
+                    updatePreview();
+                });
+            });
+
+            // Input listeners
+            const inputs = ['fontFamily', 'fontSize', 'textColor', 'textShadow', 'lineHeight',
+                           'contentPadding', 'noteMargin', 'topHeight', 'bottomHeight',
+                           'closedHeight', 'closedMargin',
+                           'dateOpenBottom', 'dateFontFamily', 'dateFontSize', 'dateColor',
+                           'dateClosedVisible', 'dateClosedTop', 'dateClosedFontSize', 'dateClosedColor'];
+
+            inputs.forEach(id => {
+                const el = document.getElementById(id);
+                if (el) {
+                    el.addEventListener('input', () => {
+                        saveToTheme();
+                        updatePreview();
+                    });
+                    // Also handle change event for checkboxes
+                    el.addEventListener('change', () => {
+                        saveToTheme();
+                        updatePreview();
+                    });
+                }
+            });
+
+            // Color picker sync
+            document.getElementById('textColorPicker').addEventListener('input', (e) => {
+                document.getElementById('textColor').value = e.target.value;
+                saveToTheme();
+                updatePreview();
+            });
+
+            document.getElementById('textColor').addEventListener('input', (e) => {
+                document.getElementById('textColorPicker').value = e.target.value;
+            });
+
+            // Date color picker sync - open
+            document.getElementById('dateColorPicker').addEventListener('input', (e) => {
+                document.getElementById('dateColor').value = e.target.value;
+                saveToTheme();
+                updatePreview();
+            });
+
+            document.getElementById('dateColor').addEventListener('input', (e) => {
+                document.getElementById('dateColorPicker').value = e.target.value;
+            });
+
+            // Date color picker sync - closed
+            document.getElementById('dateClosedColorPicker').addEventListener('input', (e) => {
+                document.getElementById('dateClosedColor').value = e.target.value;
+                saveToTheme();
+                updatePreview();
+            });
+
+            document.getElementById('dateClosedColor').addEventListener('input', (e) => {
+                document.getElementById('dateClosedColorPicker').value = e.target.value;
+            });
+
+            loadTheme();
+            updatePreview();
+        }
+
+        function loadTheme() {
+            const theme = themes[currentTheme];
+
+            document.getElementById('fontFamily').value = theme.open.fontFamily;
+            document.getElementById('fontSize').value = theme.open.fontSize;
+            document.getElementById('fontSizeVal').textContent = theme.open.fontSize + 'px';
+            document.getElementById('textColor').value = theme.open.textColor;
+            document.getElementById('textColorPicker').value = theme.open.textColor;
+            document.getElementById('textShadow').value = theme.open.textShadow;
+            document.getElementById('lineHeight').value = theme.open.lineHeight;
+            document.getElementById('lineHeightVal').textContent = theme.open.lineHeight;
+            document.getElementById('contentPadding').value = theme.open.contentPadding;
+            document.getElementById('noteMargin').value = theme.open.noteMargin;
+            document.getElementById('topHeight').value = theme.open.topHeight;
+            document.getElementById('topHeightVal').textContent = theme.open.topHeight + 'px';
+            document.getElementById('bottomHeight').value = theme.open.bottomHeight;
+            document.getElementById('bottomHeightVal').textContent = theme.open.bottomHeight + 'px';
+            document.getElementById('closedHeight').value = theme.closed.height;
+            document.getElementById('closedHeightVal').textContent = theme.closed.height + 'px';
+            document.getElementById('closedMargin').value = theme.closed.margin;
+
+            // Date - Open
+            document.getElementById('dateOpenBottom').value = theme.open.dateBottom;
+            document.getElementById('dateOpenBottomVal').textContent = theme.open.dateBottom + 'px';
+            document.getElementById('dateFontFamily').value = theme.open.dateFontFamily;
+            document.getElementById('dateFontSize').value = theme.open.dateFontSize;
+            document.getElementById('dateFontSizeVal').textContent = theme.open.dateFontSize + 'px';
+            document.getElementById('dateColor').value = theme.open.dateColor;
+            document.getElementById('dateColorPicker').value = theme.open.dateColor;
+
+            // Date - Closed
+            document.getElementById('dateClosedVisible').checked = theme.closed.dateVisible;
+            document.getElementById('dateClosedTop').value = theme.closed.dateTop;
+            document.getElementById('dateClosedTopVal').textContent = theme.closed.dateTop + 'px';
+            document.getElementById('dateClosedFontSize').value = theme.closed.dateFontSize;
+            document.getElementById('dateClosedFontSizeVal').textContent = theme.closed.dateFontSize + 'px';
+            document.getElementById('dateClosedColor').value = theme.closed.dateColor;
+            document.getElementById('dateClosedColorPicker').value = theme.closed.dateColor;
+        }
+
+        function saveToTheme() {
+            const theme = themes[currentTheme];
+
+            theme.open.fontFamily = document.getElementById('fontFamily').value;
+            theme.open.fontSize = parseInt(document.getElementById('fontSize').value);
+            theme.open.textColor = document.getElementById('textColor').value;
+            theme.open.textShadow = document.getElementById('textShadow').value;
+            theme.open.lineHeight = parseFloat(document.getElementById('lineHeight').value);
+            theme.open.contentPadding = document.getElementById('contentPadding').value;
+            theme.open.noteMargin = document.getElementById('noteMargin').value;
+            theme.open.topHeight = parseInt(document.getElementById('topHeight').value);
+            theme.open.bottomHeight = parseInt(document.getElementById('bottomHeight').value);
+            theme.closed.height = parseInt(document.getElementById('closedHeight').value);
+            theme.closed.margin = document.getElementById('closedMargin').value;
+
+            // Date - Open
+            theme.open.dateBottom = parseInt(document.getElementById('dateOpenBottom').value);
+            theme.open.dateFontFamily = document.getElementById('dateFontFamily').value;
+            theme.open.dateFontSize = parseInt(document.getElementById('dateFontSize').value);
+            theme.open.dateColor = document.getElementById('dateColor').value;
+
+            // Date - Closed
+            theme.closed.dateVisible = document.getElementById('dateClosedVisible').checked;
+            theme.closed.dateTop = parseInt(document.getElementById('dateClosedTop').value);
+            theme.closed.dateFontSize = parseInt(document.getElementById('dateClosedFontSize').value);
+            theme.closed.dateColor = document.getElementById('dateClosedColor').value;
+
+            // Update value displays
+            document.getElementById('fontSizeVal').textContent = theme.open.fontSize + 'px';
+            document.getElementById('lineHeightVal').textContent = theme.open.lineHeight;
+            document.getElementById('topHeightVal').textContent = theme.open.topHeight + 'px';
+            document.getElementById('bottomHeightVal').textContent = theme.open.bottomHeight + 'px';
+            document.getElementById('closedHeightVal').textContent = theme.closed.height + 'px';
+            document.getElementById('dateOpenBottomVal').textContent = theme.open.dateBottom + 'px';
+            document.getElementById('dateFontSizeVal').textContent = theme.open.dateFontSize + 'px';
+            document.getElementById('dateClosedTopVal').textContent = theme.closed.dateTop + 'px';
+            document.getElementById('dateClosedFontSizeVal').textContent = theme.closed.dateFontSize + 'px';
+        }
+
+        function updatePreview() {
+            const theme = themes[currentTheme];
+            const note = notePreview;
+            const content = note.querySelector('.note-content');
+            const top = note.querySelector('.note-top');
+            const bottom = note.querySelector('.note-bottom');
+            const noteMeta = note.querySelector('.note-meta');
+            const noteDate = note.querySelector('.note-date');
+
+            if (currentState === 'open') {
+                note.classList.remove('rolled-up');
+                note.style.backgroundImage = 'none';
+                note.style.height = 'auto';
+                note.style.margin = theme.open.noteMargin;
+
+                top.style.backgroundImage = `url("${theme.images.top}")`;
+                top.style.height = theme.open.topHeight + 'px';
+
+                content.style.backgroundImage = `url("${theme.images.middle}")`;
+                content.style.fontFamily = theme.open.fontFamily;
+                content.style.fontSize = theme.open.fontSize + 'px';
+                content.style.color = theme.open.textColor;
+                content.style.textShadow = theme.open.textShadow;
+                content.style.lineHeight = theme.open.lineHeight;
+                content.style.padding = theme.open.contentPadding;
+
+                bottom.style.backgroundImage = `url("${theme.images.bottom}")`;
+                bottom.style.height = theme.open.bottomHeight + 'px';
+
+                // Date styling - open
+                noteMeta.style.position = 'absolute';
+                noteMeta.style.bottom = theme.open.dateBottom + 'px';
+                noteMeta.style.top = 'auto';
+                noteMeta.style.left = '0';
+                noteMeta.style.right = '0';
+                noteMeta.style.display = 'block';
+                noteDate.style.fontFamily = theme.open.dateFontFamily;
+                noteDate.style.fontSize = theme.open.dateFontSize + 'px';
+                noteDate.style.color = theme.open.dateColor;
+            } else {
+                note.classList.add('rolled-up');
+                note.style.backgroundImage = `url("${theme.images.closed}")`;
+                note.style.height = theme.closed.height + 'px';
+                note.style.margin = theme.closed.margin;
+
+                // Date styling - closed
+                if (theme.closed.dateVisible) {
+                    noteMeta.style.display = 'block';
+                    noteMeta.style.position = 'absolute';
+                    noteMeta.style.top = theme.closed.dateTop + 'px';
+                    noteMeta.style.bottom = 'auto';
+                    noteMeta.style.left = '0';
+                    noteMeta.style.right = '0';
+                    noteDate.style.fontFamily = theme.open.dateFontFamily;
+                    noteDate.style.fontSize = theme.closed.dateFontSize + 'px';
+                    noteDate.style.color = theme.closed.dateColor;
+                } else {
+                    noteMeta.style.display = 'none';
+                }
+            }
+
+            generateCSS();
+        }
+
+        function generateCSS() {
+            const theme = themes[currentTheme];
+            const selector = currentTheme === 'fantasy' ? '' : `html.theme-${currentTheme} `;
+
+            let css = `/* ${currentTheme.toUpperCase()} NOTE STYLES */\n\n`;
+
+            // Open state
+            css += `/* ${currentTheme} - Open */\n`;
+            css += `${selector}.note-scroll {\n`;
+            css += `    margin: ${theme.open.noteMargin};\n`;
+            css += `}\n\n`;
+
+            css += `${selector}.note-scroll::before {\n`;
+            css += `    background-image: url("/${currentTheme}/notes/top.webp");\n`;
+            css += `    height: ${theme.open.topHeight}px;\n`;
+            css += `}\n\n`;
+
+            css += `${selector}.note-scroll .note-content {\n`;
+            css += `    background-image: url("/${currentTheme}/notes/middle.webp");\n`;
+            css += `    font-family: ${theme.open.fontFamily};\n`;
+            css += `    font-size: ${theme.open.fontSize}px;\n`;
+            css += `    color: ${theme.open.textColor};\n`;
+            if (theme.open.textShadow !== 'none') {
+                css += `    text-shadow: ${theme.open.textShadow};\n`;
+            }
+            css += `    line-height: ${theme.open.lineHeight};\n`;
+            css += `    padding: ${theme.open.contentPadding};\n`;
+            css += `}\n\n`;
+
+            css += `${selector}.note-scroll::after {\n`;
+            css += `    background-image: url("/${currentTheme}/notes/bottom.webp");\n`;
+            css += `    height: ${theme.open.bottomHeight}px;\n`;
+            css += `}\n\n`;
+
+            // Date - Open
+            css += `/* ${currentTheme} - Date (Open) */\n`;
+            css += `${selector}.note-scroll .note-meta {\n`;
+            css += `    position: absolute;\n`;
+            css += `    bottom: ${theme.open.dateBottom}px;\n`;
+            css += `    left: 0;\n`;
+            css += `    right: 0;\n`;
+            css += `    text-align: center;\n`;
+            css += `}\n\n`;
+
+            css += `${selector}.note-scroll .note-date {\n`;
+            css += `    font-family: ${theme.open.dateFontFamily};\n`;
+            css += `    font-size: ${theme.open.dateFontSize}px;\n`;
+            css += `    color: ${theme.open.dateColor};\n`;
+            css += `}\n\n`;
+
+            // Closed state
+            css += `/* ${currentTheme} - Closed */\n`;
+            css += `${selector}.note-scroll.rolled-up {\n`;
+            css += `    background-image: url("/${currentTheme}/notes/closed.webp");\n`;
+            css += `    height: ${theme.closed.height}px;\n`;
+            css += `    margin: ${theme.closed.margin};\n`;
+            css += `}\n\n`;
+
+            // Date - Closed
+            css += `/* ${currentTheme} - Date (Closed) */\n`;
+            css += `${selector}.note-scroll.rolled-up .note-meta {\n`;
+            if (theme.closed.dateVisible) {
+                css += `    display: block;\n`;
+                css += `    position: absolute;\n`;
+                css += `    top: ${theme.closed.dateTop}px;\n`;
+                css += `    bottom: auto;\n`;
+            } else {
+                css += `    display: none;\n`;
+            }
+            css += `}\n\n`;
+
+            if (theme.closed.dateVisible) {
+                css += `${selector}.note-scroll.rolled-up .note-date {\n`;
+                css += `    font-size: ${theme.closed.dateFontSize}px;\n`;
+                css += `    color: ${theme.closed.dateColor};\n`;
+                css += `}\n`;
+            }
+
+            cssOutput.value = css;
+        }
+
+        function copyCSS() {
+            cssOutput.select();
+            document.execCommand('copy');
+            alert('CSS copied to clipboard!');
+        }
+
+        function exportAll() {
+            let allCSS = '/* NOTE SCROLL STYLES - ALL THEMES */\n';
+            allCSS += '/* Generated by Note Calibration Tool */\n\n';
+
+            Object.keys(themes).forEach(themeName => {
+                const theme = themes[themeName];
+                const selector = themeName === 'fantasy' ? '' : `html.theme-${themeName} `;
+
+                allCSS += `/* ═══════════════════════════════════════════════════════════════\n`;
+                allCSS += `   THEME: ${themeName.toUpperCase()} NOTES\n`;
+                allCSS += `   ═══════════════════════════════════════════════════════════════ */\n\n`;
+
+                // Open state
+                allCSS += `/* ${themeName} - Open */\n`;
+                if (themeName !== 'fantasy') {
+                    allCSS += `${selector}.note-scroll {\n`;
+                    allCSS += `    margin: ${theme.open.noteMargin};\n`;
+                    allCSS += `}\n\n`;
+                }
+
+                allCSS += `${selector}.note-scroll::before {\n`;
+                allCSS += `    background-image: url("/${themeName}/notes/top.webp");\n`;
+                allCSS += `    height: ${theme.open.topHeight}px;\n`;
+                allCSS += `}\n\n`;
+
+                allCSS += `${selector}.note-scroll .note-content {\n`;
+                allCSS += `    background-image: url("/${themeName}/notes/middle.webp");\n`;
+                allCSS += `    font-family: ${theme.open.fontFamily};\n`;
+                allCSS += `    font-size: ${theme.open.fontSize}px;\n`;
+                allCSS += `    color: ${theme.open.textColor};\n`;
+                if (theme.open.textShadow !== 'none') {
+                    allCSS += `    text-shadow: ${theme.open.textShadow};\n`;
+                }
+                allCSS += `    line-height: ${theme.open.lineHeight};\n`;
+                allCSS += `    padding: ${theme.open.contentPadding};\n`;
+                allCSS += `}\n\n`;
+
+                allCSS += `${selector}.note-scroll::after {\n`;
+                allCSS += `    background-image: url("/${themeName}/notes/bottom.webp");\n`;
+                allCSS += `    height: ${theme.open.bottomHeight}px;\n`;
+                allCSS += `}\n\n`;
+
+                // Date - Open
+                allCSS += `/* ${themeName} - Date (Open) */\n`;
+                allCSS += `${selector}.note-scroll .note-meta {\n`;
+                allCSS += `    position: absolute;\n`;
+                allCSS += `    bottom: ${theme.open.dateBottom}px;\n`;
+                allCSS += `    left: 0;\n`;
+                allCSS += `    right: 0;\n`;
+                allCSS += `    text-align: center;\n`;
+                allCSS += `}\n\n`;
+
+                allCSS += `${selector}.note-scroll .note-date {\n`;
+                allCSS += `    font-family: ${theme.open.dateFontFamily};\n`;
+                allCSS += `    font-size: ${theme.open.dateFontSize}px;\n`;
+                allCSS += `    color: ${theme.open.dateColor};\n`;
+                allCSS += `}\n\n`;
+
+                // Closed state
+                allCSS += `/* ${themeName} - Closed */\n`;
+                allCSS += `${selector}.note-scroll.rolled-up {\n`;
+                allCSS += `    background-image: url("/${themeName}/notes/closed.webp");\n`;
+                allCSS += `    height: ${theme.closed.height}px;\n`;
+                allCSS += `    margin: ${theme.closed.margin};\n`;
+                allCSS += `}\n\n`;
+
+                // Date - Closed
+                allCSS += `/* ${themeName} - Date (Closed) */\n`;
+                allCSS += `${selector}.note-scroll.rolled-up .note-meta {\n`;
+                if (theme.closed.dateVisible) {
+                    allCSS += `    display: block;\n`;
+                    allCSS += `    position: absolute;\n`;
+                    allCSS += `    top: ${theme.closed.dateTop}px;\n`;
+                    allCSS += `    bottom: auto;\n`;
+                } else {
+                    allCSS += `    display: none;\n`;
+                }
+                allCSS += `}\n\n`;
+
+                if (theme.closed.dateVisible) {
+                    allCSS += `${selector}.note-scroll.rolled-up .note-date {\n`;
+                    allCSS += `    font-size: ${theme.closed.dateFontSize}px;\n`;
+                    allCSS += `    color: ${theme.closed.dateColor};\n`;
+                    allCSS += `}\n\n`;
+                }
+            });
+
+            cssOutput.value = allCSS;
+            alert('All theme CSS generated! Copy from the textarea.');
+        }
+
+        init();
+    </script>
+</body>
+</html>

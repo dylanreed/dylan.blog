@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixel Pusher 3000 - Desktop Publishing like it's 1985</title>
+  <meta name="description" content="Create cards, signs, banners, and calendars with 400+ classic clipart sprites. Authentic DOS Print Shop style graphics.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Dot matrix paper edges -->
+  <div class="paper-edge paper-edge-left"></div>
+  <div class="paper-edge paper-edge-right"></div>
+
+  <!-- Scanline overlay -->
+  <div class="scanlines"></div>
+
+  <main>
+    <!-- Hero Section with orbiting sprites -->
+    <section class="hero-with-sprites">
+      <!-- Sprite Carousel - behind the hero content -->
+      <div class="carousel-container">
+        <div class="carousel" id="carousel">
+          <!-- Sprites loaded by JS -->
+        </div>
+      </div>
+
+      <!-- Hero content - on top of sprites -->
+      <header class="hero">
+        <div class="logo-container">
+          <img src="assets/splash.png" alt="Pixel Pusher 3000" class="logo">
+          <div class="logo-shine"></div>
+        </div>
+        <p class="tagline">Desktop Publishing like it's 1985</p>
+        <p class="subtitle">Create cards, signs, banners, & calendars with 400+ classic clipart sprites</p>
+
+        <div class="download-buttons">
+          <a href="#" class="btn btn-primary">DOWNLOAD DMG</a>
+          <a href="#" class="btn btn-secondary">DOWNLOAD ZIP</a>
+        </div>
+
+        <p class="platform-note">For macOS 10.15+</p>
+      </header>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Made with nostalgia</p>
+      <p class="links">
+        <a href="https://github.com/nervous/pixel-pusher-3000">GitHub</a>
+        <span class="separator">|</span>
+        <a href="https://itch.io">itch.io</a>
+      </p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
