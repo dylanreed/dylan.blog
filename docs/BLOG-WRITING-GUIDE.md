@@ -108,6 +108,49 @@ tags:
 
 ---
 
+## Instagram Share Image
+
+After finalizing a blog post, generate the Instagram share graphic and copy.
+
+### Generate the Graphic
+
+```bash
+npm run instagram -- --title "YOUR POST TITLE" --category CATEGORY
+```
+
+Output: `output/instagram-{slug}.png` — 1080x1080 pixel art graphic matching the blog theme.
+
+Available categories: health, tabletop, gaming, tech, writing, cooking, music, travel, reading, crafting, clowning, personal, pets, adhd
+
+### Caption Guidelines
+
+Write 1-3 sentences in Dylan's blog voice:
+- Hook the reader with the topic, not "new blog post!"
+- Match the post's mood (playful, vulnerable, frustrated, etc.)
+- End with "Link in bio" or similar CTA
+- Keep it short — Instagram captions get truncated
+
+### Hashtag Template
+
+Mix topic-specific + recurring tags (10-15 total):
+
+**Always include:** #dylansblog #blogging #pixelart #retrogaming
+
+**Category-specific pools:**
+- health: #chronicillness #spoonie #recovery #healthupdate
+- tabletop: #tabletopgaming #bloodbowl #warhammer #minipainting #boardgames
+- tech: #webdev #coding #indieweb #hugo
+- writing: #amwriting #writingcommunity #nanowrimo
+- cooking: #homecooking #foodblog
+- music: #ukulele #musicproduction #synthwave
+- reading: #bookrecommendations #scifibooks #romancebooks #bookstagram
+- crafting: #puppetmaking #sewing #handmade
+- clowning: #clownlife #circusarts #juggling
+- personal: #lifeblog #personalgrowth #adhd
+- pets: #catsofinstagram #catlife
+
+---
+
 ## Tag System
 
 ### Primary Tags (Match Sprite Categories)
