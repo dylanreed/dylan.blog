@@ -5,3 +5,5 @@ themes/
 content/
 
 .DS_Store
+node_modules/
+output/
