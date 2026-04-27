@@ -82,23 +82,15 @@ Titles are a major part of Dylan's personality. They set the tone before readers
 ### Frontmatter Template
 ```yaml
 ---
-layout: post
-status: publish
-published: true
-title: Your Post Title
-author:
-  display_name: Dylan
-  email: dylan@dylanreed.com
-  url: /
-date: 'YYYY-MM-DD HH:MM:SS -0600'
-date_gmt: 'YYYY-MM-DD HH:MM:SS -0600'
+title:
+instagram caption:
+instagram tags:
 categories:
-- Awesome
-tags:
-- tag1
-- tag2
+  - personal
 ---
 ```
+
+The Instagram caption and hashtags live in the post's frontmatter so everything for a post — body, social copy, category — sits in one file.
 
 ### Content Structure
 1. **Opening image** (optional) - Usually a relevant photo with alt text
@@ -110,7 +102,7 @@ tags:
 
 ## Instagram Share Image
 
-After finalizing a blog post, generate the Instagram share graphic and copy.
+After finalizing a blog post, generate the Instagram share graphic and write the caption + hashtags into the post's frontmatter (`instagram caption:` and `instagram tags:`).
 
 ### Generate the Graphic
 
@@ -164,7 +156,7 @@ Mix topic-specific + recurring tags (10-15 total):
 | `writing` | Writing projects, blogging, NaNoWriMo | Fiction, screenplays, creative process |
 | `cooking` | Food, recipes, kitchen adventures | Recipes, meal experiments |
 | `music` | Instruments, music production | Ukulele, music software, concerts |
-| `travel` | Trips, adventures, places | Portland, vacations, exploring |
+| `travel` | Trips, adventures, places | Northern Colorado, vacations, exploring |
 | `reading` | Book reviews, recommendations | Sci-fi, romance, fantasy reviews |
 
 ### Secondary Tags
@@ -363,7 +355,7 @@ Reference these freely - they're part of the voice:
 - Cats: Reno, Ramona, Jeff
 - ADHD experiences
 - Medical adventures and healthcare system frustrations
-- Portland as home base
+- Northern Colorado as home base
 
 ### Tabletop Gaming
 - **Blood Bowl**: Dylan's favorite ("ridiculous and hard to take seriously"), plays Halflings
@@ -769,7 +761,7 @@ The blog has been running since **February 2002** - over 23 years of continuous 
 
 **2021-Present: The Chronic Illness Era**
 - Hand/ankle surgeries and recovery
-- Portland living
+- Northern Colorado living
 - Claude Code and tech experiments
 - Voice: Mature, philosophical, medical journey
 

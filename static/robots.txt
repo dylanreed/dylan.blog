@@ -1,8 +1,0 @@
-# ABOUTME: Robots.txt file for search engine crawlers
-# ABOUTME: Allows all crawlers and points them to sitemap
-
-User-agent: *
-Allow: /
-
-# Sitemap location
-Sitemap: https://dylan.blog/sitemap.xml

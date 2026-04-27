@@ -7,3 +7,5 @@ content/
 .DS_Store
 node_modules/
 output/
+unneeded/
+theme-pixel-art/
