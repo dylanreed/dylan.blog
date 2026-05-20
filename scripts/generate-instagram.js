@@ -148,6 +148,18 @@ function getTitleSizeClass(title) {
   return 'size-sm';
 }
 
+function storyOutputName(slug, index) {
+  return `instagram-${slug}-story-${index}.png`;
+}
+
+function getStoryTextSizeClass(text) {
+  const len = text.length;
+  if (len < 50) return 'size-xl';
+  if (len < 100) return 'size-lg';
+  if (len < 160) return 'size-md';
+  return 'size-sm';
+}
+
 async function main() {
   const args = parseArgs(process.argv);
 
@@ -278,7 +290,7 @@ module.exports = {
   getTitleSizeClass,
   parseStoryFrames,
   stripQuotes,
-  storyOutputName:       undefined,
-  getStoryTextSizeClass: undefined,
+  storyOutputName,
+  getStoryTextSizeClass,
   buildLinkMap:          undefined,
 };

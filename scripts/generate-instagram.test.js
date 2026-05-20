@@ -4,7 +4,12 @@
 const { test } = require('node:test');
 const assert = require('node:assert');
 
-const { sanitizeFilename, parseStoryFrames } = require('./generate-instagram.js');
+const {
+  sanitizeFilename,
+  parseStoryFrames,
+  storyOutputName,
+  getStoryTextSizeClass,
+} = require('./generate-instagram.js');
 
 test('sanitizeFilename lowercases and dashes non-alphanumerics', () => {
   assert.strictEqual(sanitizeFilename('Hello, World!'), 'hello-world');
@@ -48,4 +53,16 @@ test('parseStoryFrames stops at the next top-level key', () => {
   assert.deepStrictEqual(parseStoryFrames(fm), [
     { text: 'Only frame', link: 'https://x.test' },
   ]);
+});
+
+test('storyOutputName builds a 1-based png name sharing the slug stem', () => {
+  assert.strictEqual(storyOutputName('my-post', 1), 'instagram-my-post-story-1.png');
+  assert.strictEqual(storyOutputName('my-post', 3), 'instagram-my-post-story-3.png');
+});
+
+test('getStoryTextSizeClass scales by text length', () => {
+  assert.strictEqual(getStoryTextSizeClass('short'), 'size-xl');
+  assert.strictEqual(getStoryTextSizeClass('x'.repeat(70)), 'size-lg');
+  assert.strictEqual(getStoryTextSizeClass('x'.repeat(130)), 'size-md');
+  assert.strictEqual(getStoryTextSizeClass('x'.repeat(200)), 'size-sm');
 });
