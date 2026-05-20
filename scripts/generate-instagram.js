@@ -38,6 +38,51 @@ function parseArgs(argv) {
   return args;
 }
 
+function stripQuotes(value) {
+  if (
+    value.length >= 2 &&
+    ((value[0] === '"' && value[value.length - 1] === '"') ||
+      (value[0] === "'" && value[value.length - 1] === "'"))
+  ) {
+    return value.slice(1, -1);
+  }
+  return value;
+}
+
+// Parses an `instagram stories:` block from raw frontmatter into [{ text, link }].
+// Each frame is `- text: ...` followed by an indented `link: ...`. Returns [] when absent.
+function parseStoryFrames(frontmatterRaw) {
+  const lines = frontmatterRaw.split('\n');
+  const start = lines.findIndex((l) => /^instagram stories:\s*$/.test(l));
+  if (start === -1) return [];
+
+  const frames = [];
+  let current = null;
+  for (let i = start + 1; i < lines.length; i++) {
+    const line = lines[i];
+    if (/^\S/.test(line)) break; // dedent to a new top-level key ends the block
+    if (line.trim() === '') continue;
+
+    const itemMatch = line.match(/^\s*-\s*text:\s*(.*)$/);
+    if (itemMatch) {
+      if (current) frames.push(current);
+      current = { text: stripQuotes(itemMatch[1].trim()), link: '' };
+      continue;
+    }
+    const linkMatch = line.match(/^\s*link:\s*(.*)$/);
+    if (linkMatch && current) {
+      current.link = stripQuotes(linkMatch[1].trim());
+      continue;
+    }
+    const textMatch = line.match(/^\s*text:\s*(.*)$/);
+    if (textMatch && current) {
+      current.text = stripQuotes(textMatch[1].trim());
+    }
+  }
+  if (current) frames.push(current);
+  return frames;
+}
+
 function parsePostFile(postPath) {
   const raw = fs.readFileSync(postPath, 'utf8');
   // Skip leading HTML comments (e.g. ABOUTME headers) and blank lines before the frontmatter block.
@@ -231,8 +276,8 @@ if (require.main === module) {
 module.exports = {
   sanitizeFilename,
   getTitleSizeClass,
-  parseStoryFrames:      undefined,
-  stripQuotes:           undefined,
+  parseStoryFrames,
+  stripQuotes,
   storyOutputName:       undefined,
   getStoryTextSizeClass: undefined,
   buildLinkMap:          undefined,
