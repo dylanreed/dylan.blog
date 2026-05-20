@@ -33,6 +33,8 @@ function parseArgs(argv) {
       args.category = argv[++i];
     } else if (argv[i] === '--post' && argv[i + 1]) {
       args.post = argv[++i];
+    } else if (argv[i] === '--story') {
+      args.story = true;
     }
   }
   return args;
@@ -109,6 +111,8 @@ function parsePostFile(postPath) {
   const imgMatch = body.match(/!\[[^\]]*\]\(([^)\s]+)/);
   if (imgMatch) out.headerImage = imgMatch[1];
 
+  out.stories = parseStoryFrames(fmRaw);
+
   return out;
 }
 
@@ -184,16 +188,35 @@ async function main() {
   const args = parseArgs(process.argv);
 
   let postHeaderImage;
+  let postFm;
   if (args.post) {
     const postPath = path.resolve(args.post);
     if (!fs.existsSync(postPath)) {
       console.error(`Post file not found: ${postPath}`);
       process.exit(1);
     }
-    const fm = parsePostFile(postPath);
-    if (!args.title && fm.title) args.title = fm.title;
-    if (!args.category && fm.category) args.category = fm.category;
-    postHeaderImage = fm.headerImage;
+    postFm = parsePostFile(postPath);
+    if (!args.title && postFm.title) args.title = postFm.title;
+    if (!args.category && postFm.category) args.category = postFm.category;
+    postHeaderImage = postFm.headerImage;
+  }
+
+  if (args.story) {
+    if (!args.post) {
+      console.error('--story requires --post (story frames are read from the post frontmatter)');
+      process.exit(1);
+    }
+    const frames = postFm && postFm.stories ? postFm.stories : [];
+    if (frames.length === 0) {
+      console.error(`No "instagram stories:" block found in ${args.post}`);
+      process.exit(1);
+    }
+    frames.forEach((frame, i) => {
+      if (!frame.text || !frame.link) {
+        console.error(`Story frame ${i + 1} is missing text or link`);
+        process.exit(1);
+      }
+    });
   }
 
   if (!args.title) {
@@ -293,9 +316,47 @@ async function main() {
   const outputPath = path.resolve(outputDir, `instagram-${sanitized}.png`);
 
   await page.screenshot({ path: outputPath, type: 'png' });
-  await browser.close();
-
   console.log(`Generated: ${outputPath}`);
+
+  if (args.story) {
+    const storyTemplatePath = path.resolve(__dirname, 'story-template.html');
+    if (!fs.existsSync(storyTemplatePath)) {
+      console.error(`Story template not found: ${storyTemplatePath}`);
+      await browser.close();
+      process.exit(1);
+    }
+    const storyTemplateFileUrl = `file://${storyTemplatePath}`;
+    const frames = postFm.stories;
+    await page.setViewport({ width: 1080, height: 1920 });
+    for (let i = 0; i < frames.length; i++) {
+      const frame = frames[i];
+      await page.goto(storyTemplateFileUrl, { waitUntil: 'networkidle0' });
+      const storySizeClass = getStoryTextSizeClass(frame.text);
+      await page.evaluate(({ text, headerUrl, spriteUrl, glowColor, sizeClass }) => {
+        document.getElementById('title').textContent = text;
+        document.getElementById('title').className = sizeClass;
+        document.getElementById('background').style.backgroundImage = `url('${headerUrl}')`;
+        document.getElementById('sprite').style.backgroundImage = `url('${spriteUrl}')`;
+        document.getElementById('accent').style.backgroundColor = glowColor;
+      }, {
+        text: frame.text,
+        headerUrl: headerFileUrl,
+        spriteUrl: spriteFileUrl,
+        glowColor: catConfig.glow,
+        sizeClass: storySizeClass,
+      });
+      await page.evaluate(() => document.fonts.ready);
+      await new Promise((resolve) => setTimeout(resolve, 500));
+      const storyPath = path.resolve(outputDir, storyOutputName(sanitized, i + 1));
+      await page.screenshot({ path: storyPath, type: 'png' });
+      console.log(`Generated: ${storyPath}`);
+    }
+    const linkMapPath = path.resolve(outputDir, `instagram-${sanitized}-stories.md`);
+    fs.writeFileSync(linkMapPath, buildLinkMap(sanitized, frames));
+    console.log(`Generated: ${linkMapPath}`);
+  }
+
+  await browser.close();
 }
 
 if (require.main === module) {
