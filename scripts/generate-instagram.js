@@ -206,7 +206,7 @@ async function main() {
       console.error('--story requires --post (story frames are read from the post frontmatter)');
       process.exit(1);
     }
-    const frames = postFm && postFm.stories ? postFm.stories : [];
+    const frames = postFm.stories;
     if (frames.length === 0) {
       console.error(`No "instagram stories:" block found in ${args.post}`);
       process.exit(1);
