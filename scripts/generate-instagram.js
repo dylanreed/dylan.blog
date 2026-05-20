@@ -1,4 +1,4 @@
-// ABOUTME: CLI tool that generates 1080x1080 Instagram share images for blog posts using Puppeteer.
+// ABOUTME: CLI tool that generates Instagram graphics for blog posts using Puppeteer: a 1080x1080 feed image, and with --story vertical 1080x1920 story frames plus a link map.
 // ABOUTME: Takes a post title and category (or --post path) and renders the pixel art template; uses the post's first image as background when present and reachable.
 
 const puppeteer = require('puppeteer');
