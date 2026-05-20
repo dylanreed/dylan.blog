@@ -98,6 +98,20 @@ The Instagram caption and hashtags live in the post's frontmatter so everything 
 3. **Body** - Meander through the topic with tangents welcome
 4. **Closing** - Can be abrupt, reflective, or a simple sign-off
 
+### Footnotes
+
+Markdown footnote syntax (`[^1]` / `[^1]: text`) does **not** render on micro.blog — Hugo handles it but the micro.blog pre-processor drops it. Use raw HTML instead:
+
+```html
+sentence with a callout<sup id="fnref-1"><a href="#fn-1">[1]</a></sup>.
+
+<ol class="footnotes">
+<li id="fn-1">the footnote text <a href="#fnref-1">↩</a></li>
+</ol>
+```
+
+For multiple footnotes, use `fnref-2` / `fn-2`, `fnref-3` / `fn-3`, etc. Place the `<ol>` at the very bottom of the post.
+
 ---
 
 ## Instagram Share Image
@@ -106,11 +120,23 @@ After finalizing a blog post, generate the Instagram share graphic and write the
 
 ### Generate the Graphic
 
+Easiest — point at the markdown file and let the script read everything from frontmatter:
+
+```bash
+npm run instagram -- --post content/drafts/YYYY-MM-DD-slug.md
+```
+
+It pulls the title from frontmatter, the category from the first entry in `categories:`, and the first markdown image (`![alt](url)`) in the body. If that image URL is reachable (or it's a local path that exists), it gets used as the graphic's background. Otherwise the script falls back to the pixel-art header art for the category and prints a warning.
+
+Manual mode still works — useful if there's no draft file yet, or if you want to override:
+
 ```bash
 npm run instagram -- --title "YOUR POST TITLE" --category CATEGORY
 ```
 
-Output: `output/instagram-{slug}.png` — 1080x1080 pixel art graphic matching the blog theme.
+You can also mix flags — pass `--post` plus `--category` to override the category but inherit title and header image from the post.
+
+Output: `output/instagram-{slug}.png` — 1080x1080 graphic. Pixel art theme by default; replaced by the post's header image when one is found.
 
 Available categories: health, tabletop, gaming, tech, writing, cooking, music, travel, reading, crafting, clowning, personal, pets, adhd
 
