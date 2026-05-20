@@ -9,6 +9,7 @@ const {
   parseStoryFrames,
   storyOutputName,
   getStoryTextSizeClass,
+  buildLinkMap,
 } = require('./generate-instagram.js');
 
 test('sanitizeFilename lowercases and dashes non-alphanumerics', () => {
@@ -65,4 +66,18 @@ test('getStoryTextSizeClass scales by text length', () => {
   assert.strictEqual(getStoryTextSizeClass('x'.repeat(70)), 'size-lg');
   assert.strictEqual(getStoryTextSizeClass('x'.repeat(130)), 'size-md');
   assert.strictEqual(getStoryTextSizeClass('x'.repeat(200)), 'size-sm');
+});
+
+test('buildLinkMap lists every frame, its png, link, and the in-app reminder', () => {
+  const frames = [
+    { text: 'Frame one', link: 'https://a.test' },
+    { text: 'Frame two', link: 'https://b.test' },
+  ];
+  const md = buildLinkMap('my-post', frames);
+  assert.match(md, /Link sticker/);
+  assert.match(md, /Frame 1 — instagram-my-post-story-1\.png/);
+  assert.match(md, /Frame 2 — instagram-my-post-story-2\.png/);
+  assert.match(md, /Text: Frame one/);
+  assert.match(md, /https:\/\/a\.test/);
+  assert.match(md, /https:\/\/b\.test/);
 });

@@ -160,6 +160,26 @@ function getStoryTextSizeClass(text) {
   return 'size-sm';
 }
 
+// Builds the markdown link map that tells you which URL to sticker on each frame.
+function buildLinkMap(slug, frames) {
+  const header = [
+    '# Instagram Stories — link map',
+    '',
+    'Add each link in the Instagram app: Stories → upload the frame → Link sticker → paste the URL → drag it into the clear band at the bottom of the frame.',
+    '',
+  ];
+  const blocks = frames.map((frame, i) => {
+    const n = i + 1;
+    return [
+      `## Frame ${n} — ${storyOutputName(slug, n)}`,
+      `Text: ${frame.text}`,
+      `Link: ${frame.link}`,
+      '',
+    ].join('\n');
+  });
+  return header.concat(blocks).join('\n');
+}
+
 async function main() {
   const args = parseArgs(process.argv);
 
@@ -292,5 +312,5 @@ module.exports = {
   stripQuotes,
   storyOutputName,
   getStoryTextSizeClass,
-  buildLinkMap:          undefined,
+  buildLinkMap,
 };
