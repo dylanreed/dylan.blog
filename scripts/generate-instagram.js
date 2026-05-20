@@ -221,7 +221,19 @@ async function main() {
   console.log(`Generated: ${outputPath}`);
 }
 
-main().catch(err => {
-  console.error('Error generating image:', err.message);
-  process.exit(1);
-});
+if (require.main === module) {
+  main().catch(err => {
+    console.error('Error generating image:', err.message);
+    process.exit(1);
+  });
+}
+
+module.exports = {
+  sanitizeFilename,
+  getTitleSizeClass,
+  parseStoryFrames:      undefined,
+  stripQuotes:           undefined,
+  storyOutputName:       undefined,
+  getStoryTextSizeClass: undefined,
+  buildLinkMap:          undefined,
+};
