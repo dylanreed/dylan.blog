@@ -29,6 +29,14 @@ Generates a 1080x1080 PNG at `output/instagram-{slug}.png` using puppeteer + the
 
 The script reads sprite/header art from `theme-pixel-art/static/` (gitignored — assets duplicated locally from the canonical theme repo at `/Users/nervous/Dev/theme-pixel-art`).
 
+For Story frames, add an `instagram stories:` block (one `text` + `link` per frame) to the post frontmatter and run with `--story`:
+
+```bash
+npm run instagram -- --post content/posts/YYYY-MM-DD-slug.md --story
+```
+
+This writes vertical 1080x1920 frames (`output/instagram-{slug}-story-N.png`) plus a link map (`output/instagram-{slug}-stories.md`). Link stickers are added in the Instagram app — they can't be baked into the image.
+
 ## Conventions
 
 - Never use `--no-verify` on commits

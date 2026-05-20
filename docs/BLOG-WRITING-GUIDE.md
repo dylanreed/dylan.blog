@@ -167,6 +167,24 @@ Mix topic-specific + recurring tags (10-15 total):
 - personal: #lifeblog #personalgrowth #adhd
 - pets: #catsofinstagram #catlife
 
+### Story Frames (optional)
+
+Instagram feed captions can't carry clickable links — only Story link stickers can. To generate vertical Story frames for a post, add an `instagram stories:` block to the frontmatter (one `text` + `link` per frame) and pass `--story`:
+
+```yaml
+instagram stories:
+  - text: The hook for frame one.
+    link: https://dylan.blog/the-post
+  - text: The second frame's line.
+    link: https://example.com/buy
+```
+
+```bash
+npm run instagram -- --post content/posts/YYYY-MM-DD-slug.md --story
+```
+
+Output: `output/instagram-{slug}-story-1.png`, `-story-2.png`, … (vertical 1080×1920, text baked in, bottom third left clear) plus `output/instagram-{slug}-stories.md` — the link map listing which URL to sticker on each frame. The link sticker itself is added in the Instagram app (Stories → upload the frame → Link sticker → paste the URL → drag it into the clear bottom band); a link can't be baked into an uploaded image.
+
 ---
 
 ## Tag System
