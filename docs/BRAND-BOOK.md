@@ -89,7 +89,7 @@ A **hatched** bar, not a count of icons: it fills whatever width it is given, so
 
 - Fill `#8060c0` on well `#0d0a12`, trough `#3a2a5c`
 - 45° stripes on a 17px tile
-- Animated: `barber` 1.1s linear. Blog embed only. The Instagram PNG freezes a frame.
+- Animated: `barber` 2.6s linear. Blog embed only. The Instagram PNG freezes a frame.
 
 **Never print a percentage on the enjoyment bar.** The bar never shows a number, anywhere. On a book card a percentage reads as reading progress — Kindle, StoryGraph and Goodreads all use it that way. A number also reintroduces the "is it 70 or 75" dithering the bar exists to avoid.
 
