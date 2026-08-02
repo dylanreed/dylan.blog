@@ -282,6 +282,11 @@ function talkerSizeFor(bodyFace, talker) {
   return base;
 }
 
+// Layout is in the filename so variants of one review can coexist in output/.
+function reviewCardOutputName(title, layout) {
+  return `review-${sanitizeFilename(title)}-${layout}.png`;
+}
+
 async function renderReviewCard(postPath) {
   const projectRoot = path.resolve(__dirname, '..');
   const raw = fs.readFileSync(postPath, 'utf8');
@@ -388,8 +393,8 @@ async function renderReviewCard(postPath) {
 
   const outputDir = path.resolve(projectRoot, 'output');
   fs.mkdirSync(outputDir, { recursive: true });
-  const slug = sanitizeFilename(book.title || path.basename(postPath, '.md'));
-  const outPath = path.join(outputDir, `review-${slug}.png`);
+  const outPath = path.join(outputDir,
+    reviewCardOutputName(book.title || path.basename(postPath, '.md'), layout));
   await page.screenshot({ path: outPath, type: 'png' });
   await browser.close();
 
@@ -654,6 +659,7 @@ module.exports = {
   CATEGORY_MAP,
   parseBookBlock,
   resolveSkin,
+  reviewCardOutputName,
   sanitizeFilename,
   getTitleSizeClass,
   parseStoryFrames,

@@ -305,3 +305,12 @@ test('the default layout is one of the declared variants', () => {
   assert.ok(Object.keys(TOKENS.reviewCard.layout.variants)
     .includes(TOKENS.reviewCard.layout.$default));
 });
+
+test('reviewCardOutputName keeps layout variants of one review distinct', () => {
+  const { reviewCardOutputName } = require('./generate-instagram.js');
+  assert.strictEqual(reviewCardOutputName('Bromantasy', 'split'), 'review-bromantasy-split.png');
+  assert.notStrictEqual(
+    reviewCardOutputName('Bromantasy', 'split'),
+    reviewCardOutputName('Bromantasy', 'banded')
+  );
+});
