@@ -302,10 +302,16 @@ async function renderReviewCard(postPath) {
   const headerFile = path.join(themeRoot, 'headers', 'reading.png');
   const spriteFile = path.join(themeRoot, 'sprites', 'category', 'reading.png');
 
-  const shelfLabel = String(book.shelf || '').toUpperCase();
+  const shelfLabel = String(book.shelf || '').toUpperCase().replace(/-/g, ' ');
   const validShelf = Object.keys(TOKENS.reviewCard.shelfTags).filter(k => !k.startsWith('$'));
   if (book.shelf && !validShelf.includes(book.shelf)) {
     throw new Error(`Unknown shelf tag "${book.shelf}". Valid: ${validShelf.join(', ')}`);
+  }
+
+  const layouts = Object.keys(TOKENS.reviewCard.layout.variants);
+  const layout = book.layout || TOKENS.reviewCard.layout.$default;
+  if (!layouts.includes(layout)) {
+    throw new Error(`Unknown layout "${layout}". Valid: ${layouts.join(', ')}`);
   }
 
   const browser = await puppeteer.launch({ headless: 'new' });
@@ -315,6 +321,7 @@ async function renderReviewCard(postPath) {
     { waitUntil: 'networkidle0' });
 
   await page.evaluate((data) => {
+    document.body.dataset.layout = data.layout;
     const r = document.documentElement.style;
     r.setProperty('--accent', data.accent);
     r.setProperty('--accent-dim', data.accentDim);
@@ -372,6 +379,7 @@ async function renderReviewCard(postPath) {
     enjoyment: Number(book.enjoyment) || 0,
     comps: book.comps || [],
     completeLabel: TOKENS.reviewCard.enjoymentBar.labelStates.complete,
+    layout,
   });
 
   // Give remote cover art and webfonts a moment to paint.
@@ -385,7 +393,7 @@ async function renderReviewCard(postPath) {
   await page.screenshot({ path: outPath, type: 'png' });
   await browser.close();
 
-  console.log(`Wrote ${path.relative(process.cwd(), outPath)}  [skin: ${skin.mode}]`);
+  console.log(`Wrote ${path.relative(process.cwd(), outPath)}  [skin: ${skin.mode}, layout: ${layout}]`);
   return outPath;
 }
 

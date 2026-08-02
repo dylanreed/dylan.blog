@@ -85,7 +85,7 @@ Book reviews come in two depths — a **shelf talker** (250–400 words) and a *
 
 ### Layout — banded
 
-Three horizontal bands separated by rules. The hero band flexes, so slack collects there instead of pooling as a dead gap in the middle. Rejected: a library catalog card and a poster — both kept in scripts/review-card-layouts.html as the record.
+Three layouts so a run of reviews doesn't look identical. banded is the default; pick one per post with `layout:` in the book block. A variant may ONLY rearrange — palette, type roles and furniture styling are identical across all three, and the genre skin varies colour and art on top. A variant that changes the look is a bug.
 
 - **identity** — Cover inset, title, author and series position. Fixed height.
 - **hero** — The shelf talker, vertically centred. Flexes to absorb all remaining space.
@@ -143,8 +143,8 @@ Label states:
 
 ### Shelf tags
 
-Breadth, not quality. Orthogonal to the enjoyment bar, so the two can never contradict each other.
+Breadth, not quality — how CONDITIONAL the recommendation is, running from none to all. Orthogonal to the enjoyment bar, so the two can never contradict each other. Deliberately a reader's language, not a bookseller's: Dylan recommends books, he does not sell them.
 
-- `HAND-SELL` — I will put this in your hands
+- `EASY-REC` — Easy to recommend to anybody
 - `RIGHT-READER` — Niche, but if it is you, it is YOU
 - `NOT-FOR-ME` — An honest miss, said kindly

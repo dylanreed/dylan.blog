@@ -288,3 +288,20 @@ test('every skin resolveSkin can return owns reading art on disk', () => {
       `${skin.mode} is offered as a skin but has no reading sprite`);
   }
 });
+
+test('the template implements every layout variant the tokens declare', () => {
+  const tpl = fs.readFileSync(path.resolve(__dirname, 'review-card-template.html'), 'utf8');
+  const dflt = TOKENS.reviewCard.layout.$default;
+  for (const name of Object.keys(TOKENS.reviewCard.layout.variants)) {
+    if (name === dflt) {
+      assert.match(tpl, new RegExp(`data-layout="${name}"`), `${name} should be the body default`);
+    } else {
+      assert.match(tpl, new RegExp(`body\\[data-layout="${name}"\\]`), `${name} has no CSS`);
+    }
+  }
+});
+
+test('the default layout is one of the declared variants', () => {
+  assert.ok(Object.keys(TOKENS.reviewCard.layout.variants)
+    .includes(TOKENS.reviewCard.layout.$default));
+});

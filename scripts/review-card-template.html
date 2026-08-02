@@ -89,13 +89,46 @@
   #comps b{font-family:var(--ui),monospace;font-size:26px;letter-spacing:4px;opacity:.8;margin-right:14px}
   #comps[data-empty="true"]{display:none}
 
+
+  /* ============================================================
+     LAYOUT VARIANTS — body carries data-layout; banded is the base.
+     Same palette, same type roles, same furniture. Only the arrangement
+     changes: nothing here may alter the look, only where things sit.
+     ============================================================ */
+
+  /* ---- SPLIT: the cover becomes a full-height left column ---- */
+  body[data-layout="split"] #cover{
+    position:absolute;left:0;top:152px;bottom:0;
+    width:344px;height:auto;aspect-ratio:auto;
+    border:0;border-right:3px solid var(--accent-dim);
+    object-fit:cover;z-index:2;
+  }
+  body[data-layout="split"] #band-id,
+  body[data-layout="split"] #band-hero{padding-left:400px}
+  /* the cover ends at its natural height, so the verdict band runs full width */
+  body[data-layout="split"] #title{font-size:52px}
+  body[data-layout="split"] #talker{font-size:calc(var(--talker) * .86)}
+  body[data-layout="split"] #comps{padding-right:190px}
+
+  /* ---- STACKED: the talker leads, identity moves under it ---- */
+  body[data-layout="stacked"] #band-hero{
+    order:1;flex:0 0 auto;padding:38px 56px 30px;
+    border-bottom:2px solid var(--accent-dim);
+  }
+  body[data-layout="stacked"] #band-id{
+    order:2;flex:1;border-bottom:0;align-items:center;
+  }
+  body[data-layout="stacked"] #band-verdict{order:3}
+  body[data-layout="stacked"] #title{font-size:50px}
+  body[data-layout="stacked"] #cover{width:118px}
+
   #brand{
     position:absolute;bottom:20px;right:30px;
     font-family:'Uncial Antiqua',cursive;font-size:26px;opacity:.42;
   }
 </style>
 </head>
-<body>
+<body data-layout="banded">
   <div id="accent"></div>
   <div id="hdr-wrap"><img id="hdr" alt=""></div>
 
