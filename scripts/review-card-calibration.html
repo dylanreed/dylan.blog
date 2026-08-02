@@ -1,0 +1,336 @@
+<!-- ABOUTME: Interactive styling calibration page for the book review card's ENJOYMENT loading bar. -->
+<!-- ABOUTME: Open directly in a browser; not used by the build. Feeds scripts/review-card-template.html. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Review Card — Enjoyment Bar Calibration</title>
+<link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Uncial+Antiqua&family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --purple:#8060c0;      /* reading category glow, from generate-instagram.js:19 */
+    --purple-dim:#3a2a5c;
+    --parchment:#f5e6d3;
+    --ink:#16121c;
+    --well:#0d0a12;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{
+    background:var(--ink);color:var(--parchment);
+    font-family:'MedievalSharp',cursive;
+    padding:40px;line-height:1.5;
+  }
+  h1{font-family:'Uncial Antiqua',cursive;font-size:34px;margin-bottom:6px}
+  .sub{opacity:.6;font-size:16px;margin-bottom:34px}
+  h2{font-size:22px;margin:44px 0 18px;border-bottom:1px solid var(--purple-dim);padding-bottom:8px}
+
+  /* ---------- controls ---------- */
+  .controls{
+    display:flex;flex-wrap:wrap;gap:26px;align-items:center;
+    background:#1e1826;border:1px solid var(--purple-dim);
+    padding:18px 22px;border-radius:4px;margin-bottom:10px;
+    position:sticky;top:0;z-index:10;
+  }
+  .controls label{font-size:15px;display:flex;align-items:center;gap:9px}
+  input[type=range]{width:210px;accent-color:var(--purple)}
+  select{
+    background:var(--well);color:var(--parchment);
+    border:1px solid var(--purple-dim);padding:5px 9px;
+    font-family:inherit;font-size:15px;border-radius:3px;
+  }
+  .val{font-family:'VT323',monospace;font-size:20px;color:var(--purple);min-width:44px}
+
+  /* ---------- variant grid ---------- */
+  .variant{
+    background:#1a1522;border:1px solid var(--purple-dim);
+    padding:26px 30px;margin-bottom:18px;border-radius:4px;
+  }
+  .variant .name{
+    font-family:'VT323',monospace;font-size:19px;letter-spacing:2px;
+    color:var(--purple);margin-bottom:4px;
+  }
+  .variant .note{font-size:14px;opacity:.55;margin-bottom:20px}
+
+  /* label + bar row shared by every variant */
+  .row{display:flex;align-items:center;gap:18px}
+  .lbl{white-space:nowrap;font-size:23px;letter-spacing:1px}
+  .state{
+    white-space:nowrap;font-size:15px;letter-spacing:2px;
+    opacity:.85;min-width:210px;
+  }
+  .state.lost{color:#e0704a}
+  .state.done{color:#7de2a3}
+  .track{flex:1;min-width:0}   /* the width-agnostic part */
+
+  /* --- A: segmented chunks (DOS) --- */
+  .segbar{display:flex;gap:4px;height:34px}
+  .segbar i{
+    flex:1;background:var(--well);
+    border:2px solid var(--purple-dim);
+  }
+  .segbar i.on{background:var(--purple);border-color:var(--purple)}
+  /* leading chunk blinks, so A gets a fair shot in the animated comparison */
+  body.anim .segbar i.lead{animation:blink 1s steps(1,end) infinite}
+  @keyframes blink{50%{background:var(--purple-dim);border-color:var(--purple-dim)}}
+
+  /* --- B: solid inset well (Win 3.1) --- */
+  .solid{
+    display:block;
+    height:34px;background:var(--well);
+    border:3px solid;border-color:#000 #4a3a6e #4a3a6e #000;
+    padding:3px;
+  }
+  .solid span{
+    display:block;height:100%;position:relative;overflow:hidden;
+    /* gloss: bright top half, darker bottom = glass cylinder */
+    background:
+      linear-gradient(to bottom,
+        rgba(255,255,255,.42) 0%,
+        rgba(255,255,255,.16) 48%,
+        rgba(0,0,0,.10) 52%,
+        rgba(0,0,0,.28) 100%),
+      var(--purple);
+    box-shadow:inset -3px -3px 0 rgba(0,0,0,.35),inset 3px 3px 0 rgba(255,255,255,.28);
+  }
+  /* specular sweep — only when animation is on */
+  .solid span::after{
+    content:"";position:absolute;inset:0;
+    background:linear-gradient(105deg,
+      transparent 30%,rgba(255,255,255,.55) 48%,
+      rgba(255,255,255,.55) 52%,transparent 70%);
+    transform:translateX(-120%);
+  }
+  body.anim .solid span::after{animation:sheen 2.6s ease-in-out infinite}
+  @keyframes sheen{
+    0%{transform:translateX(-120%)}
+    55%,100%{transform:translateX(220%)}
+  }
+
+  /* --- C: hatched / dithered fill --- */
+  .hatch{
+    display:block;
+    height:34px;background:var(--well);
+    border:2px solid var(--purple-dim);padding:3px;
+  }
+  .hatch span{
+    display:block;height:100%;
+    background-image:linear-gradient(45deg,
+      var(--purple) 25%,transparent 25%,transparent 50%,
+      var(--purple) 50%,var(--purple) 75%,transparent 75%);
+    background-size:17px 17px;background-color:var(--purple-dim);
+  }
+  /* barber pole — the classic "still working on it" crawl */
+  body.anim .hatch span{animation:barber 1.1s linear infinite}
+  @keyframes barber{ to{ background-position:17px 0 } }
+
+  /* --- D: pure terminal text --- */
+  .term{
+    font-family:'VT323',monospace;font-size:34px;
+    letter-spacing:1px;color:var(--purple);white-space:nowrap;
+    overflow:hidden;
+  }
+  .term u{text-decoration:none;opacity:0}
+  body.anim .term u{animation:cursor 1.06s steps(1,end) infinite}
+  @keyframes cursor{50%{opacity:1}}
+
+  /* ---------- the full card ---------- */
+  .stage{display:flex;gap:34px;flex-wrap:wrap;align-items:flex-start}
+  .card{
+    width:540px;height:540px;   /* 1080 square at 50% */
+    background:linear-gradient(160deg,#241a33 0%,#140f1c 100%);
+    border:1px solid var(--purple-dim);
+    position:relative;padding:44px 40px 40px;
+    display:flex;flex-direction:column;
+    flex-shrink:0;
+  }
+  .card .accent{position:absolute;top:0;left:0;right:0;height:5px;background:var(--purple)}
+  .card .btitle{font-size:38px;line-height:1.12;margin-bottom:6px}
+  .card .byline{font-size:17px;opacity:.62;margin-bottom:26px}
+  .card .talker{
+    font-size:25px;line-height:1.42;font-style:italic;
+    border-left:4px solid var(--purple);padding-left:16px;
+    margin-bottom:auto;
+  }
+  .card .shelf{
+    display:inline-block;align-self:flex-start;
+    font-family:'VT323',monospace;font-size:21px;letter-spacing:3px;
+    border:2px solid var(--purple);color:var(--purple);
+    padding:5px 14px;margin:26px 0 16px;
+  }
+  .card .barwrap .lbl{font-size:18px}
+  .card .barwrap .state{font-size:12px;min-width:0;letter-spacing:1px}
+  .card .barwrap .segbar,.card .barwrap .solid,.card .barwrap .hatch{height:22px}
+  .card .barwrap .term{font-size:22px}
+  .card .comps{
+    margin-top:22px;padding-top:14px;
+    border-top:1px solid var(--purple-dim);
+    font-size:15px;opacity:.72;
+  }
+  .card .comps b{
+    display:block;font-family:'VT323',monospace;
+    letter-spacing:2px;opacity:.8;font-size:14px;margin-bottom:3px;
+  }
+  .card .brand{
+    position:absolute;bottom:14px;right:18px;
+    font-family:'Uncial Antiqua',cursive;font-size:14px;opacity:.45;
+  }
+
+  /* font experiment toggle */
+  body.pixelfont .lbl,body.pixelfont .card .btitle{font-family:'Press Start 2P',monospace}
+  body.pixelfont .card .btitle{font-size:26px;line-height:1.35}
+  body.pixelfont .lbl{font-size:15px}
+  body.pixelfont .card .barwrap .lbl{font-size:11px}
+
+  .caption{font-size:14px;opacity:.55;max-width:420px}
+</style>
+</head>
+<body>
+
+<h1>Enjoyment Bar — Calibration</h1>
+<div class="sub">Book review card · reading purple <code>#8060c0</code> · drag the fill and watch every variant move together</div>
+
+<div class="controls">
+  <label>fill <input type="range" id="fill" min="0" max="100" value="80"><span class="val" id="fillv">80</span></label>
+  <label>segments <input type="range" id="segs" min="8" max="40" value="20"><span class="val" id="segsv">20</span></label>
+  <label>state
+    <select id="state">
+      <option value="normal">normal</option>
+      <option value="complete">complete (100%)</option>
+      <option value="dnf">DNF / connection lost</option>
+    </select>
+  </label>
+  <label>type
+    <select id="font">
+      <option value="fantasy">MedievalSharp (current template)</option>
+      <option value="pixel">Press Start 2P (claimed brand)</option>
+    </select>
+  </label>
+  <label><input type="checkbox" id="anim" checked style="accent-color:var(--purple);width:17px;height:17px"> animate</label>
+  <label>card width
+    <select id="cw">
+      <option value="540">square 1080 @50%</option>
+      <option value="360">story 1080x1920 @33%</option>
+      <option value="760">wide / carousel</option>
+    </select>
+  </label>
+</div>
+
+<h2>The four bar treatments</h2>
+
+<div class="variant">
+  <div class="name">A · SEGMENTED</div>
+  <div class="note">Discrete chunks with gaps. Reads as a DOS install bar. Chunkiest, most obviously "loading", segment count is tunable to the available width.</div>
+  <div class="row"><span class="lbl">ENJOYMENT...</span><span class="track"><span class="segbar" id="segA"></span></span><span class="state" id="stA"></span></div>
+</div>
+
+<div class="variant">
+  <div class="name">B · SOLID INSET</div>
+  <div class="note">Continuous fill in a beveled well. Windows 3.1 progress meter. Smoothest read at thumbnail size — one shape, one boundary.</div>
+  <div class="row"><span class="lbl">ENJOYMENT...</span><span class="track"><span class="solid"><span id="solB"></span></span></span><span class="state" id="stB"></span></div>
+</div>
+
+<div class="variant">
+  <div class="name">C · HATCHED &nbsp;—&nbsp; ★ CHOSEN 2026-08-02</div>
+  <div class="note">Diagonal dither fill, barber-pole crawl when animated. Verified legible downscaled to 300px (Instagram feed size). A, B and D are kept here as the record of what was considered — do not delete.</div>
+  <div class="row"><span class="lbl">ENJOYMENT...</span><span class="track"><span class="hatch"><span id="hatC"></span></span></span><span class="state" id="stC"></span></div>
+</div>
+
+<div class="variant">
+  <div class="name">D · TERMINAL TEXT</div>
+  <div class="note">Pure characters, no boxes. Zero assets, copy-pasteable into a post body or an alt-text string. Most literal dial-up. Granularity is capped by character count.</div>
+  <div class="row"><span class="lbl">ENJOYMENT...</span><span class="track"><span class="term" id="termD"></span></span><span class="state" id="stD"></span></div>
+</div>
+
+<h2>In context — the whole card</h2>
+<div class="stage">
+  <div class="card" id="card">
+    <div class="accent"></div>
+    <div class="btitle">Damsels and Dinosaurs</div>
+    <div class="byline">Wren Jones · standalone</div>
+    <div class="talker">Regency manners, actual dinosaurs, and bees with a personal vendetta.</div>
+    <div class="shelf">HAND-SELL</div>
+    <div class="barwrap">
+      <div class="row"><span class="lbl">ENJOYMENT...</span><span class="track" id="cardtrack"></span></div>
+      <div class="state" id="cardstate" style="margin-top:6px"></div>
+    </div>
+    <div class="comps"><b>READ IF YOU LIKED</b>Gideon the Ninth · Bridgerton</div>
+    <div class="brand">dylan's blog</div>
+  </div>
+  <div class="caption">
+    <p><strong>Pick a variant with the A/B/C/D letter</strong> — the card mirrors whichever one you last hovered, or set it below.</p>
+    <p style="margin-top:14px">
+      <label>card uses
+        <select id="cardvar">
+          <option value="A">A · segmented</option>
+          <option value="B" selected>B · solid inset</option>
+          <option value="C">C · hatched</option>
+          <option value="D">D · terminal</option>
+        </select>
+      </label>
+    </p>
+    <p style="margin-top:20px">Squint at the card, or shrink the window until it's thumbnail-sized. That's the real test — Instagram renders this around 300px wide in feed.</p>
+  </div>
+</div>
+
+<script>
+  const $ = id => document.getElementById(id);
+  const fill=$('fill'), segs=$('segs'), state=$('state'), font=$('font'), cw=$('cw'), cardvar=$('cardvar'), anim=$('anim');
+
+  function stateText(pct, mode){
+    if(mode==='dnf') return ['CONNECTION LOST AT '+pct+'%','lost'];
+    if(mode==='complete') return ['COMPLETE','done'];
+    return ['',''];
+  }
+
+  function render(){
+    let pct = +fill.value;
+    const mode = state.value;
+    if(mode==='complete'){ pct=100; }
+    $('fillv').textContent = pct;
+    $('segsv').textContent = segs.value;
+
+    // A — segmented
+    const n = +segs.value, on = Math.round(n*pct/100);
+    const segHTML = Array.from({length:n},(_,i)=>
+      `<i class="${i<on?'on':''}${i===on-1&&on<n?' lead':''}"></i>`).join('');
+    $('segA').innerHTML = segHTML;
+
+    // B — solid
+    $('solB').style.width = pct+'%';
+
+    // C — hatched
+    $('hatC').style.width = pct+'%';
+
+    // D — terminal
+    const cells = 30, don = Math.round(cells*pct/100);
+    const termTxt = '['+'█'.repeat(don)+'░'.repeat(cells-don)+']';
+    const termHTML = '['+'█'.repeat(don)+'<u>▌</u>'+'░'.repeat(Math.max(0,cells-don-1))+']';
+    $('termD').innerHTML = termHTML;
+
+    // states
+    const [txt, cls] = stateText(pct, mode);
+    ['stA','stB','stC','stD'].forEach(id=>{
+      const el=$(id); el.textContent=txt; el.className='state '+cls;
+    });
+
+    // card mirror
+    const v = cardvar.value;
+    const track = $('cardtrack');
+    if(v==='A')      track.innerHTML = `<span class="segbar">${segHTML}</span>`;
+    else if(v==='B') track.innerHTML = `<span class="solid"><span style="width:${pct}%"></span></span>`;
+    else if(v==='C') track.innerHTML = `<span class="hatch"><span style="width:${pct}%"></span></span>`;
+    else             track.innerHTML = `<span class="term">${termHTML}</span>`;
+    const cs=$('cardstate'); cs.textContent=txt; cs.className='state '+cls;
+
+    document.body.className =
+      (font.value==='pixel' ? 'pixelfont ' : '') + (anim.checked ? 'anim' : '');
+    const w = +cw.value;
+    const card=$('card'); card.style.width=w+'px';
+    card.style.height = (cw.selectedOptions[0].value==='360') ? (w*16/9)+'px' : w+'px';
+  }
+
+  [fill,segs,state,font,cw,cardvar,anim].forEach(el=>el.addEventListener('input',render));
+  render();
+</script>
+</body>
+</html>
