@@ -5,14 +5,15 @@
 <head>
 <meta charset="UTF-8">
 <title>Review Card — Layout Calibration</title>
-<link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Uncial+Antiqua&family=VT323&family=Spectral:ital,wght@0,400;0,600;1,400&family=Fredericka+the+Great&family=Literata&family=Orbitron:wght@400;700&family=IBM+Plex+Mono&family=Teko:wght@400;600&family=Rajdhani:wght@400;600&family=Cinzel&family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Uncial+Antiqua&family=VT323&family=Spectral:ital,wght@0,400;0,600;1,400&family=Fredericka+the+Great&family=Literata&family=Orbitron:wght@400;700&family=IBM+Plex+Mono&family=Teko:wght@400;600&family=Rajdhani:wght@400;600&family=Cinzel&family=EB+Garamond:ital@0;1&family=Quicksand:wght@400;600&family=Share+Tech+Mono&family=Fira+Code&family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
 <style>
   :root{
     --parchment:#f5e6d3; --ink:#16121c; --card-w:540px;
     /* overwritten per-genre by JS */
     --accent:#8060c0; --accent-dim:#3a2a5c; --well:#0d0a12;
     --card-bg-a:#241a33; --card-bg-b:#140f1c;
-    --display:'MedievalSharp'; --body:'Spectral';
+    --display:'MedievalSharp'; --body:'Spectral'; --ui:'VT323';
+    --talker:27px;
   }
   *{margin:0;padding:0;box-sizing:border-box}
   body{background:var(--ink);color:var(--parchment);font-family:'Spectral',Georgia,serif;padding:30px;line-height:1.5}
@@ -64,6 +65,7 @@
   @keyframes sprite-play{
     to{ background-position:calc(var(--f) * -6) calc(var(--row) * var(--f) * -1) }
   }
+  /* The wordmark is the blog's own identity — deliberately NOT skinned. */
   .brand{position:absolute;bottom:10px;right:14px;font-family:'Uncial Antiqua',cursive;font-size:12.5px;opacity:.42}
 
   .cover{
@@ -85,24 +87,24 @@
     animation:barber 2.6s linear infinite;
   }
   @keyframes barber{to{background-position:17px 0}}
-  .bar-state{font-family:'VT323',monospace;letter-spacing:1px;white-space:nowrap;font-size:12px}
+  .bar-state{font-family:var(--ui),monospace;letter-spacing:1px;white-space:nowrap;font-size:12px}
   .bar-state.done{color:#7de2a3}
-  .shelf{font-family:'VT323',monospace;letter-spacing:3px;border:2px solid var(--accent);color:var(--accent);display:inline-block}
+  .shelf{font-family:var(--ui),monospace;letter-spacing:3px;border:2px solid var(--accent);color:var(--accent);display:inline-block}
 
   /* ============ A · BANDED ============ */
   .a .band-id{display:flex;gap:15px;align-items:center;padding:16px 28px;border-bottom:1px solid var(--accent-dim)}
   .a .cover{width:66px}
   .a .band-id h3{font-family:var(--display),cursive;font-size:29px;font-weight:400;line-height:1.1}
-  .a .band-id .by{font-size:14px;opacity:.6;margin-top:2px}
+  .a .band-id .by{font-family:var(--body),serif;font-size:14px;opacity:.6;margin-top:2px}
   .a .band-hero{flex:1;display:flex;align-items:center;padding:16px 28px}
-  .a .band-hero q{font-family:var(--body),serif;font-size:27px;line-height:1.33;font-style:italic;quotes:'"' '"';border-left:4px solid var(--accent);padding-left:15px;display:block}
+  .a .band-hero q{font-family:var(--body),serif;font-size:var(--talker);line-height:1.33;font-style:italic;quotes:'"' '"';border-left:4px solid var(--accent);padding-left:15px;display:block}
   .a .band-verdict{padding:14px 28px 20px;border-top:1px solid var(--accent-dim);background:rgba(0,0,0,.26);display:flex;flex-direction:column;gap:9px}
   .a .verdict-top{display:flex;align-items:center;gap:12px}
   .a .shelf{font-size:19px;padding:4px 12px}
   .a .bar-lbl{font-size:17px}
   .a .bar-track{height:23px}
-  .a .comps{font-size:14.5px;opacity:.78}
-  .a .comps b{font-family:'VT323',monospace;font-size:13px;letter-spacing:2px;opacity:.8;margin-right:7px}
+  .a .comps{font-family:var(--body),serif;font-size:14.5px;opacity:.78}
+  .a .comps b{font-family:var(--ui),monospace;font-size:13px;letter-spacing:2px;opacity:.8;margin-right:7px}
 
   /* ============ B · CATALOG CARD ============ */
   .b{
@@ -201,7 +203,7 @@
 </div>
 <p class="warn" id="artwarn" hidden></p>
 
-<h2>A · Banded</h2>
+<h2>A · Banded &nbsp;—&nbsp; ★ CHOSEN 2026-08-02</h2>
 <p class="note">Identity / hero / verdict, each a real band. The hero absorbs the slack so there is no dead gap, and the verdict sits on its own darker panel.</p>
 <div class="row">
   <div class="card a">
@@ -227,7 +229,7 @@
   </div>
 </div>
 
-<h2>B · Library catalog card</h2>
+<h2>B · Library catalog card <small style="opacity:.5;font-size:13px">— not chosen, kept as the record</small></h2>
 <p class="note">The card is a card. Ruled lines, a call number, a shelf tag stamped at an angle. Small print reads as authentic here rather than as a mistake.</p>
 <div class="row">
   <div class="card b">
@@ -251,7 +253,7 @@
   </div>
 </div>
 
-<h2>C · Poster</h2>
+<h2>C · Poster <small style="opacity:.5;font-size:13px">— not chosen, kept as the record</small></h2>
 <p class="note">The talker dominates; everything else compresses into one strip along the bottom. Most thumbnail impact, hardest squeeze on the cover and comps.</p>
 <div class="row">
   <div class="card c">
@@ -282,12 +284,12 @@
 
   // Palettes lifted from brand/tokens.json.
   const GENRES = {
-    fantasy:    {mode:'fantasy',    accent:'#8060c0', dim:'#3a2a5c', bgA:'#241a33', bgB:'#140f1c', display:'MedievalSharp',       body:'Spectral',     sprite:true},
-    cabin:      {mode:'cabin',      accent:'#ff8c00', dim:'#6b503a', bgA:'#2e2118', bgB:'#170f0a', display:'Fredericka the Great', body:'Literata',    sprite:true},
-    'sci-fi':   {mode:'sci-fi',     accent:'#00d4ff', dim:'#1a3a5c', bgA:'#12293a', bgB:'#0d1f28', display:'Orbitron',             body:'IBM Plex Mono',sprite:true},
-    cyberpunk:  {mode:'cyberpunk',  accent:'#ff00ff', dim:'#4a1a4a', bgA:'#1a0a1a', bgB:'#0d050d', display:'Teko',                 body:'Rajdhani',     sprite:true},
-    underwater: {mode:'underwater', accent:'#c9a227', dim:'#1a3a4a', bgA:'#17323f', bgB:'#0b1c24', display:'Cinzel',               body:'EB Garamond',  sprite:true},
-    kaiju:      {mode:'kaiju',      accent:'#8060c0', dim:'#3a2a5c', bgA:'#241a33', bgB:'#140f1c', display:'MedievalSharp',        body:'Spectral',     sprite:false}
+    fantasy:    {mode:'fantasy',    accent:'#8060c0', dim:'#3a2a5c', bgA:'#241a33', bgB:'#140f1c', display:'MedievalSharp',       body:'Spectral',      ui:'VT323',          talker:27, sprite:true},
+    cabin:      {mode:'cabin',      accent:'#ff8c00', dim:'#6b503a', bgA:'#2e2118', bgB:'#170f0a', display:'Fredericka the Great', body:'Literata',      ui:'Quicksand',      talker:26, sprite:true},
+    'sci-fi':   {mode:'sci-fi',     accent:'#00d4ff', dim:'#1a3a5c', bgA:'#12293a', bgB:'#0d1f28', display:'Orbitron',             body:'IBM Plex Mono', ui:'Share Tech Mono',talker:21, sprite:true},
+    cyberpunk:  {mode:'cyberpunk',  accent:'#ff00ff', dim:'#4a1a4a', bgA:'#1a0a1a', bgB:'#0d050d', display:'Teko',                 body:'Rajdhani',      ui:'Fira Code',      talker:28, sprite:true},
+    underwater: {mode:'underwater', accent:'#c9a227', dim:'#1a3a4a', bgA:'#17323f', bgB:'#0b1c24', display:'Cinzel',               body:'EB Garamond',   ui:'Quicksand',      talker:27, sprite:true},
+    kaiju:      {mode:'kaiju',      accent:'#8060c0', dim:'#3a2a5c', bgA:'#241a33', bgB:'#140f1c', display:'MedievalSharp',        body:'Spectral',      ui:'VT323',          talker:27, sprite:false}
   };
 
   const TALKERS = {
@@ -305,6 +307,8 @@
     r.setProperty('--card-bg-b', g.bgB);
     r.setProperty('--display', "'" + g.display + "'");
     r.setProperty('--body', "'" + g.body + "'");
+    r.setProperty('--ui', "'" + g.ui + "'");
+    r.setProperty('--talker', g.talker + 'px');
 
     document.querySelectorAll('.hdr').forEach(el => el.src = ART + g.mode + '/headers/reading.png');
     const dur = (+$('speed').value / 10).toFixed(1) + 's';

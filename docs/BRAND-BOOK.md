@@ -83,6 +83,49 @@ The category drives the header art, the sprite and the accent glow on every shar
 
 Book reviews come in two depths — a **shelf talker** (250–400 words) and a **full review** (800–1200) — and both carry the same card.
 
+### Layout — banded
+
+Three horizontal bands separated by rules. The hero band flexes, so slack collects there instead of pooling as a dead gap in the middle. Rejected: a library catalog card and a poster — both kept in scripts/review-card-layouts.html as the record.
+
+- **identity** — Cover inset, title, author and series position. Fixed height.
+- **hero** — The shelf talker, vertically centred. Flexes to absorb all remaining space.
+- **verdict** — Animated category sprite, shelf tag, enjoyment bar, comps. Sits on a darker panel.
+
+Header art: The genre mode's reading header, 76px tall, faded into the card with a gradient.
+
+### Genre skinning
+
+A review card takes the site's own mode for the book's genre.
+
+- `fantasy` — fantasy, romantasy, cozy fantasy, regency, romance, historical
+- `cabin` — cozy mystery, literary, contemporary, memoir, nature writing
+- `sci-fi` — science fiction, space opera, hard sf
+- `cyberpunk` — cyberpunk, techno-thriller, dystopian
+- `underwater` — nautical, aquatic, weird fiction, gothic
+
+Anything else falls back to `fantasy`. Modes that cannot carry a card yet:
+
+- `kaiju` — Has a reading header but no category sprite. Draw one and horror/monster books can use it.
+- `western` — No reading art at all. Needs a header and a sprite before westerns can be skinned.
+- `corporate` — Two headers total, no reading art. Business and nonfiction have nowhere to go yet.
+
+### Type roles
+
+Every text role on the card follows the book's genre mode. The one deliberate exception is the wordmark — that is the blog's identity, not the book's, and stays Uncial Antiqua on every skin.
+
+- **title** → mode display
+- **byline** → mode body
+- **talker** → mode body, sized per mode — monospace faces must run smaller or the quote takes three lines instead of two
+- **furniture** → mode ui (shelf tag, bar state, comps label)
+- **barLabel** → mode display
+- **wordmark** → Uncial Antiqua — never skinned
+
+### Category sprite
+
+Category sprites are 384x192 sheets: a 6x3 grid of 64px frames. Render one frame and step through a row; never show the whole sheet. Row 0 is a subtle idle (blink), row 1 has wing flaps, row 2 has a sleep.
+
+Playing row 0 at `3s steps(6)`.
+
 ### Enjoyment bar
 
 A **hatched** bar, not a count of icons: it fills whatever width it is given, so one treatment serves the square card, the story frame and the in-post embed.

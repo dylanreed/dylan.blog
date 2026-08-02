@@ -148,6 +148,40 @@ ${socialTable(tokens)}
 
 Book reviews come in two depths — a **shelf talker** (250–400 words) and a **full review** (800–1200) — and both carry the same card.
 
+### Layout — ${tokens.reviewCard.layout.$chosen}
+
+${tokens.reviewCard.layout.$note}
+
+${Object.entries(tokens.reviewCard.layout.bands)
+  .map(([band, what]) => `- **${band}** — ${what}`).join('\n')}
+
+Header art: ${tokens.reviewCard.layout.headerArt}
+
+### Genre skinning
+
+A review card takes the site's own mode for the book's genre.
+
+${Object.entries(tokens.genreThemes.map)
+  .map(([, v]) => `- \`${v.mode}\` — ${v.genres.join(', ')}`).join('\n')}
+
+Anything else falls back to \`${tokens.genreThemes.$fallback}\`. Modes that cannot carry a card yet:
+
+${Object.entries(tokens.genreThemes.unavailable)
+  .map(([mode, why]) => `- \`${mode}\` — ${why}`).join('\n')}
+
+### Type roles
+
+${tokens.reviewCard.typeRoles.$note}
+
+${Object.entries(tokens.reviewCard.typeRoles).filter(([k]) => !k.startsWith('$'))
+  .map(([role, face]) => `- **${role}** → ${face}`).join('\n')}
+
+### Category sprite
+
+${tokens.reviewCard.sprite.$note} ${tokens.reviewCard.sprite.rowNote}
+
+Playing row ${tokens.reviewCard.sprite.row} at \`${tokens.reviewCard.sprite.duration} ${tokens.reviewCard.sprite.timing}\`.
+
 ### Enjoyment bar
 
 A **${bar.variant}** bar, not a count of icons: it fills whatever width it is given, so one treatment serves the square card, the story frame and the in-post embed.
