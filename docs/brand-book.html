@@ -347,7 +347,7 @@
           <span class="tag tag--stub">stub</span>
           <span class="mode-card__rules">2 rules</span>
         </header>
-        <p class="mode-card__note">Ships a complete art directory (backgrounds, headers, sprites, tiles, cursors, menu, notes) against two CSS rules. The art exists; the theme was never written.</p>
+        <p class="mode-card__note">Barely exists: 12 art files total across eight directories (one background, one header, five sprites) and two CSS rules. A placeholder skeleton, not a theme.</p>
         <p class="swatches__none">No palette recorded.</p>
       </article>
 
@@ -357,7 +357,7 @@
           <span class="tag tag--stub">stub</span>
           <span class="mode-card__rules">2 rules</span>
         </header>
-        <p class="mode-card__note">Same as western — full art directory, two CSS rules.</p>
+        <p class="mode-card__note">Further along than western — 42 art files including 19 real category headers — but zero category sprites and still only two CSS rules. The closest of the two to being finishable.</p>
         <p class="swatches__none">No palette recorded.</p>
       </article>
 
@@ -630,10 +630,9 @@
           <div class="bar-row">
             <span class="bar-label">ENJOYMENT...</span>
             <span class="bar-track"><span class="bar-fill" style="width:34%"></span></span>
-            <span class="bar-state bar-state--lost">CONNECTION LOST AT 34%</span>
           </div>
         </div>
-        <p class="rule-note"><strong>Never print a percentage on the enjoyment bar.</strong> On a book card a percentage reads as reading progress — Kindle, StoryGraph and Goodreads all use it that way. A number also reintroduces the &quot;is it 70 or 75&quot; dithering the bar exists to avoid. The one exception is DNF, where a percentage correctly means progress.</p>
+        <p class="rule-note"><strong>Never print a percentage on the enjoyment bar.</strong> The bar never shows a number, anywhere. On a book card a percentage reads as reading progress — Kindle, StoryGraph and Goodreads all use it that way. A number also reintroduces the &quot;is it 70 or 75&quot; dithering the bar exists to avoid.</p>
       </div>
       <div>
         <h3 style="margin-bottom:8px">Shelf tags</h3>
@@ -642,7 +641,6 @@
           <li><span class="shelf">HAND‑SELL</span>I will put this in your hands</li>
 <li><span class="shelf">RIGHT‑READER</span>Niche, but if it is you, it is YOU</li>
 <li><span class="shelf">NOT‑FOR‑ME</span>An honest miss, said kindly</li>
-<li><span class="shelf">DNF</span>Did not finish — bar shows the stall point</li>
         </ul>
       </div>
     </div>
@@ -652,7 +650,7 @@
 </div>
 
 <script>
-  const MODES = {"fantasy":{"status":"base","accent":"#87ceeb","palette":["#87ceeb"],"display":"MedievalSharp","body":"Spectral","note":"Not a theme class — it IS the default, defined in style.css. Every other mode overrides it."},"cabin":{"status":"built","accent":"#ff8c00","palette":["#ff8c00","#c4956a","#8b6b4a","#6b503a","#5a3a2a"],"display":"Fredericka the Great","body":"Literata","note":null},"underwater":{"status":"built","accent":"#c9a227","palette":["#c9a227","#8b6914","#1a3a4a","#bfe6f5","#4a9a8a"],"display":"Cinzel","body":"EB Garamond","note":"Stacks its background over fantasy's as a fallback layer — the only mode that does."},"sci-fi":{"status":"built","accent":"#00d4ff","palette":["#00d4ff","#40e4ff","#1a3a5c","#4a9aca","#1a3a4a","#0d1f28"],"display":"Orbitron","body":"IBM Plex Mono","note":null},"cyberpunk":{"status":"built","accent":"#ff00ff","palette":["#ff00ff","#ff66ff","#ff40ff","#00ffff","#1a0a1a","#0d050d"],"display":"Teko","body":"Rajdhani","note":null},"corporate":{"status":"variables","accent":"#e8eaed","palette":["#e8eaed","#ffffff","#9aa0a6","#3c4043","#5f6368","#1a73e8","#1557b0","#f1f3f4"],"display":"Inter","body":"Source Sans Pro","note":"The only mode built on CSS custom properties, and they live in style.css rather than themes.css. The pattern every other mode should have followed."},"western":{"status":"stub","accent":null,"palette":[],"display":null,"body":null,"note":"Ships a complete art directory (backgrounds, headers, sprites, tiles, cursors, menu, notes) against two CSS rules. The art exists; the theme was never written."},"kaiju":{"status":"stub","accent":null,"palette":[],"display":null,"body":null,"note":"Same as western — full art directory, two CSS rules."}};
+  const MODES = {"fantasy":{"status":"base","accent":"#87ceeb","palette":["#87ceeb"],"display":"MedievalSharp","body":"Spectral","note":"Not a theme class — it IS the default, defined in style.css. Every other mode overrides it."},"cabin":{"status":"built","accent":"#ff8c00","palette":["#ff8c00","#c4956a","#8b6b4a","#6b503a","#5a3a2a"],"display":"Fredericka the Great","body":"Literata","note":null},"underwater":{"status":"built","accent":"#c9a227","palette":["#c9a227","#8b6914","#1a3a4a","#bfe6f5","#4a9a8a"],"display":"Cinzel","body":"EB Garamond","note":"Stacks its background over fantasy's as a fallback layer — the only mode that does."},"sci-fi":{"status":"built","accent":"#00d4ff","palette":["#00d4ff","#40e4ff","#1a3a5c","#4a9aca","#1a3a4a","#0d1f28"],"display":"Orbitron","body":"IBM Plex Mono","note":null},"cyberpunk":{"status":"built","accent":"#ff00ff","palette":["#ff00ff","#ff66ff","#ff40ff","#00ffff","#1a0a1a","#0d050d"],"display":"Teko","body":"Rajdhani","note":null},"corporate":{"status":"variables","accent":"#e8eaed","palette":["#e8eaed","#ffffff","#9aa0a6","#3c4043","#5f6368","#1a73e8","#1557b0","#f1f3f4"],"display":"Inter","body":"Source Sans Pro","note":"The only mode built on CSS custom properties, and they live in style.css rather than themes.css. The pattern every other mode should have followed."},"western":{"status":"stub","accent":null,"palette":[],"display":null,"body":null,"note":"Barely exists: 12 art files total across eight directories (one background, one header, five sprites) and two CSS rules. A placeholder skeleton, not a theme."},"kaiju":{"status":"stub","accent":null,"palette":[],"display":null,"body":null,"note":"Further along than western — 42 art files including 19 real category headers — but zero category sprites and still only two CSS rules. The closest of the two to being finishable."}};
   const root = document.documentElement;
   const warn = document.getElementById('stub-warning');
   const buttons = [...document.querySelectorAll('.mode-btn')];

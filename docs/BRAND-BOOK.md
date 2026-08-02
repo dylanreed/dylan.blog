@@ -91,13 +91,12 @@ A **hatched** bar, not a count of icons: it fills whatever width it is given, so
 - 45° stripes on a 17px tile
 - Animated: `barber` 1.1s linear. Blog embed only. The Instagram PNG freezes a frame.
 
-**Never print a percentage on the enjoyment bar.** On a book card a percentage reads as reading progress — Kindle, StoryGraph and Goodreads all use it that way. A number also reintroduces the "is it 70 or 75" dithering the bar exists to avoid. The one exception is DNF, where a percentage correctly means progress.
+**Never print a percentage on the enjoyment bar.** The bar never shows a number, anywhere. On a book card a percentage reads as reading progress — Kindle, StoryGraph and Goodreads all use it that way. A number also reintroduces the "is it 70 or 75" dithering the bar exists to avoid.
 
 Label states:
 
 - **complete** → `COMPLETE`
-- **DNF** → `CONNECTION LOST AT {n}%`
-- otherwise → nothing
+- **default** → nothing
 
 ### Shelf tags
 
@@ -106,4 +105,3 @@ Breadth, not quality. Orthogonal to the enjoyment bar, so the two can never cont
 - `HAND-SELL` — I will put this in your hands
 - `RIGHT-READER` — Niche, but if it is you, it is YOU
 - `NOT-FOR-ME` — An honest miss, said kindly
-- `DNF` — Did not finish — bar shows the stall point

@@ -160,9 +160,9 @@ A **${bar.variant}** bar, not a count of icons: it fills whatever width it is gi
 
 Label states:
 
-- **complete** → \`${bar.labelStates.complete}\`
-- **DNF** → \`${bar.labelStates.dnf}\`
-- otherwise → nothing
+${Object.entries(bar.labelStates)
+  .map(([state, text]) => `- **${state}** → ${text ? `\`${text}\`` : 'nothing'}`)
+  .join('\n')}
 
 ### Shelf tags
 
@@ -541,7 +541,6 @@ function renderBrandBookHtml(tokens) {
           <div class="bar-row">
             <span class="bar-label">ENJOYMENT...</span>
             <span class="bar-track"><span class="bar-fill" style="width:34%"></span></span>
-            <span class="bar-state bar-state--lost">${esc(bar.labelStates.dnf.replace('{n}', '34'))}</span>
           </div>
         </div>
         <p class="rule-note"><strong>Never print a percentage on the enjoyment bar.</strong> ${esc(bar.numberNote)}</p>

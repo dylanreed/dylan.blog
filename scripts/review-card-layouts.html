@@ -1,0 +1,360 @@
+<!-- ABOUTME: Layout calibration for the book review card — three directions, each genre-skinned from the site's own modes. -->
+<!-- ABOUTME: Open directly in a browser; not used by the build. Feeds scripts/review-card-template.html. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Review Card — Layout Calibration</title>
+<link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Uncial+Antiqua&family=VT323&family=Spectral:ital,wght@0,400;0,600;1,400&family=Fredericka+the+Great&family=Literata&family=Orbitron:wght@400;700&family=IBM+Plex+Mono&family=Teko:wght@400;600&family=Rajdhani:wght@400;600&family=Cinzel&family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --parchment:#f5e6d3; --ink:#16121c; --card-w:540px;
+    /* overwritten per-genre by JS */
+    --accent:#8060c0; --accent-dim:#3a2a5c; --well:#0d0a12;
+    --card-bg-a:#241a33; --card-bg-b:#140f1c;
+    --display:'MedievalSharp'; --body:'Spectral';
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--ink);color:var(--parchment);font-family:'Spectral',Georgia,serif;padding:30px;line-height:1.5}
+  img{image-rendering:pixelated}
+  h1{font-family:'Uncial Antiqua',cursive;font-size:29px;margin-bottom:3px}
+  .sub{opacity:.6;font-size:14.5px;margin-bottom:22px;max-width:78ch}
+  h2{font-size:19px;margin:34px 0 5px;font-family:'MedievalSharp',cursive;color:var(--accent)}
+  .note{font-size:13px;opacity:.58;max-width:64ch;margin-bottom:14px}
+
+  .controls{
+    display:flex;flex-wrap:wrap;gap:20px;align-items:center;
+    background:#1e1826;border:1px solid var(--accent-dim);
+    padding:13px 17px;position:sticky;top:0;z-index:20;margin-bottom:6px;
+  }
+  .controls label{font-size:14px;display:flex;align-items:center;gap:7px}
+  input[type=range]{width:150px;accent-color:var(--accent)}
+  select{background:var(--well);color:var(--parchment);border:1px solid var(--accent-dim);padding:4px 8px;font-family:inherit;font-size:14px}
+  .val{font-family:'VT323',monospace;font-size:18px;color:var(--accent);min-width:34px}
+
+  .row{display:flex;gap:26px;flex-wrap:wrap;align-items:flex-start}
+
+  /* ============ shared shell ============ */
+  .card{
+    width:var(--card-w);height:var(--card-w);
+    background:linear-gradient(160deg,var(--card-bg-a) 0%,var(--card-bg-b) 100%);
+    border:1px solid var(--accent-dim);
+    position:relative;display:flex;flex-direction:column;
+    flex-shrink:0;overflow:hidden;
+  }
+  .hdr{height:76px;width:100%;object-fit:cover;object-position:center;opacity:.85;flex-shrink:0;display:block}
+  .hdr-wrap{position:relative;flex-shrink:0}
+  .hdr-wrap::after{
+    content:"";position:absolute;inset:0;
+    background:linear-gradient(to bottom,transparent 40%,var(--card-bg-a));
+  }
+  /* Category sprites are 384x192 sheets — a 6x3 grid of 64px frames.
+     Scale the sheet so one frame fills the box, then step through a row. */
+  .sprite{
+    --f:46px;                       /* rendered frame size */
+    --row:0;                        /* which row of the sheet to play */
+    width:var(--f);height:var(--f);flex-shrink:0;
+    background-size:calc(var(--f) * 6) calc(var(--f) * 3);
+    background-position:0 calc(var(--row) * var(--f) * -1);
+    background-repeat:no-repeat;
+    image-rendering:pixelated;
+    filter:drop-shadow(0 0 8px var(--accent));
+    animation:sprite-play .9s steps(6) infinite;
+  }
+  @keyframes sprite-play{
+    to{ background-position:calc(var(--f) * -6) calc(var(--row) * var(--f) * -1) }
+  }
+  .brand{position:absolute;bottom:10px;right:14px;font-family:'Uncial Antiqua',cursive;font-size:12.5px;opacity:.42}
+
+  .cover{
+    background:linear-gradient(150deg,#5b4a7b,#2a1f3d);
+    border:2px solid rgba(245,230,211,.34);
+    display:flex;align-items:center;justify-content:center;text-align:center;
+    font-family:'VT323',monospace;font-size:11px;letter-spacing:2px;
+    color:rgba(245,230,211,.55);flex-shrink:0;aspect-ratio:2/3;
+  }
+
+  .bar-row{display:flex;align-items:center;gap:11px}
+  .bar-lbl{font-family:var(--display),cursive;white-space:nowrap}
+  .bar-track{flex:1;min-width:0;background:var(--well);border:2px solid var(--accent-dim);padding:2px}
+  .bar-fill{
+    display:block;height:100%;
+    background-image:linear-gradient(45deg,var(--accent) 25%,transparent 25%,transparent 50%,
+      var(--accent) 50%,var(--accent) 75%,transparent 75%);
+    background-size:17px 17px;background-color:var(--accent-dim);
+    animation:barber 1.1s linear infinite;
+  }
+  @keyframes barber{to{background-position:17px 0}}
+  .bar-state{font-family:'VT323',monospace;letter-spacing:1px;white-space:nowrap;font-size:12px}
+  .bar-state.done{color:#7de2a3}
+  .shelf{font-family:'VT323',monospace;letter-spacing:3px;border:2px solid var(--accent);color:var(--accent);display:inline-block}
+
+  /* ============ A · BANDED ============ */
+  .a .band-id{display:flex;gap:15px;align-items:center;padding:16px 28px;border-bottom:1px solid var(--accent-dim)}
+  .a .cover{width:66px}
+  .a .band-id h3{font-family:var(--display),cursive;font-size:29px;font-weight:400;line-height:1.1}
+  .a .band-id .by{font-size:14px;opacity:.6;margin-top:2px}
+  .a .band-hero{flex:1;display:flex;align-items:center;padding:16px 28px}
+  .a .band-hero q{font-family:var(--body),serif;font-size:27px;line-height:1.33;font-style:italic;quotes:'"' '"';border-left:4px solid var(--accent);padding-left:15px;display:block}
+  .a .band-verdict{padding:14px 28px 20px;border-top:1px solid var(--accent-dim);background:rgba(0,0,0,.26);display:flex;flex-direction:column;gap:9px}
+  .a .verdict-top{display:flex;align-items:center;gap:12px}
+  .a .shelf{font-size:19px;padding:4px 12px}
+  .a .bar-lbl{font-size:17px}
+  .a .bar-track{height:23px}
+  .a .comps{font-size:14.5px;opacity:.78}
+  .a .comps b{font-family:'VT323',monospace;font-size:13px;letter-spacing:2px;opacity:.8;margin-right:7px}
+
+  /* ============ B · CATALOG CARD ============ */
+  .b{
+    background:#efe4cf;color:#2b2318;border:1px solid #c9b899;
+    background-image:repeating-linear-gradient(to bottom,transparent 0 32px,rgba(43,35,24,.07) 32px 33px);
+    padding:0 0 18px;
+  }
+  .b .hdr{opacity:.9;height:64px}
+  .b .hdr-wrap::after{background:linear-gradient(to bottom,transparent 45%,#efe4cf)}
+  .b .body{padding:10px 26px 0;display:flex;flex-direction:column;flex:1}
+  .b .top{display:flex;gap:15px;align-items:flex-start}
+  .b .cover{width:68px;border-color:rgba(43,35,24,.32);background:linear-gradient(150deg,#b9a483,#8d7a5c);color:rgba(43,35,24,.6)}
+  .b .callno{font-family:'VT323',monospace;font-size:16px;letter-spacing:1px;color:var(--accent);margin-bottom:2px}
+  .b .top h3{font-family:var(--body),serif;font-weight:600;font-size:25px;line-height:1.14}
+  .b .top .by{font-size:14px;opacity:.72;margin-top:1px}
+  .b hr{border:0;border-top:1px dashed rgba(43,35,24,.38);margin:11px 0}
+  .b q{display:block;font-size:20px;line-height:1.42;font-style:italic;quotes:'"' '"';flex:1}
+  .b .stamp-row{display:flex;align-items:center;gap:14px;margin:4px 0 10px}
+  .b .shelf{color:var(--accent);border:3px double var(--accent);font-size:19px;padding:5px 13px;transform:rotate(-3.5deg);opacity:.88}
+  .b .bar-lbl{font-size:16px;color:#5a4a34}
+  .b .bar-track{height:21px;background:#ded0b4;border-color:#a8916d}
+  .b .bar-fill{background-image:linear-gradient(45deg,var(--accent) 25%,transparent 25%,transparent 50%,var(--accent) 50%,var(--accent) 75%,transparent 75%);background-color:#c9b899}
+  .b .bar-state{color:var(--accent)}
+  .b .seealso{margin-top:9px;font-size:13.5px;opacity:.8}
+  .b .seealso b{font-family:'VT323',monospace;letter-spacing:2px;font-size:12.5px;margin-right:6px}
+  .b .brand{color:var(--accent);opacity:.5}
+  .b .sprite{filter:none;opacity:.9}
+
+  /* ============ C · POSTER ============ */
+  .c .hdr{height:92px}
+  .c .body{padding:14px 28px 0;display:flex;flex-direction:column;flex:1}
+  .c .eyebrow{display:flex;gap:13px;align-items:center;margin-bottom:10px}
+  .c .cover{width:58px}
+  .c .eyebrow span{font-family:'VT323',monospace;font-size:15px;letter-spacing:3px;opacity:.72;text-transform:uppercase}
+  .c .hero{flex:1;display:flex;align-items:center}
+  .c .hero q{font-family:var(--display),cursive;font-size:36px;line-height:1.14;quotes:'"' '"';text-transform:uppercase}
+  .c h3{font-size:16px;letter-spacing:1px;opacity:.75;margin:8px 0 12px;text-transform:uppercase}
+  .c .strip{
+    margin:0 -28px;padding:12px 28px 16px;background:rgba(0,0,0,.4);
+    border-top:2px solid var(--accent);display:flex;align-items:center;gap:14px;
+  }
+  .c .shelf{font-size:16px;padding:4px 9px;flex-shrink:0}
+  .c .bar-track{height:19px}
+  .c .bar-lbl{display:none}
+  .c .comps{font-family:'VT323',monospace;font-size:13.5px;letter-spacing:1px;opacity:.62;white-space:nowrap;flex-shrink:0}
+
+  /* thumbnail rail */
+  .thumbs{display:flex;gap:20px;flex-wrap:wrap;margin-top:8px}
+  .thumb-cap{font-family:'VT323',monospace;font-size:13px;letter-spacing:2px;color:var(--accent);margin-bottom:6px}
+  .thumb .card{zoom:.5556}   /* render at 540, scale to 300 — how Instagram downsamples */
+
+  .warn{margin-top:12px;padding:11px 15px;border-left:3px solid #e0704a;background:rgba(224,112,74,.09);font-size:13.5px;max-width:70ch}
+  .warn[hidden]{display:none}
+
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+</head>
+<body>
+
+<h1>Review Card — Layout Calibration</h1>
+<div class="sub">Three layouts, each skinned by the book's genre using the site's own modes. Header art and the reading sprite come from <code>theme-pixel-art/static/&lt;mode&gt;/</code>. Bar treatment is settled (hatched).</div>
+
+<div class="controls">
+  <label>genre
+    <select id="genre">
+      <option value="fantasy" selected>fantasy / romantasy / regency</option>
+      <option value="cabin">cozy mystery / literary</option>
+      <option value="sci-fi">science fiction</option>
+      <option value="cyberpunk">cyberpunk / dystopian</option>
+      <option value="underwater">nautical / gothic / weird</option>
+      <option value="kaiju">horror / monster ⚠</option>
+    </select>
+  </label>
+  <label>fill <input type="range" id="fill" min="0" max="100" value="78"><span class="val" id="fillv">78</span></label>
+  <label>state
+    <select id="state">
+      <option value="normal">normal</option>
+      <option value="complete">complete</option>
+    </select>
+  </label>
+  <label>sprite row
+    <select id="row">
+      <option value="0">row 0</option>
+      <option value="1">row 1</option>
+      <option value="2">row 2</option>
+    </select>
+  </label>
+  <label>speed <input type="range" id="speed" min="3" max="18" value="9"><span class="val" id="speedv">.9s</span></label>
+  <label>talker
+    <select id="talker">
+      <option value="short">short</option>
+      <option value="med" selected>medium</option>
+      <option value="long">long</option>
+    </select>
+  </label>
+</div>
+<p class="warn" id="artwarn" hidden></p>
+
+<h2>A · Banded</h2>
+<p class="note">Identity / hero / verdict, each a real band. The hero absorbs the slack so there is no dead gap, and the verdict sits on its own darker panel.</p>
+<div class="row">
+  <div class="card a">
+    <div class="hdr-wrap"><img class="hdr" alt=""></div>
+    <div class="band-id">
+      <div class="cover">COVER</div>
+      <div><h3>Damsels and Dinosaurs</h3><div class="by">Wren Jones · standalone</div></div>
+    </div>
+    <div class="band-hero"><q class="talker-slot"></q></div>
+    <div class="band-verdict">
+      <div class="verdict-top">
+        <span class="sprite"></span>
+        <span class="shelf">HAND-SELL</span>
+      </div>
+      <div class="bar-row">
+        <span class="bar-lbl">ENJOYMENT...</span>
+        <span class="bar-track"><span class="bar-fill"></span></span>
+        <span class="bar-state"></span>
+      </div>
+      <div class="comps"><b>READ IF YOU LIKED</b>Gideon the Ninth · Bridgerton</div>
+    </div>
+    <div class="brand">dylan's blog</div>
+  </div>
+</div>
+
+<h2>B · Library catalog card</h2>
+<p class="note">The card is a card. Ruled lines, a call number, a shelf tag stamped at an angle. Small print reads as authentic here rather than as a mistake.</p>
+<div class="row">
+  <div class="card b">
+    <div class="hdr-wrap"><img class="hdr" alt=""></div>
+    <div class="body">
+      <div class="top">
+        <div class="cover">COVER</div>
+        <div><div class="callno">FIC · JON</div><h3>Damsels and Dinosaurs</h3><div class="by">Jones, Wren · standalone</div></div>
+      </div>
+      <hr>
+      <q class="talker-slot"></q>
+      <div class="stamp-row"><span class="sprite"></span><span class="shelf">HAND-SELL</span></div>
+      <div class="bar-row">
+        <span class="bar-lbl">ENJOYMENT...</span>
+        <span class="bar-track"><span class="bar-fill"></span></span>
+        <span class="bar-state"></span>
+      </div>
+      <div class="seealso"><b>SEE ALSO</b>Gideon the Ninth · Bridgerton</div>
+    </div>
+    <div class="brand">dylan's blog</div>
+  </div>
+</div>
+
+<h2>C · Poster</h2>
+<p class="note">The talker dominates; everything else compresses into one strip along the bottom. Most thumbnail impact, hardest squeeze on the cover and comps.</p>
+<div class="row">
+  <div class="card c">
+    <div class="hdr-wrap"><img class="hdr" alt=""></div>
+    <div class="body">
+      <div class="eyebrow">
+        <div class="cover">CVR</div>
+        <span>Wren Jones · standalone</span>
+      </div>
+      <div class="hero"><q class="talker-slot"></q></div>
+      <h3>Damsels and Dinosaurs</h3>
+      <div class="strip">
+        <span class="shelf">HAND-SELL</span>
+        <span class="bar-track"><span class="bar-fill"></span></span>
+        <span class="comps">GIDEON · BRIDGERTON</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h2>At Instagram feed size</h2>
+<p class="note">Rendered at 540 then scaled to 300, which is how Instagram downsamples. Squint: which one still tells you something?</p>
+<div class="thumbs" id="thumbs"></div>
+
+<script>
+  const $ = id => document.getElementById(id);
+  const ART = '../../theme-pixel-art/static/';
+
+  // Palettes lifted from brand/tokens.json.
+  const GENRES = {
+    fantasy:    {mode:'fantasy',    accent:'#8060c0', dim:'#3a2a5c', bgA:'#241a33', bgB:'#140f1c', display:'MedievalSharp',       body:'Spectral',     sprite:true},
+    cabin:      {mode:'cabin',      accent:'#ff8c00', dim:'#6b503a', bgA:'#2e2118', bgB:'#170f0a', display:'Fredericka the Great', body:'Literata',    sprite:true},
+    'sci-fi':   {mode:'sci-fi',     accent:'#00d4ff', dim:'#1a3a5c', bgA:'#12293a', bgB:'#0d1f28', display:'Orbitron',             body:'IBM Plex Mono',sprite:true},
+    cyberpunk:  {mode:'cyberpunk',  accent:'#ff00ff', dim:'#4a1a4a', bgA:'#1a0a1a', bgB:'#0d050d', display:'Teko',                 body:'Rajdhani',     sprite:true},
+    underwater: {mode:'underwater', accent:'#c9a227', dim:'#1a3a4a', bgA:'#17323f', bgB:'#0b1c24', display:'Cinzel',               body:'EB Garamond',  sprite:true},
+    kaiju:      {mode:'kaiju',      accent:'#8060c0', dim:'#3a2a5c', bgA:'#241a33', bgB:'#140f1c', display:'MedievalSharp',        body:'Spectral',     sprite:false}
+  };
+
+  const TALKERS = {
+    short: 'Regency manners, but the bees have opinions.',
+    med:   'Regency manners, actual dinosaurs, and bees with a personal vendetta.',
+    long:  'A failing honey business, an arranged marriage nobody wants, a grumpy ex sent to fetch you home, and — because one disaster is never enough — dinosaurs.'
+  };
+
+  function render(){
+    const g = GENRES[$('genre').value];
+    const r = document.documentElement.style;
+    r.setProperty('--accent', g.accent);
+    r.setProperty('--accent-dim', g.dim);
+    r.setProperty('--card-bg-a', g.bgA);
+    r.setProperty('--card-bg-b', g.bgB);
+    r.setProperty('--display', "'" + g.display + "'");
+    r.setProperty('--body', "'" + g.body + "'");
+
+    document.querySelectorAll('.hdr').forEach(el => el.src = ART + g.mode + '/headers/reading.png');
+    const dur = (+$('speed').value / 10).toFixed(1) + 's';
+    $('speedv').textContent = dur;
+    document.querySelectorAll('.sprite').forEach(el => {
+      el.style.display = g.sprite ? '' : 'none';
+      if (!g.sprite) return;
+      el.style.backgroundImage = "url('" + ART + g.mode + "/sprites/category/reading.png')";
+      el.style.setProperty('--row', $('row').value);
+      el.style.animationDuration = dur;
+    });
+
+    const warn = $('artwarn');
+    if (!g.sprite){
+      warn.textContent = g.mode + ' has a reading header but no reading category sprite, so the sprite slot is empty. Draw one and this genre works like the others.';
+      warn.hidden = false;
+    } else warn.hidden = true;
+
+    let pct = +$('fill').value;
+    if($('state').value === 'complete') pct = 100;
+    $('fillv').textContent = pct;
+    document.querySelectorAll('.bar-fill').forEach(el => el.style.width = pct + '%');
+    document.querySelectorAll('.talker-slot').forEach(el => el.textContent = TALKERS[$('talker').value]);
+
+    const done = $('state').value === 'complete';
+    document.querySelectorAll('.bar-state').forEach(el => {
+      el.textContent = done ? 'COMPLETE' : '';
+      el.className = 'bar-state ' + (done ? 'done' : '');
+    });
+
+    buildThumbs();
+  }
+
+  function buildThumbs(){
+    const rail = $('thumbs');
+    rail.innerHTML = '';
+    [['A · banded','a'],['B · catalog','b'],['C · poster','c']].forEach(([label, cls]) => {
+      const box = document.createElement('div');
+      box.className = 'thumb';
+      const cap = document.createElement('div');
+      cap.className = 'thumb-cap';
+      cap.textContent = label;
+      box.appendChild(cap);
+      box.appendChild(document.querySelector('.card.' + cls).cloneNode(true));
+      rail.appendChild(box);
+    });
+  }
+
+  ['genre','fill','state','talker','row','speed'].forEach(id => $(id).addEventListener('input', render));
+  render();
+</script>
+</body>
+</html>

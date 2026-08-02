@@ -103,6 +103,19 @@ test('renderBrandBook carries the generated-file warning so nobody edits it by h
   assert.match(renderBrandBook(tokens), /generated/i);
 });
 
+test('no generated output leaks undefined or null from a removed token', () => {
+  for (const [name, out] of [['markdown', renderBrandBook(tokens)], ['html', renderBrandBookHtml(tokens)]]) {
+    assert.ok(!/\bundefined\b/.test(out), `${name} contains "undefined"`);
+    assert.ok(!/>\s*null\s*</.test(out), `${name} contains a stray null`);
+  }
+});
+
+test('the review card carries no DNF concept — it was retired 2026-08-02', () => {
+  const all = JSON.stringify(tokens) + renderBrandBook(tokens) + renderBrandBookHtml(tokens);
+  assert.ok(!/\bDNF\b/i.test(all), 'DNF should be gone from tokens and both renderings');
+  assert.ok(!/connection lost/i.test(all), 'the DNF stall label should be gone');
+});
+
 // ---------- html preview ----------
 
 test('artPath url-encodes sprite filenames that contain spaces', () => {
