@@ -8,6 +8,7 @@ const os = require('node:os');
 const path = require('node:path');
 
 const {
+  CATEGORY_MAP,
   sanitizeFilename,
   parseStoryFrames,
   parseCarouselQuotes,
@@ -168,4 +169,46 @@ test('buildLinkMap lists every frame, its png, link, and the in-app reminder', (
   assert.match(md, /Text: Frame one/);
   assert.match(md, /https:\/\/a\.test/);
   assert.match(md, /https:\/\/b\.test/);
+});
+
+// ---------- category map comes from the tokens, not a second copy ----------
+
+const TOKENS = JSON.parse(
+  fs.readFileSync(path.resolve(__dirname, '..', 'brand', 'tokens.json'), 'utf8')
+);
+
+test('the category map is derived from brand/tokens.json, not duplicated', () => {
+  assert.deepStrictEqual(
+    Object.keys(CATEGORY_MAP).sort(),
+    Object.keys(TOKENS.categories).sort()
+  );
+});
+
+test('every category resolves to the header, sprite and glow the tokens declare', () => {
+  for (const [name, tok] of Object.entries(TOKENS.categories)) {
+    assert.deepStrictEqual(
+      CATEGORY_MAP[name],
+      { header: tok.header, sprite: tok.sprite, glow: tok.glow },
+      `${name} drifted from the tokens`
+    );
+  }
+});
+
+test('generate-instagram.js contains no hand-written category table', () => {
+  const src = fs.readFileSync(path.resolve(__dirname, 'generate-instagram.js'), 'utf8');
+  // A literal map would spell out sprite filenames; the tokens should be the only place those live.
+  assert.ok(!src.includes('skele-health.png'),
+    'sprite filenames are hardcoded again — read them from brand/tokens.json');
+  assert.ok(src.includes('tokens.json'),
+    'the generator should load brand/tokens.json');
+});
+
+test('every category the generator offers points at art that exists', () => {
+  const root = path.resolve(__dirname, '..', 'theme-pixel-art', 'static');
+  const missing = [];
+  for (const [name, c] of Object.entries(CATEGORY_MAP)) {
+    if (!fs.existsSync(path.join(root, 'headers', c.header))) missing.push(`${name}: ${c.header}`);
+    if (!fs.existsSync(path.join(root, 'sprites', c.sprite))) missing.push(`${name}: ${c.sprite}`);
+  }
+  assert.deepStrictEqual(missing, []);
 });

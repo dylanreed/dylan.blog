@@ -7,22 +7,17 @@ const fs = require('fs');
 const https = require('https');
 const http = require('http');
 
-const CATEGORY_MAP = {
-  health:    { header: 'health.png',    sprite: 'skele-health.png',        glow: '#5de2a3' },
-  tabletop:  { header: 'tabletop.png',  sprite: 'knight - tabletop.png',   glow: '#40c8d8' },
-  gaming:    { header: 'tabletop.png',  sprite: 'Dragon - Tabletop.png',   glow: '#40c8d8' },
-  tech:      { header: 'tech.png',      sprite: 'wizard-tech.png',         glow: '#6cd9e8' },
-  writing:   { header: 'writing.png',   sprite: 'quill - Writing.png',     glow: '#c4a060' },
-  cooking:   { header: 'cooking.png',   sprite: 'cauldren - cooking.png',  glow: '#e07040' },
-  music:     { header: 'music.png',     sprite: 'banjo - music.png',       glow: '#e8c546' },
-  travel:    { header: 'travel.png',    sprite: 'Adventure - Travel.png',  glow: '#5a9e5a' },
-  reading:   { header: 'reading.png',   sprite: 'book-reading.png',        glow: '#8060c0' },
-  crafting:  { header: 'crafting.png',  sprite: 'Muse - Writing.png',      glow: '#c4a060' },
-  clowning:  { header: 'clown.png',     sprite: 'clown - clown.png',       glow: '#7050a0' },
-  personal:  { header: 'home.png',      sprite: 'clown - clown.png',       glow: '#7050a0' },
-  pets:      { header: 'home.png',      sprite: 'Cat - Health.png',        glow: '#e0a080' },
-  adhd:      { header: 'home.png',      sprite: 'Donkey - Travel.png',     glow: '#5a9e5a' },
-};
+// Categories live in brand/tokens.json — the single source of truth shared with
+// the brand book. Never re-declare them here; a second copy is how they drift.
+const TOKENS_PATH = path.resolve(__dirname, '..', 'brand', 'tokens.json');
+const TOKENS = JSON.parse(fs.readFileSync(TOKENS_PATH, 'utf8'));
+
+const CATEGORY_MAP = Object.fromEntries(
+  Object.entries(TOKENS.categories).map(([name, c]) => [
+    name,
+    { header: c.header, sprite: c.sprite, glow: c.glow },
+  ])
+);
 
 function parseArgs(argv) {
   const args = {};
@@ -453,6 +448,7 @@ if (require.main === module) {
 }
 
 module.exports = {
+  CATEGORY_MAP,
   sanitizeFilename,
   getTitleSizeClass,
   parseStoryFrames,

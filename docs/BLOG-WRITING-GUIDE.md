@@ -269,21 +269,9 @@ When starting a new blog post, Claude should ask:
 2. **Mood/Vibe**: Playful, frustrated, reflective, unhinged, etc.
 3. **Category**: Which primary category fits best?
 
-| Category | Use For |
-|----------|---------|
-| `health` | Medical, chronic illness, recovery, healthcare system rants |
-| `tabletop` | Blood Bowl, Warhammer, D&D, board games, miniatures |
-| `clowning` | Performance, circus arts, juggling, balloons, magic |
-| `tech` | Programming, gadgets, blog updates, coding projects |
-| `writing` | Writing projects, NaNoWriMo, fiction, creative process |
-| `cooking` | Food, recipes, kitchen adventures |
-| `music` | Ukulele, banjo, synthesizers, music production |
-| `travel` | Trips, adventures, places visited |
-| `reading` | Book reviews, recommendations |
-| `crafting` | Puppets, sewing, bow ties, making things |
-| `personal` | Life updates, reflections, general introspection |
-| `gaming` | Video games, Minecraft, console stuff |
-| `pets` | Cat content (Ramona, Jeff) |
+**The category list lives in `brand/tokens.json`** and is rendered in [BRAND-BOOK.md](BRAND-BOOK.md#categories) with each category's header art, sprite and accent glow. It is not repeated here — a second copy is how the four lists that used to disagree got that way.
+
+Run `npm run brandbook` after editing the tokens.
 
 4. **Length**: Use these ranges based on actual post history:
 

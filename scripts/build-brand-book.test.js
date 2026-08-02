@@ -103,6 +103,14 @@ test('renderBrandBook carries the generated-file warning so nobody edits it by h
   assert.match(renderBrandBook(tokens), /generated/i);
 });
 
+test('the writing guide does not keep its own category list', () => {
+  const guide = fs.readFileSync(path.resolve(__dirname, '..', 'docs', 'BLOG-WRITING-GUIDE.md'), 'utf8');
+  assert.ok(!/\|\s*Category\s*\|/.test(guide),
+    'BLOG-WRITING-GUIDE.md has a category table again — point at the brand book instead');
+  assert.ok(guide.includes('brand/tokens.json'),
+    'the guide should point at the tokens as the category source');
+});
+
 test('no generated output leaks undefined or null from a removed token', () => {
   for (const [name, out] of [['markdown', renderBrandBook(tokens)], ['html', renderBrandBookHtml(tokens)]]) {
     assert.ok(!/\bundefined\b/.test(out), `${name} contains "undefined"`);
