@@ -65,6 +65,27 @@ test('bookreview skill lists exactly the genre modes that can carry a card', (t)
   }
 });
 
+test('bookreview skill names the same fallback skin the tokens do', (t) => {
+  const src = read(REVIEW_SKILL);
+  if (!src) return t.skip('bookreview skill not installed');
+
+  const fallback = tokens.genreThemes.$fallback;
+  assert.match(src, new RegExp('falls back to `' + fallback + '`'),
+    `skill should fall back to ${fallback}`);
+
+  for (const other of Object.keys(tokens.genreThemes.map)) {
+    if (other === fallback) continue;
+    assert.ok(!new RegExp('falls back to `' + other + '`').test(src),
+      `skill still names ${other} as the fallback`);
+  }
+});
+
+test('the fallback skin is one that actually owns reading art', () => {
+  const fallback = tokens.genreThemes.$fallback;
+  assert.ok(Object.keys(tokens.genreThemes.map).includes(fallback),
+    `fallback "${fallback}" cannot carry a card — it has no reading art`);
+});
+
 test('bookreview skill does not resurrect DNF', (t) => {
   const src = read(REVIEW_SKILL);
   if (!src) return t.skip('bookreview skill not installed');

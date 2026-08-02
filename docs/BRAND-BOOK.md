@@ -103,7 +103,7 @@ A review card takes the site's own mode for the book's genre.
 - `cyberpunk` — cyberpunk, techno-thriller, dystopian
 - `underwater` — nautical, aquatic, weird fiction, gothic
 
-Anything else falls back to `fantasy`. Modes that cannot carry a card yet:
+Anything else falls back to `cabin`. Modes that cannot carry a card yet:
 
 - `kaiju` — Has a reading header but no category sprite. Draw one and horror/monster books can use it.
 - `western` — No reading art at all. Needs a header and a sprite before westerns can be skinned.
