@@ -212,3 +212,79 @@ test('every category the generator offers points at art that exists', () => {
   }
   assert.deepStrictEqual(missing, []);
 });
+
+// ---------- book review card ----------
+
+const { parseBookBlock, resolveSkin } = require('./generate-instagram.js');
+
+test('parseBookBlock returns null when the post has no book block', () => {
+  assert.strictEqual(parseBookBlock('title: Foo\ncategories:\n  - reading\n'), null);
+});
+
+test('parseBookBlock reads scalars, strips quotes, and stops at the next top-level key', () => {
+  const fm = [
+    'title: Some Post',
+    'book:',
+    '  title: "Bromantasy"',
+    '  author: "Máire Roche"',
+    '  series: "standalone"',
+    '  genre: "romantasy"',
+    '  shelf: hand-sell',
+    '  enjoyment: 92',
+    '  talker: "Queer cozy romantasy. WHY AREN\'T YOU READING IT YET"',
+    'categories:',
+    '  - reading',
+  ].join('\n');
+  const b = parseBookBlock(fm);
+  assert.strictEqual(b.title, 'Bromantasy');
+  assert.strictEqual(b.author, 'Máire Roche');
+  assert.strictEqual(b.series, 'standalone');
+  assert.strictEqual(b.genre, 'romantasy');
+  assert.strictEqual(b.shelf, 'hand-sell');
+  assert.strictEqual(b.enjoyment, 92);
+  assert.match(b.talker, /WHY AREN'T YOU READING IT YET/);
+  assert.strictEqual(b.categories, undefined);
+});
+
+test('parseBookBlock reads a nested comps list', () => {
+  const fm = [
+    'book:',
+    '  title: "X"',
+    '  comps:',
+    '    - "You Can\'t Spell Treason Without Tea"',
+    '    - "Legends & Lattes"',
+    '  shelf: hand-sell',
+    'tags:',
+    '  - reading',
+  ].join('\n');
+  assert.deepStrictEqual(parseBookBlock(fm).comps,
+    ["You Can't Spell Treason Without Tea", 'Legends & Lattes']);
+});
+
+test('resolveSkin maps a genre to the mode that owns it', () => {
+  assert.strictEqual(resolveSkin('romantasy').mode, 'fantasy');
+  assert.strictEqual(resolveSkin('space opera').mode, 'sci-fi');
+  assert.strictEqual(resolveSkin('cozy mystery').mode, 'cabin');
+});
+
+test('resolveSkin is case and whitespace insensitive', () => {
+  assert.strictEqual(resolveSkin('  Science Fiction ').mode, 'sci-fi');
+});
+
+test('resolveSkin falls back to the tokens fallback for an unmapped genre', () => {
+  const fallback = TOKENS.genreThemes.$fallback;
+  assert.strictEqual(resolveSkin('horror').mode, fallback);
+  assert.strictEqual(resolveSkin(undefined).mode, fallback);
+});
+
+test('every skin resolveSkin can return owns reading art on disk', () => {
+  const root = path.resolve(__dirname, '..', '..', 'theme-pixel-art', 'static');
+  if (!fs.existsSync(root)) return; // theme repo not checked out beside the blog
+  for (const key of Object.keys(TOKENS.genreThemes.map)) {
+    const skin = resolveSkin(TOKENS.genreThemes.map[key].genres[0]);
+    assert.ok(fs.existsSync(path.join(root, skin.mode, 'headers', 'reading.png')),
+      `${skin.mode} is offered as a skin but has no reading header`);
+    assert.ok(fs.existsSync(path.join(root, skin.mode, 'sprites', 'category', 'reading.png')),
+      `${skin.mode} is offered as a skin but has no reading sprite`);
+  }
+});

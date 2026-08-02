@@ -19,6 +19,64 @@ const CATEGORY_MAP = Object.fromEntries(
   ])
 );
 
+// Reads the `book:` block out of a post's frontmatter. Hand-rolled to match the
+// other parsers here — the repo has no YAML dependency and doesn't need one.
+function parseBookBlock(frontmatter) {
+  const lines = frontmatter.split('\n');
+  const start = lines.findIndex(l => /^book:\s*$/.test(l));
+  if (start === -1) return null;
+
+  const book = {};
+  let listKey = null;
+
+  for (let i = start + 1; i < lines.length; i++) {
+    const line = lines[i];
+    if (!line.trim()) continue;
+    if (!/^\s/.test(line)) break;               // next top-level key ends the block
+
+    const listItem = line.match(/^\s{4,}-\s*(.+)$/);
+    if (listItem && listKey) {
+      book[listKey].push(stripQuotes(listItem[1].trim()));
+      continue;
+    }
+
+    const pair = line.match(/^\s{2}([A-Za-z_][\w-]*):\s*(.*)$/);
+    if (!pair) continue;
+
+    const [, key, rawValue] = pair;
+    const value = rawValue.trim();
+    if (value === '') {
+      listKey = key;
+      book[key] = [];
+      continue;
+    }
+    listKey = null;
+    const unquoted = stripQuotes(value);
+    book[key] = /^-?\d+$/.test(unquoted) ? Number(unquoted) : unquoted;
+  }
+
+  return book;
+}
+
+// Maps a book's genre onto one of the site's modes. Only modes that own reading
+// art can carry a card; everything else takes the fallback declared in tokens.
+function resolveSkin(genre) {
+  const themes = TOKENS.genreThemes;
+  const needle = String(genre || '').trim().toLowerCase();
+
+  let key = themes.$fallback;
+  if (needle) {
+    for (const [name, entry] of Object.entries(themes.map)) {
+      if (entry.genres.some(g => g.toLowerCase() === needle)) {
+        key = name;
+        break;
+      }
+    }
+  }
+  const entry = themes.map[key] || themes.map[themes.$fallback];
+  return { key, mode: entry.mode, genres: entry.genres, card: entry.card || {} };
+}
+
 function parseArgs(argv) {
   const args = {};
   for (let i = 2; i < argv.length; i++) {
@@ -204,7 +262,144 @@ function buildLinkMap(slug, frames) {
   return header.concat(blocks).join('\n');
 }
 
+// Builds the Google Fonts href for whichever faces this skin actually uses.
+function skinWebfontHref(modeTokens, uiFace) {
+  const families = new Set(['Uncial Antiqua', 'VT323']);
+  if (uiFace) families.add(uiFace);
+  for (const f of Object.values(modeTokens.type || {})) families.add(f);
+  for (const f of Object.values(TOKENS.type.base)) families.add(f);
+  const q = [...families].sort().map(f => `family=${f.replace(/ /g, '+')}`).join('&');
+  return `https://fonts.googleapis.com/css2?${q}&display=swap`;
+}
+
+// Mono bodies need a smaller pull quote or the talker runs to three lines.
+function talkerSizeFor(bodyFace, talker) {
+  const mono = /mono|code/i.test(String(bodyFace || ''));
+  const base = mono ? 44 : 54;
+  const len = String(talker || '').length;
+  if (len > 110) return base - 10;
+  if (len > 80) return base - 5;
+  return base;
+}
+
+async function renderReviewCard(postPath) {
+  const projectRoot = path.resolve(__dirname, '..');
+  const raw = fs.readFileSync(postPath, 'utf8');
+  const fmMatch = raw.match(/^---\n([\s\S]*?)\n---/m);
+  if (!fmMatch) throw new Error(`No frontmatter in ${postPath}`);
+
+  const book = parseBookBlock(fmMatch[1]);
+  if (!book) throw new Error(`No "book:" block in ${postPath} — see the bookreview skill`);
+  if (!book.talker) throw new Error('book.talker is required — it is the hero of the card');
+
+  const skin = resolveSkin(book.genre);
+  const modeTokens = TOKENS.modes[skin.mode] || {};
+  // The card palette is deliberately separate from the mode's site palette —
+  // fantasy's site palette is a sky-blue page background and washes out here.
+  const card = skin.card;
+
+  const themeRoot = path.resolve(projectRoot, '..', 'theme-pixel-art', 'static', skin.mode);
+  const headerFile = path.join(themeRoot, 'headers', 'reading.png');
+  const spriteFile = path.join(themeRoot, 'sprites', 'category', 'reading.png');
+
+  const shelfLabel = String(book.shelf || '').toUpperCase();
+  const validShelf = Object.keys(TOKENS.reviewCard.shelfTags).filter(k => !k.startsWith('$'));
+  if (book.shelf && !validShelf.includes(book.shelf)) {
+    throw new Error(`Unknown shelf tag "${book.shelf}". Valid: ${validShelf.join(', ')}`);
+  }
+
+  const browser = await puppeteer.launch({ headless: 'new' });
+  const page = await browser.newPage();
+  await page.setViewport({ width: 1080, height: 1080 });
+  await page.goto('file://' + path.resolve(__dirname, 'review-card-template.html'),
+    { waitUntil: 'networkidle0' });
+
+  await page.evaluate((data) => {
+    const r = document.documentElement.style;
+    r.setProperty('--accent', data.accent);
+    r.setProperty('--accent-dim', data.accentDim);
+    r.setProperty('--bg-a', data.bgA);
+    r.setProperty('--bg-b', data.bgB);
+    r.setProperty('--display', `'${data.display}'`);
+    r.setProperty('--body', `'${data.body}'`);
+    r.setProperty('--ui', `'${data.ui}'`);
+    r.setProperty('--talker', data.talkerSize + 'px');
+
+    document.getElementById('webfonts').href = data.webfonts;
+    document.getElementById('hdr').src = data.header;
+
+    const sprite = document.getElementById('sprite');
+    if (data.sprite) sprite.style.backgroundImage = `url('${data.sprite}')`;
+    else sprite.dataset.empty = 'true';
+
+    const cover = document.getElementById('cover');
+    if (data.cover) cover.src = data.cover;
+    else cover.dataset.empty = 'true';
+
+    document.getElementById('title').textContent = data.title;
+    document.getElementById('byline').textContent =
+      [data.author, data.series].filter(Boolean).join(' · ');
+    document.getElementById('talker').textContent = data.talker;
+    document.getElementById('shelf').textContent = data.shelf;
+    document.getElementById('bar-fill').style.width = data.enjoyment + '%';
+    document.getElementById('bar-state').textContent =
+      data.enjoyment >= 100 ? data.completeLabel : '';
+
+    const comps = document.getElementById('comps');
+    if (data.comps && data.comps.length) {
+      document.getElementById('comps-text').textContent = data.comps.join(' · ');
+    } else {
+      comps.dataset.empty = 'true';
+    }
+  }, {
+    accent: card.accent,
+    accentDim: card.dim,
+    bgA: card.bgA,
+    bgB: card.bgB,
+    display: (modeTokens.type || {}).display || TOKENS.type.base.display,
+    body: (modeTokens.type || {}).body || TOKENS.type.base.body,
+    ui: card.ui || 'VT323',
+    talkerSize: talkerSizeFor((modeTokens.type || {}).body, book.talker),
+    webfonts: skinWebfontHref(modeTokens, card.ui),
+    header: fs.existsSync(headerFile) ? 'file://' + headerFile : '',
+    sprite: fs.existsSync(spriteFile) ? 'file://' + spriteFile : '',
+    cover: book.cover || '',
+    title: book.title || '',
+    author: book.author || '',
+    series: book.series || '',
+    talker: book.talker,
+    shelf: shelfLabel,
+    enjoyment: Number(book.enjoyment) || 0,
+    comps: book.comps || [],
+    completeLabel: TOKENS.reviewCard.enjoymentBar.labelStates.complete,
+  });
+
+  // Give remote cover art and webfonts a moment to paint.
+  await page.evaluate(() => document.fonts.ready);
+  await new Promise(r => setTimeout(r, 900));
+
+  const outputDir = path.resolve(projectRoot, 'output');
+  fs.mkdirSync(outputDir, { recursive: true });
+  const slug = sanitizeFilename(book.title || path.basename(postPath, '.md'));
+  const outPath = path.join(outputDir, `review-${slug}.png`);
+  await page.screenshot({ path: outPath, type: 'png' });
+  await browser.close();
+
+  console.log(`Wrote ${path.relative(process.cwd(), outPath)}  [skin: ${skin.mode}]`);
+  return outPath;
+}
+
 async function main() {
+  if (process.argv.includes('--review')) {
+    const i = process.argv.indexOf('--post');
+    if (i === -1 || !process.argv[i + 1]) {
+      console.error('Usage: npm run instagram -- --post <path/to/post.md> --review');
+      process.exit(1);
+    }
+    await renderReviewCard(process.argv[i + 1]);
+    return;
+  }
+
   const args = parseArgs(process.argv);
 
   let postHeaderImage;
@@ -449,6 +644,8 @@ if (require.main === module) {
 
 module.exports = {
   CATEGORY_MAP,
+  parseBookBlock,
+  resolveSkin,
   sanitizeFilename,
   getTitleSizeClass,
   parseStoryFrames,
