@@ -35,20 +35,44 @@ function parseArgs(argv) {
       args.post = argv[++i];
     } else if (argv[i] === '--story') {
       args.story = true;
+    } else if (argv[i] === '--carousel') {
+      args.carousel = true;
     }
   }
   return args;
 }
 
 function stripQuotes(value) {
-  if (
-    value.length >= 2 &&
-    ((value[0] === '"' && value[value.length - 1] === '"') ||
-      (value[0] === "'" && value[value.length - 1] === "'"))
-  ) {
-    return value.slice(1, -1);
+  if (value.length >= 2 && value[0] === '"' && value[value.length - 1] === '"') {
+    // Double-quoted YAML: unescape \" and \\.
+    return value.slice(1, -1).replace(/\\(["\\])/g, '$1');
+  }
+  if (value.length >= 2 && value[0] === "'" && value[value.length - 1] === "'") {
+    // Single-quoted YAML: '' is a literal single quote.
+    return value.slice(1, -1).replace(/''/g, "'");
   }
   return value;
+}
+
+// Parses an `instagram carousel:` block from raw frontmatter into an array of strings.
+// Each item is a `- "quote"` list item. Returns [] when the block is absent.
+function parseCarouselQuotes(frontmatterRaw) {
+  const lines = frontmatterRaw.split('\n');
+  const start = lines.findIndex((l) => /^instagram carousel:\s*$/.test(l));
+  if (start === -1) return [];
+
+  const quotes = [];
+  for (let i = start + 1; i < lines.length; i++) {
+    const line = lines[i];
+    if (/^\S/.test(line)) break; // dedent to a new top-level key ends the block
+    if (line.trim() === '') continue;
+
+    const itemMatch = line.match(/^\s*-\s+(.+)$/);
+    if (itemMatch) {
+      quotes.push(stripQuotes(itemMatch[1].trim()));
+    }
+  }
+  return quotes;
 }
 
 // Parses an `instagram stories:` block from raw frontmatter into [{ text, link }].
@@ -98,7 +122,7 @@ function parsePostFile(postPath) {
 
   for (const line of fmRaw.split('\n')) {
     const m = line.match(/^([^:\s][^:]*):\s*(.*)$/);
-    if (m) out[m[1].trim()] = m[2].trim();
+    if (m) out[m[1].trim()] = stripQuotes(m[2].trim());
   }
 
   const catMatch = fmRaw.match(/^categories:\s*\n((?:\s*-\s*\S+\n?)+)/m);
@@ -112,6 +136,7 @@ function parsePostFile(postPath) {
   if (imgMatch) out.headerImage = imgMatch[1];
 
   out.stories = parseStoryFrames(fmRaw);
+  out.carousel = parseCarouselQuotes(fmRaw);
 
   return out;
 }
@@ -217,6 +242,17 @@ async function main() {
         process.exit(1);
       }
     });
+  }
+
+  if (args.carousel) {
+    if (!args.post) {
+      console.error('--carousel requires --post (carousel quotes are read from the post frontmatter)');
+      process.exit(1);
+    }
+    if (postFm.carousel.length === 0) {
+      console.error(`No "instagram carousel:" block found in ${args.post}`);
+      process.exit(1);
+    }
   }
 
   if (!args.title) {
@@ -356,6 +392,56 @@ async function main() {
     console.log(`Generated: ${linkMapPath}`);
   }
 
+  if (args.carousel) {
+    const carouselTemplatePath = path.resolve(__dirname, 'carousel-template.html');
+    if (!fs.existsSync(carouselTemplatePath)) {
+      console.error(`Carousel template not found: ${carouselTemplatePath}`);
+      await browser.close();
+      process.exit(1);
+    }
+    const carouselTemplateFileUrl = `file://${carouselTemplatePath}`;
+    const quotes = postFm.carousel;
+    const totalSlides = quotes.length + 1; // cover + one per quote
+    await page.setViewport({ width: 1080, height: 1080 });
+
+    for (let i = 0; i < totalSlides; i++) {
+      const slideNumber = i + 1;
+      const isCover = i === 0;
+      const text = isCover ? args.title : quotes[i - 1];
+      const posX = totalSlides === 1 ? 0 : Math.round((i / (totalSlides - 1)) * 100);
+      const slideSizeClass = getTitleSizeClass(text);
+
+      await page.goto(carouselTemplateFileUrl, { waitUntil: 'networkidle0' });
+      await page.evaluate(({ text, headerUrl, spriteUrl, glowColor, sizeClass, posX, isCover, slideNumber, totalSlides }) => {
+        document.getElementById('title').textContent = text;
+        document.getElementById('title').className = sizeClass;
+        document.getElementById('background').style.backgroundImage = `url('${headerUrl}')`;
+        document.getElementById('background').style.backgroundPosition = `${posX}% center`;
+        document.getElementById('sprite').style.backgroundImage = `url('${spriteUrl}')`;
+        document.getElementById('accent').style.backgroundColor = glowColor;
+        document.getElementById('sprite').style.display = isCover ? '' : 'none';
+        const counter = document.getElementById('counter');
+        counter.style.display = isCover ? 'none' : '';
+        if (!isCover) counter.textContent = `${slideNumber}/${totalSlides}`;
+      }, {
+        text,
+        headerUrl: headerFileUrl,
+        spriteUrl: spriteFileUrl,
+        glowColor: catConfig.glow,
+        sizeClass: slideSizeClass,
+        posX,
+        isCover,
+        slideNumber,
+        totalSlides,
+      });
+      await page.evaluate(() => document.fonts.ready);
+      await new Promise((resolve) => setTimeout(resolve, 500));
+      const slidePath = path.resolve(outputDir, `instagram-${sanitized}-slide-${slideNumber}.png`);
+      await page.screenshot({ path: slidePath, type: 'png' });
+      console.log(`Generated: ${slidePath}`);
+    }
+  }
+
   await browser.close();
 }
 
@@ -370,7 +456,9 @@ module.exports = {
   sanitizeFilename,
   getTitleSizeClass,
   parseStoryFrames,
+  parseCarouselQuotes,
   stripQuotes,
+  parsePostFile,
   storyOutputName,
   getStoryTextSizeClass,
   buildLinkMap,

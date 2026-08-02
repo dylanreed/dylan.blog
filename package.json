@@ -8,7 +8,9 @@
   },
   "scripts": {
     "test": "node --test",
-    "instagram": "node scripts/generate-instagram.js"
+    "instagram": "node scripts/generate-instagram.js",
+    "publish": "node scripts/publish-microblog.js",
+    "brandbook": "node scripts/build-brand-book.js"
   },
   "repository": {
     "type": "git",

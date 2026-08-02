@@ -1,0 +1,123 @@
+<!-- ABOUTME: HTML template for generating 1080x1080 Instagram carousel slide images for blog posts. -->
+<!-- ABOUTME: Loaded by Puppeteer; adds a #counter element (bottom-right) for quote slides; #sprite visible on cover only. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1080, height=1080">
+  <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Uncial+Antiqua&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 1080px;
+      height: 1080px;
+      overflow: hidden;
+      font-family: 'MedievalSharp', cursive;
+    }
+
+    #background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 1080px;
+      height: 1080px;
+      background-size: cover;
+      background-position: center;
+      image-rendering: pixelated;
+    }
+
+    #overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 1080px;
+      height: 1080px;
+      background: rgba(0, 0, 0, 0.55);
+    }
+
+    #accent {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 1080px;
+      height: 6px;
+    }
+
+    #title-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 1080px;
+      height: 1080px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 80px 60px;
+    }
+
+    #title {
+      color: #f5e6d3;
+      text-align: center;
+      max-width: 900px;
+      text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 0, 0, 0.5);
+      line-height: 1.3;
+      font-family: 'MedievalSharp', cursive;
+      font-weight: normal;
+    }
+
+    #title.size-xl { font-size: 72px; }
+    #title.size-lg { font-size: 58px; }
+    #title.size-md { font-size: 48px; }
+    #title.size-sm { font-size: 38px; }
+
+    #sprite {
+      position: absolute;
+      bottom: 40px;
+      left: 40px;
+      width: 96px;
+      height: 96px;
+      background-size: 200% 200%;
+      background-position: 0 0;
+      image-rendering: pixelated;
+    }
+
+    #branding {
+      position: absolute;
+      bottom: 40px;
+      left: 0;
+      width: 1080px;
+      text-align: center;
+      font-family: 'Uncial Antiqua', cursive;
+      font-size: 28px;
+      color: rgba(245, 230, 211, 0.7);
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    }
+
+    #counter {
+      position: absolute;
+      bottom: 40px;
+      right: 40px;
+      font-family: 'Uncial Antiqua', cursive;
+      font-size: 26px;
+      color: rgba(245, 230, 211, 0.7);
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    }
+  </style>
+</head>
+<body>
+  <div id="background"></div>
+  <div id="overlay"></div>
+  <div id="accent"></div>
+  <div id="title-container">
+    <h1 id="title" class="size-xl"></h1>
+  </div>
+  <div id="sprite"></div>
+  <div id="branding">dylan's blog</div>
+  <div id="counter"></div>
+</body>
+</html>

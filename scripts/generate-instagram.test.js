@@ -3,14 +3,49 @@
 
 const { test } = require('node:test');
 const assert = require('node:assert');
+const fs = require('node:fs');
+const os = require('node:os');
+const path = require('node:path');
 
 const {
   sanitizeFilename,
   parseStoryFrames,
+  parseCarouselQuotes,
+  stripQuotes,
+  parsePostFile,
   storyOutputName,
   getStoryTextSizeClass,
   buildLinkMap,
 } = require('./generate-instagram.js');
+
+test('stripQuotes strips outer quotes and unescapes inner escaped quotes', () => {
+  assert.strictEqual(stripQuotes('"\\"NOOOO\\": yes"'), '"NOOOO": yes');
+  assert.strictEqual(stripQuotes('"plain"'), 'plain');
+  assert.strictEqual(stripQuotes('unquoted'), 'unquoted');
+});
+
+test('parsePostFile returns a clean title (outer + escaped quotes removed)', () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'ig-test-'));
+  const p = path.join(dir, 'post.md');
+  fs.writeFileSync(
+    p,
+    [
+      '<!-- ABOUTME: note -->',
+      '---',
+      'title: "\\"NOOOO\\": I Got Diagnosed"',
+      'categories:',
+      '  - adhd',
+      '---',
+      '',
+      '![h](IMAGE_URL)',
+      'body',
+    ].join('\n')
+  );
+  const fm = parsePostFile(p);
+  assert.strictEqual(fm.title, '"NOOOO": I Got Diagnosed');
+  assert.strictEqual(fm.category, 'adhd');
+  fs.rmSync(dir, { recursive: true, force: true });
+});
 
 test('sanitizeFilename lowercases and dashes non-alphanumerics', () => {
   assert.strictEqual(sanitizeFilename('Hello, World!'), 'hello-world');
@@ -66,6 +101,59 @@ test('getStoryTextSizeClass scales by text length', () => {
   assert.strictEqual(getStoryTextSizeClass('x'.repeat(70)), 'size-lg');
   assert.strictEqual(getStoryTextSizeClass('x'.repeat(130)), 'size-md');
   assert.strictEqual(getStoryTextSizeClass('x'.repeat(200)), 'size-sm');
+});
+
+test('parseCarouselQuotes returns [] when no block present', () => {
+  const fm = 'title: Foo\ncategories:\n  - reading\n';
+  assert.deepStrictEqual(parseCarouselQuotes(fm), []);
+});
+
+test('parseCarouselQuotes returns quotes with surrounding quotes stripped', () => {
+  const fm = [
+    'title: Foo',
+    'instagram carousel:',
+    '  - "First quote here"',
+    '  - "Second quote"',
+    'categories:',
+    '  - reading',
+  ].join('\n');
+  assert.deepStrictEqual(parseCarouselQuotes(fm), [
+    'First quote here',
+    'Second quote',
+  ]);
+});
+
+test('parseCarouselQuotes stops at the next top-level key', () => {
+  const fm = [
+    'instagram carousel:',
+    '  - "Only quote"',
+    'tags:',
+    '  - foo',
+  ].join('\n');
+  assert.deepStrictEqual(parseCarouselQuotes(fm), ['Only quote']);
+});
+
+test('parseCarouselQuotes handles unquoted items', () => {
+  const fm = [
+    'instagram carousel:',
+    '  - Plain text quote',
+    '  - Another plain one',
+  ].join('\n');
+  assert.deepStrictEqual(parseCarouselQuotes(fm), [
+    'Plain text quote',
+    'Another plain one',
+  ]);
+});
+
+test('parseCarouselQuotes skips blank lines within the block', () => {
+  const fm = [
+    'instagram carousel:',
+    '  - "First"',
+    '',
+    '  - "Second"',
+    'categories:',
+  ].join('\n');
+  assert.deepStrictEqual(parseCarouselQuotes(fm), ['First', 'Second']);
 });
 
 test('buildLinkMap lists every frame, its png, link, and the in-app reminder', () => {

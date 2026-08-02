@@ -5,6 +5,8 @@ themes/
 content/
 
 .DS_Store
+.env
+.env.*
 node_modules/
 output/
 unneeded/
