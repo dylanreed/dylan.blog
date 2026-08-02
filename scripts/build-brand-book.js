@@ -6,6 +6,18 @@ const path = require('node:path');
 
 const TOKENS_PATH = path.resolve(__dirname, '..', 'brand', 'tokens.json');
 const OUTPUT_PATH = path.resolve(__dirname, '..', 'docs', 'BRAND-BOOK.md');
+const HTML_OUTPUT_PATH = path.resolve(__dirname, '..', 'docs', 'brand-book.html');
+
+// Art lives beside the repo root; the preview sits in docs/, hence the climb.
+function artPath(kind, file) {
+  return `../theme-pixel-art/static/${kind}/${encodeURIComponent(file)}`;
+}
+
+function esc(s) {
+  return String(s)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
 
 function loadTokens(file = TOKENS_PATH) {
   return JSON.parse(fs.readFileSync(file, 'utf8'));
@@ -160,13 +172,440 @@ ${shelfTagList(tokens)}
 `;
 }
 
+// ---------- html preview ----------
+
+function webfontHref(tokens) {
+  const families = new Set();
+  for (const mode of Object.values(tokens.modes)) {
+    for (const f of Object.values(mode.type || {})) families.add(f);
+  }
+  for (const f of Object.values(tokens.type.base)) families.add(f);
+  const q = [...families].sort().map(f => `family=${f.replace(/ /g, '+')}`).join('&');
+  return `https://fonts.googleapis.com/css2?${q}&display=swap`;
+}
+
+function modeSwitcher(tokens) {
+  return Object.entries(tokens.modes)
+    .sort((a, b) => (b[1].cssRules || 0) - (a[1].cssRules || 0))
+    .map(([name, m]) =>
+      `<button class="mode-btn" data-mode="${esc(name)}" data-status="${esc(m.status)}">` +
+      `<span class="mode-btn__name">${esc(name)}</span>` +
+      `<span class="mode-btn__rules">${m.cssRules}</span></button>`)
+    .join('\n      ');
+}
+
+function typeSpecimens(tokens) {
+  return Object.entries(tokens.modes).map(([name, m]) => {
+    const t = m.type || {};
+    const roles = Object.entries(t);
+    if (!roles.length) {
+      return `<article class="spec spec--empty" data-for="${esc(name)}">
+        <h3>${esc(name)}</h3>
+        <p class="spec__none">No type assigned. This mode has ${m.cssRules} CSS rules.</p>
+      </article>`;
+    }
+    const lines = roles.map(([role, family]) =>
+      `<div class="spec__line">
+         <span class="spec__role">${esc(role)}</span>
+         <span class="spec__sample" style="font-family:'${esc(family)}',serif">Damsels and Dinosaurs</span>
+         <span class="spec__family">${esc(family)}</span>
+       </div>`).join('');
+    return `<article class="spec" data-for="${esc(name)}"><h3>${esc(name)}</h3>${lines}</article>`;
+  }).join('\n');
+}
+
+function swatchRow(palette) {
+  const entries = Object.entries(palette || {}).filter(([, v]) => /^#[0-9a-fA-F]{3,8}$/.test(v));
+  if (!entries.length) return '<p class="swatches__none">No palette recorded.</p>';
+  return `<div class="swatches">` + entries.map(([n, hex]) =>
+    `<div class="swatch"><span class="swatch__chip" style="background:${esc(hex)}"></span>` +
+    `<span class="swatch__name">${esc(n)}</span><code>${esc(hex)}</code></div>`).join('') + `</div>`;
+}
+
+function modeCards(tokens) {
+  return Object.entries(tokens.modes)
+    .sort((a, b) => (b[1].cssRules || 0) - (a[1].cssRules || 0))
+    .map(([name, m]) => `
+      <article class="mode-card mode-card--${esc(m.status)}">
+        <header class="mode-card__head">
+          <h3>${esc(name)}</h3>
+          <span class="tag tag--${esc(m.status)}">${esc(m.status)}</span>
+          <span class="mode-card__rules">${m.cssRules} rules</span>
+        </header>
+        ${m.note ? `<p class="mode-card__note">${esc(m.note)}</p>` : ''}
+        ${swatchRow(m.palette)}
+      </article>`).join('\n');
+}
+
+function categoryCards(tokens) {
+  return Object.entries(tokens.categories).map(([name, c]) => `
+      <article class="cat" style="--glow:${esc(c.glow)}">
+        <div class="cat__art">
+          <img class="cat__header" src="${artPath('headers', c.header)}" alt="${esc(name)} header art">
+          <img class="cat__sprite" src="${artPath('sprites', c.sprite)}" alt="${esc(name)} sprite">
+        </div>
+        <div class="cat__meta">
+          <h3>${esc(name)}</h3>
+          <code class="cat__glow">${esc(c.glow)}</code>
+          <p>${esc(c.use)}</p>
+          <p class="cat__files"><span>${esc(c.header)}</span><span>${esc(c.sprite)}</span></p>
+        </div>
+      </article>`).join('\n');
+}
+
+function socialCards(tokens) {
+  return Object.entries(tokens.social).map(([name, s]) => {
+    const ratio = s.width / s.height;
+    return `
+      <article class="surface">
+        <div class="surface__frame" style="aspect-ratio:${ratio}"><span>${s.width}<br>×<br>${s.height}</span></div>
+        <h3>${esc(name)}</h3>
+        <p>${esc(s.use)}</p>
+        <code>${esc(s.template)}</code>
+      </article>`;
+  }).join('\n');
+}
+
+function renderBrandBookHtml(tokens) {
+  const id = tokens.identity;
+  const bar = tokens.reviewCard.enjoymentBar;
+  const modeData = JSON.stringify(Object.fromEntries(
+    Object.entries(tokens.modes).map(([n, m]) => [n, {
+      status: m.status,
+      accent: Object.values(m.palette || {}).find(v => /^#[0-9a-fA-F]{6}$/.test(v)) || null,
+      palette: Object.values(m.palette || {}).filter(v => /^#[0-9a-fA-F]{6}$/.test(v)),
+      display: (m.type || {}).display || null,
+      body: (m.type || {}).body || null,
+      note: m.note || null,
+    }])));
+
+  const shelfTags = Object.entries(tokens.reviewCard.shelfTags)
+    .filter(([k]) => !k.startsWith('$'))
+    .map(([tag, meaning]) =>
+      `<li><span class="shelf">${esc(tag.toUpperCase().replace(/-/g, '‑'))}</span>${esc(meaning)}</li>`)
+    .join('\n');
+
+  const orphans = Object.entries(tokens.orphanedArt)
+    .filter(([k]) => !k.startsWith('$'))
+    .map(([file, why]) => `<li><code>${esc(file)}</code> — ${esc(why)}</li>`).join('\n');
+
+  return `<!DOCTYPE html>
+<!-- GENERATED FILE — do not edit by hand. Source: brand/tokens.json · Regenerate: npm run brandbook -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>${esc(id.name)} — Brand Book</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="${webfontHref(tokens)}" rel="stylesheet">
+<style>
+  :root{
+    --ink:#16121c; --ink-2:#1e1826; --ink-3:#241d2e;
+    --parchment:#f5e6d3; --muted:rgba(245,230,211,.58);
+    --accent:${esc(tokens.categories.reading.glow)};
+    --display:'${esc(tokens.type.base.display)}'; --body:'${esc(tokens.type.base.body)}';
+    --rule:1px solid rgba(245,230,211,.14);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--ink); color:var(--parchment);
+    font-family:var(--body),Georgia,serif; line-height:1.62;
+    padding-top:70px;
+    transition:background .5s ease;
+  }
+  img{image-rendering:pixelated}
+  code{font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:.86em}
+
+  /* ---- Sierra control panel: the mode switcher ---- */
+  .panel{
+    position:fixed;top:0;left:0;right:0;z-index:50;
+    background:linear-gradient(180deg,var(--ink-3),var(--ink-2));
+    border-bottom:2px solid var(--accent);
+    display:flex;align-items:center;gap:18px;
+    padding:9px 20px;overflow-x:auto;
+    transition:border-color .4s ease;
+  }
+  .panel__label{
+    font-family:var(--display),cursive;font-size:15px;letter-spacing:2px;
+    color:var(--muted);white-space:nowrap;
+  }
+  .mode-btn{
+    display:flex;align-items:baseline;gap:8px;flex-shrink:0;
+    background:var(--ink);color:var(--parchment);
+    border:2px solid rgba(245,230,211,.2);
+    border-radius:2px;padding:5px 12px;cursor:pointer;
+    font-family:var(--body),serif;font-size:14px;
+    transition:border-color .18s,background .18s,transform .12s;
+  }
+  .mode-btn:hover{border-color:var(--accent);transform:translateY(-1px)}
+  .mode-btn:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+  .mode-btn[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--ink);font-weight:600}
+  .mode-btn__rules{font-size:11px;opacity:.65;font-variant-numeric:tabular-nums}
+  .mode-btn[data-status="stub"] .mode-btn__name::after{content:" ⚠"}
+
+  /* ---- shell ---- */
+  .wrap{max-width:1120px;margin:0 auto;padding:0 24px 120px}
+  section{padding:64px 0;border-top:var(--rule)}
+  section:first-of-type{border-top:0}
+  h2{
+    font-family:var(--display),cursive;font-size:clamp(26px,3.4vw,38px);
+    color:var(--accent);margin-bottom:6px;transition:color .4s ease;
+  }
+  .lede{color:var(--muted);max-width:62ch;margin-bottom:34px}
+  h3{font-family:var(--display),cursive;font-size:21px;font-weight:400}
+
+  /* ---- hero ---- */
+  .hero{padding:72px 0 56px}
+  .hero__eyebrow{
+    font-family:ui-monospace,monospace;font-size:12px;letter-spacing:4px;
+    text-transform:uppercase;color:var(--accent);margin-bottom:14px;
+    transition:color .4s ease;
+  }
+  .hero h1{
+    font-family:var(--display),cursive;font-weight:400;
+    font-size:clamp(44px,7vw,86px);line-height:1.02;margin-bottom:18px;
+  }
+  .hero__premise{font-size:clamp(18px,2.2vw,23px);max-width:34ch;color:var(--parchment)}
+  .hero__meta{margin-top:28px;display:flex;flex-wrap:wrap;gap:10px 26px;color:var(--muted);font-size:14px}
+  .warn{
+    margin-top:26px;padding:14px 18px;border-left:4px solid #e0704a;
+    background:rgba(224,112,74,.09);color:var(--parchment);max-width:64ch;
+  }
+  .warn[hidden]{display:none}
+
+  /* ---- type specimens ---- */
+  .specs{display:grid;gap:14px}
+  .spec{background:var(--ink-2);border:var(--rule);padding:20px 22px}
+  .spec h3{color:var(--accent);margin-bottom:12px;transition:color .4s ease}
+  .spec__line{display:grid;grid-template-columns:76px 1fr auto;gap:16px;align-items:baseline;padding:7px 0;border-top:var(--rule)}
+  .spec__line:first-of-type{border-top:0}
+  .spec__role{font-family:ui-monospace,monospace;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted)}
+  .spec__sample{font-size:26px;line-height:1.25}
+  .spec__family{font-size:12px;color:var(--muted);white-space:nowrap}
+  .spec--empty .spec__none{color:#e0704a;font-size:14px}
+
+  /* ---- mode cards ---- */
+  .modes{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:14px}
+  .mode-card{background:var(--ink-2);border:var(--rule);padding:20px 22px}
+  .mode-card--stub{border-color:rgba(224,112,74,.5)}
+  .mode-card__head{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:10px}
+  .mode-card__rules{margin-left:auto;font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+  .mode-card__note{font-size:14px;color:var(--muted);margin-bottom:14px}
+  .tag{font-family:ui-monospace,monospace;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;padding:3px 8px;border:1px solid currentColor}
+  .tag--built{color:#7de2a3}
+  .tag--base{color:var(--accent)}
+  .tag--variables{color:#6cd9e8}
+  .tag--stub{color:#e0704a}
+  .swatches{display:flex;flex-wrap:wrap;gap:10px}
+  .swatch{display:flex;align-items:center;gap:7px;font-size:12px;color:var(--muted)}
+  .swatch__chip{width:26px;height:26px;border:1px solid rgba(245,230,211,.28);flex-shrink:0}
+  .swatch__name{opacity:.85}
+  .swatches__none{color:#e0704a;font-size:14px}
+
+  /* ---- categories ---- */
+  .cats{display:grid;grid-template-columns:repeat(auto-fill,minmax(268px,1fr));gap:14px}
+  .cat{background:var(--ink-2);border:var(--rule);border-bottom:3px solid var(--glow);display:flex;flex-direction:column}
+  .cat__art{position:relative;background:var(--ink-3);height:112px;overflow:hidden;display:flex;align-items:center;justify-content:center}
+  .cat__header{width:100%;height:100%;object-fit:cover;opacity:.55}
+  .cat__sprite{position:absolute;bottom:8px;left:10px;width:52px;height:52px;object-fit:contain;filter:drop-shadow(0 0 9px var(--glow))}
+  .cat__meta{padding:15px 17px;flex:1;display:flex;flex-direction:column;gap:5px}
+  .cat__meta h3{color:var(--glow)}
+  .cat__glow{align-self:flex-start;color:var(--glow)}
+  .cat__meta p{font-size:13.5px;color:var(--muted)}
+  .cat__files{display:flex;flex-direction:column;gap:1px;margin-top:auto;padding-top:9px;font-family:ui-monospace,monospace;font-size:10.5px;opacity:.5}
+
+  /* ---- social surfaces ---- */
+  .surfaces{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:16px;align-items:end}
+  .surface__frame{
+    width:100%;max-width:190px;border:2px dashed rgba(245,230,211,.3);
+    display:flex;align-items:center;justify-content:center;margin-bottom:12px;
+    font-family:ui-monospace,monospace;font-size:12px;color:var(--muted);text-align:center;line-height:1.35;
+  }
+  .surface h3{margin-bottom:4px}
+  .surface p{font-size:13px;color:var(--muted);margin-bottom:5px}
+  .surface code{font-size:11px;opacity:.6;word-break:break-all}
+
+  /* ---- review card ---- */
+  .review{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:34px;align-items:start}
+  @media (max-width:820px){.review{grid-template-columns:1fr}}
+  .bar-demo{background:var(--ink-2);border:var(--rule);padding:26px}
+  .bar-row{display:flex;align-items:center;gap:15px;margin-bottom:9px}
+  .bar-label{font-family:var(--display),cursive;font-size:19px;white-space:nowrap}
+  .bar-track{flex:1;min-width:0;height:30px;background:${esc(bar.well)};border:2px solid ${esc(bar.trough)};padding:3px}
+  .bar-fill{
+    display:block;height:100%;
+    background-image:linear-gradient(${bar.stripeAngle}deg,
+      ${esc(bar.fill)} 25%,transparent 25%,transparent 50%,
+      ${esc(bar.fill)} 50%,${esc(bar.fill)} 75%,transparent 75%);
+    background-size:${bar.tileSize}px ${bar.tileSize}px;
+    background-color:${esc(bar.trough)};
+    animation:barber ${esc(bar.animation.duration)} ${esc(bar.animation.timing)} infinite;
+  }
+  @keyframes barber{to{background-position:${bar.tileSize}px 0}}
+  .bar-state{font-family:ui-monospace,monospace;font-size:12px;letter-spacing:1.5px}
+  .bar-state--done{color:#7de2a3}
+  .bar-state--lost{color:#e0704a}
+  .rule-note{margin-top:22px;padding:15px 18px;border-left:4px solid var(--accent);background:rgba(128,96,192,.1);font-size:14.5px;transition:border-color .4s ease}
+  .shelf-list{list-style:none;display:grid;gap:11px}
+  .shelf-list li{display:flex;align-items:center;gap:13px;font-size:14.5px;color:var(--muted)}
+  .shelf{
+    font-family:ui-monospace,monospace;font-size:11px;letter-spacing:2px;
+    border:2px solid var(--accent);color:var(--accent);padding:4px 10px;white-space:nowrap;
+    transition:border-color .4s ease,color .4s ease;
+  }
+  .orphans{list-style:none;display:grid;gap:9px;font-size:14px;color:var(--muted)}
+  .orphans li{padding-left:20px;position:relative}
+  .orphans li::before{content:"⌫";position:absolute;left:0;color:#e0704a}
+
+  .foot{padding-top:44px;border-top:var(--rule);font-size:13px;color:var(--muted)}
+
+  @media (prefers-reduced-motion:reduce){
+    *,*::before,*::after{animation:none!important;transition:none!important}
+    html{scroll-behavior:auto}
+  }
+</style>
+</head>
+<body>
+
+<nav class="panel" aria-label="Preview mode">
+  <span class="panel__label">SKIN</span>
+  ${modeSwitcher(tokens)}
+</nav>
+
+<div class="wrap">
+
+  <header class="hero">
+    <p class="hero__eyebrow">Brand book · generated from brand/tokens.json</p>
+    <h1>${esc(id.name)}</h1>
+    <p class="hero__premise">${esc(id.premise)}</p>
+    <div class="hero__meta">
+      <span>Hosted on ${esc(id.host)}</span>
+      <span>Theme: <code>${esc(id.themeRepo)}</code></span>
+      <span>Wordmark: “${esc(id.wordmark)}”</span>
+    </div>
+    <p class="warn" id="stub-warning" hidden></p>
+  </header>
+
+  <section>
+    <h2>Type</h2>
+    <p class="lede">The blog does not have one typeface, and that is deliberate — each mode carries its own typographic personality. The base supplies the fallback everything else inherits.</p>
+    <div class="specs">
+      ${typeSpecimens(tokens)}
+    </div>
+  </section>
+
+  <section>
+    <h2>Modes</h2>
+    <p class="lede">Switch skins in the panel above. The two stubs will barely change anything — that is the finding, not a rendering bug.</p>
+    <div class="modes">
+      ${modeCards(tokens)}
+    </div>
+  </section>
+
+  <section>
+    <h2>Categories</h2>
+    <p class="lede">The category drives the header art, the sprite and the accent glow on every share image. This is the only category list; anything that disagrees with it is wrong.</p>
+    <div class="cats">
+      ${categoryCards(tokens)}
+    </div>
+    <h3 style="margin:38px 0 12px">Orphaned art</h3>
+    <ul class="orphans">
+      ${orphans}
+    </ul>
+  </section>
+
+  <section>
+    <h2>Social surfaces</h2>
+    <p class="lede">Every share image the blog produces, drawn to relative scale.</p>
+    <div class="surfaces">
+      ${socialCards(tokens)}
+    </div>
+  </section>
+
+  <section>
+    <h2>The book review card</h2>
+    <p class="lede">Reviews come in two depths — a shelf talker (250–400 words) and a full review (800–1200) — and both carry the same card.</p>
+    <div class="review">
+      <div>
+        <div class="bar-demo">
+          <div class="bar-row">
+            <span class="bar-label">ENJOYMENT...</span>
+            <span class="bar-track"><span class="bar-fill" style="width:100%"></span></span>
+            <span class="bar-state bar-state--done">${esc(bar.labelStates.complete)}</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">ENJOYMENT...</span>
+            <span class="bar-track"><span class="bar-fill" style="width:72%"></span></span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-label">ENJOYMENT...</span>
+            <span class="bar-track"><span class="bar-fill" style="width:34%"></span></span>
+            <span class="bar-state bar-state--lost">${esc(bar.labelStates.dnf.replace('{n}', '34'))}</span>
+          </div>
+        </div>
+        <p class="rule-note"><strong>Never print a percentage on the enjoyment bar.</strong> ${esc(bar.numberNote)}</p>
+      </div>
+      <div>
+        <h3 style="margin-bottom:8px">Shelf tags</h3>
+        <p class="lede" style="margin-bottom:20px">${esc(tokens.reviewCard.shelfTags.$note)}</p>
+        <ul class="shelf-list">
+          ${shelfTags}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <p class="foot">Generated from <code>brand/tokens.json</code> by <code>npm run brandbook</code>. Edit the tokens, never this file.</p>
+</div>
+
+<script>
+  const MODES = ${modeData};
+  const root = document.documentElement;
+  const warn = document.getElementById('stub-warning');
+  const buttons = [...document.querySelectorAll('.mode-btn')];
+
+  function apply(name){
+    const m = MODES[name];
+    if(!m) return;
+    root.style.setProperty('--accent', m.accent || '${esc(tokens.categories.reading.glow)}');
+    root.style.setProperty('--display', m.display ? "'"+m.display+"'" : "'${esc(tokens.type.base.display)}'");
+    root.style.setProperty('--body', m.body ? "'"+m.body+"'" : "'${esc(tokens.type.base.body)}'");
+    buttons.forEach(b => b.setAttribute('aria-pressed', String(b.dataset.mode === name)));
+
+    if(m.status === 'stub'){
+      warn.textContent = name + ' is a stub. ' + (m.note || '') +
+        ' Nothing on this page changed because there is nothing to change.';
+      warn.hidden = false;
+    } else {
+      warn.hidden = true;
+    }
+    try{ localStorage.setItem('brandbook-mode', name); }catch(e){}
+  }
+
+  buttons.forEach(b => b.addEventListener('click', () => apply(b.dataset.mode)));
+
+  let start = 'fantasy';
+  try{ start = localStorage.getItem('brandbook-mode') || start; }catch(e){}
+  apply(MODES[start] ? start : 'fantasy');
+</script>
+</body>
+</html>
+`;
+}
+
 function main() {
   const tokens = loadTokens();
   fs.mkdirSync(path.dirname(OUTPUT_PATH), { recursive: true });
   fs.writeFileSync(OUTPUT_PATH, renderBrandBook(tokens));
+  fs.writeFileSync(HTML_OUTPUT_PATH, renderBrandBookHtml(tokens));
   console.log(`Wrote ${path.relative(process.cwd(), OUTPUT_PATH)}`);
+  console.log(`Wrote ${path.relative(process.cwd(), HTML_OUTPUT_PATH)}`);
 }
 
 if (require.main === module) main();
 
-module.exports = { loadTokens, renderBrandBook, modeTable, categoryTable, socialTable };
+module.exports = {
+  loadTokens, renderBrandBook, renderBrandBookHtml,
+  modeTable, categoryTable, socialTable, artPath,
+};
