@@ -174,3 +174,40 @@ test("buildMicropubBody omits empty optional fields", () => {
   assert.strictEqual(params.has("mp-destination"), false);
   assert.strictEqual(params.get("post-status"), "published");
 });
+
+// ---------- raw-HTML images (the book review card ships in a <figure>) ----------
+
+test('findLocalImages sees images inside raw HTML, not just markdown', () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'mb-html-'));
+  const img = path.join(dir, 'card.png');
+  fs.writeFileSync(img, 'x');
+  const body = `<figure class="review-card">\n  <img src="card.png" alt="Review card">\n</figure>\n\nSome prose.`;
+  const found = findLocalImages(body, dir);
+  assert.deepStrictEqual(found.map((f) => f.url), ['card.png']);
+  fs.rmSync(dir, { recursive: true, force: true });
+});
+
+test('findLocalImages still finds markdown images alongside HTML ones', () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'mb-both-'));
+  fs.writeFileSync(path.join(dir, 'a.png'), 'x');
+  fs.writeFileSync(path.join(dir, 'b.png'), 'x');
+  const body = `<img src="a.png" alt="">\n\n![alt](b.png)`;
+  assert.deepStrictEqual(findLocalImages(body, dir).map((f) => f.url).sort(), ['a.png', 'b.png']);
+  fs.rmSync(dir, { recursive: true, force: true });
+});
+
+test('findUnresolvedPlaceholders catches an IMAGE_URL left in raw HTML', () => {
+  assert.deepStrictEqual(findUnresolvedPlaceholders('<img src="IMAGE_URL" alt="">'), ['IMAGE_URL']);
+});
+
+test('replaceImageUrl rewrites an HTML src', () => {
+  const out = replaceImageUrl('<img src="card.png" alt="x">', 'card.png', 'https://cdn/card.png');
+  assert.match(out, /src="https:\/\/cdn\/card\.png"/);
+});
+
+test('hosted URLs in HTML are left alone', () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'mb-hosted-'));
+  const body = '<img src="https://images.example.com/cover.jpg" alt="">';
+  assert.deepStrictEqual(findLocalImages(body, dir), []);
+  fs.rmSync(dir, { recursive: true, force: true });
+});

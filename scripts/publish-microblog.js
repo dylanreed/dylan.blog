@@ -52,8 +52,9 @@ function parseFrontmatter(markdown) {
 // URL from the image regex's capture group so alt-text parens like "(PROBABLY)"
 // are never mistaken for a URL.
 function findUnresolvedPlaceholders(content) {
-  return [...content.matchAll(/!\[[^\]]*\]\(([^)]+)\)/g)]
-    .map((m) => m[1])
+  const re = new RegExp(IMAGE_REF_RE.source, IMAGE_REF_RE.flags);
+  return [...content.matchAll(re)]
+    .map((m) => (m[1] || m[2]).trim())
     .filter((u) => /^[A-Z][A-Z0-9_]*$/.test(u));
 }
 
@@ -74,10 +75,10 @@ function isUploadableImagePath(url) {
 
 function replaceImageUrl(body, oldUrl, newUrl) {
   const esc = oldUrl.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  return body.replace(
-    new RegExp("(!\\[[^\\]]*\\]\\()" + esc + "(\\))", "g"),
-    "$1" + newUrl + "$2"
-  );
+  return body
+    .replace(new RegExp("(!\\[[^\\]]*\\]\\()" + esc + "(\\))", "g"), "$1" + newUrl + "$2")
+    .replace(new RegExp('(<img\\b[^>]*?\\ssrc=")' + esc + '(")', "gi"), "$1" + newUrl + "$2")
+    .replace(new RegExp("(<img\\b[^>]*?\\ssrc=')" + esc + "(')", "gi"), "$1" + newUrl + "$2");
 }
 
 // Replace the URL of the first ALL_CAPS placeholder image (e.g. IMAGE_URL),
@@ -89,13 +90,18 @@ function fillFirstImagePlaceholder(body, newUrl) {
 }
 
 // Find markdown images whose URL points at an existing local file.
+// Matches both markdown `![alt](url)` and raw-HTML `<img src="url">`. The book
+// review card ships inside a <figure> so the theme can float it, so HTML-only
+// images are normal here — missing them would silently publish a broken image.
+const IMAGE_REF_RE = /!\[[^\]]*\]\(([^)]+)\)|<img\b[^>]*?\ssrc=["']([^"']+)["'][^>]*>/gi;
+
 function findLocalImages(body, baseDir) {
-  const re = /!\[[^\]]*\]\(([^)]+)\)/g;
+  const re = new RegExp(IMAGE_REF_RE.source, IMAGE_REF_RE.flags);
   const found = [];
   const seen = new Set();
   let m;
   while ((m = re.exec(body)) !== null) {
-    const url = m[1].trim();
+    const url = (m[1] || m[2]).trim();
     if (seen.has(url) || !isUploadableImagePath(url)) continue;
     const absPath = path.resolve(baseDir, url);
     if (fs.existsSync(absPath) && fs.statSync(absPath).isFile()) {
